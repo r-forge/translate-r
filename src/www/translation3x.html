@@ -1,0 +1,396 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <title>Translating R Messages and Manuals, R >= 3.0.0</title>
+</head>
+<body>
+<h1 align="center">Translating R Messages and Manuals, R >= 3.0.0</h1>
+<h3 align="center">UNDER THE CONSTUCTION NOW</h3>
+<p>edited by Chel Hee Lee.</p>
+
+<!--
+R supports the translation of its messages, including error and
+warning messages and menu labels.  This document is intended for
+<a href="TranslationTeams.html">translation teams</a> but starts
+with a user's view of the process extracted from the <em>R
+Installation and Administration Manual</em>.
+
+<p> These instructions apply to R 3.x.
+
+<p>The MacOS X GUI also has translatable messages: see the separate
+section at the end of this document.
+
+<h2>Message Domains</h2>
+
+<p>Messages are divided into <em>domains</em>, and translations may
+be available for some or all messages in a domain.  R makes use of the
+following domains.
+
+<ul>
+<li>Domain <code>R</code> for C-level error and warning messages from
+  the R interpreter.
+
+<li>Domain <code>R-</code><var>pkg</var> for the R <code>stop</code>
+and <code>warning</code> messages in each package, including
+<code>R-base</code> for the <code>base</code> package.
+
+<li>Domain <var>pkg</var> for the C-level messages in each package.
+
+<li>Domain <code>RGui</code> for the menus etc of the R for Windows
+GUI front-end.
+
+</ul>
+
+<p>Dividing up the messages in this way allows R to be extensible: as
+packages are loaded, their message translation catalogues can be loaded
+too.
+
+<p> Domains <code>R</code> and <code>RGui</code> are part of
+  the <code>base</code> package, as well as <code>R-base</code> for
+  the interpreted code in that package.
+
+<p>Translations are looked for by domain according to the currently
+specified language, as specifically as possible, so for example an
+Austrian (<code>de_AT</code>) translation catalogue will be used in
+preference to a generic German one (<code>de</code>) for an Austrian
+user.  However, if a specific translation catalogue exists but does
+not contain a translation, the less specific catalogues are consulted.
+For example, R has catalogues for <code>en_GB</code> that translate
+the Americanisms (e.g. <code>gray</code>) in the standard messages
+into English.
+
+<p>Translations in the right language but the wrong charset can
+generally be made use of by on-the-fly re-encoding.  The
+<code>LANGUAGE</code> variable can be a colon-separated list, for
+example <code>se:de</code>, giving a set of languages in decreasing
+order of preference.
+
+<p>If no suitable translation catalogue is found or a particular
+message is not translated in the selected catalogue, English is used.
+
+The translated catalogues are stored as binary files with extension
+<code>.mo</code> in the <code>translations</code> package.  That
+package contains one directory for each language.  Each language
+directory has a single subdirectory <code>LC_MESSAGES</code>, and
+within that a file for each domain. So the Japanese translations are
+installed in the directory
+<pre>
+library/translations/ja/LC_MESSAGES
+</pre>
+which currently contains a <code>.mo</code> file for each of 22 domains.
+
+<p>
+(The `language' <code>en@quot</code> is English with Unicode
+bidirectional quotation marks for use in a UTF-8 locale.)
+
+<p>
+The code migration in R 3.0.0 means that
+packages <code>graphics</code> and <code>utils</code> now have C code
+(and messages which need translation).  You may find that some of the
+messages were previously translated and can be found at the bottom of
+the <code>R</code> and <code>R-base</code> catalogues: see the use of
+compendia below for how to get these copied across.
+
+<h2>Translation prerequisites</h2>
+
+You need GNU <code>gettext</code> installed: specifically
+<code>gettext-tools</code> if your system differentiates it from
+<code>gettext-runtime</code>.  (Linux users will not need the
+development RPM.)  The <code>gettext</code> manual is the best
+reference source.  Command-line 32-bit Windows versions of the tools
+are available from <a href="http://www.stats.ox.ac.uk/pub/Rtools/goodies/gettext-tools.zip"><tt>www.stats.ox.ac.uk/pub/Rtools/goodies</tt></a>.
+
+Emacs users can use PO mode to help with managing translations: this
+is described in the <code>gettext</code> manual.
+
+<p>There are some Linux-alike tools developed for the
+<a
+href="http://i18n.kde.org/translation-howto/gui-specialized-apps.html">KDE</a>
+project, notably <code>KBabel</code>.
+
+<p>Windows users can find pre-compiled versions
+of <code>gettext</code> at any mirror of the GNU archive.
+The <code>poEdit</code> editor is recommended by
+the <a href="http://fedora.redhat.com/participate/translation-windows/s1-poedit.html">Fedora
+    translators</a>, and comes with the <code>gettext</code> tools needed.
+
+
+<h2>Preparing and installing a translation</h2>
+
+Suppose you wanted to prepare a Slovenian translation for the
+<code>splines</code> package.  The ISO 639 code for Slovenian is
+<code>sl</code>.  Go to the <code>src/library/splines/po</code>
+directory and run (preferably in a Slovenian locale)
+<pre>
+    msginit -i R-splines.pot -o R-sl.po
+    msginit -i splines.pot -o sl.po
+</pre>
+If this does not work for you, just copy the files to the names given
+and fill in the header.
+
+<p>Now check over the header entries and fill in the
+<code>msgstr</code> entries in these files.  The originals will look
+like
+<pre>
+  # Slovenian translations for R package
+  # Slovenski prevodi paketa R.
+  # Copyright (C) 2005 THE R'S COPYRIGHT HOLDER
+  # This file is distributed under the same license as the R package.
+  # Prof Brian Ripley &lt;ripley@stats.ox.ac.uk&gt;, 2005.
+  #
+  msgid ""
+  msgstr ""
+  "Project-Id-Version: R 2.1.0\n"
+  "Report-Msgid-Bugs-To: bugs@r-project.org\n"
+  "POT-Creation-Date: 2005-01-25 17:26+0000\n"
+  "PO-Revision-Date: 2005-02-04 08:37+0000\n"
+  "Last-Translator: Prof Brian Ripley &lt;ripley@stats.ox.ac.uk&gt;\n"
+  "Language-Team: Slovenian\n"
+  "MIME-Version: 1.0\n"
+  "Content-Type: text/plain; charset=ISO-8859-2\n"
+  "Content-Transfer-Encoding: 8bit\n"
+  "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+  "%100==4 ? 2 : 3);\n"
+
+  #: splines.c:154
+  msgid "'ord' must be a positive integer"
+  msgstr ""
+</pre>
+If you leave a translation as <code>""</code> the untranslated message
+(<code>msgid</code>) will be used.
+
+<p>
+Some messages have plural forms, e.g.
+<pre>
+  msgid        "Warning message:\n"
+  msgid_plural "Warning messages:\n"
+  msgstr[0]    ""
+  msgstr[1]    ""
+</pre>
+The <code>Plural-Forms:</code> line tells you what these mean: in
+languages with just singular and one plural, the first is singular and
+the second is plural.  For languages without plurals, just give one
+line starting <code>msgstr[0]</code>.  Slovenian would need four lines.
+
+<p>Then compile and install the translated catalogues by
+<pre>
+    mkdir ${R_HOME}/library/translations/sl/LC_MESSAGES
+    msgfmt -c --statistics -o ${R_HOME}/library/translations/sl/LC_MESSAGES/R-splines.mo R-sl.po
+    msgfmt -c --statistics -o ${R_HOME}/library/translations/sl/LC_MESSAGES/splines.mo sl.po
+</pre>
+and when you next install R the translations will be ready for use.
+Using <code>-c</code> enables a number of consistency checks that have
+proven useful.  Using <code>--statistics</code> gives some details of
+the coverage of the translations.
+
+<p>
+The process is the same for any other package,
+including <code>base</code> (which contains 3 rather than 2 domains).
+
+<p> Translators can choose any suitable encoding, but for
+<code>RGui-ll.po</code> it is best to use the native encoding for the
+language on Windows.  Otherwise, if possible choose an encoding that
+the development team will be able to run your language in as a Linux
+locale: UTF-8 is their first choice.
+
+<p> Translators may find it useful to consult the <a
+href="http://www.cbs.nl/isi/glossary/">ISI glossary of statistical
+terms</a>.
+
+<h3>Compendia</h3>
+
+Sometimes you will encounter a translation you know you have done for
+a different domain (which sometimes happens as code is migrated).
+Then the <em>compendium</em> facility of <code>msgmerge</code> can be
+very useful.  First delete any <code>fuzzy</code> translation which
+has been generated, then use e.g.
+<pre>
+    msgmerge --update ll.po stats.pot -C other.po
+</pre>
+where the final <code>.po</code> file is used to pick up existing
+translations (even those not in use there).  More than one compendium file
+can be supplied.
+
+<h3>C-like format strings</h3>
+
+Some messages contain C-like format strings such as <code>"%s"</code> for
+use either by <code>gettextf</code> in R or by the C-level <code>error</code>
+functions.
+
+<p>
+It is important that these match exactly in the <code>msgid</code>
+and <code>msgstr</code> lines: mismatches can cause R to crash or nonsense
+to be output.
+
+<p> 
+The function <code>checkPoFiles</code> in
+package <code>tools</code> implements a check: please make use of it
+before finalizing your translations.  (It is run as part of the
+installation procedure for translations: see the next sub-section.)
+
+<h3>Installing all translations</h3>
+
+If you are working within a copy of the R sources you can do
+<pre>
+cd po
+make update-pkg-po update-RGui
+</pre>
+(On Windows, use <code>make -f Makefile.win</code>: it skips
+the <code>en@auot</code> translations.) This will update the
+translations for all languages, check them
+with <code>tools::checkPoFiles</code>, compile all those which pass
+the checks and install the translations in
+the <code>translations</code> package.  The latter can then be copied
+to an R installation to test the new translations.
+
+<p>
+This can be done on a per-package
+basis <em>via</em> <code>tools::update_pkg_po</code>. (This does work
+on Windows but skips the <code>en@auot</code> translations when not in
+a UTF-8 locales.)
+
+<h2>Submitting a translation</h2>
+
+To submit a translation for inclusion in the R sources please make a
+<code>tar</code> with all the source files you added, perhaps by (untested)
+<pre>
+    tar zcvf sl-po.tar.gz src/library/*/po/*sl.po
+</pre>
+and send it to the R core team.  It does not help to submit
+the <code>.mo</code> files!
+
+<p> Sending single files <em>via</em> email has caused a lot of
+  corruption in the past.  To be safe, send a binary attachment
+  as <code>.tar.gz</code> or <code>.zip</code> file.
+
+<p>
+Translations of messages in recommended packages should be sent to
+their maintainers.
+
+<hr>
+
+<h2>The MacOS X GUI</h2>
+
+The MacOS X Cocoa GUI currently uses Apple's Cocoa localization
+framework which is different from the gettext approach used by R, but
+still very similar from translator's point of view. In the following
+we will assume that the translation is done on a machine running Mac
+OS X with Apple Developer Tools installed and the Mac-GUI project
+sources present.
+
+<p>Practically any resource, file or text used in the Mac-GUI can be
+localized. The first elements to start with are text messages,
+followed by GUI elements and finally images and supplemental
+documentation. All those items are located in the "Resources" group of
+the Mac-GUI project.
+
+<h3>Adding support for a new language</h3>
+<a name="mac_newt"><b>Adding a new translation</b></a> of a resource
+is done as follows:
+<ul>
+  <li>Open the Mac-GUI project in Xcode and locate the resource to translate in the "Resources" group.</li>
+  <li>Select the resource and click on "Get Info" (or press
+  &lt;Cmd&gt;&lt;I&gt;).</li>
+  <li>Click on "Add Localization.."</li>
+  <li>Enter the ISO 639 code for the language.<br>Note: although the
+  drop-down list offers full language names such as "German", please
+  use ISO 639 codes (such as <code>de</code>) instead, because the use
+  of full names is deprecated.</li>
+  <li>There will be a new node in the resources tree listing the
+  language you just created. Edit the resource to reflect the new
+  language - see below for details.</li>
+</ul>
+
+<p>There are three basic sets of resources that need to be translated:
+<ul>
+  <li>Text messages (such as <code>"Cannot open file %@ for writing."</code>)</li>
+  <li>GUI elements (such as buttons, text fields, labels etc.)</li>
+  <li>Images (such as toolbar icons) and supplemental files (such as
+  acknowledgements)</li>
+</ul>
+
+<p>
+<b>Text messages</b> are located in the
+<code>Localizable.strings</code> resource which is a text file of the
+form <code>"english"="translation";</code>, for example (from the
+German translation):
+
+<pre>
+"Cancel"="Abbrechen"; "Choose File"="W&auml;hlen Sie eineDatei";
+</pre>
+
+The corresponding file is created when a new localization is
+added. Please use UTF-8 encoding when editing those files externally
+(in Xcode select <code>Format</code> -&gt; <code>File Encoding</code>
+-&gt; <code>Unicode (UTF-8)</code>).
+
+<p><b>GUI elements</b> are located inside NIB files (NeXT Interface
+Builder files). First step to add a localized version of a NIB file is
+to follow the <a href="#mac_newt">"Adding a new translation"</a> step
+above which will produce a copy of the English original that will have
+to be translated. One way to translate such file would be to edit it
+directly in the Interface Builder, but this is rather tedious and
+would require some knowledge of Cocoa, therefore we use a more generic
+approach. It is possible to generate the same "strings" files as used
+for text messages and use those to translate GUI elements. To generate
+such files, run
+
+<pre>update.localization</pre>
+
+in the Mac-GUI directory. This script will create a new directory
+<code>Translated.strings</code> which contains strings files for each
+NIB file and language, for example:
+<code>MainMenu.de.strings</code>. This file has the same format as the
+text messages strings file and should be translated the same
+way. Before editing the file it is crucial to set the file encoding to
+UTF-8! Once all necessary strings files are translated, they can be
+used to translate the NIB file by running the script as follows:
+<pre>update.localization -t</pre> Don't forget the <code>-t</code>
+switch, otherwise your files in <code>Translated.strings</code> will
+be overwritten! The existing NIB files are updated by this script to
+reflect any changes in the strings files. Optionally the NIB files can
+be manually tweaked if necessary, such as if the labels of some GUI
+elements are longer than the element itself. Such minor changes will
+be preserved by the <code>update.localization</code> script later.
+
+<p><b>Other resources</b> are localized by simply editing the copy
+that was made when using "Add Localization...". There are no automated
+ways of modifying images or other resource files. Please note that any
+resources that are no different from the English version don't need to
+be copied using "Add Localization...". The GUI will automatically use
+the English version if there is no localized version of the resource.
+
+<h3>Submitting a Mac-GUI translation</h3> 
+
+There are basically two
+options how to perform and submit Mac-GUI translations:
+
+<ul><li><b>Providing localized resources</b><br> 
+This is the preferred method, but requires you to use Xcode and
+understand the instructions above. When you localize resources, please
+send us an archive containing <u>both</u> the English original and the
+translated resources. This will allow us to incorporate your
+translation even if the Mac-GUI project changed in the meantime. Let's
+assume you have new resources for the language
+<code>XX</code>. To create an archive for submission, type the
+following in the Terminal while in the Mac-GUI directory:
+<pre>tar fvcz res-XX.tar.gz English.lproj XX.lproj</pre>
+Send the resulting archive <code>res-XX.tar.gz</code> to the Mac-GUI
+authors.
+</li>
+<li><b>Using strings files only</b><br>
+If you don't have a Mac or don't know how to follow the instructions
+above, but you are sure you can translate the GUI into another
+language, ask the Mac-GUI authors to send you the strings text files
+for translation. You can edit those files using any editor that
+supports UTF-8 and return the translated files to us. Since you have
+no direct way of seeing the results of the translation, this method is
+much less preferrable than using localized resources directly.
+</li>
+</ul>
+-->
+
+</body>
+</html>
