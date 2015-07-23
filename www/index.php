@@ -47,5 +47,59 @@ echo $contents; } ?>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
+<p>
+<table align="center">
+<tr>
+  <td width="150">Language</td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/R-intro.pot?revision=33&root=translate-r">R-intro</a> | </td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/R-FAQ.pot?revision=29&root=translate-r">R-FAQ</a> | </td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/R-admin.pot?revision=29&root=translate-r">R-admin</a> | </td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/rw-FAQ.pot?revision=29&root=translate-r">rw-FAQ</a> | </td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/R-exts.pot?revision=29&root=translate-r">R-exts</a> | </td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/R-lang.pot?revision=29&root=translate-r">R-lang</a> | </td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/R-ints.pot?revision=29&root=translate-r">R-ints</a> | </td>
+  <td><a href="https://r-forge.r-project.org/scm/viewvc.php/*checkout*/src/pot/man/R-data.pot?revision=29&root=translate-r">R-data</a></td>
+</tr>
+
+<tr>
+  <td><a href="de.html">German</a>  </td>
+  <td><a href="./R-intro-de.html" target="_blank">de</a></td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a></td>  
+</tr>
+
+
+<tr>
+  <td><a href="ko.html">Korean</a>  </td>
+  <td><a href="https://homepage.usask.ca/~chl948/doc/manual/R-intro-ko.html" target="_blank">ko</a></td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a></td>  
+</tr>
+
+<tr>
+  <td><a href="pt_BR.html">Portuguese_BR</a>  </td>
+  <td><a href="https://homepage.usask.ca/~chl948/doc/manual/R-intro-pt_BR.html" target="_blank">pt_BR</a></td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a>  </td>
+  <td><a href="#"></a></td>  
+</tr>
+</table>
+</p>
+
+
 </body>
 </html>
