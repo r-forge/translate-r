@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-20 22:49-0600\n"
+"POT-Creation-Date: 2015-07-23 14:28-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
@@ -19,7 +19,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 
 #. type: top
-#: R-data.texi:4 R-data.texi:31 R-data.texi:49
+#: R-data.texi:4
+#: R-data.texi:31
+#: R-data.texi:49
 #, no-wrap
 msgid "R Data Import/Export"
 msgstr ""
@@ -80,19 +82,36 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-data.texi:48 R-data.texi:73 R-data.texi:73 R-data.texi:112 R-data.texi:449 R-data.texi:983 R-data.texi:1106 R-data.texi:1725 R-data.texi:1797 R-data.texi:1838 R-data.texi:2204 R-data.texi:2246 R-data.texi:2326 R-data.texi:2371 R-data.texi:2376
+#: R-data.texi:48
+#: R-data.texi:73
+#: R-data.texi:112
+#: R-data.texi:449
+#: R-data.texi:983
+#: R-data.texi:1106
+#: R-data.texi:1725
+#: R-data.texi:1797
+#: R-data.texi:1838
+#: R-data.texi:2204
+#: R-data.texi:2246
+#: R-data.texi:2326
+#: R-data.texi:2371
+#: R-data.texi:2376
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-data.texi:48 R-data.texi:71 R-data.texi:73 R-data.texi:74 R-data.texi:112
+#: R-data.texi:48
+#: R-data.texi:71
+#: R-data.texi:73
+#: R-data.texi:74
+#: R-data.texi:112
 #, no-wrap
 msgid "Acknowledgements"
 msgstr ""
 
 #. type: node
-#: R-data.texi:48 R-data.texi:48
+#: R-data.texi:48
 #, no-wrap
 msgid "(dir)"
 msgstr ""
@@ -103,73 +122,152 @@ msgid "This is a guide to importing and exporting data to and from R."
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:73 R-data.texi:112 R-data.texi:113 R-data.texi:163 R-data.texi:163 R-data.texi:253 R-data.texi:407 R-data.texi:449
+#: R-data.texi:71
+#: R-data.texi:73
+#: R-data.texi:112
+#: R-data.texi:113
+#: R-data.texi:163
+#: R-data.texi:253
+#: R-data.texi:407
+#: R-data.texi:449
 #, no-wrap
 msgid "Introduction"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:112 R-data.texi:449 R-data.texi:450 R-data.texi:451 R-data.texi:467 R-data.texi:467 R-data.texi:720 R-data.texi:743 R-data.texi:760 R-data.texi:848 R-data.texi:930 R-data.texi:983
+#: R-data.texi:71
+#: R-data.texi:112
+#: R-data.texi:449
+#: R-data.texi:450
+#: R-data.texi:451
+#: R-data.texi:467
+#: R-data.texi:720
+#: R-data.texi:743
+#: R-data.texi:760
+#: R-data.texi:848
+#: R-data.texi:930
+#: R-data.texi:983
 #, no-wrap
 msgid "Spreadsheet-like data"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:449 R-data.texi:983 R-data.texi:984 R-data.texi:985 R-data.texi:1001 R-data.texi:1001 R-data.texi:1092 R-data.texi:1106
+#: R-data.texi:71
+#: R-data.texi:449
+#: R-data.texi:983
+#: R-data.texi:984
+#: R-data.texi:985
+#: R-data.texi:1001
+#: R-data.texi:1092
+#: R-data.texi:1106
 #, no-wrap
 msgid "Importing from other statistical systems"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:983 R-data.texi:1106 R-data.texi:1107 R-data.texi:1109 R-data.texi:1118 R-data.texi:1118 R-data.texi:1172 R-data.texi:1321 R-data.texi:1725
+#: R-data.texi:71
+#: R-data.texi:983
+#: R-data.texi:1106
+#: R-data.texi:1107
+#: R-data.texi:1109
+#: R-data.texi:1118
+#: R-data.texi:1172
+#: R-data.texi:1321
+#: R-data.texi:1725
 #, no-wrap
 msgid "Relational databases"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:71 R-data.texi:1106 R-data.texi:1725 R-data.texi:1726 R-data.texi:1727 R-data.texi:1739 R-data.texi:1739 R-data.texi:1768 R-data.texi:1797 R-data.texi:2108
+#: R-data.texi:71
+#: R-data.texi:1106
+#: R-data.texi:1725
+#: R-data.texi:1726
+#: R-data.texi:1727
+#: R-data.texi:1739
+#: R-data.texi:1768
+#: R-data.texi:1797
+#: R-data.texi:2108
 #, no-wrap
 msgid "Binary files"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:1725 R-data.texi:1797 R-data.texi:1798 R-data.texi:1838
+#: R-data.texi:71
+#: R-data.texi:1725
+#: R-data.texi:1797
+#: R-data.texi:1798
+#: R-data.texi:1838
 #, no-wrap
 msgid "Image files"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:1797 R-data.texi:1838 R-data.texi:1839 R-data.texi:1841 R-data.texi:1856 R-data.texi:1856 R-data.texi:1858 R-data.texi:1946 R-data.texi:1948 R-data.texi:2001 R-data.texi:2081 R-data.texi:2083 R-data.texi:2106 R-data.texi:2204
+#: R-data.texi:71
+#: R-data.texi:1797
+#: R-data.texi:1838
+#: R-data.texi:1839
+#: R-data.texi:1841
+#: R-data.texi:1856
+#: R-data.texi:1858
+#: R-data.texi:1946
+#: R-data.texi:1948
+#: R-data.texi:2001
+#: R-data.texi:2081
+#: R-data.texi:2083
+#: R-data.texi:2106
+#: R-data.texi:2204
 #, no-wrap
 msgid "Connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:1838 R-data.texi:2204 R-data.texi:2205 R-data.texi:2215 R-data.texi:2215 R-data.texi:2235 R-data.texi:2246
+#: R-data.texi:71
+#: R-data.texi:1838
+#: R-data.texi:2204
+#: R-data.texi:2205
+#: R-data.texi:2215
+#: R-data.texi:2235
+#: R-data.texi:2246
 #, no-wrap
 msgid "Network interfaces"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:2204 R-data.texi:2246 R-data.texi:2247 R-data.texi:2326
+#: R-data.texi:71
+#: R-data.texi:2204
+#: R-data.texi:2246
+#: R-data.texi:2247
+#: R-data.texi:2326
 #, no-wrap
 msgid "Reading Excel spreadsheets"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:2246 R-data.texi:2326 R-data.texi:2327 R-data.texi:2371
+#: R-data.texi:71
+#: R-data.texi:2246
+#: R-data.texi:2326
+#: R-data.texi:2327
+#: R-data.texi:2371
 #, no-wrap
 msgid "References"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:2326 R-data.texi:2371 R-data.texi:2372 R-data.texi:2376
+#: R-data.texi:71
+#: R-data.texi:2326
+#: R-data.texi:2371
+#: R-data.texi:2372
+#: R-data.texi:2376
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: unnumbered
-#: R-data.texi:71 R-data.texi:2371 R-data.texi:2376 R-data.texi:2377
+#: R-data.texi:71
+#: R-data.texi:2371
+#: R-data.texi:2376
+#: R-data.texi:2377
 #, no-wrap
 msgid "Concept index"
 msgstr ""
@@ -204,9 +302,7 @@ msgstr ""
 #. type: item
 #: R-data.texi:87
 #, no-wrap
-msgid ""
-"@CRANpkg{foreign} @tab Thomas Lumley, Saikat DebRoy, Douglas Bates, Duncan "
-"Murdoch and Roger Bivand"
+msgid "@CRANpkg{foreign} @tab Thomas Lumley, Saikat DebRoy, Douglas Bates, Duncan Murdoch and Roger Bivand"
 msgstr ""
 
 #. type: item
@@ -384,7 +480,8 @@ msgid "AWK"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:148 R-data.texi:736
+#: R-data.texi:148
+#: R-data.texi:736
 #, no-wrap
 msgid "perl"
 msgstr ""
@@ -402,31 +499,50 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-data.texi:161 R-data.texi:163 R-data.texi:164 R-data.texi:205 R-data.texi:205 R-data.texi:253
+#: R-data.texi:161
+#: R-data.texi:163
+#: R-data.texi:164
+#: R-data.texi:205
+#: R-data.texi:253
 #, no-wrap
 msgid "Imports"
 msgstr ""
 
 #. type: node
-#: R-data.texi:161 R-data.texi:163 R-data.texi:253 R-data.texi:254 R-data.texi:407
+#: R-data.texi:161
+#: R-data.texi:163
+#: R-data.texi:253
+#: R-data.texi:254
+#: R-data.texi:407
 #, no-wrap
 msgid "Export to text files"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:161 R-data.texi:253 R-data.texi:407 R-data.texi:408 R-data.texi:409
+#: R-data.texi:161
+#: R-data.texi:253
+#: R-data.texi:407
+#: R-data.texi:408
+#: R-data.texi:409
 #, no-wrap
 msgid "XML"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:165 R-data.texi:762 R-data.texi:2004
+#: R-data.texi:165
+#: R-data.texi:762
+#: R-data.texi:2004
 #, no-wrap
 msgid "scan"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:169 R-data.texi:205 R-data.texi:206 R-data.texi:207 R-data.texi:366 R-data.texi:367
+#: R-data.texi:169
+#: R-data.texi:205
+#: R-data.texi:206
+#: R-data.texi:207
+#: R-data.texi:366
+#: R-data.texi:367
 #, no-wrap
 msgid "Encodings"
 msgstr ""
@@ -519,16 +635,15 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:248
 msgid ""
-"`BOMs' (Byte Order Marks, "
-"@uref{http://en.wikipedia.org/wiki/Byte_order_mark}) cause problems for "
-"Unicode files.  In the Unix world BOMs are rarely used, whereas in the "
-"Windows world they almost always are for UCS-2/UTF-16 files, and often are "
-"for UTF-8 files.  The @command{file} utility will not even recognize UCS-2 "
-"files without a BOM, but many other utilities will refuse to read files with "
-"a BOM and the @acronym{IANA} standards for @code{UTF-16LE} and "
-"@code{UTF-16BE} prohibit it.  We have too often been reduced to looking at "
-"the file with the command-line utility @command{od} or a hex editor to work "
-"out its encoding."
+"`BOMs' (Byte Order Marks, @uref{http://en.wikipedia.org/wiki/"
+"Byte_order_mark}) cause problems for Unicode files.  In the Unix world BOMs "
+"are rarely used, whereas in the Windows world they almost always are for "
+"UCS-2/UTF-16 files, and often are for UTF-8 files.  The @command{file} "
+"utility will not even recognize UCS-2 files without a BOM, but many other "
+"utilities will refuse to read files with a BOM and the @acronym{IANA} "
+"standards for @code{UTF-16LE} and @code{UTF-16BE} prohibit it.  We have too "
+"often been reduced to looking at the file with the command-line utility "
+"@command{od} or a hex editor to work out its encoding."
 msgstr ""
 
 #. type: Plain text
@@ -555,7 +670,8 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-data.texi:263 R-data.texi:1950
+#: R-data.texi:263
+#: R-data.texi:1950
 #, no-wrap
 msgid "cat"
 msgstr ""
@@ -571,13 +687,15 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-data.texi:271 R-data.texi:1951
+#: R-data.texi:271
+#: R-data.texi:1951
 #, no-wrap
 msgid "write"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:272 R-data.texi:1952
+#: R-data.texi:272
+#: R-data.texi:1952
 #, no-wrap
 msgid "write.table"
 msgstr ""
@@ -623,7 +741,8 @@ msgid ""
 msgstr ""
 
 #. type: strong{#1}
-#: R-data.texi:294 R-data.texi:497
+#: R-data.texi:294
+#: R-data.texi:497
 #, no-wrap
 msgid "Header line"
 msgstr ""
@@ -653,13 +772,15 @@ msgid ""
 msgstr ""
 
 #. type: strong{#1}
-#: R-data.texi:310 R-data.texi:513
+#: R-data.texi:310
+#: R-data.texi:513
 #, no-wrap
 msgid "Separator"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:311 R-data.texi:679
+#: R-data.texi:311
+#: R-data.texi:679
 #, no-wrap
 msgid "CSV files"
 msgstr ""
@@ -693,9 +814,9 @@ msgid ""
 "\",\"}) and there CSV files use the semicolon as the field separator: use "
 "@code{write.csv2} for appropriate defaults.  There is an IETF standard for "
 "CSV files (which mandates commas and CRLF line endings, for which use "
-"@code{eol = \"\\r\\n\"}), RFC4180 (see "
-"@uref{http://tools.ietf.org/html/rfc4180}), but what is more important in "
-"practice is that the file is readable by the application it is targeted at."
+"@code{eol = \"\\r\\n\"}), RFC4180 (see @uref{http://tools.ietf.org/html/"
+"rfc4180}), but what is more important in practice is that the file is "
+"readable by the application it is targeted at."
 msgstr ""
 
 #. type: enumerate
@@ -706,7 +827,10 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:332 R-data.texi:333 R-data.texi:556 R-data.texi:557
+#: R-data.texi:332
+#: R-data.texi:333
+#: R-data.texi:556
+#: R-data.texi:557
 #, no-wrap
 msgid "Missing values"
 msgstr ""
@@ -720,7 +844,9 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:339 R-data.texi:340 R-data.texi:526
+#: R-data.texi:339
+#: R-data.texi:340
+#: R-data.texi:526
 #, no-wrap
 msgid "Quoting strings"
 msgstr ""
@@ -765,8 +891,8 @@ msgstr ""
 #. type: enumerate
 #: R-data.texi:375
 msgid ""
-"Text files do not contain metadata on their encodings, so for "
-"non-@acronym{ASCII} data the file needs to be targetted to the application "
+"Text files do not contain metadata on their encodings, so for non-"
+"@acronym{ASCII} data the file needs to be targetted to the application "
 "intended to read it.  All of these functions can write to a "
 "@emph{connection} which allows an encoding to be specified for the file, and "
 "@code{write.table} has a @code{fileEncoding} argument to make this easier."
@@ -802,7 +928,8 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-data.texi:395 R-data.texi:1953
+#: R-data.texi:395
+#: R-data.texi:1953
 #, no-wrap
 msgid "sink"
 msgstr ""
@@ -825,10 +952,10 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:406
 msgid ""
-"Function @code{write.foreign} in package @CRANpkg{foreign} uses "
-"@code{write.table} to produce a text file and also writes a code file that "
-"will read this text file into another statistical package. There is "
-"currently support for export to @code{SAS}, @code{SPSS} and @code{Stata}."
+"Function @code{write.foreign} in package @CRANpkg{foreign} uses @code{write."
+"table} to produce a text file and also writes a code file that will read "
+"this text file into another statistical package. There is currently support "
+"for export to @code{SAS}, @code{SPSS} and @code{Stata}."
 msgstr ""
 
 #. type: Plain text
@@ -839,8 +966,8 @@ msgid ""
 "comment character, whether a header line is present, the value separator, "
 "the representation for missing values (and so on) described in @ref{Export "
 "to text files}.  A markup language which can be used to describe not only "
-"content but also the structure of the content can make a file "
-"self-describing, so that one need not provide these details to the software "
+"content but also the structure of the content can make a file self-"
+"describing, so that one need not provide these details to the software "
 "reading the data."
 msgstr ""
 
@@ -890,37 +1017,61 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:467 R-data.texi:720
+#: R-data.texi:460
+#: R-data.texi:467
+#: R-data.texi:720
 #, no-wrap
 msgid "Variations on read.table"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:467 R-data.texi:720 R-data.texi:721 R-data.texi:722 R-data.texi:743
+#: R-data.texi:460
+#: R-data.texi:467
+#: R-data.texi:720
+#: R-data.texi:721
+#: R-data.texi:722
+#: R-data.texi:743
 #, no-wrap
 msgid "Fixed-width-format files"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:720 R-data.texi:743 R-data.texi:744 R-data.texi:745 R-data.texi:760
+#: R-data.texi:460
+#: R-data.texi:720
+#: R-data.texi:743
+#: R-data.texi:744
+#: R-data.texi:745
+#: R-data.texi:760
 #, no-wrap
 msgid "Data Interchange Format (DIF)"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:743 R-data.texi:760 R-data.texi:848
+#: R-data.texi:460
+#: R-data.texi:743
+#: R-data.texi:760
+#: R-data.texi:848
 #, no-wrap
 msgid "Using scan directly"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:760 R-data.texi:848 R-data.texi:849 R-data.texi:850 R-data.texi:930
+#: R-data.texi:460
+#: R-data.texi:760
+#: R-data.texi:848
+#: R-data.texi:849
+#: R-data.texi:850
+#: R-data.texi:930
 #, no-wrap
 msgid "Re-shaping data"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:460 R-data.texi:848 R-data.texi:930 R-data.texi:931 R-data.texi:932
+#: R-data.texi:460
+#: R-data.texi:848
+#: R-data.texi:930
+#: R-data.texi:931
+#: R-data.texi:932
 #, no-wrap
 msgid "Flat contingency tables"
 msgstr ""
@@ -941,7 +1092,9 @@ msgid "Variations on @code{read.table}"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:469 R-data.texi:2005 R-data.texi:2257
+#: R-data.texi:469
+#: R-data.texi:2005
+#: R-data.texi:2257
 #, no-wrap
 msgid "read.table"
 msgstr ""
@@ -968,7 +1121,8 @@ msgid "Some of the issues to consider are:"
 msgstr ""
 
 #. type: strong{#1}
-#: R-data.texi:482 R-data.texi:633
+#: R-data.texi:482
+#: R-data.texi:633
 #, no-wrap
 msgid "Encoding"
 msgstr ""
@@ -1047,8 +1201,8 @@ msgid ""
 "By default character strings can be quoted by either @samp{\"} or @samp{'}, "
 "and in each case all the characters up to a matching quote are taken as part "
 "of the character string.  The set of valid quoting characters (which might "
-"be none) is controlled by the @code{quote} argument.  For @code{sep = "
-"\"\\n\"} the default is changed to @code{quote = \"\"}."
+"be none) is controlled by the @code{quote} argument.  For @code{sep = \"\\n"
+"\"} the default is changed to @code{quote = \"\"}."
 msgstr ""
 
 #. type: enumerate
@@ -1091,9 +1245,9 @@ msgstr ""
 #: R-data.texi:563
 msgid ""
 "By default the file is assumed to contain the character string @code{NA} to "
-"represent missing values, but this can be changed by the argument "
-"@code{na.strings}, which is a vector of one or more character "
-"representations of missing values."
+"represent missing values, but this can be changed by the argument @code{na."
+"strings}, which is a vector of one or more character representations of "
+"missing values."
 msgstr ""
 
 #. type: enumerate
@@ -1302,7 +1456,8 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-data.texi:675 R-data.texi:2254
+#: R-data.texi:675
+#: R-data.texi:2254
 #, no-wrap
 msgid "read.csv"
 msgstr ""
@@ -1314,7 +1469,8 @@ msgid "read.csv2"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:677 R-data.texi:2255
+#: R-data.texi:677
+#: R-data.texi:2255
 #, no-wrap
 msgid "read.delim"
 msgstr ""
@@ -1344,8 +1500,8 @@ msgid ""
 "arguments to @code{read.table} appropriate for CSV and tab-delimited files "
 "exported from spreadsheets in English-speaking locales.  The variations "
 "@code{read.csv2} and @code{read.delim2} are appropriate for use in those "
-"locales where the comma is used for the decimal point and (for "
-"@code{read.csv2}) for spreadsheets which use semicolons to separate fields."
+"locales where the comma is used for the decimal point and (for @code{read."
+"csv2}) for spreadsheets which use semicolons to separate fields."
 msgstr ""
 
 #. type: Plain text
@@ -1403,9 +1559,9 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:727
 msgid ""
-"Sometimes data files have no field delimiters but have fields in "
-"pre-specified columns.  This was very common in the days of punched cards, "
-"and is still sometimes used to save file space."
+"Sometimes data files have no field delimiters but have fields in pre-"
+"specified columns.  This was very common in the days of punched cards, and "
+"is still sometimes used to save file space."
 msgstr ""
 
 #. type: findex
@@ -1446,7 +1602,8 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-data.texi:750 R-data.texi:2256
+#: R-data.texi:750
+#: R-data.texi:2256
 #, no-wrap
 msgid "read.DIF"
 msgstr ""
@@ -1464,8 +1621,8 @@ msgstr ""
 msgid ""
 "On Windows, spreadsheet programs often store spreadsheet data copied to the "
 "clipboard in this format; @code{read.DIF(\"clipboard\")} can read it from "
-"there directly.  It is slightly more robust than "
-"@code{read.table(\"clipboard\")} in handling spreadsheets with empty cells."
+"there directly.  It is slightly more robust than @code{read.table(\"clipboard"
+"\")} in handling spreadsheets with empty cells."
 msgstr ""
 
 #. type: section
@@ -1509,7 +1666,8 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-data.texi:785 R-data.texi:2006
+#: R-data.texi:785
+#: R-data.texi:2006
 #, no-wrap
 msgid "readLines"
 msgstr ""
@@ -1852,13 +2010,19 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-data.texi:999 R-data.texi:1001 R-data.texi:1092
+#: R-data.texi:999
+#: R-data.texi:1001
+#: R-data.texi:1092
 #, no-wrap
 msgid "EpiInfo Minitab SAS S-PLUS SPSS Stata Systat"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:999 R-data.texi:1001 R-data.texi:1092 R-data.texi:1093 R-data.texi:1094
+#: R-data.texi:999
+#: R-data.texi:1001
+#: R-data.texi:1092
+#: R-data.texi:1093
+#: R-data.texi:1094
 #, no-wrap
 msgid "Octave"
 msgstr ""
@@ -1981,10 +2145,10 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:1049
 msgid ""
-"Function @code{data.restore} reads S-PLUS data dumps (created by "
-"@code{data.dump}) with the same restrictions (except that dumps from the "
-"Alpha platform can also be read).  It should be possible to read data dumps "
-"from S-PLUS 5.x and later written with @code{data.dump(oldStyle=T)}."
+"Function @code{data.restore} reads S-PLUS data dumps (created by @code{data."
+"dump}) with the same restrictions (except that dumps from the Alpha platform "
+"can also be read).  It should be possible to read data dumps from S-PLUS 5.x "
+"and later written with @code{data.dump(oldStyle=T)}."
 msgstr ""
 
 #. type: Plain text
@@ -2087,8 +2251,8 @@ msgstr ""
 msgid ""
 "@code{read.systat} reads those Systat @code{SAVE} files that are rectangular "
 "data files (@code{mtype = 1}) written on little-endian machines (such as "
-"from Windows).  These have extension @file{.sys} or (more recently) "
-"@file{.syd}."
+"from Windows).  These have extension @file{.sys} or (more recently) @file{."
+"syd}."
 msgstr ""
 
 #. type: findex
@@ -2116,19 +2280,33 @@ msgid "DBMS"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1116 R-data.texi:1118 R-data.texi:1119 R-data.texi:1172
+#: R-data.texi:1116
+#: R-data.texi:1118
+#: R-data.texi:1119
+#: R-data.texi:1172
 #, no-wrap
 msgid "Why use a database?"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1116 R-data.texi:1118 R-data.texi:1172 R-data.texi:1173 R-data.texi:1211 R-data.texi:1211 R-data.texi:1282 R-data.texi:1321
+#: R-data.texi:1116
+#: R-data.texi:1118
+#: R-data.texi:1172
+#: R-data.texi:1173
+#: R-data.texi:1211
+#: R-data.texi:1282
+#: R-data.texi:1321
 #, no-wrap
 msgid "Overview of RDBMSs"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1116 R-data.texi:1172 R-data.texi:1321 R-data.texi:1322 R-data.texi:1360 R-data.texi:1360 R-data.texi:1450
+#: R-data.texi:1116
+#: R-data.texi:1172
+#: R-data.texi:1321
+#: R-data.texi:1322
+#: R-data.texi:1360
+#: R-data.texi:1450
 #, no-wrap
 msgid "R interface packages"
 msgstr ""
@@ -2202,19 +2380,19 @@ msgstr ""
 #: R-data.texi:1164
 msgid ""
 "The sort of statistical applications for which DBMS might be used are to "
-"extract a 10% sample of the data, to cross-tabulate data to produce a "
-"multi-dimensional contingency table, and to extract data group by group from "
-"a database for separate analysis."
+"extract a 10% sample of the data, to cross-tabulate data to produce a multi-"
+"dimensional contingency table, and to extract data group by group from a "
+"database for separate analysis."
 msgstr ""
 
 #. type: Plain text
 #: R-data.texi:1171
 msgid ""
 "Increasingly OSes are themselves making use of DBMSs for these reasons, so "
-"it is nowadays likely that one will be already installed on your "
-"(non-Windows) OS.  @uref{http://en.wikipedia.org/wiki/Akonadi, Akonadi} is "
-"used by KDE4 to store personal information.  Several OS X applications, "
-"including Mail and Address Book, use SQLite."
+"it is nowadays likely that one will be already installed on your (non-"
+"Windows) OS.  @uref{http://en.wikipedia.org/wiki/Akonadi, Akonadi} is used "
+"by KDE4 to store personal information.  Several OS X applications, including "
+"Mail and Address Book, use SQLite."
 msgstr ""
 
 #. type: Plain text
@@ -2233,13 +2411,15 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1187 R-data.texi:1452
+#: R-data.texi:1187
+#: R-data.texi:1452
 #, no-wrap
 msgid "ODBC"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1188 R-data.texi:1453
+#: R-data.texi:1188
+#: R-data.texi:1453
 #, no-wrap
 msgid "Open Database Connectivity"
 msgstr ""
@@ -2247,12 +2427,12 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:1195
 msgid ""
-"There are other commonly used data sources, including spreadsheets, "
-"non-relational databases and even text files (possibly compressed).  Open "
+"There are other commonly used data sources, including spreadsheets, non-"
+"relational databases and even text files (possibly compressed).  Open "
 "Database Connectivity (@acronym{ODBC}) is a standard to use all of these "
-"data sources.  It originated on Windows (see "
-"@uref{http://msdn.microsoft.com/@/en-us/@/library/@/ms710252%28v=vs.85%29.aspx})  "
-"but is also implemented on Linux/Unix/OS X."
+"data sources.  It originated on Windows (see @uref{http://msdn.microsoft.com/"
+"@/en-us/@/library/@/ms710252%28v=vs.85%29.aspx})  but is also implemented on "
+"Linux/Unix/OS X."
 msgstr ""
 
 #. type: Plain text
@@ -2269,13 +2449,19 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-data.texi:1209 R-data.texi:1211 R-data.texi:1213 R-data.texi:1282
+#: R-data.texi:1209
+#: R-data.texi:1211
+#: R-data.texi:1213
+#: R-data.texi:1282
 #, no-wrap
 msgid "SQL queries"
 msgstr ""
 
 #. type: subsection
-#: R-data.texi:1209 R-data.texi:1211 R-data.texi:1282 R-data.texi:1283
+#: R-data.texi:1209
+#: R-data.texi:1211
+#: R-data.texi:1282
+#: R-data.texi:1283
 #, no-wrap
 msgid "Data types"
 msgstr ""
@@ -2552,14 +2738,14 @@ msgstr ""
 #: R-data.texi:1340
 msgid ""
 "All except @CRANpkg{RODBC} are tied to one DBMS, but there has been a "
-"proposal for a unified `front-end' package @CRANpkg{DBI} "
-"(@uref{http://developer.r-project.org/db}) in conjunction with a `back-end', "
-"the most developed of which is @CRANpkg{RMySQL}.  Also on @acronym{CRAN} are "
-"the back-ends @CRANpkg{ROracle}, @CRANpkg{RPostgreSQL} and @CRANpkg{RSQLite} "
-"(which works with the bundled DBMS @code{SQLite}, "
-"@uref{http://www.sqlite.org}), @CRANpkg{RJDBC} (which uses Java and can "
-"connect to any DBMS that has a JDBC driver) and @CRANpkg{RpgSQL} (a "
-"specialist interface to PostgreSQL built on top of @CRANpkg{RJDBC})."
+"proposal for a unified `front-end' package @CRANpkg{DBI} (@uref{http://"
+"developer.r-project.org/db}) in conjunction with a `back-end', the most "
+"developed of which is @CRANpkg{RMySQL}.  Also on @acronym{CRAN} are the back-"
+"ends @CRANpkg{ROracle}, @CRANpkg{RPostgreSQL} and @CRANpkg{RSQLite} (which "
+"works with the bundled DBMS @code{SQLite}, @uref{http://www.sqlite.org}), "
+"@CRANpkg{RJDBC} (which uses Java and can connect to any DBMS that has a JDBC "
+"driver) and @CRANpkg{RpgSQL} (a specialist interface to PostgreSQL built on "
+"top of @CRANpkg{RJDBC})."
 msgstr ""
 
 #. type: Plain text
@@ -2572,9 +2758,8 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:1347
 msgid ""
-"@pkg{PL/R} (@uref{http://www.joeconway.com/plr/, "
-"@code{http://@/www.joeconway.com/@/plr/}}) is a project to embed R into "
-"PostgreSQL."
+"@pkg{PL/R} (@uref{http://www.joeconway.com/plr/, @code{http://@/www."
+"joeconway.com/@/plr/}}) is a project to embed R into PostgreSQL."
 msgstr ""
 
 #. type: Plain text
@@ -2587,13 +2772,17 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-data.texi:1357 R-data.texi:1360 R-data.texi:1450
+#: R-data.texi:1357
+#: R-data.texi:1360
+#: R-data.texi:1450
 #, no-wrap
 msgid "DBI"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1357 R-data.texi:1360 R-data.texi:1450
+#: R-data.texi:1357
+#: R-data.texi:1360
+#: R-data.texi:1450
 #, no-wrap
 msgid "RODBC"
 msgstr ""
@@ -2605,7 +2794,8 @@ msgid "Packages using DBI"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1362 R-data.texi:1541
+#: R-data.texi:1362
+#: R-data.texi:1541
 #, no-wrap
 msgid "MySQL database system"
 msgstr ""
@@ -2805,19 +2995,21 @@ msgstr ""
 #: R-data.texi:1472
 msgid ""
 "On Windows ODBC support is part of the OS.  On Unix/Linux you will need an "
-"@acronym{ODBC} Driver Manager such as unixODBC "
-"(@uref{http://www.unixODBC.org}) or iOBDC (@uref{http://www.iODBC.org}: this "
-"is pre-installed in OS X) and an installed driver for your database system."
+"@acronym{ODBC} Driver Manager such as unixODBC (@uref{http://www.unixODBC."
+"org}) or iOBDC (@uref{http://www.iODBC.org}: this is pre-installed in OS X) "
+"and an installed driver for your database system."
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1473 R-data.texi:1579
+#: R-data.texi:1473
+#: R-data.texi:1579
 #, no-wrap
 msgid "Excel"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:1474 R-data.texi:1580
+#: R-data.texi:1474
+#: R-data.texi:1580
 #, no-wrap
 msgid ".xls"
 msgstr ""
@@ -2842,19 +3034,18 @@ msgid ""
 "applications do @emph{not} need to be installed. Which file formats are "
 "supported depends on the versions of the drivers.)  There are versions for "
 "Excel and Access 2007/2010 (go to @uref{http://download.microsoft.com}, and "
-"search for `Office ODBC', which will lead to "
-"@file{AccessDatabaseEngine.exe}), the `2007 Office System Driver' (the "
-"latter has a version for 64-bit Windows, and that will also read earlier "
-"versions)."
+"search for `Office ODBC', which will lead to @file{AccessDatabaseEngine."
+"exe}), the `2007 Office System Driver' (the latter has a version for 64-bit "
+"Windows, and that will also read earlier versions)."
 msgstr ""
 
 #. type: Plain text
 #: R-data.texi:1491
 msgid ""
-"On OS X the Actual Technologies "
-"(@url{http://www.actualtechnologies.com/product_access.php}) drivers provide "
-"ODBC interfaces to Access databases (including Access 2007/2010)  and to "
-"Excel spreadsheets (not including Excel 2007/2010)."
+"On OS X the Actual Technologies (@url{http://www.actualtechnologies.com/"
+"product_access.php}) drivers provide ODBC interfaces to Access databases "
+"(including Access 2007/2010)  and to Excel spreadsheets (not including Excel "
+"2007/2010)."
 msgstr ""
 
 #. type: findex
@@ -2893,7 +3084,8 @@ msgid "odbcClose"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:1504 R-data.texi:1870
+#: R-data.texi:1504
+#: R-data.texi:1870
 #, no-wrap
 msgid "close"
 msgstr ""
@@ -2914,7 +3106,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-data.texi:1512
-msgid "Details of the tables on a connection can be found using @code{sqlTables}."
+msgid ""
+"Details of the tables on a connection can be found using @code{sqlTables}."
 msgstr ""
 
 #. type: findex
@@ -3038,7 +3231,8 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-data.texi:1581 R-data.texi:2282
+#: R-data.texi:1581
+#: R-data.texi:2282
 #, no-wrap
 msgid "odbcConnectExcel"
 msgstr ""
@@ -3072,18 +3266,23 @@ msgstr ""
 #: R-data.texi:1604
 msgid ""
 "Notice that the specification of the table is different from the name "
-"returned by @code{sqlTables}: @code{sqlFetch} is able to map the "
-"differences."
+"returned by @code{sqlTables}: @code{sqlFetch} is able to map the differences."
 msgstr ""
 
 #. type: node
-#: R-data.texi:1732 R-data.texi:1739 R-data.texi:1740 R-data.texi:1768
+#: R-data.texi:1732
+#: R-data.texi:1739
+#: R-data.texi:1740
+#: R-data.texi:1768
 #, no-wrap
 msgid "Binary data formats"
 msgstr ""
 
 #. type: section
-#: R-data.texi:1732 R-data.texi:1739 R-data.texi:1768 R-data.texi:1769
+#: R-data.texi:1732
+#: R-data.texi:1739
+#: R-data.texi:1768
+#: R-data.texi:1769
 #, no-wrap
 msgid "dBase files (DBF)"
 msgstr ""
@@ -3126,8 +3325,8 @@ msgid ""
 "@CRANpkg{RNetCDF}, @CRANpkg{ncdf} and @CRANpkg{ncdf4} on @acronym{CRAN} "
 "provide interfaces to @acronym{NASA}'s HDF5 (Hierarchical Data Format, see "
 "@uref{http://www.hdfgroup.org/HDF5/}) and to UCAR's netCDF data files "
-"(network Common Data Form, see "
-"@uref{http://www.unidata.ucar.edu/software/netcdf/})."
+"(network Common Data Form, see @uref{http://www.unidata.ucar.edu/software/"
+"netcdf/})."
 msgstr ""
 
 #. type: Plain text
@@ -3174,12 +3373,11 @@ msgid ""
 "Borland which has a binary flat-file format that became popular, with file "
 "extension @file{.dbf}.  It has been adopted for the 'Xbase' family of "
 "databases, covering dBase, Clipper, FoxPro and their Windows equivalents "
-"Visual dBase, Visual Objects and Visual FoxPro (see "
-"@uref{http://www.e-bachmann.dk/docs/xbase.htm}).  A dBase file contains a "
-"header and then a series of fields and so is most similar to an @R{} data "
-"frame.  The data itself is stored in text format, and can include character, "
-"logical and numeric fields, and other types in later versions (see for "
-"example "
+"Visual dBase, Visual Objects and Visual FoxPro (see @uref{http://www.e-"
+"bachmann.dk/docs/xbase.htm}).  A dBase file contains a header and then a "
+"series of fields and so is most similar to an @R{} data frame.  The data "
+"itself is stored in text format, and can include character, logical and "
+"numeric fields, and other types in later versions (see for example "
 "@uref{http://www.digitalpreservation.gov/formats/fdd/fdd000325.shtml} and "
 "@uref{http://www.clicketyclick.dk/databases/xbase/format/index.html})."
 msgstr ""
@@ -3282,31 +3480,51 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:1856 R-data.texi:1857 R-data.texi:1946
+#: R-data.texi:1853
+#: R-data.texi:1856
+#: R-data.texi:1857
+#: R-data.texi:1946
 #, no-wrap
 msgid "Types of connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:1856 R-data.texi:1946 R-data.texi:1947 R-data.texi:2001
+#: R-data.texi:1853
+#: R-data.texi:1856
+#: R-data.texi:1946
+#: R-data.texi:1947
+#: R-data.texi:2001
 #, no-wrap
 msgid "Output to connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:1946 R-data.texi:2001 R-data.texi:2002 R-data.texi:2044 R-data.texi:2044 R-data.texi:2081
+#: R-data.texi:1853
+#: R-data.texi:1946
+#: R-data.texi:2001
+#: R-data.texi:2002
+#: R-data.texi:2044
+#: R-data.texi:2081
 #, no-wrap
 msgid "Input from connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:2001 R-data.texi:2081 R-data.texi:2082 R-data.texi:2106
+#: R-data.texi:1853
+#: R-data.texi:2001
+#: R-data.texi:2081
+#: R-data.texi:2082
+#: R-data.texi:2106
 #, no-wrap
 msgid "Listing and manipulating connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:2081 R-data.texi:2106 R-data.texi:2107 R-data.texi:2173 R-data.texi:2173
+#: R-data.texi:1853
+#: R-data.texi:2081
+#: R-data.texi:2106
+#: R-data.texi:2107
+#: R-data.texi:2173
 #, no-wrap
 msgid "Binary connections"
 msgstr ""
@@ -3484,7 +3702,8 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1931 R-data.texi:2035
+#: R-data.texi:1931
+#: R-data.texi:2035
 #, no-wrap
 msgid "URL connections"
 msgstr ""
@@ -3504,7 +3723,8 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1938 R-data.texi:2218
+#: R-data.texi:1938
+#: R-data.texi:2218
 #, no-wrap
 msgid "Sockets"
 msgstr ""
@@ -3559,7 +3779,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: R-data.texi:1974 R-data.texi:2017
+#: R-data.texi:1974
+#: R-data.texi:2017
 msgid "Some simple examples are"
 msgstr ""
 
@@ -3661,7 +3882,9 @@ msgid ""
 msgstr ""
 
 #. type: subsection
-#: R-data.texi:2042 R-data.texi:2044 R-data.texi:2045
+#: R-data.texi:2042
+#: R-data.texi:2044
+#: R-data.texi:2045
 #, no-wrap
 msgid "Pushback"
 msgstr ""
@@ -3727,7 +3950,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-data.texi:2080
-msgid "Pushback is only available for connections opened for input in text mode."
+msgid ""
+"Pushback is only available for connections opened for input in text mode."
 msgstr ""
 
 #. type: findex
@@ -3796,10 +4020,10 @@ msgstr ""
 #: R-data.texi:2117
 msgid ""
 "Functions @code{readBin} and @code{writeBin} read to and write from binary "
-"connections.  A connection is opened in binary mode by appending "
-"@code{\"b\"} to the mode specification, that is using mode @code{\"rb\"} for "
-"reading, and mode @code{\"wb\"} or @code{\"ab\"} (where appropriate) for "
-"writing.  The functions have arguments"
+"connections.  A connection is opened in binary mode by appending @code{\"b"
+"\"} to the mode specification, that is using mode @code{\"rb\"} for reading, "
+"and mode @code{\"wb\"} or @code{\"ab\"} (where appropriate) for writing.  "
+"The functions have arguments"
 msgstr ""
 
 #. type: example
@@ -3852,15 +4076,15 @@ msgid ""
 "This will not suffice if the data are to be transferred to a machine with a "
 "different architecture, but between almost all @R{} platforms the only "
 "change needed is that of byte-order.  Common PCs (@cputype{ix86}-based and "
-"@cputype{x86_64}-based machines), Compaq Alpha and Vaxen are "
-"@emph{little-endian}, whereas Sun Sparc, mc680x0 series, IBM R6000, SGI and "
-"most others are @emph{big-endian}.  (Network byte-order (as used by XDR, "
-"eXternal Data Representation) is big-endian.)  To transfer to or from other "
-"programs we may need to do more, for example to read 16-bit integers or "
-"write single-precision real numbers.  This can be done using the @code{size} "
-"argument, which (usually) allows sizes 1, 2, 4, 8 for integers and logicals, "
-"and sizes 4, 8 and perhaps 12 or 16 for reals.  Transferring at different "
-"sizes can lose precision, and should not be attempted for vectors containing "
+"@cputype{x86_64}-based machines), Compaq Alpha and Vaxen are @emph{little-"
+"endian}, whereas Sun Sparc, mc680x0 series, IBM R6000, SGI and most others "
+"are @emph{big-endian}.  (Network byte-order (as used by XDR, eXternal Data "
+"Representation) is big-endian.)  To transfer to or from other programs we "
+"may need to do more, for example to read 16-bit integers or write single-"
+"precision real numbers.  This can be done using the @code{size} argument, "
+"which (usually) allows sizes 1, 2, 4, 8 for integers and logicals, and sizes "
+"4, 8 and perhaps 12 or 16 for reals.  Transferring at different sizes can "
+"lose precision, and should not be attempted for vectors containing "
 "@code{NA}'s."
 msgstr ""
 
@@ -3885,7 +4109,9 @@ msgid ""
 msgstr ""
 
 #. type: subsection
-#: R-data.texi:2171 R-data.texi:2173 R-data.texi:2174
+#: R-data.texi:2171
+#: R-data.texi:2173
+#: R-data.texi:2174
 #, no-wrap
 msgid "Special values"
 msgstr ""
@@ -3935,13 +4161,18 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-data.texi:2210 R-data.texi:2215 R-data.texi:2216 R-data.texi:2235
+#: R-data.texi:2210
+#: R-data.texi:2215
+#: R-data.texi:2216
+#: R-data.texi:2235
 #, no-wrap
 msgid "Reading from sockets"
 msgstr ""
 
 #. type: node
-#: R-data.texi:2210 R-data.texi:2215 R-data.texi:2235
+#: R-data.texi:2210
+#: R-data.texi:2215
+#: R-data.texi:2235
 #, no-wrap
 msgid "Using download.file"
 msgstr ""
@@ -4045,10 +4276,10 @@ msgid ""
 "spreadsheets and export in a text format on both Windows and Unix, for "
 "example Gnumeric (@uref{http://www.gnome.org/projects/gnumeric/}) and "
 "OpenOffice (@uref{http://www.openoffice.org}).  You can also cut-and-paste "
-"between the display of a spreadsheet in such a program and R: "
-"@code{read.table} will read from the R console or, under Windows, from the "
-"clipboard (via @code{file = \"clipboard\"} or @code{readClipboard}).  The "
-"@code{read.DIF} function can also read from the clipboard."
+"between the display of a spreadsheet in such a program and R: @code{read."
+"table} will read from the R console or, under Windows, from the clipboard "
+"(via @code{file = \"clipboard\"} or @code{readClipboard}).  The @code{read."
+"DIF} function can also read from the clipboard."
 msgstr ""
 
 #. type: Plain text
@@ -4089,12 +4320,11 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:2301
 msgid ""
-"@code{Perl} users have contributed a module "
-"@code{OLE::SpreadSheet::ParseExcel} and a program @code{xls2csv.pl} to "
-"convert Excel 95--2003 spreadsheets to CSV files.  Package @CRANpkg{gdata} "
-"provides a basic wrapper in its @code{read.xls} function.  With suitable "
-"@code{Perl} modules installed this function can also read Excel 2007 "
-"spreadsheets."
+"@code{Perl} users have contributed a module @code{OLE::SpreadSheet::"
+"ParseExcel} and a program @code{xls2csv.pl} to convert Excel 95--2003 "
+"spreadsheets to CSV files.  Package @CRANpkg{gdata} provides a basic wrapper "
+"in its @code{read.xls} function.  With suitable @code{Perl} modules "
+"installed this function can also read Excel 2007 spreadsheets."
 msgstr ""
 
 #. type: findex
@@ -4106,10 +4336,9 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:2307
 msgid ""
-"32-bit Windows package @CRANpkg{xlsReadWrite} from "
-"@uref{http://www.swissr.org/} and CRAN has a function @code{read.xls} to "
-"read @file{.xls} files (based on a third-party non-Open-Source Delphi "
-"component)."
+"32-bit Windows package @CRANpkg{xlsReadWrite} from @uref{http://www.swissr."
+"org/} and CRAN has a function @code{read.xls} to read @file{.xls} files "
+"(based on a third-party non-Open-Source Delphi component)."
 msgstr ""
 
 #. type: findex
@@ -4196,8 +4425,8 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:2349
 msgid ""
-"M.@: Henning and S.@: Vinoski (1999) @emph{Advanced CORBA Programming with "
-"C++.} Addison-Wesley."
+"M.@: Henning and S.@: Vinoski (1999) @emph{Advanced CORBA Programming with C+"
+"+.} Addison-Wesley."
 msgstr ""
 
 #. type: Plain text
@@ -4208,9 +4437,9 @@ msgstr ""
 #. type: Plain text
 #: R-data.texi:2357
 msgid ""
-"B.@: Momjian (2000) @emph{PostgreSQL: Introduction and Concepts.} "
-"Addison-Wesley.  Also available at "
-"@uref{http://momjian.us/main/writings/pgsql/aw_pgsql_book/}."
+"B.@: Momjian (2000) @emph{PostgreSQL: Introduction and Concepts.} Addison-"
+"Wesley.  Also available at @uref{http://momjian.us/main/writings/pgsql/"
+"aw_pgsql_book/}."
 msgstr ""
 
 #. type: Plain text
