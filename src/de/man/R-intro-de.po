@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-07-22 02:09-0600\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2015-07-23 16:15+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language: de\n"
@@ -24,40 +24,44 @@ msgstr ""
 #: R-intro.texi:70
 #, no-wrap
 msgid "An Introduction to R"
-msgstr "Eine Einführung in R (German)"
+msgstr ""
+"Eine Einführung in R\n"
+"(Original: An Introduction to R\n"
+"http://cran.r-project.org/doc/manuals/R-intro.pdf)\n"
+"Übersetzung durch Detlef Steuer"
 
 #. type: dircategory
 #: R-intro.texi:14
 #, no-wrap
 msgid "Programming"
-msgstr ""
+msgstr "Programmierung"
 
 #. type: menuentry
 #: R-intro.texi:17
 msgid "R Introduction: (R-intro)"
-msgstr ""
+msgstr "R Einführung (R-Intro)"
 
 #. type: menuentry
 #: R-intro.texi:17
 msgid "An introduction to R."
-msgstr ""
+msgstr "Eine Einführung in R"
 
 #. type: include
 #: R-intro.texi:21
 #, no-wrap
 msgid "R-defs.texi"
-msgstr ""
+msgstr "R-defs.texi"
 
 #. type: include
 #: R-intro.texi:22
 #, no-wrap
 msgid "version.texi"
-msgstr ""
+msgstr "version.texi"
 
 #. type: copying
 #: R-intro.texi:26
 msgid "This manual is for R, version @value{VERSION}."
-msgstr ""
+msgstr "Dieses Handbuch ist für R, Version @value{Version}"
 
 #. type: copying
 #: R-intro.texi:32
@@ -67,35 +71,39 @@ msgid ""
 "Gentleman & R.@: Ihaka@* Copyright @copyright{} 1997, 1998 M.@: Maechler@* "
 "@Rcopyright{1999}"
 msgstr ""
+"Copyright @copyright{} 1990 W.@: N.@: Venables@* Copyright @copyright{} 1992 \n"
+"W.@: N.@: Venables & D.@: M.@: Smith@* Copyright @copyright{} 1997 R.@: \n"
+"Gentleman & R.@: Ihaka@* Copyright @copyright{} 1997, 1998 M.@: Maechler@* \n"
+"@Rcopyright{1999}\n"
 
 #. type: quotation
 #: R-intro.texi:35
 msgid "@permission{}"
-msgstr ""
+msgstr "@permission{}"
 
 #. type: subtitle
 #: R-intro.texi:53
 #, no-wrap
 msgid "Notes on @R{}: A Programming Environment for Data Analysis and Graphics"
-msgstr ""
+msgstr "Bemerkungen zu @R{}: Eine Programmierumgebung für Datenanalyse und Grafik"
 
 #. type: subtitle
 #: R-intro.texi:54
 #, no-wrap
 msgid "Version @value{VERSION}"
-msgstr ""
+msgstr "Version @value{VERSION}"
 
 #. type: author
 #: R-intro.texi:55
 #, no-wrap
 msgid "W. N. Venables, D. M. Smith"
-msgstr ""
+msgstr "W. N. Venables, D. M. Smith"
 
 #. type: author
 #: R-intro.texi:56
 #, no-wrap
 msgid "and the R Core Team"
-msgstr ""
+msgstr "und das R-Core-Team"
 
 #. type: node
 #: R-intro.texi:69
@@ -122,7 +130,7 @@ msgstr ""
 #: R-intro.texi:7661
 #, no-wrap
 msgid "Top"
-msgstr ""
+msgstr "Top"
 
 #. type: node
 #: R-intro.texi:69
@@ -132,13 +140,13 @@ msgstr ""
 #: R-intro.texi:142
 #, no-wrap
 msgid "Preface"
-msgstr ""
+msgstr "Vorwort"
 
 #. type: node
 #: R-intro.texi:69
 #, no-wrap
 msgid "(dir)"
-msgstr ""
+msgstr "(dir)"
 
 #. type: ifnottex
 #: R-intro.texi:80
@@ -151,13 +159,15 @@ msgid ""
 "statistical and graphical techniques (linear and nonlinear modelling, "
 "statistical tests, time series analysis, classification, clustering, ...)."
 msgstr ""
-"Dies ist eine Einführung in R (` `GNU S ''), eine Sprache und Umgebung "
-"fürstatistische Berechnungen und Grafiken. R ist ähnlich dempreisgekrönte "
-"@footnote{ACM Software Systems award, 1998: @uref{http://awards.acm.org/"
-"award_winners/chambers_6640862.cfm}.} S-System, die in den Bell Laboratories "
-"von John Chambers et al war es.stellt eine Vielzahl von statistische und "
-"graphische Techniken (linear undnichtlineare Modellierung, statistische "
-"Tests, Zeitreihenanalyse,Klassifizierung, Clustering, ...)."
+"Dies ist eine Einführung in R (` `GNU S ''), eine Sprache und Umgebung\n"
+"für statistische Berechnungen und Grafiken. R ist ähnlich dem\n"
+"preisgekrönten @footnote{ACM Software Systems award, 1998:\n"
+"@uref{http://awards.acm.org/award_winners/chambers_6640862.cfm}.}\n"
+"S-System, welches bei den Bell Laboratories von John Chambers et al\n"
+"entwickelt wurde. Es stellt eine Vielzahl von statistischen und\n"
+"graphischen Techniken (lineare und nichtlineare Modellierung,\n"
+"statistische Tests, Zeitreihenanalyse, Klassifikation, Cluster-Analyse,\n"
+"...) zur Verfügung."
 
 #. type: ifnottex
 #: R-intro.texi:83
@@ -165,8 +175,8 @@ msgid ""
 "This manual provides information on data types, programming elements, "
 "statistical modelling and graphics."
 msgstr ""
-"Dieses Handbuch enthält Informationen über Datentypen, "
-"Programmierelementestatistische Modellierung und Grafiken."
+"Dieses Handbuch enthält Informationen über Datentypen,\n"
+"Programmierelemente, statistische Modellierung und Grafiken."
 
 #. type: node
 #: R-intro.texi:110
@@ -187,7 +197,7 @@ msgstr ""
 #: R-intro.texi:576
 #, no-wrap
 msgid "Introduction and preliminaries"
-msgstr ""
+msgstr "Einführung und vorbereitenede Bemerkungen"
 
 #. type: node
 #: R-intro.texi:110
@@ -204,7 +214,7 @@ msgstr ""
 #: R-intro.texi:1180
 #, no-wrap
 msgid "Simple manipulations numbers and vectors"
-msgstr ""
+msgstr "Einfache Operationen mit Zahlen und Vektoren"
 
 #. type: node
 #: R-intro.texi:110
@@ -218,7 +228,7 @@ msgstr ""
 #: R-intro.texi:1407
 #, no-wrap
 msgid "Objects"
-msgstr ""
+msgstr "Objekte"
 
 #. type: cindex
 #: R-intro.texi:110
@@ -231,7 +241,7 @@ msgstr ""
 #: R-intro.texi:4440
 #, no-wrap
 msgid "Factors"
-msgstr ""
+msgstr "Faktoren"
 
 #. type: node
 #: R-intro.texi:110
@@ -251,7 +261,7 @@ msgstr ""
 #: R-intro.texi:2374
 #, no-wrap
 msgid "Arrays and matrices"
-msgstr ""
+msgstr "Felder und Matrizen"
 
 #. type: node
 #: R-intro.texi:110
@@ -264,7 +274,7 @@ msgstr ""
 #: R-intro.texi:2719
 #, no-wrap
 msgid "Lists and data frames"
-msgstr ""
+msgstr "Listen und Data-Frames"
 
 #. type: node
 #: R-intro.texi:110
@@ -279,7 +289,7 @@ msgstr ""
 #: R-intro.texi:2954
 #, no-wrap
 msgid "Reading data from files"
-msgstr ""
+msgstr "Einlesen von Daten aus Dateien"
 
 #. type: node
 #: R-intro.texi:110
@@ -293,7 +303,7 @@ msgstr ""
 #: R-intro.texi:3358
 #, no-wrap
 msgid "Probability distributions"
-msgstr ""
+msgstr "Verteilungsfunktionen"
 
 #. type: node
 #: R-intro.texi:110
@@ -305,7 +315,7 @@ msgstr ""
 #: R-intro.texi:3503
 #, no-wrap
 msgid "Loops and conditional execution"
-msgstr ""
+msgstr "Schleifen und bedingte Ausführung"
 
 #. type: node
 #: R-intro.texi:110
@@ -324,7 +334,7 @@ msgstr ""
 #: R-intro.texi:4194
 #, no-wrap
 msgid "Writing your own functions"
-msgstr ""
+msgstr "Schreiben eigener Funktionen"
 
 #. type: node
 #: R-intro.texi:110
@@ -342,7 +352,7 @@ msgstr ""
 #: R-intro.texi:5336
 #, no-wrap
 msgid "Statistical models in R"
-msgstr ""
+msgstr "Statistische Modelle in R"
 
 #. type: node
 #: R-intro.texi:110
@@ -358,7 +368,7 @@ msgstr ""
 #: R-intro.texi:6419
 #, no-wrap
 msgid "Graphics"
-msgstr ""
+msgstr "Grafiken"
 
 #. type: node
 #: R-intro.texi:110
@@ -373,7 +383,7 @@ msgstr ""
 #: R-intro.texi:6548
 #, no-wrap
 msgid "Packages"
-msgstr ""
+msgstr "Pakete"
 
 #. type: node
 #: R-intro.texi:110
@@ -387,7 +397,7 @@ msgstr ""
 #: R-intro.texi:6736
 #, no-wrap
 msgid "OS facilities"
-msgstr ""
+msgstr "Fähigkeiten des OS"
 
 #. type: node
 #: R-intro.texi:110
@@ -397,7 +407,7 @@ msgstr ""
 #: R-intro.texi:6968
 #, no-wrap
 msgid "A sample session"
-msgstr ""
+msgstr "Eine Beispielsitzung"
 
 #. type: node
 #: R-intro.texi:110
@@ -411,7 +421,7 @@ msgstr ""
 #: R-intro.texi:7518
 #, no-wrap
 msgid "Invoking R"
-msgstr ""
+msgstr "Aufrufen von R"
 
 #. type: node
 #: R-intro.texi:110
@@ -421,7 +431,7 @@ msgstr ""
 #: R-intro.texi:7651
 #, no-wrap
 msgid "The command-line editor"
-msgstr ""
+msgstr "Der Kommandozeileneditor"
 
 #. type: node
 #: R-intro.texi:110
@@ -431,7 +441,7 @@ msgstr ""
 #: R-intro.texi:7656
 #, no-wrap
 msgid "Function and variable index"
-msgstr ""
+msgstr "Index für Funktionen und Variablen"
 
 #. type: node
 #: R-intro.texi:110
@@ -441,7 +451,7 @@ msgstr ""
 #: R-intro.texi:7661
 #, no-wrap
 msgid "Concept index"
-msgstr ""
+msgstr "Index der Konzepte"
 
 #. type: appendix
 #: R-intro.texi:110
@@ -450,7 +460,7 @@ msgstr ""
 #: R-intro.texi:7662
 #, no-wrap
 msgid "References"
-msgstr ""
+msgstr "Literatur"
 
 #. type: Plain text
 #: R-intro.texi:120
@@ -461,11 +471,12 @@ msgid ""
 "made a number of small changes to reflect differences between the @R{} and "
 "@Sl{} programs, and expanded some of the material."
 msgstr ""
-"Diese Einführung in @R{} wird von einer ursprünglichen Satz von Notizen "
-"abgeleitetBeschreibung der @Sl{} und @SPLUS{} Umgebungen in 1990--2 von Bill "
-"geschriebenVenables und David M. Smith, wenn an der University of Adelaide. "
-"Wir habeneine Reihe von kleinen Änderungen der Differenzen zwischen dem @R{} "
-"und beziehen sich auf@Sl{} Programme und expandiert ein Teil des Materials."
+"Diese Einführung in @R{} ist von einer Reihe von Notizen,\n"
+"welche eine Beschreibung der @Sl{} und @SPLUS{} Umgebungen\n"
+"beinhalteten, abgeleitet, die in 1990--2 von Bill Venables und David M. Smith\n"
+"an der University of Adelaide geschrieben wurden. Wir haben eine Reihe\n"
+"kleiner Änderung durchgeführt, um den Unterschieden zwischen @R{} und\n"
+"@Sl{} gerecht zu werden, sowie Teile des Materials erweitert."
 
 #. type: Plain text
 #: R-intro.texi:124
@@ -474,9 +485,10 @@ msgid ""
 "granting permission to distribute this modified version of the notes in this "
 "way, and for being a supporter of @R{} from way back."
 msgstr ""
-"Wir möchten uns herzlich bei Bill Venables (und David Smith) für "
-"erweiternGewährung berechtigt, die modifizierte Version die Hinweise in "
-"diese zu verteilenSo, und dafür, dass ein Anhänger der @R{} von damals."
+"Wir möchten uns herzlich bei Bill Venables (und David Smith) für die\n"
+"Erlaubnis bedanken, diese modifizierte Version der Notizen in dieser\n"
+"Form zu publizieren, und dafür, dass für die Unterstützung von @R{}\n"
+"von Anfang an."
 
 #. type: Plain text
 #: R-intro.texi:127
