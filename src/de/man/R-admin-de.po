@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-20 22:47-0600\n"
+"POT-Creation-Date: 2015-07-23 14:27-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
@@ -18,9 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 
-
 #. type: top
-#: R-admin.texi:4 R-admin.texi:32 R-admin.texi:50
+#: R-admin.texi:4
+#: R-admin.texi:32
+#: R-admin.texi:50
 #, no-wrap
 msgid "R Installation and Administration"
 msgstr ""
@@ -81,19 +82,42 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:49 R-admin.texi:77 R-admin.texi:77 R-admin.texi:223 R-admin.texi:1035 R-admin.texi:1605 R-admin.texi:1770 R-admin.texi:1819 R-admin.texi:2446 R-admin.texi:2672 R-admin.texi:2748 R-admin.texi:2961 R-admin.texi:3782 R-admin.texi:4265 R-admin.texi:5502 R-admin.texi:5749 R-admin.texi:5754 R-admin.texi:5759
+#: R-admin.texi:49
+#: R-admin.texi:77
+#: R-admin.texi:223
+#: R-admin.texi:1035
+#: R-admin.texi:1605
+#: R-admin.texi:1770
+#: R-admin.texi:1819
+#: R-admin.texi:2446
+#: R-admin.texi:2672
+#: R-admin.texi:2748
+#: R-admin.texi:2961
+#: R-admin.texi:3782
+#: R-admin.texi:4265
+#: R-admin.texi:5502
+#: R-admin.texi:5749
+#: R-admin.texi:5754
+#: R-admin.texi:5759
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:49 R-admin.texi:75 R-admin.texi:77 R-admin.texi:78 R-admin.texi:79 R-admin.texi:90 R-admin.texi:90 R-admin.texi:139 R-admin.texi:223
+#: R-admin.texi:49
+#: R-admin.texi:75
+#: R-admin.texi:77
+#: R-admin.texi:78
+#: R-admin.texi:79
+#: R-admin.texi:90
+#: R-admin.texi:139
+#: R-admin.texi:223
 #, no-wrap
 msgid "Obtaining R"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:49 R-admin.texi:49
+#: R-admin.texi:49
 #, no-wrap
 msgid "(dir)"
 msgstr ""
@@ -104,91 +128,198 @@ msgid "This is a guide to installation and administration for R."
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:77 R-admin.texi:223 R-admin.texi:224 R-admin.texi:265 R-admin.texi:265 R-admin.texi:397 R-admin.texi:422 R-admin.texi:579 R-admin.texi:757 R-admin.texi:784 R-admin.texi:913 R-admin.texi:940 R-admin.texi:1035
+#: R-admin.texi:75
+#: R-admin.texi:77
+#: R-admin.texi:223
+#: R-admin.texi:224
+#: R-admin.texi:265
+#: R-admin.texi:397
+#: R-admin.texi:422
+#: R-admin.texi:579
+#: R-admin.texi:757
+#: R-admin.texi:784
+#: R-admin.texi:913
+#: R-admin.texi:940
+#: R-admin.texi:1035
 #, no-wrap
 msgid "Installing R under Unix-alikes"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:223 R-admin.texi:1035 R-admin.texi:1036 R-admin.texi:1065 R-admin.texi:1065 R-admin.texi:1572 R-admin.texi:1605
+#: R-admin.texi:75
+#: R-admin.texi:223
+#: R-admin.texi:1035
+#: R-admin.texi:1036
+#: R-admin.texi:1065
+#: R-admin.texi:1572
+#: R-admin.texi:1605
 #, no-wrap
 msgid "Installing R under Windows"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:1035 R-admin.texi:1605 R-admin.texi:1606 R-admin.texi:1652 R-admin.texi:1652 R-admin.texi:1705 R-admin.texi:1743 R-admin.texi:1770
+#: R-admin.texi:75
+#: R-admin.texi:1035
+#: R-admin.texi:1605
+#: R-admin.texi:1606
+#: R-admin.texi:1652
+#: R-admin.texi:1705
+#: R-admin.texi:1743
+#: R-admin.texi:1770
 #, no-wrap
 msgid "Installing R under OS X"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:1605 R-admin.texi:1770 R-admin.texi:1771 R-admin.texi:1819
+#: R-admin.texi:75
+#: R-admin.texi:1605
+#: R-admin.texi:1770
+#: R-admin.texi:1771
+#: R-admin.texi:1819
 #, no-wrap
 msgid "Running R"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:1770 R-admin.texi:1819 R-admin.texi:1820 R-admin.texi:1842 R-admin.texi:1842 R-admin.texi:1868 R-admin.texi:1910 R-admin.texi:2262 R-admin.texi:2296 R-admin.texi:2319 R-admin.texi:2389 R-admin.texi:2446
+#: R-admin.texi:75
+#: R-admin.texi:1770
+#: R-admin.texi:1819
+#: R-admin.texi:1820
+#: R-admin.texi:1842
+#: R-admin.texi:1868
+#: R-admin.texi:1910
+#: R-admin.texi:2262
+#: R-admin.texi:2296
+#: R-admin.texi:2319
+#: R-admin.texi:2389
+#: R-admin.texi:2446
 #, no-wrap
 msgid "Add-on packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:1819 R-admin.texi:2446 R-admin.texi:2448 R-admin.texi:2479 R-admin.texi:2479 R-admin.texi:2579 R-admin.texi:2672
+#: R-admin.texi:75
+#: R-admin.texi:1819
+#: R-admin.texi:2446
+#: R-admin.texi:2448
+#: R-admin.texi:2479
+#: R-admin.texi:2579
+#: R-admin.texi:2672
 #, no-wrap
 msgid "Internationalization"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:2446 R-admin.texi:2672 R-admin.texi:2673 R-admin.texi:2748
+#: R-admin.texi:75
+#: R-admin.texi:2446
+#: R-admin.texi:2672
+#: R-admin.texi:2673
+#: R-admin.texi:2748
 #, no-wrap
 msgid "Choosing between 32- and 64-bit builds"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:2672 R-admin.texi:2748 R-admin.texi:2749 R-admin.texi:2823 R-admin.texi:2823 R-admin.texi:2884 R-admin.texi:2961
+#: R-admin.texi:75
+#: R-admin.texi:2672
+#: R-admin.texi:2748
+#: R-admin.texi:2749
+#: R-admin.texi:2823
+#: R-admin.texi:2884
+#: R-admin.texi:2961
 #, no-wrap
 msgid "The standalone Rmath library"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:2748 R-admin.texi:2961 R-admin.texi:2962 R-admin.texi:2980 R-admin.texi:2980 R-admin.texi:3117 R-admin.texi:3352 R-admin.texi:3782
+#: R-admin.texi:75
+#: R-admin.texi:2748
+#: R-admin.texi:2961
+#: R-admin.texi:2962
+#: R-admin.texi:2980
+#: R-admin.texi:3117
+#: R-admin.texi:3352
+#: R-admin.texi:3782
 #, no-wrap
 msgid "Essential and useful other programs under a Unix-alike"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:2961 R-admin.texi:3782 R-admin.texi:3783 R-admin.texi:3796 R-admin.texi:3796 R-admin.texi:3869 R-admin.texi:3886 R-admin.texi:4006 R-admin.texi:4016 R-admin.texi:4041 R-admin.texi:4145 R-admin.texi:4226 R-admin.texi:4265
+#: R-admin.texi:75
+#: R-admin.texi:2961
+#: R-admin.texi:3782
+#: R-admin.texi:3783
+#: R-admin.texi:3796
+#: R-admin.texi:3869
+#: R-admin.texi:3886
+#: R-admin.texi:4006
+#: R-admin.texi:4016
+#: R-admin.texi:4041
+#: R-admin.texi:4145
+#: R-admin.texi:4226
+#: R-admin.texi:4265
 #, no-wrap
 msgid "Configuration on a Unix-alike"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:3782 R-admin.texi:4265 R-admin.texi:4266 R-admin.texi:4308 R-admin.texi:4308 R-admin.texi:4396 R-admin.texi:4601 R-admin.texi:4945 R-admin.texi:5232 R-admin.texi:5379 R-admin.texi:5385 R-admin.texi:5440 R-admin.texi:5502
+#: R-admin.texi:75
+#: R-admin.texi:3782
+#: R-admin.texi:4265
+#: R-admin.texi:4266
+#: R-admin.texi:4308
+#: R-admin.texi:4396
+#: R-admin.texi:4601
+#: R-admin.texi:4945
+#: R-admin.texi:5232
+#: R-admin.texi:5379
+#: R-admin.texi:5385
+#: R-admin.texi:5440
+#: R-admin.texi:5502
 #, no-wrap
 msgid "Platform notes"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:4265 R-admin.texi:5502 R-admin.texi:5503 R-admin.texi:5595 R-admin.texi:5595 R-admin.texi:5626 R-admin.texi:5638 R-admin.texi:5695 R-admin.texi:5730 R-admin.texi:5749
+#: R-admin.texi:75
+#: R-admin.texi:4265
+#: R-admin.texi:5502
+#: R-admin.texi:5503
+#: R-admin.texi:5595
+#: R-admin.texi:5626
+#: R-admin.texi:5638
+#: R-admin.texi:5695
+#: R-admin.texi:5730
+#: R-admin.texi:5749
 #, no-wrap
 msgid "The Windows toolset"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:5502 R-admin.texi:5749 R-admin.texi:5750 R-admin.texi:5754
+#: R-admin.texi:75
+#: R-admin.texi:5502
+#: R-admin.texi:5749
+#: R-admin.texi:5750
+#: R-admin.texi:5754
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75 R-admin.texi:5749 R-admin.texi:5754 R-admin.texi:5755 R-admin.texi:5759
+#: R-admin.texi:75
+#: R-admin.texi:5749
+#: R-admin.texi:5754
+#: R-admin.texi:5755
+#: R-admin.texi:5759
 #, no-wrap
 msgid "Concept index"
 msgstr ""
 
 #. type: unnumbered
-#: R-admin.texi:75 R-admin.texi:5754 R-admin.texi:5759 R-admin.texi:5760
+#: R-admin.texi:75
+#: R-admin.texi:5754
+#: R-admin.texi:5759
+#: R-admin.texi:5760
 #, no-wrap
 msgid "Environment variable index"
 msgstr ""
@@ -202,13 +333,20 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:88 R-admin.texi:90 R-admin.texi:91 R-admin.texi:139
+#: R-admin.texi:88
+#: R-admin.texi:90
+#: R-admin.texi:91
+#: R-admin.texi:139
 #, no-wrap
 msgid "Getting and unpacking the sources"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:88 R-admin.texi:90 R-admin.texi:139 R-admin.texi:140 R-admin.texi:160 R-admin.texi:160
+#: R-admin.texi:88
+#: R-admin.texi:90
+#: R-admin.texi:139
+#: R-admin.texi:140
+#: R-admin.texi:160
 #, no-wrap
 msgid "Getting patched and development versions"
 msgstr ""
@@ -222,8 +360,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:96
 msgid ""
-"The simplest way is to download the most recent "
-"@file{R-@var{x}.@var{y}.@var{z}.tar.gz} file, and unpack it with"
+"The simplest way is to download the most recent @file{R-@var{x}.@var{y}."
+"@var{z}.tar.gz} file, and unpack it with"
 msgstr ""
 
 #. type: example
@@ -260,8 +398,8 @@ msgstr ""
 #: R-admin.texi:120
 msgid ""
 "If you want the build to be usable by a group of users, set @code{umask} "
-"before unpacking so that the files will be readable by the target group "
-"(e.g.,@: @code{umask 022} to be usable by all users).  Keep this setting of "
+"before unpacking so that the files will be readable by the target group (e."
+"g.,@: @code{umask 022} to be usable by all users).  Keep this setting of "
 "@code{umask} whilst building and installing."
 msgstr ""
 
@@ -286,7 +424,8 @@ msgid "and perhaps also include the option @option{--no-same-permissions}."
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:132 R-admin.texi:1149
+#: R-admin.texi:132
+#: R-admin.texi:1149
 #, no-wrap
 msgid "TAR_OPTIONS"
 msgstr ""
@@ -313,21 +452,24 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:155
 msgid ""
-"The tarballs are available from "
-"@uref{ftp://ftp.stat.math.ethz.ch/@/pub/@/Software/R/}.  Download "
-"@file{R-patched.tar.gz} or @file{R-devel.tar.gz} (or the @file{.tar.bz2} "
-"versions) and unpack as described in the previous section.  They are built "
-"in exactly the same way as distributions of R releases."
+"The tarballs are available from @uref{ftp://ftp.stat.math.ethz.ch/@/pub/@/"
+"Software/R/}.  Download @file{R-patched.tar.gz} or @file{R-devel.tar.gz} (or "
+"the @file{.tar.bz2} versions) and unpack as described in the previous "
+"section.  They are built in exactly the same way as distributions of R "
+"releases."
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:158 R-admin.texi:160 R-admin.texi:161
+#: R-admin.texi:158
+#: R-admin.texi:160
+#: R-admin.texi:161
 #, no-wrap
 msgid "Using Subversion and rsync"
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:162 R-admin.texi:3087
+#: R-admin.texi:162
+#: R-admin.texi:3087
 #, no-wrap
 msgid "Subversion"
 msgstr ""
@@ -336,13 +478,12 @@ msgstr ""
 #: R-admin.texi:173
 msgid ""
 "Sources are also available via @uref{https://svn.R-project.org/R/}, the R "
-"Subversion repository.  If you have a Subversion client (see "
-"@uref{http://subversion.apache.org/}), you can check out and update the "
-"current @samp{r-devel} from @uref{https://svn.r-project.org/@/R/@/trunk/} "
-"and the current @samp{r-patched} from "
-"@samp{https://svn.r-project.org/@/R/@/branches/@/R-@var{x}-@var{y}-branch/} "
-"(where @var{x} and @var{y} are the major and minor number of the current "
-"released version of R).  E.g., use"
+"Subversion repository.  If you have a Subversion client (see @uref{http://"
+"subversion.apache.org/}), you can check out and update the current @samp{r-"
+"devel} from @uref{https://svn.r-project.org/@/R/@/trunk/} and the current "
+"@samp{r-patched} from @samp{https://svn.r-project.org/@/R/@/branches/@/R-"
+"@var{x}-@var{y}-branch/} (where @var{x} and @var{y} are the major and minor "
+"number of the current released version of R).  E.g., use"
 msgstr ""
 
 #. type: example
@@ -356,9 +497,8 @@ msgstr ""
 msgid ""
 "to check out @samp{r-devel} into directory @var{path} (which will be created "
 "if necessary).  The alpha, beta and RC versions of an upcoming @var{x.y.0} "
-"release are available from "
-"@samp{https://svn.r-project.org/R/branches/R-@var{x}-@var{y}-branch/} in the "
-"four-week period prior to the release."
+"release are available from @samp{https://svn.r-project.org/R/branches/R-"
+"@var{x}-@var{y}-branch/} in the four-week period prior to the release."
 msgstr ""
 
 #. type: Plain text
@@ -398,11 +538,11 @@ msgid ""
 "@var{dir} is @samp{@var{x}.@var{y}.@var{z}/Recommended} for r-devel or "
 "@file{@var{x}.@var{y}-patched/Recommended} for r-patched, respectively, to "
 "directory @file{src/library/Recommended} in the sources you have unpacked.  "
-"After downloading manually you need to execute "
-"@command{tools/link-recommended} from the top level of the sources to make "
-"the requisite links in @file{src/library/Recommended}.  A suitable "
-"incantation from the top level of the R sources using @command{wget} might "
-"be (for the correct value of @file{@var{dir}})"
+"After downloading manually you need to execute @command{tools/link-"
+"recommended} from the top level of the sources to make the requisite links "
+"in @file{src/library/Recommended}.  A suitable incantation from the top "
+"level of the R sources using @command{wget} might be (for the correct value "
+"of @file{@var{dir}})"
 msgstr ""
 
 #. type: example
@@ -428,22 +568,43 @@ msgid ""
 "@cputype{arm}, @cputype{hppa}, @cputype{ix86}, @cputype{ia64}, "
 "@cputype{m68k}, @cputype{mips}, @cputype{mipsel}, @cputype{powerpc}, "
 "@cputype{s390}, @cputype{sparc}, and @cputype{x86_64} @acronym{CPU}s, "
-"@samp{x86_64-@/apple-@/darwin}, @samp{i386-@/sun-@/solaris} and "
-"@samp{sparc-@/sun-@/solaris} as well as perhaps (it is tested less "
-"frequently on these platforms)  @samp{i386-@/apple-@/darwin}, "
-"@samp{i386-@/*-@/freebsd}, @samp{x86_64-@/*-@/freebsd}, "
-"@samp{i386-@/*-@/netbsd}, @samp{i386-@/*-@/openbsd} and "
-"@samp{powerpc-@/ibm-@/aix6*}"
+"@samp{x86_64-@/apple-@/darwin}, @samp{i386-@/sun-@/solaris} and @samp{sparc-"
+"@/sun-@/solaris} as well as perhaps (it is tested less frequently on these "
+"platforms)  @samp{i386-@/apple-@/darwin}, @samp{i386-@/*-@/freebsd}, "
+"@samp{x86_64-@/*-@/freebsd}, @samp{i386-@/*-@/netbsd}, @samp{i386-@/*-@/"
+"openbsd} and @samp{powerpc-@/ibm-@/aix6*}"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:244 R-admin.texi:4306 R-admin.texi:4308 R-admin.texi:4396 R-admin.texi:4397 R-admin.texi:4398 R-admin.texi:4506 R-admin.texi:4506 R-admin.texi:4524 R-admin.texi:4562 R-admin.texi:4601
+#: R-admin.texi:244
+#: R-admin.texi:4306
+#: R-admin.texi:4308
+#: R-admin.texi:4396
+#: R-admin.texi:4397
+#: R-admin.texi:4398
+#: R-admin.texi:4506
+#: R-admin.texi:4524
+#: R-admin.texi:4562
+#: R-admin.texi:4601
 #, no-wrap
 msgid "Linux"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:245 R-admin.texi:1607 R-admin.texi:2093 R-admin.texi:4306 R-admin.texi:4396 R-admin.texi:4601 R-admin.texi:4602 R-admin.texi:4603 R-admin.texi:4723 R-admin.texi:4723 R-admin.texi:4783 R-admin.texi:4825 R-admin.texi:4887 R-admin.texi:4917 R-admin.texi:4945
+#: R-admin.texi:245
+#: R-admin.texi:1607
+#: R-admin.texi:2093
+#: R-admin.texi:4306
+#: R-admin.texi:4396
+#: R-admin.texi:4601
+#: R-admin.texi:4602
+#: R-admin.texi:4603
+#: R-admin.texi:4723
+#: R-admin.texi:4783
+#: R-admin.texi:4825
+#: R-admin.texi:4887
+#: R-admin.texi:4917
+#: R-admin.texi:4945
 #, no-wrap
 msgid "OS X"
 msgstr ""
@@ -465,49 +626,80 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:265 R-admin.texi:266 R-admin.texi:397
+#: R-admin.texi:263
+#: R-admin.texi:265
+#: R-admin.texi:266
+#: R-admin.texi:397
 #, no-wrap
 msgid "Simple compilation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:265 R-admin.texi:397 R-admin.texi:398 R-admin.texi:422
+#: R-admin.texi:263
+#: R-admin.texi:265
+#: R-admin.texi:397
+#: R-admin.texi:398
+#: R-admin.texi:422
 #, no-wrap
 msgid "Help options"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:397 R-admin.texi:422 R-admin.texi:423 R-admin.texi:579
+#: R-admin.texi:263
+#: R-admin.texi:397
+#: R-admin.texi:422
+#: R-admin.texi:423
+#: R-admin.texi:579
 #, no-wrap
 msgid "Making the manuals"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:422 R-admin.texi:579 R-admin.texi:580 R-admin.texi:581 R-admin.texi:757
+#: R-admin.texi:263
+#: R-admin.texi:422
+#: R-admin.texi:579
+#: R-admin.texi:580
+#: R-admin.texi:581
+#: R-admin.texi:757
 #, no-wrap
 msgid "Installation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:579 R-admin.texi:757 R-admin.texi:758 R-admin.texi:784
+#: R-admin.texi:263
+#: R-admin.texi:579
+#: R-admin.texi:757
+#: R-admin.texi:758
+#: R-admin.texi:784
 #, no-wrap
 msgid "Uninstallation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:757 R-admin.texi:784 R-admin.texi:785 R-admin.texi:867 R-admin.texi:867 R-admin.texi:913
+#: R-admin.texi:263
+#: R-admin.texi:757
+#: R-admin.texi:784
+#: R-admin.texi:785
+#: R-admin.texi:867
+#: R-admin.texi:913
 #, no-wrap
 msgid "Sub-architectures"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:784 R-admin.texi:913 R-admin.texi:914 R-admin.texi:940
+#: R-admin.texi:263
+#: R-admin.texi:784
+#: R-admin.texi:913
+#: R-admin.texi:914
+#: R-admin.texi:940
 #, no-wrap
 msgid "Other Options"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263 R-admin.texi:913 R-admin.texi:940
+#: R-admin.texi:263
+#: R-admin.texi:913
+#: R-admin.texi:940
 #, no-wrap
 msgid "Testing a Unix-alike Installation"
 msgstr ""
@@ -520,7 +712,11 @@ msgid ""
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:271 R-admin.texi:1221 R-admin.texi:1797 R-admin.texi:1810 R-admin.texi:1938
+#: R-admin.texi:271
+#: R-admin.texi:1221
+#: R-admin.texi:1797
+#: R-admin.texi:1810
+#: R-admin.texi:1938
 #, no-wrap
 msgid "TMPDIR"
 msgstr ""
@@ -555,7 +751,12 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-admin.texi:289 R-admin.texi:355 R-admin.texi:589 R-admin.texi:629 R-admin.texi:3889 R-admin.texi:4036
+#: R-admin.texi:289
+#: R-admin.texi:355
+#: R-admin.texi:589
+#: R-admin.texi:629
+#: R-admin.texi:3889
+#: R-admin.texi:4036
 #, no-wrap
 msgid "configure"
 msgstr ""
@@ -590,7 +791,8 @@ msgid "Then check the built system works correctly by"
 msgstr ""
 
 #. type: example
-#: R-admin.texi:311 R-admin.texi:1336
+#: R-admin.texi:311
+#: R-admin.texi:1336
 #, no-wrap
 msgid "make check\n"
 msgstr ""
@@ -612,18 +814,22 @@ msgid "More comprehensive testing can be done by"
 msgstr ""
 
 #. type: example
-#: R-admin.texi:326 R-admin.texi:1350
+#: R-admin.texi:326
+#: R-admin.texi:1350
 #, no-wrap
 msgid "make check-devel\n"
 msgstr ""
 
 #. type: Plain text
-#: R-admin.texi:330 R-admin.texi:555 R-admin.texi:4795
+#: R-admin.texi:330
+#: R-admin.texi:555
+#: R-admin.texi:4795
 msgid "or"
 msgstr ""
 
 #. type: example
-#: R-admin.texi:333 R-admin.texi:1357
+#: R-admin.texi:333
+#: R-admin.texi:1357
 #, no-wrap
 msgid "make check-all\n"
 msgstr ""
@@ -693,8 +899,8 @@ msgid ""
 "@R{} replaces or comes earlier in your path than the previous installation.  "
 "Some systems are set up to have @file{/usr/bin} (the standard place for a "
 "system installation) ahead of @file{/usr/local/bin} (the default place for "
-"installation of @R{}) in their default path, and some do not have "
-"@file{/usr/local/bin} on the default path."
+"installation of @R{}) in their default path, and some do not have @file{/usr/"
+"local/bin} on the default path."
 msgstr ""
 
 #. type: Plain text
@@ -851,8 +1057,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "make pdf      @r{to create PDF versions}\n"
-"make info     @r{to create info files (not @samp{refman} nor "
-"@samp{fullrefman}).}\n"
+"make info     @r{to create info files (not @samp{refman} nor @samp{fullrefman}).}\n"
 msgstr ""
 
 #. type: Plain text
@@ -861,11 +1066,11 @@ msgid ""
 "You will not be able to build any of these unless you have "
 "@command{texi2any} version 5.1 or later installed, and for PDF you must have "
 "@command{texi2dvi} and @file{texinfo.tex} installed (which are part of the "
-"@acronym{GNU} @pkg{texinfo} distribution but are, especially "
-"@file{texinfo.tex}, often made part of the @TeX{} package in "
-"re-distributions).  For historical reasons, the path to @command{texi2any} "
-"can be set by macro @samp{MAKEINFO} in @file{config.site} "
-"(@command{makeinfo} is nowadays a link to @command{texi2any})."
+"@acronym{GNU} @pkg{texinfo} distribution but are, especially @file{texinfo."
+"tex}, often made part of the @TeX{} package in re-distributions).  For "
+"historical reasons, the path to @command{texi2any} can be set by macro "
+"@samp{MAKEINFO} in @file{config.site} (@command{makeinfo} is nowadays a link "
+"to @command{texi2any})."
 msgstr ""
 
 #. type: Plain text
@@ -880,7 +1085,10 @@ msgid ""
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:474 R-admin.texi:1787 R-admin.texi:3941 R-admin.texi:4002
+#: R-admin.texi:474
+#: R-admin.texi:1787
+#: R-admin.texi:3941
+#: R-admin.texi:4002
 #, no-wrap
 msgid "R_PAPERSIZE"
 msgstr ""
@@ -890,18 +1098,17 @@ msgstr ""
 msgid ""
 "on the @command{make} command line, or setting @env{R_PAPERSIZE} in the "
 "environment and using @command{make -e}.  (If re-making the manuals for a "
-"different paper size, you should first delete the file "
-"@file{doc/manual/version.texi}.  The usual value for North America would be "
-"@samp{letter}.)"
+"different paper size, you should first delete the file @file{doc/manual/"
+"version.texi}.  The usual value for North America would be @samp{letter}.)"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:486
 msgid ""
-"There are some issues with making the PDF reference manual, "
-"@file{fullrefman.pdf} or @file{refman.pdf}.  The help files contain both ISO "
-"Latin1 characters (e.g.@: in @file{text.Rd}) and upright quotes, neither of "
-"which are contained in the standard @LaTeX{} Computer Modern fonts.  We have "
+"There are some issues with making the PDF reference manual, @file{fullrefman."
+"pdf} or @file{refman.pdf}.  The help files contain both ISO Latin1 "
+"characters (e.g.@: in @file{text.Rd}) and upright quotes, neither of which "
+"are contained in the standard @LaTeX{} Computer Modern fonts.  We have "
 "provided four alternatives:"
 msgstr ""
 
@@ -922,9 +1129,8 @@ msgid ""
 "@code{beramono}, which replace the Courier monospaced font by Inconsolata or "
 "Bera Sans mono respectively.  (You will need a recent version of the "
 "appropriate @LaTeX{} package @pkg{inconsolata}@footnote{Instructions on how "
-"to install the latest version are at "
-"@uref{http://www.ctan.org/tex-archive/fonts/inconsolata/}.} or @pkg{bera} "
-"installed.)"
+"to install the latest version are at @uref{http://www.ctan.org/tex-archive/"
+"fonts/inconsolata/}.} or @pkg{bera} installed.)"
 msgstr ""
 
 #. type: table
@@ -952,10 +1158,9 @@ msgstr ""
 #: R-admin.texi:515
 msgid ""
 "Using the @emph{Latin Modern} fonts.  These are not often installed as part "
-"of a @TeX{} distribution, but can obtained from "
-"@uref{http://www.ctan.org/@/tex-archive/@/fonts/@/ps-type1/@/lm/} and "
-"mirrors.  This uses fonts rather similar to Computer Modern, but is not so "
-"good on-screen as @code{times}."
+"of a @TeX{} distribution, but can obtained from @uref{http://www.ctan.org/@/"
+"tex-archive/@/fonts/@/ps-type1/@/lm/} and mirrors.  This uses fonts rather "
+"similar to Computer Modern, but is not so good on-screen as @code{times}."
 msgstr ""
 
 #. type: item
@@ -968,10 +1173,10 @@ msgstr ""
 #: R-admin.texi:522
 msgid ""
 "Using type-1 versions of the Computer Modern fonts by Vladimir Volovich.  "
-"This is a large installation, obtainable from "
-"@uref{http://www.ctan.org/@/tex-archive/@/fonts/@/ps-type1/@/cm-super/} and "
-"its mirrors.  These type-1 fonts have poor hinting and so are nowhere near "
-"as readable on-screen as the other three options."
+"This is a large installation, obtainable from @uref{http://www.ctan.org/@/"
+"tex-archive/@/fonts/@/ps-type1/@/cm-super/} and its mirrors.  These type-1 "
+"fonts have poor hinting and so are nowhere near as readable on-screen as the "
+"other three options."
 msgstr ""
 
 #. type: item
@@ -998,7 +1203,9 @@ msgid "The default can be overridden by setting the environment variable"
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:534 R-admin.texi:4001 R-admin.texi:5620
+#: R-admin.texi:534
+#: R-admin.texi:4001
+#: R-admin.texi:5620
 #, no-wrap
 msgid "R_RD4PDF"
 msgstr ""
@@ -1061,11 +1268,11 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:577
 msgid ""
-"This requires @command{ebook-convert} from @command{Calibre} "
-"(@uref{http://calibre-ebook.com/download}), or from most Linux "
-"distributions).  If necessary the path to @command{ebook-convert} can be set "
-"as make macro @env{EBOOK} to by editing @file{doc/manual/Makefile} (which "
-"contains a commented value suitable for OS X)."
+"This requires @command{ebook-convert} from @command{Calibre} (@uref{http://"
+"calibre-ebook.com/download}), or from most Linux distributions).  If "
+"necessary the path to @command{ebook-convert} can be set as make macro "
+"@env{EBOOK} to by editing @file{doc/manual/Makefile} (which contains a "
+"commented value suitable for OS X)."
 msgstr ""
 
 #. type: Plain text
@@ -1156,9 +1363,9 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:628
 msgid ""
-"where @var{prefix} is determined during configuration (typically "
-"@file{/usr/local}) and can be set by running @command{configure} with the "
-"option @option{--prefix}, as in"
+"where @var{prefix} is determined during configuration (typically @file{/usr/"
+"local}) and can be set by running @command{configure} with the option "
+"@option{--prefix}, as in"
 msgstr ""
 
 #. type: example
@@ -1256,7 +1463,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:688
-msgid "will use a version-specific @R{} home on a non-Debian Linux 64-bit system."
+msgid ""
+"will use a version-specific @R{} home on a non-Debian Linux 64-bit system."
 msgstr ""
 
 #. type: Plain text
@@ -1351,7 +1559,8 @@ msgid ""
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:742 R-admin.texi:2866
+#: R-admin.texi:742
+#: R-admin.texi:2866
 #, no-wrap
 msgid "DESTDIR"
 msgstr ""
@@ -1359,8 +1568,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:745
 msgid ""
-"final destination, and @env{DESTDIR} should be used: see "
-"@uref{http://www.gnu.org/@/prep/@/standards/@/html_node/@/DESTDIR.html}."
+"final destination, and @env{DESTDIR} should be used: see @uref{http://www."
+"gnu.org/@/prep/@/standards/@/html_node/@/DESTDIR.html}."
 msgstr ""
 
 #. type: Plain text
@@ -1371,13 +1580,15 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: R-admin.texi:751 R-admin.texi:947
+#: R-admin.texi:751
+#: R-admin.texi:947
 #, no-wrap
 msgid "make install-tests\n"
 msgstr ""
 
 #. type: Plain text
-#: R-admin.texi:755 R-admin.texi:951
+#: R-admin.texi:755
+#: R-admin.texi:951
 msgid "which populates a @file{tests} directory in the installation."
 msgstr ""
 
@@ -1449,9 +1660,9 @@ msgid ""
 "If you have two or more such builds you can install them over each other "
 "(and for 32/64-bit builds on one architecture, one build can be done without "
 "@samp{r_arch}).  The space savings can be considerable: on @cputype{x86_64} "
-"Linux a basic install (without debugging symbols) took 74Mb, and adding a "
-"32-bit build added 6Mb.  If you have installed multiple builds you can "
-"select which build to run by"
+"Linux a basic install (without debugging symbols) took 74Mb, and adding a 32-"
+"bit build added 6Mb.  If you have installed multiple builds you can select "
+"which build to run by"
 msgstr ""
 
 #. type: example
@@ -1495,15 +1706,16 @@ msgstr ""
 msgid ""
 "When sub-architectures are used the version of @command{Rscript} in e.g.@: "
 "@file{/usr/bin} will be the last installed, but architecture-specific "
-"versions will be available in e.g.@: "
-"@file{/usr/lib64/R/bin/exec$@{@var{R_ARCH}@}}.  Normally all installed "
-"architectures will run on the platform so the architecture of "
-"@command{Rscript} itself does not matter.  The executable @command{Rscript} "
-"will run the @command{R} script, and at that time the"
+"versions will be available in e.g.@: @file{/usr/lib64/R/bin/exec"
+"$@{@var{R_ARCH}@}}.  Normally all installed architectures will run on the "
+"platform so the architecture of @command{Rscript} itself does not matter.  "
+"The executable @command{Rscript} will run the @command{R} script, and at "
+"that time the"
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:836 R-admin.texi:856
+#: R-admin.texi:836
+#: R-admin.texi:856
 #, no-wrap
 msgid "R_ARCH"
 msgstr ""
@@ -1545,14 +1757,16 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:862
 msgid ""
-"@env{R_ARCH} environment variable, then from the @option{--arch} "
-"command-line option@footnote{with possible values @samp{i386}, @samp{x64}, "
-"@samp{32} and @samp{64}.} and finally from the installation default (which "
-"is 32-bit for a combined 32/64 bit @R{} installation)."
+"@env{R_ARCH} environment variable, then from the @option{--arch} command-"
+"line option@footnote{with possible values @samp{i386}, @samp{x64}, @samp{32} "
+"and @samp{64}.} and finally from the installation default (which is 32-bit "
+"for a combined 32/64 bit @R{} installation)."
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:865 R-admin.texi:867 R-admin.texi:868
+#: R-admin.texi:865
+#: R-admin.texi:867
+#: R-admin.texi:868
 #, no-wrap
 msgid "Multilib"
 msgstr ""
@@ -1563,10 +1777,10 @@ msgid ""
 "On Linux@footnote{mainly on RedHat and Fedora, whose layout is described "
 "here.}, there is an alternative mechanism for mixing 32-bit and 64-bit "
 "libraries known as @emph{multilib}. If a Linux distribution supports "
-"multilib, then parallel builds of @R{} may be installed in the "
-"sub-directories @file{lib} (32-bit) and @file{lib64} (64-bit).  The build to "
-"be run may then be selected using the @command{setarch} command. For "
-"example, a 32-bit build may be run by"
+"multilib, then parallel builds of @R{} may be installed in the sub-"
+"directories @file{lib} (32-bit) and @file{lib64} (64-bit).  The build to be "
+"run may then be selected using the @command{setarch} command. For example, a "
+"32-bit build may be run by"
 msgstr ""
 
 #. type: example
@@ -1638,11 +1852,11 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:927
 msgid ""
-"One that may be useful when working on @R{} itself is the option "
-"@option{--disable-byte-compiled-packages}, which ensures that the base and "
-"recommended packages are lazyloaded but not byte-compiled.  (Alternatively "
-"the (make or environment) variable @env{R_NO_BASE_COMPILE} can be set to a "
-"non-empty value for the duration of the build.)"
+"One that may be useful when working on @R{} itself is the option @option{--"
+"disable-byte-compiled-packages}, which ensures that the base and recommended "
+"packages are lazyloaded but not byte-compiled.  (Alternatively the (make or "
+"environment) variable @env{R_NO_BASE_COMPILE} can be set to a non-empty "
+"value for the duration of the build.)"
 msgstr ""
 
 #. type: Plain text
@@ -1652,31 +1866,32 @@ msgid ""
 "of the Olson database for managing timezones.  This will be preferred where "
 "there are issues with the system implementation, usually involving times "
 "after 2037 or before 1916.  An alternative time-zone directory@footnote{How "
-"to prepare such a directory is described in file "
-"@file{src/extra/tzone/Notes} in the @R{} sources.} can be used, pointed to "
-"by environment variable @env{TZDIR}: this should contain files such as "
-"@file{Europe/London}.  On all tested OSes the system timezone was deduced "
-"correctly, but if necessary it can be set as the value of environment "
-"variable @env{TZ}."
+"to prepare such a directory is described in file @file{src/extra/tzone/"
+"Notes} in the @R{} sources.} can be used, pointed to by environment variable "
+"@env{TZDIR}: this should contain files such as @file{Europe/London}.  On all "
+"tested OSes the system timezone was deduced correctly, but if necessary it "
+"can be set as the value of environment variable @env{TZ}."
 msgstr ""
 
 #. type: section
-#: R-admin.texi:941 R-admin.texi:1573
+#: R-admin.texi:941
+#: R-admin.texi:1573
 #, no-wrap
 msgid "Testing an Installation"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:944
-msgid "Full testing is possible only if the test files have been installed with"
+msgid ""
+"Full testing is possible only if the test files have been installed with"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:955
 msgid ""
 "If this has been done, two testing routes are available.  The first is to "
-"move to the home directory of the @R{} installation (as given by "
-"@code{R.home()}) and run"
+"move to the home directory of the @R{} installation (as given by @code{R."
+"home()}) and run"
 msgstr ""
 
 #. type: example
@@ -1693,9 +1908,9 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:968
 msgid ""
-"and other useful targets are @code{test-BasePackages} and "
-"@code{test-Recommended} to the run tests of the standard and recommended "
-"packages (if installed) respectively."
+"and other useful targets are @code{test-BasePackages} and @code{test-"
+"Recommended} to the run tests of the standard and recommended packages (if "
+"installed) respectively."
 msgstr ""
 
 #. type: Plain text
@@ -1715,8 +1930,8 @@ msgid ""
 "Parallel checking of packages may be possible: set the environment variable "
 "@env{TEST_MC_CORES} to the maximum number of processes to be run in "
 "parallel.  This affects both checking the package examples (part of "
-"@command{make check}) and package sources (part of @command{make "
-"check-devel} and @command{make check-recommended}).  It does require a "
+"@command{make check}) and package sources (part of @command{make check-"
+"devel} and @command{make check-recommended}).  It does require a "
 "@command{make} command which supports the @command{make -j @var{n}} option: "
 "most do but on Solaris you need to select GNU @code{make} or @code{dmake}.  "
 "Where parallel checking of package sources is done, a log file "
@@ -1727,8 +1942,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:990
 msgid ""
-"Alternatively, the installed @R{} can be run, preferably with "
-"@option{--vanilla}.  Then"
+"Alternatively, the installed @R{} can be run, preferably with @option{--"
+"vanilla}.  Then"
 msgstr ""
 
 #. type: enindex
@@ -1782,9 +1997,9 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1022
 msgid ""
-"It is possible to test the installed packages (but not their "
-"package-specific tests) by @code{testInstalledPackages} even if "
-"@command{make install-tests} was not run."
+"It is possible to test the installed packages (but not their package-"
+"specific tests) by @code{testInstalledPackages} even if @command{make "
+"install-tests} was not run."
 msgstr ""
 
 #. type: Plain text
@@ -1849,19 +2064,34 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1059
 msgid ""
-"See the "
-"@uref{http://CRAN.R-project.org/@/bin/@/windows/@/base/@/rw-FAQ.html, R "
-"Windows @acronym{FAQ}} for more details on the binary installer."
+"See the @uref{http://CRAN.R-project.org/@/bin/@/windows/@/base/@/rw-FAQ."
+"html, R Windows @acronym{FAQ}} for more details on the binary installer."
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1063 R-admin.texi:1065 R-admin.texi:1066 R-admin.texi:1107 R-admin.texi:1107 R-admin.texi:1123 R-admin.texi:1218 R-admin.texi:1270 R-admin.texi:1288 R-admin.texi:1314 R-admin.texi:1329 R-admin.texi:1372 R-admin.texi:1407 R-admin.texi:1508 R-admin.texi:1554 R-admin.texi:1572
+#: R-admin.texi:1063
+#: R-admin.texi:1065
+#: R-admin.texi:1066
+#: R-admin.texi:1107
+#: R-admin.texi:1123
+#: R-admin.texi:1218
+#: R-admin.texi:1270
+#: R-admin.texi:1288
+#: R-admin.texi:1314
+#: R-admin.texi:1329
+#: R-admin.texi:1372
+#: R-admin.texi:1407
+#: R-admin.texi:1508
+#: R-admin.texi:1554
+#: R-admin.texi:1572
 #, no-wrap
 msgid "Building from source"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1063 R-admin.texi:1065 R-admin.texi:1572
+#: R-admin.texi:1063
+#: R-admin.texi:1065
+#: R-admin.texi:1572
 #, no-wrap
 msgid "Testing a Windows Installation"
 msgstr ""
@@ -1906,67 +2136,108 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1107 R-admin.texi:1108 R-admin.texi:1123
+#: R-admin.texi:1105
+#: R-admin.texi:1107
+#: R-admin.texi:1108
+#: R-admin.texi:1123
 #, no-wrap
 msgid "Getting the tools"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1107 R-admin.texi:1123 R-admin.texi:1124 R-admin.texi:1218
+#: R-admin.texi:1105
+#: R-admin.texi:1107
+#: R-admin.texi:1123
+#: R-admin.texi:1124
+#: R-admin.texi:1218
 #, no-wrap
 msgid "Getting the source files"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1123 R-admin.texi:1218 R-admin.texi:1219 R-admin.texi:1270
+#: R-admin.texi:1105
+#: R-admin.texi:1123
+#: R-admin.texi:1218
+#: R-admin.texi:1219
+#: R-admin.texi:1270
 #, no-wrap
 msgid "Building the core files"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1218 R-admin.texi:1270 R-admin.texi:1288
+#: R-admin.texi:1105
+#: R-admin.texi:1218
+#: R-admin.texi:1270
+#: R-admin.texi:1288
 #, no-wrap
 msgid "Building the cairo devices files"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1270 R-admin.texi:1288 R-admin.texi:1289 R-admin.texi:1314
+#: R-admin.texi:1105
+#: R-admin.texi:1270
+#: R-admin.texi:1288
+#: R-admin.texi:1289
+#: R-admin.texi:1314
 #, no-wrap
 msgid "Using ICU for collation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1288 R-admin.texi:1314 R-admin.texi:1315 R-admin.texi:1329
+#: R-admin.texi:1105
+#: R-admin.texi:1288
+#: R-admin.texi:1314
+#: R-admin.texi:1315
+#: R-admin.texi:1329
 #, no-wrap
 msgid "Support for libcurl"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1314 R-admin.texi:1329 R-admin.texi:1330 R-admin.texi:1372
+#: R-admin.texi:1105
+#: R-admin.texi:1314
+#: R-admin.texi:1329
+#: R-admin.texi:1330
+#: R-admin.texi:1372
 #, no-wrap
 msgid "Checking the build"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1329 R-admin.texi:1372 R-admin.texi:1373 R-admin.texi:1407
+#: R-admin.texi:1105
+#: R-admin.texi:1329
+#: R-admin.texi:1372
+#: R-admin.texi:1373
+#: R-admin.texi:1407
 #, no-wrap
 msgid "Building the manuals"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1372 R-admin.texi:1407 R-admin.texi:1408 R-admin.texi:1508
+#: R-admin.texi:1105
+#: R-admin.texi:1372
+#: R-admin.texi:1407
+#: R-admin.texi:1408
+#: R-admin.texi:1508
 #, no-wrap
 msgid "Building the Inno Setup installer"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105 R-admin.texi:1407 R-admin.texi:1508 R-admin.texi:1509 R-admin.texi:1554
+#: R-admin.texi:1105
+#: R-admin.texi:1407
+#: R-admin.texi:1508
+#: R-admin.texi:1509
+#: R-admin.texi:1554
 #, no-wrap
 msgid "Building the MSI installer"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:1105 R-admin.texi:1508 R-admin.texi:1554 R-admin.texi:1555
+#: R-admin.texi:1105
+#: R-admin.texi:1508
+#: R-admin.texi:1554
+#: R-admin.texi:1555
 #, no-wrap
 msgid "64-bit Windows builds"
 msgstr ""
@@ -1976,8 +2247,8 @@ msgstr ""
 msgid ""
 "If you want to build @R{} from the sources, you will first need to collect, "
 "install and test an extensive set of tools.  See @ref{The Windows toolset} "
-"(and perhaps updates in "
-"@uref{http://CRAN.R-project.org/bin/@/windows/@/Rtools/}) for details."
+"(and perhaps updates in @uref{http://CRAN.R-project.org/bin/@/windows/@/"
+"Rtools/}) for details."
 msgstr ""
 
 #. type: Plain text
@@ -2045,8 +2316,8 @@ msgstr ""
 msgid ""
 "If you are not using a tarball you need to obtain copies of the recommended "
 "packages from @acronym{CRAN}.  Put the @file{.tar.gz} files in "
-"@file{@var{R_HOME}/src/library/Recommended} and run @code{make "
-"link-recommended}.  If you have an Internet connection, you can do this "
+"@file{@var{R_HOME}/src/library/Recommended} and run @code{make link-"
+"recommended}.  If you have an Internet connection, you can do this "
 "automatically by running in @file{@var{R_HOME}/src/gnuwin32}"
 msgstr ""
 
@@ -2228,11 +2499,11 @@ msgstr ""
 #: R-admin.texi:1287
 msgid ""
 "To enable the building of these devices you need to install the static "
-"cairographics libraries built by Simon Urbanek at "
-"@uref{http://www.rforge.net/Cairo/files/cairo-current-win.tar.gz}.  Set the "
-"macro @samp{CAIRO_HOME} in @file{MkRules.local}.  (Note that this tarball "
-"unpacks with a top-level directory @file{src/}: @samp{CAIRO_HOME} needs to "
-"include that directory in its path.)"
+"cairographics libraries built by Simon Urbanek at @uref{http://www.rforge."
+"net/Cairo/files/cairo-current-win.tar.gz}.  Set the macro @samp{CAIRO_HOME} "
+"in @file{MkRules.local}.  (Note that this tarball unpacks with a top-level "
+"directory @file{src/}: @samp{CAIRO_HOME} needs to include that directory in "
+"its path.)"
 msgstr ""
 
 #. type: Plain text
@@ -2279,24 +2550,24 @@ msgstr ""
 #: R-admin.texi:1320
 msgid ""
 "@code{libcurl} version 7.28.0 or later can be used to support "
-"@code{curlGetHeaders} and the @code{\"libcurl\"} methods of "
-"@code{download.file} and @code{url}."
+"@code{curlGetHeaders} and the @code{\"libcurl\"} methods of @code{download."
+"file} and @code{url}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:1324
 msgid ""
-"A suitable distribution can be found @emph{via} "
-"@uref{http://www.stats.ox.ac.uk/pub/Rtools/libs.html} and its unpacked "
-"location should be specified in file @file{MkRules.local}."
+"A suitable distribution can be found @emph{via} @uref{http://www.stats.ox.ac."
+"uk/pub/Rtools/libs.html} and its unpacked location should be specified in "
+"file @file{MkRules.local}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:1328
 msgid ""
 "For secure use of e.g.@: @samp{https://} URLs Windows users may need to "
-"specify the path to up-to-date @emph{CA root certificates}: see "
-"@code{?download.file}."
+"specify the path to up-to-date @emph{CA root certificates}: see @code{?"
+"download.file}."
 msgstr ""
 
 #. type: Plain text
@@ -2343,8 +2614,7 @@ msgstr ""
 msgid ""
 "Parallel checking of package sources (part of @command{make check-devel} and "
 "@command{make check-recommended}) is possible: see the environment variable "
-"@env{TEST_MC_CORES} to the maximum number of processes to be run in "
-"parallel."
+"@env{TEST_MC_CORES} to the maximum number of processes to be run in parallel."
 msgstr ""
 
 #. type: Plain text
@@ -2396,16 +2666,16 @@ msgid ""
 "and edit it.)  The @pkg{texinfo} 5.x package for use on Windows is available "
 "at @uref{http://www.stats.ox.ac.uk/pub/Rtools/}: you will also need to "
 "install @command{Perl}@footnote{Suitable distributions include Strawberry "
-"Perl, @uref{http://strawberryperl.com/} and ActivePerl, "
-"@uref{http://www.activestate.com/activeperl}.}"
+"Perl, @uref{http://strawberryperl.com/} and ActivePerl, @uref{http://www."
+"activestate.com/activeperl}.}"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:1414
 msgid ""
-"You need to have the files for a complete R build, including bitmap and "
-"Tcl/Tk support and the manuals (which requires @pkg{texinfo} installed), as "
-"well as the recommended packages and Inno Setup (@pxref{The Inno Setup "
+"You need to have the files for a complete R build, including bitmap and Tcl/"
+"Tk support and the manuals (which requires @pkg{texinfo} installed), as well "
+"as the recommended packages and Inno Setup (@pxref{The Inno Setup "
 "installer})."
 msgstr ""
 
@@ -2443,8 +2713,7 @@ msgid ""
 "\t  @r{ only needed if building from an @command{svn} checkout)}\n"
 "manuals @r{(the PDF manuals)}\n"
 "rinstaller @r{(the install program)}\n"
-"crandir @r{(the @acronym{CRAN} distribution directory, only for 64-bit "
-"builds)}\n"
+"crandir @r{(the @acronym{CRAN} distribution directory, only for 64-bit builds)}\n"
 msgstr ""
 
 #. type: Plain text
@@ -2515,7 +2784,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:1484
-msgid "The defaults for the startup parameters may also be customized.  For example"
+msgid ""
+"The defaults for the startup parameters may also be customized.  For example"
 msgstr ""
 
 #. type: example
@@ -2567,20 +2837,18 @@ msgstr ""
 #: R-admin.texi:1520
 msgid ""
 "It makes use of the Windows Installer XML (WiX) toolkit @emph{version 3.5} "
-"(or perhaps later, untested) available from "
-"@uref{http://wix.sourceforge.net/} or @uref{http://wixtoolset.org/}.  Once "
-"WiX is installed, set the path to its home directory in "
-"@file{MkRules.local}."
+"(or perhaps later, untested) available from @uref{http://wix.sourceforge."
+"net/} or @uref{http://wixtoolset.org/}.  Once WiX is installed, set the path "
+"to its home directory in @file{MkRules.local}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:1526
 msgid ""
-"You need to have the files for a complete R build, including bitmap and "
-"Tcl/Tk support and the manuals, as well as the recommended packages.  There "
-"is no option in the installer to customize startup options, so edit "
-"@file{etc/Rconsole} and @file{etc/Rprofile.site} to set these as required.  "
-"Then"
+"You need to have the files for a complete R build, including bitmap and Tcl/"
+"Tk support and the manuals, as well as the recommended packages.  There is "
+"no option in the installer to customize startup options, so edit @file{etc/"
+"Rconsole} and @file{etc/Rprofile.site} to set these as required.  Then"
 msgstr ""
 
 #. type: example
@@ -2594,16 +2862,15 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1543
 msgid ""
-"which will result in a file with a name like "
-"@file{@value{RWVERSION}-win32.msi}.  This can be double-clicked to be "
-"installed, but those who need it will know what to do with it (usually by "
-"running @command{msiexec /i} with additional options).  Properties that "
-"users might want to set from the @command{msiexec} command line include "
-"@samp{ALLUSERS}, @samp{INSTALLDIR} (something like @file{c:\\Program "
-"Files\\R\\@value{RWVERSION}}) and @samp{RMENU} (the path to the @samp{R} "
-"folder on the start menu) and @samp{STARTDIR} (the starting directory for "
-"@R{} shortcuts, defaulting to something like "
-"@file{c:\\Users\\name\\Documents\\R})."
+"which will result in a file with a name like @file{@value{RWVERSION}-win32."
+"msi}.  This can be double-clicked to be installed, but those who need it "
+"will know what to do with it (usually by running @command{msiexec /i} with "
+"additional options).  Properties that users might want to set from the "
+"@command{msiexec} command line include @samp{ALLUSERS}, @samp{INSTALLDIR} "
+"(something like @file{c:\\Program Files\\R\\@value{RWVERSION}}) and "
+"@samp{RMENU} (the path to the @samp{R} folder on the start menu) and "
+"@samp{STARTDIR} (the starting directory for @R{} shortcuts, defaulting to "
+"something like @file{c:\\Users\\name\\Documents\\R})."
 msgstr ""
 
 #. type: Plain text
@@ -2612,9 +2879,9 @@ msgid ""
 "The MSI installer can be built both from a 32-bit build of @R{} "
 "(@file{@value{RWVERSION}-win32.msi}) and from a 64-bit build of @R{} "
 "(@file{@value{RWVERSION}-win64.msi}, optionally including 32-bit files by "
-"setting the macro @code{HOME32}, when the name is "
-"@file{@value{RWVERSION}-win.msi}).  Unlike the main installer, a 64-bit MSI "
-"installer can only be run on 64-bit Windows."
+"setting the macro @code{HOME32}, when the name is @file{@value{RWVERSION}-"
+"win.msi}).  Unlike the main installer, a 64-bit MSI installer can only be "
+"run on 64-bit Windows."
 msgstr ""
 
 #. type: Plain text
@@ -2628,10 +2895,10 @@ msgstr ""
 #: R-admin.texi:1562
 msgid ""
 "To build a 64-bit version of R you need a 64-bit toolchain: the only one "
-"discussed here is based on the work of the MinGW-w64 project "
-"(@uref{http://sourceforge.net/@/projects/@/mingw-w64/}, but commercial "
-"compilers such as those from Intel and PGI could be used (and have been by "
-"@R{} redistributors)."
+"discussed here is based on the work of the MinGW-w64 project (@uref{http://"
+"sourceforge.net/@/projects/@/mingw-w64/}, but commercial compilers such as "
+"those from Intel and PGI could be used (and have been by @R{} "
+"redistributors)."
 msgstr ""
 
 #. type: Plain text
@@ -2653,7 +2920,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:1577
-msgid "The Windows installer contains a set of test files used when building @R{}."
+msgid ""
+"The Windows installer contains a set of test files used when building @R{}."
 msgstr ""
 
 #. type: Plain text
@@ -2667,8 +2935,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1584
 msgid ""
-"Launch either @code{Rgui} or @code{Rterm}, preferably with "
-"@option{--vanilla}.  Then run"
+"Launch either @code{Rgui} or @code{Rterm}, preferably with @option{--"
+"vanilla}.  Then run"
 msgstr ""
 
 #. type: example
@@ -2708,8 +2976,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1617
 msgid ""
-"The front page of a @acronym{CRAN} site has a link `Download R for OS "
-"X'. Click on that, then download the file @file{R-@value{VERSIONno}.pkg} and "
+"The front page of a @acronym{CRAN} site has a link `Download R for OS X'. "
+"Click on that, then download the file @file{R-@value{VERSIONno}.pkg} and "
 "install it. This runs on OS X 10.9 and later (Mavericks, Yosemite, El "
 "Capitan, @dots{})."
 msgstr ""
@@ -2717,8 +2985,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1620
 msgid ""
-"Installers for R-patched and R-devel are usually available from "
-"@uref{http://r.research.att.com}."
+"Installers for R-patched and R-devel are usually available from @uref{http://"
+"r.research.att.com}."
 msgstr ""
 
 #. type: Plain text
@@ -2769,19 +3037,29 @@ msgid "For building @R{} from source, see @ref{OS X}."
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1650 R-admin.texi:1652 R-admin.texi:1653 R-admin.texi:1705
+#: R-admin.texi:1650
+#: R-admin.texi:1652
+#: R-admin.texi:1653
+#: R-admin.texi:1705
 #, no-wrap
 msgid "Running R under OS X"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1650 R-admin.texi:1652 R-admin.texi:1705 R-admin.texi:1706 R-admin.texi:1743
+#: R-admin.texi:1650
+#: R-admin.texi:1652
+#: R-admin.texi:1705
+#: R-admin.texi:1706
+#: R-admin.texi:1743
 #, no-wrap
 msgid "Uninstalling under OS X"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:1650 R-admin.texi:1705 R-admin.texi:1743 R-admin.texi:1744
+#: R-admin.texi:1650
+#: R-admin.texi:1705
+#: R-admin.texi:1743
+#: R-admin.texi:1744
 #, no-wrap
 msgid "Multiple versions"
 msgstr ""
@@ -2796,12 +3074,12 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1665
 msgid ""
-"There is a GUI console normally installed with the @R{} icon in "
-"@file{/Applications} which you can run by double-clicking (e.g. from "
-"Launchpad or Finder).  This is usually referred to as @Rapp{} to distinguish "
-"it from command-line @R{}: its user manual is currently part of the OS X FAQ "
-"at @uref{http://cran.r-project.org/@/bin/@/macosx/@/RMacOSX-FAQ.html} and "
-"can be viewed from @Rapp{}'s `Help' menu."
+"There is a GUI console normally installed with the @R{} icon in @file{/"
+"Applications} which you can run by double-clicking (e.g. from Launchpad or "
+"Finder).  This is usually referred to as @Rapp{} to distinguish it from "
+"command-line @R{}: its user manual is currently part of the OS X FAQ at "
+"@uref{http://cran.r-project.org/@/bin/@/macosx/@/RMacOSX-FAQ.html} and can "
+"be viewed from @Rapp{}'s `Help' menu."
 msgstr ""
 
 #. type: Plain text
@@ -2810,9 +3088,9 @@ msgid ""
 "You can run command-line @R{} from a Terminal like any other Unix-alike: see "
 "the next chapter of this manual.  There are some small differences which may "
 "surprise users of @R{} on other platforms, notably the default location of "
-"the personal library directory (under @file{~/Library/R}, "
-"e.g. @file{~/Library/R/3.1/library}), and that warnings, messages and other "
-"output to @file{stderr} are highlighted in bold."
+"the personal library directory (under @file{~/Library/R}, e.g. @file{~/"
+"Library/R/3.1/library}), and that warnings, messages and other output to "
+"@file{stderr} are highlighted in bold."
 msgstr ""
 
 #. type: Plain text
@@ -2826,10 +3104,10 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1683
 msgid ""
-"Users of @Rapp{} need to be aware of the `App Nap' feature "
-"(@uref{https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_9.html})  "
-"which can cause @R{} tasks to appear to run very slowly when not producing "
-"output in the console.  Here are three ways to avoid it:"
+"Users of @Rapp{} need to be aware of the `App Nap' feature (@uref{https://"
+"developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/"
+"MacOSX10_9.html})  which can cause @R{} tasks to appear to run very slowly "
+"when not producing output in the console.  Here are three ways to avoid it:"
 msgstr ""
 
 #. type: itemize
@@ -2853,8 +3131,8 @@ msgstr ""
 #. type: itemize
 #: R-admin.texi:1697
 msgid ""
-"(see "
-"@uref{https://developer.apple.com/library/mac/releasenotes/MacOSX/WhatsNewInOSX/Articles/MacOSX10_9.html})."
+"(see @uref{https://developer.apple.com/library/mac/releasenotes/MacOSX/"
+"WhatsNewInOSX/Articles/MacOSX10_9.html})."
 msgstr ""
 
 #. type: Plain text
@@ -2870,12 +3148,12 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1714
 msgid ""
-"@R{} for OS X consists of two parts: the GUI (@Rapp{}) and the R "
-"framework. The un-installation is as simple as removing those folders "
-"(e.g.@: by dragging them into the Trash). The typical installation will "
-"install the GUI into the @file{/Applications/R.app} folder and the R "
-"framework into the @file{/Library/Frameworks/R.framework} folder.  This does "
-"leave some links in @file{/usr/bin}."
+"@R{} for OS X consists of two parts: the GUI (@Rapp{}) and the R framework. "
+"The un-installation is as simple as removing those folders (e.g.@: by "
+"dragging them into the Trash). The typical installation will install the GUI "
+"into the @file{/Applications/R.app} folder and the R framework into the "
+"@file{/Library/Frameworks/R.framework} folder.  This does leave some links "
+"in @file{/usr/bin}."
 msgstr ""
 
 #. type: Plain text
@@ -2896,21 +3174,20 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1731
 msgid ""
-"The installation consisted of three Apple packages: "
-"@code{org.r-project.R.x86_64.fw.pkg}, @code{org.r-project.R.x86_64.GUI.pkg} "
-"and @code{org.r-project.x86_64.tcltk.x11} (not all of which need be "
-"installed). You can use @code{pkgutil --forget} if you want the Apple "
-"Installer to forget about the package without deleting its files (useful for "
-"the @R{} framework when installing multiple R versions in parallel), or "
-"after you have deleted the files."
+"The installation consisted of three Apple packages: @code{org.r-project.R."
+"x86_64.fw.pkg}, @code{org.r-project.R.x86_64.GUI.pkg} and @code{org.r-"
+"project.x86_64.tcltk.x11} (not all of which need be installed). You can use "
+"@code{pkgutil --forget} if you want the Apple Installer to forget about the "
+"package without deleting its files (useful for the @R{} framework when "
+"installing multiple R versions in parallel), or after you have deleted the "
+"files."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:1735
 msgid ""
-"Uninstalling the Tcl/Tk component (which is installed under "
-"@file{/usr/local}) is not simple.  You can list the files it installed in a "
-"Terminal by"
+"Uninstalling the Tcl/Tk component (which is installed under @file{/usr/"
+"local}) is not simple.  You can list the files it installed in a Terminal by"
 msgstr ""
 
 #. type: example
@@ -3072,43 +3349,74 @@ msgid "Libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832 R-admin.texi:1842 R-admin.texi:1843 R-admin.texi:1868
+#: R-admin.texi:1832
+#: R-admin.texi:1842
+#: R-admin.texi:1843
+#: R-admin.texi:1868
 #, no-wrap
 msgid "Default packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832 R-admin.texi:1842 R-admin.texi:1868 R-admin.texi:1869 R-admin.texi:1910
+#: R-admin.texi:1832
+#: R-admin.texi:1842
+#: R-admin.texi:1868
+#: R-admin.texi:1869
+#: R-admin.texi:1910
 #, no-wrap
 msgid "Managing libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832 R-admin.texi:1868 R-admin.texi:1910 R-admin.texi:1911 R-admin.texi:2005 R-admin.texi:2005 R-admin.texi:2092 R-admin.texi:2163 R-admin.texi:2201 R-admin.texi:2242 R-admin.texi:2262
+#: R-admin.texi:1832
+#: R-admin.texi:1868
+#: R-admin.texi:1910
+#: R-admin.texi:1911
+#: R-admin.texi:2005
+#: R-admin.texi:2092
+#: R-admin.texi:2163
+#: R-admin.texi:2201
+#: R-admin.texi:2242
+#: R-admin.texi:2262
 #, no-wrap
 msgid "Installing packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832 R-admin.texi:1910 R-admin.texi:2262 R-admin.texi:2263 R-admin.texi:2296
+#: R-admin.texi:1832
+#: R-admin.texi:1910
+#: R-admin.texi:2262
+#: R-admin.texi:2263
+#: R-admin.texi:2296
 #, no-wrap
 msgid "Updating packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832 R-admin.texi:2262 R-admin.texi:2296 R-admin.texi:2297 R-admin.texi:2319
+#: R-admin.texi:1832
+#: R-admin.texi:2262
+#: R-admin.texi:2296
+#: R-admin.texi:2297
+#: R-admin.texi:2319
 #, no-wrap
 msgid "Removing packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832 R-admin.texi:2296 R-admin.texi:2319 R-admin.texi:2320 R-admin.texi:2389
+#: R-admin.texi:1832
+#: R-admin.texi:2296
+#: R-admin.texi:2319
+#: R-admin.texi:2320
+#: R-admin.texi:2389
 #, no-wrap
 msgid "Setting up a package repository"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:1832 R-admin.texi:2319 R-admin.texi:2389 R-admin.texi:2390
+#: R-admin.texi:1832
+#: R-admin.texi:2319
+#: R-admin.texi:2389
+#: R-admin.texi:2390
 #, no-wrap
 msgid "Checking installed source packages"
 msgstr ""
@@ -3151,8 +3459,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "> getOption(\"defaultPackages\")\n"
-"[1] \"datasets\"  \"utils\"     \"grDevices\" \"graphics\"  \"stats\"     "
-"\"methods\"\n"
+"[1] \"datasets\"  \"utils\"     \"grDevices\" \"graphics\"  \"stats\"     \"methods\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -3229,8 +3536,8 @@ msgid ""
 "@file{@var{R_HOME}/site-library} if this exists (it does not in a vanilla "
 "@R{} installation).  This location can be overridden by setting@footnote{its "
 "binding is locked once the startup files have been read, so users cannot "
-"easily change it.} @samp{.Library.site} in "
-"@file{@var{R_HOME}/etc/Rprofile.site}, or (not recommended) by setting the"
+"easily change it.} @samp{.Library.site} in @file{@var{R_HOME}/etc/Rprofile."
+"site}, or (not recommended) by setting the"
 msgstr ""
 
 #. type: enindex
@@ -3288,31 +3595,47 @@ msgid "Packages, installing"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920 R-admin.texi:2005 R-admin.texi:2092
+#: R-admin.texi:1920
+#: R-admin.texi:2005
+#: R-admin.texi:2092
 #, no-wrap
 msgid "Windows packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920 R-admin.texi:2005 R-admin.texi:2092 R-admin.texi:2163
+#: R-admin.texi:1920
+#: R-admin.texi:2005
+#: R-admin.texi:2092
+#: R-admin.texi:2163
 #, no-wrap
 msgid "OS X packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920 R-admin.texi:2092 R-admin.texi:2163 R-admin.texi:2164 R-admin.texi:2201
+#: R-admin.texi:1920
+#: R-admin.texi:2092
+#: R-admin.texi:2163
+#: R-admin.texi:2164
+#: R-admin.texi:2201
 #, no-wrap
 msgid "Customizing package compilation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920 R-admin.texi:2163 R-admin.texi:2201 R-admin.texi:2202 R-admin.texi:2242
+#: R-admin.texi:1920
+#: R-admin.texi:2163
+#: R-admin.texi:2201
+#: R-admin.texi:2202
+#: R-admin.texi:2242
 #, no-wrap
 msgid "Multiple sub-architectures"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:1920 R-admin.texi:2201 R-admin.texi:2242 R-admin.texi:2243
+#: R-admin.texi:1920
+#: R-admin.texi:2201
+#: R-admin.texi:2242
+#: R-admin.texi:2243
 #, no-wrap
 msgid "Byte-compilation"
 msgstr ""
@@ -3322,9 +3645,9 @@ msgstr ""
 msgid ""
 "Packages may be distributed in source form or compiled binary form.  "
 "Installing source packages which contain C/C++/Fortran code requires that "
-"compilers and related tools be installed.  Binary packages are "
-"platform-specific and generally need no special tools to install, but see "
-"the documentation for your platform for details."
+"compilers and related tools be installed.  Binary packages are platform-"
+"specific and generally need no special tools to install, but see the "
+"documentation for your platform for details."
 msgstr ""
 
 #. type: Plain text
@@ -3369,8 +3692,8 @@ msgstr ""
 #: R-admin.texi:1961
 msgid ""
 "The part @samp{-l /path/to/library} can be omitted, in which case the first "
-"library of a normal @R{} session is used (that shown by "
-"@code{.libPaths()[1]})."
+"library of a normal @R{} session is used (that shown by @code{.libPaths()"
+"[1]})."
 msgstr ""
 
 #. type: Plain text
@@ -3427,10 +3750,10 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:1994
 msgid ""
-"@code{install.packages} can install a source package from a local "
-"@file{.tar.gz} file (or a URL to such a file) by setting argument "
-"@code{repos} to @code{NULL}: this will be selected automatically if the name "
-"given is a single @file{.tar.gz} file."
+"@code{install.packages} can install a source package from a local @file{.tar."
+"gz} file (or a URL to such a file) by setting argument @code{repos} to "
+"@code{NULL}: this will be selected automatically if the name given is a "
+"single @file{.tar.gz} file."
 msgstr ""
 
 #. type: Plain text
@@ -3451,7 +3774,9 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: R-admin.texi:2006 R-admin.texi:2218 R-admin.texi:2885
+#: R-admin.texi:2006
+#: R-admin.texi:2218
+#: R-admin.texi:2885
 #, no-wrap
 msgid "Windows"
 msgstr ""
@@ -3493,14 +3818,13 @@ msgstr ""
 #: R-admin.texi:2040
 msgid ""
 "A few of the binary packages need other software to be installed on your "
-"system: see for example "
-"@uref{http://CRAN.R-project.org/@/bin/@/windows/@/contrib/@/3.2/@/@@ReadMe}.  "
-"Packages using Gtk+ (@CRANpkg{Cairo}, @CRANpkg{RGtk2}, @CRANpkg{cairoDevice} "
-"and those that depend on them) need the @file{bin} directory of a bundled "
-"distribution of Gtk2 from @uref{http://www.gtk.org/@/download/@/win32.php} "
-"or @uref{http://www.gtk.org/@/download/@/win64.php} in the path: it should "
-"work to have both 32- and 64-bit Gtk+ @file{bin} directories in the path on "
-"a 64-bit version of @R{}."
+"system: see for example @uref{http://CRAN.R-project.org/@/bin/@/windows/@/"
+"contrib/@/3.2/@/@@ReadMe}.  Packages using Gtk+ (@CRANpkg{Cairo}, "
+"@CRANpkg{RGtk2}, @CRANpkg{cairoDevice} and those that depend on them) need "
+"the @file{bin} directory of a bundled distribution of Gtk2 from @uref{http://"
+"www.gtk.org/@/download/@/win32.php} or @uref{http://www.gtk.org/@/download/@/"
+"win64.php} in the path: it should work to have both 32- and 64-bit Gtk+ "
+"@file{bin} directories in the path on a 64-bit version of @R{}."
 msgstr ""
 
 #. type: Plain text
@@ -3543,11 +3867,11 @@ msgid ""
 "use@footnote{for a small number of @acronym{CRAN} packages where this is "
 "known to be safe and is needed by the autobuilder this is the default.  Look "
 "at the source of @file{tools:::.install_packages} for the list.  It can also "
-"be specified in the package's @file{DESCRIPTION} file.} option "
-"@option{--force-biarch}: otherwise @command{R CMD INSTALL --merge-multiarch} "
-"can be applied to a source tarball to merge separate 32- and 64-bit "
-"installs.  (This can only be applied to a tarball, and will only succeed if "
-"both installs succeed.)"
+"be specified in the package's @file{DESCRIPTION} file.} option @option{--"
+"force-biarch}: otherwise @command{R CMD INSTALL --merge-multiarch} can be "
+"applied to a source tarball to merge separate 32- and 64-bit installs.  "
+"(This can only be applied to a tarball, and will only succeed if both "
+"installs succeed.)"
 msgstr ""
 
 #. type: Plain text
@@ -3643,22 +3967,22 @@ msgid ""
 "system.  In particular packages using Gtk+ (@CRANpkg{RGtk2}, "
 "@CRANpkg{cairoDevice} and those that depend on them) need the GTK framework "
 "installed from @uref{http://r.research.att.com/libs/}: the appropriate "
-"version at the time of writing was "
-"@uref{http://r.research.att.com/libs/GTK_2.24.17-X11.pkg}"
+"version at the time of writing was @uref{http://r.research.att.com/libs/"
+"GTK_2.24.17-X11.pkg}"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2146
 msgid ""
-"The default compilers specified in "
-"@file{/Library/Frameworks/R.framework/Resources/etc/Makeconf} depend on the "
-"version of OS X under which @R{} was installed, and are appropriate to the "
-"latest version of the command-line tools for that version of OS X.  The "
-"settings can be changed, either by editing that file or in a file such as "
-"@file{~/.R/Makevars} (see the next section).  Entries which may need to be "
-"changed include @samp{CC}, @samp{CXX}, @samp{FC}, @samp{F77}, @samp{FLIBS} "
-"and the corresponding flags, and perhaps @samp{CXXCPP}, @samp{DYLIB_LD}, "
-"@samp{MAIN_LD}, @samp{SHLIB_CXXLD}, @samp{SHLIB_FCLD} and @samp{SHLIB_LD}."
+"The default compilers specified in @file{/Library/Frameworks/R.framework/"
+"Resources/etc/Makeconf} depend on the version of OS X under which @R{} was "
+"installed, and are appropriate to the latest version of the command-line "
+"tools for that version of OS X.  The settings can be changed, either by "
+"editing that file or in a file such as @file{~/.R/Makevars} (see the next "
+"section).  Entries which may need to be changed include @samp{CC}, "
+"@samp{CXX}, @samp{FC}, @samp{F77}, @samp{FLIBS} and the corresponding flags, "
+"and perhaps @samp{CXXCPP}, @samp{DYLIB_LD}, @samp{MAIN_LD}, "
+"@samp{SHLIB_CXXLD}, @samp{SHLIB_FCLD} and @samp{SHLIB_LD}."
 msgstr ""
 
 #. type: Plain text
@@ -3694,13 +4018,12 @@ msgstr ""
 msgid ""
 "The R system and package-specific compilation flags can be overridden or "
 "added to by setting the appropriate Make variables in the personal file "
-"@file{@var{HOME}/.R/Makevars-@var{R_PLATFORM}} (but "
-"@file{@var{HOME}/.R/Makevars.win} or @file{@var{HOME}/.R/Makevars.win64} on "
-"Windows), or if that does not exist, @file{@var{HOME}/.R/Makevars}, where "
-"@samp{R_PLATFORM} is the platform for which R was built, as available in the "
-"@code{platform} component of the R variable @code{R.version}.  An "
-"alternative personal file can be specified @emph{via} the environment "
-"variable @env{R_MAKEVARS_USER}."
+"@file{@var{HOME}/.R/Makevars-@var{R_PLATFORM}} (but @file{@var{HOME}/.R/"
+"Makevars.win} or @file{@var{HOME}/.R/Makevars.win64} on Windows), or if that "
+"does not exist, @file{@var{HOME}/.R/Makevars}, where @samp{R_PLATFORM} is "
+"the platform for which R was built, as available in the @code{platform} "
+"component of the R variable @code{R.version}.  An alternative personal file "
+"can be specified @emph{via} the environment variable @env{R_MAKEVARS_USER}."
 msgstr ""
 
 #. type: Plain text
@@ -3760,31 +4083,32 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: R-admin.texi:2214 R-admin.texi:2824
+#: R-admin.texi:2214
+#: R-admin.texi:2824
 #, no-wrap
 msgid "Unix-alikes"
 msgstr ""
 
 #. type: table
 #: R-admin.texi:2217
-msgid "where there is an @file{configure} script, or a file @file{src/Makefile}."
+msgid ""
+"where there is an @file{configure} script, or a file @file{src/Makefile}."
 msgstr ""
 
 #. type: table
 #: R-admin.texi:2225
 msgid ""
-"where there is a non-empty @file{configure.win} script, or a file "
-"@file{src/Makefile.win} (with some exceptions where the package is known to "
-"have an architecture-independent @file{configure.win}, or if "
-"@option{--force-biarch} or field @samp{Biarch} in the @file{DESCRIPTION} "
-"file is used to assert so)."
+"where there is a non-empty @file{configure.win} script, or a file @file{src/"
+"Makefile.win} (with some exceptions where the package is known to have an "
+"architecture-independent @file{configure.win}, or if @option{--force-biarch} "
+"or field @samp{Biarch} in the @file{DESCRIPTION} file is used to assert so)."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2231
 msgid ""
-"In those cases only the current architecture is installed.  Further "
-"sub-architectures can be installed by"
+"In those cases only the current architecture is installed.  Further sub-"
+"architectures can be installed by"
 msgstr ""
 
 #. type: example
@@ -3806,9 +4130,8 @@ msgstr ""
 msgid ""
 "The base and recommended packages are byte-compiled by default.  Other "
 "packages can be byte-compiled on installation by using @command{R CMD "
-"INSTALL} with option @option{--byte-compile} or by "
-"@code{install.packages(type = \"source\", INSTALL_opts = "
-"\"--byte-compile\")}."
+"INSTALL} with option @option{--byte-compile} or by @code{install."
+"packages(type = \"source\", INSTALL_opts = \"--byte-compile\")}."
 msgstr ""
 
 #. type: Plain text
@@ -3817,9 +4140,9 @@ msgid ""
 "Not all contributed packages work correctly when byte-compiled (for example "
 "because they interfere with the sealing of namespaces).  For most packages "
 "(especially those which make extensive use of compiled code) the speed-up is "
-"small.  Unless a package is used frequently the time spent in "
-"byte-compilation can outweigh the time saved in execution: also "
-"byte-compilation can add substantially to the installed size of the package."
+"small.  Unless a package is used frequently the time spent in byte-"
+"compilation can outweigh the time saved in execution: also byte-compilation "
+"can add substantially to the installed size of the package."
 msgstr ""
 
 #. type: Plain text
@@ -3940,22 +4263,21 @@ msgstr ""
 msgid ""
 "Utilities such as @code{install.packages} can be pointed at any "
 "@acronym{CRAN}-style repository, and @R{} users may want to set up their "
-"own.  The `base' of a repository is a URL such as "
-"@uref{http://www.omegahat.org/R/}: this must be an URL scheme that "
-"@code{download.packages} supports (which also includes @samp{ftp://} and "
-"@samp{file://}, but not on most systems @samp{https://}).  Under that base "
-"URL there should be directory trees for one or more of the following types "
-"of package distributions:"
+"own.  The `base' of a repository is a URL such as @uref{http://www.omegahat."
+"org/R/}: this must be an URL scheme that @code{download.packages} supports "
+"(which also includes @samp{ftp://} and @samp{file://}, but not on most "
+"systems @samp{https://}).  Under that base URL there should be directory "
+"trees for one or more of the following types of package distributions:"
 msgstr ""
 
 #. type: itemize
 #: R-admin.texi:2340
 msgid ""
-"@code{\"source\"}: located at @file{src/contrib} and containing "
-"@file{.tar.gz} files.  Other forms of compression can be used, e.g.@: "
-"@file{.tar.bz2} or @file{.tar.xz} files.  Complete repositories contain the "
-"sources corresponding to any binary packages, and in any case it is wise to "
-"have a @file{src/contrib} area with a possibly empty @file{PACKAGES} file."
+"@code{\"source\"}: located at @file{src/contrib} and containing @file{.tar."
+"gz} files.  Other forms of compression can be used, e.g.@: @file{.tar.bz2} "
+"or @file{.tar.xz} files.  Complete repositories contain the sources "
+"corresponding to any binary packages, and in any case it is wise to have a "
+"@file{src/contrib} area with a possibly empty @file{PACKAGES} file."
 msgstr ""
 
 #. type: itemize
@@ -3968,18 +4290,16 @@ msgstr ""
 #. type: itemize
 #: R-admin.texi:2350
 msgid ""
-"@code{\"mac.binary.mavericks\"}: located at "
-"@file{bin/macosx/mavericks/contrib/@var{3.y}} for the CRAN build for "
-"`Mavericks' (and later) for @R{} versions @var{3.y.z}, containing "
-"@file{.tgz} files."
+"@code{\"mac.binary.mavericks\"}: located at @file{bin/macosx/mavericks/"
+"contrib/@var{3.y}} for the CRAN build for `Mavericks' (and later) for @R{} "
+"versions @var{3.y.z}, containing @file{.tgz} files."
 msgstr ""
 
 #. type: itemize
 #: R-admin.texi:2355
 msgid ""
-"@code{\"mac.binary.leopard\"}: located at "
-"@file{bin/macosx/leopard/contrib/@var{2.y}} for @R{} versions @var{2.y.z} "
-"and containing @file{.tgz} files."
+"@code{\"mac.binary.leopard\"}: located at @file{bin/macosx/leopard/contrib/"
+"@var{2.y}} for @R{} versions @var{2.y.z} and containing @file{.tgz} files."
 msgstr ""
 
 #. type: Plain text
@@ -3997,11 +4317,11 @@ msgid ""
 "by blank lines, but only a few of the fields are needed.  The simplest way "
 "to set up such a file is to use function @code{write_PACKAGES} in the "
 "@pkg{tools} package, and its help explains which fields are needed.  "
-"Optionally there can also be a @file{PACKAGES.gz} file, a "
-"@command{gzip}-compressed version of @file{PACKAGES}---as this will be "
-"downloaded in preference to @file{PACKAGES} it should be included for large "
-"repositories.  (If you have a mis-configured server that does not report "
-"correctly non-existent files you may need @file{PACKAGES.gz}.)"
+"Optionally there can also be a @file{PACKAGES.gz} file, a @command{gzip}-"
+"compressed version of @file{PACKAGES}---as this will be downloaded in "
+"preference to @file{PACKAGES} it should be included for large repositories.  "
+"(If you have a mis-configured server that does not report correctly non-"
+"existent files you may need @file{PACKAGES.gz}.)"
 msgstr ""
 
 #. type: Plain text
@@ -4064,22 +4384,20 @@ msgstr ""
 #. type: example
 #: R-admin.texi:2408
 #, no-wrap
-msgid ""
-"R --arch @var{arch} CMD check -l @var{libdir} --extra-arch "
-"--install=check:@var{pkg}.log @var{pkg}\n"
+msgid "R --arch @var{arch} CMD check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2420
 msgid ""
 "where @option{--extra-arch} selects only those checks which depend on the "
-"installed code and not those which analyse the sources.  (If multiple "
-"sub-architectures fail only because they need different settings, e.g.@: "
+"installed code and not those which analyse the sources.  (If multiple sub-"
+"architectures fail only because they need different settings, e.g.@: "
 "environment variables, @option{--no-multiarch} may need to be added to the "
 "@code{INSTALL} lines.)  On Unix-alikes the architecture to run is selected "
-"by @option{--arch}: this can also be used on Windows with "
-"@file{@var{R_HOME}/bin/R.exe}, but it is more usual to select the path to "
-"the @command{Rcmd.exe} of the desired architecture."
+"by @option{--arch}: this can also be used on Windows with @file{@var{R_HOME}/"
+"bin/R.exe}, but it is more usual to select the path to the @command{Rcmd."
+"exe} of the desired architecture."
 msgstr ""
 
 #. type: Plain text
@@ -4094,12 +4412,9 @@ msgstr ""
 #: R-admin.texi:2429
 #, no-wrap
 msgid ""
-".../bin/i386/Rcmd INSTALL -l @var{libdir} @var{tarball} --build > "
-"@var{pkg}.log 2>&1\n"
-".../bin/i386/Rcmd check -l @var{libdir} --extra-arch "
-"--install=check:@var{pkg}.log @var{pkg}\n"
-".../bin/x64/Rcmd check -l @var{libdir} --extra-arch "
-"--install=check:@var{pkg}.log @var{pkg}\n"
+".../bin/i386/Rcmd INSTALL -l @var{libdir} @var{tarball} --build > @var{pkg}.log 2>&1\n"
+".../bin/i386/Rcmd check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
+".../bin/x64/Rcmd check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
 msgstr ""
 
 #. type: Plain text
@@ -4156,7 +4471,8 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:2463 R-admin.texi:2481
+#: R-admin.texi:2463
+#: R-admin.texi:2481
 #, no-wrap
 msgid "Locale"
 msgstr ""
@@ -4168,8 +4484,7 @@ msgid ""
 "section.  Note though that @R{} has no built-in support for right-to-left "
 "languages and bidirectional output, relying on the OS services.  For "
 "example, how character vectors in UTF-8 containing both English digits and "
-"Hebrew characters are printed is OS-dependent (and perhaps "
-"locale-dependent)."
+"Hebrew characters are printed is OS-dependent (and perhaps locale-dependent)."
 msgstr ""
 
 #. type: Plain text
@@ -4180,13 +4495,22 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2477 R-admin.texi:2479 R-admin.texi:2480 R-admin.texi:2529 R-admin.texi:2529 R-admin.texi:2544 R-admin.texi:2560 R-admin.texi:2579
+#: R-admin.texi:2477
+#: R-admin.texi:2479
+#: R-admin.texi:2480
+#: R-admin.texi:2529
+#: R-admin.texi:2544
+#: R-admin.texi:2560
+#: R-admin.texi:2579
 #, no-wrap
 msgid "Locales"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:2477 R-admin.texi:2479 R-admin.texi:2579 R-admin.texi:2580
+#: R-admin.texi:2477
+#: R-admin.texi:2479
+#: R-admin.texi:2579
+#: R-admin.texi:2580
 #, no-wrap
 msgid "Localization of messages"
 msgstr ""
@@ -4211,9 +4535,9 @@ msgstr ""
 #. type: itemize
 #: R-admin.texi:2497
 msgid ""
-"A human language.  These are generally specified by a lower-case "
-"two-character abbreviation following ISO 639 (see e.g.@: "
-"@uref{http://en.wikipedia.org/@/wiki/@/ISO_639-1})."
+"A human language.  These are generally specified by a lower-case two-"
+"character abbreviation following ISO 639 (see e.g.@: @uref{http://en."
+"wikipedia.org/@/wiki/@/ISO_639-1})."
 msgstr ""
 
 #. type: itemize
@@ -4254,19 +4578,29 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2527 R-admin.texi:2529 R-admin.texi:2530 R-admin.texi:2544
+#: R-admin.texi:2527
+#: R-admin.texi:2529
+#: R-admin.texi:2530
+#: R-admin.texi:2544
 #, no-wrap
 msgid "Locales under Unix-alikes"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2527 R-admin.texi:2529 R-admin.texi:2544 R-admin.texi:2545 R-admin.texi:2560
+#: R-admin.texi:2527
+#: R-admin.texi:2529
+#: R-admin.texi:2544
+#: R-admin.texi:2545
+#: R-admin.texi:2560
 #, no-wrap
 msgid "Locales under Windows"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:2527 R-admin.texi:2544 R-admin.texi:2560 R-admin.texi:2561
+#: R-admin.texi:2527
+#: R-admin.texi:2544
+#: R-admin.texi:2560
+#: R-admin.texi:2561
 #, no-wrap
 msgid "Locales under OS X"
 msgstr ""
@@ -4287,8 +4621,7 @@ msgstr ""
 #: R-admin.texi:2543
 msgid ""
 "Note that whereas UTF-8 locales are nowadays almost universally used, "
-"locales such as @samp{en_GB} use 8-bit encodings for backwards "
-"compatibility."
+"locales such as @samp{en_GB} use 8-bit encodings for backwards compatibility."
 msgstr ""
 
 #. type: Plain text
@@ -4296,10 +4629,9 @@ msgstr ""
 msgid ""
 "Windows also uses locales, but specified in a rather less concise way.  Most "
 "users will encounter locales only via drop-down menus, but more information "
-"and lists can be found at "
-"@uref{http://msdn.microsoft.com/en-us/library/hzz3tw78(v=vs.80)} (or if "
-"Microsoft moves it yet again, search for @samp{Windows language country "
-"strings})."
+"and lists can be found at @uref{http://msdn.microsoft.com/en-us/library/"
+"hzz3tw78(v=vs.80)} (or if Microsoft moves it yet again, search for "
+"@samp{Windows language country strings})."
 msgstr ""
 
 #. type: Plain text
@@ -4319,14 +4651,14 @@ msgstr ""
 #: R-admin.texi:2573
 msgid ""
 "OS X supports locales in its own particular way, but the R GUI tries to make "
-"this easier for users. See "
-"@uref{http://developer.apple.com/@/documentation/@/MacOSX/@/Conceptual/@/BPInternational/} "
-"for how users can set their locales.  As with Windows, end users will "
-"generally only see lists of languages/territories.  Users of @R{} in a "
-"terminal may need to set the locale to something like @samp{en_GB.UTF-8} if "
-"it defaults to @samp{C} (as it sometimes does when logging in remotely and "
-"for batch jobs: note whether @command{Terminal} sets the @env{LANG} "
-"environment variable is an (advanced) preference, but does so by default)."
+"this easier for users. See @uref{http://developer.apple.com/@/documentation/"
+"@/MacOSX/@/Conceptual/@/BPInternational/} for how users can set their "
+"locales.  As with Windows, end users will generally only see lists of "
+"languages/territories.  Users of @R{} in a terminal may need to set the "
+"locale to something like @samp{en_GB.UTF-8} if it defaults to @samp{C} (as "
+"it sometimes does when logging in remotely and for batch jobs: note whether "
+"@command{Terminal} sets the @env{LANG} environment variable is an (advanced) "
+"preference, but does so by default)."
 msgstr ""
 
 #. type: Plain text
@@ -4345,7 +4677,8 @@ msgid ""
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:2584 R-admin.texi:2657
+#: R-admin.texi:2584
+#: R-admin.texi:2657
 #, no-wrap
 msgid "LANGUAGE"
 msgstr ""
@@ -4387,13 +4720,13 @@ msgstr ""
 #: R-admin.texi:2608
 msgid ""
 "It is usually possible to change the language once @R{} is running "
-"@emph{via} (not Windows) @code{Sys.setlocale(\"LC_MESSAGES\", "
-"\"new_locale\")}, or by setting an environment variable such as "
-"@env{LANGUAGE}, @emph{provided}@footnote{If you try changing from French to "
-"Russian except in a UTF-8 locale, you will most likely find messages change "
-"to English.} the language you are changing to can be output in the current "
-"character set.  But this is OS-specific, and has been known to stop working "
-"on an OS upgrade."
+"@emph{via} (not Windows) @code{Sys.setlocale(\"LC_MESSAGES\", \"new_locale"
+"\")}, or by setting an environment variable such as @env{LANGUAGE}, "
+"@emph{provided}@footnote{If you try changing from French to Russian except "
+"in a UTF-8 locale, you will most likely find messages change to English.} "
+"the language you are changing to can be output in the current character "
+"set.  But this is OS-specific, and has been known to stop working on an OS "
+"upgrade."
 msgstr ""
 
 #. type: Plain text
@@ -4426,7 +4759,8 @@ msgstr ""
 
 #. type: itemize
 #: R-admin.texi:2628
-msgid "Domain @code{RGui} for the menus etc of the R for Windows GUI front-end."
+msgid ""
+"Domain @code{RGui} for the menus etc of the R for Windows GUI front-end."
 msgstr ""
 
 #. type: Plain text
@@ -4470,7 +4804,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2657
-msgid "Translations in the right language but the wrong charset are made use of"
+msgid ""
+"Translations in the right language but the wrong charset are made use of"
 msgstr ""
 
 #. type: Plain text
@@ -4511,12 +4846,12 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:2689
 msgid ""
-"All current versions of @R{} use 32-bit integers and "
-"@acronym{ISO}/@acronym{IEC}@tie{}60559@footnote{also known as "
-"@acronym{IEEE}@tie{}754} double-precision reals, and so compute to the same "
-"precision@footnote{at least when storing quantities: the on-FPU precision is "
-"allowed to vary} and with the same limits on the sizes of numerical "
-"quantities.  The principal difference is in the size of the pointers."
+"All current versions of @R{} use 32-bit integers and @acronym{ISO}/"
+"@acronym{IEC}@tie{}60559@footnote{also known as @acronym{IEEE}@tie{}754} "
+"double-precision reals, and so compute to the same precision@footnote{at "
+"least when storing quantities: the on-FPU precision is allowed to vary} and "
+"with the same limits on the sizes of numerical quantities.  The principal "
+"difference is in the size of the pointers."
 msgstr ""
 
 #. type: Plain text
@@ -4568,8 +4903,7 @@ msgid ""
 "Because the pointers are larger, @R{}'s basic structures are larger.  This "
 "means that @R{} objects take more space and (usually) more time to "
 "manipulate.  So 64-bit builds of @R{} will, all other things being equal, "
-"run slower than 32-bit builds.  (On Sparc Solaris the difference was "
-"15-20%.)"
+"run slower than 32-bit builds.  (On Sparc Solaris the difference was 15-20%.)"
 msgstr ""
 
 #. type: itemize
@@ -4589,18 +4923,17 @@ msgstr ""
 msgid ""
 "So, for speed you may want to use a 32-bit build (especially on a laptop), "
 "but to handle large datasets (and perhaps large files) a 64-bit build.  You "
-"can often build both and install them in the same place: "
-"@xref{Sub-architectures}.  (This is done for the Windows binary "
-"distributions.)"
+"can often build both and install them in the same place: @xref{Sub-"
+"architectures}.  (This is done for the Windows binary distributions.)"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2747
 msgid ""
 "Even on 64-bit builds of @R{} there are limits on the size of @R{} objects "
-"(see @code{help(\"Memory-limits\")}, some of which stem from the use of "
-"32-bit integers (especially in FORTRAN code).  For example, the dimensions "
-"of an array are limited to @math{2^{31} - 1}."
+"(see @code{help(\"Memory-limits\")}, some of which stem from the use of 32-"
+"bit integers (especially in FORTRAN code).  For example, the dimensions of "
+"an array are limited to @math{2^{31} - 1}."
 msgstr ""
 
 #. type: Plain text
@@ -4617,10 +4950,10 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:2762
 msgid ""
-"The makefiles and other sources needed are in directory "
-"@file{src/nmath/standalone}, so the following instructions assume that is "
-"the current working directory (in the build directory tree on a Unix-alike "
-"if that is separate from the sources)."
+"The makefiles and other sources needed are in directory @file{src/nmath/"
+"standalone}, so the following instructions assume that is the current "
+"working directory (in the build directory tree on a Unix-alike if that is "
+"separate from the sources)."
 msgstr ""
 
 #. type: Plain text
@@ -4633,8 +4966,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:2768
 msgid ""
-"There is full access to @R{}'s handling of @code{NaN}, @code{Inf} and "
-"@code{-Inf} via special versions of the macros and functions"
+"There is full access to @R{}'s handling of @code{NaN}, @code{Inf} and @code{-"
+"Inf} via special versions of the macros and functions"
 msgstr ""
 
 #. type: example
@@ -4645,7 +4978,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2775
-msgid "and (extern) constants @code{R_PosInf}, @code{R_NegInf} and @code{NA_REAL}."
+msgid ""
+"and (extern) constants @code{R_PosInf}, @code{R_NegInf} and @code{NA_REAL}."
 msgstr ""
 
 #. type: Plain text
@@ -4714,13 +5048,17 @@ msgid "(and @samp{USER_NORM} is not available)."
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2821 R-admin.texi:2823 R-admin.texi:2884
+#: R-admin.texi:2821
+#: R-admin.texi:2823
+#: R-admin.texi:2884
 #, no-wrap
 msgid "Unix-alike standalone"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2821 R-admin.texi:2823 R-admin.texi:2884
+#: R-admin.texi:2821
+#: R-admin.texi:2823
+#: R-admin.texi:2884
 #, no-wrap
 msgid "Windows standalone"
 msgstr ""
@@ -4757,7 +5095,8 @@ msgid "To use the routines in your own C or C++ programs, include"
 msgstr ""
 
 #. type: example
-#: R-admin.texi:2846 R-admin.texi:2921
+#: R-admin.texi:2846
+#: R-admin.texi:2921
 #, no-wrap
 msgid ""
 "#define MATHLIB_STANDALONE\n"
@@ -4774,7 +5113,11 @@ msgid ""
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:2853 R-admin.texi:3497 R-admin.texi:4079 R-admin.texi:4198 R-admin.texi:5195
+#: R-admin.texi:2853
+#: R-admin.texi:3497
+#: R-admin.texi:4079
+#: R-admin.texi:4198
+#: R-admin.texi:5195
 #, no-wrap
 msgid "LD_LIBRARY_PATH"
 msgstr ""
@@ -4813,7 +5156,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2873
-msgid "@samp{make install} installs a file for @command{pkg-config} to use by e.g."
+msgid ""
+"@samp{make install} installs a file for @command{pkg-config} to use by e.g."
 msgstr ""
 
 #. type: example
@@ -4867,8 +5211,7 @@ msgstr ""
 #: R-admin.texi:2911
 msgid ""
 "This creates a static library @file{libRmath.a} and a DLL @file{Rmath.dll}.  "
-"If you want an import library @file{libRmath.dll.a} (you don't need one), "
-"use"
+"If you want an import library @file{libRmath.dll.a} (you don't need one), use"
 msgstr ""
 
 #. type: example
@@ -4913,8 +5256,8 @@ msgid ""
 "It is possible to link to @file{Rmath.dll} using other compilers, either "
 "directly or via an import library: if you make a MinGW import library as "
 "above, you will create a file @file{Rmath.def} which can be used (possibly "
-"after editing) to create an import library for other systems such as Visual "
-"C++."
+"after editing) to create an import library for other systems such as Visual C"
+"++."
 msgstr ""
 
 #. type: Plain text
@@ -4935,15 +5278,15 @@ msgstr ""
 #: R-admin.texi:2959
 msgid ""
 "to ensure that the constants like @code{NA_REAL} are linked correctly.  "
-"(Auto-import will probably work with MinGW, but it is better to be "
-"sure. This is likely to also work with VC++, Borland and similar compilers.)"
+"(Auto-import will probably work with MinGW, but it is better to be sure. "
+"This is likely to also work with VC++, Borland and similar compilers.)"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:2967
 msgid ""
-"This appendix gives details of programs you will need to build @R{} on "
-"Unix-like platforms, or which will be used by @R{} if found by "
+"This appendix gives details of programs you will need to build @R{} on Unix-"
+"like platforms, or which will be used by @R{} if found by "
 "@command{configure}."
 msgstr ""
 
@@ -4953,24 +5296,39 @@ msgid ""
 "Remember that some package management systems (such as @acronym{RPM} and "
 "Debian/Ubuntu's) make a distinction between the user version of a package "
 "and the development version.  The latter usually has the same name but with "
-"the extension @samp{-devel} or @samp{-dev}: you need both versions "
-"installed."
+"the extension @samp{-devel} or @samp{-dev}: you need both versions installed."
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2978 R-admin.texi:2980 R-admin.texi:2981 R-admin.texi:3117
+#: R-admin.texi:2978
+#: R-admin.texi:2980
+#: R-admin.texi:2981
+#: R-admin.texi:3117
 #, no-wrap
 msgid "Essential programs and libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2978 R-admin.texi:2980 R-admin.texi:3117 R-admin.texi:3118 R-admin.texi:3249 R-admin.texi:3249 R-admin.texi:3276 R-admin.texi:3324 R-admin.texi:3352
+#: R-admin.texi:2978
+#: R-admin.texi:2980
+#: R-admin.texi:3117
+#: R-admin.texi:3118
+#: R-admin.texi:3249
+#: R-admin.texi:3276
+#: R-admin.texi:3324
+#: R-admin.texi:3352
 #, no-wrap
 msgid "Useful libraries and programs"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2978 R-admin.texi:3117 R-admin.texi:3352 R-admin.texi:3353 R-admin.texi:3362 R-admin.texi:3362 R-admin.texi:3682 R-admin.texi:3767
+#: R-admin.texi:2978
+#: R-admin.texi:3117
+#: R-admin.texi:3352
+#: R-admin.texi:3353
+#: R-admin.texi:3362
+#: R-admin.texi:3682
+#: R-admin.texi:3767
 #, no-wrap
 msgid "Linear algebra"
 msgstr ""
@@ -4979,22 +5337,21 @@ msgstr ""
 #: R-admin.texi:3002
 msgid ""
 "You need a means of compiling C and FORTRAN 90 (see @ref{Using FORTRAN}).  "
-"Your C compiler should be "
-"@acronym{ISO}/@acronym{IEC}@tie{}60059@footnote{also known as "
-"@acronym{IEEE}@tie{}754}, POSIX 1003.1 and C99-compliant.@footnote{Note that "
-"C11 compilers need not be C99-compliant: @R{} requires support for "
-"@code{double complex} and variable-length arrays which are optional in C11 "
-"but is mandatory in C99.} @R{} tries to choose suitable flags for the C "
-"compilers it knows about, but you may have to set @code{CC} or @code{CFLAGS} "
-"suitably.  For recent versions of @command{gcc} with @code{glibc} this means "
-"including @option{-std=gnu99}@footnote{@option{-std=c99} excludes POSIX "
-"functionality, but @file{config.h} will turn on all @acronym{GNU} extensions "
-"to include the POSIX functionality. The default mode for GCC 5 is "
-"@option{-std=gnu11}.}.  If the compiler is detected as @command{gcc}, "
-"@option{-std=gnu99} will be appended to @code{CC} unless it conflicts with a "
-"setting of @code{CFLAGS}.  (Note that options essential to run the compiler "
-"even for linking, such as those to set the architecture, should be specified "
-"as part of @code{CC} rather than in @code{CFLAGS}.)"
+"Your C compiler should be @acronym{ISO}/@acronym{IEC}@tie{}"
+"60059@footnote{also known as @acronym{IEEE}@tie{}754}, POSIX 1003.1 and C99-"
+"compliant.@footnote{Note that C11 compilers need not be C99-compliant: @R{} "
+"requires support for @code{double complex} and variable-length arrays which "
+"are optional in C11 but is mandatory in C99.} @R{} tries to choose suitable "
+"flags for the C compilers it knows about, but you may have to set @code{CC} "
+"or @code{CFLAGS} suitably.  For recent versions of @command{gcc} with "
+"@code{glibc} this means including @option{-std=gnu99}@footnote{@option{-"
+"std=c99} excludes POSIX functionality, but @file{config.h} will turn on all "
+"@acronym{GNU} extensions to include the POSIX functionality. The default "
+"mode for GCC 5 is @option{-std=gnu11}.}.  If the compiler is detected as "
+"@command{gcc}, @option{-std=gnu99} will be appended to @code{CC} unless it "
+"conflicts with a setting of @code{CFLAGS}.  (Note that options essential to "
+"run the compiler even for linking, such as those to set the architecture, "
+"should be specified as part of @code{CC} rather than in @code{CFLAGS}.)"
 msgstr ""
 
 #. type: Plain text
@@ -5002,11 +5359,10 @@ msgstr ""
 msgid ""
 "Unless you do not want to view graphs on-screen (or use a Mac) you need "
 "@samp{X11} installed, including its headers and client libraries. For recent "
-"Fedora distributions it means (at least) RPMs @samp{libX11}, "
-"@samp{libX11-devel}, @samp{libXt} and @samp{libXt-devel}.  On Debian we "
-"recommend the meta-package @samp{xorg-dev}.  If you really do not want these "
-"you will need to explicitly configure @R{} without X11, using "
-"@option{--with-x=no}."
+"Fedora distributions it means (at least) RPMs @samp{libX11}, @samp{libX11-"
+"devel}, @samp{libXt} and @samp{libXt-devel}.  On Debian we recommend the "
+"meta-package @samp{xorg-dev}.  If you really do not want these you will need "
+"to explicitly configure @R{} without X11, using @option{--with-x=no}."
 msgstr ""
 
 #. type: Plain text
@@ -5025,12 +5381,12 @@ msgid ""
 "requires @code{iconv} to be able to translate between @code{\"latin1\"} and "
 "@code{\"UTF-8\"}, to recognize @code{\"\"} (as the current encoding) and "
 "@code{\"ASCII\"}, and to translate to and from the Unicode wide-character "
-"formats @code{\"UCS-[24][BL]E\"} --- this is true by default for "
-"@code{glibc}@footnote{However, it is possible to break the default behaviour "
-"of @code{glibc} by re-specifying the @code{gconv} modules to be loaded.} but "
+"formats @code{\"UCS-[24][BL]E\"} --- this is true by default for @code{glibc}"
+"@footnote{However, it is possible to break the default behaviour of "
+"@code{glibc} by re-specifying the @code{gconv} modules to be loaded.} but "
 "not of most commercial Unixes.  However, you can make use of @acronym{GNU} "
-"@code{libiconv} (as used on OS X: see "
-"@uref{http://www.gnu.org/@/software/@/libiconv/})."
+"@code{libiconv} (as used on OS X: see @uref{http://www.gnu.org/@/software/@/"
+"libiconv/})."
 msgstr ""
 
 #. type: Plain text
@@ -5073,11 +5429,10 @@ msgid ""
 "(including the recommended packages).  A version@footnote{Such as "
 "@acronym{GNU} @command{tar} 1.15 or later, @command{bsdtar} (from "
 "@uref{http://code.google.com/@/p/libarchive/}, as used by FreeBSD and OS X "
-"10.6 and later) or @command{tar} from the Heirloom Toolchest "
-"(@uref{http://heirloom.sourceforge.net/@/tools.html}).} that can "
-"automagically detect compressed archives is preferred for use with "
-"@code{untar()}: the configure script looks for @command{gtar} and "
-"@command{gnutar} before"
+"10.6 and later) or @command{tar} from the Heirloom Toolchest (@uref{http://"
+"heirloom.sourceforge.net/@/tools.html}).} that can automagically detect "
+"compressed archives is preferred for use with @code{untar()}: the configure "
+"script looks for @command{gtar} and @command{gnutar} before"
 msgstr ""
 
 #. type: enindex
@@ -5140,8 +5495,8 @@ msgid ""
 "the version of the @LaTeX{} package @pkg{hyperref} and we recommend that the "
 "@TeX{} distribution used is kept up-to-date.  A number of standard @LaTeX{} "
 "packages are required (including @pkg{fancyvrb}, @pkg{url} and some of the "
-"font packages such as @pkg{times}, @pkg{helvetic}, @pkg{ec} and "
-"@pkg{cm-super}) and others such as @pkg{hyperref} and @pkg{inconsolata} are "
+"font packages such as @pkg{times}, @pkg{helvetic}, @pkg{ec} and @pkg{cm-"
+"super}) and others such as @pkg{hyperref} and @pkg{inconsolata} are "
 "desirable (and without them you may need to change @R{}'s defaults: "
 "@pxref{Making the manuals}).  Note that package @pkg{hyperref} (currently) "
 "requires packages @pkg{kvoptions}, @pkg{ltxcmds} and @pkg{refcount}.  For "
@@ -5154,7 +5509,10 @@ msgid ""
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:3113 R-admin.texi:4073 R-admin.texi:5312 R-admin.texi:5554
+#: R-admin.texi:3113
+#: R-admin.texi:4073
+#: R-admin.texi:5312
+#: R-admin.texi:5554
 #, no-wrap
 msgid "PATH"
 msgstr ""
@@ -5210,15 +5568,15 @@ msgid ""
 "also @uref{http://en.wikipedia.org/wiki/Core_fonts_for_the_Web}.} provides "
 "TrueType versions of Monotype fonts such as Arial and Times New Roman.  "
 "Another useful set of fonts is the `liberation' TrueType fonts available at "
-"@uref{https://fedorahosted.org/@/liberation-fonts/},@footnote{@code{ttf-liberation} "
-"in Debian/Ubuntu.} which cover the Latin, Greek and Cyrillic alphabets plus "
-"a fair range of signs.  These share metrics with Arial, Times New Roman and "
-"Courier New, and contain fonts rather similar to the first two "
+"@uref{https://fedorahosted.org/@/liberation-fonts/},@footnote{@code{ttf-"
+"liberation} in Debian/Ubuntu.} which cover the Latin, Greek and Cyrillic "
+"alphabets plus a fair range of signs.  These share metrics with Arial, Times "
+"New Roman and Courier New, and contain fonts rather similar to the first two "
 "(@uref{http://en.wikipedia.org/@/wiki/@/Liberation_fonts}).  Then there is "
-"the `Free UCS Outline Fonts' project "
-"(@uref{http://www.gnu.org/software/freefont/}) which are OpenType/TrueType "
-"fonts based on the URW fonts but with extended Unicode coverage.  See the "
-"@R{} help on @code{X11} on selecting such fonts."
+"the `Free UCS Outline Fonts' project (@uref{http://www.gnu.org/software/"
+"freefont/}) which are OpenType/TrueType fonts based on the URW fonts but "
+"with extended Unicode coverage.  See the @R{} help on @code{X11} on "
+"selecting such fonts."
 msgstr ""
 
 #. type: Plain text
@@ -5328,19 +5686,29 @@ msgid "R_GSCMD"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3247 R-admin.texi:3249 R-admin.texi:3250 R-admin.texi:3276
+#: R-admin.texi:3247
+#: R-admin.texi:3249
+#: R-admin.texi:3250
+#: R-admin.texi:3276
 #, no-wrap
 msgid "Tcl/Tk"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3247 R-admin.texi:3249 R-admin.texi:3276 R-admin.texi:3277 R-admin.texi:3324
+#: R-admin.texi:3247
+#: R-admin.texi:3249
+#: R-admin.texi:3276
+#: R-admin.texi:3277
+#: R-admin.texi:3324
 #, no-wrap
 msgid "Java support"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:3247 R-admin.texi:3276 R-admin.texi:3324 R-admin.texi:3325
+#: R-admin.texi:3247
+#: R-admin.texi:3276
+#: R-admin.texi:3324
+#: R-admin.texi:3325
 #, no-wrap
 msgid "Other compiled languages"
 msgstr ""
@@ -5393,8 +5761,7 @@ msgid ""
 "to specify the flags needed for linking against the Tcl and Tk libraries and "
 "for finding the @file{tcl.h} and @file{tk.h} headers, respectively.  If you "
 "have both 32- and 64-bit versions of Tcl/Tk installed, specifying the paths "
-"to the correct config files may be necessary to avoid confusion between "
-"them."
+"to the correct config files may be necessary to avoid confusion between them."
 msgstr ""
 
 #. type: Plain text
@@ -5430,7 +5797,8 @@ msgid ""
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:3286 R-admin.texi:3304
+#: R-admin.texi:3286
+#: R-admin.texi:3304
 #, no-wrap
 msgid "R_JAVA_LD_LIBRARY_PATH"
 msgstr ""
@@ -5463,15 +5831,16 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:3304
-msgid "Another way of overriding those settings is to set the environment variable"
+msgid ""
+"Another way of overriding those settings is to set the environment variable"
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:3308
 msgid ""
-"@env{R_JAVA_LD_LIBRARY_PATH} (before @R{} is started, hence not in "
-"@file{~/.Renviron}), which suffices to run already-installed Java-using "
-"packages.  For example"
+"@env{R_JAVA_LD_LIBRARY_PATH} (before @R{} is started, hence not in @file{~/."
+"Renviron}), which suffices to run already-installed Java-using packages.  "
+"For example"
 msgstr ""
 
 #. type: example
@@ -5510,8 +5879,8 @@ msgid ""
 "possible to specify an alternative compiler for use with C++11 by the "
 "configure variables @code{CXX1X}, @code{CXX1XSTD}, @code{CXX1XFLAGS} and "
 "similar.  Again, @command{configure} will normally find a suitable value for "
-"@code{CXX1XSTD} if the compiler given by @code{CXX} is capable of compiling "
-"C++11 code, but it is possible that a completely different compiler will be "
+"@code{CXX1XSTD} if the compiler given by @code{CXX} is capable of compiling C"
+"++11 code, but it is possible that a completely different compiler will be "
 "needed (it is for OS X < 10.9 and Solaris, for example)."
 msgstr ""
 
@@ -5536,25 +5905,42 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:3354 R-admin.texi:4669 R-admin.texi:5134
+#: R-admin.texi:3354
+#: R-admin.texi:4669
+#: R-admin.texi:5134
 #, no-wrap
 msgid "BLAS library"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3360 R-admin.texi:3362 R-admin.texi:3363 R-admin.texi:3444 R-admin.texi:3444 R-admin.texi:3484 R-admin.texi:3517 R-admin.texi:3543 R-admin.texi:3624 R-admin.texi:3682
+#: R-admin.texi:3360
+#: R-admin.texi:3362
+#: R-admin.texi:3363
+#: R-admin.texi:3444
+#: R-admin.texi:3484
+#: R-admin.texi:3517
+#: R-admin.texi:3543
+#: R-admin.texi:3624
+#: R-admin.texi:3682
 #, no-wrap
 msgid "BLAS"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3360 R-admin.texi:3362 R-admin.texi:3682 R-admin.texi:3683 R-admin.texi:3767
+#: R-admin.texi:3360
+#: R-admin.texi:3362
+#: R-admin.texi:3682
+#: R-admin.texi:3683
+#: R-admin.texi:3767
 #, no-wrap
 msgid "LAPACK"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:3360 R-admin.texi:3682 R-admin.texi:3767 R-admin.texi:3768
+#: R-admin.texi:3360
+#: R-admin.texi:3682
+#: R-admin.texi:3767
+#: R-admin.texi:3768
 #, no-wrap
 msgid "Caveats"
 msgstr ""
@@ -5563,11 +5949,10 @@ msgstr ""
 #: R-admin.texi:3371
 msgid ""
 "The linear algebra routines in @R{} can make use of enhanced @acronym{BLAS} "
-"(Basic Linear Algebra Subprograms, "
-"@uref{http://www.netlib.org/@/blas/@/faq.html}) routines.  However, these "
-"have to be explicitly requested at configure time: @R{} provides an internal "
-"@acronym{BLAS} which is well-tested and will be adequate for most uses of "
-"@R{}."
+"(Basic Linear Algebra Subprograms, @uref{http://www.netlib.org/@/blas/@/faq."
+"html}) routines.  However, these have to be explicitly requested at "
+"configure time: @R{} provides an internal @acronym{BLAS} which is well-"
+"tested and will be adequate for most uses of @R{}."
 msgstr ""
 
 #. type: Plain text
@@ -5588,11 +5973,11 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:3383
 msgid ""
-"environment variable @env{BLAS_LIBS}, set for example in "
-"@file{config.site}.  If neither the option nor the environment variable "
-"supply a value, a search is made for a suitable @acronym{BLAS}.  If the "
-"value is not obviously a linker command (starting with a dash or giving the "
-"path to a library), it is prefixed by @samp{-l}, so"
+"environment variable @env{BLAS_LIBS}, set for example in @file{config."
+"site}.  If neither the option nor the environment variable supply a value, a "
+"search is made for a suitable @acronym{BLAS}.  If the value is not obviously "
+"a linker command (starting with a dash or giving the path to a library), it "
+"is prefixed by @samp{-l}, so"
 msgstr ""
 
 #. type: example
@@ -5624,8 +6009,8 @@ msgid ""
 "Some enhanced @acronym{BLAS}es are compiler-system-specific (@code{sunperf} "
 "on Solaris@footnote{Using the Oracle Solaris Studio @command{cc} and "
 "@command{f95} compilers}, @code{libessl} on IBM, @code{Accelerate} on OS "
-"X).  The correct incantation for these is usually found @emph{via} "
-"@option{--with-blas} with no value on the appropriate platforms."
+"X).  The correct incantation for these is usually found @emph{via} @option{--"
+"with-blas} with no value on the appropriate platforms."
 msgstr ""
 
 #. type: Plain text
@@ -5647,8 +6032,8 @@ msgstr ""
 msgid ""
 "Note that under Unix (but not under Windows) if @R{} is compiled against a "
 "non-default @acronym{BLAS} and @option{--enable-BLAS-shlib} is @strong{not} "
-"used, then all @acronym{BLAS}-using packages must also be.  So if @R{} is "
-"re-built to use an enhanced @acronym{BLAS} then packages such as "
+"used, then all @acronym{BLAS}-using packages must also be.  So if @R{} is re-"
+"built to use an enhanced @acronym{BLAS} then packages such as "
 "@CRANpkg{quantreg} will need to be re-installed."
 msgstr ""
 
@@ -5665,11 +6050,11 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:3432
 msgid ""
-"External @acronym{BLAS} implementations often make less use of "
-"extended-precision floating-point registers and will almost certainly "
-"re-order computations.  This can result in less accuracy than using the "
-"internal @acronym{BLAS}, and may result in different solutions, e.g.@: "
-"different signs in SVD and eigendecompositions."
+"External @acronym{BLAS} implementations often make less use of extended-"
+"precision floating-point registers and will almost certainly re-order "
+"computations.  This can result in less accuracy than using the internal "
+"@acronym{BLAS}, and may result in different solutions, e.g.@: different "
+"signs in SVD and eigendecompositions."
 msgstr ""
 
 #. type: Plain text
@@ -5680,31 +6065,48 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442 R-admin.texi:3444 R-admin.texi:3445 R-admin.texi:3484
+#: R-admin.texi:3442
+#: R-admin.texi:3444
+#: R-admin.texi:3445
+#: R-admin.texi:3484
 #, no-wrap
 msgid "ATLAS"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442 R-admin.texi:3444 R-admin.texi:3484 R-admin.texi:3485 R-admin.texi:3517
+#: R-admin.texi:3442
+#: R-admin.texi:3444
+#: R-admin.texi:3484
+#: R-admin.texi:3485
+#: R-admin.texi:3517
 #, no-wrap
 msgid "ACML"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442 R-admin.texi:3484 R-admin.texi:3517 R-admin.texi:3518 R-admin.texi:3543
+#: R-admin.texi:3442
+#: R-admin.texi:3484
+#: R-admin.texi:3517
+#: R-admin.texi:3518
+#: R-admin.texi:3543
 #, no-wrap
 msgid "Goto and OpenBLAS"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442 R-admin.texi:3517 R-admin.texi:3543 R-admin.texi:3624
+#: R-admin.texi:3442
+#: R-admin.texi:3517
+#: R-admin.texi:3543
+#: R-admin.texi:3624
 #, no-wrap
 msgid "MKL"
 msgstr ""
 
 #. type: subsubsection
-#: R-admin.texi:3442 R-admin.texi:3543 R-admin.texi:3624 R-admin.texi:3625
+#: R-admin.texi:3442
+#: R-admin.texi:3543
+#: R-admin.texi:3624
+#: R-admin.texi:3625
 #, no-wrap
 msgid "Shared BLAS"
 msgstr ""
@@ -5769,8 +6171,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:3483
 msgid ""
-"Consult its installation guide for how to build ATLAS with "
-"position-independent code, and as a shared library."
+"Consult its installation guide for how to build ATLAS with position-"
+"independent code, and as a shared library."
 msgstr ""
 
 #. type: Plain text
@@ -6009,9 +6411,9 @@ msgstr ""
 #: R-admin.texi:3632
 msgid ""
 "The @acronym{BLAS} library will be used for many of the add-on packages as "
-"well as for @R{} itself.  This means that it is better to use a "
-"shared/dynamic @acronym{BLAS} library, as most of a static library will be "
-"compiled into the @R{} executable and each @acronym{BLAS}-using package."
+"well as for @R{} itself.  This means that it is better to use a shared/"
+"dynamic @acronym{BLAS} library, as most of a static library will be compiled "
+"into the @R{} executable and each @acronym{BLAS}-using package."
 msgstr ""
 
 #. type: Plain text
@@ -6063,16 +6465,16 @@ msgid ""
 "and all the add-on packages, since all references to the @acronym{BLAS} go "
 "through @code{libRblas}, and that can be replaced.  Note though that any "
 "dynamic libraries the replacement links to will need to be found by the "
-"linker: this may need the library path to be changed in "
-"@file{@var{R_HOME}/etc/ldpaths}."
+"linker: this may need the library path to be changed in @file{@var{R_HOME}/"
+"etc/ldpaths}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:3671
 msgid ""
 "Another option to change the @acronym{BLAS} in use is to symlink a dynamic "
-"@acronym{BLAS} library (such as ACML or Goto's) to "
-"@file{@var{R_HOME}/lib/libRblas.so}.  For example, just"
+"@acronym{BLAS} library (such as ACML or Goto's) to @file{@var{R_HOME}/lib/"
+"libRblas.so}.  For example, just"
 msgstr ""
 
 #. type: example
@@ -6080,8 +6482,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "mv @var{R_HOME}/lib/libRblas.so @var{R_HOME}/lib/libRblas.so.keep\n"
-"ln -s /opt/acml5.1.0/gfortran64_mp/lib/libacml_mp.so "
-"@var{R_HOME}/lib/libRblas.so\n"
+"ln -s /opt/acml5.1.0/gfortran64_mp/lib/libacml_mp.so @var{R_HOME}/lib/libRblas.so\n"
 msgstr ""
 
 #. type: Plain text
@@ -6094,7 +6495,9 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:3685 R-admin.texi:4670 R-admin.texi:5135
+#: R-admin.texi:3685
+#: R-admin.texi:4670
+#: R-admin.texi:5135
 #, no-wrap
 msgid "LAPACK library"
 msgstr ""
@@ -6117,10 +6520,10 @@ msgid ""
 "and this is definitely @strong{not} recommended.  You can specify a specific "
 "LAPACK library or a search for a generic library by the configuration option "
 "@option{--with-lapack}.  The default for @option{--with-lapack} is to check "
-"the @acronym{BLAS} library and then look for an external library "
-"@samp{-llapack}.  Sites searching for the fastest possible linear algebra "
-"may want to build a LAPACK library using the ATLAS-optimized subset of "
-"LAPACK.  To do so specify something like"
+"the @acronym{BLAS} library and then look for an external library @samp{-"
+"llapack}.  Sites searching for the fastest possible linear algebra may want "
+"to build a LAPACK library using the ATLAS-optimized subset of LAPACK.  To do "
+"so specify something like"
 msgstr ""
 
 #. type: example
@@ -6259,49 +6662,84 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794 R-admin.texi:3796 R-admin.texi:3797 R-admin.texi:3869
+#: R-admin.texi:3794
+#: R-admin.texi:3796
+#: R-admin.texi:3797
+#: R-admin.texi:3869
 #, no-wrap
 msgid "Configuration options"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794 R-admin.texi:3796 R-admin.texi:3869 R-admin.texi:3870 R-admin.texi:3886
+#: R-admin.texi:3794
+#: R-admin.texi:3796
+#: R-admin.texi:3869
+#: R-admin.texi:3870
+#: R-admin.texi:3886
 #, no-wrap
 msgid "Internationalization support"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794 R-admin.texi:3869 R-admin.texi:3886 R-admin.texi:3887 R-admin.texi:3939 R-admin.texi:3939 R-admin.texi:3956 R-admin.texi:3967 R-admin.texi:3998 R-admin.texi:4006
+#: R-admin.texi:3794
+#: R-admin.texi:3869
+#: R-admin.texi:3886
+#: R-admin.texi:3887
+#: R-admin.texi:3939
+#: R-admin.texi:3956
+#: R-admin.texi:3967
+#: R-admin.texi:3998
+#: R-admin.texi:4006
 #, no-wrap
 msgid "Configuration variables"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794 R-admin.texi:3886 R-admin.texi:4006 R-admin.texi:4007 R-admin.texi:4016
+#: R-admin.texi:3794
+#: R-admin.texi:3886
+#: R-admin.texi:4006
+#: R-admin.texi:4007
+#: R-admin.texi:4016
 #, no-wrap
 msgid "Setting the shell"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794 R-admin.texi:4006 R-admin.texi:4016 R-admin.texi:4017 R-admin.texi:4041
+#: R-admin.texi:3794
+#: R-admin.texi:4006
+#: R-admin.texi:4016
+#: R-admin.texi:4017
+#: R-admin.texi:4041
 #, no-wrap
 msgid "Using make"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794 R-admin.texi:4016 R-admin.texi:4041 R-admin.texi:4042 R-admin.texi:4122 R-admin.texi:4122 R-admin.texi:4145
+#: R-admin.texi:3794
+#: R-admin.texi:4016
+#: R-admin.texi:4041
+#: R-admin.texi:4042
+#: R-admin.texi:4122
+#: R-admin.texi:4145
 #, no-wrap
 msgid "Using FORTRAN"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794 R-admin.texi:4041 R-admin.texi:4145 R-admin.texi:4146 R-admin.texi:4226
+#: R-admin.texi:3794
+#: R-admin.texi:4041
+#: R-admin.texi:4145
+#: R-admin.texi:4146
+#: R-admin.texi:4226
 #, no-wrap
 msgid "Compile and load flags"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:3794 R-admin.texi:4145 R-admin.texi:4226 R-admin.texi:4227
+#: R-admin.texi:3794
+#: R-admin.texi:4145
+#: R-admin.texi:4226
+#: R-admin.texi:4227
 #, no-wrap
 msgid "Maintainer mode"
 msgstr ""
@@ -6387,7 +6825,8 @@ msgstr ""
 
 #. type: table
 #: R-admin.texi:3822
-msgid "attempt to compile support for @code{Rprofmem()} and @code{tracemem()} [no]"
+msgid ""
+"attempt to compile support for @code{Rprofmem()} and @code{tracemem()} [no]"
 msgstr ""
 
 #. type: item
@@ -6409,7 +6848,8 @@ msgstr ""
 
 #. type: table
 #: R-admin.texi:3826
-msgid "build the @acronym{BLAS} as a shared/dynamic library [yes, except on AIX]"
+msgid ""
+"build the @acronym{BLAS} as a shared/dynamic library [yes, except on AIX]"
 msgstr ""
 
 #. type: Plain text
@@ -6448,15 +6888,15 @@ msgstr ""
 #: R-admin.texi:3861
 msgid ""
 "For maximally effective use of @command{valgrind}, @R{} should be compiled "
-"with valgrind instrumentation. The @command{configure} option is "
-"@option{--with-valgrind-instrumentation=@var{level}}, where @var{level} is "
-"0, 1 or 2.  (Level 0 is the default and does not add any anything.)  The "
-"system headers for @command{valgrind} can be requested by option "
-"@option{--with-system-valgrind-headers}: they will be used if present (on "
-"Linux they may be in a separate package such as @pkg{valgrind-devel}).  Note "
-"though that there is no guarantee that the code in @R{} will be compatible "
-"with very old@footnote{We believe that versions 3.4.0 to 3.10.1 are "
-"compatible.} or future @command{valgrind} headers."
+"with valgrind instrumentation. The @command{configure} option is @option{--"
+"with-valgrind-instrumentation=@var{level}}, where @var{level} is 0, 1 or 2.  "
+"(Level 0 is the default and does not add any anything.)  The system headers "
+"for @command{valgrind} can be requested by option @option{--with-system-"
+"valgrind-headers}: they will be used if present (on Linux they may be in a "
+"separate package such as @pkg{valgrind-devel}).  Note though that there is "
+"no guarantee that the code in @R{} will be compatible with very "
+"old@footnote{We believe that versions 3.4.0 to 3.10.1 are compatible.} or "
+"future @command{valgrind} headers."
 msgstr ""
 
 #. type: Plain text
@@ -6499,10 +6939,9 @@ msgstr ""
 #: R-admin.texi:3895
 msgid ""
 "If you need or want to set certain configure variables to something other "
-"than their default, you can do that by either editing the file "
-"@file{config.site} (which documents many of the variables you might want to "
-"set: others can be seen in file @file{etc/Renviron.in}) or on the command "
-"line as"
+"than their default, you can do that by either editing the file @file{config."
+"site} (which documents many of the variables you might want to set: others "
+"can be seen in file @file{etc/Renviron.in}) or on the command line as"
 msgstr ""
 
 #. type: example
@@ -6516,9 +6955,9 @@ msgstr ""
 msgid ""
 "If you are building in a directory different from the sources, there can be "
 "copies of @file{config.site} in the source and the build directories, and "
-"both will be read (in that order).  In addition, if there is a file "
-"@file{~/.R/config}, it is read between the @file{config.site} files in the "
-"source and the build directories."
+"both will be read (in that order).  In addition, if there is a file @file{~/."
+"R/config}, it is read between the @file{config.site} files in the source and "
+"the build directories."
 msgstr ""
 
 #. type: Plain text
@@ -6572,25 +7011,39 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3937 R-admin.texi:3939 R-admin.texi:3940 R-admin.texi:3956
+#: R-admin.texi:3937
+#: R-admin.texi:3939
+#: R-admin.texi:3940
+#: R-admin.texi:3956
 #, no-wrap
 msgid "Setting paper size"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3937 R-admin.texi:3939 R-admin.texi:3956 R-admin.texi:3957 R-admin.texi:3967
+#: R-admin.texi:3937
+#: R-admin.texi:3939
+#: R-admin.texi:3956
+#: R-admin.texi:3957
+#: R-admin.texi:3967
 #, no-wrap
 msgid "Setting the browsers"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3937 R-admin.texi:3956 R-admin.texi:3967 R-admin.texi:3968 R-admin.texi:3998
+#: R-admin.texi:3937
+#: R-admin.texi:3956
+#: R-admin.texi:3967
+#: R-admin.texi:3968
+#: R-admin.texi:3998
 #, no-wrap
 msgid "Compilation flags"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:3937 R-admin.texi:3967 R-admin.texi:3998 R-admin.texi:3999
+#: R-admin.texi:3937
+#: R-admin.texi:3967
+#: R-admin.texi:3998
+#: R-admin.texi:3999
 #, no-wrap
 msgid "Making manuals"
 msgstr ""
@@ -6683,11 +7136,11 @@ msgid ""
 "and incorrect numeric computations have been seen).  On systems using the "
 "@acronym{GNU} linker (especially those using @R{} as a shared library), it "
 "is likely that including @samp{-Wl,-O1} in @code{LDFLAGS} is worthwhile, and "
-"@samp{'-Bdirect,--hash-style=both,-Wl,-O1'} is recommended at "
-"@uref{http://lwn.net/@/Articles/@/192624/}.  Tuning compilation to a "
-"specific @acronym{CPU} family (e.g.@: @samp{-mtune=native} for "
-"@command{gcc}) can give worthwhile performance gains, especially on older "
-"architectures such as @cputype{ix86}."
+"@samp{'-Bdirect,--hash-style=both,-Wl,-O1'} is recommended at @uref{http://"
+"lwn.net/@/Articles/@/192624/}.  Tuning compilation to a specific "
+"@acronym{CPU} family (e.g.@: @samp{-mtune=native} for @command{gcc}) can "
+"give worthwhile performance gains, especially on older architectures such as "
+"@cputype{ix86}."
 msgstr ""
 
 #. type: Plain text
@@ -6757,7 +7210,9 @@ msgid "FORTRAN"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:4047 R-admin.texi:4122 R-admin.texi:4123
+#: R-admin.texi:4047
+#: R-admin.texi:4122
+#: R-admin.texi:4123
 #, no-wrap
 msgid "Using gfortran"
 msgstr ""
@@ -6890,7 +7345,8 @@ msgid ""
 msgstr ""
 
 #. type: item
-#: R-admin.texi:4115 R-admin.texi:4186
+#: R-admin.texi:4115
+#: R-admin.texi:4186
 #, no-wrap
 msgid "FPICFLAGS"
 msgstr ""
@@ -6907,8 +7363,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4127
 msgid ""
-"@command{gfortran} is the F95 compiler that is part of "
-"@command{gcc}@tie{}4.@var{x}.@var{y}."
+"@command{gfortran} is the F95 compiler that is part of @command{gcc}@tie{}4."
+"@var{x}.@var{y}."
 msgstr ""
 
 #. type: Plain text
@@ -6991,7 +7447,8 @@ msgid "MAIN_CFLAGS"
 msgstr ""
 
 #. type: table
-#: R-admin.texi:4168 R-admin.texi:4176
+#: R-admin.texi:4168
+#: R-admin.texi:4176
 msgid "ditto, for compiling the main program"
 msgstr ""
 
@@ -7002,7 +7459,8 @@ msgid "SHLIB_CFLAGS"
 msgstr ""
 
 #. type: table
-#: R-admin.texi:4170 R-admin.texi:4178
+#: R-admin.texi:4170
+#: R-admin.texi:4178
 msgid "for shared objects"
 msgstr ""
 
@@ -7086,7 +7544,8 @@ msgstr ""
 
 #. type: table
 #: R-admin.texi:4188
-msgid "special flags for compiling Fortran code to be turned into a shared object"
+msgid ""
+"special flags for compiling Fortran code to be turned into a shared object"
 msgstr ""
 
 #. type: item
@@ -7109,8 +7568,7 @@ msgstr ""
 #. type: table
 #: R-admin.texi:4192
 msgid ""
-"special flags for compiling Fortran 95 code to be turned into a shared "
-"object"
+"special flags for compiling Fortran 95 code to be turned into a shared object"
 msgstr ""
 
 #. type: item
@@ -7176,11 +7634,11 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4234
 msgid ""
-"There are several files that are part of the @R{} sources but can be "
-"re-generated from their own sources by configuring with option "
-"@option{--enable-maintainer-mode} and then running @command{make} in the "
-"build directory.  This requires other tools to be installed, discussed in "
-"the rest of this section."
+"There are several files that are part of the @R{} sources but can be re-"
+"generated from their own sources by configuring with option @option{--enable-"
+"maintainer-mode} and then running @command{make} in the build directory.  "
+"This requires other tools to be installed, discussed in the rest of this "
+"section."
 msgstr ""
 
 #. type: Plain text
@@ -7202,33 +7660,32 @@ msgstr ""
 #: R-admin.texi:4249
 msgid ""
 "Grammar files @file{*.y} are converted to C sources by an implementation of "
-"@command{yacc}, usually @command{bison -y}: these are found in "
-"@file{src/main} and @file{src/library/tools/src}.  It is known that earlier "
-"versions of @command{bison} generate code which reads (and in some cases "
-"writes) outside array bounds: @command{bison} 2.6.1 was found to be "
-"satisfactory."
+"@command{yacc}, usually @command{bison -y}: these are found in @file{src/"
+"main} and @file{src/library/tools/src}.  It is known that earlier versions "
+"of @command{bison} generate code which reads (and in some cases writes) "
+"outside array bounds: @command{bison} 2.6.1 was found to be satisfactory."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:4258
 msgid ""
 "The ultimate sources for package @pkg{compiler} are in its @file{noweb} "
-"directory.  To re-create the sources from "
-"@file{src/library/compiler/noweb/compiler.nw}, the command "
-"@command{notangle} is required.  This is likely to need to be installed from "
-"the sources at @url{http://www.cs.tufts.edu/~nr/noweb/} (and can also be "
-"found on CTAN).  The package sources are only re-created even in maintainer "
-"mode if @file{src/library/compiler/noweb/compiler.nw} has been updated."
+"directory.  To re-create the sources from @file{src/library/compiler/noweb/"
+"compiler.nw}, the command @command{notangle} is required.  This is likely to "
+"need to be installed from the sources at @url{http://www.cs.tufts.edu/~nr/"
+"noweb/} (and can also be found on CTAN).  The package sources are only re-"
+"created even in maintainer mode if @file{src/library/compiler/noweb/compiler."
+"nw} has been updated."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:4264
 msgid ""
 "It is likely that in future creating @code{configure} will need the GNU "
-"`autoconf archive' installed.  This can be found at "
-"@url{http://www.gnu.org/software/autoconf-archive/} and as a package "
-"(usually called @pkg{autoconf-archive}) in most packaged distributions, for "
-"example Debian, Fedora, OpenCSW, Homebrew and MacPorts."
+"`autoconf archive' installed.  This can be found at @url{http://www.gnu.org/"
+"software/autoconf-archive/} and as a package (usually called @pkg{autoconf-"
+"archive}) in most packaged distributions, for example Debian, Fedora, "
+"OpenCSW, Homebrew and MacPorts."
 msgstr ""
 
 #. type: Plain text
@@ -7276,37 +7733,63 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306 R-admin.texi:4308 R-admin.texi:4309 R-admin.texi:4396
+#: R-admin.texi:4306
+#: R-admin.texi:4308
+#: R-admin.texi:4309
+#: R-admin.texi:4396
 #, no-wrap
 msgid "X11 issues"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306 R-admin.texi:4601 R-admin.texi:4945 R-admin.texi:4946 R-admin.texi:4947 R-admin.texi:5160 R-admin.texi:5160 R-admin.texi:5232
+#: R-admin.texi:4306
+#: R-admin.texi:4601
+#: R-admin.texi:4945
+#: R-admin.texi:4946
+#: R-admin.texi:4947
+#: R-admin.texi:5160
+#: R-admin.texi:5232
 #, no-wrap
 msgid "Solaris"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306 R-admin.texi:4945 R-admin.texi:5232 R-admin.texi:5233 R-admin.texi:5234 R-admin.texi:5379
+#: R-admin.texi:4306
+#: R-admin.texi:4945
+#: R-admin.texi:5232
+#: R-admin.texi:5233
+#: R-admin.texi:5234
+#: R-admin.texi:5379
 #, no-wrap
 msgid "AIX"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306 R-admin.texi:5232 R-admin.texi:5379 R-admin.texi:5380 R-admin.texi:5381 R-admin.texi:5385
+#: R-admin.texi:4306
+#: R-admin.texi:5232
+#: R-admin.texi:5379
+#: R-admin.texi:5380
+#: R-admin.texi:5381
+#: R-admin.texi:5385
 #, no-wrap
 msgid "FreeBSD"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306 R-admin.texi:5379 R-admin.texi:5385 R-admin.texi:5386 R-admin.texi:5440
+#: R-admin.texi:4306
+#: R-admin.texi:5379
+#: R-admin.texi:5385
+#: R-admin.texi:5386
+#: R-admin.texi:5440
 #, no-wrap
 msgid "Cygwin"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:4306 R-admin.texi:5385 R-admin.texi:5440 R-admin.texi:5441
+#: R-admin.texi:4306
+#: R-admin.texi:5385
+#: R-admin.texi:5440
+#: R-admin.texi:5441
 #, no-wrap
 msgid "New platforms"
 msgstr ""
@@ -7314,8 +7797,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4315
 msgid ""
-"The @samp{X11()} graphics device is the one started automatically on "
-"Unix-alikes when plotting.  As its name implies, it displays on a (local or "
+"The @samp{X11()} graphics device is the one started automatically on Unix-"
+"alikes when plotting.  As its name implies, it displays on a (local or "
 "remote) X server, and relies on the services provided by the X server."
 msgstr ""
 
@@ -7494,11 +7977,11 @@ msgid ""
 "@cputype{ix86}): one possibility is to add @option{-mtune=native} for the "
 "best possible performance on the machine on which @R{} is being installed: "
 "if the compilation is for a site-wide installation, it may still be "
-"desirable to use something like @option{-mtume=core2}.@footnote{or "
-"@code{-mtune=corei7} for Intel Core i3/15/17 with @command{gcc >= 4.6.0}.} "
-"It is also possible to increase the optimization levels to @option{-O3}: "
-"however for many versions of the compilers this has caused problems in at "
-"least one @acronym{CRAN} package."
+"desirable to use something like @option{-mtume=core2}.@footnote{or @code{-"
+"mtune=corei7} for Intel Core i3/15/17 with @command{gcc >= 4.6.0}.} It is "
+"also possible to increase the optimization levels to @option{-O3}: however "
+"for many versions of the compilers this has caused problems in at least one "
+"@acronym{CRAN} package."
 msgstr ""
 
 #. type: Plain text
@@ -7584,19 +8067,29 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4504 R-admin.texi:4506 R-admin.texi:4507 R-admin.texi:4524
+#: R-admin.texi:4504
+#: R-admin.texi:4506
+#: R-admin.texi:4507
+#: R-admin.texi:4524
 #, no-wrap
 msgid "Clang"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4504 R-admin.texi:4506 R-admin.texi:4524 R-admin.texi:4525 R-admin.texi:4562
+#: R-admin.texi:4504
+#: R-admin.texi:4506
+#: R-admin.texi:4524
+#: R-admin.texi:4525
+#: R-admin.texi:4562
 #, no-wrap
 msgid "Intel compilers"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:4504 R-admin.texi:4524 R-admin.texi:4562 R-admin.texi:4563
+#: R-admin.texi:4504
+#: R-admin.texi:4524
+#: R-admin.texi:4562
+#: R-admin.texi:4563
 #, no-wrap
 msgid "Oracle Solaris Studio compilers"
 msgstr ""
@@ -7657,8 +8150,8 @@ msgstr ""
 #: R-admin.texi:4553
 msgid ""
 "@command{configure} will add @samp{-c99} to @code{CC} for C99-compliance.  "
-"This causes warnings with @code{icc} 10 and later, so use @code{CC=\"icc "
-"-std=c99\"} there.  The flag @option{-wd188} suppresses a large number of "
+"This causes warnings with @code{icc} 10 and later, so use @code{CC=\"icc -"
+"std=c99\"} there.  The flag @option{-wd188} suppresses a large number of "
 "warnings about the enumeration type @samp{Rboolean}.  Because the Intel C "
 "compiler sets @samp{__GNUC__} without complete emulation of @command{gcc}, "
 "we suggest adding @code{CPPFLAGS=-no-gcc}."
@@ -7712,9 +8205,9 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4595
 msgid ""
-"@option{-m64} could be added, but was the default.  Do not use "
-"@option{-fast}: see the warnings under Solaris. (The C++ options are also "
-"explained under Solaris.)"
+"@option{-m64} could be added, but was the default.  Do not use @option{-"
+"fast}: see the warnings under Solaris. (The C++ options are also explained "
+"under Solaris.)"
 msgstr ""
 
 #. type: Plain text
@@ -7748,9 +8241,9 @@ msgstr ""
 #: R-admin.texi:4622
 msgid ""
 "You may also need to install an X sub-system (or you will need to configure "
-"using option @option{--without-x}): see "
-"@uref{http://xquartz.macosforge.org/}.  (Note that XQuartz will likely need "
-"to be re-installed after an OS upgrade.)"
+"using option @option{--without-x}): see @uref{http://xquartz.macosforge."
+"org/}.  (Note that XQuartz will likely need to be re-installed after an OS "
+"upgrade.)"
 msgstr ""
 
 #. type: Plain text
@@ -7759,11 +8252,10 @@ msgid ""
 "To use the @code{quartz()} graphics device you need to configure with "
 "@option{--with-aqua} (which is the default): @code{quartz()} then becomes "
 "the default device when running @R{} at the console and X11 would only be "
-"used for the command-line-@R{} data editor/viewer and one version of "
-"Tcl/Tk.  (This needs an Objective-C compiler@footnote{These days that is "
-"defined by Apple's implementation of @code{clang}, so it is strongly "
-"recommended to use that.} which can compile the source code of "
-"@code{quartz()}.)"
+"used for the command-line-@R{} data editor/viewer and one version of Tcl/"
+"Tk.  (This needs an Objective-C compiler@footnote{These days that is defined "
+"by Apple's implementation of @code{clang}, so it is strongly recommended to "
+"use that.} which can compile the source code of @code{quartz()}.)"
 msgstr ""
 
 #. type: Plain text
@@ -7803,11 +8295,11 @@ msgstr ""
 #: R-admin.texi:4661
 msgid ""
 "with @command{clang} and @command{clang++} from Xcode 5, and the Fortran "
-"compiler from "
-"@uref{http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2}.@footnote{This "
-"is a tarball which needs to be unpacked in the Terminal by e.g.@: "
-"@command{sudo tar -zxf gfortran-4.8.2-darwin13.tar.bz2 -C /}.} Apple's "
-"builds of @command{clang} currently have little or no OpenMP support."
+"compiler from @uref{http://r.research.att.com/libs/gfortran-4.8.2-darwin13."
+"tar.bz2}.@footnote{This is a tarball which needs to be unpacked in the "
+"Terminal by e.g.@: @command{sudo tar -zxf gfortran-4.8.2-darwin13.tar.bz2 -"
+"C /}.} Apple's builds of @command{clang} currently have little or no OpenMP "
+"support."
 msgstr ""
 
 #. type: Plain text
@@ -7845,10 +8337,9 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4686
 msgid ""
-"Looking at the top of "
-"@file{/Library/Frameworks/R.framework/Resources/etc/Makeconf} will show the "
-"compilers and configuration options used for the @acronym{CRAN} binary "
-"package for @R{}: at the time of writing"
+"Looking at the top of @file{/Library/Frameworks/R.framework/Resources/etc/"
+"Makeconf} will show the compilers and configuration options used for the "
+"@acronym{CRAN} binary package for @R{}: at the time of writing"
 msgstr ""
 
 #. type: example
@@ -7873,13 +8364,12 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4708
 msgid ""
-"The @TeX{} implementation used by the developers is MacTeX "
-"(@uref{http://www.tug.org/mactex/}): the full installation is about 4GB, but "
-"a smaller version is available at "
-"@uref{http://www.tug.org/mactex/morepackages.html}: you will need to add "
-"some packages, e.g.@: for the 2015 version we needed to add @pkg{cm-super}, "
-"@pkg{helvetic}, @pkg{inconsolata} and @pkg{texinfo} which brought this to "
-"about 410MB (or package @pkg{texinfo} and the collections "
+"The @TeX{} implementation used by the developers is MacTeX (@uref{http://www."
+"tug.org/mactex/}): the full installation is about 4GB, but a smaller version "
+"is available at @uref{http://www.tug.org/mactex/morepackages.html}: you will "
+"need to add some packages, e.g.@: for the 2015 version we needed to add "
+"@pkg{cm-super}, @pkg{helvetic}, @pkg{inconsolata} and @pkg{texinfo} which "
+"brought this to about 410MB (or package @pkg{texinfo} and the collections "
 "@pkg{collection-fontsrecommended}, @pkg{collection-fontsextra} and "
 "@pkg{collection-latexextra} which will take this up to about 1GB).  "
 "@samp{TeX Live Utility} (available @emph{via} the MacTeX front page) "
@@ -7896,31 +8386,48 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721 R-admin.texi:4723 R-admin.texi:4724 R-admin.texi:4783
+#: R-admin.texi:4721
+#: R-admin.texi:4723
+#: R-admin.texi:4724
+#: R-admin.texi:4783
 #, no-wrap
 msgid "Mavericks and later"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721 R-admin.texi:4723 R-admin.texi:4783 R-admin.texi:4784 R-admin.texi:4825
+#: R-admin.texi:4721
+#: R-admin.texi:4723
+#: R-admin.texi:4783
+#: R-admin.texi:4784
+#: R-admin.texi:4825
 #, no-wrap
 msgid "Tcl/Tk headers and libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721 R-admin.texi:4783 R-admin.texi:4825 R-admin.texi:4887
+#: R-admin.texi:4721
+#: R-admin.texi:4783
+#: R-admin.texi:4825
+#: R-admin.texi:4887
 #, no-wrap
 msgid "Java (OS X)"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721 R-admin.texi:4825 R-admin.texi:4887 R-admin.texi:4888 R-admin.texi:4917
+#: R-admin.texi:4721
+#: R-admin.texi:4825
+#: R-admin.texi:4887
+#: R-admin.texi:4888
+#: R-admin.texi:4917
 #, no-wrap
 msgid "Frameworks"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:4721 R-admin.texi:4887 R-admin.texi:4917 R-admin.texi:4918
+#: R-admin.texi:4721
+#: R-admin.texi:4887
+#: R-admin.texi:4917
+#: R-admin.texi:4918
 #, no-wrap
 msgid "Building R.app"
 msgstr ""
@@ -7940,8 +8447,8 @@ msgid ""
 "These tools can be (re-)installed by @command{xcode-select --install}.  (If "
 "you have a fresh installation, running e.g.@: @command{make} in a terminal "
 "will offer the installation of the command-line tools, or perhaps use the "
-"versions from Xcode.  However, after an OS update, you are advised to "
-"re-install them.)"
+"versions from Xcode.  However, after an OS update, you are advised to re-"
+"install them.)"
 msgstr ""
 
 #. type: Plain text
@@ -7998,15 +8505,16 @@ msgid "PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/lib/
 msgstr ""
 
 #. type: Plain text
-#: R-admin.texi:4769 R-admin.texi:4882
+#: R-admin.texi:4769
+#: R-admin.texi:4882
 msgid "in @file{config.site}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:4772
 msgid ""
-"For some pre-compiled software, for example the GTK framework, "
-"@file{/opt/X11/include} may need to be added to the include paths."
+"For some pre-compiled software, for example the GTK framework, @file{/opt/"
+"X11/include} may need to be added to the include paths."
 msgstr ""
 
 #. type: Plain text
@@ -8078,8 +8586,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4818
 msgid ""
-"(for the versions bundled with OS X, use paths starting with "
-"@file{/System/Library})."
+"(for the versions bundled with OS X, use paths starting with @file{/System/"
+"Library})."
 msgstr ""
 
 #. type: Plain text
@@ -8122,18 +8630,17 @@ msgstr ""
 #: R-admin.texi:4841
 msgid ""
 "You may want/need to install the latest Java from Oracle (currently Java 8 "
-"from "
-"@uref{http://www.oracle.com/technetwork/java/javase/downloads/index.html}); "
-"this is for Lion and later."
+"from @uref{http://www.oracle.com/technetwork/java/javase/downloads/index."
+"html}); this is for Lion and later."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:4847
 msgid ""
 "You may need to install what Apple calls `legacy Java'@footnote{e.g.@: "
-"@code{Java For OS X 2014-001} from "
-"@uref{https://support.apple.com/kb/DL1572}.} to suppress pop-up messages, at "
-"least under Yosemite, even if you have a current version installed."
+"@code{Java For OS X 2014-001} from @uref{https://support.apple.com/kb/"
+"DL1572}.} to suppress pop-up messages, at least under Yosemite, even if you "
+"have a current version installed."
 msgstr ""
 
 #. type: Plain text
@@ -8192,8 +8699,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home\n"
-"JAVA_CPPFLAGS=\"-I/$@{JAVA_HOME@}/include "
-"-I/$@{JAVA_HOME@}/include/darwin\"\n"
+"JAVA_CPPFLAGS=\"-I/$@{JAVA_HOME@}/include -I/$@{JAVA_HOME@}/include/darwin\"\n"
 "JAVA_LD_LIBRARY_PATH=\"$@{JAVA_HOME@}/jre/lib/server\"\n"
 "JAVA_LIBS=\"-L/$@{JAVA_HOME@}/jre/lib/server -ljvm\" \n"
 msgstr ""
@@ -8233,8 +8739,8 @@ msgid ""
 "library.  This option configures @R{} to be built and installed as a "
 "framework called @file{R.framework}.  The default installation path for "
 "@file{R.framework} is @file{/Library/Frameworks} but this can be changed at "
-"configure time by specifying the flag "
-"@option{--enable-R-framework[=@var{DIR}]} or at install time as"
+"configure time by specifying the flag @option{--enable-R-"
+"framework[=@var{DIR}]} or at install time as"
 msgstr ""
 
 #. type: example
@@ -8246,10 +8752,10 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:4916
 msgid ""
-"Note that installation as a framework is non-standard (especially to a "
-"non-standard location) and utilities may not support it (e.g.@: the "
-"@command{pkg-config} file @file{libR.pc} will be put somewhere unknown to "
-"@command{pkg-config})."
+"Note that installation as a framework is non-standard (especially to a non-"
+"standard location) and utilities may not support it (e.g.@: the @command{pkg-"
+"config} file @file{libR.pc} will be put somewhere unknown to @command{pkg-"
+"config})."
 msgstr ""
 
 #. type: Plain text
@@ -8276,8 +8782,8 @@ msgstr ""
 #: R-admin.texi:4933
 msgid ""
 "This can be built by loading the @code{R.xcodeproj} project (select the "
-"@code{R} target and a suitable configuration), or from the command-line by "
-"e.g.@:"
+"@code{R} target and a suitable configuration), or from the command-line by e."
+"g.@:"
 msgstr ""
 
 #. type: example
@@ -8298,8 +8804,8 @@ msgstr ""
 msgid ""
 "@Rapp{} does not need to be installed in any specific way. Building @Rapp{} "
 "results in the @Rapp{} bundle which appears as one R icon. This application "
-"bundle can be run anywhere and it is customary to place it in the "
-"@file{/Applications} folder."
+"bundle can be run anywhere and it is customary to place it in the @file{/"
+"Applications} folder."
 msgstr ""
 
 #. type: Plain text
@@ -8326,20 +8832,20 @@ msgid ""
 "The Solaris versions of several of the tools needed to build @R{} (e.g.@: "
 "@command{make}, @command{ar} and @command{ld}) are in @file{/usr/ccs/bin}, "
 "so if using those tools ensure this is in your path.  A version of the "
-"preferred @acronym{GNU} @command{tar} is (if installed) in "
-"@file{/usr/sfw/bin}.  It may be necessary to avoid the tools in "
-"@file{/usr/ucb}: POSIX-compliant versions of some tools can be found in "
-"@file{/usr/xpg4/bin} and @file{/usr/xpg6/bin}."
+"preferred @acronym{GNU} @command{tar} is (if installed) in @file{/usr/sfw/"
+"bin}.  It may be necessary to avoid the tools in @file{/usr/ucb}: POSIX-"
+"compliant versions of some tools can be found in @file{/usr/xpg4/bin} and "
+"@file{/usr/xpg6/bin}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:4974
 msgid ""
-"A large selection of Open Source software can be installed from "
-"@uref{http://www.opencsw.org}, by default installed under @file{/opt/csw}.  "
-"Solaris 10 ships with @code{bzlib} version 1.0.6 (sufficient for the default "
-"@option{--with-system-bzlib}) but @code{zlib} version 1.2.3 (too old for "
-"@option{--with-system-zlib}): OpenCSW has 1.2.8."
+"A large selection of Open Source software can be installed from @uref{http://"
+"www.opencsw.org}, by default installed under @file{/opt/csw}.  Solaris 10 "
+"ships with @code{bzlib} version 1.0.6 (sufficient for the default @option{--"
+"with-system-bzlib}) but @code{zlib} version 1.2.3 (too old for @option{--"
+"with-system-zlib}): OpenCSW has 1.2.8."
 msgstr ""
 
 #. type: Plain text
@@ -8362,18 +8868,17 @@ msgstr ""
 #: R-admin.texi:4986
 msgid ""
 "Some people have reported that the Solaris @code{libintl} needs to be "
-"avoided, for example by using @option{--disable-nls} or "
-"@option{--with-included-gettext} or using @code{libintl} from OpenCSW."
+"avoided, for example by using @option{--disable-nls} or @option{--with-"
+"included-gettext} or using @code{libintl} from OpenCSW."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:4992
 msgid ""
-"The support for the C99 @code{long double} type on Sparc hardware uses "
-"quad-precision arithmetic, and this is usually slow because it is done by "
-"software emulation.  On such systems @command{configure} option "
-"@option{--disable-long-double} can be used for faster but less accurate "
-"computations."
+"The support for the C99 @code{long double} type on Sparc hardware uses quad-"
+"precision arithmetic, and this is usually slow because it is done by "
+"software emulation.  On such systems @command{configure} option @option{--"
+"disable-long-double} can be used for faster but less accurate computations."
 msgstr ""
 
 #. type: Plain text
@@ -8441,10 +8946,9 @@ msgstr ""
 #: R-admin.texi:5037
 msgid ""
 "For a 64-bit target add @option{-m64} to the compiler macros and use "
-"something like @code{LDFLAGS=-L/usr/local/lib/sparcv9} or "
-"@code{LDFLAGS=-L/usr/local/lib/amd64} as appropriate.  It will also be "
-"necessary to point @command{pkg-config} at the 64-bit directories, e.g.@: "
-"one of"
+"something like @code{LDFLAGS=-L/usr/local/lib/sparcv9} or @code{LDFLAGS=-L/"
+"usr/local/lib/amd64} as appropriate.  It will also be necessary to point "
+"@command{pkg-config} at the 64-bit directories, e.g.@: one of"
 msgstr ""
 
 #. type: example
@@ -8464,8 +8968,7 @@ msgstr ""
 #: R-admin.texi:5051
 #, no-wrap
 msgid ""
-"JAVA_CPPFLAGS=\"-I$@{JAVA_HOME@}/../include "
-"-I$@{JAVA_HOME@}/../include/solaris\"\n"
+"JAVA_CPPFLAGS=\"-I$@{JAVA_HOME@}/../include -I$@{JAVA_HOME@}/../include/solaris\"\n"
 "JAVA_LD_LIBRARY_PATH=$@{JAVA_HOME@}/lib/amd64/server\n"
 "JAVA_LIBS=\"-L$@{JAVA_HOME@}/lib/amd64/server \\\n"
 "  -R$@{JAVA_HOME@}/lib/amd64/server -ljvm\"\n"
@@ -8493,13 +8996,13 @@ msgstr ""
 #: R-admin.texi:5072
 msgid ""
 "Currently @cputype{amd64} and @cputype{sparcv9} builds work out-of-the-box "
-"with Sun Studio 12u1 but not Solaris Studio 12.2 and 12.3: "
-"@file{libRblas.so} and @file{lapack.so} are generated with code that causes "
-"relocation errors (which is being linked in from the Fortran libraries).  "
-"This means that building 64-bit @R{} as a shared library may be impossible "
-"with Solaris Studio >= 12.2.  For a standard build the trick seems to be to "
-"manually set @code{FLIBS} to avoid the troublesome libraries.  For example, "
-"on @cputype{amd64} set in @file{config.site} something like"
+"with Sun Studio 12u1 but not Solaris Studio 12.2 and 12.3: @file{libRblas."
+"so} and @file{lapack.so} are generated with code that causes relocation "
+"errors (which is being linked in from the Fortran libraries).  This means "
+"that building 64-bit @R{} as a shared library may be impossible with Solaris "
+"Studio >= 12.2.  For a standard build the trick seems to be to manually set "
+"@code{FLIBS} to avoid the troublesome libraries.  For example, on "
+"@cputype{amd64} set in @file{config.site} something like"
 msgstr ""
 
 #. type: example
@@ -8581,12 +9084,11 @@ msgid ""
 "both compiling and linking is best specified as part of the compiler.  The "
 "examples above use @samp{stlport4}, currently the most modern of the "
 "options: the default (but still needed to be specified as it is needed for "
-"linking) is @samp{Cstd}: see "
-"@uref{http://developers.sun.com/@/solaris/@/articles/@/cmp_stlport_libCstd.html}.  "
-"Note though that most external Solaris C++ libraries will have been built "
-"with @samp{Cstd} and so an @R{} package using such libraries also needs to "
-"be.  Occasionally the option @option{-library=stlport4,Crun} has been "
-"needed."
+"linking) is @samp{Cstd}: see @uref{http://developers.sun.com/@/solaris/@/"
+"articles/@/cmp_stlport_libCstd.html}.  Note though that most external "
+"Solaris C++ libraries will have been built with @samp{Cstd} and so an @R{} "
+"package using such libraries also needs to be.  Occasionally the option "
+"@option{-library=stlport4,Crun} has been needed."
 msgstr ""
 
 #. type: Plain text
@@ -8634,7 +9136,9 @@ msgid ""
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:5158 R-admin.texi:5160 R-admin.texi:5161
+#: R-admin.texi:5158
+#: R-admin.texi:5160
+#: R-admin.texi:5161
 #, no-wrap
 msgid "Using gcc"
 msgstr ""
@@ -8643,10 +9147,10 @@ msgstr ""
 #: R-admin.texi:5168
 msgid ""
 "If using @command{gcc}, ensure that the compiler was compiled for the "
-"version of Solaris in use.  (This can be ascertained from @command{gcc -v}.)  "
-"@command{gcc} makes modified versions of some header files, and several "
-"reports of problems were due to using @command{gcc} compiled on one version "
-"of Solaris on a later version."
+"version of Solaris in use.  (This can be ascertained from @command{gcc -"
+"v}.)  @command{gcc} makes modified versions of some header files, and "
+"several reports of problems were due to using @command{gcc} compiled on one "
+"version of Solaris on a later version."
 msgstr ""
 
 #. type: Plain text
@@ -8658,7 +9162,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:5175
-msgid "Compilation for a 32-bit Sparc target with @command{gcc}@tie{}4.9.2 needed"
+msgid ""
+"Compilation for a 32-bit Sparc target with @command{gcc}@tie{}4.9.2 needed"
 msgstr ""
 
 #. type: example
@@ -8707,7 +9212,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:5203
-msgid "Compilation for an @cputype{x86} target with @command{gcc}@tie{}4.9.2 needed"
+msgid ""
+"Compilation for an @cputype{x86} target with @command{gcc}@tie{}4.9.2 needed"
 msgstr ""
 
 #. type: example
@@ -8849,8 +9355,8 @@ msgstr ""
 msgid ""
 "Kurt Hornik and Stefan Theussl at WU (Wirtschaftsuniversit@\"at Wien)  "
 "successfully built R on a @cputype{powerpc} (8-@acronym{CPU} Power6 system) "
-"running AIX 6.1, configuring with or without @option{--enable-R-shlib} "
-"(Ei-ji Nakama's support is gratefully acknowledged)."
+"running AIX 6.1, configuring with or without @option{--enable-R-shlib} (Ei-"
+"ji Nakama's support is gratefully acknowledged)."
 msgstr ""
 
 #. type: Plain text
@@ -8860,13 +9366,13 @@ msgid ""
 "software needed to build R and/or install packages is available directly "
 "from the AIX Installation DVDs, e.g., Java 6 and X11.  Additional open "
 "source software (OSS) is packaged for AIX in @file{.rpm} files and available "
-"from both IBM's ``AIX Toolbox for Linux Applications'' "
-"(@uref{http://www-03.ibm.com/@/systems/@/power/@/software/@/aix/@/linux/}) "
-"and @uref{http://www.oss4aix.org/@/download/}.  The latter website typically "
-"offers more recent versions of the available OSS.  All tools needed and "
-"libraries downloaded from these repositories (e.g., GCC, Make, "
-"@code{libreadline}, etc.) are typically installed to @file{/opt/freeware}, "
-"hence corresponding executables are found in"
+"from both IBM's ``AIX Toolbox for Linux Applications'' (@uref{http://www-03."
+"ibm.com/@/systems/@/power/@/software/@/aix/@/linux/}) and @uref{http://www."
+"oss4aix.org/@/download/}.  The latter website typically offers more recent "
+"versions of the available OSS.  All tools needed and libraries downloaded "
+"from these repositories (e.g., GCC, Make, @code{libreadline}, etc.) are "
+"typically installed to @file{/opt/freeware}, hence corresponding executables "
+"are found in"
 msgstr ""
 
 #. type: Plain text
@@ -8876,15 +9382,14 @@ msgid ""
 "these tools.  As on other Unix systems one needs @acronym{GNU} "
 "@code{libiconv} as the AIX version of iconv is not sufficiently powerful.  "
 "Additionally, for proper Unicode compatibility one should install the "
-"corresponding package from the ICU project "
-"(@uref{http://www.icu-project.org/@/download/}), which offers pre-compiled "
-"binaries for various platforms which in case of AIX can be installed via "
-"unpacking the tarball to the root file system.  For full @LaTeX{} support "
-"one can install the @TeX{} Live DVD distribution "
-"(@uref{http://www.tug.org/@/texlive/}): it is recommended to update the "
-"distribution using the @code{tlmgr} update manager.  For 64-bit R builds "
-"supporting Tcl/Tk this needs to installed from the sources as available "
-"pre-compiled binaries supply only 32-bit shared objects."
+"corresponding package from the ICU project (@uref{http://www.icu-project.org/"
+"@/download/}), which offers pre-compiled binaries for various platforms "
+"which in case of AIX can be installed via unpacking the tarball to the root "
+"file system.  For full @LaTeX{} support one can install the @TeX{} Live DVD "
+"distribution (@uref{http://www.tug.org/@/texlive/}): it is recommended to "
+"update the distribution using the @code{tlmgr} update manager.  For 64-bit R "
+"builds supporting Tcl/Tk this needs to installed from the sources as "
+"available pre-compiled binaries supply only 32-bit shared objects."
 msgstr ""
 
 #. type: Plain text
@@ -8893,8 +9398,8 @@ msgid ""
 "The recent WU testing was done using compilers from both the @acronym{GNU} "
 "Compiler Collection (version 4.2.4) which is available from one of the above "
 "OSS repositories, and the IBM C/C++ (XL C/C++ 10.01) as well as FORTRAN (XL "
-"Fortran 12.01) compilers "
-"(@uref{http://www14.software.ibm.com/@/webapp/@/download/@/byproduct.jsp#X})."
+"Fortran 12.01) compilers (@uref{http://www14.software.ibm.com/@/webapp/@/"
+"download/@/byproduct.jsp#X})."
 msgstr ""
 
 #. type: Plain text
@@ -8964,8 +9469,8 @@ msgstr ""
 msgid ""
 "It is strongly recommended to install Bash and use it as the configure "
 "shell, e.g., via setting @code{CONFIG_SHELL=/usr/bin/bash} in the "
-"environment, and to use @acronym{GNU} Make (e.g., via "
-"(@code{MAKE=/opt/freeware/bin/make})."
+"environment, and to use @acronym{GNU} Make (e.g., via (@code{MAKE=/opt/"
+"freeware/bin/make})."
 msgstr ""
 
 #. type: Plain text
@@ -9001,10 +9506,10 @@ msgstr ""
 msgid ""
 "@R{} requires C99 complex type support, which is available as from Cygwin "
 "1.7.8 (March 2011).  However, the (then) implementation of @code{cacos} "
-"gives incorrect results, so we undefine @code{HAVE_CACOS} in "
-"@file{src/main/complex.c} on that platform.  It has been reported that some "
-"C99 long double mathematical functions are missing, so configuring with "
-"@option{--disable-long-double} was required."
+"gives incorrect results, so we undefine @code{HAVE_CACOS} in @file{src/main/"
+"complex.c} on that platform.  It has been reported that some C99 long double "
+"mathematical functions are missing, so configuring with @option{--disable-"
+"long-double} was required."
 msgstr ""
 
 #. type: Plain text
@@ -9026,10 +9531,10 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:5416
 msgid ""
-"Enabling NLS does work if required, although adding "
-"@option{--with-included-gettext} is preferable.  You will see many warnings "
-"about the use of auto-import.  Setting @samp{FLIBS} explicitly seems needed "
-"currently as the auto-detection gives an incorrect value."
+"Enabling NLS does work if required, although adding @option{--with-included-"
+"gettext} is preferable.  You will see many warnings about the use of auto-"
+"import.  Setting @samp{FLIBS} explicitly seems needed currently as the auto-"
+"detection gives an incorrect value."
 msgstr ""
 
 #. type: Plain text
@@ -9072,7 +9577,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:5439
-msgid "Do not use Cygwin's BLAS library: it is known to give incorrect results."
+msgid ""
+"Do not use Cygwin's BLAS library: it is known to give incorrect results."
 msgstr ""
 
 #. type: Plain text
@@ -9090,13 +9596,13 @@ msgid ""
 "mandates the use of plus and minus infinity and @code{NaN} (not a number) as "
 "well as specific details of rounding.  Although almost all current FPUs can "
 "support this, selecting such support can be a pain.  The problem is that "
-"there is no agreement on how to set the signalling behaviour; Sun/Sparc, "
-"SGI/IRIX and @cputype{ix86} Linux require no special action, FreeBSD "
-"requires a call to (the macro)  @code{fpsetmask(0)} and OSF1 required that "
-"computation be done with a @option{-ieee_with_inexact} flag etc.  On a new "
-"platform you must find out the magic recipe and add some code to make it "
-"work.  This can often be done via the file @file{config.site} which resides "
-"in the top level directory."
+"there is no agreement on how to set the signalling behaviour; Sun/Sparc, SGI/"
+"IRIX and @cputype{ix86} Linux require no special action, FreeBSD requires a "
+"call to (the macro)  @code{fpsetmask(0)} and OSF1 required that computation "
+"be done with a @option{-ieee_with_inexact} flag etc.  On a new platform you "
+"must find out the magic recipe and add some code to make it work.  This can "
+"often be done via the file @file{config.site} which resides in the top level "
+"directory."
 msgstr ""
 
 #. type: Plain text
@@ -9194,11 +9700,10 @@ msgstr ""
 msgid ""
 "We have collected most of the necessary tools (unfortunately not all, due to "
 "license or size limitations) into an executable installer named@footnote{for "
-"@R{} 3.0.0 and later.} @file{Rtools31.exe}, available from "
-"@uref{http://CRAN.R-project.org/@/bin/@/windows/@/Rtools/}. You should "
-"download and run it, choosing the default ``Package authoring installation'' "
-"to build add-on packages, or the ``full installation'' if you intend to "
-"build @R{}."
+"@R{} 3.0.0 and later.} @file{Rtools31.exe}, available from @uref{http://CRAN."
+"R-project.org/@/bin/@/windows/@/Rtools/}. You should download and run it, "
+"choosing the default ``Package authoring installation'' to build add-on "
+"packages, or the ``full installation'' if you intend to build @R{}."
 msgstr ""
 
 #. type: Plain text
@@ -9233,13 +9738,19 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: R-admin.texi:5548 R-admin.texi:5596
+#: R-admin.texi:5548
+#: R-admin.texi:5596
 #, no-wrap
 msgid "@LaTeX{}"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:5550 R-admin.texi:5593 R-admin.texi:5595 R-admin.texi:5626 R-admin.texi:5627 R-admin.texi:5638
+#: R-admin.texi:5550
+#: R-admin.texi:5593
+#: R-admin.texi:5595
+#: R-admin.texi:5626
+#: R-admin.texi:5627
+#: R-admin.texi:5638
 #, no-wrap
 msgid "The Inno Setup installer"
 msgstr ""
@@ -9261,8 +9772,8 @@ msgstr ""
 msgid ""
 "Your @env{PATH} may include @file{.} first, then the @file{bin} directories "
 "of the tools, the compiler toolchain and @LaTeX{}.  Do not use filepaths "
-"containing spaces: you can always use the short forms (found by @code{dir "
-"/x} at the Windows command line).  Network shares (with paths starting "
+"containing spaces: you can always use the short forms (found by @code{dir /"
+"x} at the Windows command line).  Network shares (with paths starting "
 "@code{\\\\}) are not supported."
 msgstr ""
 
@@ -9301,25 +9812,38 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-admin.texi:5593 R-admin.texi:5595 R-admin.texi:5626
+#: R-admin.texi:5593
+#: R-admin.texi:5595
+#: R-admin.texi:5626
 #, no-wrap
 msgid "LaTeX"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:5593 R-admin.texi:5626 R-admin.texi:5638 R-admin.texi:5639 R-admin.texi:5695
+#: R-admin.texi:5593
+#: R-admin.texi:5626
+#: R-admin.texi:5638
+#: R-admin.texi:5639
+#: R-admin.texi:5695
 #, no-wrap
 msgid "The command line tools"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:5593 R-admin.texi:5638 R-admin.texi:5695 R-admin.texi:5696 R-admin.texi:5730
+#: R-admin.texi:5593
+#: R-admin.texi:5638
+#: R-admin.texi:5695
+#: R-admin.texi:5696
+#: R-admin.texi:5730
 #, no-wrap
 msgid "The MinGW-w64 toolchain"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:5593 R-admin.texi:5695 R-admin.texi:5730 R-admin.texi:5731
+#: R-admin.texi:5593
+#: R-admin.texi:5695
+#: R-admin.texi:5730
+#: R-admin.texi:5731
 #, no-wrap
 msgid "Useful additional programs"
 msgstr ""
@@ -9358,8 +9882,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:5619
 msgid ""
-"It is also possible to use the TeXLive distribution from "
-"@uref{http://www.tug.org/texlive/}."
+"It is also possible to use the TeXLive distribution from @uref{http://www."
+"tug.org/texlive/}."
 msgstr ""
 
 #. type: Plain text
@@ -9376,16 +9900,16 @@ msgstr ""
 msgid ""
 "To make the installer package (@file{@value{RWVERSION}-win.exe}) we "
 "currently require the Unicode version of Inno Setup 5.3.7 or later from "
-"@uref{http://jrsoftware.org/}. This is @emph{not} included in "
-"@file{Rtools*.exe}."
+"@uref{http://jrsoftware.org/}. This is @emph{not} included in @file{Rtools*."
+"exe}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:5637
 msgid ""
-"Copy file @file{src/gnuwin32/MkRules.dist} to "
-"@file{src/gnuwin32/MkRules.local} and edit it to set @code{ISDIR} to the "
-"location where Inno Setup was installed."
+"Copy file @file{src/gnuwin32/MkRules.dist} to @file{src/gnuwin32/MkRules."
+"local} and edit it to set @code{ISDIR} to the location where Inno Setup was "
+"installed."
 msgstr ""
 
 #. type: Plain text
@@ -9412,12 +9936,12 @@ msgstr ""
 #: R-admin.texi:5689
 msgid ""
 "@strong{Beware}: `Native' ports of make are @strong{not} suitable (including "
-"those called `MinGW make' at the MinGW SourceForge site and "
-"@command{mingw32-make} in some MinGW-w64 distributions).  There were also "
-"problems with other versions of the Cygwin tools and DLLs.  To avoid "
-"frustration, please use our tool set, and make sure it is at the front of "
-"your path (including before the Windows system directories).  If you are "
-"using a Windows shell, type @code{PATH} at the prompt to find out."
+"those called `MinGW make' at the MinGW SourceForge site and @command{mingw32-"
+"make} in some MinGW-w64 distributions).  There were also problems with other "
+"versions of the Cygwin tools and DLLs.  To avoid frustration, please use our "
+"tool set, and make sure it is at the front of your path (including before "
+"the Windows system directories).  If you are using a Windows shell, type "
+"@code{PATH} at the prompt to find out."
 msgstr ""
 
 #. type: enindex
@@ -9465,8 +9989,8 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:5717
 msgid ""
-"To select a 32-bit or 64-bit build of @R{}, set the options in "
-"@file{MkRules.local} appropriately (following the comments in the file)."
+"To select a 32-bit or 64-bit build of @R{}, set the options in @file{MkRules."
+"local} appropriately (following the comments in the file)."
 msgstr ""
 
 #. type: Plain text
@@ -9474,11 +9998,11 @@ msgstr ""
 msgid ""
 "Some external software libraries will need to be re-compiled under the new "
 "toolchain: especially those providing a C++ interface.  Many of those used "
-"by @acronym{CRAN} packages are available from "
-"@uref{http://www.stats.ox.ac.uk/@/pub/@/Rtools/@/multilib/}.  Users "
-"developing packages with @CRANpkg{Rcpp} need to ensure that they use a "
-"version built with exactly the same toolchain as their package: the "
-"recommendation is to build @CRANpkg{Rcpp} from its sources yourself."
+"by @acronym{CRAN} packages are available from @uref{http://www.stats.ox.ac."
+"uk/@/pub/@/Rtools/@/multilib/}.  Users developing packages with "
+"@CRANpkg{Rcpp} need to ensure that they use a version built with exactly the "
+"same toolchain as their package: the recommendation is to build "
+"@CRANpkg{Rcpp} from its sources yourself."
 msgstr ""
 
 #. type: Plain text
@@ -9494,16 +10018,16 @@ msgstr ""
 msgid ""
 "The process of making the installer will make use of @code{qpdf} to compact "
 "some of the package vignettes, if it is available.  Windows binaries of "
-"@code{qpdf} are available from "
-"@uref{http://sourceforge.net/@/projects/@/qpdf/@/files/}.  Set the path to "
-"the @code{qpdf} installation in file @file{MkRules.local}."
+"@code{qpdf} are available from @uref{http://sourceforge.net/@/projects/@/"
+"qpdf/@/files/}.  Set the path to the @code{qpdf} installation in file "
+"@file{MkRules.local}."
 msgstr ""
 
 #. type: Plain text
 #: R-admin.texi:5741
 msgid ""
-"Developers of packages will find some of the `goodies' at "
-"@uref{http://www.stats.ox.ac.uk/@/pub/@/Rtools/@/goodies} useful."
+"Developers of packages will find some of the `goodies' at @uref{http://www."
+"stats.ox.ac.uk/@/pub/@/Rtools/@/goodies} useful."
 msgstr ""
 
 #. type: Plain text
