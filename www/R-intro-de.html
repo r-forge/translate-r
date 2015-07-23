@@ -1,9 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<!-- This manual is for R, version Revision: 68701 (3.3.0).
+<!-- Dieses Handbuch ist für R, Version 
 
 Copyright (C) 1990 W. N. Venables
  Copyright (C) 1992
+
 W. N. Venables & D. M. Smith
  Copyright (C) 1997 R.
 Gentleman & R. Ihaka
@@ -26,16 +27,16 @@ except that this permission notice may be stated in a translation
 approved by the R Core Team. -->
 <!-- Created by GNU Texinfo 5.2, http://www.gnu.org/software/texinfo/ -->
 <head>
-<title>Eine Einführung in R (German)</title>
+<title>Eine Einführung in R</title>
 
-<meta name="description" content="Eine Einführung in R (German)">
-<meta name="keywords" content="Eine Einführung in R (German)">
+<meta name="description" content="Eine Einführung in R">
+<meta name="keywords" content="Eine Einführung in R">
 <meta name="resource-type" content="document">
 <meta name="distribution" content="global">
 <meta name="Generator" content="makeinfo">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="#Top" rel="start" title="Top">
-<link href="#Function-and-variable-index" rel="index" title="Function and variable index">
+<link href="#Index-f_00fcr-Funktionen-und-Variablen" rel="index" title="Index für Funktionen und Variablen">
 <link href="#SEC_Contents" rel="contents" title="Table of Contents">
 <link href="dir.html#Top" rel="up" title="(dir)">
 <style type="text/css">
@@ -140,9 +141,12 @@ p {
 </head>
 
 <body lang="en" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
-<h1 class="settitle" align="center">Eine Einführung in R (German)</h1>
+<h1 class="settitle" align="center">Eine Einführung in R</h1>
 
-
+<p>(Original: An Introduction to R
+http://cran.r-project.org/doc/manuals/R-intro.pdf)
+Übersetzung durch Detlef Steuer
+</p>
 
 
 
@@ -173,8 +177,8 @@ p {
 <div class="contents">
 
 <ul class="no-bullet">
-  <li><a name="toc-Preface-1" href="#Preface">Preface</a></li>
-  <li><a name="toc-Introduction-and-preliminaries-1" href="#Introduction-and-preliminaries">1 Introduction and preliminaries</a>
+  <li><a name="toc-Vorwort-1" href="#Vorwort">Vorwort</a></li>
+  <li><a name="toc-Einfuhrung-und-vorbereitenede-Bemerkungen" href="#Einf_00fchrung-und-vorbereitenede-Bemerkungen">1 Einführung und vorbereitenede Bemerkungen</a>
   <ul class="no-bullet">
     <li><a name="toc-The-R-environment-1" href="#The-R-environment">1.1 The R environment</a></li>
     <li><a name="toc-Related-software-and-documentation-1" href="#Related-software-and-documentation">1.2 Related software and documentation</a></li>
@@ -188,7 +192,7 @@ p {
     <li><a name="toc-Executing-commands-from-or-diverting-output-to-a-file-1" href="#Executing-commands-from-or-diverting-output-to-a-file">1.10 Executing commands from or diverting output to a file</a></li>
     <li><a name="toc-Data-permanency-and-removing-objects-1" href="#Data-permanency-and-removing-objects">1.11 Data permanency and removing objects</a></li>
   </ul></li>
-  <li><a name="toc-Simple-manipulations_003b-numbers-and-vectors" href="#Simple-manipulations-numbers-and-vectors">2 Simple manipulations; numbers and vectors</a>
+  <li><a name="toc-Simple-manipulations_003b-numbers-and-vectors" href="#Einfache-Operationen-mit-Zahlen-und-Vektoren">2 Simple manipulations; numbers and vectors</a>
   <ul class="no-bullet">
     <li><a name="toc-Vectors-and-assignment-1" href="#Vectors-and-assignment">2.1 Vectors and assignment</a></li>
     <li><a name="toc-Vector-arithmetic-1" href="#Vector-arithmetic">2.2 Vector arithmetic</a></li>
@@ -199,20 +203,20 @@ p {
     <li><a name="toc-Index-vectors_003b-selecting-and-modifying-subsets-of-a-data-set" href="#Index-vectors">2.7 Index vectors; selecting and modifying subsets of a data set</a></li>
     <li><a name="toc-Other-types-of-objects-1" href="#Other-types-of-objects">2.8 Other types of objects</a></li>
   </ul></li>
-  <li><a name="toc-Objects_002c-their-modes-and-attributes" href="#Objects">3 Objects, their modes and attributes</a>
+  <li><a name="toc-Objects_002c-their-modes-and-attributes" href="#Objekte">3 Objects, their modes and attributes</a>
   <ul class="no-bullet">
     <li><a name="toc-Intrinsic-attributes_003a-mode-and-length" href="#The-intrinsic-attributes-mode-and-length">3.1 Intrinsic attributes: mode and length</a></li>
     <li><a name="toc-Changing-the-length-of-an-object-1" href="#Changing-the-length-of-an-object">3.2 Changing the length of an object</a></li>
     <li><a name="toc-Getting-and-setting-attributes-1" href="#Getting-and-setting-attributes">3.3 Getting and setting attributes</a></li>
     <li><a name="toc-The-class-of-an-object-1" href="#The-class-of-an-object">3.4 The class of an object</a></li>
   </ul></li>
-  <li><a name="toc-Ordered-and-unordered-factors" href="#Factors">4 Ordered and unordered factors</a>
+  <li><a name="toc-Ordered-and-unordered-factors" href="#Faktoren">4 Ordered and unordered factors</a>
   <ul class="no-bullet">
     <li><a name="toc-A-specific-example" href="#A-specific-example">4.1 A specific example</a></li>
     <li><a name="toc-The-function-tapply_0028_0029-and-ragged-arrays-1" href="#The-function-tapply_0028_0029-and-ragged-arrays">4.2 The function <code>tapply()</code> and ragged arrays</a></li>
     <li><a name="toc-Ordered-factors-1" href="#Ordered-factors">4.3 Ordered factors</a></li>
   </ul></li>
-  <li><a name="toc-Arrays-and-matrices-1" href="#Arrays-and-matrices">5 Arrays and matrices</a>
+  <li><a name="toc-Felder-und-Matrizen-1" href="#Felder-und-Matrizen">5 Felder und Matrizen</a>
   <ul class="no-bullet">
     <li><a name="toc-Arrays-1" href="#Arrays">5.1 Arrays</a></li>
     <li><a name="toc-Array-indexing_002e-Subsections-of-an-array" href="#Array-indexing">5.2 Array indexing.  Subsections of an array</a></li>
@@ -235,7 +239,7 @@ p {
     <li><a name="toc-The-concatenation-function_002c-c_0028_0029_002c-with-arrays" href="#The-concatenation-function-c_0028_0029-with-arrays">5.9 The concatenation function, <code>c()</code>, with arrays</a></li>
     <li><a name="toc-Frequency-tables-from-factors-1" href="#Frequency-tables-from-factors">5.10 Frequency tables from factors</a></li>
   </ul></li>
-  <li><a name="toc-Lists-and-data-frames-1" href="#Lists-and-data-frames">6 Lists and data frames</a>
+  <li><a name="toc-Listen-und-Data_002dFrames-1" href="#Listen-und-Data_002dFrames">6 Listen und Data-Frames</a>
   <ul class="no-bullet">
     <li><a name="toc-Lists-1" href="#Lists">6.1 Lists</a></li>
     <li><a name="toc-Constructing-and-modifying-lists-1" href="#Constructing-and-modifying-lists">6.2 Constructing and modifying lists</a>
@@ -251,7 +255,7 @@ p {
       <li><a name="toc-Managing-the-search-path-1" href="#Managing-the-search-path">6.3.5 Managing the search path</a></li>
     </ul></li>
   </ul></li>
-  <li><a name="toc-Reading-data-from-files-1" href="#Reading-data-from-files">7 Reading data from files</a>
+  <li><a name="toc-Einlesen-von-Daten-aus-Dateien-1" href="#Einlesen-von-Daten-aus-Dateien">7 Einlesen von Daten aus Dateien</a>
   <ul class="no-bullet">
     <li><a name="toc-The-read_002etable_0028_0029-function-1" href="#The-read_002etable_0028_0029-function">7.1 The <code>read.table()</code> function</a></li>
     <li><a name="toc-The-scan_0028_0029-function-1" href="#The-scan_0028_0029-function">7.2 The <code>scan()</code> function</a></li>
@@ -261,13 +265,13 @@ p {
     </ul></li>
     <li><a name="toc-Editing-data-1" href="#Editing-data">7.4 Editing data</a></li>
   </ul></li>
-  <li><a name="toc-Probability-distributions-1" href="#Probability-distributions">8 Probability distributions</a>
+  <li><a name="toc-Verteilungsfunktionen-1" href="#Verteilungsfunktionen">8 Verteilungsfunktionen</a>
   <ul class="no-bullet">
     <li><a name="toc-R-as-a-set-of-statistical-tables-1" href="#R-as-a-set-of-statistical-tables">8.1 R as a set of statistical tables</a></li>
     <li><a name="toc-Examining-the-distribution-of-a-set-of-data-1" href="#Examining-the-distribution-of-a-set-of-data">8.2 Examining the distribution of a set of data</a></li>
     <li><a name="toc-One_002d-and-two_002dsample-tests-1" href="#One_002d-and-two_002dsample-tests">8.3 One- and two-sample tests</a></li>
   </ul></li>
-  <li><a name="toc-Grouping_002c-loops-and-conditional-execution" href="#Loops-and-conditional-execution">9 Grouping, loops and conditional execution</a>
+  <li><a name="toc-Grouping_002c-loops-and-conditional-execution" href="#Schleifen-und-bedingte-Ausf_00fchrung">9 Grouping, loops and conditional execution</a>
   <ul class="no-bullet">
     <li><a name="toc-Grouped-expressions-1" href="#Grouped-expressions">9.1 Grouped expressions</a></li>
     <li><a name="toc-Control-statements-1" href="#Control-statements">9.2 Control statements</a>
@@ -276,7 +280,7 @@ p {
       <li><a name="toc-Repetitive-execution_003a-for-loops_002c-repeat-and-while" href="#Repetitive-execution">9.2.2 Repetitive execution: <code>for</code> loops, <code>repeat</code> and <code>while</code></a></li>
     </ul></li>
   </ul></li>
-  <li><a name="toc-Writing-your-own-functions-1" href="#Writing-your-own-functions">10 Writing your own functions</a>
+  <li><a name="toc-Schreiben-eigener-Funktionen-1" href="#Schreiben-eigener-Funktionen">10 Schreiben eigener Funktionen</a>
   <ul class="no-bullet">
     <li><a name="toc-Simple-examples-1" href="#Simple-examples">10.1 Simple examples</a></li>
     <li><a name="toc-Defining-new-binary-operators-1" href="#Defining-new-binary-operators">10.2 Defining new binary operators</a></li>
@@ -293,7 +297,7 @@ p {
     <li><a name="toc-Customizing-the-environment-1" href="#Customizing-the-environment">10.8 Customizing the environment</a></li>
     <li><a name="toc-Classes_002c-generic-functions-and-object-orientation" href="#Object-orientation">10.9 Classes, generic functions and object orientation</a></li>
   </ul></li>
-  <li><a name="toc-Statistical-models-in-R-1" href="#Statistical-models-in-R">11 Statistical models in R</a>
+  <li><a name="toc-Statistische-Modelle-in-R-1" href="#Statistische-Modelle-in-R">11 Statistische Modelle in R</a>
   <ul class="no-bullet">
     <li><a name="toc-Defining-statistical-models_003b-formulae" href="#Formulae-for-statistical-models">11.1 Defining statistical models; formulae</a>
     <ul class="no-bullet">
@@ -318,7 +322,7 @@ p {
     </ul></li>
     <li><a name="toc-Some-non_002dstandard-models-1" href="#Some-non_002dstandard-models">11.8 Some non-standard models</a></li>
   </ul></li>
-  <li><a name="toc-Graphical-procedures" href="#Graphics">12 Graphical procedures</a>
+  <li><a name="toc-Graphical-procedures" href="#Grafiken">12 Graphical procedures</a>
   <ul class="no-bullet">
     <li><a name="toc-High_002dlevel-plotting-commands-1" href="#High_002dlevel-plotting-commands">12.1 High-level plotting commands</a>
     <ul class="no-bullet">
@@ -352,59 +356,64 @@ p {
     </ul></li>
     <li><a name="toc-Dynamic-graphics-1" href="#Dynamic-graphics">12.7 Dynamic graphics</a></li>
   </ul></li>
-  <li><a name="toc-Packages-1" href="#Packages">13 Packages</a>
+  <li><a name="toc-Pakete-1" href="#Pakete">13 Pakete</a>
   <ul class="no-bullet">
     <li><a name="toc-Standard-packages-1" href="#Standard-packages">13.1 Standard packages</a></li>
     <li><a name="toc-Contributed-packages-and-CRAN-1" href="#Contributed-packages-and-CRAN">13.2 Contributed packages and <acronym>CRAN</acronym></a></li>
     <li><a name="toc-Namespaces-1" href="#Namespaces">13.3 Namespaces</a></li>
   </ul></li>
-  <li><a name="toc-OS-facilities-1" href="#OS-facilities">14 OS facilities</a>
+  <li><a name="toc-Fahigkeiten-des-OS" href="#F_00e4higkeiten-des-OS">14 Fähigkeiten des OS</a>
   <ul class="no-bullet">
     <li><a name="toc-Files-and-directories-1" href="#Files-and-directories">14.1 Files and directories</a></li>
     <li><a name="toc-Filepaths-1" href="#Filepaths">14.2 Filepaths</a></li>
     <li><a name="toc-System-commands-1" href="#System-commands">14.3 System commands</a></li>
     <li><a name="toc-Compression-and-Archives-1" href="#Compression-and-Archives">14.4 Compression and Archives</a></li>
   </ul></li>
-  <li><a name="toc-A-sample-session-1" href="#A-sample-session">Appendix A A sample session</a></li>
-  <li><a name="toc-Invoking-R-1" href="#Invoking-R">Appendix B Invoking R</a>
+  <li><a name="toc-Eine-Beispielsitzung-1" href="#Eine-Beispielsitzung">Appendix A Eine Beispielsitzung</a></li>
+  <li><a name="toc-Aufrufen-von-R-1" href="#Aufrufen-von-R">Appendix B Aufrufen von R</a>
   <ul class="no-bullet">
     <li><a name="toc-Invoking-R-from-the-command-line-1" href="#Invoking-R-from-the-command-line">B.1 Invoking R from the command line</a></li>
     <li><a name="toc-Invoking-R-under-Windows-1" href="#Invoking-R-under-Windows">B.2 Invoking R under Windows</a></li>
     <li><a name="toc-Invoking-R-under-OS-X-1" href="#Invoking-R-under-OS-X">B.3 Invoking R under OS X</a></li>
     <li><a name="toc-Scripting-with-R-1" href="#Scripting-with-R">B.4 Scripting with R</a></li>
   </ul></li>
-  <li><a name="toc-The-command_002dline-editor-1" href="#The-command_002dline-editor">Appendix C The command-line editor</a>
+  <li><a name="toc-Der-Kommandozeileneditor-1" href="#Der-Kommandozeileneditor">Appendix C Der Kommandozeileneditor</a>
   <ul class="no-bullet">
     <li><a name="toc-Preliminaries" href="#Preliminaries">C.1 Preliminaries</a></li>
     <li><a name="toc-Editing-actions" href="#Editing-actions">C.2 Editing actions</a></li>
     <li><a name="toc-Command_002dline-editor-summary" href="#Command_002dline-editor-summary">C.3 Command-line editor summary</a></li>
   </ul></li>
-  <li><a name="toc-Function-and-variable-index-1" href="#Function-and-variable-index">Appendix D Function and variable index</a></li>
-  <li><a name="toc-Concept-index-1" href="#Concept-index">Appendix E Concept index</a></li>
-  <li><a name="toc-References-1" href="#References">Appendix F References</a></li>
+  <li><a name="toc-Index-fur-Funktionen-und-Variablen" href="#Index-f_00fcr-Funktionen-und-Variablen">Appendix D Index für Funktionen und Variablen</a></li>
+  <li><a name="toc-Index-der-Konzepte-1" href="#Index-der-Konzepte">Appendix E Index der Konzepte</a></li>
+  <li><a name="toc-Literatur-1" href="#Literatur">Appendix F Literatur</a></li>
 </ul>
 </div>
 
 
 <a name="Top"></a>
-<a name="Eine-Einfuhrung-in-R-_0028German_0029"></a>
-<h1 class="top">Eine Einführung in R (German)</h1>
-
+<a name="Eine-Einfuhrung-in-R"></a>
+<h1 class="top">Eine Einführung in R</h1>
+<p>(Original: An Introduction to R
+http://cran.r-project.org/doc/manuals/R-intro.pdf)
+Übersetzung durch Detlef Steuer
+</p>
 <p>Dies ist eine Einführung in R (&lsquo; &lsquo;GNU S &rdquo;), eine Sprache und Umgebung
-fürstatistische Berechnungen und Grafiken. R ist ähnlich dempreisgekrönte
-<a name="DOCF1" href="#FOOT1"><sup>1</sup></a> S-System,
-die in den Bell Laboratories von John Chambers et al war es.stellt eine
-Vielzahl von statistische und graphische Techniken (linear undnichtlineare
-Modellierung, statistische Tests, Zeitreihenanalyse,Klassifizierung,
-Clustering, ...).
+für statistische Berechnungen und Grafiken. R ist ähnlich dem
+preisgekrönten <a name="DOCF1" href="#FOOT1"><sup>1</sup></a>
+S-System, welches bei den Bell Laboratories von John Chambers et al
+entwickelt wurde. Es stellt eine Vielzahl von statistischen und
+graphischen Techniken (lineare und nichtlineare Modellierung,
+statistische Tests, Zeitreihenanalyse, Klassifikation, Cluster-Analyse,
+...) zur Verfügung.
 </p>
 <p>Dieses Handbuch enthält Informationen über Datentypen,
-Programmierelementestatistische Modellierung und Grafiken.
+Programmierelemente, statistische Modellierung und Grafiken.
 </p>
-<p>This manual is for R, version Revision: 68701 (3.3.0).
+<p>Dieses Handbuch ist für R, Version {No value for &lsquo;Version&rsquo;}
 </p>
 <p>Copyright &copy; 1990 W. N. Venables<br> Copyright &copy; 1992
-W. N. Venables &amp; D. M. Smith<br> Copyright &copy; 1997 R.
+</p>
+<p>W. N. Venables &amp; D. M. Smith<br> Copyright &copy; 1997 R.
 Gentleman &amp; R. Ihaka<br> Copyright &copy; 1997, 1998 M. Maechler<br>
 Copyright &copy; 1999&ndash;2014 R Core Team
 </p>
@@ -428,20 +437,22 @@ approved by the R Core Team.
 
 
 <hr>
-<a name="Preface"></a>
-<a name="Preface-1"></a>
-<h2 class="unnumbered">Preface</h2>
+<a name="Vorwort"></a>
+<a name="Vorwort-1"></a>
+<h2 class="unnumbered">Vorwort</h2>
 
-<p>Diese Einführung in R wird von einer ursprünglichen Satz von Notizen
-abgeleitetBeschreibung der S und <small>S-PLUS</small> Umgebungen in 1990&ndash;2 von Bill
-geschriebenVenables und David M. Smith, wenn an der University of
-Adelaide. Wir habeneine Reihe von kleinen Änderungen der Differenzen
-zwischen dem R und beziehen sich aufS Programme und expandiert ein
-Teil des Materials.
+<p>Diese Einführung in R ist von einer Reihe von Notizen,
+welche eine Beschreibung der S und <small>S-PLUS</small> Umgebungen
+beinhalteten, abgeleitet, die in 1990&ndash;2 von Bill Venables und David
+M. Smith
+an der University of Adelaide geschrieben wurden. Wir haben eine Reihe
+kleiner Änderung durchgeführt, um den Unterschieden zwischen R und
+S gerecht zu werden, sowie Teile des Materials erweitert.
 </p>
-<p>Wir möchten uns herzlich bei Bill Venables (und David Smith) für
-erweiternGewährung berechtigt, die modifizierte Version die Hinweise in
-diese zu verteilenSo, und dafür, dass ein Anhänger der R von damals.
+<p>Wir möchten uns herzlich bei Bill Venables (und David Smith) für die
+Erlaubnis bedanken, diese modifizierte Version der Notizen in dieser
+Form zu publizieren, und dafür, dass für die Unterstützung von R
+von Anfang an.
 </p>
 <p>Kommentare und Korrekturen sind jederzeit willkommen. Bitte richten Sie per
 E-MailEntsprechung zu <a href="mailto:R-Core-@R-project.org">R-Core-@R-project.org</a>.
@@ -454,14 +465,14 @@ This should give some familiarity with the style of R sessions and more
 importantly some instant feedback on what actually happens.
 </p>
 <p>Many users will come to R mainly for its graphical facilities.
-See <a href="#Graphics">Graphics</a>, which can be read at almost any time and need not wait
+See &lsquo;Graphics&rsquo;, which can be read at almost any time and need not wait
 until all the preceding sections have been digested.
 </p>
 
 <hr>
-<a name="Introduction-and-preliminaries"></a>
-<a name="Introduction-and-preliminaries-1"></a>
-<h2 class="chapter">1 Introduction and preliminaries</h2>
+<a name="Einf_00fchrung-und-vorbereitenede-Bemerkungen"></a>
+<a name="Einfuhrung-und-vorbereitenede-Bemerkungen"></a>
+<h2 class="chapter">1 Einführung und vorbereitenede Bemerkungen</h2>
 
 
 <hr>
@@ -512,7 +523,7 @@ features of the 1991 release of S are covered in <em>Statistical
 Models in S</em> edited by John M. Chambers and Trevor J. Hastie.  The
 formal methods and classes of the <strong>methods</strong> package are based on those
 described in <em>Programming with Data</em> by John M. Chambers.
-See <a href="#References">References</a>, for precise references.
+See &lsquo;References&rsquo;, for precise references.
 </p>
 <p>There are now a number of books which describe how to use R for data
 analysis and statistics, and documentation for S/<small>S-PLUS</small> can typically
@@ -524,7 +535,7 @@ statistical system FAQ</cite>.
 <a name="R-and-statistics"></a>
 <a name="R-and-statistics-1"></a>
 <h3 class="section">1.3 R and statistics</h3>
-<a name="index-Packages"></a>
+<a name="index-Pakete"></a>
 
 <p>Our introduction to the R environment did not mention <em>statistics</em>,
 yet many people use R as a statistics system.  We prefer to think of it
@@ -534,7 +545,7 @@ R environment, but many are supplied as <em>packages</em>.  There are about
 25 packages supplied with R (called &ldquo;standard&rdquo; and &ldquo;recommended&rdquo;
 packages) and many more are available through the <acronym>CRAN</acronym> family of
 Internet sites (via <a href="http://CRAN.R-project.org">http://CRAN.R-project.org</a>) and elsewhere.  More
-details on packages are given later (see <a href="#Packages">Packages</a>).
+details on packages are given later (see &lsquo;Packages&rsquo;).
 </p>
 <p>Most classical statistics and much of the latest methodology is available
 for use with R, but users may need to be prepared to do a little work to
@@ -640,7 +651,8 @@ icon.
 <h3 class="section">1.6 An introductory session</h3>
 
 <p>Readers wishing to get a feel for R at a computer before proceeding are
-strongly advised to work through the introductory session given in <a href="#A-sample-session">A sample session</a>.
+strongly advised to work through the introductory session given in &lsquo;A
+sample session&rsquo;.
 </p>
 <hr>
 <a name="Getting-help"></a>
@@ -772,7 +784,7 @@ the keyboard can be used to scroll forward and backward through a
 <em>command history</em>.  Once a command is located in this way, the cursor
 can be moved within the command using the horizontal arrow keys, and
 characters can be removed with the <tt class="key">DEL</tt> key or added with the other
-keys.  More details are provided later: see <a href="#The-command_002dline-editor">The command-line editor</a>.
+keys.  More details are provided later: see &lsquo;The command-line editor&rsquo;.
 </p>
 <p>The recall and editing capabilities under UNIX are highly customizable.  You
 can find out how to do this by reading the manual entry for the
@@ -863,7 +875,7 @@ hard to decide what they might be when the several analyses have been
 conducted in the same directory.
 </p>
 <hr>
-<a name="Simple-manipulations-numbers-and-vectors"></a>
+<a name="Einfache-Operationen-mit-Zahlen-und-Vektoren"></a>
 <a name="Simple-manipulations_003b-numbers-and-vectors"></a>
 <h2 class="chapter">2 Simple manipulations; numbers and vectors</h2>
 <a name="index-Vectors"></a>
@@ -1389,10 +1401,10 @@ others which we will meet more formally in later sections.
 <li> <em>matrices</em> or more generally <em>arrays</em> are multi-dimensional
 generalizations of vectors.  In fact, they <em>are</em> vectors that can be
 indexed by two or more indices and will be printed in special ways.
-See <a href="#Arrays-and-matrices">Arrays and matrices</a>.
+See &lsquo;Arrays and matrices&rsquo;.
 
 </li><li> <em>factors</em> provide compact ways to handle categorical data.
-See <a href="#Factors">Factors</a>.
+See &lsquo;Factors&rsquo;.
 
 </li><li> <em>lists</em> are a general form of vector in which the various elements need
 not be of the same type, and are often themselves vectors or lists.  Lists
@@ -1407,15 +1419,15 @@ treatments are categorical but the response is numeric.  See <a href="#Data-fram
 
 </li><li> <em>functions</em> are themselves objects in R which can be stored in the
 project&rsquo;s workspace.  This provides a simple and convenient way to extend
-R.  See <a href="#Writing-your-own-functions">Writing your own functions</a>.
+R.  See &lsquo;Writing your own functions&rsquo;.
 
 </li></ul>
 
 <hr>
-<a name="Objects"></a>
+<a name="Objekte"></a>
 <a name="Objects_002c-their-modes-and-attributes"></a>
 <h2 class="chapter">3 Objects, their modes and attributes</h2>
-<a name="index-Objects"></a>
+<a name="index-Objekte"></a>
 <a name="index-Attributes"></a>
 
 
@@ -1617,10 +1629,10 @@ with the idea of class and generic functions.
 <p>Generic functions and classes will be discussed further in <a href="#Object-orientation">Object orientation</a>, but only briefly.
 </p>
 <hr>
-<a name="Factors"></a>
+<a name="Faktoren"></a>
 <a name="Ordered-and-unordered-factors"></a>
 <h2 class="chapter">4 Ordered and unordered factors</h2>
-<a name="index-Factors"></a>
+<a name="index-Faktoren"></a>
 <a name="index-Ordered-factors"></a>
 
 <p>A <em>factor</em> is a vector object used to specify a discrete classification
@@ -1719,7 +1731,8 @@ simple one liner, specified by the assignment:
 <pre class="example">&gt; stderr &lt;- function(x) sqrt(var(x)/length(x))
 </pre></div>
 
-<p>(Writing functions will be considered later in <a href="#Writing-your-own-functions">Writing your own functions</a>, and in this case was unnecessary as R also has a builtin
+<p>(Writing functions will be considered later in &lsquo;Writing your own
+functions&rsquo;, and in this case was unnecessary as R also has a builtin
 function <code>sd()</code>.)
 <a name="index-sd"></a>
 <a name="index-var-1"></a>
@@ -1780,9 +1793,9 @@ different.
 </p>
 
 <hr>
-<a name="Arrays-and-matrices"></a>
-<a name="Arrays-and-matrices-1"></a>
-<h2 class="chapter">5 Arrays and matrices</h2>
+<a name="Felder-und-Matrizen"></a>
+<a name="Felder-und-Matrizen-1"></a>
+<h2 class="chapter">5 Felder und Matrizen</h2>
 
 
 <hr>
@@ -2070,7 +2083,7 @@ and <code>y</code> respectively, we could proceed as follows:
 <p>In particular the outer product of two ordinary vectors is a doubly
 subscripted array (that is a matrix, of rank at most 1).  Notice that the
 outer product operator is of course non-commutative.  Defining your own R
-functions will be considered further in <a href="#Writing-your-own-functions">Writing your own functions</a>.
+functions will be considered further in &lsquo;Writing your own functions&rsquo;.
 </p>
 <a name="An-example_003a-Determinants-of-2-by-2-single_002ddigit-matrices"></a>
 <h4 class="subsubheading">An example: Determinants of 2 by 2 single-digit matrices</h4>
@@ -2097,7 +2110,7 @@ independently and uniformly at random.
 <p>Notice the coercion of the <code>names</code> attribute of the frequency table to
 numeric in order to recover the range of the determinant values.  The
 &ldquo;obvious&rdquo; way of doing this problem with <code>for</code> loops, to be discussed
-in <a href="#Loops-and-conditional-execution">Loops and conditional execution</a>, is so inefficient as to be
+in &lsquo;Loops and conditional execution&rsquo;, is so inefficient as to be
 impractical.
 </p>
 <p>It is also perhaps surprising that about 1 in 20 such matrices is singular.
@@ -2366,7 +2379,7 @@ discovered and removed as they are found.
 <p>This alternative is the older, low-level way to perform least squares
 calculations.  Although still useful in some contexts, it would now
 generally be replaced by the statistical models features, as will be
-discussed in <a href="#Statistical-models-in-R">Statistical models in R</a>.
+discussed in &lsquo;Statistical models in R&rsquo;.
 </p>
 
 <hr>
@@ -2497,9 +2510,9 @@ incomef   act nsw nt qld sa tas vic wa
 <p>Extension to higher-way frequency tables is immediate.
 </p>
 <hr>
-<a name="Lists-and-data-frames"></a>
-<a name="Lists-and-data-frames-1"></a>
-<h2 class="chapter">6 Lists and data frames</h2>
+<a name="Listen-und-Data_002dFrames"></a>
+<a name="Listen-und-Data_002dFrames-1"></a>
+<h2 class="chapter">6 Listen und Data-Frames</h2>
 
 
 <hr>
@@ -2677,7 +2690,7 @@ data frame may be used to form one using the function <code>data.frame</code>:
 </p>
 <p>The simplest way to construct a data frame from scratch is to use the
 <code>read.table()</code> function to read an entire data frame from an external
-file.  This is discussed further in <a href="#Reading-data-from-files">Reading data from files</a>.
+file.  This is discussed further in &lsquo;Reading data from files&rsquo;.
 </p>
 <hr>
 <a name="attach_0028_0029-and-detach_0028_0029"></a>
@@ -2822,10 +2835,10 @@ search path.
 </pre></div>
 
 <hr>
-<a name="Reading-data-from-files"></a>
-<a name="Reading-data-from-files-1"></a>
-<h2 class="chapter">7 Reading data from files</h2>
-<a name="index-Reading-data-from-files"></a>
+<a name="Einlesen-von-Daten-aus-Dateien"></a>
+<a name="Einlesen-von-Daten-aus-Dateien-1"></a>
+<h2 class="chapter">7 Einlesen von Daten aus Dateien</h2>
+<a name="index-Einlesen-von-Daten-aus-Dateien"></a>
 
 <p>Large data objects will usually be read as values from external files rather
 than entered during an R session at the keyboard.  R input facilities
@@ -3049,10 +3062,10 @@ which is equivalent to <code>xold &lt;- edit(xold)</code>.
 </p>
 
 <hr>
-<a name="Probability-distributions"></a>
-<a name="Probability-distributions-1"></a>
-<h2 class="chapter">8 Probability distributions</h2>
-<a name="index-Probability-distributions"></a>
+<a name="Verteilungsfunktionen"></a>
+<a name="Verteilungsfunktionen-1"></a>
+<h2 class="chapter">8 Verteilungsfunktionen</h2>
+<a name="index-Verteilungsfunktionen"></a>
 
 
 <hr>
@@ -3430,10 +3443,10 @@ cannot compute correct p-values with ties in: ks.test(A, B)
 </pre></div>
 
 <hr>
-<a name="Loops-and-conditional-execution"></a>
+<a name="Schleifen-und-bedingte-Ausf_00fchrung"></a>
 <a name="Grouping_002c-loops-and-conditional-execution"></a>
 <h2 class="chapter">9 Grouping, loops and conditional execution</h2>
-<a name="index-Loops-and-conditional-execution"></a>
+<a name="index-Schleifen-und-bedingte-Ausfuhrung"></a>
 
 
 <hr>
@@ -3563,14 +3576,14 @@ and skip to the &ldquo;next&rdquo;.
 <a name="index-next"></a>
 </p>
 <p>Control statements are most often used in connection with <em>functions</em>
-which are discussed in <a href="#Writing-your-own-functions">Writing your own functions</a>, and where more
+which are discussed in &lsquo;Writing your own functions&rsquo;, and where more
 examples will emerge.
 </p>
 
 <hr>
-<a name="Writing-your-own-functions"></a>
-<a name="Writing-your-own-functions-1"></a>
-<h2 class="chapter">10 Writing your own functions</h2>
+<a name="Schreiben-eigener-Funktionen"></a>
+<a name="Schreiben-eigener-Funktionen-1"></a>
+<h2 class="chapter">10 Schreiben eigener Funktionen</h2>
 <a name="index-Writing-functions"></a>
 
 <p>As we have seen informally along the way, the R language allows the user
@@ -4227,9 +4240,9 @@ complete discussion of this mechanism.
 </p>
 
 <hr>
-<a name="Statistical-models-in-R"></a>
-<a name="Statistical-models-in-R-1"></a>
-<h2 class="chapter">11 Statistical models in R</h2>
+<a name="Statistische-Modelle-in-R"></a>
+<a name="Statistische-Modelle-in-R-1"></a>
+<h2 class="chapter">11 Statistische Modelle in R</h2>
 <a name="index-Statistical-models"></a>
 
 <p>This section presumes the reader has some familiarity with statistical
@@ -4458,7 +4471,7 @@ model matrix.  This is easy if we have continuous variables, as each
 provides one column of the model matrix (and the intercept will provide a
 column of ones if included in the model).
 </p>
-<a name="index-Factors-1"></a>
+<a name="index-Faktoren-1"></a>
 <a name="index-Ordered-factors-1"></a>
 <p>What about a <em>k</em>-level factor <code>A</code>? The answer differs for
 unordered and ordered factors.  For <em>unordered</em> factors <em>k - 1</em>
@@ -5262,7 +5275,7 @@ graphical way.
 </li></ul>
 
 <hr>
-<a name="Graphics"></a>
+<a name="Grafiken"></a>
 <a name="Graphical-procedures"></a>
 <h2 class="chapter">12 Graphical procedures</h2>
 
@@ -6377,10 +6390,10 @@ described at <a href="http://www.ggobi.org/rggobi">http://www.ggobi.org/rggobi</
 example of surfaces.
 </p>
 <hr>
-<a name="Packages"></a>
-<a name="Packages-1"></a>
-<h2 class="chapter">13 Packages</h2>
-<a name="index-Packages-1"></a>
+<a name="Pakete"></a>
+<a name="Pakete-1"></a>
+<h2 class="chapter">13 Pakete</h2>
+<a name="index-Pakete-1"></a>
 
 <p>All R functions and datasets are stored in <em>packages</em>.  Only when a
 package is loaded are its contents available.  This is done both for
@@ -6499,9 +6512,9 @@ automatic loading of the associated package.  When packages with namespaces
 are loaded automatically they are not added to the search list.
 </p>
 <hr>
-<a name="OS-facilities"></a>
-<a name="OS-facilities-1"></a>
-<h2 class="chapter">14 OS facilities</h2>
+<a name="F_00e4higkeiten-des-OS"></a>
+<a name="Fahigkeiten-des-OS"></a>
+<h2 class="chapter">14 Fähigkeiten des OS</h2>
 
 <p>R has quite extensive facilities to access the OS under which it is
 running: this allows it to be used as a scripting language and that ability
@@ -6679,16 +6692,16 @@ packages.  R can list and unpack both (see functions <code>untar</code> and
 external program).
 </p>
 <hr>
-<a name="A-sample-session"></a>
-<a name="A-sample-session-1"></a>
-<h2 class="appendix">Appendix A A sample session</h2>
+<a name="Eine-Beispielsitzung"></a>
+<a name="Eine-Beispielsitzung-1"></a>
+<h2 class="appendix">Appendix A Eine Beispielsitzung</h2>
 
 <p>The following session is intended to introduce to you some features of the
 R environment by using them.  Many features of the system will be
 unfamiliar and puzzling at first, but this puzzlement will soon disappear.
 </p>
 <dl compact="compact">
-<dt><code>Start R appropriately for your platform (see <a href="#Invoking-R">Invoking R</a>).</code></dt>
+<dt><code>Start R appropriately for your platform (see `Invoking R').</code></dt>
 <dd>
 <p>The R program begins, with a banner.
 </p>
@@ -6947,9 +6960,9 @@ want to save it.
 </dl>
 
 <hr>
-<a name="Invoking-R"></a>
-<a name="Invoking-R-1"></a>
-<h2 class="appendix">Appendix B Invoking R</h2>
+<a name="Aufrufen-von-R"></a>
+<a name="Aufrufen-von-R-1"></a>
+<h2 class="appendix">Appendix B Aufrufen von R</h2>
 
 <p>Users of R on Windows or OS X should read the OS-specific section first,
 but command-line use is also supported.
@@ -7120,7 +7133,7 @@ will need to be quoted.)
 <dt><samp>--no-readline</samp></dt>
 <dd><p>(UNIX only) Turn off command-line editing via <strong>readline</strong>.  This is
 useful when running R from within Emacs using the <acronym>ESS</acronym> (&ldquo;Emacs
-Speaks Statistics&rdquo;) package.  See <a href="#The-command_002dline-editor">The command-line editor</a>, for more
+Speaks Statistics&rdquo;) package.  See &lsquo;The command-line editor&rsquo;, for more
 information.  Command-line editing is enabled for default interactive use
 (see <samp>--interactive</samp>).  This option also affects tilde-expansion: see
 the help for <code>path.expand</code>.
@@ -7527,9 +7540,9 @@ not contain spaces nor shell metacharacters.
 </p>
 
 <hr>
-<a name="The-command_002dline-editor"></a>
-<a name="The-command_002dline-editor-1"></a>
-<h2 class="appendix">Appendix C The command-line editor</h2>
+<a name="Der-Kommandozeileneditor"></a>
+<a name="Der-Kommandozeileneditor-1"></a>
+<h2 class="appendix">Appendix C Der Kommandozeileneditor</h2>
 
 <a name="Preliminaries"></a>
 <h3 class="appendixsection">C.1 Preliminaries</h3>
@@ -7681,156 +7694,156 @@ $endif
 </pre></div>
 
 <hr>
-<a name="Function-and-variable-index"></a>
-<a name="Function-and-variable-index-1"></a>
-<h2 class="appendix">Appendix D Function and variable index</h2>
+<a name="Index-f_00fcr-Funktionen-und-Variablen"></a>
+<a name="Index-fur-Funktionen-und-Variablen"></a>
+<h2 class="appendix">Appendix D Index für Funktionen und Variablen</h2>
 
-<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Function-and-variable-index_vr_symbol-1"><b>!</b></a>
+<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-1"><b>!</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-2"><b>%</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-2"><b>%</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-3"><b>&amp;</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-3"><b>&amp;</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-4"><b>*</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-4"><b>*</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-5"><b>+</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-5"><b>+</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-6"><b>-</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-6"><b>-</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-7"><b>.</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-7"><b>.</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-8"><b>/</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-8"><b>/</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-9"><b>:</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-9"><b>:</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-10"><b>&lt;</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-10"><b>&lt;</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-11"><b>=</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-11"><b>=</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-12"><b>&gt;</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-12"><b>&gt;</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-13"><b>?</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-13"><b>?</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-14"><b>^</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-14"><b>^</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-15"><b>|</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-15"><b>|</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-16"><b>~</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-16"><b>~</b></a>
  &nbsp; 
 <br>
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-A"><b>A</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-A"><b>A</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-B"><b>B</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-B"><b>B</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-C"><b>C</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-C"><b>C</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-D"><b>D</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-D"><b>D</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-E"><b>E</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-E"><b>E</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-F"><b>F</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-F"><b>F</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-G"><b>G</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-G"><b>G</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-H"><b>H</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-H"><b>H</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-I"><b>I</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-I"><b>I</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-J"><b>J</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-J"><b>J</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-K"><b>K</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-K"><b>K</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-L"><b>L</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-L"><b>L</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-M"><b>M</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-M"><b>M</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-N"><b>N</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-N"><b>N</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-O"><b>O</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-O"><b>O</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-P"><b>P</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-P"><b>P</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-Q"><b>Q</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-Q"><b>Q</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-R"><b>R</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-R"><b>R</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-S"><b>S</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-S"><b>S</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-T"><b>T</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-T"><b>T</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-U"><b>U</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-U"><b>U</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-V"><b>V</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-V"><b>V</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-W"><b>W</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-W"><b>W</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-X"><b>X</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-X"><b>X</b></a>
  &nbsp; 
 </td></tr></table>
 <table class="index-vr" border="0">
 <tr><td></td><th align="left">Index Entry</th><td>&nbsp;</td><th align="left"> Section</th></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-1">!</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-1">!</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_0021"><code>!</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_0021_003d"><code>!=</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-2">%</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-2">%</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_0025_002a_0025"><code>%*%</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Multiplication">Multiplication</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_0025o_0025"><code>%o%</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-outer-product-of-two-arrays">The outer product of two arrays</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-3">&amp;</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-3">&amp;</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_0026"><code>&amp;</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_0026_0026"><code>&amp;&amp;</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Conditional-execution">Conditional execution</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-4">*</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-4">*</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_002a"><code>*</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-5">+</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-5">+</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_002b"><code>+</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-6">-</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-6">-</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_002d"><code>-</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-7">.</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-7">.</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_002e"><code>.</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Updating-fitted-models">Updating fitted models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_002eFirst"><code>.First</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Customizing-the-environment">Customizing the environment</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_002eLast"><code>.Last</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Customizing-the-environment">Customizing the environment</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-8">/</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-8">/</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_002f"><code>/</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-9">:</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-9">:</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003a"><code>:</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generating-regular-sequences">Generating regular sequences</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003a_003a"><code>::</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Namespaces">Namespaces</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003a_003a_003a"><code>:::</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Namespaces">Namespaces</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-10">&lt;</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-10">&lt;</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003c"><code>&lt;</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003c_003c_002d"><code>&lt;&lt;-</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Scope">Scope</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003c_003d"><code>&lt;=</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-11">=</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-11">=</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003d_003d"><code>==</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-12">&gt;</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-12">&gt;</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003e"><code>&gt;</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003e_003d"><code>&gt;=</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-13">?</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-13">?</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003f"><code>?</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_003f_003f"><code>??</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-14">^</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-14">^</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005e"><code>^</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-15">|</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-15">|</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_007c"><code>|</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_007c_007c"><code>||</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Conditional-execution">Conditional execution</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_symbol-16">~</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-16">~</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_007e"><code>~</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Formulae-for-statistical-models">Formulae for statistical models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-A">A</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-A">A</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-abline"><code>abline</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Low_002dlevel-plotting-commands">Low-level plotting commands</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-ace"><code>ace</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-add1"><code>add1</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Updating-fitted-models">Updating fitted models</a></td></tr>
@@ -7849,12 +7862,12 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-avas"><code>avas</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-axis"><code>axis</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Low_002dlevel-plotting-commands">Low-level plotting commands</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-B">B</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-B">B</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-boxplot"><code>boxplot</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-break"><code>break</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Repetitive-execution">Repetitive execution</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-bruto"><code>bruto</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-C">C</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-C">C</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-c"><code>c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vectors-and-assignment">Vectors and assignment</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-c-1"><code>c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Character-vectors">Character vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-c-2"><code>c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-concatenation-function-c_0028_0029-with-arrays">The concatenation function c() with arrays</a></td></tr>
@@ -7871,7 +7884,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-crossprod-1"><code>crossprod</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Multiplication">Multiplication</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-cut"><code>cut</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Frequency-tables-from-factors">Frequency tables from factors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-D">D</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-D">D</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-data"><code>data</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Accessing-builtin-datasets">Accessing builtin datasets</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-data_002eframe"><code>data.frame</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Making-data-frames">Making data frames</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-density"><code>density</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
@@ -7889,7 +7902,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-dotchart"><code>dotchart</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Display-graphics">Display graphics</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-drop1"><code>drop1</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Updating-fitted-models">Updating fitted models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-E">E</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-E">E</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-ecdf"><code>ecdf</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-edit"><code>edit</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Editing-data">Editing data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-eigen"><code>eigen</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Eigenvalues-and-eigenvectors">Eigenvalues and eigenvectors</a></td></tr>
@@ -7898,21 +7911,21 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-example"><code>example</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-exp"><code>exp</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-F">F</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-F">F</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-F"><code>F</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-factor"><code>factor</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Factors">Factors</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-factor"><code>factor</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Faktoren">Faktoren</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-FALSE"><code>FALSE</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-fivenum"><code>fivenum</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-for"><code>for</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Repetitive-execution">Repetitive execution</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-formula"><code>formula</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generic-functions-for-extracting-model-information">Generic functions for extracting model information</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-function"><code>function</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Writing-your-own-functions">Writing your own functions</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-function"><code>function</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Schreiben-eigener-Funktionen">Schreiben eigener Funktionen</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-G">G</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-G">G</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-getAnywhere"><code>getAnywhere</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Object-orientation">Object orientation</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-getS3method"><code>getS3method</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Object-orientation">Object orientation</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-glm"><code>glm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-glm_0028_0029-function">The glm() function</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-H">H</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-H">H</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-help"><code>help</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-help-1"><code>help</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-help_002esearch"><code>help.search</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
@@ -7920,7 +7933,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-hist"><code>hist</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-hist-1"><code>hist</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Display-graphics">Display graphics</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-I">I</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-I">I</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-identify"><code>identify</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Interacting-with-graphics">Interacting with graphics</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-if"><code>if</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Conditional-execution">Conditional execution</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-if-1"><code>if</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Conditional-execution">Conditional execution</a></td></tr>
@@ -7929,17 +7942,17 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-is_002ena"><code>is.na</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Missing-values">Missing values</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-is_002enan"><code>is.nan</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Missing-values">Missing values</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-J">J</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-J">J</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-jpeg"><code>jpeg</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Device-drivers">Device drivers</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-K">K</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-K">K</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-ks_002etest"><code>ks.test</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-L">L</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-L">L</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-legend"><code>legend</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Low_002dlevel-plotting-commands">Low-level plotting commands</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-length"><code>length</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-length-1"><code>length</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-intrinsic-attributes-mode-and-length">The intrinsic attributes mode and length</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-levels"><code>levels</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Factors">Factors</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-levels"><code>levels</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Faktoren">Faktoren</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-lines"><code>lines</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Low_002dlevel-plotting-commands">Low-level plotting commands</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-list"><code>list</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Lists">Lists</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-lm"><code>lm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Linear-models">Linear models</a></td></tr>
@@ -7951,7 +7964,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-lqs"><code>lqs</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-lsfit"><code>lsfit</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Least-squares-fitting-and-the-QR-decomposition">Least squares fitting and the QR decomposition</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-M">M</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-M">M</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-mars"><code>mars</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-max"><code>max</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-mean"><code>mean</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
@@ -7959,7 +7972,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-min"><code>min</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-mode"><code>mode</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-intrinsic-attributes-mode-and-length">The intrinsic attributes mode and length</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-N">N</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-N">N</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-NA"><code>NA</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Missing-values">Missing values</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-NaN"><code>NaN</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Missing-values">Missing values</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-ncol"><code>ncol</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Matrix-facilities">Matrix facilities</a></td></tr>
@@ -7971,14 +7984,14 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-nlminb"><code>nlminb</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Nonlinear-least-squares-and-maximum-likelihood-models">Nonlinear least squares and maximum likelihood models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-nrow"><code>nrow</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Matrix-facilities">Matrix facilities</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-O">O</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-O">O</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-optim"><code>optim</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Nonlinear-least-squares-and-maximum-likelihood-models">Nonlinear least squares and maximum likelihood models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-order"><code>order</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-ordered"><code>ordered</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Ordered-factors">Ordered factors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-ordered-1"><code>ordered</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Ordered-factors">Ordered factors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-outer"><code>outer</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-outer-product-of-two-arrays">The outer product of two arrays</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-P">P</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-P">P</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-pairs"><code>pairs</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Displaying-multivariate-data">Displaying multivariate data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-par"><code>par</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-par_0028_0029-function">The par() function</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-paste"><code>paste</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Character-vectors">Character vectors</a></td></tr>
@@ -7996,7 +8009,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-print"><code>print</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generic-functions-for-extracting-model-information">Generic functions for extracting model information</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-prod"><code>prod</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-Q">Q</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-Q">Q</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-qqline"><code>qqline</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-qqline-1"><code>qqline</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Display-graphics">Display graphics</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-qqnorm"><code>qqnorm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
@@ -8005,7 +8018,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-qr"><code>qr</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Least-squares-fitting-and-the-QR-decomposition">Least squares fitting and the QR decomposition</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-quartz"><code>quartz</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Device-drivers">Device drivers</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-R">R</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-R">R</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-range"><code>range</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-rbind"><code>rbind</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Forming-partitioned-matrices">Forming partitioned matrices</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-read_002etable"><code>read.table</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-read_002etable_0028_0029-function">The read.table() function</a></td></tr>
@@ -8016,7 +8029,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-rlm"><code>rlm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-rm"><code>rm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Data-permanency-and-removing-objects">Data permanency and removing objects</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-S">S</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-S">S</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-scan"><code>scan</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-scan_0028_0029-function">The scan() function</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-sd"><code>sd</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-function-tapply_0028_0029-and-ragged-arrays">The function tapply() and ragged arrays</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-search"><code>search</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Managing-the-search-path">Managing the search path</a></td></tr>
@@ -8037,7 +8050,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-summary-1"><code>summary</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generic-functions-for-extracting-model-information">Generic functions for extracting model information</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-svd"><code>svd</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Singular-value-decomposition-and-determinants">Singular value decomposition and determinants</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-T">T</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-T">T</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-T"><code>T</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-t"><code>t</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generalized-transpose-of-an-array">Generalized transpose of an array</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-t_002etest"><code>t.test</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
@@ -8050,174 +8063,174 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-tree"><code>tree</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-TRUE"><code>TRUE</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-U">U</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-U">U</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-unclass"><code>unclass</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-class-of-an-object">The class of an object</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-update"><code>update</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Updating-fitted-models">Updating fitted models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-V">V</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-V">V</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-var"><code>var</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-var-1"><code>var</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-function-tapply_0028_0029-and-ragged-arrays">The function tapply() and ragged arrays</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-var_002etest"><code>var.test</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-vcov"><code>vcov</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generic-functions-for-extracting-model-information">Generic functions for extracting model information</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-vector"><code>vector</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vectors-and-assignment">Vectors and assignment</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-W">W</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-W">W</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-while"><code>while</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Repetitive-execution">Repetitive execution</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-wilcox_002etest"><code>wilcox.test</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-windows"><code>windows</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Device-drivers">Device drivers</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Function-and-variable-index_vr_letter-X">X</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-X">X</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-X11"><code>X11</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Device-drivers">Device drivers</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 </table>
-<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Function-and-variable-index_vr_symbol-1"><b>!</b></a>
+<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-1"><b>!</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-2"><b>%</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-2"><b>%</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-3"><b>&amp;</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-3"><b>&amp;</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-4"><b>*</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-4"><b>*</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-5"><b>+</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-5"><b>+</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-6"><b>-</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-6"><b>-</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-7"><b>.</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-7"><b>.</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-8"><b>/</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-8"><b>/</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-9"><b>:</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-9"><b>:</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-10"><b>&lt;</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-10"><b>&lt;</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-11"><b>=</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-11"><b>=</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-12"><b>&gt;</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-12"><b>&gt;</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-13"><b>?</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-13"><b>?</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-14"><b>^</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-14"><b>^</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-15"><b>|</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-15"><b>|</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_symbol-16"><b>~</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-16"><b>~</b></a>
  &nbsp; 
 <br>
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-A"><b>A</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-A"><b>A</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-B"><b>B</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-B"><b>B</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-C"><b>C</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-C"><b>C</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-D"><b>D</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-D"><b>D</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-E"><b>E</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-E"><b>E</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-F"><b>F</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-F"><b>F</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-G"><b>G</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-G"><b>G</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-H"><b>H</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-H"><b>H</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-I"><b>I</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-I"><b>I</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-J"><b>J</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-J"><b>J</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-K"><b>K</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-K"><b>K</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-L"><b>L</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-L"><b>L</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-M"><b>M</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-M"><b>M</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-N"><b>N</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-N"><b>N</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-O"><b>O</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-O"><b>O</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-P"><b>P</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-P"><b>P</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-Q"><b>Q</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-Q"><b>Q</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-R"><b>R</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-R"><b>R</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-S"><b>S</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-S"><b>S</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-T"><b>T</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-T"><b>T</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-U"><b>U</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-U"><b>U</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-V"><b>V</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-V"><b>V</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-W"><b>W</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-W"><b>W</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Function-and-variable-index_vr_letter-X"><b>X</b></a>
+<a class="summary-letter" href="#Index-f_00fcr-Funktionen-und-Variablen_vr_letter-X"><b>X</b></a>
  &nbsp; 
 </td></tr></table>
 
 <hr>
-<a name="Concept-index"></a>
-<a name="Concept-index-1"></a>
-<h2 class="appendix">Appendix E Concept index</h2>
+<a name="Index-der-Konzepte"></a>
+<a name="Index-der-Konzepte-1"></a>
+<h2 class="appendix">Appendix E Index der Konzepte</h2>
 
-<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Concept-index_cp_letter-A"><b>A</b></a>
+<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Index-der-Konzepte_cp_letter-A"><b>A</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-B"><b>B</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-B"><b>B</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-C"><b>C</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-C"><b>C</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-D"><b>D</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-D"><b>D</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-E"><b>E</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-E"><b>E</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-F"><b>F</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-F"><b>F</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-G"><b>G</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-G"><b>G</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-I"><b>I</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-I"><b>I</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-K"><b>K</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-K"><b>K</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-L"><b>L</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-L"><b>L</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-M"><b>M</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-M"><b>M</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-N"><b>N</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-N"><b>N</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-O"><b>O</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-O"><b>O</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-P"><b>P</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-P"><b>P</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-Q"><b>Q</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-Q"><b>Q</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-R"><b>R</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-R"><b>R</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-S"><b>S</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-S"><b>S</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-T"><b>T</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-T"><b>T</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-U"><b>U</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-U"><b>U</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-V"><b>V</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-V"><b>V</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-W"><b>W</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-W"><b>W</b></a>
  &nbsp; 
 </td></tr></table>
 <table class="index-cp" border="0">
 <tr><td></td><th align="left">Index Entry</th><td>&nbsp;</td><th align="left"> Section</th></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-A">A</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-A">A</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Accessing-builtin-datasets">Accessing builtin datasets</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Accessing-builtin-datasets">Accessing builtin datasets</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Additive-models">Additive models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Analysis-of-variance">Analysis of variance</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Analysis-of-variance-and-model-comparison">Analysis of variance and model comparison</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Arithmetic-functions-and-operators">Arithmetic functions and operators</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Arrays">Arrays</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Arrays">Arrays</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Assignment">Assignment</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vectors-and-assignment">Vectors and assignment</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Attributes">Attributes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Objects">Objects</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Attributes">Attributes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Objekte">Objekte</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-B">B</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-B">B</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Binary-operators">Binary operators</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Defining-new-binary-operators">Defining new binary operators</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Box-plots">Box plots</a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-C">C</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-C">C</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Character-vectors">Character vectors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Character-vectors">Character vectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Classes">Classes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-class-of-an-object">The class of an object</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Classes-1">Classes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Object-orientation">Object orientation</a></td></tr>
@@ -8227,7 +8240,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-CRAN">CRAN</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Contributed-packages-and-CRAN">Contributed packages and CRAN</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Customizing-the-environment">Customizing the environment</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Customizing-the-environment">Customizing the environment</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-D">D</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-D">D</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Data-frames">Data frames</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Data-frames">Data frames</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Default-values">Default values</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Named-arguments-and-defaults">Named arguments and defaults</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Density-estimation">Density estimation</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
@@ -8235,17 +8248,18 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-Diverting-input-and-output">Diverting input and output</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Executing-commands-from-or-diverting-output-to-a-file">Executing commands from or diverting output to a file</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Dynamic-graphics">Dynamic graphics</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Dynamic-graphics">Dynamic graphics</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-E">E</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-E">E</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Eigenvalues-and-eigenvectors">Eigenvalues and eigenvectors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Eigenvalues-and-eigenvectors">Eigenvalues and eigenvectors</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Einlesen-von-Daten-aus-Dateien">Einlesen von Daten aus Dateien</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Einlesen-von-Daten-aus-Dateien">Einlesen von Daten aus Dateien</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Empirical-CDFs">Empirical CDFs</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-F">F</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Factors">Factors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Factors">Factors</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Factors-1">Factors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Contrasts">Contrasts</a></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-F">F</a></th><td></td><td></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Faktoren">Faktoren</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Faktoren">Faktoren</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Faktoren-1">Faktoren</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Contrasts">Contrasts</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Families">Families</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Families">Families</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Formulae">Formulae</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Formulae-for-statistical-models">Formulae for statistical models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-G">G</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-G">G</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Generalized-linear-models">Generalized linear models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generalized-linear-models">Generalized linear models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Generalized-transpose-of-an-array">Generalized transpose of an array</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generalized-transpose-of-an-array">Generalized transpose of an array</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Generic-functions">Generic functions</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Object-orientation">Object orientation</a></td></tr>
@@ -8253,130 +8267,129 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-Graphics-parameters">Graphics parameters</a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-par_0028_0029-function">The par() function</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Grouped-expressions">Grouped expressions</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Grouped-expressions">Grouped expressions</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-I">I</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-I">I</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Indexing-of-and-by-arrays">Indexing of and by arrays</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Array-indexing">Array indexing</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Indexing-vectors">Indexing vectors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Index-vectors">Index vectors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-K">K</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-K">K</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Kolmogorov_002dSmirnov-test">Kolmogorov-Smirnov test</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-L">L</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-L">L</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Least-squares-fitting">Least squares fitting</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Least-squares-fitting-and-the-QR-decomposition">Least squares fitting and the QR decomposition</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Linear-equations">Linear equations</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Linear-equations-and-inversion">Linear equations and inversion</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Linear-models">Linear models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Linear-models">Linear models</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Lists">Lists</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Lists">Lists</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Local-approximating-regressions">Local approximating regressions</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Loops-and-conditional-execution">Loops and conditional execution</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Loops-and-conditional-execution">Loops and conditional execution</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-M">M</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-M">M</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Matrices">Matrices</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Arrays">Arrays</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Matrix-multiplication">Matrix multiplication</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Multiplication">Multiplication</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Maximum-likelihood">Maximum likelihood</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Maximum-likelihood">Maximum likelihood</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Missing-values">Missing values</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Missing-values">Missing values</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Mixed-models">Mixed models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-N">N</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-N">N</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Named-arguments">Named arguments</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Named-arguments-and-defaults">Named arguments and defaults</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Namespace">Namespace</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Namespaces">Namespaces</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Nonlinear-least-squares">Nonlinear least squares</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Nonlinear-least-squares-and-maximum-likelihood-models">Nonlinear least squares and maximum likelihood models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-O">O</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-O">O</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Object-orientation">Object orientation</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Object-orientation">Object orientation</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Objects">Objects</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Objects">Objects</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Objekte">Objekte</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Objekte">Objekte</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-One_002d-and-two_002dsample-tests">One- and two-sample tests</a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Ordered-factors">Ordered factors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Factors">Factors</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Ordered-factors">Ordered factors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Faktoren">Faktoren</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Ordered-factors-1">Ordered factors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Contrasts">Contrasts</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Outer-products-of-arrays">Outer products of arrays</a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-outer-product-of-two-arrays">The outer product of two arrays</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-P">P</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Packages">Packages</a>:</td><td>&nbsp;</td><td valign="top"><a href="#R-and-statistics">R and statistics</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Packages-1">Packages</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Packages">Packages</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Probability-distributions">Probability distributions</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Probability-distributions">Probability distributions</a></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-P">P</a></th><td></td><td></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Pakete">Pakete</a>:</td><td>&nbsp;</td><td valign="top"><a href="#R-and-statistics">R and statistics</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Pakete-1">Pakete</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Pakete">Pakete</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-Q">Q</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-Q">Q</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-QR-decomposition">QR decomposition</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Least-squares-fitting-and-the-QR-decomposition">Least squares fitting and the QR decomposition</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Quantile_002dquantile-plots">Quantile-quantile plots</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-R">R</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Reading-data-from-files">Reading data from files</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Reading-data-from-files">Reading data from files</a></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-R">R</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Recycling-rule">Recycling rule</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Recycling-rule-1">Recycling rule</a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-recycling-rule">The recycling rule</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Regular-sequences">Regular sequences</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generating-regular-sequences">Generating regular sequences</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Removing-objects">Removing objects</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Data-permanency-and-removing-objects">Data permanency and removing objects</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Robust-regression">Robust regression</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-S">S</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-S">S</a></th><td></td><td></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Schleifen-und-bedingte-Ausfuhrung">Schleifen und bedingte Ausführung</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Schleifen-und-bedingte-Ausf_00fchrung">Schleifen und bedingte Ausführung</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Scope">Scope</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Scope">Scope</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Search-path">Search path</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Managing-the-search-path">Managing the search path</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Shapiro_002dWilk-test">Shapiro-Wilk test</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Singular-value-decomposition">Singular value decomposition</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Singular-value-decomposition-and-determinants">Singular value decomposition and determinants</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Statistical-models">Statistical models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Statistical-models-in-R">Statistical models in R</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Statistical-models">Statistical models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Statistische-Modelle-in-R">Statistische Modelle in R</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Student_0027s-t-test">Student&rsquo;s <em>t</em> test</a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-T">T</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-T">T</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Tabulation">Tabulation</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Frequency-tables-from-factors">Frequency tables from factors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Tree_002dbased-models">Tree-based models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-U">U</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-U">U</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Updating-fitted-models">Updating fitted models</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Updating-fitted-models">Updating fitted models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-V">V</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Vectors">Vectors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Simple-manipulations-numbers-and-vectors">Simple manipulations numbers and vectors</a></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-V">V</a></th><td></td><td></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Vectors">Vectors</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Einfache-Operationen-mit-Zahlen-und-Vektoren">Einfache Operationen mit Zahlen und Vektoren</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Verteilungsfunktionen">Verteilungsfunktionen</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Verteilungsfunktionen">Verteilungsfunktionen</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
-<tr><th><a name="Concept-index_cp_letter-W">W</a></th><td></td><td></td></tr>
+<tr><th><a name="Index-der-Konzepte_cp_letter-W">W</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Wilcoxon-test">Wilcoxon test</a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Workspace">Workspace</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Data-permanency-and-removing-objects">Data permanency and removing objects</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Writing-functions">Writing functions</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Writing-your-own-functions">Writing your own functions</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Writing-functions">Writing functions</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Schreiben-eigener-Funktionen">Schreiben eigener Funktionen</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 </table>
-<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Concept-index_cp_letter-A"><b>A</b></a>
+<table><tr><th valign="top">Jump to: &nbsp; </th><td><a class="summary-letter" href="#Index-der-Konzepte_cp_letter-A"><b>A</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-B"><b>B</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-B"><b>B</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-C"><b>C</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-C"><b>C</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-D"><b>D</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-D"><b>D</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-E"><b>E</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-E"><b>E</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-F"><b>F</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-F"><b>F</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-G"><b>G</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-G"><b>G</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-I"><b>I</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-I"><b>I</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-K"><b>K</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-K"><b>K</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-L"><b>L</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-L"><b>L</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-M"><b>M</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-M"><b>M</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-N"><b>N</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-N"><b>N</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-O"><b>O</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-O"><b>O</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-P"><b>P</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-P"><b>P</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-Q"><b>Q</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-Q"><b>Q</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-R"><b>R</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-R"><b>R</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-S"><b>S</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-S"><b>S</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-T"><b>T</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-T"><b>T</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-U"><b>U</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-U"><b>U</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-V"><b>V</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-V"><b>V</b></a>
  &nbsp; 
-<a class="summary-letter" href="#Concept-index_cp_letter-W"><b>W</b></a>
+<a class="summary-letter" href="#Index-der-Konzepte_cp_letter-W"><b>W</b></a>
  &nbsp; 
 </td></tr></table>
 
 <hr>
-<a name="References"></a>
-<a name="References-1"></a>
-<h2 class="appendix">Appendix F References</h2>
+<a name="Literatur"></a>
+<a name="Literatur-1"></a>
+<h2 class="appendix">Appendix F Literatur</h2>
 
 <p>D. M. Bates and D. G. Watts (1988), <em>Nonlinear Regression
 Analysis and Its Applications.</em> John Wiley &amp; Sons, New York.
@@ -8495,7 +8508,8 @@ or<code>awk</code> can be used.</p>
 <p>to be discussed
 later, or use <code>xyplot</code> from package <a href="http://CRAN.R-project.org/package=lattice"><strong>lattice</strong></a>.</p>
 <h3><a name="FOOT22" href="#DOCF22">(22)</a></h3>
-<p>See also the methods described in <a href="#Statistical-models-in-R">Statistical models in R</a></p>
+<p>See also the methods described in &lsquo;Statistical models in
+R&rsquo;</p>
 <h3><a name="FOOT23" href="#DOCF23">(23)</a></h3>
 <p>In some sense this mimics the behavior in
 <small>S-PLUS</small> since in <small>S-PLUS</small> this operator always creates or assigns to a
