@@ -63,39 +63,39 @@ echo $contents; } ?>
 
 <tr>
   <td><a href="de.html">German</a>  </td>
-  <td><a href="./R-intro-de.html" target="_blank">de</a></td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a></td>  
+  <td><a href="http://translation.r-project.org/R-intro-de.html" target="_blank">de</a></td>
+  <td><a href="#"></a>de</td>
+  <td><a href="http://translation.r-project.org/R-admin-de.html"></a>de</td>
+  <td><a href="#"></a>de</td>
+  <td><a href="http://translation.r-project.org/R-exts-de.html"></a>de</td>
+  <td><a href="http://translation.r-project.org/R-lang-de.html"></a>de</td>
+  <td><a href="http://translation.r-project.org/R-ints-de.html"></a>de</td>
+  <td><a href="http://translation.r-project.org/R-data-de.html"></a>de</td>  
 </tr>
 
 
 <tr>
   <td><a href="ko.html">Korean</a>  </td>
-  <td><a href="https://homepage.usask.ca/~chl948/doc/manual/R-intro-ko.html" target="_blank">ko</a></td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a></td>  
+  <td><a href="http://translation.r-project.org/R-intro-ko.html" target="_blank">ko</a></td>
+  <td><a href="#"></a>ko</td>
+  <td><a href="http://translation.r-project.org/R-admin-ko.html"></a>ko</td>
+  <td><a href="#"></a>ko</td>
+  <td><a href="http://translation.r-project.org/R-exts-ko.html"></a>ko</td>
+  <td><a href="http://translation.r-project.org/R-lang-ko.html"></a>ko</td>
+  <td><a href="http://translation.r-project.org/R-ints-ko.html"></a>ko</td>
+  <td><a href="http://translation.r-project.org/R-data-ko.html"></a>ko</td>  
 </tr>
 
 <tr>
   <td><a href="pt_BR.html">Portuguese_BR</a>  </td>
-  <td><a href="https://homepage.usask.ca/~chl948/doc/manual/R-intro-pt_BR.html" target="_blank">pt_BR</a></td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a>  </td>
-  <td><a href="#"></a></td>  
+  <td><a href="http://translation.r-project.org/R-intro-pt_BR.html" target="_blank">pt_BR</a></td>
+  <td><a href="#"></a>pt_BR</td>
+  <td><a href="http://translation.r-project.org/R-admin-pt_BR.html"></a>pt_BR</td>
+  <td><a href="#"></a>pt_BR</td>
+  <td><a href="http://translation.r-project.org/R-exts-pt_BR.html"></a>pt_BR</td>
+  <td><a href="http://translation.r-project.org/R-lang-pt_BR.html"></a>pt_BR</td>
+  <td><a href="http://translation.r-project.org/R-ints-pt_BR.html"></a>pt_BR</td>
+  <td><a href="http://translation.r-project.org/R-data-pt_BR.html"></a>pt_BR</td>  
 </tr>
 </table>
 </p>
