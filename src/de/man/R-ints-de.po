@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-20 22:48-0600\n"
+"POT-Creation-Date: 2015-07-23 14:28-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
@@ -19,7 +19,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
 
 #. type: top
-#: R-ints.texi:4 R-ints.texi:33 R-ints.texi:51
+#: R-ints.texi:4
+#: R-ints.texi:33
+#: R-ints.texi:51
 #, no-wrap
 msgid "R Internals"
 msgstr ""
@@ -80,19 +82,54 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:50 R-ints.texi:78 R-ints.texi:78 R-ints.texi:1940 R-ints.texi:2326 R-ints.texi:2454 R-ints.texi:2605 R-ints.texi:2691 R-ints.texi:3578 R-ints.texi:3740 R-ints.texi:4130 R-ints.texi:4263 R-ints.texi:4277 R-ints.texi:4321 R-ints.texi:4488 R-ints.texi:4493
+#: R-ints.texi:50
+#: R-ints.texi:78
+#: R-ints.texi:1940
+#: R-ints.texi:2326
+#: R-ints.texi:2454
+#: R-ints.texi:2605
+#: R-ints.texi:2691
+#: R-ints.texi:3578
+#: R-ints.texi:3740
+#: R-ints.texi:4130
+#: R-ints.texi:4263
+#: R-ints.texi:4277
+#: R-ints.texi:4321
+#: R-ints.texi:4488
+#: R-ints.texi:4493
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:50 R-ints.texi:75 R-ints.texi:78 R-ints.texi:79 R-ints.texi:110 R-ints.texi:110 R-ints.texi:528 R-ints.texi:667 R-ints.texi:772 R-ints.texi:865 R-ints.texi:1021 R-ints.texi:1076 R-ints.texi:1121 R-ints.texi:1229 R-ints.texi:1307 R-ints.texi:1326 R-ints.texi:1376 R-ints.texi:1547 R-ints.texi:1701 R-ints.texi:1758 R-ints.texi:1789 R-ints.texi:1876 R-ints.texi:1940
+#: R-ints.texi:50
+#: R-ints.texi:75
+#: R-ints.texi:78
+#: R-ints.texi:79
+#: R-ints.texi:110
+#: R-ints.texi:528
+#: R-ints.texi:667
+#: R-ints.texi:772
+#: R-ints.texi:865
+#: R-ints.texi:1021
+#: R-ints.texi:1076
+#: R-ints.texi:1121
+#: R-ints.texi:1229
+#: R-ints.texi:1307
+#: R-ints.texi:1326
+#: R-ints.texi:1376
+#: R-ints.texi:1547
+#: R-ints.texi:1701
+#: R-ints.texi:1758
+#: R-ints.texi:1789
+#: R-ints.texi:1876
+#: R-ints.texi:1940
 #, no-wrap
 msgid "R Internal Structures"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:50 R-ints.texi:50
+#: R-ints.texi:50
 #, no-wrap
 msgid "(dir)"
 msgstr ""
@@ -105,79 +142,147 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:78 R-ints.texi:1940 R-ints.texi:2200 R-ints.texi:2200 R-ints.texi:2226 R-ints.texi:2234 R-ints.texi:2293 R-ints.texi:2326
+#: R-ints.texi:75
+#: R-ints.texi:78
+#: R-ints.texi:1940
+#: R-ints.texi:2200
+#: R-ints.texi:2226
+#: R-ints.texi:2234
+#: R-ints.texi:2293
+#: R-ints.texi:2326
 #, no-wrap
 msgid ".Internal vs .Primitive"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:1940 R-ints.texi:2326 R-ints.texi:2327 R-ints.texi:2349 R-ints.texi:2349 R-ints.texi:2366 R-ints.texi:2412 R-ints.texi:2442 R-ints.texi:2449 R-ints.texi:2454
+#: R-ints.texi:75
+#: R-ints.texi:1940
+#: R-ints.texi:2326
+#: R-ints.texi:2327
+#: R-ints.texi:2349
+#: R-ints.texi:2366
+#: R-ints.texi:2412
+#: R-ints.texi:2442
+#: R-ints.texi:2449
+#: R-ints.texi:2454
 #, no-wrap
 msgid "Internationalization in the R sources"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:2326 R-ints.texi:2454 R-ints.texi:2508 R-ints.texi:2508 R-ints.texi:2579 R-ints.texi:2605
+#: R-ints.texi:75
+#: R-ints.texi:2326
+#: R-ints.texi:2454
+#: R-ints.texi:2508
+#: R-ints.texi:2579
+#: R-ints.texi:2605
 #, no-wrap
 msgid "Package Structure"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:2454 R-ints.texi:2605 R-ints.texi:2606 R-ints.texi:2691
+#: R-ints.texi:75
+#: R-ints.texi:2454
+#: R-ints.texi:2605
+#: R-ints.texi:2606
+#: R-ints.texi:2691
 #, no-wrap
 msgid "Files"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:2605 R-ints.texi:2691 R-ints.texi:2817 R-ints.texi:2817 R-ints.texi:2818 R-ints.texi:3392 R-ints.texi:3481 R-ints.texi:3573 R-ints.texi:3578
+#: R-ints.texi:75
+#: R-ints.texi:2605
+#: R-ints.texi:2691
+#: R-ints.texi:2817
+#: R-ints.texi:2818
+#: R-ints.texi:3392
+#: R-ints.texi:3481
+#: R-ints.texi:3573
+#: R-ints.texi:3578
 #, no-wrap
 msgid "Graphics Devices"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:2691 R-ints.texi:3578 R-ints.texi:3579 R-ints.texi:3604 R-ints.texi:3604 R-ints.texi:3740
+#: R-ints.texi:75
+#: R-ints.texi:2691
+#: R-ints.texi:3578
+#: R-ints.texi:3579
+#: R-ints.texi:3604
+#: R-ints.texi:3740
 #, no-wrap
 msgid "GUI consoles"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:3578 R-ints.texi:3740 R-ints.texi:3741 R-ints.texi:4130
+#: R-ints.texi:75
+#: R-ints.texi:3578
+#: R-ints.texi:3740
+#: R-ints.texi:3741
+#: R-ints.texi:4130
 #, no-wrap
 msgid "Tools"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:3740 R-ints.texi:4130 R-ints.texi:4131 R-ints.texi:4263
+#: R-ints.texi:75
+#: R-ints.texi:3740
+#: R-ints.texi:4130
+#: R-ints.texi:4131
+#: R-ints.texi:4263
 #, no-wrap
 msgid "R coding standards"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:4130 R-ints.texi:4263 R-ints.texi:4264 R-ints.texi:4277
+#: R-ints.texi:75
+#: R-ints.texi:4130
+#: R-ints.texi:4263
+#: R-ints.texi:4264
+#: R-ints.texi:4277
 #, no-wrap
 msgid "Testing R code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:4263 R-ints.texi:4277 R-ints.texi:4278 R-ints.texi:4321
+#: R-ints.texi:75
+#: R-ints.texi:4263
+#: R-ints.texi:4277
+#: R-ints.texi:4278
+#: R-ints.texi:4321
 #, no-wrap
 msgid "Use of TeX dialects"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:4277 R-ints.texi:4321 R-ints.texi:4322 R-ints.texi:4334 R-ints.texi:4334 R-ints.texi:4407 R-ints.texi:4459 R-ints.texi:4488
+#: R-ints.texi:75
+#: R-ints.texi:4277
+#: R-ints.texi:4321
+#: R-ints.texi:4322
+#: R-ints.texi:4334
+#: R-ints.texi:4407
+#: R-ints.texi:4459
+#: R-ints.texi:4488
 #, no-wrap
 msgid "Current and future directions"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75 R-ints.texi:4321 R-ints.texi:4488 R-ints.texi:4489 R-ints.texi:4493
+#: R-ints.texi:75
+#: R-ints.texi:4321
+#: R-ints.texi:4488
+#: R-ints.texi:4489
+#: R-ints.texi:4493
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: unnumbered
-#: R-ints.texi:75 R-ints.texi:4488 R-ints.texi:4493 R-ints.texi:4494
+#: R-ints.texi:75
+#: R-ints.texi:4488
+#: R-ints.texi:4493
+#: R-ints.texi:4494
 #, no-wrap
 msgid "Concept index"
 msgstr ""
@@ -199,103 +304,186 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:110 R-ints.texi:111 R-ints.texi:146 R-ints.texi:146 R-ints.texi:225 R-ints.texi:372 R-ints.texi:511 R-ints.texi:528
+#: R-ints.texi:108
+#: R-ints.texi:110
+#: R-ints.texi:111
+#: R-ints.texi:146
+#: R-ints.texi:225
+#: R-ints.texi:372
+#: R-ints.texi:511
+#: R-ints.texi:528
 #, no-wrap
 msgid "SEXPs"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:110 R-ints.texi:528 R-ints.texi:529 R-ints.texi:579 R-ints.texi:579 R-ints.texi:608 R-ints.texi:641 R-ints.texi:667
+#: R-ints.texi:108
+#: R-ints.texi:110
+#: R-ints.texi:528
+#: R-ints.texi:529
+#: R-ints.texi:579
+#: R-ints.texi:608
+#: R-ints.texi:641
+#: R-ints.texi:667
 #, no-wrap
 msgid "Environments and variable lookup"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:528 R-ints.texi:667 R-ints.texi:668 R-ints.texi:772
+#: R-ints.texi:108
+#: R-ints.texi:528
+#: R-ints.texi:667
+#: R-ints.texi:668
+#: R-ints.texi:772
 #, no-wrap
 msgid "Attributes"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:667 R-ints.texi:772 R-ints.texi:773 R-ints.texi:865
+#: R-ints.texi:108
+#: R-ints.texi:667
+#: R-ints.texi:772
+#: R-ints.texi:773
+#: R-ints.texi:865
 #, no-wrap
 msgid "Contexts"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:772 R-ints.texi:865 R-ints.texi:866 R-ints.texi:948 R-ints.texi:948 R-ints.texi:993 R-ints.texi:1021
+#: R-ints.texi:108
+#: R-ints.texi:772
+#: R-ints.texi:865
+#: R-ints.texi:866
+#: R-ints.texi:948
+#: R-ints.texi:993
+#: R-ints.texi:1021
 #, no-wrap
 msgid "Argument evaluation"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:865 R-ints.texi:1021 R-ints.texi:1022 R-ints.texi:1076
+#: R-ints.texi:108
+#: R-ints.texi:865
+#: R-ints.texi:1021
+#: R-ints.texi:1022
+#: R-ints.texi:1076
 #, no-wrap
 msgid "Autoprinting"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1021 R-ints.texi:1076 R-ints.texi:1121
+#: R-ints.texi:108
+#: R-ints.texi:1021
+#: R-ints.texi:1076
+#: R-ints.texi:1121
 #, no-wrap
 msgid "The write barrier"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1076 R-ints.texi:1121 R-ints.texi:1122 R-ints.texi:1229
+#: R-ints.texi:108
+#: R-ints.texi:1076
+#: R-ints.texi:1121
+#: R-ints.texi:1122
+#: R-ints.texi:1229
 #, no-wrap
 msgid "Serialization Formats"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1121 R-ints.texi:1229 R-ints.texi:1230 R-ints.texi:1307
+#: R-ints.texi:108
+#: R-ints.texi:1121
+#: R-ints.texi:1229
+#: R-ints.texi:1230
+#: R-ints.texi:1307
 #, no-wrap
 msgid "Encodings for CHARSXPs"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1229 R-ints.texi:1307 R-ints.texi:1308 R-ints.texi:1326
+#: R-ints.texi:108
+#: R-ints.texi:1229
+#: R-ints.texi:1307
+#: R-ints.texi:1308
+#: R-ints.texi:1326
 #, no-wrap
 msgid "The CHARSXP cache"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1307 R-ints.texi:1326 R-ints.texi:1327 R-ints.texi:1376
+#: R-ints.texi:108
+#: R-ints.texi:1307
+#: R-ints.texi:1326
+#: R-ints.texi:1327
+#: R-ints.texi:1376
 #, no-wrap
 msgid "Warnings and errors"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1326 R-ints.texi:1376 R-ints.texi:1377 R-ints.texi:1390 R-ints.texi:1390 R-ints.texi:1411 R-ints.texi:1428 R-ints.texi:1479 R-ints.texi:1547
+#: R-ints.texi:108
+#: R-ints.texi:1326
+#: R-ints.texi:1376
+#: R-ints.texi:1377
+#: R-ints.texi:1390
+#: R-ints.texi:1411
+#: R-ints.texi:1428
+#: R-ints.texi:1479
+#: R-ints.texi:1547
 #, no-wrap
 msgid "S4 objects"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1376 R-ints.texi:1547 R-ints.texi:1548 R-ints.texi:1680 R-ints.texi:1680 R-ints.texi:1701
+#: R-ints.texi:108
+#: R-ints.texi:1376
+#: R-ints.texi:1547
+#: R-ints.texi:1548
+#: R-ints.texi:1680
+#: R-ints.texi:1701
 #, no-wrap
 msgid "Memory allocators"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1547 R-ints.texi:1701 R-ints.texi:1702 R-ints.texi:1712 R-ints.texi:1712 R-ints.texi:1739 R-ints.texi:1758
+#: R-ints.texi:108
+#: R-ints.texi:1547
+#: R-ints.texi:1701
+#: R-ints.texi:1702
+#: R-ints.texi:1712
+#: R-ints.texi:1739
+#: R-ints.texi:1758
 #, no-wrap
 msgid "Internal use of global and base environments"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1701 R-ints.texi:1758 R-ints.texi:1759 R-ints.texi:1789
+#: R-ints.texi:108
+#: R-ints.texi:1701
+#: R-ints.texi:1758
+#: R-ints.texi:1759
+#: R-ints.texi:1789
 #, no-wrap
 msgid "Modules"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108 R-ints.texi:1758 R-ints.texi:1789 R-ints.texi:1790 R-ints.texi:1798 R-ints.texi:1798 R-ints.texi:1849 R-ints.texi:1876
+#: R-ints.texi:108
+#: R-ints.texi:1758
+#: R-ints.texi:1789
+#: R-ints.texi:1790
+#: R-ints.texi:1798
+#: R-ints.texi:1849
+#: R-ints.texi:1876
 #, no-wrap
 msgid "Visibility"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:108 R-ints.texi:1789 R-ints.texi:1876 R-ints.texi:1877
+#: R-ints.texi:108
+#: R-ints.texi:1789
+#: R-ints.texi:1876
+#: R-ints.texi:1877
 #, no-wrap
 msgid "Lazy loading"
 msgstr ""
@@ -358,31 +546,45 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:144 R-ints.texi:146 R-ints.texi:147 R-ints.texi:225
+#: R-ints.texi:144
+#: R-ints.texi:146
+#: R-ints.texi:147
+#: R-ints.texi:225
 #, no-wrap
 msgid "SEXPTYPEs"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:144 R-ints.texi:146 R-ints.texi:225 R-ints.texi:226 R-ints.texi:372
+#: R-ints.texi:144
+#: R-ints.texi:146
+#: R-ints.texi:225
+#: R-ints.texi:226
+#: R-ints.texi:372
 #, no-wrap
 msgid "Rest of header"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:144 R-ints.texi:225 R-ints.texi:372 R-ints.texi:511
+#: R-ints.texi:144
+#: R-ints.texi:225
+#: R-ints.texi:372
+#: R-ints.texi:511
 #, no-wrap
 msgid "The 'data'"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:144 R-ints.texi:372 R-ints.texi:511 R-ints.texi:512
+#: R-ints.texi:144
+#: R-ints.texi:372
+#: R-ints.texi:511
+#: R-ints.texi:512
 #, no-wrap
 msgid "Allocation classes"
 msgstr ""
 
 #. type: multitable
-#: R-ints.texi:149 R-ints.texi:160
+#: R-ints.texi:149
+#: R-ints.texi:160
 #, no-wrap
 msgid "SEXPTYPE"
 msgstr ""
@@ -654,8 +856,7 @@ msgstr ""
 msgid ""
 "struct sxpinfo_struct @{\n"
 "    SEXPTYPE type      :  5;  /* @r{discussed above} */\n"
-"    unsigned int obj   :  1;  /* @r{is this an object with a class "
-"attribute?} */\n"
+"    unsigned int obj   :  1;  /* @r{is this an object with a class attribute?} */\n"
 "    unsigned int named :  2;  /* @r{used to control copying} */\n"
 "    unsigned int gp    : 16;  /* @r{general purpose, see below} */\n"
 "    unsigned int mark  :  1;  /* @r{mark object as `in use' in GC} */\n"
@@ -715,7 +916,9 @@ msgid "named bit"
 msgstr ""
 
 #. type: findex
-#: R-ints.texi:261 R-ints.texi:886 R-ints.texi:2122
+#: R-ints.texi:261
+#: R-ints.texi:886
+#: R-ints.texi:2122
 #, no-wrap
 msgid "NAMED"
 msgstr ""
@@ -727,7 +930,8 @@ msgid "SET_NAMED"
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:263 R-ints.texi:716
+#: R-ints.texi:263
+#: R-ints.texi:716
 #, no-wrap
 msgid "copying semantics"
 msgstr ""
@@ -854,7 +1058,8 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-ints.texi:326 R-ints.texi:963
+#: R-ints.texi:326
+#: R-ints.texi:963
 #, no-wrap
 msgid "MISSING"
 msgstr ""
@@ -889,7 +1094,8 @@ msgid "SET_DDVAL"
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:337 R-ints.texi:996
+#: R-ints.texi:337
+#: R-ints.texi:996
 #, no-wrap
 msgid "... argument"
 msgstr ""
@@ -1023,8 +1229,8 @@ msgid ""
 "the table and @code{truelength} is the number of primary slots in use, and "
 "for the reference hash tables in serialization (@code{VECSXP}s), where "
 "@code{truelength} is the number of slots in use.} of the vector, and then "
-"followed by the data (aligned as required: on most 32-bit systems with a "
-"24-byte @code{VECTOR_SEXPREC} node the data can follow immediately after the "
+"followed by the data (aligned as required: on most 32-bit systems with a 24-"
+"byte @code{VECTOR_SEXPREC} node the data can follow immediately after the "
 "node).  The data are a block of memory of the appropriate length to store "
 "`true length' elements (rounded up to a multiple of 8 bytes, with the 8-byte "
 "blocks being the `Vcells' referred in the documentation for @code{gc()})."
@@ -1149,7 +1355,8 @@ msgstr ""
 
 #. type: table
 #: R-ints.texi:456
-msgid "An integer giving the offset into the table of primitives/@code{.Internal}s."
+msgid ""
+"An integer giving the offset into the table of primitives/@code{.Internal}s."
 msgstr ""
 
 #. type: item
@@ -1192,7 +1399,8 @@ msgstr ""
 
 #. type: table
 #: R-ints.texi:468
-msgid "@code{length}, @code{truelength} followed by a block of C @code{double}s."
+msgid ""
+"@code{length}, @code{truelength} followed by a block of C @code{double}s."
 msgstr ""
 
 #. type: item
@@ -1217,8 +1425,8 @@ msgstr ""
 #. type: table
 #: R-ints.texi:476
 msgid ""
-"@code{length}, @code{truelength} followed by a block of pointers "
-"(@code{SEXP}s pointing to @code{CHARSXP}s)."
+"@code{length}, @code{truelength} followed by a block of pointers (@code{SEXP}"
+"s pointing to @code{CHARSXP}s)."
 msgstr ""
 
 #. type: item
@@ -1386,13 +1594,15 @@ msgid ""
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:545 R-ints.texi:1715
+#: R-ints.texi:545
+#: R-ints.texi:1715
 #, no-wrap
 msgid "base environment"
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:546 R-ints.texi:1716
+#: R-ints.texi:546
+#: R-ints.texi:1716
 #, no-wrap
 msgid "environment, base"
 msgstr ""
@@ -1435,19 +1645,29 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:577 R-ints.texi:579 R-ints.texi:580 R-ints.texi:608
+#: R-ints.texi:577
+#: R-ints.texi:579
+#: R-ints.texi:580
+#: R-ints.texi:608
 #, no-wrap
 msgid "Search paths"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:577 R-ints.texi:579 R-ints.texi:608 R-ints.texi:609 R-ints.texi:641
+#: R-ints.texi:577
+#: R-ints.texi:579
+#: R-ints.texi:608
+#: R-ints.texi:609
+#: R-ints.texi:641
 #, no-wrap
 msgid "Namespaces"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:577 R-ints.texi:608 R-ints.texi:641 R-ints.texi:642
+#: R-ints.texi:577
+#: R-ints.texi:608
+#: R-ints.texi:641
+#: R-ints.texi:642
 #, no-wrap
 msgid "Hash table"
 msgstr ""
@@ -1505,21 +1725,20 @@ msgstr ""
 msgid ""
 "Namespaces are environments associated with packages (and once again the "
 "base package is special and will be considered separately).  A package "
-"@code{@var{pkg}} with a namespace defines two environments "
-"@code{namespace:@var{pkg}} and @code{package:@var{pkg}}: it is "
-"@code{package:@var{pkg}} that can be @code{attach}ed and form part of the "
-"search path."
+"@code{@var{pkg}} with a namespace defines two environments @code{namespace:"
+"@var{pkg}} and @code{package:@var{pkg}}: it is @code{package:@var{pkg}} that "
+"can be @code{attach}ed and form part of the search path."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:630
 msgid ""
 "The objects defined by the @R{} code in the package are symbols with "
-"bindings in the @code{namespace:@var{pkg}} environment.  The "
-"@code{package:@var{pkg}} environment is populated by selected symbols from "
-"the @code{namespace:@var{pkg}} environment (the exports).  The enclosure of "
-"this environment is an environment populated with the explicit imports from "
-"other namespaces, and the enclosure of @emph{that} environment is the base "
+"bindings in the @code{namespace:@var{pkg}} environment.  The @code{package:"
+"@var{pkg}} environment is populated by selected symbols from the "
+"@code{namespace:@var{pkg}} environment (the exports).  The enclosure of this "
+"environment is an environment populated with the explicit imports from other "
+"namespaces, and the enclosure of @emph{that} environment is the base "
 "namespace.  (So the illusion of the imports being in the namespace "
 "environment is created via the environment tree.)  The enclosure of the base "
 "namespace is the global environment, so the search from a package namespace "
@@ -1574,10 +1793,10 @@ msgstr ""
 #: R-ints.texi:659
 msgid ""
 "The code to implement hashed environments is in @file{src/main/envir.c}.  "
-"Unless set otherwise (e.g.@: by the @code{size} argument of "
-"@code{new.env()}) the initial table size is @code{29}.  The table will be "
-"resized by a factor of 1.2 once the load factor (the proportion of primary "
-"slots in use) reaches 85%."
+"Unless set otherwise (e.g.@: by the @code{size} argument of @code{new."
+"env()}) the initial table size is @code{29}.  The table will be resized by a "
+"factor of 1.2 once the load factor (the proportion of primary slots in use) "
+"reaches 85%."
 msgstr ""
 
 #. type: Plain text
@@ -1657,15 +1876,15 @@ msgstr ""
 #: R-ints.texi:715
 msgid ""
 "The other attributes which are given special treatment are @code{\"names\"}, "
-"@code{\"class\"}, @code{\"tsp\"}, @code{\"comment\"} and "
-"@code{\"row.names\"}.  For pairlist-like objects the names are not stored as "
-"an attribute but (as symbols) as the tags: however the @R{} interface makes "
-"them look like conventional attributes, and for one-dimensional arrays they "
-"are stored as the first element of the @code{\"dimnames\"} attribute.  The C "
-"code ensures that the @code{\"tsp\"} attribute is an @code{REALSXP}, the "
-"frequency is positive and the implied length agrees with the number of rows "
-"of the object being assigned to.  Classes and comments are restricted to "
-"character vectors, and assigning a zero-length comment or class removes the "
+"@code{\"class\"}, @code{\"tsp\"}, @code{\"comment\"} and @code{\"row.names"
+"\"}.  For pairlist-like objects the names are not stored as an attribute but "
+"(as symbols) as the tags: however the @R{} interface makes them look like "
+"conventional attributes, and for one-dimensional arrays they are stored as "
+"the first element of the @code{\"dimnames\"} attribute.  The C code ensures "
+"that the @code{\"tsp\"} attribute is an @code{REALSXP}, the frequency is "
+"positive and the implied length agrees with the number of rows of the object "
+"being assigned to.  Classes and comments are restricted to character "
+"vectors, and assigning a zero-length comment or class removes the "
 "attribute.  Setting or removing a @code{\"class\"} attribute sets the object "
 "bit appropriately.  Integer row names are converted to and from the internal "
 "compact representation."
@@ -1728,8 +1947,8 @@ msgid ""
 "Subsetting (other than by an empty index) generally drops all attributes "
 "except @code{names}, @code{dim} and @code{dimnames} which are reset as "
 "appropriate.  On the other hand, subassignment generally preserves such "
-"attributes even if the length is changed.  Coercion drops all "
-"attributes. For example:"
+"attributes even if the length is changed.  Coercion drops all attributes. "
+"For example:"
 msgstr ""
 
 #. type: example
@@ -1787,15 +2006,12 @@ msgid ""
 "    struct RCNTXT *nextcontext; /* @r{The next context up the chain} */\n"
 "    int callflag;               /* @r{The context `type'} */\n"
 "    JMP_BUF cjmpbuf;            /* @r{C stack and register information} */\n"
-"    int cstacktop;              /* @r{Top of the pointer protection stack} "
-"*/\n"
+"    int cstacktop;              /* @r{Top of the pointer protection stack} */\n"
 "    int evaldepth;              /* @r{Evaluation depth at inception} */\n"
 "    SEXP promargs;              /* @r{Promises supplied to closure} */\n"
 "    SEXP callfun;               /* @r{The closure called} */\n"
-"    SEXP sysparent;             /* @r{Environment the closure was called "
-"from} */\n"
-"    SEXP call;                  /* @r{The call that effected this context} "
-"*/\n"
+"    SEXP sysparent;             /* @r{Environment the closure was called from} */\n"
+"    SEXP call;                  /* @r{The call that effected this context} */\n"
 "    SEXP cloenv;                /* @r{The environment} */\n"
 "    SEXP conexit;               /* @r{Interpreted @code{on.exit} code} */\n"
 "    void (*cend)(void *);       /* @r{C @code{on.exit} thunk} */\n"
@@ -1810,7 +2026,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:810
-msgid "plus additional fields for the byte-code compiler.  The `types' are from"
+msgid ""
+"plus additional fields for the byte-code compiler.  The `types' are from"
 msgstr ""
 
 #. type: example
@@ -1827,8 +2044,7 @@ msgid ""
 "    CTXT_RETURN   = 12, /* @r{@code{return()} from a closure} */\n"
 "    CTXT_BROWSER  = 16, /* @r{return target on exit from browser} */\n"
 "    CTXT_GENERIC  = 20, /* @r{rather, running an S3 method} */\n"
-"    CTXT_RESTART  = 32, /* @r{a call to @code{restart} was made from a "
-"closure} */\n"
+"    CTXT_RESTART  = 32, /* @r{a call to @code{restart} was made from a closure} */\n"
 "    CTXT_BUILTIN  = 64  /* @r{builtin internal function} */\n"
 "@};\n"
 msgstr ""
@@ -2052,13 +2268,19 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:946 R-ints.texi:948 R-ints.texi:949 R-ints.texi:993
+#: R-ints.texi:946
+#: R-ints.texi:948
+#: R-ints.texi:949
+#: R-ints.texi:993
 #, no-wrap
 msgid "Missingness"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:946 R-ints.texi:948 R-ints.texi:993 R-ints.texi:994
+#: R-ints.texi:946
+#: R-ints.texi:948
+#: R-ints.texi:993
+#: R-ints.texi:994
 #, no-wrap
 msgid "Dot-dot-dot arguments"
 msgstr ""
@@ -2260,12 +2482,12 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1074
 msgid ""
-"The actual autoprinting is done by @code{PrintValueEnv} in file "
-"@file{print.c}.  If the object to be printed has the S4 bit set and S4 "
-"methods dispatch is on, @code{show} is called to print the object.  "
-"Otherwise, if the object bit is set (so the object has a @code{\"class\"} "
-"attribute), @code{print} is called to dispatch methods: for objects without "
-"a class the internal code of @code{print.default} is called."
+"The actual autoprinting is done by @code{PrintValueEnv} in file @file{print."
+"c}.  If the object to be printed has the S4 bit set and S4 methods dispatch "
+"is on, @code{show} is called to print the object.  Otherwise, if the object "
+"bit is set (so the object has a @code{\"class\"} attribute), @code{print} is "
+"called to dispatch methods: for objects without a class the internal code of "
+"@code{print.default} is called."
 msgstr ""
 
 #. type: section
@@ -2340,9 +2562,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1120
 msgid ""
-"For background papers see "
-"@uref{http://www.stat.uiowa.edu/~luke/R/barrier.html} and "
-"@uref{http://www.stat.uiowa.edu/~luke/R/gengcnotes.html}."
+"For background papers see @uref{http://www.stat.uiowa.edu/~luke/R/barrier."
+"html} and @uref{http://www.stat.uiowa.edu/~luke/R/gengcnotes.html}."
 msgstr ""
 
 #. type: cindex
@@ -2356,12 +2577,12 @@ msgstr ""
 msgid ""
 "Serialized versions of @R{} objects are used by @code{load}/@code{save} and "
 "also at a slightly lower level by @code{saveRDS}/@code{readRDS} (and their "
-"earlier `internal' dot-name versions) and "
-"@code{serialize}/@code{unserialize}.  These differ in what they serialize to "
-"(a file, a connection, a raw vector) and whether they are intended to "
-"serialize a single object or a collection of objects (typically the "
-"workspace).  @code{save} writes a header at the beginning of the file (a "
-"single LF-terminated line) which the lower-level versions do not."
+"earlier `internal' dot-name versions) and @code{serialize}/"
+"@code{unserialize}.  These differ in what they serialize to (a file, a "
+"connection, a raw vector) and whether they are intended to serialize a "
+"single object or a collection of objects (typically the workspace).  "
+"@code{save} writes a header at the beginning of the file (a single LF-"
+"terminated line) which the lower-level versions do not."
 msgstr ""
 
 #. type: Plain text
@@ -2435,8 +2656,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1190
 msgid ""
-"Some objects are written as if they were @code{SEXPTYPE}s: such "
-"pseudo-@code{SEXPTYPE}s cover @code{R_NilValue}, @code{R_EmptyEnv}, "
+"Some objects are written as if they were @code{SEXPTYPE}s: such pseudo-"
+"@code{SEXPTYPE}s cover @code{R_NilValue}, @code{R_EmptyEnv}, "
 "@code{R_BaseEnv}, @code{R_GlobalEnv}, @code{R_UnboundValue}, "
 "@code{R_MissingArg} and @code{R_BaseNamespace}."
 msgstr ""
@@ -2560,9 +2781,8 @@ msgstr ""
 #: R-ints.texi:1278
 msgid ""
 "Most of the character manipulation functions now preserve UTF-8 encodings: "
-"there are some notes as to which at the top of file "
-"@file{src/main/character.c} and in file "
-"@file{src/library/base/man/Encoding.Rd}."
+"there are some notes as to which at the top of file @file{src/main/character."
+"c} and in file @file{src/library/base/man/Encoding.Rd}."
 msgstr ""
 
 #. type: Plain text
@@ -2680,11 +2900,11 @@ msgid ""
 "otherwise the next context provides the call.  This means that when these "
 "functions are called from a primitive or @code{.Internal}, the imputed call "
 "will not be to primitive/@code{.Internal} but to the function calling the "
-"primitive/@code{.Internal} .  This is exactly what one wants for a "
-"@code{.Internal}, as this will give the call to the closure wrapper.  "
-"(Further, for a @code{.Internal}, the call is the argument to "
-"@code{.Internal}, and so may not correspond to any @R{} function.)  However, "
-"it is unlikely to be what is needed for a primitive."
+"primitive/@code{.Internal} .  This is exactly what one wants for a @code{."
+"Internal}, as this will give the call to the closure wrapper.  (Further, for "
+"a @code{.Internal}, the call is the argument to @code{.Internal}, and so may "
+"not correspond to any @R{} function.)  However, it is unlikely to be what is "
+"needed for a primitive."
 msgstr ""
 
 #. type: Plain text
@@ -2726,25 +2946,39 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1388 R-ints.texi:1390 R-ints.texi:1391 R-ints.texi:1411
+#: R-ints.texi:1388
+#: R-ints.texi:1390
+#: R-ints.texi:1391
+#: R-ints.texi:1411
 #, no-wrap
 msgid "Representation of S4 objects"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1388 R-ints.texi:1390 R-ints.texi:1411 R-ints.texi:1412 R-ints.texi:1428
+#: R-ints.texi:1388
+#: R-ints.texi:1390
+#: R-ints.texi:1411
+#: R-ints.texi:1412
+#: R-ints.texi:1428
 #, no-wrap
 msgid "S4 classes"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1388 R-ints.texi:1411 R-ints.texi:1428 R-ints.texi:1429 R-ints.texi:1479
+#: R-ints.texi:1388
+#: R-ints.texi:1411
+#: R-ints.texi:1428
+#: R-ints.texi:1429
+#: R-ints.texi:1479
 #, no-wrap
 msgid "S4 methods"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1388 R-ints.texi:1428 R-ints.texi:1479 R-ints.texi:1480
+#: R-ints.texi:1388
+#: R-ints.texi:1428
+#: R-ints.texi:1479
+#: R-ints.texi:1480
 #, no-wrap
 msgid "Mechanics of S4 dispatch"
 msgstr ""
@@ -2808,11 +3042,11 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1436
 msgid ""
-"Details of methods are stored in S4 objects of class "
-"@code{\"MethodsList\"}.  They have a non-syntactic name of the form "
-"@code{.__M__@var{generic}:@var{package}} for all methods defined in the "
-"current environment for the named generic derived from a specific package "
-"(which might be @code{.GlobalEnv})."
+"Details of methods are stored in S4 objects of class @code{\"MethodsList"
+"\"}.  They have a non-syntactic name of the form @code{.__M__@var{generic}:"
+"@var{package}} for all methods defined in the current environment for the "
+"named generic derived from a specific package (which might be @code{."
+"GlobalEnv})."
 msgstr ""
 
 #. type: Plain text
@@ -2834,12 +3068,12 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1452
 msgid ""
-"During an @R{} session there is an environment associated with each "
-"non-primitive generic containing objects @code{.AllMTable}, @code{.Generic}, "
+"During an @R{} session there is an environment associated with each non-"
+"primitive generic containing objects @code{.AllMTable}, @code{.Generic}, "
 "@code{.Methods}, @code{.MTable}, @code{.SigArgs} and @code{.SigLength}.  "
 "@code{.MTable} and @code{AllMTable} are merged methods tables containing all "
-"the methods defined directly and via inheritance respectively.  "
-"@code{.Methods} is a merged methods list."
+"the methods defined directly and via inheritance respectively.  @code{."
+"Methods} is a merged methods list."
 msgstr ""
 
 #. type: Plain text
@@ -2885,8 +3119,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1484
 msgid ""
-"This subsection does not discuss how S4 methods are chosen: see "
-"@uref{http://@/developer.@/r-project.org/howMethodsWork.pdf}."
+"This subsection does not discuss how S4 methods are chosen: see @uref{http://"
+"@/developer.@/r-project.org/howMethodsWork.pdf}."
 msgstr ""
 
 #. type: Plain text
@@ -2912,8 +3146,8 @@ msgstr ""
 msgid ""
 "Primitive functions are treated quite differently, for efficiency reasons: "
 "this results in different semantics.  @code{setGeneric} is disallowed for "
-"primitive functions.  The @pkg{methods} namespace contains a list "
-"@code{.BasicFunsList} named by primitive functions: the entries are either "
+"primitive functions.  The @pkg{methods} namespace contains a list @code{."
+"BasicFunsList} named by primitive functions: the entries are either "
 "@code{FALSE} or a standard S4 generic showing the effective definition.  "
 "When @code{setMethod} (or @code{setReplaceMethod}) is called, it either "
 "fails (if the list entry is @code{FALSE}) or a method is set on the "
@@ -2950,11 +3184,11 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1535
 msgid ""
-"The primitive @code{as.double} is special, as @code{as.numeric} and "
-"@code{as.real} are copies of it.  The @pkg{methods} package code partly "
-"refers to generics by name and partly by function, and maps @code{as.double} "
-"and @code{as.real} to @code{as.numeric} (since that is the name used by "
-"packages exporting methods for it)."
+"The primitive @code{as.double} is special, as @code{as.numeric} and @code{as."
+"real} are copies of it.  The @pkg{methods} package code partly refers to "
+"generics by name and partly by function, and maps @code{as.double} and "
+"@code{as.real} to @code{as.numeric} (since that is the name used by packages "
+"exporting methods for it)."
 msgstr ""
 
 #. type: Plain text
@@ -2979,13 +3213,13 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1567
 msgid ""
-"@R{}'s memory allocation is almost all done via routines in file "
-"@file{src/main/memory.c}.  It is important to keep track of where memory is "
-"allocated, as the Windows port (by default) makes use of a memory allocator "
-"that differs from @code{malloc} etc as provided by MinGW.  Specifically, "
-"there are entry points @code{Rm_malloc}, @code{Rm_free}, @code{Rm_calloc} "
-"and @code{Rm_free} provided by file @file{src/gnuwin32/malloc.c}.  This was "
-"done for two reasons.  The primary motivation was performance: the allocator "
+"@R{}'s memory allocation is almost all done via routines in file @file{src/"
+"main/memory.c}.  It is important to keep track of where memory is allocated, "
+"as the Windows port (by default) makes use of a memory allocator that "
+"differs from @code{malloc} etc as provided by MinGW.  Specifically, there "
+"are entry points @code{Rm_malloc}, @code{Rm_free}, @code{Rm_calloc} and "
+"@code{Rm_free} provided by file @file{src/gnuwin32/malloc.c}.  This was done "
+"for two reasons.  The primary motivation was performance: the allocator "
 "provided by MSVCRT @emph{via} MinGW was far too slow at handling the many "
 "small allocations that the allocation system for @code{SEXPREC}s uses.  As a "
 "side benefit, we can set a limit on the amount of allocated memory: this is "
@@ -3148,9 +3382,9 @@ msgstr ""
 msgid ""
 "An alternative strategy has been used for various functions which require "
 "intermediate blocks of storage of varying but usually small size, and this "
-"has been consolidated into the routines in the header file "
-"@file{src/main/RBufferUtils.h}.  This uses a structure which contains a "
-"buffer, the current size and the default size. A call to"
+"has been consolidated into the routines in the header file @file{src/main/"
+"RBufferUtils.h}.  This uses a structure which contains a buffer, the current "
+"size and the default size. A call to"
 msgstr ""
 
 #. type: findex
@@ -3195,7 +3429,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:1649
-msgid "The @code{R_StringBuffer} structure needs to be initialized, for example by"
+msgid ""
+"The @code{R_StringBuffer} structure needs to be initialized, for example by"
 msgstr ""
 
 #. type: example
@@ -3232,7 +3467,9 @@ msgid ""
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1678 R-ints.texi:1680 R-ints.texi:1681
+#: R-ints.texi:1678
+#: R-ints.texi:1680
+#: R-ints.texi:1681
 #, no-wrap
 msgid "Internals of R_alloc"
 msgstr ""
@@ -3270,13 +3507,19 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1710 R-ints.texi:1712 R-ints.texi:1713 R-ints.texi:1739
+#: R-ints.texi:1710
+#: R-ints.texi:1712
+#: R-ints.texi:1713
+#: R-ints.texi:1739
 #, no-wrap
 msgid "Base environment"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1710 R-ints.texi:1712 R-ints.texi:1739 R-ints.texi:1740
+#: R-ints.texi:1710
+#: R-ints.texi:1712
+#: R-ints.texi:1739
+#: R-ints.texi:1740
 #, no-wrap
 msgid "Global environment"
 msgstr ""
@@ -3370,8 +3613,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1747
 msgid ""
-"The seed for the random number generator is stored in object "
-"@code{.Random.seed} in the global environment."
+"The seed for the random number generator is stored in object @code{.Random."
+"seed} in the global environment."
 msgstr ""
 
 #. type: findex
@@ -3433,9 +3676,9 @@ msgstr ""
 #. type: table
 #: R-ints.texi:1777
 msgid ""
-"The internal HTTP and FTP clients and socket support, which link to "
-"system-specific support libraries.  This may load @code{libcurl} and on "
-"Windows will load @file{wininet.dll} and @file{ws2_32.dll}."
+"The internal HTTP and FTP clients and socket support, which link to system-"
+"specific support libraries.  This may load @code{libcurl} and on Windows "
+"will load @file{wininet.dll} and @file{ws2_32.dll}."
 msgstr ""
 
 #. type: code{#1}
@@ -3473,13 +3716,19 @@ msgid "visibility"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1796 R-ints.texi:1798 R-ints.texi:1799 R-ints.texi:1849
+#: R-ints.texi:1796
+#: R-ints.texi:1798
+#: R-ints.texi:1799
+#: R-ints.texi:1849
 #, no-wrap
 msgid "Hiding C entry points"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1796 R-ints.texi:1798 R-ints.texi:1849 R-ints.texi:1850
+#: R-ints.texi:1796
+#: R-ints.texi:1798
+#: R-ints.texi:1849
+#: R-ints.texi:1850
 #, no-wrap
 msgid "Variables in Windows DLLs"
 msgstr ""
@@ -3617,10 +3866,10 @@ msgstr ""
 #: R-ints.texi:1884
 msgid ""
 "Lazy loading is always used for code in packages but is optional (selected "
-"by the package maintainer) for datasets in packages.  When a "
-"package/namespace which uses it is loaded, the package/namespace environment "
-"is populated with promises for all the named objects: when these promises "
-"are evaluated they load the actual code from a database."
+"by the package maintainer) for datasets in packages.  When a package/"
+"namespace which uses it is loaded, the package/namespace environment is "
+"populated with promises for all the named objects: when these promises are "
+"evaluated they load the actual code from a database."
 msgstr ""
 
 #. type: Plain text
@@ -3668,10 +3917,10 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:1921
 msgid ""
-"Lazy-load databases are created by the code in "
-"@file{src/library/tools/R/makeLazyLoad.R}: the main tool is the unexported "
-"function @code{makeLazyLoadDB} and the insertion of database entries is done "
-"by calls to @code{.Call(\"R_lazyLoadDBinsertValue\", ...)}."
+"Lazy-load databases are created by the code in @file{src/library/tools/R/"
+"makeLazyLoad.R}: the main tool is the unexported function "
+"@code{makeLazyLoadDB} and the insertion of database entries is done by calls "
+"to @code{.Call(\"R_lazyLoadDBinsertValue\", ...)}."
 msgstr ""
 
 #. type: Plain text
@@ -3753,8 +4002,7 @@ msgid ""
 "function (pattern, x, ignore.case = FALSE, perl = FALSE, value = FALSE,\n"
 "         fixed = FALSE, useBytes = FALSE, invert = FALSE)\n"
 "@{\n"
-"    if (!is.character(x)) x <- structure(as.character(x), names = "
-"names(x))\n"
+"    if (!is.character(x)) x <- structure(as.character(x), names = names(x))\n"
 "    .Internal(grep(as.character(pattern), x, ignore.case, value,\n"
 "                   perl, fixed, useBytes, invert))\n"
 "@}\n"
@@ -4051,32 +4299,46 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2192
 msgid ""
-"The net effect is that argument matching for primitives intended for "
-"end-user use @emph{as functions} is done in the same way as for interpreted "
+"The net effect is that argument matching for primitives intended for end-"
+"user use @emph{as functions} is done in the same way as for interpreted "
 "functions except for the six exceptions where positional matching is "
 "required."
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2198 R-ints.texi:2200 R-ints.texi:2201 R-ints.texi:2226
+#: R-ints.texi:2198
+#: R-ints.texi:2200
+#: R-ints.texi:2201
+#: R-ints.texi:2226
 #, no-wrap
 msgid "Special primitives"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2198 R-ints.texi:2200 R-ints.texi:2226 R-ints.texi:2227 R-ints.texi:2234
+#: R-ints.texi:2198
+#: R-ints.texi:2200
+#: R-ints.texi:2226
+#: R-ints.texi:2227
+#: R-ints.texi:2234
 #, no-wrap
 msgid "Special internals"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2198 R-ints.texi:2226 R-ints.texi:2234 R-ints.texi:2235 R-ints.texi:2293
+#: R-ints.texi:2198
+#: R-ints.texi:2226
+#: R-ints.texi:2234
+#: R-ints.texi:2235
+#: R-ints.texi:2293
 #, no-wrap
 msgid "Prototypes for primitives"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2198 R-ints.texi:2234 R-ints.texi:2293 R-ints.texi:2294
+#: R-ints.texi:2198
+#: R-ints.texi:2234
+#: R-ints.texi:2293
+#: R-ints.texi:2294
 #, no-wrap
 msgid "Adding a primitive"
 msgstr ""
@@ -4137,11 +4399,11 @@ msgid ""
 "Prototypes are available for the primitive functions and operators, and "
 "these are used for printing, @code{args} and package checking (e.g.@: by "
 "@code{tools::checkS3methods} and by package @CRANpkg{codetools}).  There are "
-"two environments in the @pkg{base} package (and namespace), "
-"@samp{.GenericArgsEnv} for those primitives which are internal S3 generics, "
-"and @samp{.ArgsEnv} for the rest.  Those environments contain closures with "
-"the same names as the primitives, formal arguments derived (manually) from "
-"the help pages, a body which is a suitable call to @code{UseMethod} or "
+"two environments in the @pkg{base} package (and namespace), @samp{."
+"GenericArgsEnv} for those primitives which are internal S3 generics, and "
+"@samp{.ArgsEnv} for the rest.  Those environments contain closures with the "
+"same names as the primitives, formal arguments derived (manually) from the "
+"help pages, a body which is a suitable call to @code{UseMethod} or "
 "@code{NULL} and environment the base namespace."
 msgstr ""
 
@@ -4221,9 +4483,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2303
 msgid ""
-"Primitives are listed in the table @code{R_FunTab} in "
-"@file{src/main/names.c}: primitives have @samp{Y = 0} in the @samp{eval} "
-"field."
+"Primitives are listed in the table @code{R_FunTab} in @file{src/main/names."
+"c}: primitives have @samp{Y = 0} in the @samp{eval} field."
 msgstr ""
 
 #. type: Plain text
@@ -4291,31 +4552,49 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347 R-ints.texi:2349 R-ints.texi:2350 R-ints.texi:2366
+#: R-ints.texi:2347
+#: R-ints.texi:2349
+#: R-ints.texi:2350
+#: R-ints.texi:2366
 #, no-wrap
 msgid "R code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347 R-ints.texi:2349 R-ints.texi:2366 R-ints.texi:2367 R-ints.texi:2412
+#: R-ints.texi:2347
+#: R-ints.texi:2349
+#: R-ints.texi:2366
+#: R-ints.texi:2367
+#: R-ints.texi:2412
 #, no-wrap
 msgid "Main C code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347 R-ints.texi:2366 R-ints.texi:2412 R-ints.texi:2413 R-ints.texi:2442
+#: R-ints.texi:2347
+#: R-ints.texi:2366
+#: R-ints.texi:2412
+#: R-ints.texi:2413
+#: R-ints.texi:2442
 #, no-wrap
 msgid "Windows-GUI-specific code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347 R-ints.texi:2412 R-ints.texi:2442 R-ints.texi:2443 R-ints.texi:2449
+#: R-ints.texi:2347
+#: R-ints.texi:2412
+#: R-ints.texi:2442
+#: R-ints.texi:2443
+#: R-ints.texi:2449
 #, no-wrap
 msgid "OS X GUI"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2347 R-ints.texi:2442 R-ints.texi:2449 R-ints.texi:2450
+#: R-ints.texi:2347
+#: R-ints.texi:2442
+#: R-ints.texi:2449
+#: R-ints.texi:2450
 #, no-wrap
 msgid "Updating"
 msgstr ""
@@ -4337,8 +4616,7 @@ msgid ""
 "For each package, the extracted messages and translation sources are stored "
 "under package directory @file{po} in the source package, and compiled "
 "translations under @file{inst/po} for installation to package directory "
-"@file{po} in the installed package.  This also applies to C code in "
-"packages."
+"@file{po} in the installed package.  This also applies to C code in packages."
 msgstr ""
 
 #. type: Plain text
@@ -4354,8 +4632,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2377
 msgid ""
-"The list of files covered by the @R{} domain is specified in file "
-"@file{po/POTFILES.in}."
+"The list of files covered by the @R{} domain is specified in file @file{po/"
+"POTFILES.in}."
 msgstr ""
 
 #. type: Plain text
@@ -4429,9 +4707,9 @@ msgstr ""
 #: R-ints.texi:2428
 msgid ""
 "Messages for Windows are most naturally handled in the native charset for "
-"the language, and in the case of CJK languages the charset is "
-"Windows-specific.  (It transpires that as the @code{iconv} we ported works "
-"well under Windows, this is less important than anticipated.)"
+"the language, and in the case of CJK languages the charset is Windows-"
+"specific.  (It transpires that as the @code{iconv} we ported works well "
+"under Windows, this is less important than anticipated.)"
 msgstr ""
 
 #. type: Plain text
@@ -4449,15 +4727,15 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2440
 msgid ""
-"The template and message catalogs for the @samp{RGui} domain are in the "
-"top-level @file{po} directory."
+"The template and message catalogs for the @samp{RGui} domain are in the top-"
+"level @file{po} directory."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:2447
 msgid ""
-"This is handled separately: see "
-"@uref{http://developer.r-project.org/Translations30.html}."
+"This is handled separately: see @uref{http://developer.r-project.org/"
+"Translations30.html}."
 msgstr ""
 
 #. type: Plain text
@@ -4474,13 +4752,19 @@ msgid "Structure of an Installed Package"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2460 R-ints.texi:2508 R-ints.texi:2509 R-ints.texi:2579
+#: R-ints.texi:2460
+#: R-ints.texi:2508
+#: R-ints.texi:2509
+#: R-ints.texi:2579
 #, no-wrap
 msgid "Metadata"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2460 R-ints.texi:2508 R-ints.texi:2579 R-ints.texi:2580
+#: R-ints.texi:2460
+#: R-ints.texi:2508
+#: R-ints.texi:2579
+#: R-ints.texi:2580
 #, no-wrap
 msgid "Help"
 msgstr ""
@@ -4516,9 +4800,9 @@ msgid ""
 "@code{loadNamespace} looks for file @file{R/@var{pkgname}}, warns if it is "
 "not found and otherwise sources the code (using @code{sys.source})  into the "
 "package's environment, then lazy-loads a database @file{R/sysdata} if "
-"present.  So how @R{} code gets loaded depends on the contents of "
-"@file{R/@var{pkgname}}: a standard template to load lazy-load databases are "
-"provided in @file{share/R/nspackloader.R}."
+"present.  So how @R{} code gets loaded depends on the contents of @file{R/"
+"@var{pkgname}}: a standard template to load lazy-load databases are provided "
+"in @file{share/R/nspackloader.R}."
 msgstr ""
 
 #. type: Plain text
@@ -4535,13 +4819,12 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2501
 msgid ""
-"Subdirectory @file{data} serves two purposes. In a package using "
-"lazy-loading of data, it contains a lazy-load database @file{Rdata}, plus a "
-"file @file{Rdata.rds} which contain a named character vector used by "
+"Subdirectory @file{data} serves two purposes. In a package using lazy-"
+"loading of data, it contains a lazy-load database @file{Rdata}, plus a file "
+"@file{Rdata.rds} which contain a named character vector used by "
 "@code{data()} in the (unusual) event that it is used for such a package.  "
 "Otherwise it is a copy of the @file{data} directory in the sources, with "
-"saved images re-compressed if @command{R CMD INSTALL --resave-data} was "
-"used."
+"saved images re-compressed if @command{R CMD INSTALL --resave-data} was used."
 msgstr ""
 
 #. type: Plain text
@@ -4565,8 +4848,8 @@ msgid ""
 "serialized @R{} objects written by @code{saveRDS}.  All packages have files "
 "@file{Rd.rds}, @file{hsearch.rds}, @file{links.rds} and @file{package.rds}.  "
 "Packages with namespaces have a file @file{nsInfo.rds}, and those with data, "
-"demos or vignettes have @file{data.rds}, @file{demo.rds} or "
-"@file{vignette.rds} files."
+"demos or vignettes have @file{data.rds}, @file{demo.rds} or @file{vignette."
+"rds} files."
 msgstr ""
 
 #. type: Plain text
@@ -4618,16 +4901,15 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2560
 msgid ""
-"File @file{hsearch.rds} records the information to be used by "
-"@samp{help.search}.  This is a list of four unnamed elements which are "
-"character matrices for help files, aliases, keywords and concepts.  All the "
-"matrices have columns @samp{ID} and @samp{Package} which are used to tie the "
-"aliases, keywords and concepts (the remaining column of the last three "
-"elements) to a particular help file.  The first element has further columns "
-"@samp{LibPath} (stored as @code{\"\"} and filled in what the file is "
-"loaded), @samp{name}, @samp{title}, @samp{topic} (the first alias, used when "
-"presenting the results as @samp{@var{pkgname}::@var{topic}}) and "
-"@samp{Encoding}."
+"File @file{hsearch.rds} records the information to be used by @samp{help."
+"search}.  This is a list of four unnamed elements which are character "
+"matrices for help files, aliases, keywords and concepts.  All the matrices "
+"have columns @samp{ID} and @samp{Package} which are used to tie the aliases, "
+"keywords and concepts (the remaining column of the last three elements) to a "
+"particular help file.  The first element has further columns @samp{LibPath} "
+"(stored as @code{\"\"} and filled in what the file is loaded), @samp{name}, "
+"@samp{title}, @samp{topic} (the first alias, used when presenting the "
+"results as @samp{@var{pkgname}::@var{topic}}) and @samp{Encoding}."
 msgstr ""
 
 #. type: Plain text
@@ -4647,8 +4929,8 @@ msgstr ""
 #: R-ints.texi:2570
 msgid ""
 "File @file{data.rds} records a two-column character matrix with columns of "
-"dataset names and titles from the corresponding help file.  File "
-"@file{demo.rds} has the same structure for package demos."
+"dataset names and titles from the corresponding help file.  File @file{demo."
+"rds} has the same structure for package demos."
 msgstr ""
 
 #. type: Plain text
@@ -4688,8 +4970,8 @@ msgid ""
 "contains the aliases defined in the help files and the second the basename "
 "(without the @file{.Rd} or @file{.rd} extension) of the file containing that "
 "alias.  It is read by @code{utils:::index.search} to search for files "
-"matching a topic (alias), and read by @code{scan} in "
-"@code{utils:::matchAvailableTopics}, part of the completion system."
+"matching a topic (alias), and read by @code{scan} in @code{utils:::"
+"matchAvailableTopics}, part of the completion system."
 msgstr ""
 
 #. type: Plain text
@@ -4732,16 +5014,16 @@ msgid ""
 "manipulated in @R{} as UTF-8 encoded character strings, converted to wide "
 "characters (which on Windows are UTF-16LE) and passed to the OS.  The "
 "utilities @code{RC_fopen} and @code{filenameToWchar} help this process.  "
-"Currently @code{file.copy} to a directory, @code{list.files}, "
-"@code{list.dirs} and @code{path.expand} work only with filepaths encoded in "
-"the current codepage."
+"Currently @code{file.copy} to a directory, @code{list.files}, @code{list."
+"dirs} and @code{path.expand} work only with filepaths encoded in the current "
+"codepage."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:2635
 msgid ""
-"All these functions do tilde expansion, in the same way as "
-"@code{path.expand}, with the deliberate exception of @code{Sys.glob}."
+"All these functions do tilde expansion, in the same way as @code{path."
+"expand}, with the deliberate exception of @code{Sys.glob}."
 msgstr ""
 
 #. type: Plain text
@@ -4775,9 +5057,9 @@ msgid ""
 "@code{\\netname\\topdir\\myfiles\\a file}.  There is a current drive, and "
 "path names without a drive part are relative to the current drive.  Further, "
 "each drive has a current directory, and relative paths are relative to that "
-"current directory, on a particular drive if one is specified.  So "
-"@file{D:dir\\file} and @file{D:} are valid path specifications (the last "
-"being the current directory on drive @file{D:})."
+"current directory, on a particular drive if one is specified.  So @file{D:dir"
+"\\file} and @file{D:} are valid path specifications (the last being the "
+"current directory on drive @file{D:})."
 msgstr ""
 
 #. type: chapter
@@ -4801,9 +5083,9 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2705
 msgid ""
-"Some notes on the historical changes can be found at "
-"@uref{http://www.stat.auckland.ac.nz/@/~paul/@/R/basegraph.html} and "
-"@uref{http://www.stat.auckland.ac.nz/@/~paul/R/@/graphicsChanges.html}."
+"Some notes on the historical changes can be found at @uref{http://www.stat."
+"auckland.ac.nz/@/~paul/@/R/basegraph.html} and @uref{http://www.stat."
+"auckland.ac.nz/@/~paul/R/@/graphicsChanges.html}."
 msgstr ""
 
 #. type: Plain text
@@ -4921,7 +5203,8 @@ msgstr ""
 
 #. type: itemize
 #: R-ints.texi:2741
-msgid "device (this is usually used to change the window title on a screen device)."
+msgid ""
+"device (this is usually used to change the window title on a screen device)."
 msgstr ""
 
 #. type: item
@@ -4984,8 +5267,7 @@ msgid ""
 "is responsible for clipping lines, rectangles and polygons, converting the "
 "@code{pch} values @code{0...26} to sets of lines/circles, centring (and "
 "otherwise adjusting) text, rendering mathematical expressions (`plotmath') "
-"and mapping colour descriptions such as names to the internal "
-"representation."
+"and mapping colour descriptions such as names to the internal representation."
 msgstr ""
 
 #. type: Plain text
@@ -4994,14 +5276,14 @@ msgid ""
 "Another function of the engine is to manage display lists and snapshots.  "
 "Some but not all instances of graphics devices maintain display lists, a "
 "`list' of operations that have been performed on the device to produce the "
-"current plot (since the device was opened or the plot was last cleared, "
-"e.g.@: by @code{plot.new}).  Screen devices generally maintain a display "
-"list to handle repaint and resize events whereas file-based formats do "
-"not---display lists are also used to implement @code{dev.copy()} and "
-"friends.  The display list is a pairlist of @code{.Internal} (base graphics) "
-"or @code{.Call.graphics} (grid graphics) calls, which means that the C code "
-"implementing a graphics operation will be re-called when the display list is "
-"replayed: apart from the part which records the operation if successful."
+"current plot (since the device was opened or the plot was last cleared, e.g."
+"@: by @code{plot.new}).  Screen devices generally maintain a display list to "
+"handle repaint and resize events whereas file-based formats do not---display "
+"lists are also used to implement @code{dev.copy()} and friends.  The display "
+"list is a pairlist of @code{.Internal} (base graphics) or @code{.Call."
+"graphics} (grid graphics) calls, which means that the C code implementing a "
+"graphics operation will be re-called when the display list is replayed: "
+"apart from the part which records the operation if successful."
 msgstr ""
 
 #. type: Plain text
@@ -5020,9 +5302,9 @@ msgid ""
 "for 24 subsystems since about 2001, currently still only two exist, `base' "
 "and `grid'.  The base subsystem is registered with the engine when @R{} is "
 "initialized, and unregistered (via @code{KillAllDevices}) when an @R{} "
-"session is shut down.  The grid subsystem is registered in its "
-"@code{.onLoad} function and unregistered in the @code{.onUnload} function.  "
-"The graphics subsystem may also have `state' information saved in a snapshot "
+"session is shut down.  The grid subsystem is registered in its @code{."
+"onLoad} function and unregistered in the @code{.onUnload} function.  The "
+"graphics subsystem may also have `state' information saved in a snapshot "
 "(currently base does and grid does not)."
 msgstr ""
 
@@ -5039,25 +5321,46 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2815 R-ints.texi:2817 R-ints.texi:2835 R-ints.texi:2835 R-ints.texi:2943 R-ints.texi:2990 R-ints.texi:3150 R-ints.texi:3205 R-ints.texi:3236 R-ints.texi:3258 R-ints.texi:3392
+#: R-ints.texi:2815
+#: R-ints.texi:2817
+#: R-ints.texi:2835
+#: R-ints.texi:2943
+#: R-ints.texi:2990
+#: R-ints.texi:3150
+#: R-ints.texi:3205
+#: R-ints.texi:3236
+#: R-ints.texi:3258
+#: R-ints.texi:3392
 #, no-wrap
 msgid "Graphics devices"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2815 R-ints.texi:2817 R-ints.texi:3392 R-ints.texi:3393 R-ints.texi:3481
+#: R-ints.texi:2815
+#: R-ints.texi:2817
+#: R-ints.texi:3392
+#: R-ints.texi:3393
+#: R-ints.texi:3481
 #, no-wrap
 msgid "Colours"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2815 R-ints.texi:3392 R-ints.texi:3481 R-ints.texi:3482 R-ints.texi:3533 R-ints.texi:3533 R-ints.texi:3573
+#: R-ints.texi:2815
+#: R-ints.texi:3392
+#: R-ints.texi:3481
+#: R-ints.texi:3482
+#: R-ints.texi:3533
+#: R-ints.texi:3573
 #, no-wrap
 msgid "Base graphics"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2815 R-ints.texi:3481 R-ints.texi:3573 R-ints.texi:3574
+#: R-ints.texi:2815
+#: R-ints.texi:3481
+#: R-ints.texi:3573
+#: R-ints.texi:3574
 #, no-wrap
 msgid "Grid graphics"
 msgstr ""
@@ -5065,50 +5368,77 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2824
 msgid ""
-"@R{} ships with several graphics devices, and there is support for "
-"third-party packages to provide additional devices---several packages now "
-"do.  This section describes the device internals from the viewpoint of a "
-"would-be writer of a graphics device."
+"@R{} ships with several graphics devices, and there is support for third-"
+"party packages to provide additional devices---several packages now do.  "
+"This section describes the device internals from the viewpoint of a would-be "
+"writer of a graphics device."
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833 R-ints.texi:2835 R-ints.texi:2836 R-ints.texi:2943
+#: R-ints.texi:2833
+#: R-ints.texi:2835
+#: R-ints.texi:2836
+#: R-ints.texi:2943
 #, no-wrap
 msgid "Device structures"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833 R-ints.texi:2835 R-ints.texi:2943 R-ints.texi:2944 R-ints.texi:2990
+#: R-ints.texi:2833
+#: R-ints.texi:2835
+#: R-ints.texi:2943
+#: R-ints.texi:2944
+#: R-ints.texi:2990
 #, no-wrap
 msgid "Device capabilities"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833 R-ints.texi:2943 R-ints.texi:2990 R-ints.texi:2991 R-ints.texi:3150
+#: R-ints.texi:2833
+#: R-ints.texi:2943
+#: R-ints.texi:2990
+#: R-ints.texi:2991
+#: R-ints.texi:3150
 #, no-wrap
 msgid "Handling text"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833 R-ints.texi:2990 R-ints.texi:3150 R-ints.texi:3151 R-ints.texi:3205
+#: R-ints.texi:2833
+#: R-ints.texi:2990
+#: R-ints.texi:3150
+#: R-ints.texi:3151
+#: R-ints.texi:3205
 #, no-wrap
 msgid "Conventions"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833 R-ints.texi:3150 R-ints.texi:3205 R-ints.texi:3236
+#: R-ints.texi:2833
+#: R-ints.texi:3150
+#: R-ints.texi:3205
+#: R-ints.texi:3236
 #, no-wrap
 msgid "'Mode'"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833 R-ints.texi:3205 R-ints.texi:3236 R-ints.texi:3237 R-ints.texi:3258
+#: R-ints.texi:2833
+#: R-ints.texi:3205
+#: R-ints.texi:3236
+#: R-ints.texi:3237
+#: R-ints.texi:3258
 #, no-wrap
 msgid "Graphics events"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833 R-ints.texi:3236 R-ints.texi:3258 R-ints.texi:3259 R-ints.texi:3271 R-ints.texi:3271 R-ints.texi:3317
+#: R-ints.texi:2833
+#: R-ints.texi:3236
+#: R-ints.texi:3258
+#: R-ints.texi:3259
+#: R-ints.texi:3271
+#: R-ints.texi:3317
 #, no-wrap
 msgid "Specific devices"
 msgstr ""
@@ -5124,13 +5454,12 @@ msgstr ""
 #: R-ints.texi:2849
 msgid ""
 "The @code{DevDesc} type is a structure defined in the header file "
-"@file{R_ext/GraphicsDevice.h} (which is included by "
-"@file{R_ext/GraphicsEngine.h}).  This describes the physical characteristics "
-"of a device, the capabilities of the device driver and contains a set of "
-"callback functions that will be used by the graphics engine to obtain "
-"information about the device and initiate actions (e.g.@: a new page, "
-"plotting a line or some text).  Type @code{pDevDesc} is a pointer to this "
-"type."
+"@file{R_ext/GraphicsDevice.h} (which is included by @file{R_ext/"
+"GraphicsEngine.h}).  This describes the physical characteristics of a "
+"device, the capabilities of the device driver and contains a set of callback "
+"functions that will be used by the graphics engine to obtain information "
+"about the device and initiate actions (e.g.@: a new page, plotting a line or "
+"some text).  Type @code{pDevDesc} is a pointer to this type."
 msgstr ""
 
 #. type: Plain text
@@ -5154,8 +5483,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2863
 msgid ""
-"The @code{GEDevDesc} type is a structure defined in "
-"@file{R_ext/GraphicsEngine.h} (with comments in the file) as"
+"The @code{GEDevDesc} type is a structure defined in @file{R_ext/"
+"GraphicsEngine.h} (with comments in the file) as"
 msgstr ""
 
 #. type: example
@@ -5255,9 +5584,9 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:2932
 msgid ""
-"Rather more protection is provided by the version number of the "
-"engine/device API, @code{R_GE_version} defined in "
-"@file{R_ext/GraphicsEngine.h} together with access functions"
+"Rather more protection is provided by the version number of the engine/"
+"device API, @code{R_GE_version} defined in @file{R_ext/GraphicsEngine.h} "
+"together with access functions"
 msgstr ""
 
 #. type: example
@@ -5524,23 +5853,22 @@ msgid ""
 "amount by which the cursor should be advanced when the character is placed.  "
 "For @code{ascent} and @code{descent} this is intended to be the bounding box "
 "of the `ink' put down by the glyph and not the box which might be used when "
-"assembling a line of conventional text (it needs to be for "
-"e.g. @code{hat(beta)} to work correctly).  However, the @code{width} is used "
-"in plotmath to advance to the next character, and so needs to include left "
-"and right bearings."
+"assembling a line of conventional text (it needs to be for e.g. "
+"@code{hat(beta)} to work correctly).  However, the @code{width} is used in "
+"plotmath to advance to the next character, and so needs to include left and "
+"right bearings."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:3049
 msgid ""
-"The @emph{interpretation} of @samp{c} depends on the locale.  In a "
-"single-byte locale values @code{32...255} indicate the corresponding "
-"character in the locale (if present).  For the symbol font (as used by "
-"@samp{graphics::par(font=5)}, @samp{grid::gpar(fontface=5}) and by "
-"`plotmath'), values @code{32...126, 161...239, 241...254} indicate glyphs in "
-"the Adobe Symbol encoding.  In a multibyte locale, @code{c} represents a "
-"Unicode point (except in the symbol font).  So the function needs to include "
-"code like"
+"The @emph{interpretation} of @samp{c} depends on the locale.  In a single-"
+"byte locale values @code{32...255} indicate the corresponding character in "
+"the locale (if present).  For the symbol font (as used by @samp{graphics::"
+"par(font=5)}, @samp{grid::gpar(fontface=5}) and by `plotmath'), values "
+"@code{32...126, 161...239, 241...254} indicate glyphs in the Adobe Symbol "
+"encoding.  In a multibyte locale, @code{c} represents a Unicode point "
+"(except in the symbol font).  So the function needs to include code like"
 msgstr ""
 
 #. type: example
@@ -5686,8 +6014,8 @@ msgid ""
 "@code{identify()}.  It is occasionally used by the graphic engine when "
 "attempting exact centring of text, such as character string values of "
 "@code{pch} in @code{points()} or @code{grid.points()}---however, it is only "
-"used when precise character metric information is not available or for "
-"multi-line strings."
+"used when precise character metric information is not available or for multi-"
+"line strings."
 msgstr ""
 
 #. type: Plain text
@@ -5829,27 +6157,28 @@ msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:3240
-msgid "Graphics devices may be designed to handle user interaction: not all are."
+msgid ""
+"Graphics devices may be designed to handle user interaction: not all are."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:3257
 msgid ""
 "Users may use @code{grDevices::setGraphicsEventEnv} to set the "
-"@code{eventEnv} environment in the device driver to hold event "
-"handlers. When the user calls @code{grDevices::getGraphicsEvent}, R will "
-"take three steps.  First, it sets the device driver member "
-"@code{gettingEvent} to @code{true} for each device with a non-@code{NULL} "
-"@code{eventEnv} entry, and calls @code{initEvent(dd, true)} if the callback "
-"is defined.  It then enters an event loop.  Each time through the loop R "
-"will process events once, then check whether any device has set the "
-"@code{result} member of @code{eventEnv} to a non-@code{NULL} value, and will "
-"save the first such value found to be returned.  C functions "
-"@code{doMouseEvent} and @code{doKeybd} are provided to call the R event "
-"handlers @code{onMouseDown}, @code{onMouseMove}, @code{onMouseUp}, and "
-"@code{onKeybd} and set @code{eventEnv$result} during this step.  Finally, "
-"@code{initEvent} is called again with @code{init=false} to inform the "
-"devices that the loop is done, and the result is returned to the user."
+"@code{eventEnv} environment in the device driver to hold event handlers. "
+"When the user calls @code{grDevices::getGraphicsEvent}, R will take three "
+"steps.  First, it sets the device driver member @code{gettingEvent} to "
+"@code{true} for each device with a non-@code{NULL} @code{eventEnv} entry, "
+"and calls @code{initEvent(dd, true)} if the callback is defined.  It then "
+"enters an event loop.  Each time through the loop R will process events "
+"once, then check whether any device has set the @code{result} member of "
+"@code{eventEnv} to a non-@code{NULL} value, and will save the first such "
+"value found to be returned.  C functions @code{doMouseEvent} and "
+"@code{doKeybd} are provided to call the R event handlers @code{onMouseDown}, "
+"@code{onMouseMove}, @code{onMouseUp}, and @code{onKeybd} and set "
+"@code{eventEnv$result} during this step.  Finally, @code{initEvent} is "
+"called again with @code{init=false} to inform the devices that the loop is "
+"done, and the result is returned to the user."
 msgstr ""
 
 #. type: Plain text
@@ -5861,13 +6190,19 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:3269 R-ints.texi:3271 R-ints.texi:3272 R-ints.texi:3317
+#: R-ints.texi:3269
+#: R-ints.texi:3271
+#: R-ints.texi:3272
+#: R-ints.texi:3317
 #, no-wrap
 msgid "X11()"
 msgstr ""
 
 #. type: subsubsection
-#: R-ints.texi:3269 R-ints.texi:3271 R-ints.texi:3317 R-ints.texi:3318
+#: R-ints.texi:3269
+#: R-ints.texi:3271
+#: R-ints.texi:3317
+#: R-ints.texi:3318
 #, no-wrap
 msgid "windows()"
 msgstr ""
@@ -6015,25 +6350,25 @@ msgid ""
 "technically possible to use alpha-blending on metafile devices such as "
 "printers, but it seems few drivers have support for this.} This is done by "
 "drawing on a further internal bitmap, @code{xd->bm2}, in the opaque version "
-"of the colour then alpha-blending that bitmap to @code{xd->bm}.  The "
-"alpha-blending routine is in a separate DLL, @file{msimg32.dll}, which is "
-"loaded on first use.  As small a rectangular region as reasonably possible "
-"is alpha-blended (this is rectangle @code{r} in the code), but things like "
-"mitre joins make estimation of a tight bounding box too much work for lines "
-"and polygonal boundaries.  Translucent-coloured lines are not common, and "
-"the performance seems acceptable."
+"of the colour then alpha-blending that bitmap to @code{xd->bm}.  The alpha-"
+"blending routine is in a separate DLL, @file{msimg32.dll}, which is loaded "
+"on first use.  As small a rectangular region as reasonably possible is alpha-"
+"blended (this is rectangle @code{r} in the code), but things like mitre "
+"joins make estimation of a tight bounding box too much work for lines and "
+"polygonal boundaries.  Translucent-coloured lines are not common, and the "
+"performance seems acceptable."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:3390
 msgid ""
-"The support for a transparent background in @code{png()} predates full "
-"alpha-channel support in @code{libpng} (let alone in PNG viewers), so makes "
-"use of the limited transparency support in earlier versions of PNG.  Where "
-"24-bit colour is used, this is done by marking a single colour to be "
-"rendered as transparent.  @R{} chose @samp{#fdfefd}, and uses this as the "
-"background colour (in @code{GA_NewPage} if the specified background colour "
-"is transparent (and all non-opaque background colours are treated as "
+"The support for a transparent background in @code{png()} predates full alpha-"
+"channel support in @code{libpng} (let alone in PNG viewers), so makes use of "
+"the limited transparency support in earlier versions of PNG.  Where 24-bit "
+"colour is used, this is done by marking a single colour to be rendered as "
+"transparent.  @R{} chose @samp{#fdfefd}, and uses this as the background "
+"colour (in @code{GA_NewPage} if the specified background colour is "
+"transparent (and all non-opaque background colours are treated as "
 "transparent).  So this works by marking that colour in the PNG file, and "
 "viewers without transparency support see a slightly-off-white background, as "
 "if there were a near-white canvas.  Where a palette is used in the PNG file "
@@ -6066,16 +6401,15 @@ msgstr ""
 #: R-ints.texi:3418
 msgid ""
 "Colours in the base graphics system were originally adopted from S (and "
-"before that the GRZ library from Bell Labs), with the concept of a "
-"(variable-sized) palette of colours referenced by numbers @samp{1...@var{N}} "
-"plus @samp{0} (the background colour of the current device).  @R{} "
-"introduced the idea of referring to colours by character strings, either in "
-"the forms @samp{#RRGGBB} or @samp{#RRGGBBAA} (representing the bytes in hex) "
-"as given by function @code{rgb()} or via names: the 657 known names are "
-"given in the character vector @code{colors} and in a table in file "
-"@file{colors.c} in package @pkg{grDevices}.  Note that semi-transparent "
-"colours are not `premultiplied', so 50% transparent white is "
-"@samp{#ffffff80}."
+"before that the GRZ library from Bell Labs), with the concept of a (variable-"
+"sized) palette of colours referenced by numbers @samp{1...@var{N}} plus "
+"@samp{0} (the background colour of the current device).  @R{} introduced the "
+"idea of referring to colours by character strings, either in the forms "
+"@samp{#RRGGBB} or @samp{#RRGGBBAA} (representing the bytes in hex) as given "
+"by function @code{rgb()} or via names: the 657 known names are given in the "
+"character vector @code{colors} and in a table in file @file{colors.c} in "
+"package @pkg{grDevices}.  Note that semi-transparent colours are not "
+"`premultiplied', so 50% transparent white is @samp{#ffffff80}."
 msgstr ""
 
 #. type: Plain text
@@ -6097,8 +6431,8 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:3433
 msgid ""
-"Integer colours have been used more widely than the base graphics "
-"sub-system, as they are supported by package @pkg{grid} and hence by "
+"Integer colours have been used more widely than the base graphics sub-"
+"system, as they are supported by package @pkg{grid} and hence by "
 "@CRANpkg{lattice} and @CRANpkg{ggplot2}.  (They are also used by package "
 "@CRANpkg{rgl}.)  @pkg{grid} did re-define colour @samp{0} to be transparent "
 "white, but @CRANpkg{rgl} used @code{col2rgb} and hence the background colour "
@@ -6110,20 +6444,20 @@ msgstr ""
 msgid ""
 "Note that positive integer colours refer to the current palette and colour "
 "@samp{0} to the current device (and a device is opened if needs be).  These "
-"are mapped to type @code{rcolor} at the time of use: this matters when "
-"re-playing the display list, e.g.@: when a device is resized or "
-"@code{dev.copy} is used.  The palette should be thought of as per-session: "
-"it is stored in package @pkg{grDevices}."
+"are mapped to type @code{rcolor} at the time of use: this matters when re-"
+"playing the display list, e.g.@: when a device is resized or @code{dev.copy} "
+"is used.  The palette should be thought of as per-session: it is stored in "
+"package @pkg{grDevices}."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:3446
 msgid ""
 "The convention is that devices use the colorspace `sRGB'. This is an "
-"industry standard: it is used by Web browsers and JPEGs from all but "
-"high-end digital cameras.  The interpretation is a matter for graphics "
-"devices and for code that manipulates colours, but not for the graphics "
-"engine or subsystems."
+"industry standard: it is used by Web browsers and JPEGs from all but high-"
+"end digital cameras.  The interpretation is a matter for graphics devices "
+"and for code that manipulates colours, but not for the graphics engine or "
+"subsystems."
 msgstr ""
 
 #. type: Plain text
@@ -6134,11 +6468,11 @@ msgid ""
 "a stroked border, the fill should be painted first and then the border (or "
 "otherwise only half the border will be visible).  Where both the fill and "
 "the border are semi-transparent there is some room for interpretation of the "
-"intention.  Most devices first paint the fill and then the border, "
-"alpha-blending at each step.  However, PDF does some automatic grouping of "
+"intention.  Most devices first paint the fill and then the border, alpha-"
+"blending at each step.  However, PDF does some automatic grouping of "
 "objects, and @emph{when the fill and the border have the same alpha}, they "
-"are painted onto the same layer and then alpha-blended in one step.  (See "
-"p. 569 of the PDF Reference Sixth Edition, version 1.7.  Unfortunately, "
+"are painted onto the same layer and then alpha-blended in one step.  (See p. "
+"569 of the PDF Reference Sixth Edition, version 1.7.  Unfortunately, "
 "although this is what the PDF standard says should happen, it is not "
 "correctly implemented by some viewers.)"
 msgstr ""
@@ -6193,9 +6527,9 @@ msgid ""
 "@file{plot.c}, @code{plot3d.c} and @code{par.c} contain the code for the "
 "around 30 @code{.External} calls that implement the basic graphics "
 "operations.  This code then calls functions with names starting with "
-"@code{G} and declared in header @file{Rgraphics.h} in file "
-"@file{graphics.c}, which in turn call the graphics engine (whose functions "
-"almost all have names starting with @code{GE})."
+"@code{G} and declared in header @file{Rgraphics.h} in file @file{graphics."
+"c}, which in turn call the graphics engine (whose functions almost all have "
+"names starting with @code{GE})."
 msgstr ""
 
 #. type: Plain text
@@ -6255,7 +6589,9 @@ msgid ""
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:3531 R-ints.texi:3533 R-ints.texi:3534
+#: R-ints.texi:3531
+#: R-ints.texi:3533
+#: R-ints.texi:3534
 #, no-wrap
 msgid "Arguments and parameters"
 msgstr ""
@@ -6330,8 +6666,8 @@ msgstr ""
 msgid ""
 "This can be done by a package which is loaded from terminal-based @R{} and "
 "launches a console as part of its startup code or by the user running a "
-"specific function: package @CRANpkg{Rcmdr} is a well-known example with a "
-"Tk-based GUI."
+"specific function: package @CRANpkg{Rcmdr} is a well-known example with a Tk-"
+"based GUI."
 msgstr ""
 
 #. type: Plain text
@@ -6354,7 +6690,9 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: R-ints.texi:3602 R-ints.texi:3604 R-ints.texi:3605
+#: R-ints.texi:3602
+#: R-ints.texi:3604
+#: R-ints.texi:3605
 #, no-wrap
 msgid "R.app"
 msgstr ""
@@ -6363,12 +6701,12 @@ msgstr ""
 #: R-ints.texi:3614
 msgid ""
 "@command{R.app} is a OS X application which provides a console.  Its sources "
-"are a separate project@footnote{an Xcode project, in SVN at "
-"@uref{https://svn.r-project.org/R-packages/trunk/Mac-GUI}.}, and its "
-"binaries link to an @R{} installation which it runs as a dynamic library "
-"@file{libR.dylib}.  The standard @acronym{CRAN} distribution of @R{} for OS "
-"X bundles the GUI and @R{} itself, but installing the GUI is optional and "
-"either component can be updated separately."
+"are a separate project@footnote{an Xcode project, in SVN at @uref{https://"
+"svn.r-project.org/R-packages/trunk/Mac-GUI}.}, and its binaries link to an "
+"@R{} installation which it runs as a dynamic library @file{libR.dylib}.  The "
+"standard @acronym{CRAN} distribution of @R{} for OS X bundles the GUI and "
+"@R{} itself, but installing the GUI is optional and either component can be "
+"updated separately."
 msgstr ""
 
 #. type: Plain text
@@ -6378,17 +6716,16 @@ msgid ""
 "hence on @R{} having been built and installed as a Mac OS X `framework'.  "
 "Specifically, it uses @file{/Library/Frameworks/R.framework/R}.  This is a "
 "symbolic link, as frameworks can contain multiple versions of @R{}.  It "
-"eventually resolves to "
-"@file{/Library/Frameworks/R.framework/Versions/Current/Resources/lib/libR.dylib}, "
-"which is (in the @acronym{CRAN} distribution) a `fat' binary containing "
-"multiple sub-architectures."
+"eventually resolves to @file{/Library/Frameworks/R.framework/Versions/"
+"Current/Resources/lib/libR.dylib}, which is (in the @acronym{CRAN} "
+"distribution) a `fat' binary containing multiple sub-architectures."
 msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:3629
 msgid ""
-"OS X applications are directory trees: each @command{R.app} contains a "
-"front-end written in Objective-C for one sub-architecture: in the standard "
+"OS X applications are directory trees: each @command{R.app} contains a front-"
+"end written in Objective-C for one sub-architecture: in the standard "
 "distribution there are separate applications for 32- and 64-bit Intel "
 "architectures."
 msgstr ""
@@ -6419,12 +6756,12 @@ msgstr ""
 #: R-ints.texi:3652
 msgid ""
 "There is a @command{configure} option @option{--with-aqua} for @R{} which "
-"customizes the way @R{} is built: this is distinct from the "
-"@option{--enable-R-framework} option which causes @command{make install} to "
-"install @R{} as the framework needed for use with @code{R.app}.  (The option "
-"@option{--with-aqua} is the default on OS X.)  It sets the macro "
-"@code{HAVE_AQUA} in @file{config.h} and the make variable "
-"@code{BUILD_AQUA_TRUE}.  These have several consequences:"
+"customizes the way @R{} is built: this is distinct from the @option{--enable-"
+"R-framework} option which causes @command{make install} to install @R{} as "
+"the framework needed for use with @code{R.app}.  (The option @option{--with-"
+"aqua} is the default on OS X.)  It sets the macro @code{HAVE_AQUA} in "
+"@file{config.h} and the make variable @code{BUILD_AQUA_TRUE}.  These have "
+"several consequences:"
 msgstr ""
 
 #. type: itemize
@@ -6451,8 +6788,8 @@ msgstr ""
 #. type: itemize
 #: R-ints.texi:3671
 msgid ""
-"The default path for a personal library directory is set as "
-"@file{~/Library/R/x.y/library}."
+"The default path for a personal library directory is set as @file{~/Library/"
+"R/x.y/library}."
 msgstr ""
 
 #. type: itemize
@@ -6474,9 +6811,9 @@ msgstr ""
 #. type: itemize
 #: R-ints.texi:3686
 msgid ""
-"There is support for starting the embedded @R{} with the option "
-"@option{--gui=aqua}: when this is done the global C variable @code{useaqua} "
-"is set to a true value.  This has consequences:"
+"There is support for starting the embedded @R{} with the option @option{--"
+"gui=aqua}: when this is done the global C variable @code{useaqua} is set to "
+"a true value.  This has consequences:"
 msgstr ""
 
 #. type: itemize
@@ -6603,7 +6940,8 @@ msgstr ""
 
 #. type: table
 #: R-ints.texi:3763
-msgid "Skip installation, e.g., when testing recommended packages bundled with R."
+msgid ""
+"Skip installation, e.g., when testing recommended packages bundled with R."
 msgstr ""
 
 #. type: item
@@ -6642,8 +6980,8 @@ msgstr ""
 #: R-ints.texi:3778
 msgid ""
 "If true, do not ignore compiler (typically GCC) warnings about non ISO C "
-"code in @emph{system} headers.  Note that this may also show additional ISO "
-"C++ warnings.  Default: false."
+"code in @emph{system} headers.  Note that this may also show additional ISO C"
+"++ warnings.  Default: false."
 msgstr ""
 
 #. type: item
@@ -6707,7 +7045,8 @@ msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:3795
-msgid "If true, check the cross-references in @file{.Rd} files.  Default: true."
+msgid ""
+"If true, check the cross-references in @file{.Rd} files.  Default: true."
 msgstr ""
 
 #. type: item
@@ -6882,8 +7221,8 @@ msgstr ""
 #: R-ints.texi:3849
 msgid ""
 "Control whether/how license checks are performed. A possible value is "
-"@samp{maybe} (warn in case of problems, but not about standardizable "
-"non-standard license specs).  Default: true."
+"@samp{maybe} (warn in case of problems, but not about standardizable non-"
+"standard license specs).  Default: true."
 msgstr ""
 
 #. type: item
@@ -7171,12 +7510,12 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:3951
 msgid ""
-"Optionally report timings for installation, examples, tests and "
-"running/re-building vignettes as part of the check log.  The format is "
-"@samp{[as/bs]} for the total CPU time (including child processes)  @samp{a} "
-"and elapsed time @samp{b}, except on Windows, when it is @samp{[bs]}.  In "
-"most cases timings are only given for @samp{OK} checks.  Times with an "
-"elapsed component over 10 mins are reported in minutes (with abbreviation "
+"Optionally report timings for installation, examples, tests and running/re-"
+"building vignettes as part of the check log.  The format is @samp{[as/bs]} "
+"for the total CPU time (including child processes)  @samp{a} and elapsed "
+"time @samp{b}, except on Windows, when it is @samp{[bs]}.  In most cases "
+"timings are only given for @samp{OK} checks.  Times with an elapsed "
+"component over 10 mins are reported in minutes (with abbreviation "
 "@samp{m}).  The value is the smallest numerical value in elapsed seconds "
 "that should be reported: non-numerical values indicate that no report is "
 "required, a value of @samp{0} that a report is always required.  Default: "
@@ -7197,8 +7536,8 @@ msgid ""
 "@code{.Library}.  The temporary library is populated by symbolic "
 "links@footnote{under Windows, junction points, or copies if environment "
 "variable @env{R_WIN_NO_JUNCTIONS} has a non-empty value.} to the installed "
-"copies of all the Depends/Imports/LinkingTo packages which are not in "
-"@code{.Library}.  Default: false (but true for CRAN submission checks)."
+"copies of all the Depends/Imports/LinkingTo packages which are not in @code{."
+"Library}.  Default: false (but true for CRAN submission checks)."
 msgstr ""
 
 #. type: Plain text
@@ -7225,13 +7564,13 @@ msgstr ""
 #: R-ints.texi:3976
 msgid ""
 "If set to a true value, running examples, tests and vignettes is done with "
-"@code{.libPaths()} containing just a temporary library directory and "
-"@code{.Library}.  The temporary library is populated by symbolic "
-"links@footnote{see the previous footnote.} to the installed copies of all "
-"the Depends/Imports and (for the second only) Suggests packages which are "
-"not in @code{.Library}.  (As an exception, packages in a "
-"@samp{VignetteBuilder} field are always made available.)  Default: false "
-"(but @env{_R_CHECK_SUGGESTS_ONLY_} is true for CRAN checks)."
+"@code{.libPaths()} containing just a temporary library directory and @code{."
+"Library}.  The temporary library is populated by symbolic links@footnote{see "
+"the previous footnote.} to the installed copies of all the Depends/Imports "
+"and (for the second only) Suggests packages which are not in @code{."
+"Library}.  (As an exception, packages in a @samp{VignetteBuilder} field are "
+"always made available.)  Default: false (but @env{_R_CHECK_SUGGESTS_ONLY_} "
+"is true for CRAN checks)."
 msgstr ""
 
 #. type: item
@@ -7312,9 +7651,9 @@ msgstr ""
 #: R-ints.texi:4011
 msgid ""
 "Make the checks of compiled code more accurate by recording the symbol "
-"tables for objects (@file{.o} files) at installation in a file "
-"@file{symbols.rds}.  (Only currently supported on Linux, Solaris, OS X, "
-"Windows and FreeBSD.)  Default: true."
+"tables for objects (@file{.o} files) at installation in a file @file{symbols."
+"rds}.  (Only currently supported on Linux, Solaris, OS X, Windows and "
+"FreeBSD.)  Default: true."
 msgstr ""
 
 #. type: item
@@ -7521,9 +7860,9 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:4092
 msgid ""
-"If set to a true value, report already registered S3 methods in "
-"base/recommended packages which are overwritten when this package's "
-"namespace is loaded.  Default: false (but true for CRAN submission checks)."
+"If set to a true value, report already registered S3 methods in base/"
+"recommended packages which are overwritten when this package's namespace is "
+"loaded.  Default: false (but true for CRAN submission checks)."
 msgstr ""
 
 #. type: Plain text
@@ -7667,8 +8006,8 @@ msgid ""
 "Note in particular that @samp{|} in a regexp is an extended regexp, and is "
 "not supported by all versions of @command{grep} or @command{sed}.  The Open "
 "Group Base Specifications, Issue 7, which are technically identical to IEEE "
-"Std 1003.1 (POSIX), 2008, are available at "
-"@uref{http://pubs.opengroup.org/onlinepubs/9699919799/mindex.html}."
+"Std 1003.1 (POSIX), 2008, are available at @uref{http://pubs.opengroup.org/"
+"onlinepubs/9699919799/mindex.html}."
 msgstr ""
 
 #. type: Plain text
@@ -7692,9 +8031,9 @@ msgstr ""
 #: R-ints.texi:4209
 msgid ""
 "Perl version 5 is only needed for a few uncommonly-used tools: @command{make "
-"install-info} needs Perl installed if there is no command "
-"@command{install-info} on the system, and for the maintainer-only script "
-"@file{tools/help2man.pl}."
+"install-info} needs Perl installed if there is no command @command{install-"
+"info} on the system, and for the maintainer-only script @file{tools/help2man."
+"pl}."
 msgstr ""
 
 #. type: findex
@@ -7782,12 +8121,12 @@ msgstr ""
 #: R-ints.texi:4273
 msgid ""
 "When you (as @R{} developer) add new functions to the R base (all the "
-"packages distributed with @R{}), be careful to check if @kbd{make "
-"test-Specific} or particularly, @kbd{cd tests; make no-segfault.Rout} still "
-"works (without interactive user intervention, and on a standalone "
-"computer).  If the new function, for example, accesses the Internet, or "
-"requires @acronym{GUI} interaction, please add its name to the ``stop list'' "
-"in @file{tests/no-segfault.Rin}."
+"packages distributed with @R{}), be careful to check if @kbd{make test-"
+"Specific} or particularly, @kbd{cd tests; make no-segfault.Rout} still works "
+"(without interactive user intervention, and on a standalone computer).  If "
+"the new function, for example, accesses the Internet, or requires "
+"@acronym{GUI} interaction, please add its name to the ``stop list'' in "
+"@file{tests/no-segfault.Rin}."
 msgstr ""
 
 #. type: Plain text
@@ -7867,19 +8206,29 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-ints.texi:4332 R-ints.texi:4334 R-ints.texi:4335 R-ints.texi:4407
+#: R-ints.texi:4332
+#: R-ints.texi:4334
+#: R-ints.texi:4335
+#: R-ints.texi:4407
 #, no-wrap
 msgid "Long vectors"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:4332 R-ints.texi:4334 R-ints.texi:4407 R-ints.texi:4408 R-ints.texi:4459
+#: R-ints.texi:4332
+#: R-ints.texi:4334
+#: R-ints.texi:4407
+#: R-ints.texi:4408
+#: R-ints.texi:4459
 #, no-wrap
 msgid "64-bit types"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:4332 R-ints.texi:4407 R-ints.texi:4459 R-ints.texi:4460
+#: R-ints.texi:4332
+#: R-ints.texi:4407
+#: R-ints.texi:4459
+#: R-ints.texi:4460
 #, no-wrap
 msgid "Large matrices"
 msgstr ""
@@ -7971,8 +8320,8 @@ msgstr ""
 msgid ""
 "@R{} function @code{length} was documented to currently return an integer, "
 "possibly @code{NA}.  A lot of code has been written that assumes that, and "
-"even code which calls @code{as.integer(length(x))} before passing to "
-"@code{.C}/@code{.Fortran} rarely checks for an @code{NA} result."
+"even code which calls @code{as.integer(length(x))} before passing to @code{."
+"C}/@code{.Fortran} rarely checks for an @code{NA} result."
 msgstr ""
 
 #. type: itemize
@@ -8035,10 +8384,10 @@ msgstr ""
 #. type: Plain text
 #: R-ints.texi:4447
 msgid ""
-"Most users of the @code{.C} and @code{.Fortran} interfaces use "
-"@code{as.integer} for lengths and element numbers, but a few omit these in "
-"the knowledge that these were of type @code{integer}.  It may be reasonable "
-"to assume that these are never intended to be used with long vectors."
+"Most users of the @code{.C} and @code{.Fortran} interfaces use @code{as."
+"integer} for lengths and element numbers, but a few omit these in the "
+"knowledge that these were of type @code{integer}.  It may be reasonable to "
+"assume that these are never intended to be used with long vectors."
 msgstr ""
 
 #. type: Plain text
