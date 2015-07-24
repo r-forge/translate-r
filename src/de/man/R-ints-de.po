@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-23 14:28-0600\n"
+"POT-Creation-Date: 2015-07-24 07:56-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
@@ -7114,7 +7114,8 @@ msgstr ""
 #: R-ints.texi:3816
 msgid ""
 "Maximum number of lines to show at the bottom of the output when reporting "
-"errors in running vignettes.  Default: 10."
+"errors in running or re-building vignettes.  Default: 10 for running, 25 for "
+"re-building."
 msgstr ""
 
 #. type: item
