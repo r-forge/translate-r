@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Chel Hee Lee
-# This file is distributed under the same license as the translateR package.
+# This file is distributed under the same license as the translate.R package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: translateR 0.0.1.4\n"
+"Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-20 22:48-0600\n"
+"POT-Creation-Date: 2015-07-24 09:58-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgid "@paragraphindent 0"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:58 rw-FAQ.texi:73 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1641
+#: rw-FAQ.texi:58 rw-FAQ.texi:73 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1409
 #, no-wrap
 msgid "Top"
 msgstr ""
@@ -107,31 +107,29 @@ msgid "Packages"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1410 rw-FAQ.texi:1421 rw-FAQ.texi:1421 rw-FAQ.texi:1444 rw-FAQ.texi:1483 rw-FAQ.texi:1502 rw-FAQ.texi:1516 rw-FAQ.texi:1556
+#: rw-FAQ.texi:69 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1410 rw-FAQ.texi:1421 rw-FAQ.texi:1421 rw-FAQ.texi:1444
 #, no-wrap
 msgid "Windows Features"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1557 rw-FAQ.texi:1567 rw-FAQ.texi:1567 rw-FAQ.texi:1573 rw-FAQ.texi:1585 rw-FAQ.texi:1605
+#: rw-FAQ.texi:69 rw-FAQ.texi:1409
 #, no-wrap
 msgid "Workspaces"
 msgstr ""
 
-#. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1606 rw-FAQ.texi:1617 rw-FAQ.texi:1617 rw-FAQ.texi:1630 rw-FAQ.texi:1641
-#, no-wrap
+#. type: menuentry
+#: rw-FAQ.texi:69
 msgid "The R Console"
 msgstr ""
 
-#. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1605 rw-FAQ.texi:1641 rw-FAQ.texi:1642 rw-FAQ.texi:1656 rw-FAQ.texi:1656 rw-FAQ.texi:1662 rw-FAQ.texi:1699 rw-FAQ.texi:1719 rw-FAQ.texi:1807 rw-FAQ.texi:1841 rw-FAQ.texi:1855 rw-FAQ.texi:1868
-#, no-wrap
+#. type: menuentry
+#: rw-FAQ.texi:69
 msgid "Building from Source"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1641
+#: rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1409
 msgid "@newchap{}"
 msgstr ""
 
@@ -227,9 +225,10 @@ msgstr ""
 msgid "Can I use R CMD BATCH?"
 msgstr ""
 
-#. type: menuentry
-#: rw-FAQ.texi:122
-msgid "Can I use 3.3.0 with ESS and Emacs?"
+#. type: node
+#: rw-FAQ.texi:122 rw-FAQ.texi:383 rw-FAQ.texi:400 rw-FAQ.texi:401 rw-FAQ.texi:410
+#, no-wrap
+msgid "Can I use @RWVER@ with ESS and Emacs?"
 msgstr ""
 
 #. type: node
@@ -340,7 +339,7 @@ msgid ""
 "Go to any CRAN site (see @uref{http://cran.r-project.org/@/mirrors.html} for "
 "a list), navigate to the @file{bin/windows/base} directory and collect the "
 "file(s) you need.  The current release is distributed as an installer "
-"@samp{3.3.0 -win.exe} of about 60MB."
+"@samp{@RWVER@-win.exe} of about 60MB."
 msgstr ""
 
 #. type: Plain text
@@ -394,7 +393,7 @@ msgstr ""
 #. type: Plain text
 #: rw-FAQ.texi:175
 msgid ""
-"To install use @samp{3.3.0 -win.exe}.  Just double-click on the icon and "
+"To install use @samp{@RWVER@-win.exe}.  Just double-click on the icon and "
 "follow the instructions.  If you have an account with Administrator "
 "privileges you will be able to install R in the @file{Program Files} area "
 "and to set all the optional registry entries; otherwise you will only be "
@@ -750,12 +749,6 @@ msgid ""
 "files by @code{help(fn_name, help_type=\"PDF\")}."
 msgstr ""
 
-#. type: node
-#: rw-FAQ.texi:383 rw-FAQ.texi:400 rw-FAQ.texi:401 rw-FAQ.texi:410
-#, no-wrap
-msgid "Can I use 3.3.0  with ESS and Emacs?"
-msgstr ""
-
 #. type: section
 #: rw-FAQ.texi:384
 #, no-wrap
@@ -912,12 +905,12 @@ msgstr ""
 #: rw-FAQ.texi:485
 msgid ""
 "How did you specify it? Backslashes have to be doubled in R character "
-"strings, so for example one needs @samp{\"d:\\\\3.3.0 "
-"\\\\library\\\\xgobi\\\\scripts\\\\xgobi.bat\"}.  You can make life easier "
-"for yourself by using forward slashes as path separators: they do work under "
-"Windows.  You should include the file extension (e.g.@: @samp{\"xgobi.bat\"} "
-"rather than just @samp{\"xgobi\"}); sometimes this isn't shown in Windows "
-"Explorer, but it is necessary in R."
+"strings, so for example one needs "
+"@samp{\"d:\\\\@RWVER@\\\\library\\\\xgobi\\\\scripts\\\\xgobi.bat\"}.  You "
+"can make life easier for yourself by using forward slashes as path "
+"separators: they do work under Windows.  You should include the file "
+"extension (e.g.@: @samp{\"xgobi.bat\"} rather than just @samp{\"xgobi\"}); "
+"sometimes this isn't shown in Windows Explorer, but it is necessary in R."
 msgstr ""
 
 #. type: Plain text
@@ -969,7 +962,7 @@ msgstr ""
 
 #. type: itemize
 #: rw-FAQ.texi:514
-msgid "contains the version number, currently 3.3.0 ."
+msgid "contains the version number, currently @RVER@."
 msgstr ""
 
 #. type: code{#1}
@@ -981,7 +974,7 @@ msgstr ""
 #. type: itemize
 #: rw-FAQ.texi:517
 msgid ""
-"(where @code{[version]} is currently 3.3.0 ) contains the path to the R home "
+"(where @code{[version]} is currently @RVER@) contains the path to the R home "
 "directory."
 msgstr ""
 
@@ -1276,7 +1269,7 @@ msgstr ""
 msgid ""
 "For an installation to be used by a single user, the simplest way is to make "
 "use of a `personal library': @xref{I don't have permission to write to the "
-"3.3.0 \\library directory}."
+"@RWVER@\\library directory}."
 msgstr ""
 
 #. type: itemize
@@ -1839,7 +1832,7 @@ msgstr ""
 #. type: node
 #: rw-FAQ.texi:1092 rw-FAQ.texi:1095 rw-FAQ.texi:1139 rw-FAQ.texi:1184
 #, no-wrap
-msgid "I don't have permission to write to the 3.3.0 \\library directory"
+msgid "I don't have permission to write to the @RWVER@\\library directory"
 msgstr ""
 
 #. type: node
@@ -1987,7 +1980,7 @@ msgstr ""
 #. type: section
 #: rw-FAQ.texi:1140
 #, no-wrap
-msgid "I don't have permission to write to the @file{3.3.0 \\library} directory."
+msgid "I don't have permission to write to the @file{@RWVER@\\library} directory."
 msgstr ""
 
 #. type: Plain text
@@ -2402,26 +2395,24 @@ msgid "What should I expect to behave differently from the Unix version"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1421 rw-FAQ.texi:1444 rw-FAQ.texi:1483
+#: rw-FAQ.texi:1418 rw-FAQ.texi:1421 rw-FAQ.texi:1444
 #, no-wrap
 msgid "I hear about some nifty features."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1444 rw-FAQ.texi:1483 rw-FAQ.texi:1502
+#: rw-FAQ.texi:1418 rw-FAQ.texi:1444
 #, no-wrap
 msgid "Circles appear as ovals on screen"
 msgstr ""
 
-#. type: node
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1483 rw-FAQ.texi:1502 rw-FAQ.texi:1503 rw-FAQ.texi:1516
-#, no-wrap
+#. type: menuentry
+#: rw-FAQ.texi:1418
 msgid "How do I move focus to a graphics window or the console?"
 msgstr ""
 
-#. type: section
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1502 rw-FAQ.texi:1516 rw-FAQ.texi:1517
-#, no-wrap
+#. type: menuentry
+#: rw-FAQ.texi:1418
 msgid "What does TAB completion do?"
 msgstr ""
 
@@ -2477,225 +2468,101 @@ msgid "I hear about some nifty features: please tell me about them!"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1453
+#: rw-FAQ.texi:1896
 msgid ""
-"You have read the file @file{README.3.3.0 }? There are file menus on the R "
+"You have read the file @file{README.@RWVER@}? There are file menus on the R "
 "console, pager and graphics windows.  You can source and save from those "
 "menus, and copy the graphics to @code{png}, @code{jpeg}, @code{bmp}, "
 "@code{postscript}, @code{PDF} or @code{metafile}.  There are right-click "
 "menus giving shortcuts to menu items, and optionally toolbars with buttons "
-"giving shortcuts to frequent operations."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1456
-msgid ""
-"If you resize the R console the @code{options(width=)} is automatically set "
-"to the console width (unless disabled in the configuration file)."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1458
-msgid "The graphics has a history mechanism.  As @file{README.3.3.0 } says:"
-msgstr ""
-
-#. type: quotation
-#: rw-FAQ.texi:1469
-msgid ""
-"`The History menu allows the recording of plots.  When plots have been "
-"recorded they can be reviewed by @key{PgUp} and @key{PgDn}, saved and "
-"replaced.  Recording can be turned on automatically (the Recording item on "
-"the list) or individual plots can be added (Add or the @key{INS} key).  The "
-"whole plot history can be saved to or retrieved from an R variable in the "
-"global environment.  The format of recorded plots may change between R "
-"versions.  Recorded plots should @strong{not} be used as a permanent storage "
-"format for R plots."
-msgstr ""
-
-#. type: quotation
-#: rw-FAQ.texi:1471
-msgid "There is only one graphics history shared by all the windows devices.'"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1481
-msgid ""
-"The R console and graphics windows have configuration files stored in the "
-"@file{RHOME\\etc} directory called @file{Rconsole} and @file{Rdevga}; you "
-"can keep personal copies in your @file{HOME} directory.  They contain "
+"giving shortcuts to frequent operations.  If you resize the R console the "
+"@code{options(width=)} is automatically set to the console width (unless "
+"disabled in the configuration file).  The graphics has a history mechanism.  "
+"As @file{README.@RWVER@} says: @quotation `The History menu allows the "
+"recording of plots.  When plots have been recorded they can be reviewed by "
+"@key{PgUp} and @key{PgDn}, saved and replaced.  Recording can be turned on "
+"automatically (the Recording item on the list) or individual plots can be "
+"added (Add or the @key{INS} key).  The whole plot history can be saved to or "
+"retrieved from an R variable in the global environment.  The format of "
+"recorded plots may change between R versions.  Recorded plots should "
+"@strong{not} be used as a permanent storage format for R plots.  There is "
+"only one graphics history shared by all the windows devices.' @end quotation "
+"@noindent The R console and graphics windows have configuration files stored "
+"in the @file{RHOME\\etc} directory called @file{Rconsole} and @file{Rdevga}; "
+"you can keep personal copies in your @file{HOME} directory.  They contain "
 "comments which should suffice for you to edit them to your preferences.  For "
 "more details see @code{?Rconsole}.  There is a GUI preferences editor "
 "invoked from the @code{Edit} menu which can be used to edit the file "
-"@file{Rconsole}."
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1484
-#, no-wrap
-msgid "Circles appear as ovals on screen."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1494
-msgid ""
-"The graphics system asks Windows for the number of pixels per inch in the X "
-"and Y directions, and uses that to size graphics (which in R are in units of "
+"@file{Rconsole}.  @node Circles appear as ovals on screen, How do I move "
+"focus to a graphics window or the console?, I hear about some nifty "
+"features., Windows Features @section Circles appear as ovals on screen.  The "
+"graphics system asks Windows for the number of pixels per inch in the X and "
+"Y directions, and uses that to size graphics (which in R are in units of "
 "inches).  Sometimes the answer is a complete invention, and in any case "
 "Windows will not know exactly how the horizontal and vertical size have been "
 "set on a monitor which allows them to be adjusted.  You can specify correct "
 "values either in the call to @code{windows} or as options: see "
-"@code{?windows}.  (Typically these are of the order of 100.)"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1498
-msgid ""
-"On one of our systems, the screen height was reported as 240mm, and the "
-"width as 300mm in 1280 x 1024 mode and 320mm in 1280 x 960 and 1600 x 1200 "
-"modes.  In fact it was a 21\" monitor and 400mm x 300mm!"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1501
-msgid ""
-"This is less common with LCD screens but not unknown, particularly if they "
-"are not running at their native resolution."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1510
-msgid ""
+"@code{?windows}.  (Typically these are of the order of 100.)  On one of our "
+"systems, the screen height was reported as 240mm, and the width as 300mm in "
+"1280 x 1024 mode and 320mm in 1280 x 960 and 1600 x 1200 modes.  In fact it "
+"was a 21\" monitor and 400mm x 300mm! This is less common with LCD screens "
+"but not unknown, particularly if they are not running at their native "
+"resolution.  @node How do I move focus to a graphics window or the console?, "
+"What does TAB completion do?, Circles appear as ovals on screen, Windows "
+"Features @section How do I move focus to a graphics window or the console? "
 "You may want to do this from within a function, for example when calling "
 "@samp{identify} or @samp{readline}.  Use the function @samp{bringToTop()}.  "
 "With its default argument it brings the active graphics window to the top "
 "and gives it focus.  With argument @samp{-1} it brings the console to the "
-"top and gives it focus."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1514
-msgid ""
-"This works for @command{Rgui.exe} in MDI and SDI modes, and can be used for "
-"graphics windows from @command{Rterm.exe} (although Windows may not always "
-"act on it)."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1525
-msgid ""
-"Both @command{Rgui} and @command{Rterm} support @kbd{TAB} completion.  "
-"Hitting @kbd{TAB} whilst entering a command line completes the current "
-"`word' as far as is unambiguously possible.  Hitting @kbd{TAB} a second time "
-"then shows a list of possible completions (or the first few if there are "
-"many): the user can then enter one or more characters and hit @kbd{TAB} "
-"again."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1537
-msgid ""
-"What is it `completing'? There are two modes: within an unterminated "
-"(single- or double-) quoted expression it completes file paths.@footnote{It "
-"does not have a complete understanding of Windows file paths, but can "
-"complete most relative or absolute file paths, including drives and "
-"spaces. Relative paths on drives are not handled, for example.} Otherwise, "
-"it is completing R expressions: most obviously it will match visible R "
-"object names and keywords, so @kbd{apr} followed by @kbd{TAB} will (in a "
-"vanilla session) complete to @code{apropos}.  After a function name and "
-"parenthesis (e.g.@: @kbd{apropos(}) it will complete argument names (and "
-"@kbd{=}), and after @kbd{$} or @kbd{@@} it will complete list components or "
-"slot names respectively."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1543
-msgid ""
-"This feature can be turned off: @command{Rgui} has two menu items to do so, "
-"and setting the environment variable @env{R_COMPLETION} to @code{FALSE} "
-"turns it off completely for both @command{Rgui} and @command{Rterm}.  "
-"Further, the behaviour can be fine-tuned: to see the settings available use"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1546
-#, no-wrap
-msgid "?rc.settings\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1550
-msgid "which also explains how the various types of completion work."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1554
-msgid ""
-"This feature is very similar to the completion available in the "
-"@code{readline}-based command line interface on Unix-alikes: the OS X GUI "
-"@code{R.app} has a different completion scheme."
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1564 rw-FAQ.texi:1567 rw-FAQ.texi:1573
-#, no-wrap
-msgid "My workspace gets saved in a strange place.  How do I stop this?"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1564 rw-FAQ.texi:1567 rw-FAQ.texi:1573 rw-FAQ.texi:1574 rw-FAQ.texi:1585
-#, no-wrap
-msgid "How do I store my workspace in a different place?"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1564 rw-FAQ.texi:1573 rw-FAQ.texi:1585
-#, no-wrap
-msgid "Can I load workspaces saved under Unix/GNU-Linux or OS X?"
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1568
-#, no-wrap
-msgid "My workspace gets saved in a strange place: how do I stop this?"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1571
-msgid "Have you changed the working directory?: see Q6.2."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1580
-msgid ""
-"Use the `File | Change Dir...' menu item to select a new working directory: "
-"this defaults to the last directory you loaded a file from.  The workspace "
-"is saved in the working directory.  You can also save a snapshot of the "
-"workspace from the `Save Workspace...' menu item."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1583
-msgid ""
-"From the command line you can change the working directory by the function "
-"@code{setwd}: see its help page."
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1586
-#, no-wrap
-msgid "Can I load workspaces saved under Unix/GNU-Linux or Mac OS X?"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1590
-msgid ""
-"Yes.  All ports of R use the same format for saved workspaces, so they are "
-"interchangeable (for the same 3.x.? version of R, at least)."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1599
-msgid ""
+"top and gives it focus.  This works for @command{Rgui.exe} in MDI and SDI "
+"modes, and can be used for graphics windows from @command{Rterm.exe} "
+"(although Windows may not always act on it).  @node What does TAB completion "
+"do?, , How do I move focus to a graphics window or the console?, Windows "
+"Features @section What does TAB completion do? Both @command{Rgui} and "
+"@command{Rterm} support @kbd{TAB} completion.  Hitting @kbd{TAB} whilst "
+"entering a command line completes the current `word' as far as is "
+"unambiguously possible.  Hitting @kbd{TAB} a second time then shows a list "
+"of possible completions (or the first few if there are many): the user can "
+"then enter one or more characters and hit @kbd{TAB} again.  What is it "
+"`completing'? There are two modes: within an unterminated (single- or "
+"double-) quoted expression it completes file paths.@footnote{It does not "
+"have a complete understanding of Windows file paths, but can complete most "
+"relative or absolute file paths, including drives and spaces. Relative paths "
+"on drives are not handled, for example.} Otherwise, it is completing R "
+"expressions: most obviously it will match visible R object names and "
+"keywords, so @kbd{apr} followed by @kbd{TAB} will (in a vanilla session) "
+"complete to @code{apropos}.  After a function name and parenthesis (e.g.@: "
+"@kbd{apropos(}) it will complete argument names (and @kbd{=}), and after "
+"@kbd{$} or @kbd{@@} it will complete list components or slot names "
+"respectively.  This feature can be turned off: @command{Rgui} has two menu "
+"items to do so, and setting the environment variable @env{R_COMPLETION} to "
+"@code{FALSE} turns it off completely for both @command{Rgui} and "
+"@command{Rterm}.  Further, the behaviour can be fine-tuned: to see the "
+"settings available use @example ?rc.settings @end example @noindent which "
+"also explains how the various types of completion work.  This feature is "
+"very similar to the completion available in the @code{readline}-based "
+"command line interface on Unix-alikes: the OS X GUI @code{R.app} has a "
+"different completion scheme.  @newchap{} @node Workspaces, The R Console, "
+"Windows Features, Top @chapter Workspaces @menu * My workspace gets saved in "
+"a strange place.  How do I stop this?:: * How do I store my workspace in a "
+"different place?:: * Can I load workspaces saved under Unix/GNU-Linux or OS "
+"X?:: @end menu @node My workspace gets saved in a strange place.  How do I "
+"stop this?, How do I store my workspace in a different place?, Workspaces, "
+"Workspaces @section My workspace gets saved in a strange place: how do I "
+"stop this? Have you changed the working directory?: see Q6.2.  @node How do "
+"I store my workspace in a different place?, Can I load workspaces saved "
+"under Unix/GNU-Linux or OS X?, My workspace gets saved in a strange place.  "
+"How do I stop this?, Workspaces @section How do I store my workspace in a "
+"different place? Use the `File | Change Dir...' menu item to select a new "
+"working directory: this defaults to the last directory you loaded a file "
+"from.  The workspace is saved in the working directory.  You can also save a "
+"snapshot of the workspace from the `Save Workspace...' menu item.  From the "
+"command line you can change the working directory by the function "
+"@code{setwd}: see its help page.  @node Can I load workspaces saved under "
+"Unix/GNU-Linux or OS X?, , How do I store my workspace in a different "
+"place?, Workspaces @section Can I load workspaces saved under Unix/GNU-Linux "
+"or Mac OS X? Yes.  All ports of R use the same format for saved workspaces, "
+"so they are interchangeable (for the same 3.x.? version of R, at least).  "
 "Note though that character data in a workspace will be in a particular "
 "encoding that is not recorded in the workspace, so workspaces containing "
 "non-@acronym{ASCII} character data may not be interchangeable even on the "
@@ -2703,151 +2570,52 @@ msgid ""
 "Latin-1 (including its Windows superset, CP1252), strings in those encodings "
 "are likely to be transferred correctly: fortunately this covers most of the "
 "common cases (OS X normally uses UTF-8, and Linux users are likely to use "
-"UTF-8 or perhaps Latin-1)."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1603
-msgid ""
-"It is possible to save references to package namespaces when saving the "
-"workspace: if that happens the package will need to be installed on the "
-"machine loading the workspace."
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1612 rw-FAQ.texi:1617 rw-FAQ.texi:1630
-#, no-wrap
-msgid "The output to the console seems to be delayed"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1612 rw-FAQ.texi:1617 rw-FAQ.texi:1630
-#, no-wrap
-msgid "Long lines seem to be truncated."
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1618
-#, no-wrap
-msgid "When using Rgui the output to the console seems to be delayed."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1624
-msgid ""
+"UTF-8 or perhaps Latin-1).  It is possible to save references to package "
+"namespaces when saving the workspace: if that happens the package will need "
+"to be installed on the machine loading the workspace.  @newchap{} @node The "
+"R Console, Building from Source, Workspaces, Top @chapter The R Console "
+"@menu * The output to the console seems to be delayed:: * Long lines seem to "
+"be truncated.:: @end menu @node The output to the console seems to be "
+"delayed, Long lines seem to be truncated., The R Console, The R Console "
+"@section When using Rgui the output to the console seems to be delayed.  "
 "This is deliberate: the console output is buffered and re-written in chunks "
 "to be faster and less distracting.  You can turn buffering off or on from "
-"the `Misc' menu or the right-click menu: @key{Ctrl-W} toggles the setting."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1628
-msgid ""
+"the `Misc' menu or the right-click menu: @key{Ctrl-W} toggles the setting.  "
 "If you are sourcing R code or writing from a function, there is another "
 "option.  A call to the R function @code{flush.console()} will write out the "
-"buffer and so update the console."
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1631
-#, no-wrap
-msgid "Long lines in the console or pager are truncated."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1637
-msgid ""
-"They only @strong{seem} to be truncated: that $ at the end indicates you can "
-"scroll the window to see the rest of the line.  Use the horizontal scrollbar "
-"or the @key{CTRL + left/right arrow} keys to scroll horizontally. (The "
-"@key{left/right arrow} keys work in the pager too.)"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1656 rw-FAQ.texi:1657 rw-FAQ.texi:1662
-#, no-wrap
-msgid "How can I compile R from source?"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1656 rw-FAQ.texi:1662 rw-FAQ.texi:1663 rw-FAQ.texi:1699
-#, no-wrap
-msgid "Can I use a fast BLAS?"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1662 rw-FAQ.texi:1699 rw-FAQ.texi:1700 rw-FAQ.texi:1719
-#, no-wrap
-msgid "How do I include compiled C code?"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1699 rw-FAQ.texi:1719 rw-FAQ.texi:1720 rw-FAQ.texi:1807
-#, no-wrap
-msgid "How do I debug code that I have compiled and dyn.load-ed?"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1719 rw-FAQ.texi:1807 rw-FAQ.texi:1808 rw-FAQ.texi:1841
-#, no-wrap
-msgid "How do I include C++ code?"
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1807 rw-FAQ.texi:1841 rw-FAQ.texi:1855
-#, no-wrap
-msgid "The output from my C code disappears."
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1841 rw-FAQ.texi:1855 rw-FAQ.texi:1868
-#, no-wrap
-msgid "The output from my Fortran code disappears."
-msgstr ""
-
-#. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1855 rw-FAQ.texi:1868
-#, no-wrap
-msgid "The console freezes when my compiled code is running"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1661
-msgid ""
-"See the `R Installation and Administration' manual (for the version of R you "
-"want to install)."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1674
-msgid ""
-"Fast BLAS (Basic Linear Algebra Subprograms, "
-"@uref{http://www.netlib.org/@/blas/@/faq.html}) routines are used to speed "
-"up numerical linear algebra.  There is support in the R sources for the "
-"`tuned' BLAS called ATLAS (@uref{http://math-atlas.sourceforge.net}).  The "
-"savings can be appreciable but because ATLAS is tuned to a particular chip "
-"we can't use it generally.  However, linear algebra on large matrices is not "
-"often an important part of R computations, and more typical calculations on "
-"small matrices may run slower."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1684
-msgid ""
-"BLAS support is supplied by the single DLL "
+"buffer and so update the console.  @node Long lines seem to be truncated., , "
+"The output to the console seems to be delayed, The R Console @section Long "
+"lines in the console or pager are truncated.  They only @strong{seem} to be "
+"truncated: that $ at the end indicates you can scroll the window to see the "
+"rest of the line.  Use the horizontal scrollbar or the @key{CTRL + "
+"left/right arrow} keys to scroll horizontally. (The @key{left/right arrow} "
+"keys work in the pager too.)  @newchap{} @node Building from Source, , The R "
+"Console, Top @chapter Building from Source @menu * How can I compile R from "
+"source?:: * Can I use a fast BLAS?:: * How do I include compiled C code?:: * "
+"How do I debug code that I have compiled and dyn.load-ed?:: * How do I "
+"include C++ code?:: * The output from my C code disappears.:: * The output "
+"from my Fortran code disappears.:: * The console freezes when my compiled "
+"code is running:: @end menu @node How can I compile R from source?, Can I "
+"use a fast BLAS?, Building from Source, Building from Source @section How "
+"can I compile R from source? See the `R Installation and Administration' "
+"manual (for the version of R you want to install).  @node Can I use a fast "
+"BLAS?, How do I include compiled C code?, How can I compile R from source?, "
+"Building from Source @section Can I use a fast BLAS? Fast BLAS (Basic Linear "
+"Algebra Subprograms, @uref{http://www.netlib.org/@/blas/@/faq.html}) "
+"routines are used to speed up numerical linear algebra.  There is support in "
+"the R sources for the `tuned' BLAS called ATLAS "
+"(@uref{http://math-atlas.sourceforge.net}).  The savings can be appreciable "
+"but because ATLAS is tuned to a particular chip we can't use it generally.  "
+"However, linear algebra on large matrices is not often an important part of "
+"R computations, and more typical calculations on small matrices may run "
+"slower.  BLAS support is supplied by the single DLL "
 "@file{R_HOME\\bin\\x64\\Rblas.dll}, and you can add a fast BLAS just by "
 "replacing that.  Replacements for 32-bit R and some of the older common "
 "chips are available on CRAN in directory @file{bin/windows/contrib/ATLAS}.  "
 "See the R Installation and Administration' manual for how to build an ATLAS "
 "@file{Rblas.dll} tuned to your system using the R sources.  Unfortunately "
 "the process has been less successful when tried for the common current chips "
-"such as Intel's Core 2."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1695
-msgid ""
-"Versions of Dr Kazushige Goto's BLAS (see "
+"such as Intel's Core 2.  Versions of Dr Kazushige Goto's BLAS (see "
 "@uref{http://en.wikipedia.org/wiki/Kazushige_Goto}) for 64-bit Windows by "
 "Ei-Ji Nakama can be found at "
 "@uref{http://prs.ism.ac.jp/~nakama/SurviveGotoBLAS2/binary/windows/x64/}.  "
@@ -2856,296 +2624,100 @@ msgid ""
 "called @samp{DYNAMIC_ARCH} that tries to adapt itself to the CPU found -- "
 "however if you know the exact CPU used it is better to download the "
 "CPU-specific version.  Note that development of that BLAS was frozen in 2010 "
-"so you will not find versions for recent CPUs.)"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1698
-msgid ""
-"Note that fast BLAS implementations may give different (and often slightly "
-"less accurate) results than the reference BLAS included in R."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1706
-msgid ""
-"We strongly encourage you to do this @emph{via} building an R package: see "
-"the @emph{`Writing R Extensions'} manual.  In any event you should get and "
-"install the tools and toolchain mentioned in the `R Installation and "
-"Administration' manual.  Then you can use"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1708
-#, no-wrap
-msgid "...\\bin\\x64\\R CMD SHLIB foo.c bar.f\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1713
-msgid ""
-"to make @file{foo.dll}.  Use @command{...\\bin\\x64\\R CMD SHLIB --help} for "
-"further options, or see @code{?SHLIB}.  (Replace @code{x64} by @code{i386} "
-"for 64-bit R.)"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1716
-msgid ""
-"If you want to use Visual C++, Borland C++ or other compilers, see the "
-"appropriate section in @file{README.packages}."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1728
-msgid ""
-"Debugging under Windows is often a fraught process, and sometimes does not "
-"work at all.  If all you need is a @emph{just-in-time} debugger to catch "
-"crashes, consider (32-bit) @code{Dr. Mingw} from the @code{mingw-utils} "
-"bundle on @uref{http://www.mingw.org}.  That will be able to pinpoint the "
-"error, most effectively if you build a version of R with debugging "
-"information as described below."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1730
-msgid "First, build a version of the R system with debugging information by"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1734
-#, no-wrap
-msgid ""
-"make clean\n"
-"make DEBUG=T\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1738
-msgid "and make a debug version of your package by"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1741
-#, no-wrap
-msgid "Rcmd INSTALL --debug mypkg\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1746
-msgid ""
-"You will need a suitable version of @command{gdb} which matches your "
-"compiler.  Then you can debug by"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1749
-#, no-wrap
-msgid "gdb /path/to/3.3.0 /bin/x64/Rgui.exe\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1753
-msgid "(or use @command{Rterm.exe}.)  However, note"
-msgstr ""
-
-#. type: itemize
-#: rw-FAQ.texi:1763
-msgid ""
-"@command{gdb} may only be able to find the source code if we run in the "
-"location where the source was compiled (@file{3.3.0 /src/gnuwin32} for the "
-"main system, @file{3.3.0 /src/library/mypkg/src} for a package), unless told "
-"otherwise by the @command{directory} command.  It is most convenient to set "
-"a list of code locations via @command{directory} commands in the file "
-"@file{.gdbinit} in the directory from which @command{gdb} is run."
-msgstr ""
-
-#. type: itemize
-#: rw-FAQ.texi:1768
-msgid ""
-"It is only possible to set breakpoints in a DLL after the DLL has been "
-"loaded.  So a way to examine the function @code{tukeyline} in package "
-"@code{stats} might be"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1784
-#, no-wrap
-msgid ""
-"     gdb ../../../../bin/i386/Rgui.exe\n"
-"     (gdb) break WinMain\n"
-"     (gdb) run\n"
-"     [ stops with R.dll loaded ]\n"
-"     (gdb) break R_ReadConsole\n"
-"     (gdb) continue\n"
-"     [ stops with console running ]\n"
-"     (gdb) continue\n"
-"     Rconsole> library(stats)\n"
-"     (gdb) break tukeyline\n"
-"     (gdb) clear R_ReadConsole\n"
-"     (gdb) continue\n"
-"     Rconsole> example(line)\n"
-"     ...\n"
-msgstr ""
-
-#. type: itemize
-#: rw-FAQ.texi:1790
-msgid ""
-"Alternatively, in @command{Rgui} you can use the `Misc|Break to debugger' "
-"menu item after your DLL is loaded.  The C function call "
-"@code{breaktodebugger()} will do the same thing."
-msgstr ""
-
-#. type: itemize
-#: rw-FAQ.texi:1793
-msgid "Fortran symbols need an underline appended."
-msgstr ""
-
-#. type: itemize
-#: rw-FAQ.texi:1799
-msgid ""
-"Windows has little support for signals, so the Unix idea of running a "
-"program under a debugger and sending it a signal to interrupt it and drop "
-"control back to the debugger does not work with a MinGW version of "
-"@command{gdb}.  It does often work with the @code{cygwin} version."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1805
-msgid ""
-"See "
+"so you will not find versions for recent CPUs.)  Note that fast BLAS "
+"implementations may give different (and often slightly less accurate) "
+"results than the reference BLAS included in R.  @node How do I include "
+"compiled C code?, How do I debug code that I have compiled and dyn.load-ed?, "
+"Can I use a fast BLAS?, Building from Source @section How do I include "
+"compiled C code? We strongly encourage you to do this @emph{via} building an "
+"R package: see the @emph{`Writing R Extensions'} manual.  In any event you "
+"should get and install the tools and toolchain mentioned in the `R "
+"Installation and Administration' manual.  Then you can use @example "
+"...\\bin\\x64\\R CMD SHLIB foo.c bar.f @end example @noindent to make "
+"@file{foo.dll}.  Use @command{...\\bin\\x64\\R CMD SHLIB --help} for further "
+"options, or see @code{?SHLIB}.  (Replace @code{x64} by @code{i386} for "
+"64-bit R.)  If you want to use Visual C++, Borland C++ or other compilers, "
+"see the appropriate section in @file{README.packages}.  @node How do I debug "
+"code that I have compiled and dyn.load-ed?, How do I include C++ code?, How "
+"do I include compiled C code?, Building from Source @section How do I debug "
+"code that I have compiled and dyn.load-ed? Debugging under Windows is often "
+"a fraught process, and sometimes does not work at all.  If all you need is a "
+"@emph{just-in-time} debugger to catch crashes, consider (32-bit) "
+"@code{Dr. Mingw} from the @code{mingw-utils} bundle on "
+"@uref{http://www.mingw.org}.  That will be able to pinpoint the error, most "
+"effectively if you build a version of R with debugging information as "
+"described below.  First, build a version of the R system with debugging "
+"information by @example make clean make DEBUG=T @end example @noindent and "
+"make a debug version of your package by @example Rcmd INSTALL --debug mypkg "
+"@end example @noindent You will need a suitable version of @command{gdb} "
+"which matches your compiler.  Then you can debug by @example gdb "
+"/path/to/@RWVER@/bin/x64/Rgui.exe @end example @noindent (or use "
+"@command{Rterm.exe}.)  However, note @itemize @bullet @item @command{gdb} "
+"may only be able to find the source code if we run in the location where the "
+"source was compiled (@file{@RWVER@/src/gnuwin32} for the main system, "
+"@file{@RWVER@/src/library/mypkg/src} for a package), unless told otherwise "
+"by the @command{directory} command.  It is most convenient to set a list of "
+"code locations via @command{directory} commands in the file @file{.gdbinit} "
+"in the directory from which @command{gdb} is run.  @item It is only possible "
+"to set breakpoints in a DLL after the DLL has been loaded.  So a way to "
+"examine the function @code{tukeyline} in package @code{stats} might be "
+"@example gdb ../../../../bin/i386/Rgui.exe (gdb) break WinMain (gdb) run [ "
+"stops with R.dll loaded ] (gdb) break R_ReadConsole (gdb) continue [ stops "
+"with console running ] (gdb) continue Rconsole> library(stats)  (gdb) break "
+"tukeyline (gdb) clear R_ReadConsole (gdb) continue Rconsole> example(line)  "
+"...  @end example @noindent Alternatively, in @command{Rgui} you can use the "
+"`Misc|Break to debugger' menu item after your DLL is loaded.  The C function "
+"call @code{breaktodebugger()} will do the same thing.  @item Fortran symbols "
+"need an underline appended.  @item Windows has little support for signals, "
+"so the Unix idea of running a program under a debugger and sending it a "
+"signal to interrupt it and drop control back to the debugger does not work "
+"with a MinGW version of @command{gdb}.  It does often work with the "
+"@code{cygwin} version.  @end itemize See "
 "@uref{http://www.stats.uwo.ca/@/faculty/@/murdoch/@/software/@/debuggingR/@/gdb.shtml} "
-"for some further details."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1811
-msgid "You need to do two things:"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1814
-msgid ""
-"(a) Write a wrapper to export the symbols you want to call from R as "
-"@code{extern \"C\"}."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1819
-msgid ""
-"(b) Include the C++ libraries in the link to make the DLL.  Suppose "
-"@file{X.cc} contains your C++ code, and @file{X_main.cc} is the wrapper, as "
-"in the example in @emph{`Writing R Extensions'}.  Then build the DLL by "
-"(@command{gcc})"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1822
-#, no-wrap
-msgid "...\\bin\\x64\\R CMD SHLIB X.cc X_main.cc\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1826
-msgid "or (VC++, which requires extension @code{.cpp})"
-msgstr ""
-
-#. type: example
-#: rw-FAQ.texi:1830
-#, no-wrap
-msgid ""
-"cl /MT /c X.cpp X_main.cpp\n"
-"link /dll /out:X.dll /export:X_main X.obj X_main.obj\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1836
-msgid ""
+"for some further details.  @node How do I include C++ code?, The output from "
+"my C code disappears., How do I debug code that I have compiled and "
+"dyn.load-ed?, Building from Source @section How do I include C++ code? You "
+"need to do two things: (a) Write a wrapper to export the symbols you want to "
+"call from R as @code{extern \"C\"}.  (b) Include the C++ libraries in the "
+"link to make the DLL.  Suppose @file{X.cc} contains your C++ code, and "
+"@file{X_main.cc} is the wrapper, as in the example in @emph{`Writing R "
+"Extensions'}.  Then build the DLL by (@command{gcc})  @example "
+"...\\bin\\x64\\R CMD SHLIB X.cc X_main.cc @end example @noindent or (VC++, "
+"which requires extension @code{.cpp})  @example cl /MT /c X.cpp X_main.cpp "
+"link /dll /out:X.dll /export:X_main X.obj X_main.obj @end example @noindent "
 "and call the entry point(s) in @code{X_R}, such as @code{X_main}.  "
 "Construction of static variables will occur when the DLL is loaded, and "
-"destruction when the DLL is unloaded, usually when R terminates."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1839
-msgid ""
-"Note that you will not see the messages from this example in the GUI "
-"console: see the next section."
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1842
-#, no-wrap
-msgid "The output from my C code disappears.  Why?"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1849
-msgid ""
-"The @command{Rgui.exe} console is a Windows application: writing to "
+"destruction when the DLL is unloaded, usually when R terminates.  Note that "
+"you will not see the messages from this example in the GUI console: see the "
+"next section.  @node The output from my C code disappears., The output from "
+"my Fortran code disappears., How do I include C++ code?, Building from "
+"Source @section The output from my C code disappears.  Why? The "
+"@command{Rgui.exe} console is a Windows application: writing to "
 "@code{stdout} or @code{stderr} will not produce output in the console.  "
 "(This will work with @command{Rterm.exe}.)  Use @code{Rprintf} or "
 "@code{REprintf} instead.  These are declared in header file "
-"@file{R_ext/PrtUtil.h}."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1853
-msgid ""
-"Note that output from the console is delayed (@pxref{The output to the "
-"console seems to be delayed}), so that you will not normally see any output "
-"before returning to the R prompt."
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1856
-#, no-wrap
-msgid "The output from my Fortran code disappears.  Why?"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1861
-msgid ""
+"@file{R_ext/PrtUtil.h}.  Note that output from the console is delayed "
+"(@pxref{The output to the console seems to be delayed}), so that you will "
+"not normally see any output before returning to the R prompt.  @node The "
+"output from my Fortran code disappears., The console freezes when my "
+"compiled code is running, The output from my C code disappears., Building "
+"from Source @section The output from my Fortran code disappears.  Why? "
 "Writing to Fortran output writes to a file, not the @command{Rgui} console.  "
 "Use one of the subroutines @code{dblepr}, @code{intpr} or @code{realpr} "
-"documented in the @emph{`Writing R Extensions'} manual."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1866
-msgid ""
-"Note that output from the console is delayed (@pxref{The output to the "
-"console seems to be delayed}), so that you will not normally see any output "
-"before returning to the R prompt even when using the @code{xxxpr} "
-"subroutines."
-msgstr ""
-
-#. type: section
-#: rw-FAQ.texi:1869
-#, no-wrap
-msgid "The console freezes when my compiled code is running."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:1876
-msgid ""
-"The console, pagers and graphics window all run in the same thread as the R "
-"engine.  To allow the console etc to respond to Windows events, call "
-"@code{R_ProcessEvents()} periodically from your compiled code.  If you want "
-"output to be updated on the console, call @code{R_FlushConsole()} and then "
-"@code{R_ProcessEvents()}."
-msgstr ""
-
-#. type: ifhtml
-#: rw-FAQ.texi:1885
-msgid ""
-"@html <hr WIDTH=\"100%\"> <address> Last edited @value{LASTEDIT}: comments "
-"to <code><a "
+"documented in the @emph{`Writing R Extensions'} manual.  Note that output "
+"from the console is delayed (@pxref{The output to the console seems to be "
+"delayed}), so that you will not normally see any output before returning to "
+"the R prompt even when using the @code{xxxpr} subroutines.  @node The "
+"console freezes when my compiled code is running, , The output from my "
+"Fortran code disappears., Building from Source @section The console freezes "
+"when my compiled code is running.  The console, pagers and graphics window "
+"all run in the same thread as the R engine.  To allow the console etc to "
+"respond to Windows events, call @code{R_ProcessEvents()} periodically from "
+"your compiled code.  If you want output to be updated on the console, call "
+"@code{R_FlushConsole()} and then @code{R_ProcessEvents()}.  @set LASTEDIT "
+"2015-01-27 @ifhtml @html <hr WIDTH=\"100%\"> <address> Last edited "
+"@value{LASTEDIT}: comments to <code><a "
 "href=\"mailto:R-windows@@R-project.org\">R-windows@@r-project.org</a></code> "
-"</address>"
-msgstr ""
-
-#. type: ifinfo
-#: rw-FAQ.texi:1890
-msgid "Last edited @value{LASTEDIT}: comments to <R-windows@@r-project.org>"
+"</address> @end html @end ifhtml @ifinfo @sp 2 Last edited @value{LASTEDIT}: "
+"comments to <R-windows@@r-project.org> @end ifinfo @bye"
 msgstr ""
