@@ -12,7 +12,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -135,104 +135,104 @@ msgstr ""
 #: src/main/builtin.c:118 src/main/builtin.c:148 src/main/builtin.c:559
 #: src/main/builtin.c:575 src/main/builtin.c:764 src/main/builtin.c:766
 #: src/main/builtin.c:768 src/main/character.c:159 src/main/character.c:162
-#: src/main/character.c:167 src/main/character.c:1086
-#: src/main/character.c:1090 src/main/character.c:1325
-#: src/main/character.c:1329 src/main/character.c:1390
-#: src/main/character.c:1393 src/main/connections.c:1208
-#: src/main/connections.c:1214 src/main/connections.c:1217
-#: src/main/connections.c:1221 src/main/connections.c:1367
-#: src/main/connections.c:1383 src/main/connections.c:1388
-#: src/main/connections.c:1989 src/main/connections.c:1995
-#: src/main/connections.c:1999 src/main/connections.c:2003
-#: src/main/connections.c:2008 src/main/connections.c:2659
-#: src/main/connections.c:2664 src/main/connections.c:2667
-#: src/main/connections.c:2670 src/main/connections.c:3053
-#: src/main/connections.c:3058 src/main/connections.c:3064
-#: src/main/connections.c:3067 src/main/connections.c:3071
-#: src/main/connections.c:3086 src/main/connections.c:3136
-#: src/main/connections.c:3141 src/main/connections.c:3145
-#: src/main/connections.c:3149 src/main/connections.c:3153
-#: src/main/connections.c:3159 src/main/connections.c:3207
-#: src/main/connections.c:3213 src/main/connections.c:3217
-#: src/main/connections.c:3268 src/main/connections.c:3271
-#: src/main/connections.c:3545 src/main/connections.c:3548
-#: src/main/connections.c:3551 src/main/connections.c:3557
-#: src/main/connections.c:3664 src/main/connections.c:3670
-#: src/main/connections.c:3673 src/main/connections.c:3825
-#: src/main/connections.c:3828 src/main/connections.c:3832
-#: src/main/connections.c:3835 src/main/connections.c:3956
-#: src/main/connections.c:4078 src/main/connections.c:4081
-#: src/main/connections.c:4418 src/main/connections.c:4443
-#: src/main/connections.c:4478 src/main/connections.c:4493
-#: src/main/connections.c:4501 src/main/connections.c:4527
-#: src/main/connections.c:4673 src/main/connections.c:4677
-#: src/main/connections.c:4805 src/main/connections.c:4807
-#: src/main/connections.c:4809 src/main/connections.c:4837
-#: src/main/connections.c:4975 src/main/connections.c:5004
-#: src/main/connections.c:5008 src/main/connections.c:5012
-#: src/main/connections.c:5016 src/main/context.c:611 src/main/context.c:620
-#: src/main/context.c:624 src/main/datetime.c:785 src/main/datetime.c:875
-#: src/main/datetime.c:877 src/main/datetime.c:881 src/main/datetime.c:1042
-#: src/main/datetime.c:1044 src/main/datetime.c:1249 src/main/debug.c:241
-#: src/main/deparse.c:407 src/main/dotcode.c:496 src/main/dotcode.c:500
-#: src/main/dotcode.c:505 src/main/dounzip.c:323 src/main/dounzip.c:330
-#: src/main/dounzip.c:340 src/main/dounzip.c:345 src/main/dounzip.c:349
-#: src/main/dounzip.c:353 src/main/envir.c:1750 src/main/envir.c:1753
-#: src/main/envir.c:1874 src/main/envir.c:1879 src/main/envir.c:1943
-#: src/main/envir.c:1959 src/main/envir.c:1965 src/main/envir.c:2077
-#: src/main/envir.c:2085 src/main/envir.c:2092 src/main/envir.c:2103
-#: src/main/envir.c:2335 src/main/envir.c:2456 src/main/envir.c:2753
-#: src/main/envir.c:3007 src/main/envir.c:3021 src/main/envir.c:3028
-#: src/main/envir.c:3044 src/main/envir.c:3627 src/main/errors.c:1044
-#: src/main/eval.c:396 src/main/eval.c:405 src/main/eval.c:408
-#: src/main/grep.c:780 src/main/grep.c:785 src/main/grep.c:1079
-#: src/main/grep.c:1081 src/main/grep.c:1083 src/main/grep.c:1528
-#: src/main/grep.c:1532 src/main/grep.c:1537 src/main/grep.c:2345
-#: src/main/grep.c:2350 src/main/grep.c:2649 src/main/grep.c:2654
-#: src/main/memory.c:3799 src/main/paste.c:96 src/main/paste.c:392
-#: src/main/paste.c:399 src/main/paste.c:406 src/main/paste.c:411
-#: src/main/paste.c:416 src/main/paste.c:421 src/main/paste.c:424
-#: src/main/paste.c:432 src/main/paste.c:599 src/main/paste.c:604
-#: src/main/platform.c:306 src/main/platform.c:308 src/main/platform.c:310
-#: src/main/platform.c:326 src/main/platform.c:337 src/main/platform.c:390
-#: src/main/platform.c:392 src/main/platform.c:705 src/main/platform.c:707
-#: src/main/platform.c:796 src/main/platform.c:1134 src/main/platform.c:1140
-#: src/main/platform.c:1143 src/main/platform.c:1146 src/main/platform.c:1149
-#: src/main/platform.c:1152 src/main/platform.c:1155 src/main/platform.c:1158
-#: src/main/platform.c:1255 src/main/platform.c:1258 src/main/platform.c:1261
-#: src/main/platform.c:1299 src/main/platform.c:1357 src/main/platform.c:1360
-#: src/main/platform.c:1569 src/main/platform.c:1572 src/main/platform.c:1575
-#: src/main/platform.c:1611 src/main/platform.c:1614 src/main/platform.c:1617
-#: src/main/platform.c:1700 src/main/platform.c:1716 src/main/platform.c:1749
-#: src/main/platform.c:1751 src/main/platform.c:1822 src/main/platform.c:1906
-#: src/main/platform.c:2199 src/main/platform.c:2259 src/main/platform.c:2436
-#: src/main/platform.c:2439 src/main/platform.c:2442 src/main/platform.c:2445
-#: src/main/platform.c:2448 src/main/platform.c:2451 src/main/platform.c:2656
-#: src/main/platform.c:2659 src/main/platform.c:2662 src/main/platform.c:2665
-#: src/main/platform.c:2668 src/main/platform.c:2671 src/main/platform.c:2749
-#: src/main/platform.c:2757 src/main/platform.c:2793 src/main/platform.c:2843
-#: src/main/print.c:242 src/main/print.c:248 src/main/print.c:270
-#: src/main/print.c:276 src/main/print.c:283 src/main/random.c:467
-#: src/main/random.c:471 src/main/random.c:478 src/main/random.c:506
-#: src/main/saveload.c:1950 src/main/saveload.c:1953 src/main/saveload.c:1956
-#: src/main/saveload.c:2072 src/main/saveload.c:2252 src/main/saveload.c:2257
-#: src/main/saveload.c:2260 src/main/saveload.c:2364 src/main/scan.c:684
-#: src/main/scan.c:853 src/main/scan.c:867 src/main/scan.c:871
-#: src/main/scan.c:873 src/main/scan.c:884 src/main/scan.c:911
-#: src/main/scan.c:914 src/main/scan.c:917 src/main/scan.c:972
-#: src/main/seq.c:622 src/main/seq.c:627 src/main/seq.c:635 src/main/seq.c:666
-#: src/main/seq.c:670 src/main/seq.c:676 src/main/seq.c:684
-#: src/main/sort.c:175 src/main/sysutils.c:591 src/main/sysutils.c:595
-#: src/main/sysutils.c:599 src/main/sysutils.c:605 src/main/sysutils.c:609
-#: src/main/sysutils.c:1781 src/main/sysutils.c:1785 src/main/unique.c:969
-#: src/main/unique.c:1277 src/main/unique.c:1281 src/main/unique.c:1291
-#: src/main/unique.c:1685 src/main/util.c:636 src/main/util.c:639
-#: src/main/util.c:1375 src/main/util.c:1389 src/main/util.c:1971
-#: src/main/util.c:2192 src/main/util.c:2193 src/main/util.c:2194
-#: src/main/util.c:2211 src/main/util.c:2235 src/main/util.c:2239
-#: src/main/util.c:2241 src/main/util.c:2266 src/main/util.c:2268
-#: src/main/util.c:2270 src/main/util.c:2273 src/main/util.c:2276
-#: src/main/util.c:2280 src/main/util.c:2282 src/modules/X11/devX11.c:3241
+#: src/main/character.c:167 src/main/character.c:1086 src/main/character.c:1090
+#: src/main/character.c:1325 src/main/character.c:1329
+#: src/main/character.c:1390 src/main/character.c:1393
+#: src/main/connections.c:1208 src/main/connections.c:1214
+#: src/main/connections.c:1217 src/main/connections.c:1221
+#: src/main/connections.c:1367 src/main/connections.c:1383
+#: src/main/connections.c:1388 src/main/connections.c:1989
+#: src/main/connections.c:1995 src/main/connections.c:1999
+#: src/main/connections.c:2003 src/main/connections.c:2008
+#: src/main/connections.c:2659 src/main/connections.c:2664
+#: src/main/connections.c:2667 src/main/connections.c:2670
+#: src/main/connections.c:3053 src/main/connections.c:3058
+#: src/main/connections.c:3064 src/main/connections.c:3067
+#: src/main/connections.c:3071 src/main/connections.c:3086
+#: src/main/connections.c:3136 src/main/connections.c:3141
+#: src/main/connections.c:3145 src/main/connections.c:3149
+#: src/main/connections.c:3153 src/main/connections.c:3159
+#: src/main/connections.c:3207 src/main/connections.c:3213
+#: src/main/connections.c:3217 src/main/connections.c:3268
+#: src/main/connections.c:3271 src/main/connections.c:3545
+#: src/main/connections.c:3548 src/main/connections.c:3551
+#: src/main/connections.c:3557 src/main/connections.c:3664
+#: src/main/connections.c:3670 src/main/connections.c:3673
+#: src/main/connections.c:3825 src/main/connections.c:3828
+#: src/main/connections.c:3832 src/main/connections.c:3835
+#: src/main/connections.c:3956 src/main/connections.c:4078
+#: src/main/connections.c:4081 src/main/connections.c:4418
+#: src/main/connections.c:4443 src/main/connections.c:4478
+#: src/main/connections.c:4493 src/main/connections.c:4501
+#: src/main/connections.c:4527 src/main/connections.c:4673
+#: src/main/connections.c:4677 src/main/connections.c:4805
+#: src/main/connections.c:4807 src/main/connections.c:4809
+#: src/main/connections.c:4837 src/main/connections.c:4975
+#: src/main/connections.c:5004 src/main/connections.c:5008
+#: src/main/connections.c:5012 src/main/connections.c:5016
+#: src/main/context.c:611 src/main/context.c:620 src/main/context.c:624
+#: src/main/datetime.c:785 src/main/datetime.c:875 src/main/datetime.c:877
+#: src/main/datetime.c:881 src/main/datetime.c:1042 src/main/datetime.c:1044
+#: src/main/datetime.c:1249 src/main/debug.c:241 src/main/deparse.c:407
+#: src/main/dotcode.c:496 src/main/dotcode.c:500 src/main/dotcode.c:505
+#: src/main/dounzip.c:323 src/main/dounzip.c:330 src/main/dounzip.c:340
+#: src/main/dounzip.c:345 src/main/dounzip.c:349 src/main/dounzip.c:353
+#: src/main/envir.c:1750 src/main/envir.c:1753 src/main/envir.c:1874
+#: src/main/envir.c:1879 src/main/envir.c:1943 src/main/envir.c:1959
+#: src/main/envir.c:1965 src/main/envir.c:2077 src/main/envir.c:2085
+#: src/main/envir.c:2092 src/main/envir.c:2103 src/main/envir.c:2335
+#: src/main/envir.c:2456 src/main/envir.c:2753 src/main/envir.c:3007
+#: src/main/envir.c:3021 src/main/envir.c:3028 src/main/envir.c:3044
+#: src/main/envir.c:3627 src/main/errors.c:1044 src/main/eval.c:396
+#: src/main/eval.c:405 src/main/eval.c:408 src/main/grep.c:780
+#: src/main/grep.c:785 src/main/grep.c:1079 src/main/grep.c:1081
+#: src/main/grep.c:1083 src/main/grep.c:1528 src/main/grep.c:1532
+#: src/main/grep.c:1537 src/main/grep.c:2345 src/main/grep.c:2350
+#: src/main/grep.c:2649 src/main/grep.c:2654 src/main/memory.c:3799
+#: src/main/paste.c:96 src/main/paste.c:392 src/main/paste.c:399
+#: src/main/paste.c:406 src/main/paste.c:411 src/main/paste.c:416
+#: src/main/paste.c:421 src/main/paste.c:424 src/main/paste.c:432
+#: src/main/paste.c:599 src/main/paste.c:604 src/main/platform.c:306
+#: src/main/platform.c:308 src/main/platform.c:310 src/main/platform.c:326
+#: src/main/platform.c:337 src/main/platform.c:390 src/main/platform.c:392
+#: src/main/platform.c:705 src/main/platform.c:707 src/main/platform.c:796
+#: src/main/platform.c:1134 src/main/platform.c:1140 src/main/platform.c:1143
+#: src/main/platform.c:1146 src/main/platform.c:1149 src/main/platform.c:1152
+#: src/main/platform.c:1155 src/main/platform.c:1158 src/main/platform.c:1255
+#: src/main/platform.c:1258 src/main/platform.c:1261 src/main/platform.c:1299
+#: src/main/platform.c:1357 src/main/platform.c:1360 src/main/platform.c:1569
+#: src/main/platform.c:1572 src/main/platform.c:1575 src/main/platform.c:1611
+#: src/main/platform.c:1614 src/main/platform.c:1617 src/main/platform.c:1700
+#: src/main/platform.c:1716 src/main/platform.c:1749 src/main/platform.c:1751
+#: src/main/platform.c:1822 src/main/platform.c:1906 src/main/platform.c:2199
+#: src/main/platform.c:2259 src/main/platform.c:2436 src/main/platform.c:2439
+#: src/main/platform.c:2442 src/main/platform.c:2445 src/main/platform.c:2448
+#: src/main/platform.c:2451 src/main/platform.c:2656 src/main/platform.c:2659
+#: src/main/platform.c:2662 src/main/platform.c:2665 src/main/platform.c:2668
+#: src/main/platform.c:2671 src/main/platform.c:2749 src/main/platform.c:2757
+#: src/main/platform.c:2793 src/main/platform.c:2843 src/main/print.c:242
+#: src/main/print.c:248 src/main/print.c:270 src/main/print.c:276
+#: src/main/print.c:283 src/main/random.c:467 src/main/random.c:471
+#: src/main/random.c:478 src/main/random.c:506 src/main/saveload.c:1950
+#: src/main/saveload.c:1953 src/main/saveload.c:1956 src/main/saveload.c:2072
+#: src/main/saveload.c:2252 src/main/saveload.c:2257 src/main/saveload.c:2260
+#: src/main/saveload.c:2364 src/main/scan.c:684 src/main/scan.c:853
+#: src/main/scan.c:867 src/main/scan.c:871 src/main/scan.c:873
+#: src/main/scan.c:884 src/main/scan.c:911 src/main/scan.c:914
+#: src/main/scan.c:917 src/main/scan.c:972 src/main/seq.c:622
+#: src/main/seq.c:627 src/main/seq.c:635 src/main/seq.c:666 src/main/seq.c:670
+#: src/main/seq.c:676 src/main/seq.c:684 src/main/sort.c:175
+#: src/main/sysutils.c:591 src/main/sysutils.c:595 src/main/sysutils.c:599
+#: src/main/sysutils.c:605 src/main/sysutils.c:609 src/main/sysutils.c:1781
+#: src/main/sysutils.c:1785 src/main/unique.c:969 src/main/unique.c:1277
+#: src/main/unique.c:1281 src/main/unique.c:1291 src/main/unique.c:1685
+#: src/main/util.c:636 src/main/util.c:639 src/main/util.c:1375
+#: src/main/util.c:1389 src/main/util.c:1971 src/main/util.c:2192
+#: src/main/util.c:2193 src/main/util.c:2194 src/main/util.c:2211
+#: src/main/util.c:2235 src/main/util.c:2239 src/main/util.c:2241
+#: src/main/util.c:2266 src/main/util.c:2268 src/main/util.c:2270
+#: src/main/util.c:2273 src/main/util.c:2276 src/main/util.c:2280
+#: src/main/util.c:2282 src/modules/X11/devX11.c:3241
 #: src/modules/X11/devX11.c:3244 src/modules/X11/devX11.c:3247
 #: src/modules/X11/devX11.c:3271 src/modules/internet/internet.c:453
 #: src/modules/internet/internet.c:459 src/modules/internet/internet.c:465
@@ -747,24 +747,23 @@ msgid "'FUN.VALUE' must be a vector"
 msgstr ""
 
 #: src/main/apply.c:100 src/main/array.c:480 src/main/character.c:644
-#: src/main/character.c:1453 src/main/connections.c:3553
-#: src/main/context.c:657 src/main/context.c:676 src/main/datetime.c:685
-#: src/main/datetime.c:787 src/main/datetime.c:1046 src/main/dotcode.c:222
-#: src/main/errors.c:943 src/main/errors.c:976 src/main/errors.c:1079
-#: src/main/errors.c:1104 src/main/errors.c:1109 src/main/errors.c:1382
-#: src/main/identical.c:66 src/main/identical.c:67 src/main/identical.c:68
-#: src/main/identical.c:69 src/main/identical.c:70 src/main/platform.c:3083
-#: src/main/seq.c:191 src/main/seq.c:347 src/main/seq.c:352 src/main/seq.c:356
-#: src/main/seq.c:397 src/main/seq.c:401 src/main/seq.c:405
-#: src/main/sort.c:1224 src/main/sort.c:1307 src/main/sort.c:1311
-#: src/main/sort.c:1318 src/main/sort.c:1393 src/main/source.c:225
-#: src/main/summary.c:901 src/main/sysutils.c:250 src/main/util.c:1047
-#: src/main/util.c:1052 src/main/util.c:1059 src/main/util.c:1062
-#: src/main/util.c:2031 src/modules/X11/devX11.c:3142
-#: src/modules/X11/devX11.c:3169 src/modules/X11/devX11.c:3174
-#: src/modules/X11/devX11.c:3179 src/modules/X11/devX11.c:3189
-#: src/modules/X11/devX11.c:3194 src/modules/X11/devX11.c:3198
-#: src/modules/X11/devX11.c:3202
+#: src/main/character.c:1453 src/main/connections.c:3553 src/main/context.c:657
+#: src/main/context.c:676 src/main/datetime.c:685 src/main/datetime.c:787
+#: src/main/datetime.c:1046 src/main/dotcode.c:222 src/main/errors.c:943
+#: src/main/errors.c:976 src/main/errors.c:1079 src/main/errors.c:1104
+#: src/main/errors.c:1109 src/main/errors.c:1382 src/main/identical.c:66
+#: src/main/identical.c:67 src/main/identical.c:68 src/main/identical.c:69
+#: src/main/identical.c:70 src/main/platform.c:3083 src/main/seq.c:191
+#: src/main/seq.c:347 src/main/seq.c:352 src/main/seq.c:356 src/main/seq.c:397
+#: src/main/seq.c:401 src/main/seq.c:405 src/main/sort.c:1224
+#: src/main/sort.c:1307 src/main/sort.c:1311 src/main/sort.c:1318
+#: src/main/sort.c:1393 src/main/source.c:225 src/main/summary.c:901
+#: src/main/sysutils.c:250 src/main/util.c:1047 src/main/util.c:1052
+#: src/main/util.c:1059 src/main/util.c:1062 src/main/util.c:2031
+#: src/modules/X11/devX11.c:3142 src/modules/X11/devX11.c:3169
+#: src/modules/X11/devX11.c:3174 src/modules/X11/devX11.c:3179
+#: src/modules/X11/devX11.c:3189 src/modules/X11/devX11.c:3194
+#: src/modules/X11/devX11.c:3198 src/modules/X11/devX11.c:3202
 #, c-format
 msgid "invalid '%s' value"
 msgstr ""
@@ -2537,8 +2536,7 @@ msgid "symbol '%s' is too long"
 msgstr ""
 
 #: src/main/dotcode.c:174
-msgid ""
-"first argument must be a string (of length 1) or native symbol reference"
+msgid "first argument must be a string (of length 1) or native symbol reference"
 msgstr ""
 
 #: src/main/dotcode.c:224 src/main/dotcode.c:1240
@@ -4377,8 +4375,8 @@ msgstr ""
 #: src/main/objects.c:1214
 #, c-format
 msgid ""
-"invalid primitive methods code (\"%s\"): should be \"clear\", \"reset\", "
-"\"set\", or \"suppress\""
+"invalid primitive methods code (\"%s\"): should be \"clear\", \"reset\", \"set"
+"\", or \"suppress\""
 msgstr ""
 
 #: src/main/objects.c:1222
@@ -4944,8 +4942,7 @@ msgstr ""
 #: src/main/saveload.c:1386 src/main/saveload.c:1430 src/main/saveload.c:1498
 #: src/main/saveload.c:1507 src/main/serialize.c:354 src/main/serialize.c:361
 #: src/main/serialize.c:374 src/main/serialize.c:378 src/main/serialize.c:405
-#: src/main/serialize.c:421 src/main/serialize.c:2429
-#: src/main/serialize.c:2437
+#: src/main/serialize.c:421 src/main/serialize.c:2429 src/main/serialize.c:2437
 msgid "read error"
 msgstr ""
 
@@ -5087,9 +5084,9 @@ msgstr ""
 msgid "an xdr complex data read error occurred"
 msgstr ""
 
-#: src/main/saveload.c:1783 src/main/serialize.c:1997
-#: src/main/serialize.c:2614 src/modules/internet/internet.c:513
-#: src/modules/internet/internet.c:590 src/modules/internet/internet.c:701
+#: src/main/saveload.c:1783 src/main/serialize.c:1997 src/main/serialize.c:2614
+#: src/modules/internet/internet.c:513 src/modules/internet/internet.c:590
+#: src/modules/internet/internet.c:701
 msgid "write failed"
 msgstr ""
 
@@ -5154,9 +5151,8 @@ msgstr ""
 msgid "cannot save XDR format to a text-mode connection"
 msgstr ""
 
-#: src/main/saveload.c:2296 src/main/serialize.c:2105
-#: src/main/serialize.c:2119 src/main/serialize.c:2303
-#: src/main/serialize.c:2325
+#: src/main/saveload.c:2296 src/main/serialize.c:2105 src/main/serialize.c:2119
+#: src/main/serialize.c:2303 src/main/serialize.c:2325
 msgid "error writing to connection"
 msgstr ""
 
@@ -5390,8 +5386,7 @@ msgstr ""
 #: src/main/serialize.c:1921
 #, c-format
 msgid ""
-"cannot read unreleased workspace version %d written by experimental R %d.%d."
-"%d"
+"cannot read unreleased workspace version %d written by experimental R %d.%d.%d"
 msgstr ""
 
 #: src/main/serialize.c:1925
@@ -6318,8 +6313,7 @@ msgstr ""
 
 #: src/modules/X11/devX11.c:1130
 msgid ""
-"semi-transparency is not supported on this device: reported only once per "
-"page"
+"semi-transparency is not supported on this device: reported only once per page"
 msgstr ""
 
 #: src/modules/X11/devX11.c:1254
@@ -7050,8 +7044,7 @@ msgstr ""
 
 #: src/unix/dynload.c:144
 msgid ""
-"Explicit global dynamic loading not supported on this platform. Using "
-"default."
+"Explicit global dynamic loading not supported on this platform. Using default."
 msgstr ""
 
 #: src/unix/dynload.c:145
