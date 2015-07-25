@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mgcv 1.8-5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-02 20:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: magic.c:444
+msgid "magic requires smoothing parameter starting values if L supplied"
+msgstr ""
+
+#: magic.c:562
+msgid "magic, the gcv/ubre optimizer, failed to converge after 400 iterations."
+msgstr ""
+
+#: matrix.c:80
+msgid "Failed to initialize memory for matrix."
+msgstr ""
+
+#: matrix.c:142 matrix.c:204
+msgid "An out of bound write to matrix has occurred!"
+msgstr ""
+
+#: matrix.c:148
+msgid "INTEGRITY PROBLEM in the extant matrix list."
+msgstr ""
+
+#: matrix.c:180
+msgid "You are trying to check matrix integrity without defining RANGECHECK."
+msgstr ""
+
+#: matrix.c:242
+msgid "Target matrix too small in mcopy"
+msgstr ""
+
+#: matrix.c:262 matrix.c:270 matrix.c:283 matrix.c:291
+msgid "Incompatible matrices in matmult."
+msgstr ""
+
+#: matrix.c:378
+msgid "Attempt to invert() non-square matrix"
+msgstr ""
+
+#: matrix.c:400
+msgid "Singular Matrix passed to invert()"
+msgstr ""
+
+#: matrix.c:1320
+msgid "svd() not converged"
+msgstr ""
+
+#: matrix.c:1396
+#, c-format
+msgid "svdroot matrix not +ve semi def. %g"
+msgstr ""
+
+#: matrix.c:1424
+msgid "Sort failed"
+msgstr ""
+
+#: qp.c:58
+msgid "ERROR in addconQT."
+msgstr ""
+
+#: qp.c:464
+msgid "QPCLS - Rank deficiency in model"
+msgstr ""
+
+#: tprs.c:40
+msgid "You must have 2m>d for a thin plate spline."
+msgstr ""
+
+#: tprs.c:375 tprs.c:383
+msgid ""
+"A term has fewer unique covariate combinations than specified maximum "
+"degrees of freedom"
+msgstr ""
