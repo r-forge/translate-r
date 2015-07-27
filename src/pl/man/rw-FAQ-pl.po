@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-27 11:14-0600\n"
+"POT-Creation-Date: 2015-07-27 11:37-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: rw-FAQ.texi:26
 #, no-wrap
 msgid "R for Windows FAQ"
-msgstr ""
+msgstr "R dla Windows FAQ (Polish)"
 
 #. type: Plain text
 #: rw-FAQ.texi:11

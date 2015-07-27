@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-27 11:12-0600\n"
+"POT-Creation-Date: 2015-07-27 11:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: R-admin.texi:50
 #, no-wrap
 msgid "R Installation and Administration"
-msgstr ""
+msgstr "Instalacja R i Administracji (Polish)"
 
 #. type: dircategory
 #: R-admin.texi:11

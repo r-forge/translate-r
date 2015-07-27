@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-27 11:11-0600\n"
+"POT-Creation-Date: 2015-07-27 11:36-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: R-intro.texi:70
 #, no-wrap
 msgid "An Introduction to R"
-msgstr ""
+msgstr "Wprowadzenie do badań (Polish)"
 
 #. type: dircategory
 #: R-intro.texi:14
