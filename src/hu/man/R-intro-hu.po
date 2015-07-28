@@ -24,7 +24,7 @@ msgstr ""
 #: R-intro.texi:70
 #, no-wrap
 msgid "An Introduction to R"
-msgstr ""
+msgstr "Bevezetés a R (Hungarian)"
 
 #. type: dircategory
 #: R-intro.texi:14
