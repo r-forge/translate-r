@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<!-- This manual is for R, version Revision: 68701 (3.3.0).
+<!-- This manual is for R, version (3.3.0).
 
 Copyright (C) 2001-2014 R Core Team
 
@@ -332,7 +332,7 @@ p {
 
 <p>This is a guide to installation and administration for R.
 </p>
-<p>This manual is for R, version Revision: 68701 (3.3.0).
+<p>This manual is for R, version (3.3.0).
 </p>
 <p>Copyright &copy; 2001&ndash;2014 R Core Team
 </p>
@@ -909,13 +909,13 @@ on the <code>make install</code> command line (at least for <acronym>GNU</acrony
 and <samp>share</samp> directories to somewhere other than <code>libdir</code>.  The C
 header files can be installed to the value of <code>rincludedir</code>: note that
 as the headers are not installed into a subdirectory you probably want
-something like <code>rincludedir=/usr/local/include/R-Revision: 68701 (3.3.0)</code>.
+something like <code>rincludedir=/usr/local/include/R-(3.3.0)</code>.
 </p>
 <p>If you want the R home to be something other than <samp><var>libdir</var>/R</samp>,
 use <samp>rhome</samp>: for example
 </p>
 <div class="example">
-<pre class="example">make install rhome=/usr/local/lib64/R-Revision: 68701 (3.3.0)
+<pre class="example">make install rhome=/usr/local/lib64/R-(3.3.0)
 </pre></div>
 
 <p>will use a version-specific R home on a non-Debian Linux 64-bit system.
@@ -1259,7 +1259,7 @@ for a base distribution and a large number of add-on packages from
 <p>Your file system must allow long file names (as is likely except perhaps for
 some network-mounted systems).
 </p>
-<p>Installation is <em>via</em> the installer <samp>Revision: 68701 (3.3.0)-win.exe</samp>.
+<p>Installation is <em>via</em> the installer <samp>(3.3.0)-win.exe</samp>.
 Just double-click on the icon and follow the instructions.  When installing
 on a 64-bit version of Windows the options will include 32- or 64-bit
 versions of R (and the default is to install both).  You can uninstall R
@@ -1327,12 +1327,12 @@ directory name <em>should not contain spaces</em>. We will call this directory
 
 <p>You need to collect the following sets of files:
 </p><ul>
-<li> Get the R source code tarball <samp>R-Revision: 68701 (3.3.0).tar.gz</samp> from
+<li> Get the R source code tarball <samp>R-(3.3.0).tar.gz</samp> from
 <acronym>CRAN</acronym>.  Open a command window (or another shell) at directory
 <var>R_HOME</var>, and run
 
 <div class="example">
-<pre class="example">tar -xf R-Revision: 68701 (3.3.0).tar.gz
+<pre class="example">tar -xf R-(3.3.0).tar.gz
 </pre></div>
 
 <p>to create the source tree in <var>R_HOME</var>.  <strong>Beware</strong>: do use
@@ -1341,7 +1341,7 @@ you are using an account with administrative privileges you may get a lot of
 messages which can be suppressed by
 </p>
 <div class="example">
-<pre class="example">tar --no-same-owner -xf R-Revision: 68701 (3.3.0).tar.gz
+<pre class="example">tar --no-same-owner -xf R-(3.3.0).tar.gz
 </pre></div>
 
 <a name="index-TAR_005fOPTIONS-1"></a>
@@ -1650,7 +1650,7 @@ installation.  Then (after having customized file <samp>MkRules</samp>, possibly
 (in double quotes if it contains spaces or backslashes).
 </p>
 <p>Both methods create an executable with a standard name such as
-<samp>Revision: 68701 (3.3.0)-win.exe</samp>, so please rename it to indicate that it is
+<samp>(3.3.0)-win.exe</samp>, so please rename it to indicate that it is
 customized.  If you intend to <em>distribute</em> a customized installer
 please do check that license requirements are met &ndash; note that the installer
 will state that the contents are distributed under GPL and this has a
@@ -1710,21 +1710,21 @@ make msi
 </pre></div>
 
 <p>which will result in a file with a name like
-<samp>Revision: 68701 (3.3.0)-win32.msi</samp>.  This can be double-clicked to be
+<samp>(3.3.0)-win32.msi</samp>.  This can be double-clicked to be
 installed, but those who need it will know what to do with it (usually by
 running <code>msiexec /i</code> with additional options).  Properties that
 users might want to set from the <code>msiexec</code> command line include
 &lsquo;<samp>ALLUSERS</samp>&rsquo;, &lsquo;<samp>INSTALLDIR</samp>&rsquo; (something like <samp>c:\Program
-Files\R\Revision: 68701 (3.3.0)</samp>) and &lsquo;<samp>RMENU</samp>&rsquo; (the path to the &lsquo;<samp>R</samp>&rsquo;
+Files\R\(3.3.0)</samp>) and &lsquo;<samp>RMENU</samp>&rsquo; (the path to the &lsquo;<samp>R</samp>&rsquo;
 folder on the start menu) and &lsquo;<samp>STARTDIR</samp>&rsquo; (the starting directory for
 R shortcuts, defaulting to something like
 <samp>c:\Users\name\Documents\R</samp>).
 </p>
 <p>The MSI installer can be built both from a 32-bit build of R
-(<samp>Revision: 68701 (3.3.0)-win32.msi</samp>) and from a 64-bit build of R
-(<samp>Revision: 68701 (3.3.0)-win64.msi</samp>, optionally including 32-bit files by
+(<samp>(3.3.0)-win32.msi</samp>) and from a 64-bit build of R
+(<samp>(3.3.0)-win64.msi</samp>, optionally including 32-bit files by
 setting the macro <code>HOME32</code>, when the name is
-<samp>Revision: 68701 (3.3.0)-win.msi</samp>).  Unlike the main installer, a 64-bit MSI
+<samp>(3.3.0)-win.msi</samp>).  Unlike the main installer, a 64-bit MSI
 installer can only be run on 64-bit Windows.
 </p>
 <p>Thanks to David del Campo (Dept of Statistics, University of Oxford)  for
@@ -1791,7 +1791,7 @@ line endings.
 
 
 <p>The front page of a <acronym>CRAN</acronym> site has a link &lsquo;Download R for OS
-X&rsquo;. Click on that, then download the file <samp>R-Revision: 68701 (3.3.0).pkg</samp> and
+X&rsquo;. Click on that, then download the file <samp>R-(3.3.0).pkg</samp> and
 install it. This runs on OS X 10.9 and later (Mavericks, Yosemite, El
 Capitan, &hellip;).
 </p>
@@ -5565,7 +5565,7 @@ LaTeX packages on first use.
 <a name="The-Inno-Setup-installer-1"></a>
 <h3 class="section">D.2 The Inno Setup installer</h3>
 
-<p>To make the installer package (<samp>Revision: 68701 (3.3.0)-win.exe</samp>) we
+<p>To make the installer package (<samp>(3.3.0)-win.exe</samp>) we
 currently require the Unicode version of Inno Setup 5.3.7 or later from
 <a href="http://jrsoftware.org/">http://jrsoftware.org/</a>. This is <em>not</em> included in
 <samp>Rtools*.exe</samp>.

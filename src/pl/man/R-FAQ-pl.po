@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-27 11:37-0600\n"
+"POT-Creation-Date: 2015-07-28 08:34-0600\n"
 "PO-Revision-Date: 2015-07-28 15:24+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -21,7 +21,8 @@ msgstr ""
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: top
-#: R-FAQ.texi:5 R-FAQ.texi:90
+#: R-FAQ.texi:5
+#: R-FAQ.texi:90
 #, no-wrap
 msgid "R FAQ"
 msgstr "FAQ dla R"
@@ -122,16 +123,31 @@ msgid "@html <h2>Frequently Asked Questions on R</h2> <h3 style=\"text-align: ce
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:89 R-FAQ.texi:106 R-FAQ.texi:214 R-FAQ.texi:908 R-FAQ.texi:1545
-#: R-FAQ.texi:1681 R-FAQ.texi:2065 R-FAQ.texi:2189 R-FAQ.texi:3408
-#: R-FAQ.texi:3501 R-FAQ.texi:3645
+#: R-FAQ.texi:89
+#: R-FAQ.texi:106
+#: R-FAQ.texi:214
+#: R-FAQ.texi:908
+#: R-FAQ.texi:1545
+#: R-FAQ.texi:1681
+#: R-FAQ.texi:2065
+#: R-FAQ.texi:2189
+#: R-FAQ.texi:3408
+#: R-FAQ.texi:3501
+#: R-FAQ.texi:3645
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:89 R-FAQ.texi:106 R-FAQ.texi:107 R-FAQ.texi:120 R-FAQ.texi:144
-#: R-FAQ.texi:168 R-FAQ.texi:187 R-FAQ.texi:193 R-FAQ.texi:214
+#: R-FAQ.texi:89
+#: R-FAQ.texi:106
+#: R-FAQ.texi:107
+#: R-FAQ.texi:120
+#: R-FAQ.texi:144
+#: R-FAQ.texi:168
+#: R-FAQ.texi:187
+#: R-FAQ.texi:193
+#: R-FAQ.texi:214
 #, no-wrap
 msgid "Introduction"
 msgstr ""
@@ -188,16 +204,33 @@ msgid "R Bugs::"
 msgstr ""
 
 #. type: chapter
-#: R-FAQ.texi:104 R-FAQ.texi:3501 R-FAQ.texi:3645 R-FAQ.texi:3646
+#: R-FAQ.texi:104
+#: R-FAQ.texi:3501
+#: R-FAQ.texi:3645
+#: R-FAQ.texi:3646
 #, no-wrap
 msgid "Acknowledgments"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:106 R-FAQ.texi:214 R-FAQ.texi:215 R-FAQ.texi:234 R-FAQ.texi:283
-#: R-FAQ.texi:315 R-FAQ.texi:325 R-FAQ.texi:368 R-FAQ.texi:489 R-FAQ.texi:566
-#: R-FAQ.texi:662 R-FAQ.texi:684 R-FAQ.texi:759 R-FAQ.texi:827 R-FAQ.texi:871
-#: R-FAQ.texi:881 R-FAQ.texi:893 R-FAQ.texi:908
+#: R-FAQ.texi:106
+#: R-FAQ.texi:214
+#: R-FAQ.texi:215
+#: R-FAQ.texi:234
+#: R-FAQ.texi:283
+#: R-FAQ.texi:315
+#: R-FAQ.texi:325
+#: R-FAQ.texi:368
+#: R-FAQ.texi:489
+#: R-FAQ.texi:566
+#: R-FAQ.texi:662
+#: R-FAQ.texi:684
+#: R-FAQ.texi:759
+#: R-FAQ.texi:827
+#: R-FAQ.texi:871
+#: R-FAQ.texi:881
+#: R-FAQ.texi:893
+#: R-FAQ.texi:908
 #, no-wrap
 msgid "R Basics"
 msgstr ""
@@ -228,19 +261,27 @@ msgid "Notation::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:118 R-FAQ.texi:187 R-FAQ.texi:193 R-FAQ.texi:194
+#: R-FAQ.texi:118
+#: R-FAQ.texi:187
+#: R-FAQ.texi:193
+#: R-FAQ.texi:194
 #, no-wrap
 msgid "Feedback"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:120 R-FAQ.texi:121 R-FAQ.texi:144
+#: R-FAQ.texi:120
+#: R-FAQ.texi:121
+#: R-FAQ.texi:144
 #, no-wrap
 msgid "Legalese"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:120 R-FAQ.texi:144 R-FAQ.texi:145 R-FAQ.texi:168
+#: R-FAQ.texi:120
+#: R-FAQ.texi:144
+#: R-FAQ.texi:145
+#: R-FAQ.texi:168
 #, no-wrap
 msgid "Obtaining this document"
 msgstr ""
@@ -272,7 +313,10 @@ msgid "@url{http://www.R-project.org/Licenses/}\n"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:144 R-FAQ.texi:168 R-FAQ.texi:169 R-FAQ.texi:187
+#: R-FAQ.texi:144
+#: R-FAQ.texi:168
+#: R-FAQ.texi:169
+#: R-FAQ.texi:187
 #, no-wrap
 msgid "Citing this document"
 msgstr ""
@@ -299,7 +343,10 @@ msgid "You can also obtain the R @acronym{FAQ} from the @file{doc/FAQ} subdirect
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:168 R-FAQ.texi:187 R-FAQ.texi:188 R-FAQ.texi:193
+#: R-FAQ.texi:168
+#: R-FAQ.texi:187
+#: R-FAQ.texi:188
+#: R-FAQ.texi:193
 #, no-wrap
 msgid "Notation"
 msgstr ""
@@ -337,8 +384,15 @@ msgid "In particular, note that I do not have access to Windows or Mac systems. 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:214 R-FAQ.texi:908 R-FAQ.texi:909 R-FAQ.texi:919 R-FAQ.texi:982
-#: R-FAQ.texi:989 R-FAQ.texi:1499 R-FAQ.texi:1518 R-FAQ.texi:1545
+#: R-FAQ.texi:214
+#: R-FAQ.texi:908
+#: R-FAQ.texi:909
+#: R-FAQ.texi:919
+#: R-FAQ.texi:982
+#: R-FAQ.texi:989
+#: R-FAQ.texi:1499
+#: R-FAQ.texi:1518
+#: R-FAQ.texi:1545
 #, no-wrap
 msgid "R and S"
 msgstr ""
@@ -409,19 +463,27 @@ msgid "What is the R Foundation?::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:232 R-FAQ.texi:881 R-FAQ.texi:893 R-FAQ.texi:894
+#: R-FAQ.texi:232
+#: R-FAQ.texi:881
+#: R-FAQ.texi:893
+#: R-FAQ.texi:894
 #, no-wrap
 msgid "What is R-Forge?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:234 R-FAQ.texi:235 R-FAQ.texi:283
+#: R-FAQ.texi:234
+#: R-FAQ.texi:235
+#: R-FAQ.texi:283
 #, no-wrap
 msgid "What is R?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:234 R-FAQ.texi:283 R-FAQ.texi:284 R-FAQ.texi:315
+#: R-FAQ.texi:234
+#: R-FAQ.texi:283
+#: R-FAQ.texi:284
+#: R-FAQ.texi:315
 #, no-wrap
 msgid "What machines does R run on?"
 msgstr ""
@@ -457,7 +519,10 @@ msgid "R has a home page at @url{http://www.R-project.org/}.  It is @url{http://
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:283 R-FAQ.texi:315 R-FAQ.texi:316 R-FAQ.texi:325
+#: R-FAQ.texi:283
+#: R-FAQ.texi:315
+#: R-FAQ.texi:316
+#: R-FAQ.texi:325
 #, no-wrap
 msgid "What is the current version of R?"
 msgstr ""
@@ -478,7 +543,10 @@ msgid "If you know about other platforms, please drop us a note."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:315 R-FAQ.texi:325 R-FAQ.texi:326 R-FAQ.texi:368
+#: R-FAQ.texi:315
+#: R-FAQ.texi:325
+#: R-FAQ.texi:326
+#: R-FAQ.texi:368
 #, no-wrap
 msgid "How can R be obtained?"
 msgstr ""
@@ -489,8 +557,13 @@ msgid "The current released version is @value{REL_VERSION}.  Based on this `majo
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:325 R-FAQ.texi:368 R-FAQ.texi:369 R-FAQ.texi:377 R-FAQ.texi:457
-#: R-FAQ.texi:474 R-FAQ.texi:489
+#: R-FAQ.texi:325
+#: R-FAQ.texi:368
+#: R-FAQ.texi:369
+#: R-FAQ.texi:377
+#: R-FAQ.texi:457
+#: R-FAQ.texi:474
+#: R-FAQ.texi:489
 #, no-wrap
 msgid "How can R be installed?"
 msgstr ""
@@ -511,7 +584,10 @@ msgid "Tarballs with daily snapshots of the r-devel and r-patched development ve
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:368 R-FAQ.texi:489 R-FAQ.texi:490 R-FAQ.texi:566
+#: R-FAQ.texi:368
+#: R-FAQ.texi:489
+#: R-FAQ.texi:490
+#: R-FAQ.texi:566
 #, no-wrap
 msgid "Are there Unix-like binaries for R?"
 msgstr ""
@@ -527,19 +603,27 @@ msgid "How can R be installed (Windows)::"
 msgstr ""
 
 #. type: subsection
-#: R-FAQ.texi:375 R-FAQ.texi:457 R-FAQ.texi:474 R-FAQ.texi:475
+#: R-FAQ.texi:375
+#: R-FAQ.texi:457
+#: R-FAQ.texi:474
+#: R-FAQ.texi:475
 #, no-wrap
 msgid "How can R be installed (Mac)"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:377 R-FAQ.texi:378 R-FAQ.texi:457
+#: R-FAQ.texi:377
+#: R-FAQ.texi:378
+#: R-FAQ.texi:457
 #, no-wrap
 msgid "How can R be installed (Unix-like)"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:377 R-FAQ.texi:457 R-FAQ.texi:458 R-FAQ.texi:474
+#: R-FAQ.texi:377
+#: R-FAQ.texi:457
+#: R-FAQ.texi:458
+#: R-FAQ.texi:474
 #, no-wrap
 msgid "How can R be installed (Windows)"
 msgstr ""
@@ -677,7 +761,10 @@ msgid "Snapshots of the r-patched and r-devel versions of R are available as App
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:489 R-FAQ.texi:566 R-FAQ.texi:567 R-FAQ.texi:662
+#: R-FAQ.texi:489
+#: R-FAQ.texi:566
+#: R-FAQ.texi:567
+#: R-FAQ.texi:662
 #, no-wrap
 msgid "What documentation exists for R?"
 msgstr ""
@@ -746,7 +833,10 @@ msgid "No other binary distributions are currently publically available via @CRA
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:566 R-FAQ.texi:662 R-FAQ.texi:663 R-FAQ.texi:684
+#: R-FAQ.texi:566
+#: R-FAQ.texi:662
+#: R-FAQ.texi:663
+#: R-FAQ.texi:684
 #, no-wrap
 msgid "Citing R"
 msgstr ""
@@ -899,7 +989,10 @@ msgid "Last, but not least, Ross' and Robert's experience in designing and imple
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:662 R-FAQ.texi:684 R-FAQ.texi:685 R-FAQ.texi:759
+#: R-FAQ.texi:662
+#: R-FAQ.texi:684
+#: R-FAQ.texi:685
+#: R-FAQ.texi:759
 #, no-wrap
 msgid "What mailing lists exist for R?"
 msgstr ""
@@ -930,7 +1023,9 @@ msgid "Citation strings (or Bib@TeX{} entries) for R and R packages can also be 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:684 R-FAQ.texi:759 R-FAQ.texi:827
+#: R-FAQ.texi:684
+#: R-FAQ.texi:759
+#: R-FAQ.texi:827
 #, no-wrap
 msgid "What is CRAN?"
 msgstr ""
@@ -1030,7 +1125,10 @@ msgid "Many of the R project's mailing lists are also available via @url{http://
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:759 R-FAQ.texi:827 R-FAQ.texi:828 R-FAQ.texi:871
+#: R-FAQ.texi:759
+#: R-FAQ.texi:827
+#: R-FAQ.texi:828
+#: R-FAQ.texi:871
 #, no-wrap
 msgid "Can I use R for commercial purposes?"
 msgstr ""
@@ -1165,7 +1263,10 @@ msgid "Please always use the @acronym{URL} of the master site when referring to 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:827 R-FAQ.texi:871 R-FAQ.texi:872 R-FAQ.texi:881
+#: R-FAQ.texi:827
+#: R-FAQ.texi:871
+#: R-FAQ.texi:872
+#: R-FAQ.texi:881
 #, no-wrap
 msgid "Why is R named R?"
 msgstr ""
@@ -1206,7 +1307,10 @@ msgid "None of the discussion in this section constitutes legal advice.  The R C
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:871 R-FAQ.texi:881 R-FAQ.texi:882 R-FAQ.texi:893
+#: R-FAQ.texi:871
+#: R-FAQ.texi:881
+#: R-FAQ.texi:882
+#: R-FAQ.texi:893
 #, no-wrap
 msgid "What is the R Foundation?"
 msgstr ""
@@ -1227,7 +1331,10 @@ msgid "R-Forge (@url{http://R-Forge.R-project.org/}) offers a central platform f
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:908 R-FAQ.texi:1545 R-FAQ.texi:1546 R-FAQ.texi:1681
+#: R-FAQ.texi:908
+#: R-FAQ.texi:1545
+#: R-FAQ.texi:1546
+#: R-FAQ.texi:1681
 #, no-wrap
 msgid "R Web Interfaces"
 msgstr ""
@@ -1253,19 +1360,26 @@ msgid "Is there anything R can do that S-PLUS cannot?::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:917 R-FAQ.texi:1499 R-FAQ.texi:1518 R-FAQ.texi:1519
+#: R-FAQ.texi:917
+#: R-FAQ.texi:1499
+#: R-FAQ.texi:1518
+#: R-FAQ.texi:1519
 #, no-wrap
 msgid "What is R-plus?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:919 R-FAQ.texi:920 R-FAQ.texi:982
+#: R-FAQ.texi:919
+#: R-FAQ.texi:920
+#: R-FAQ.texi:982
 #, no-wrap
 msgid "What is S?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:919 R-FAQ.texi:982 R-FAQ.texi:989
+#: R-FAQ.texi:919
+#: R-FAQ.texi:982
+#: R-FAQ.texi:989
 #, no-wrap
 msgid "What is S-PLUS?"
 msgstr ""
@@ -1341,8 +1455,13 @@ msgid "There is a huge amount of user-contributed code for S, available at the @
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:982 R-FAQ.texi:989 R-FAQ.texi:990 R-FAQ.texi:1008 R-FAQ.texi:1264
-#: R-FAQ.texi:1290 R-FAQ.texi:1499
+#: R-FAQ.texi:982
+#: R-FAQ.texi:989
+#: R-FAQ.texi:990
+#: R-FAQ.texi:1008
+#: R-FAQ.texi:1264
+#: R-FAQ.texi:1290
+#: R-FAQ.texi:1499
 #, no-wrap
 msgid "What are the differences between R and S?"
 msgstr ""
@@ -1359,7 +1478,9 @@ msgid "@SPLUS{} is a value-added version of S currently sold by @url{http://www.
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:989 R-FAQ.texi:1499 R-FAQ.texi:1518
+#: R-FAQ.texi:989
+#: R-FAQ.texi:1499
+#: R-FAQ.texi:1518
 #, no-wrap
 msgid "Is there anything R can do that S-PLUS cannot?"
 msgstr ""
@@ -1385,19 +1506,27 @@ msgid "Models::"
 msgstr ""
 
 #. type: subsection
-#: R-FAQ.texi:1006 R-FAQ.texi:1264 R-FAQ.texi:1290 R-FAQ.texi:1291
+#: R-FAQ.texi:1006
+#: R-FAQ.texi:1264
+#: R-FAQ.texi:1290
+#: R-FAQ.texi:1291
 #, no-wrap
 msgid "Others"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1008 R-FAQ.texi:1009 R-FAQ.texi:1264
+#: R-FAQ.texi:1008
+#: R-FAQ.texi:1009
+#: R-FAQ.texi:1264
 #, no-wrap
 msgid "Lexical scoping"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1008 R-FAQ.texi:1264 R-FAQ.texi:1265 R-FAQ.texi:1290
+#: R-FAQ.texi:1008
+#: R-FAQ.texi:1264
+#: R-FAQ.texi:1265
+#: R-FAQ.texi:1290
 #, no-wrap
 msgid "Models"
 msgstr ""
@@ -1864,9 +1993,16 @@ msgid "See also @url{http://en.wikipedia.org/wiki/R_programming_language#Commerc
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1545 R-FAQ.texi:1681 R-FAQ.texi:1682 R-FAQ.texi:1693
-#: R-FAQ.texi:1864 R-FAQ.texi:1922 R-FAQ.texi:2002 R-FAQ.texi:2023
-#: R-FAQ.texi:2052 R-FAQ.texi:2065
+#: R-FAQ.texi:1545
+#: R-FAQ.texi:1681
+#: R-FAQ.texi:1682
+#: R-FAQ.texi:1693
+#: R-FAQ.texi:1864
+#: R-FAQ.texi:1922
+#: R-FAQ.texi:2002
+#: R-FAQ.texi:2023
+#: R-FAQ.texi:2052
+#: R-FAQ.texi:2065
 #, no-wrap
 msgid "R Add-On Packages"
 msgstr ""
@@ -1942,8 +2078,13 @@ msgid "Finally, @uref{http://code.google.com/p/concerto-platform/, Concerto} is 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1681 R-FAQ.texi:2065 R-FAQ.texi:2066 R-FAQ.texi:2074
-#: R-FAQ.texi:2122 R-FAQ.texi:2147 R-FAQ.texi:2189
+#: R-FAQ.texi:1681
+#: R-FAQ.texi:2065
+#: R-FAQ.texi:2066
+#: R-FAQ.texi:2074
+#: R-FAQ.texi:2122
+#: R-FAQ.texi:2147
+#: R-FAQ.texi:2189
 #, no-wrap
 msgid "R and Emacs"
 msgstr ""
@@ -1974,20 +2115,32 @@ msgid "How can I create an R package?::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:1691 R-FAQ.texi:2023 R-FAQ.texi:2052 R-FAQ.texi:2053
+#: R-FAQ.texi:1691
+#: R-FAQ.texi:2023
+#: R-FAQ.texi:2052
+#: R-FAQ.texi:2053
 #, no-wrap
 msgid "How can I contribute to R?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1693 R-FAQ.texi:1694 R-FAQ.texi:1704 R-FAQ.texi:1753
-#: R-FAQ.texi:1826 R-FAQ.texi:1837 R-FAQ.texi:1853 R-FAQ.texi:1864
+#: R-FAQ.texi:1693
+#: R-FAQ.texi:1694
+#: R-FAQ.texi:1704
+#: R-FAQ.texi:1753
+#: R-FAQ.texi:1826
+#: R-FAQ.texi:1837
+#: R-FAQ.texi:1853
+#: R-FAQ.texi:1864
 #, no-wrap
 msgid "Which add-on packages exist for R?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1693 R-FAQ.texi:1864 R-FAQ.texi:1865 R-FAQ.texi:1922
+#: R-FAQ.texi:1693
+#: R-FAQ.texi:1864
+#: R-FAQ.texi:1865
+#: R-FAQ.texi:1922
 #, no-wrap
 msgid "How can add-on packages be installed?"
 msgstr ""
@@ -2013,19 +2166,26 @@ msgid "Add-on packages from Bioconductor::"
 msgstr ""
 
 #. type: subsection
-#: R-FAQ.texi:1702 R-FAQ.texi:1837 R-FAQ.texi:1853 R-FAQ.texi:1854
+#: R-FAQ.texi:1702
+#: R-FAQ.texi:1837
+#: R-FAQ.texi:1853
+#: R-FAQ.texi:1854
 #, no-wrap
 msgid "Other add-on packages"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1704 R-FAQ.texi:1705 R-FAQ.texi:1753
+#: R-FAQ.texi:1704
+#: R-FAQ.texi:1705
+#: R-FAQ.texi:1753
 #, no-wrap
 msgid "Add-on packages in R"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1704 R-FAQ.texi:1753 R-FAQ.texi:1826
+#: R-FAQ.texi:1704
+#: R-FAQ.texi:1753
+#: R-FAQ.texi:1826
 #, no-wrap
 msgid "Add-on packages from CRAN"
 msgstr ""
@@ -2195,7 +2355,10 @@ msgid "These ``base packages'' were substantially reorganized in R 1.9.0.  The f
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1753 R-FAQ.texi:1826 R-FAQ.texi:1827 R-FAQ.texi:1837
+#: R-FAQ.texi:1753
+#: R-FAQ.texi:1826
+#: R-FAQ.texi:1827
+#: R-FAQ.texi:1837
 #, no-wrap
 msgid "Add-on packages from Omegahat"
 msgstr ""
@@ -2392,7 +2555,10 @@ msgid "Some @CRAN{} packages that do not build out of the box on Windows, requir
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1826 R-FAQ.texi:1837 R-FAQ.texi:1838 R-FAQ.texi:1853
+#: R-FAQ.texi:1826
+#: R-FAQ.texi:1837
+#: R-FAQ.texi:1838
+#: R-FAQ.texi:1853
 #, no-wrap
 msgid "Add-on packages from Bioconductor"
 msgstr ""
@@ -2418,7 +2584,10 @@ msgid "More code has been posted to the R-help mailing list, and can be obtained
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1864 R-FAQ.texi:1922 R-FAQ.texi:1923 R-FAQ.texi:2002
+#: R-FAQ.texi:1864
+#: R-FAQ.texi:1922
+#: R-FAQ.texi:1923
+#: R-FAQ.texi:2002
 #, no-wrap
 msgid "How can add-on packages be used?"
 msgstr ""
@@ -2461,7 +2630,10 @@ msgid "Even more conveniently, you can install and automatically update packages
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:1922 R-FAQ.texi:2002 R-FAQ.texi:2003 R-FAQ.texi:2023
+#: R-FAQ.texi:1922
+#: R-FAQ.texi:2002
+#: R-FAQ.texi:2003
+#: R-FAQ.texi:2023
 #, no-wrap
 msgid "How can add-on packages be removed?"
 msgstr ""
@@ -2588,7 +2760,10 @@ msgid "(where @code{unload = TRUE} is needed only for packages with a namespace,
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2002 R-FAQ.texi:2023 R-FAQ.texi:2024 R-FAQ.texi:2052
+#: R-FAQ.texi:2002
+#: R-FAQ.texi:2023
+#: R-FAQ.texi:2024
+#: R-FAQ.texi:2052
 #, no-wrap
 msgid "How can I create an R package?"
 msgstr ""
@@ -2656,18 +2831,53 @@ msgid "The @url{http://developer.R-project.org/, R Developer Page} acts as an in
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2065 R-FAQ.texi:2189 R-FAQ.texi:2190 R-FAQ.texi:2267
-#: R-FAQ.texi:2285 R-FAQ.texi:2293 R-FAQ.texi:2307 R-FAQ.texi:2348
-#: R-FAQ.texi:2383 R-FAQ.texi:2399 R-FAQ.texi:2437 R-FAQ.texi:2448
-#: R-FAQ.texi:2479 R-FAQ.texi:2501 R-FAQ.texi:2519 R-FAQ.texi:2568
-#: R-FAQ.texi:2597 R-FAQ.texi:2646 R-FAQ.texi:2659 R-FAQ.texi:2702
-#: R-FAQ.texi:2743 R-FAQ.texi:2769 R-FAQ.texi:2790 R-FAQ.texi:2802
-#: R-FAQ.texi:2865 R-FAQ.texi:2877 R-FAQ.texi:2885 R-FAQ.texi:2907
-#: R-FAQ.texi:2933 R-FAQ.texi:2952 R-FAQ.texi:2987 R-FAQ.texi:2997
-#: R-FAQ.texi:3012 R-FAQ.texi:3021 R-FAQ.texi:3057 R-FAQ.texi:3074
-#: R-FAQ.texi:3108 R-FAQ.texi:3125 R-FAQ.texi:3132 R-FAQ.texi:3175
-#: R-FAQ.texi:3232 R-FAQ.texi:3261 R-FAQ.texi:3277 R-FAQ.texi:3286
-#: R-FAQ.texi:3326 R-FAQ.texi:3381 R-FAQ.texi:3408
+#: R-FAQ.texi:2065
+#: R-FAQ.texi:2189
+#: R-FAQ.texi:2190
+#: R-FAQ.texi:2267
+#: R-FAQ.texi:2285
+#: R-FAQ.texi:2293
+#: R-FAQ.texi:2307
+#: R-FAQ.texi:2348
+#: R-FAQ.texi:2383
+#: R-FAQ.texi:2399
+#: R-FAQ.texi:2437
+#: R-FAQ.texi:2448
+#: R-FAQ.texi:2479
+#: R-FAQ.texi:2501
+#: R-FAQ.texi:2519
+#: R-FAQ.texi:2568
+#: R-FAQ.texi:2597
+#: R-FAQ.texi:2646
+#: R-FAQ.texi:2659
+#: R-FAQ.texi:2702
+#: R-FAQ.texi:2743
+#: R-FAQ.texi:2769
+#: R-FAQ.texi:2790
+#: R-FAQ.texi:2802
+#: R-FAQ.texi:2865
+#: R-FAQ.texi:2877
+#: R-FAQ.texi:2885
+#: R-FAQ.texi:2907
+#: R-FAQ.texi:2933
+#: R-FAQ.texi:2952
+#: R-FAQ.texi:2987
+#: R-FAQ.texi:2997
+#: R-FAQ.texi:3012
+#: R-FAQ.texi:3021
+#: R-FAQ.texi:3057
+#: R-FAQ.texi:3074
+#: R-FAQ.texi:3108
+#: R-FAQ.texi:3125
+#: R-FAQ.texi:3132
+#: R-FAQ.texi:3175
+#: R-FAQ.texi:3232
+#: R-FAQ.texi:3261
+#: R-FAQ.texi:3277
+#: R-FAQ.texi:3286
+#: R-FAQ.texi:3326
+#: R-FAQ.texi:3381
+#: R-FAQ.texi:3408
 #, no-wrap
 msgid "R Miscellanea"
 msgstr ""
@@ -2683,19 +2893,27 @@ msgid "Should I run R from within Emacs?::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:2072 R-FAQ.texi:2122 R-FAQ.texi:2147 R-FAQ.texi:2148
+#: R-FAQ.texi:2072
+#: R-FAQ.texi:2122
+#: R-FAQ.texi:2147
+#: R-FAQ.texi:2148
 #, no-wrap
 msgid "Debugging R from within Emacs"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2074 R-FAQ.texi:2075 R-FAQ.texi:2122
+#: R-FAQ.texi:2074
+#: R-FAQ.texi:2075
+#: R-FAQ.texi:2122
 #, no-wrap
 msgid "Is there Emacs support for R?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2074 R-FAQ.texi:2122 R-FAQ.texi:2123 R-FAQ.texi:2147
+#: R-FAQ.texi:2074
+#: R-FAQ.texi:2122
+#: R-FAQ.texi:2123
+#: R-FAQ.texi:2147
 #, no-wrap
 msgid "Should I run R from within Emacs?"
 msgstr ""
@@ -2789,8 +3007,14 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2189 R-FAQ.texi:3408 R-FAQ.texi:3409 R-FAQ.texi:3419
-#: R-FAQ.texi:3432 R-FAQ.texi:3448 R-FAQ.texi:3463 R-FAQ.texi:3493
+#: R-FAQ.texi:2189
+#: R-FAQ.texi:3408
+#: R-FAQ.texi:3409
+#: R-FAQ.texi:3419
+#: R-FAQ.texi:3432
+#: R-FAQ.texi:3448
+#: R-FAQ.texi:3463
+#: R-FAQ.texi:3493
 #: R-FAQ.texi:3501
 #, no-wrap
 msgid "R Programming"
@@ -3007,19 +3231,27 @@ msgid "Why is R apparently not releasing memory?::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:2236 R-FAQ.texi:3326 R-FAQ.texi:3381 R-FAQ.texi:3382
+#: R-FAQ.texi:2236
+#: R-FAQ.texi:3326
+#: R-FAQ.texi:3381
+#: R-FAQ.texi:3382
 #, no-wrap
 msgid "How can I enable secure https downloads in R?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2267 R-FAQ.texi:2268 R-FAQ.texi:2285
+#: R-FAQ.texi:2267
+#: R-FAQ.texi:2268
+#: R-FAQ.texi:2285
 #, no-wrap
 msgid "How can I set components of a list to NULL?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2267 R-FAQ.texi:2285 R-FAQ.texi:2286 R-FAQ.texi:2293
+#: R-FAQ.texi:2267
+#: R-FAQ.texi:2285
+#: R-FAQ.texi:2286
+#: R-FAQ.texi:2293
 #, no-wrap
 msgid "How can I save my workspace?"
 msgstr ""
@@ -3046,7 +3278,10 @@ msgid "For dropping the row names of a matrix @code{x}, it may be easier to use 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2285 R-FAQ.texi:2293 R-FAQ.texi:2294 R-FAQ.texi:2307
+#: R-FAQ.texi:2285
+#: R-FAQ.texi:2293
+#: R-FAQ.texi:2294
+#: R-FAQ.texi:2307
 #, no-wrap
 msgid "How can I clean up my workspace?"
 msgstr ""
@@ -3057,7 +3292,10 @@ msgid "@code{save.image()} saves the objects in the user's @code{.GlobalEnv} to 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2293 R-FAQ.texi:2307 R-FAQ.texi:2308 R-FAQ.texi:2348
+#: R-FAQ.texi:2293
+#: R-FAQ.texi:2307
+#: R-FAQ.texi:2308
+#: R-FAQ.texi:2348
 #, no-wrap
 msgid "How can I get eval() and D() to work?"
 msgstr ""
@@ -3079,7 +3317,10 @@ msgid "(Without @option{all = TRUE}, only the objects with names not starting wi
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2307 R-FAQ.texi:2348 R-FAQ.texi:2349 R-FAQ.texi:2383
+#: R-FAQ.texi:2307
+#: R-FAQ.texi:2348
+#: R-FAQ.texi:2349
+#: R-FAQ.texi:2383
 #, no-wrap
 msgid "Why do my matrices lose dimensions?"
 msgstr ""
@@ -3114,7 +3355,10 @@ msgid "D2 <- function(e, n) D(D(e, n), n)\n"
 msgstr ""
 
 #. type: Plain text
-#: R-FAQ.texi:2340 R-FAQ.texi:2694 R-FAQ.texi:2827 R-FAQ.texi:2841
+#: R-FAQ.texi:2340
+#: R-FAQ.texi:2694
+#: R-FAQ.texi:2827
+#: R-FAQ.texi:2841
 msgid "or"
 msgstr ""
 
@@ -3132,7 +3376,10 @@ msgid "See the help page for @code{deriv()} for more examples."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2348 R-FAQ.texi:2383 R-FAQ.texi:2384 R-FAQ.texi:2399
+#: R-FAQ.texi:2348
+#: R-FAQ.texi:2383
+#: R-FAQ.texi:2384
+#: R-FAQ.texi:2399
 #, no-wrap
 msgid "How does autoloading work?"
 msgstr ""
@@ -3179,7 +3426,10 @@ msgid "somerows <- mat[index, , drop = FALSE]\n"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2383 R-FAQ.texi:2399 R-FAQ.texi:2400 R-FAQ.texi:2437
+#: R-FAQ.texi:2383
+#: R-FAQ.texi:2399
+#: R-FAQ.texi:2400
+#: R-FAQ.texi:2437
 #, no-wrap
 msgid "How should I set options?"
 msgstr ""
@@ -3200,7 +3450,10 @@ msgid "See the help page for @code{autoload()} for a very nice example."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2399 R-FAQ.texi:2437 R-FAQ.texi:2438 R-FAQ.texi:2448
+#: R-FAQ.texi:2399
+#: R-FAQ.texi:2437
+#: R-FAQ.texi:2438
+#: R-FAQ.texi:2448
 #, no-wrap
 msgid "How do file names work in Windows?"
 msgstr ""
@@ -3250,7 +3503,10 @@ msgid "What is really used is the @emph{global} value of @code{.Options}, and us
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2437 R-FAQ.texi:2448 R-FAQ.texi:2449 R-FAQ.texi:2479
+#: R-FAQ.texi:2437
+#: R-FAQ.texi:2448
+#: R-FAQ.texi:2449
+#: R-FAQ.texi:2479
 #, no-wrap
 msgid "Why does plotting give a color allocation error?"
 msgstr ""
@@ -3266,7 +3522,10 @@ msgid "Thus, in filenames use something like @code{\"c:\\\\data\\\\money.dat\"}.
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2448 R-FAQ.texi:2479 R-FAQ.texi:2480 R-FAQ.texi:2501
+#: R-FAQ.texi:2448
+#: R-FAQ.texi:2479
+#: R-FAQ.texi:2480
+#: R-FAQ.texi:2501
 #, no-wrap
 msgid "How do I convert factors to numeric?"
 msgstr ""
@@ -3287,7 +3546,10 @@ msgid "You could also set the @code{colortype} of @code{X11()} to @code{\"pseudo
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2479 R-FAQ.texi:2501 R-FAQ.texi:2502 R-FAQ.texi:2519
+#: R-FAQ.texi:2479
+#: R-FAQ.texi:2501
+#: R-FAQ.texi:2502
+#: R-FAQ.texi:2519
 #, no-wrap
 msgid "Are Trellis displays implemented in R?"
 msgstr ""
@@ -3320,7 +3582,10 @@ msgid "In any case, do not call @code{as.numeric()} or their likes directly for 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2501 R-FAQ.texi:2519 R-FAQ.texi:2520 R-FAQ.texi:2568
+#: R-FAQ.texi:2501
+#: R-FAQ.texi:2519
+#: R-FAQ.texi:2520
+#: R-FAQ.texi:2568
 #, no-wrap
 msgid "What are the enclosing and parent environments?"
 msgstr ""
@@ -3341,7 +3606,10 @@ msgid "(Because the word ``Trellis'' has been claimed as a trademark we do not u
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2519 R-FAQ.texi:2568 R-FAQ.texi:2569 R-FAQ.texi:2597
+#: R-FAQ.texi:2519
+#: R-FAQ.texi:2568
+#: R-FAQ.texi:2569
+#: R-FAQ.texi:2597
 #, no-wrap
 msgid "How can I substitute into a plot label?"
 msgstr ""
@@ -3382,7 +3650,10 @@ msgid "Scoping @emph{is} hard.  Looking at examples helps.  It is particularly i
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2568 R-FAQ.texi:2597 R-FAQ.texi:2598 R-FAQ.texi:2646
+#: R-FAQ.texi:2568
+#: R-FAQ.texi:2597
+#: R-FAQ.texi:2598
+#: R-FAQ.texi:2646
 #, no-wrap
 msgid "What are valid names?"
 msgstr ""
@@ -3420,7 +3691,10 @@ msgid "There are more examples in the mailing list archives."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2597 R-FAQ.texi:2646 R-FAQ.texi:2647 R-FAQ.texi:2659
+#: R-FAQ.texi:2597
+#: R-FAQ.texi:2646
+#: R-FAQ.texi:2647
+#: R-FAQ.texi:2659
 #, no-wrap
 msgid "Are GAMs implemented in R?"
 msgstr ""
@@ -3461,7 +3735,10 @@ msgid "Finally, a @emph{file name} is a string identifying a file in the operati
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2646 R-FAQ.texi:2659 R-FAQ.texi:2660 R-FAQ.texi:2702
+#: R-FAQ.texi:2646
+#: R-FAQ.texi:2659
+#: R-FAQ.texi:2660
+#: R-FAQ.texi:2702
 #, no-wrap
 msgid "Why is the output not printed when I source() a file?"
 msgstr ""
@@ -3472,7 +3749,10 @@ msgid "Package @CRANpkg{gam} from @CRAN{} implements all the Generalized Additiv
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2659 R-FAQ.texi:2702 R-FAQ.texi:2703 R-FAQ.texi:2743
+#: R-FAQ.texi:2659
+#: R-FAQ.texi:2702
+#: R-FAQ.texi:2703
+#: R-FAQ.texi:2743
 #, no-wrap
 msgid "Why does outer() behave strangely with my function?"
 msgstr ""
@@ -3532,7 +3812,10 @@ msgid "instead, or use @code{source(@var{file}, echo=TRUE)}."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2702 R-FAQ.texi:2743 R-FAQ.texi:2744 R-FAQ.texi:2769
+#: R-FAQ.texi:2702
+#: R-FAQ.texi:2743
+#: R-FAQ.texi:2744
+#: R-FAQ.texi:2769
 #, no-wrap
 msgid "Why does the output from anova() depend on the order of factors in the model?"
 msgstr ""
@@ -3588,7 +3871,10 @@ msgid "Scalar functions can also be vectorized using @code{Vectorize()}."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2743 R-FAQ.texi:2769 R-FAQ.texi:2770 R-FAQ.texi:2790
+#: R-FAQ.texi:2743
+#: R-FAQ.texi:2769
+#: R-FAQ.texi:2770
+#: R-FAQ.texi:2790
 #, no-wrap
 msgid "How do I produce PNG graphics in batch mode?"
 msgstr ""
@@ -3609,7 +3895,10 @@ msgid "There is no need to be agitated about the particular sums of squares that
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2769 R-FAQ.texi:2790 R-FAQ.texi:2791 R-FAQ.texi:2802
+#: R-FAQ.texi:2769
+#: R-FAQ.texi:2790
+#: R-FAQ.texi:2791
+#: R-FAQ.texi:2802
 #, no-wrap
 msgid "How can I get command line editing to work?"
 msgstr ""
@@ -3625,7 +3914,10 @@ msgid "Earlier versions of the @code{png()} device used the X11 driver, which is
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2790 R-FAQ.texi:2802 R-FAQ.texi:2803 R-FAQ.texi:2865
+#: R-FAQ.texi:2790
+#: R-FAQ.texi:2802
+#: R-FAQ.texi:2803
+#: R-FAQ.texi:2865
 #, no-wrap
 msgid "How can I turn a string into a variable?"
 msgstr ""
@@ -3636,7 +3928,10 @@ msgid "The Unix-like command-line interface to R can only provide the inbuilt co
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2802 R-FAQ.texi:2865 R-FAQ.texi:2866 R-FAQ.texi:2877
+#: R-FAQ.texi:2802
+#: R-FAQ.texi:2865
+#: R-FAQ.texi:2866
+#: R-FAQ.texi:2877
 #, no-wrap
 msgid "Why do lattice/trellis graphics not work?"
 msgstr ""
@@ -3664,7 +3959,9 @@ msgid "get(varname[1]) + 2\n"
 msgstr ""
 
 #. type: Plain text
-#: R-FAQ.texi:2820 R-FAQ.texi:2834 R-FAQ.texi:2849
+#: R-FAQ.texi:2820
+#: R-FAQ.texi:2834
+#: R-FAQ.texi:2849
 msgid "for"
 msgstr ""
 
@@ -3719,7 +4016,10 @@ msgid "without any of this messing about."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2865 R-FAQ.texi:2877 R-FAQ.texi:2878 R-FAQ.texi:2885
+#: R-FAQ.texi:2865
+#: R-FAQ.texi:2877
+#: R-FAQ.texi:2878
+#: R-FAQ.texi:2885
 #, no-wrap
 msgid "How can I sort the rows of a data frame?"
 msgstr ""
@@ -3730,7 +4030,10 @@ msgid "The most likely reason is that you forgot to tell R to display the graph.
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2877 R-FAQ.texi:2885 R-FAQ.texi:2886 R-FAQ.texi:2907
+#: R-FAQ.texi:2877
+#: R-FAQ.texi:2885
+#: R-FAQ.texi:2886
+#: R-FAQ.texi:2907
 #, no-wrap
 msgid "Why does the help.start() search engine not work?"
 msgstr ""
@@ -3741,7 +4044,10 @@ msgid "To sort the rows within a data frame, with respect to the values in one o
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2885 R-FAQ.texi:2907 R-FAQ.texi:2908 R-FAQ.texi:2933
+#: R-FAQ.texi:2885
+#: R-FAQ.texi:2907
+#: R-FAQ.texi:2908
+#: R-FAQ.texi:2933
 #, no-wrap
 msgid "Why did my .Rprofile stop working when I updated R?"
 msgstr ""
@@ -3767,7 +4073,10 @@ msgid "@xref{Enabling search in HTML help, , Enabling search in HTML help, R-adm
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2907 R-FAQ.texi:2933 R-FAQ.texi:2934 R-FAQ.texi:2952
+#: R-FAQ.texi:2907
+#: R-FAQ.texi:2933
+#: R-FAQ.texi:2934
+#: R-FAQ.texi:2952
 #, no-wrap
 msgid "Where have all the methods gone?"
 msgstr ""
@@ -3804,7 +4113,10 @@ msgid "(@code{graphics::ps.options(horizontal = FALSE)} in R 1.9.x)."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2933 R-FAQ.texi:2952 R-FAQ.texi:2953 R-FAQ.texi:2987
+#: R-FAQ.texi:2933
+#: R-FAQ.texi:2952
+#: R-FAQ.texi:2953
+#: R-FAQ.texi:2987
 #, no-wrap
 msgid "How can I create rotated axis labels?"
 msgstr ""
@@ -3831,7 +4143,10 @@ msgid "To see the code for an unexported function @code{foo()} in the namespace 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2952 R-FAQ.texi:2987 R-FAQ.texi:2988 R-FAQ.texi:2997
+#: R-FAQ.texi:2952
+#: R-FAQ.texi:2987
+#: R-FAQ.texi:2988
+#: R-FAQ.texi:2997
 #, no-wrap
 msgid "Why is read.table() so inefficient?"
 msgstr ""
@@ -3871,7 +4186,10 @@ msgid "Also see Figure 1 and associated code in Paul Murrell (2003), ``Integrati
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2987 R-FAQ.texi:2997 R-FAQ.texi:2998 R-FAQ.texi:3012
+#: R-FAQ.texi:2987
+#: R-FAQ.texi:2997
+#: R-FAQ.texi:2998
+#: R-FAQ.texi:3012
 #, no-wrap
 msgid "What is the difference between package and library?"
 msgstr ""
@@ -3882,7 +4200,10 @@ msgid "By default, @code{read.table()} needs to read in everything as character 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:2997 R-FAQ.texi:3012 R-FAQ.texi:3013 R-FAQ.texi:3021
+#: R-FAQ.texi:2997
+#: R-FAQ.texi:3012
+#: R-FAQ.texi:3013
+#: R-FAQ.texi:3021
 #, no-wrap
 msgid "I installed a package but the functions are not there"
 msgstr ""
@@ -3898,7 +4219,10 @@ msgid "@xref{R Add-On Packages}, for more details.  See also Uwe Ligges (2003), 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3012 R-FAQ.texi:3021 R-FAQ.texi:3022 R-FAQ.texi:3057
+#: R-FAQ.texi:3012
+#: R-FAQ.texi:3021
+#: R-FAQ.texi:3022
+#: R-FAQ.texi:3057
 #, no-wrap
 msgid "Why doesn't R think these numbers are equal?"
 msgstr ""
@@ -3914,7 +4238,10 @@ msgid "See @ref{R Add-On Packages} and @ref{What is the difference between packa
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3021 R-FAQ.texi:3057 R-FAQ.texi:3058 R-FAQ.texi:3074
+#: R-FAQ.texi:3021
+#: R-FAQ.texi:3057
+#: R-FAQ.texi:3058
+#: R-FAQ.texi:3074
 #, no-wrap
 msgid "How can I capture or ignore errors in a long simulation?"
 msgstr ""
@@ -3956,7 +4283,10 @@ msgid "@emph{10.0 times 0.1 is hardly ever 1.0}."
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3057 R-FAQ.texi:3074 R-FAQ.texi:3075 R-FAQ.texi:3108
+#: R-FAQ.texi:3057
+#: R-FAQ.texi:3074
+#: R-FAQ.texi:3075
+#: R-FAQ.texi:3108
 #, no-wrap
 msgid "Why are powers of negative numbers wrong?"
 msgstr ""
@@ -3980,7 +4310,10 @@ msgid "would return the coefficients if the @code{lm()} call succeeded and would
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3074 R-FAQ.texi:3108 R-FAQ.texi:3109 R-FAQ.texi:3125
+#: R-FAQ.texi:3074
+#: R-FAQ.texi:3108
+#: R-FAQ.texi:3109
+#: R-FAQ.texi:3125
 #, no-wrap
 msgid "How can I save the result of each iteration in a loop into a separate file?"
 msgstr ""
@@ -4040,7 +4373,9 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3108 R-FAQ.texi:3125 R-FAQ.texi:3132
+#: R-FAQ.texi:3108
+#: R-FAQ.texi:3125
+#: R-FAQ.texi:3132
 #, no-wrap
 msgid "Why are p-values not displayed when using lmer()?"
 msgstr ""
@@ -4062,7 +4397,9 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3125 R-FAQ.texi:3132 R-FAQ.texi:3175
+#: R-FAQ.texi:3125
+#: R-FAQ.texi:3132
+#: R-FAQ.texi:3175
 #, no-wrap
 msgid "Why are there unwanted borders"
 msgstr ""
@@ -4079,7 +4416,10 @@ msgid "Doug Bates has kindly provided an extensive response in a post to the r-h
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3132 R-FAQ.texi:3175 R-FAQ.texi:3176 R-FAQ.texi:3232
+#: R-FAQ.texi:3132
+#: R-FAQ.texi:3175
+#: R-FAQ.texi:3176
+#: R-FAQ.texi:3232
 #, no-wrap
 msgid "Why does backslash behave strangely inside strings?"
 msgstr ""
@@ -4185,7 +4525,10 @@ msgid "Then restart Okular.  Change the final word to @samp{Enabled} to restore 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3175 R-FAQ.texi:3232 R-FAQ.texi:3233 R-FAQ.texi:3261
+#: R-FAQ.texi:3175
+#: R-FAQ.texi:3232
+#: R-FAQ.texi:3233
+#: R-FAQ.texi:3261
 #, no-wrap
 msgid "How can I put error bars or confidence bands on my plot?"
 msgstr ""
@@ -4250,7 +4593,10 @@ msgid "In versions of R up to 2.4.1 an unknown escape sequence like @samp{\\p} w
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3232 R-FAQ.texi:3261 R-FAQ.texi:3262 R-FAQ.texi:3277
+#: R-FAQ.texi:3232
+#: R-FAQ.texi:3261
+#: R-FAQ.texi:3262
+#: R-FAQ.texi:3277
 #, no-wrap
 msgid "How do I create a plot with two y-axes?"
 msgstr ""
@@ -4266,7 +4612,10 @@ msgid "The above functions all use the base graphics system.  The grid and latti
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3261 R-FAQ.texi:3277 R-FAQ.texi:3278 R-FAQ.texi:3286
+#: R-FAQ.texi:3261
+#: R-FAQ.texi:3277
+#: R-FAQ.texi:3278
+#: R-FAQ.texi:3286
 #, no-wrap
 msgid "How do I access the source code for a function?"
 msgstr ""
@@ -4277,7 +4626,10 @@ msgid "Creating a graph with two y-axes, i.e., with two sorts of data that are s
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3277 R-FAQ.texi:3286 R-FAQ.texi:3287 R-FAQ.texi:3326
+#: R-FAQ.texi:3277
+#: R-FAQ.texi:3286
+#: R-FAQ.texi:3287
+#: R-FAQ.texi:3326
 #, no-wrap
 msgid "Why does summary() report strange results for the R^2 estimate when I fit a linear model with no intercept?"
 msgstr ""
@@ -4288,7 +4640,10 @@ msgid "In most cases, typing the name of the function will print its source code
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3286 R-FAQ.texi:3326 R-FAQ.texi:3327 R-FAQ.texi:3381
+#: R-FAQ.texi:3286
+#: R-FAQ.texi:3326
+#: R-FAQ.texi:3327
+#: R-FAQ.texi:3381
 #, no-wrap
 msgid "Why is R apparently not releasing memory?"
 msgstr ""
@@ -4394,8 +4749,12 @@ msgid "Note that if you built R from source the @code{\"libcurl\"} method may or
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3408 R-FAQ.texi:3501 R-FAQ.texi:3502 R-FAQ.texi:3509
-#: R-FAQ.texi:3556 R-FAQ.texi:3645
+#: R-FAQ.texi:3408
+#: R-FAQ.texi:3501
+#: R-FAQ.texi:3502
+#: R-FAQ.texi:3509
+#: R-FAQ.texi:3556
+#: R-FAQ.texi:3645
 #, no-wrap
 msgid "R Bugs"
 msgstr ""
@@ -4421,19 +4780,27 @@ msgid "How can I change compilation flags?::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:3417 R-FAQ.texi:3463 R-FAQ.texi:3493 R-FAQ.texi:3494
+#: R-FAQ.texi:3417
+#: R-FAQ.texi:3463
+#: R-FAQ.texi:3493
+#: R-FAQ.texi:3494
 #, no-wrap
 msgid "How can I debug S4 methods?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3419 R-FAQ.texi:3420 R-FAQ.texi:3432
+#: R-FAQ.texi:3419
+#: R-FAQ.texi:3420
+#: R-FAQ.texi:3432
 #, no-wrap
 msgid "How should I write summary methods?"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3419 R-FAQ.texi:3432 R-FAQ.texi:3433 R-FAQ.texi:3448
+#: R-FAQ.texi:3419
+#: R-FAQ.texi:3432
+#: R-FAQ.texi:3433
+#: R-FAQ.texi:3448
 #, no-wrap
 msgid "How can I debug dynamically loaded code?"
 msgstr ""
@@ -4444,7 +4811,10 @@ msgid "Suppose you want to provide a summary method for class @code{\"foo\"}.  T
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3432 R-FAQ.texi:3448 R-FAQ.texi:3449 R-FAQ.texi:3463
+#: R-FAQ.texi:3432
+#: R-FAQ.texi:3448
+#: R-FAQ.texi:3449
+#: R-FAQ.texi:3463
 #, no-wrap
 msgid "How can I inspect R objects when debugging?"
 msgstr ""
@@ -4465,7 +4835,10 @@ msgid "@xref{Finding entry points, , Finding entry points in dynamically loaded 
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3448 R-FAQ.texi:3463 R-FAQ.texi:3464 R-FAQ.texi:3493
+#: R-FAQ.texi:3448
+#: R-FAQ.texi:3463
+#: R-FAQ.texi:3464
+#: R-FAQ.texi:3493
 #, no-wrap
 msgid "How can I change compilation flags?"
 msgstr ""
@@ -4531,13 +4904,18 @@ msgid "What is a bug?::"
 msgstr ""
 
 #. type: section
-#: R-FAQ.texi:3507 R-FAQ.texi:3509 R-FAQ.texi:3556 R-FAQ.texi:3557
+#: R-FAQ.texi:3507
+#: R-FAQ.texi:3509
+#: R-FAQ.texi:3556
+#: R-FAQ.texi:3557
 #, no-wrap
 msgid "How to report a bug"
 msgstr ""
 
 #. type: node
-#: R-FAQ.texi:3509 R-FAQ.texi:3510 R-FAQ.texi:3556
+#: R-FAQ.texi:3509
+#: R-FAQ.texi:3510
+#: R-FAQ.texi:3556
 #, no-wrap
 msgid "What is a bug?"
 msgstr ""
