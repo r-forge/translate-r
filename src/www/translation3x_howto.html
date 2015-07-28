@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Translating R Manuals</title>
+</head>
+<body>
+<h1 align="center">Translating R Manuals (and Messages)</h1>
+<h3 align="center">UNDER THE CONSTUCTION NOW</h3>
+<p>edited by Chel Hee Lee &lt;<a href="mailto:chl948@mail.usask.ca">chl948@mail.usask.ca</a>&gt; on 2015-JUL-24.</p>
+
+<p>
+The pilot project of translating R manuals is underway.  This document is intended for translators listed in the R Manual section at <a href="http://translation.r-project.org">http://translation.r-project.org</a>.  Note that the process for translating R manuals is basically identical to the process of translating R messages noted <a href="http://developer.r-project.org/Translations30.html" target="_blank">here</a>.  
+
+<li><a href="#domain1">How to work?</a></li>
+<li><a href="#domain2">How to check translated version of manuals after submission?</a></li>
+<li><a href="#domain3">Translation tips</a></li>
+
+</p>
+
+<!-- 
+<p>
+The following documents are provided along with R:
+<li><a href="https://cran.r-project.org/manuals.html" target="_blank">Manuals</a></li>
+<li><a href="https://cran.r-project.org/doc/FAQ/R-FAQ.html" target="_blank">R-FAQ</a></li>
+<li><a href="https://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html" target="_blank">RMacOSX-FAQ</a></li>
+<li><a href="https://cran.r-project.org/bin/windows/base/rw-FAQ.html" target="_blank">rw-FAQ</a></li>
+</p>
+-->
+
+<h2><a name="domain1">How to Work?</a></h2>
+
+<p>
+The following instructions for translating R messages and manuals are based on the Ubuntu Linux, and might be different for Mac or Windows users.  But, most parts will be identical for all platforms.   Since the manuals change with the develoment of R, this work is based on the most recent development version (R-devel).  The instructions are written under the assumption that you are the member of the <a href="https://r-forge.r-project.org/projects/translate-r/" target="_blank">translate.R</a> project hosted at the R-Forge.  
+</p>
+
+<h4>Step 1. Get the tools</h4>
+
+<p>
+You need a <code>subverison</code> installed on your system.  You also need a text editor such as <code>Emacs</code> or <code>Geany</code>.  <code>gedit</code> is provided in Ubuntu by default.   If you do not have, please use the following command: </p>
+<pre>
+sudo apt-get install subversion geany poedit
+</pre>
+
+<p>
+For Windows users, <a href="http://www.shokhirev.com/nikolai/programs/SVN/svn.html" target="_blank">the practical guideline with TortoiseSVN</a> is a good resource to start with.  Also visit the website of <a href="http://tortoisesvn.net/" target="_blank">TortoiseSVN</a>.  
+</p>
+
+<h4>Step 2. Get files that you need to work</h4>
+<!-- http://www.gnu.org/server/standards/translations/po-how-to.en.html -->
+If it is your first run, the following command allows you to have the source for manuals:
+<pre>
+$ svn checkout svn+ssh://[your.user.id]@r-forge.r-project.org/svnroot/translate-r/
+</pre>
+Note that <code>[your.user.id]</code> should be replaced by your user ID registered at R-Fore. 
+
+
+Now consider that you are the volunteer who speaks Spanish and wishes to provide Spanish translation.  Then, the portable objects for translator can be found as below:
+<pre>
+$ cd translate-r     # Enter the project directory
+$ svn update         # Update the project  
+$ cd src             # Enter the directory of keeping sources
+$ cd es              # Find your language
+$ cd man             # man = manuals, msg = messages
+$ ls
+R-admin-es.po  R-exts-es.po  R-intro-es.po  R-lang-es.po
+R-data-es.po   R-FAQ-es.po   R-ints-es.po   rw-FAQ-es.po
+</pre>
+The ISO 649 code for Spanish is <code>es</code>.  Similarily, the portable objects for Japanese translation are located at the <code>./src/man/jp/</code>.   
+</p>
+
+<h4>Step 3. Add or modify your translation</h4>
+
+<p>Now, open <code>R-intro-es.po</code> file with one of text editors.  Check over the head entries and make sure if the plural form for your language is correctly given.   For the case of Spanish, the plural form is <code> nplurals=2; plural=(n != 1);\n"</code>.  More information about the plural form can be found at <a href="#">here</a>.</p>
+
+<p>What you have to do from now is to fill in the <code>msgstr</code> entries corresponding to <code>msgid</code>.  </p>
+
+<pre>
+msgid "An Introduction to R"
+msgstr ""
+</pre>
+
+<p>It is important that these match exactly in the <code>msgid</code> and <code>msgstr</code> lines: mismatches can cause translation to crash or nonsense on the output.</p>
+
+<pre>
+msgid "An Introduction to R"
+msgstr "Una introducción a R"
+</pre>
+
+<p>
+If you leave a translation as <code>""</code> the untranslated message (<code>msgid</code>) will be used.  
+</p>
+
+<p>If you are using <code>Emacs</code>, the PO mode help your translation.  For more information, please see this page. </p>
+
+
+<p>For Windows users, a translation editor called <code>poEdit</code> is recommended for use. </p>
+
+
+<h4>Step 4. Submit your translation</h4>
+
+<p>Translation can be submitted by the following command:</p>
+<pre>
+$ svn commit -m 'Translation is newly added to R-intro-es.po'
+</pre>
+
+
+
+
+
+<h2><a name="domain2">How to check translated version of manuals after submission?</a></h2>
+
+<p>
+	Your translation submitted to R-Forge will be compiled at least once a day; thus, the output of your work will be up 12 or 24 hours after the submission.    The output will be shown in the format of HTML from the following URL:
+</p>
+<pre>
+http://translation.r-project.org/man/[doc_name]/[doc_name]-[language_code].html
+</pre>
+
+<p>
+For example, you can check the <code>R-intro</code> manual translated in German by typing the following address:
+</o>
+<pre>
+http://translation.r-project.org/man/R-intro/R-intro-de.html
+</pre>
+
+<p>
+The process described here is identically applied to all other manuals.  
+</p>
+
+
+
+
+
+<h2><a name="domain3">Translation Tips</a></h2>
+<h4>Fuzzy Translation</h4>
+<p>
+Sometimes you will encounter a translation you know you have done for .  First delete any <code>fuzzy</code> translation which has been generated, then use e.g.
+</p>
+
+<h4>Plural Forms</h4>
+<p>
+Some messages have plural forms, e.g.
+</p>
+<pre>
+  msgid        "Warning message:\n"
+  msgid_plural "Warning messages:\n"
+  msgstr[0]    ""
+  msgstr[1]    ""
+</pre>
+<p>
+The <code>Plural-Forms:</code> line tells you what these mean: in languages with just singular and one plural, the first is singular and the second is plural.  For languages without plurals, just give one line starting <code>msgstr[0]</code>.  Spanish would need for two lines.
+</p>
+
+<h4>Glossary</h4>
+<p>
+Note that translators may find it useful to consult the <a href="http://www.cbs.nl/isi/glossary/">ISI glossary of statistical
+terms</a>.
+</p>
+
+</body>
+</html>
