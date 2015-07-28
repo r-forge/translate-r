@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the translate.R package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-07-27 11:36-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-07-28 15:25+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl_PL\n"
@@ -18,12 +17,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: top
-#: R-ints.texi:4
-#: R-ints.texi:33
-#: R-ints.texi:51
-#, no-wrap
+#: R-ints.texi:4 R-ints.texi:33 R-ints.texi:51
+#, fuzzy, no-wrap
 msgid "R Internals"
 msgstr "Wewnętrzne R (Polish)"
 
@@ -83,47 +82,20 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:50
-#: R-ints.texi:78
-#: R-ints.texi:1940
-#: R-ints.texi:2326
-#: R-ints.texi:2454
-#: R-ints.texi:2605
-#: R-ints.texi:2691
-#: R-ints.texi:3578
-#: R-ints.texi:3740
-#: R-ints.texi:4130
-#: R-ints.texi:4263
-#: R-ints.texi:4277
-#: R-ints.texi:4321
-#: R-ints.texi:4488
-#: R-ints.texi:4493
+#: R-ints.texi:50 R-ints.texi:78 R-ints.texi:1940 R-ints.texi:2326
+#: R-ints.texi:2454 R-ints.texi:2605 R-ints.texi:2691 R-ints.texi:3578
+#: R-ints.texi:3740 R-ints.texi:4130 R-ints.texi:4263 R-ints.texi:4277
+#: R-ints.texi:4321 R-ints.texi:4488 R-ints.texi:4493
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:50
-#: R-ints.texi:75
-#: R-ints.texi:78
-#: R-ints.texi:79
-#: R-ints.texi:110
-#: R-ints.texi:528
-#: R-ints.texi:667
-#: R-ints.texi:772
-#: R-ints.texi:865
-#: R-ints.texi:1021
-#: R-ints.texi:1076
-#: R-ints.texi:1121
-#: R-ints.texi:1229
-#: R-ints.texi:1307
-#: R-ints.texi:1326
-#: R-ints.texi:1376
-#: R-ints.texi:1547
-#: R-ints.texi:1701
-#: R-ints.texi:1758
-#: R-ints.texi:1789
-#: R-ints.texi:1876
+#: R-ints.texi:50 R-ints.texi:75 R-ints.texi:78 R-ints.texi:79 R-ints.texi:110
+#: R-ints.texi:528 R-ints.texi:667 R-ints.texi:772 R-ints.texi:865
+#: R-ints.texi:1021 R-ints.texi:1076 R-ints.texi:1121 R-ints.texi:1229
+#: R-ints.texi:1307 R-ints.texi:1326 R-ints.texi:1376 R-ints.texi:1547
+#: R-ints.texi:1701 R-ints.texi:1758 R-ints.texi:1789 R-ints.texi:1876
 #: R-ints.texi:1940
 #, no-wrap
 msgid "R Internal Structures"
@@ -141,147 +113,93 @@ msgid "This is a guide to the internal structures of @R{} and coding standards f
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:78
-#: R-ints.texi:1940
-#: R-ints.texi:2200
-#: R-ints.texi:2226
-#: R-ints.texi:2234
-#: R-ints.texi:2293
-#: R-ints.texi:2326
+#: R-ints.texi:75 R-ints.texi:78 R-ints.texi:1940 R-ints.texi:2200
+#: R-ints.texi:2226 R-ints.texi:2234 R-ints.texi:2293 R-ints.texi:2326
 #, no-wrap
 msgid ".Internal vs .Primitive"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:1940
-#: R-ints.texi:2326
-#: R-ints.texi:2327
-#: R-ints.texi:2349
-#: R-ints.texi:2366
-#: R-ints.texi:2412
-#: R-ints.texi:2442
-#: R-ints.texi:2449
-#: R-ints.texi:2454
+#: R-ints.texi:75 R-ints.texi:1940 R-ints.texi:2326 R-ints.texi:2327
+#: R-ints.texi:2349 R-ints.texi:2366 R-ints.texi:2412 R-ints.texi:2442
+#: R-ints.texi:2449 R-ints.texi:2454
 #, no-wrap
 msgid "Internationalization in the R sources"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:2326
-#: R-ints.texi:2454
-#: R-ints.texi:2508
-#: R-ints.texi:2579
-#: R-ints.texi:2605
+#: R-ints.texi:75 R-ints.texi:2326 R-ints.texi:2454 R-ints.texi:2508
+#: R-ints.texi:2579 R-ints.texi:2605
 #, no-wrap
 msgid "Package Structure"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:2454
-#: R-ints.texi:2605
-#: R-ints.texi:2606
+#: R-ints.texi:75 R-ints.texi:2454 R-ints.texi:2605 R-ints.texi:2606
 #: R-ints.texi:2691
 #, no-wrap
 msgid "Files"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:2605
-#: R-ints.texi:2691
-#: R-ints.texi:2817
-#: R-ints.texi:2818
-#: R-ints.texi:3392
-#: R-ints.texi:3481
-#: R-ints.texi:3573
+#: R-ints.texi:75 R-ints.texi:2605 R-ints.texi:2691 R-ints.texi:2817
+#: R-ints.texi:2818 R-ints.texi:3392 R-ints.texi:3481 R-ints.texi:3573
 #: R-ints.texi:3578
 #, no-wrap
 msgid "Graphics Devices"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:2691
-#: R-ints.texi:3578
-#: R-ints.texi:3579
-#: R-ints.texi:3604
-#: R-ints.texi:3740
+#: R-ints.texi:75 R-ints.texi:2691 R-ints.texi:3578 R-ints.texi:3579
+#: R-ints.texi:3604 R-ints.texi:3740
 #, no-wrap
 msgid "GUI consoles"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:3578
-#: R-ints.texi:3740
-#: R-ints.texi:3741
+#: R-ints.texi:75 R-ints.texi:3578 R-ints.texi:3740 R-ints.texi:3741
 #: R-ints.texi:4130
 #, no-wrap
 msgid "Tools"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:3740
-#: R-ints.texi:4130
-#: R-ints.texi:4131
+#: R-ints.texi:75 R-ints.texi:3740 R-ints.texi:4130 R-ints.texi:4131
 #: R-ints.texi:4263
 #, no-wrap
 msgid "R coding standards"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:4130
-#: R-ints.texi:4263
-#: R-ints.texi:4264
+#: R-ints.texi:75 R-ints.texi:4130 R-ints.texi:4263 R-ints.texi:4264
 #: R-ints.texi:4277
 #, no-wrap
 msgid "Testing R code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:4263
-#: R-ints.texi:4277
-#: R-ints.texi:4278
+#: R-ints.texi:75 R-ints.texi:4263 R-ints.texi:4277 R-ints.texi:4278
 #: R-ints.texi:4321
 #, no-wrap
 msgid "Use of TeX dialects"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:4277
-#: R-ints.texi:4321
-#: R-ints.texi:4322
-#: R-ints.texi:4334
-#: R-ints.texi:4407
-#: R-ints.texi:4459
-#: R-ints.texi:4488
+#: R-ints.texi:75 R-ints.texi:4277 R-ints.texi:4321 R-ints.texi:4322
+#: R-ints.texi:4334 R-ints.texi:4407 R-ints.texi:4459 R-ints.texi:4488
 #, no-wrap
 msgid "Current and future directions"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:75
-#: R-ints.texi:4321
-#: R-ints.texi:4488
-#: R-ints.texi:4489
+#: R-ints.texi:75 R-ints.texi:4321 R-ints.texi:4488 R-ints.texi:4489
 #: R-ints.texi:4493
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: unnumbered
-#: R-ints.texi:75
-#: R-ints.texi:4488
-#: R-ints.texi:4493
-#: R-ints.texi:4494
+#: R-ints.texi:75 R-ints.texi:4488 R-ints.texi:4493 R-ints.texi:4494
 #, no-wrap
 msgid "Concept index"
 msgstr ""
@@ -297,186 +215,119 @@ msgid "It is a work-in-progress and should be checked against the current versio
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:110
-#: R-ints.texi:111
-#: R-ints.texi:146
-#: R-ints.texi:225
-#: R-ints.texi:372
-#: R-ints.texi:511
-#: R-ints.texi:528
+#: R-ints.texi:108 R-ints.texi:110 R-ints.texi:111 R-ints.texi:146
+#: R-ints.texi:225 R-ints.texi:372 R-ints.texi:511 R-ints.texi:528
 #, no-wrap
 msgid "SEXPs"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:110
-#: R-ints.texi:528
-#: R-ints.texi:529
-#: R-ints.texi:579
-#: R-ints.texi:608
-#: R-ints.texi:641
-#: R-ints.texi:667
+#: R-ints.texi:108 R-ints.texi:110 R-ints.texi:528 R-ints.texi:529
+#: R-ints.texi:579 R-ints.texi:608 R-ints.texi:641 R-ints.texi:667
 #, no-wrap
 msgid "Environments and variable lookup"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:528
-#: R-ints.texi:667
-#: R-ints.texi:668
+#: R-ints.texi:108 R-ints.texi:528 R-ints.texi:667 R-ints.texi:668
 #: R-ints.texi:772
 #, no-wrap
 msgid "Attributes"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:667
-#: R-ints.texi:772
-#: R-ints.texi:773
+#: R-ints.texi:108 R-ints.texi:667 R-ints.texi:772 R-ints.texi:773
 #: R-ints.texi:865
 #, no-wrap
 msgid "Contexts"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:772
-#: R-ints.texi:865
-#: R-ints.texi:866
-#: R-ints.texi:948
-#: R-ints.texi:993
-#: R-ints.texi:1021
+#: R-ints.texi:108 R-ints.texi:772 R-ints.texi:865 R-ints.texi:866
+#: R-ints.texi:948 R-ints.texi:993 R-ints.texi:1021
 #, no-wrap
 msgid "Argument evaluation"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:865
-#: R-ints.texi:1021
-#: R-ints.texi:1022
+#: R-ints.texi:108 R-ints.texi:865 R-ints.texi:1021 R-ints.texi:1022
 #: R-ints.texi:1076
 #, no-wrap
 msgid "Autoprinting"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1021
-#: R-ints.texi:1076
-#: R-ints.texi:1121
+#: R-ints.texi:108 R-ints.texi:1021 R-ints.texi:1076 R-ints.texi:1121
 #, no-wrap
 msgid "The write barrier"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1076
-#: R-ints.texi:1121
-#: R-ints.texi:1122
+#: R-ints.texi:108 R-ints.texi:1076 R-ints.texi:1121 R-ints.texi:1122
 #: R-ints.texi:1229
 #, no-wrap
 msgid "Serialization Formats"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1121
-#: R-ints.texi:1229
-#: R-ints.texi:1230
+#: R-ints.texi:108 R-ints.texi:1121 R-ints.texi:1229 R-ints.texi:1230
 #: R-ints.texi:1307
 #, no-wrap
 msgid "Encodings for CHARSXPs"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1229
-#: R-ints.texi:1307
-#: R-ints.texi:1308
+#: R-ints.texi:108 R-ints.texi:1229 R-ints.texi:1307 R-ints.texi:1308
 #: R-ints.texi:1326
 #, no-wrap
 msgid "The CHARSXP cache"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1307
-#: R-ints.texi:1326
-#: R-ints.texi:1327
+#: R-ints.texi:108 R-ints.texi:1307 R-ints.texi:1326 R-ints.texi:1327
 #: R-ints.texi:1376
 #, no-wrap
 msgid "Warnings and errors"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1326
-#: R-ints.texi:1376
-#: R-ints.texi:1377
-#: R-ints.texi:1390
-#: R-ints.texi:1411
-#: R-ints.texi:1428
-#: R-ints.texi:1479
+#: R-ints.texi:108 R-ints.texi:1326 R-ints.texi:1376 R-ints.texi:1377
+#: R-ints.texi:1390 R-ints.texi:1411 R-ints.texi:1428 R-ints.texi:1479
 #: R-ints.texi:1547
 #, no-wrap
 msgid "S4 objects"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1376
-#: R-ints.texi:1547
-#: R-ints.texi:1548
-#: R-ints.texi:1680
-#: R-ints.texi:1701
+#: R-ints.texi:108 R-ints.texi:1376 R-ints.texi:1547 R-ints.texi:1548
+#: R-ints.texi:1680 R-ints.texi:1701
 #, no-wrap
 msgid "Memory allocators"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1547
-#: R-ints.texi:1701
-#: R-ints.texi:1702
-#: R-ints.texi:1712
-#: R-ints.texi:1739
-#: R-ints.texi:1758
+#: R-ints.texi:108 R-ints.texi:1547 R-ints.texi:1701 R-ints.texi:1702
+#: R-ints.texi:1712 R-ints.texi:1739 R-ints.texi:1758
 #, no-wrap
 msgid "Internal use of global and base environments"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1701
-#: R-ints.texi:1758
-#: R-ints.texi:1759
+#: R-ints.texi:108 R-ints.texi:1701 R-ints.texi:1758 R-ints.texi:1759
 #: R-ints.texi:1789
 #, no-wrap
 msgid "Modules"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:108
-#: R-ints.texi:1758
-#: R-ints.texi:1789
-#: R-ints.texi:1790
-#: R-ints.texi:1798
-#: R-ints.texi:1849
-#: R-ints.texi:1876
+#: R-ints.texi:108 R-ints.texi:1758 R-ints.texi:1789 R-ints.texi:1790
+#: R-ints.texi:1798 R-ints.texi:1849 R-ints.texi:1876
 #, no-wrap
 msgid "Visibility"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:108
-#: R-ints.texi:1789
-#: R-ints.texi:1876
-#: R-ints.texi:1877
+#: R-ints.texi:108 R-ints.texi:1789 R-ints.texi:1876 R-ints.texi:1877
 #, no-wrap
 msgid "Lazy loading"
 msgstr ""
@@ -520,45 +371,32 @@ msgid "The first five bits of the @code{sxpinfo} header specify one of up to 32 
 msgstr ""
 
 #. type: node
-#: R-ints.texi:144
-#: R-ints.texi:146
-#: R-ints.texi:147
-#: R-ints.texi:225
+#: R-ints.texi:144 R-ints.texi:146 R-ints.texi:147 R-ints.texi:225
 #, no-wrap
 msgid "SEXPTYPEs"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:144
-#: R-ints.texi:146
-#: R-ints.texi:225
-#: R-ints.texi:226
+#: R-ints.texi:144 R-ints.texi:146 R-ints.texi:225 R-ints.texi:226
 #: R-ints.texi:372
 #, no-wrap
 msgid "Rest of header"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:144
-#: R-ints.texi:225
-#: R-ints.texi:372
-#: R-ints.texi:511
+#: R-ints.texi:144 R-ints.texi:225 R-ints.texi:372 R-ints.texi:511
 #, no-wrap
 msgid "The 'data'"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:144
-#: R-ints.texi:372
-#: R-ints.texi:511
-#: R-ints.texi:512
+#: R-ints.texi:144 R-ints.texi:372 R-ints.texi:511 R-ints.texi:512
 #, no-wrap
 msgid "Allocation classes"
 msgstr ""
 
 #. type: multitable
-#: R-ints.texi:149
-#: R-ints.texi:160
+#: R-ints.texi:149 R-ints.texi:160
 #, no-wrap
 msgid "SEXPTYPE"
 msgstr ""
@@ -852,9 +690,7 @@ msgid "named bit"
 msgstr ""
 
 #. type: findex
-#: R-ints.texi:261
-#: R-ints.texi:886
-#: R-ints.texi:2122
+#: R-ints.texi:261 R-ints.texi:886 R-ints.texi:2122
 #, no-wrap
 msgid "NAMED"
 msgstr ""
@@ -866,8 +702,7 @@ msgid "SET_NAMED"
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:263
-#: R-ints.texi:716
+#: R-ints.texi:263 R-ints.texi:716
 #, no-wrap
 msgid "copying semantics"
 msgstr ""
@@ -961,8 +796,7 @@ msgid "The macros @code{ARGUSED} and @code{SET_ARGUSED} are used when matching a
 msgstr ""
 
 #. type: findex
-#: R-ints.texi:326
-#: R-ints.texi:963
+#: R-ints.texi:326 R-ints.texi:963
 #, no-wrap
 msgid "MISSING"
 msgstr ""
@@ -991,8 +825,7 @@ msgid "SET_DDVAL"
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:337
-#: R-ints.texi:996
+#: R-ints.texi:337 R-ints.texi:996
 #, no-wrap
 msgid "... argument"
 msgstr ""
@@ -1384,15 +1217,13 @@ msgid "There are additional places that `variables' can be looked up, called `us
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:545
-#: R-ints.texi:1715
+#: R-ints.texi:545 R-ints.texi:1715
 #, no-wrap
 msgid "base environment"
 msgstr ""
 
 #. type: cindex
-#: R-ints.texi:546
-#: R-ints.texi:1716
+#: R-ints.texi:546 R-ints.texi:1716
 #, no-wrap
 msgid "environment, base"
 msgstr ""
@@ -1413,29 +1244,20 @@ msgid "By default @R{} maintains a (hashed) global cache of `variables' (that is
 msgstr ""
 
 #. type: node
-#: R-ints.texi:577
-#: R-ints.texi:579
-#: R-ints.texi:580
-#: R-ints.texi:608
+#: R-ints.texi:577 R-ints.texi:579 R-ints.texi:580 R-ints.texi:608
 #, no-wrap
 msgid "Search paths"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:577
-#: R-ints.texi:579
-#: R-ints.texi:608
-#: R-ints.texi:609
+#: R-ints.texi:577 R-ints.texi:579 R-ints.texi:608 R-ints.texi:609
 #: R-ints.texi:641
 #, no-wrap
 msgid "Namespaces"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:577
-#: R-ints.texi:608
-#: R-ints.texi:641
-#: R-ints.texi:642
+#: R-ints.texi:577 R-ints.texi:608 R-ints.texi:641 R-ints.texi:642
 #, no-wrap
 msgid "Hash table"
 msgstr ""
@@ -1832,19 +1654,13 @@ msgid "The other way that internal functions can be generic is to be group gener
 msgstr ""
 
 #. type: node
-#: R-ints.texi:946
-#: R-ints.texi:948
-#: R-ints.texi:949
-#: R-ints.texi:993
+#: R-ints.texi:946 R-ints.texi:948 R-ints.texi:949 R-ints.texi:993
 #, no-wrap
 msgid "Missingness"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:946
-#: R-ints.texi:948
-#: R-ints.texi:993
-#: R-ints.texi:994
+#: R-ints.texi:946 R-ints.texi:948 R-ints.texi:993 R-ints.texi:994
 #, no-wrap
 msgid "Dot-dot-dot arguments"
 msgstr ""
@@ -2205,39 +2021,27 @@ msgid "[This section is currently a preliminary draft and should not be taken as
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1388
-#: R-ints.texi:1390
-#: R-ints.texi:1391
-#: R-ints.texi:1411
+#: R-ints.texi:1388 R-ints.texi:1390 R-ints.texi:1391 R-ints.texi:1411
 #, no-wrap
 msgid "Representation of S4 objects"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1388
-#: R-ints.texi:1390
-#: R-ints.texi:1411
-#: R-ints.texi:1412
+#: R-ints.texi:1388 R-ints.texi:1390 R-ints.texi:1411 R-ints.texi:1412
 #: R-ints.texi:1428
 #, no-wrap
 msgid "S4 classes"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1388
-#: R-ints.texi:1411
-#: R-ints.texi:1428
-#: R-ints.texi:1429
+#: R-ints.texi:1388 R-ints.texi:1411 R-ints.texi:1428 R-ints.texi:1429
 #: R-ints.texi:1479
 #, no-wrap
 msgid "S4 methods"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1388
-#: R-ints.texi:1428
-#: R-ints.texi:1479
-#: R-ints.texi:1480
+#: R-ints.texi:1388 R-ints.texi:1428 R-ints.texi:1479 R-ints.texi:1480
 #, no-wrap
 msgid "Mechanics of S4 dispatch"
 msgstr ""
@@ -2551,9 +2355,7 @@ msgid ""
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1678
-#: R-ints.texi:1680
-#: R-ints.texi:1681
+#: R-ints.texi:1678 R-ints.texi:1680 R-ints.texi:1681
 #, no-wrap
 msgid "Internals of R_alloc"
 msgstr ""
@@ -2574,19 +2376,13 @@ msgid "This section notes known use by the system of these environments: the int
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1710
-#: R-ints.texi:1712
-#: R-ints.texi:1713
-#: R-ints.texi:1739
+#: R-ints.texi:1710 R-ints.texi:1712 R-ints.texi:1713 R-ints.texi:1739
 #, no-wrap
 msgid "Base environment"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1710
-#: R-ints.texi:1712
-#: R-ints.texi:1739
-#: R-ints.texi:1740
+#: R-ints.texi:1710 R-ints.texi:1712 R-ints.texi:1739 R-ints.texi:1740
 #, no-wrap
 msgid "Global environment"
 msgstr ""
@@ -2748,19 +2544,13 @@ msgid "visibility"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:1796
-#: R-ints.texi:1798
-#: R-ints.texi:1799
-#: R-ints.texi:1849
+#: R-ints.texi:1796 R-ints.texi:1798 R-ints.texi:1799 R-ints.texi:1849
 #, no-wrap
 msgid "Hiding C entry points"
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:1796
-#: R-ints.texi:1798
-#: R-ints.texi:1849
-#: R-ints.texi:1850
+#: R-ints.texi:1796 R-ints.texi:1798 R-ints.texi:1849 R-ints.texi:1850
 #, no-wrap
 msgid "Variables in Windows DLLs"
 msgstr ""
@@ -3176,39 +2966,27 @@ msgid "The net effect is that argument matching for primitives intended for end-
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2198
-#: R-ints.texi:2200
-#: R-ints.texi:2201
-#: R-ints.texi:2226
+#: R-ints.texi:2198 R-ints.texi:2200 R-ints.texi:2201 R-ints.texi:2226
 #, no-wrap
 msgid "Special primitives"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2198
-#: R-ints.texi:2200
-#: R-ints.texi:2226
-#: R-ints.texi:2227
+#: R-ints.texi:2198 R-ints.texi:2200 R-ints.texi:2226 R-ints.texi:2227
 #: R-ints.texi:2234
 #, no-wrap
 msgid "Special internals"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2198
-#: R-ints.texi:2226
-#: R-ints.texi:2234
-#: R-ints.texi:2235
+#: R-ints.texi:2198 R-ints.texi:2226 R-ints.texi:2234 R-ints.texi:2235
 #: R-ints.texi:2293
 #, no-wrap
 msgid "Prototypes for primitives"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2198
-#: R-ints.texi:2234
-#: R-ints.texi:2293
-#: R-ints.texi:2294
+#: R-ints.texi:2198 R-ints.texi:2234 R-ints.texi:2293 R-ints.texi:2294
 #, no-wrap
 msgid "Adding a primitive"
 msgstr ""
@@ -3332,49 +3110,34 @@ msgid "and the standard packages included with @R{} have (with an exception in @
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347
-#: R-ints.texi:2349
-#: R-ints.texi:2350
-#: R-ints.texi:2366
+#: R-ints.texi:2347 R-ints.texi:2349 R-ints.texi:2350 R-ints.texi:2366
 #, no-wrap
 msgid "R code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347
-#: R-ints.texi:2349
-#: R-ints.texi:2366
-#: R-ints.texi:2367
+#: R-ints.texi:2347 R-ints.texi:2349 R-ints.texi:2366 R-ints.texi:2367
 #: R-ints.texi:2412
 #, no-wrap
 msgid "Main C code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347
-#: R-ints.texi:2366
-#: R-ints.texi:2412
-#: R-ints.texi:2413
+#: R-ints.texi:2347 R-ints.texi:2366 R-ints.texi:2412 R-ints.texi:2413
 #: R-ints.texi:2442
 #, no-wrap
 msgid "Windows-GUI-specific code"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2347
-#: R-ints.texi:2412
-#: R-ints.texi:2442
-#: R-ints.texi:2443
+#: R-ints.texi:2347 R-ints.texi:2412 R-ints.texi:2442 R-ints.texi:2443
 #: R-ints.texi:2449
 #, no-wrap
 msgid "OS X GUI"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2347
-#: R-ints.texi:2442
-#: R-ints.texi:2449
-#: R-ints.texi:2450
+#: R-ints.texi:2347 R-ints.texi:2442 R-ints.texi:2449 R-ints.texi:2450
 #, no-wrap
 msgid "Updating"
 msgstr ""
@@ -3483,19 +3246,13 @@ msgid "Structure of an Installed Package"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2460
-#: R-ints.texi:2508
-#: R-ints.texi:2509
-#: R-ints.texi:2579
+#: R-ints.texi:2460 R-ints.texi:2508 R-ints.texi:2509 R-ints.texi:2579
 #, no-wrap
 msgid "Metadata"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2460
-#: R-ints.texi:2508
-#: R-ints.texi:2579
-#: R-ints.texi:2580
+#: R-ints.texi:2460 R-ints.texi:2508 R-ints.texi:2579 R-ints.texi:2580
 #, no-wrap
 msgid "Help"
 msgstr ""
@@ -3843,46 +3600,29 @@ msgid "Package @pkg{grDevices} was originally created to contain the basic graph
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2815
-#: R-ints.texi:2817
-#: R-ints.texi:2835
-#: R-ints.texi:2943
-#: R-ints.texi:2990
-#: R-ints.texi:3150
-#: R-ints.texi:3205
-#: R-ints.texi:3236
-#: R-ints.texi:3258
-#: R-ints.texi:3392
+#: R-ints.texi:2815 R-ints.texi:2817 R-ints.texi:2835 R-ints.texi:2943
+#: R-ints.texi:2990 R-ints.texi:3150 R-ints.texi:3205 R-ints.texi:3236
+#: R-ints.texi:3258 R-ints.texi:3392
 #, no-wrap
 msgid "Graphics devices"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2815
-#: R-ints.texi:2817
-#: R-ints.texi:3392
-#: R-ints.texi:3393
+#: R-ints.texi:2815 R-ints.texi:2817 R-ints.texi:3392 R-ints.texi:3393
 #: R-ints.texi:3481
 #, no-wrap
 msgid "Colours"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2815
-#: R-ints.texi:3392
-#: R-ints.texi:3481
-#: R-ints.texi:3482
-#: R-ints.texi:3533
-#: R-ints.texi:3573
+#: R-ints.texi:2815 R-ints.texi:3392 R-ints.texi:3481 R-ints.texi:3482
+#: R-ints.texi:3533 R-ints.texi:3573
 #, no-wrap
 msgid "Base graphics"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:2815
-#: R-ints.texi:3481
-#: R-ints.texi:3573
-#: R-ints.texi:3574
+#: R-ints.texi:2815 R-ints.texi:3481 R-ints.texi:3573 R-ints.texi:3574
 #, no-wrap
 msgid "Grid graphics"
 msgstr ""
@@ -3893,70 +3633,48 @@ msgid "@R{} ships with several graphics devices, and there is support for third-
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833
-#: R-ints.texi:2835
-#: R-ints.texi:2836
-#: R-ints.texi:2943
+#: R-ints.texi:2833 R-ints.texi:2835 R-ints.texi:2836 R-ints.texi:2943
 #, no-wrap
 msgid "Device structures"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833
-#: R-ints.texi:2835
-#: R-ints.texi:2943
-#: R-ints.texi:2944
+#: R-ints.texi:2833 R-ints.texi:2835 R-ints.texi:2943 R-ints.texi:2944
 #: R-ints.texi:2990
 #, no-wrap
 msgid "Device capabilities"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833
-#: R-ints.texi:2943
-#: R-ints.texi:2990
-#: R-ints.texi:2991
+#: R-ints.texi:2833 R-ints.texi:2943 R-ints.texi:2990 R-ints.texi:2991
 #: R-ints.texi:3150
 #, no-wrap
 msgid "Handling text"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833
-#: R-ints.texi:2990
-#: R-ints.texi:3150
-#: R-ints.texi:3151
+#: R-ints.texi:2833 R-ints.texi:2990 R-ints.texi:3150 R-ints.texi:3151
 #: R-ints.texi:3205
 #, no-wrap
 msgid "Conventions"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833
-#: R-ints.texi:3150
-#: R-ints.texi:3205
-#: R-ints.texi:3236
+#: R-ints.texi:2833 R-ints.texi:3150 R-ints.texi:3205 R-ints.texi:3236
 #, no-wrap
 msgid "'Mode'"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833
-#: R-ints.texi:3205
-#: R-ints.texi:3236
-#: R-ints.texi:3237
+#: R-ints.texi:2833 R-ints.texi:3205 R-ints.texi:3236 R-ints.texi:3237
 #: R-ints.texi:3258
 #, no-wrap
 msgid "Graphics events"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:2833
-#: R-ints.texi:3236
-#: R-ints.texi:3258
-#: R-ints.texi:3259
-#: R-ints.texi:3271
-#: R-ints.texi:3317
+#: R-ints.texi:2833 R-ints.texi:3236 R-ints.texi:3258 R-ints.texi:3259
+#: R-ints.texi:3271 R-ints.texi:3317
 #, no-wrap
 msgid "Specific devices"
 msgstr ""
@@ -4496,19 +4214,13 @@ msgid "Specific devices are mostly documented by comments in their sources, alth
 msgstr ""
 
 #. type: node
-#: R-ints.texi:3269
-#: R-ints.texi:3271
-#: R-ints.texi:3272
-#: R-ints.texi:3317
+#: R-ints.texi:3269 R-ints.texi:3271 R-ints.texi:3272 R-ints.texi:3317
 #, no-wrap
 msgid "X11()"
 msgstr ""
 
 #. type: subsubsection
-#: R-ints.texi:3269
-#: R-ints.texi:3271
-#: R-ints.texi:3317
-#: R-ints.texi:3318
+#: R-ints.texi:3269 R-ints.texi:3271 R-ints.texi:3317 R-ints.texi:3318
 #, no-wrap
 msgid "windows()"
 msgstr ""
@@ -4699,9 +4411,7 @@ msgid "Snapshots of the base subsystem record the `saved device copy' of the @co
 msgstr ""
 
 #. type: subsection
-#: R-ints.texi:3531
-#: R-ints.texi:3533
-#: R-ints.texi:3534
+#: R-ints.texi:3531 R-ints.texi:3533 R-ints.texi:3534
 #, no-wrap
 msgid "Arguments and parameters"
 msgstr ""
@@ -4757,9 +4467,7 @@ msgid "However, the main way to run a GUI console is to launch a separate progra
 msgstr ""
 
 #. type: section
-#: R-ints.texi:3602
-#: R-ints.texi:3604
-#: R-ints.texi:3605
+#: R-ints.texi:3602 R-ints.texi:3604 R-ints.texi:3605
 #, no-wrap
 msgid "R.app"
 msgstr ""
@@ -5872,29 +5580,20 @@ msgid "This chapter is for notes about possible in-progress and future changes t
 msgstr ""
 
 #. type: node
-#: R-ints.texi:4332
-#: R-ints.texi:4334
-#: R-ints.texi:4335
-#: R-ints.texi:4407
+#: R-ints.texi:4332 R-ints.texi:4334 R-ints.texi:4335 R-ints.texi:4407
 #, no-wrap
 msgid "Long vectors"
 msgstr ""
 
 #. type: node
-#: R-ints.texi:4332
-#: R-ints.texi:4334
-#: R-ints.texi:4407
-#: R-ints.texi:4408
+#: R-ints.texi:4332 R-ints.texi:4334 R-ints.texi:4407 R-ints.texi:4408
 #: R-ints.texi:4459
 #, no-wrap
 msgid "64-bit types"
 msgstr ""
 
 #. type: section
-#: R-ints.texi:4332
-#: R-ints.texi:4407
-#: R-ints.texi:4459
-#: R-ints.texi:4460
+#: R-ints.texi:4332 R-ints.texi:4407 R-ints.texi:4459 R-ints.texi:4460
 #, no-wrap
 msgid "Large matrices"
 msgstr ""

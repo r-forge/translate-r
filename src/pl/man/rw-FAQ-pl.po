@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the translate.R package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-07-27 11:37-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-07-28 15:27+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl_PL\n"
@@ -18,13 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: title
-#: rw-FAQ.texi:4
-#: rw-FAQ.texi:26
+#: rw-FAQ.texi:4 rw-FAQ.texi:26
 #, no-wrap
 msgid "R for Windows FAQ"
-msgstr "R dla Windows FAQ (Polish)"
+msgstr "FAQ dla R w systemie Windows"
 
 #. type: Plain text
 #: rw-FAQ.texi:11
@@ -70,25 +70,15 @@ msgid "@paragraphindent 0"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:58
-#: rw-FAQ.texi:73
-#: rw-FAQ.texi:88
-#: rw-FAQ.texi:916
-#: rw-FAQ.texi:1072
-#: rw-FAQ.texi:1409
-#: rw-FAQ.texi:1556
-#: rw-FAQ.texi:1605
+#: rw-FAQ.texi:58 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916
+#: rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1605
 #: rw-FAQ.texi:1641
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:58
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:73
-#: rw-FAQ.texi:74
-#: rw-FAQ.texi:88
+#: rw-FAQ.texi:58 rw-FAQ.texi:69 rw-FAQ.texi:73 rw-FAQ.texi:74 rw-FAQ.texi:88
 #, no-wrap
 msgid "Introduction"
 msgstr ""
@@ -100,153 +90,70 @@ msgid "(dir)"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:73
-#: rw-FAQ.texi:88
-#: rw-FAQ.texi:89
-#: rw-FAQ.texi:125
-#: rw-FAQ.texi:140
-#: rw-FAQ.texi:200
-#: rw-FAQ.texi:205
-#: rw-FAQ.texi:248
-#: rw-FAQ.texi:265
-#: rw-FAQ.texi:279
-#: rw-FAQ.texi:295
-#: rw-FAQ.texi:314
-#: rw-FAQ.texi:345
-#: rw-FAQ.texi:358
-#: rw-FAQ.texi:383
-#: rw-FAQ.texi:400
-#: rw-FAQ.texi:410
-#: rw-FAQ.texi:433
-#: rw-FAQ.texi:475
-#: rw-FAQ.texi:500
-#: rw-FAQ.texi:536
-#: rw-FAQ.texi:543
-#: rw-FAQ.texi:578
-#: rw-FAQ.texi:588
-#: rw-FAQ.texi:603
-#: rw-FAQ.texi:623
-#: rw-FAQ.texi:638
-#: rw-FAQ.texi:740
-#: rw-FAQ.texi:785
-#: rw-FAQ.texi:802
-#: rw-FAQ.texi:818
-#: rw-FAQ.texi:851
-#: rw-FAQ.texi:868
-#: rw-FAQ.texi:916
+#: rw-FAQ.texi:69 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:89 rw-FAQ.texi:125
+#: rw-FAQ.texi:140 rw-FAQ.texi:200 rw-FAQ.texi:205 rw-FAQ.texi:248
+#: rw-FAQ.texi:265 rw-FAQ.texi:279 rw-FAQ.texi:295 rw-FAQ.texi:314
+#: rw-FAQ.texi:345 rw-FAQ.texi:358 rw-FAQ.texi:383 rw-FAQ.texi:400
+#: rw-FAQ.texi:410 rw-FAQ.texi:433 rw-FAQ.texi:475 rw-FAQ.texi:500
+#: rw-FAQ.texi:536 rw-FAQ.texi:543 rw-FAQ.texi:578 rw-FAQ.texi:588
+#: rw-FAQ.texi:603 rw-FAQ.texi:623 rw-FAQ.texi:638 rw-FAQ.texi:740
+#: rw-FAQ.texi:785 rw-FAQ.texi:802 rw-FAQ.texi:818 rw-FAQ.texi:851
+#: rw-FAQ.texi:868 rw-FAQ.texi:916
 #, no-wrap
 msgid "Installation and Usage"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:88
-#: rw-FAQ.texi:916
-#: rw-FAQ.texi:917
-#: rw-FAQ.texi:929
-#: rw-FAQ.texi:956
-#: rw-FAQ.texi:968
-#: rw-FAQ.texi:1005
-#: rw-FAQ.texi:1019
-#: rw-FAQ.texi:1042
-#: rw-FAQ.texi:1055
-#: rw-FAQ.texi:1072
+#: rw-FAQ.texi:69 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:917
+#: rw-FAQ.texi:929 rw-FAQ.texi:956 rw-FAQ.texi:968 rw-FAQ.texi:1005
+#: rw-FAQ.texi:1019 rw-FAQ.texi:1042 rw-FAQ.texi:1055 rw-FAQ.texi:1072
 #, no-wrap
 msgid "Languages and Internationalization"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:916
-#: rw-FAQ.texi:1072
-#: rw-FAQ.texi:1073
-#: rw-FAQ.texi:1095
-#: rw-FAQ.texi:1139
-#: rw-FAQ.texi:1184
-#: rw-FAQ.texi:1191
-#: rw-FAQ.texi:1198
-#: rw-FAQ.texi:1217
-#: rw-FAQ.texi:1250
-#: rw-FAQ.texi:1258
-#: rw-FAQ.texi:1275
-#: rw-FAQ.texi:1285
-#: rw-FAQ.texi:1291
-#: rw-FAQ.texi:1323
-#: rw-FAQ.texi:1346
-#: rw-FAQ.texi:1367
-#: rw-FAQ.texi:1378
-#: rw-FAQ.texi:1409
+#: rw-FAQ.texi:69 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1073
+#: rw-FAQ.texi:1095 rw-FAQ.texi:1139 rw-FAQ.texi:1184 rw-FAQ.texi:1191
+#: rw-FAQ.texi:1198 rw-FAQ.texi:1217 rw-FAQ.texi:1250 rw-FAQ.texi:1258
+#: rw-FAQ.texi:1275 rw-FAQ.texi:1285 rw-FAQ.texi:1291 rw-FAQ.texi:1323
+#: rw-FAQ.texi:1346 rw-FAQ.texi:1367 rw-FAQ.texi:1378 rw-FAQ.texi:1409
 #, no-wrap
 msgid "Packages"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:1072
-#: rw-FAQ.texi:1409
-#: rw-FAQ.texi:1410
-#: rw-FAQ.texi:1421
-#: rw-FAQ.texi:1444
-#: rw-FAQ.texi:1483
-#: rw-FAQ.texi:1502
-#: rw-FAQ.texi:1516
-#: rw-FAQ.texi:1556
+#: rw-FAQ.texi:69 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1410
+#: rw-FAQ.texi:1421 rw-FAQ.texi:1444 rw-FAQ.texi:1483 rw-FAQ.texi:1502
+#: rw-FAQ.texi:1516 rw-FAQ.texi:1556
 #, no-wrap
 msgid "Windows Features"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:1409
-#: rw-FAQ.texi:1556
-#: rw-FAQ.texi:1557
-#: rw-FAQ.texi:1567
-#: rw-FAQ.texi:1573
-#: rw-FAQ.texi:1585
-#: rw-FAQ.texi:1605
+#: rw-FAQ.texi:69 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1557
+#: rw-FAQ.texi:1567 rw-FAQ.texi:1573 rw-FAQ.texi:1585 rw-FAQ.texi:1605
 #, no-wrap
 msgid "Workspaces"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:1556
-#: rw-FAQ.texi:1605
-#: rw-FAQ.texi:1606
-#: rw-FAQ.texi:1617
-#: rw-FAQ.texi:1630
-#: rw-FAQ.texi:1641
+#: rw-FAQ.texi:69 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1606
+#: rw-FAQ.texi:1617 rw-FAQ.texi:1630 rw-FAQ.texi:1641
 #, no-wrap
 msgid "The R Console"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69
-#: rw-FAQ.texi:1605
-#: rw-FAQ.texi:1641
-#: rw-FAQ.texi:1642
-#: rw-FAQ.texi:1656
-#: rw-FAQ.texi:1662
-#: rw-FAQ.texi:1699
-#: rw-FAQ.texi:1719
-#: rw-FAQ.texi:1807
-#: rw-FAQ.texi:1841
-#: rw-FAQ.texi:1855
-#: rw-FAQ.texi:1868
+#: rw-FAQ.texi:69 rw-FAQ.texi:1605 rw-FAQ.texi:1641 rw-FAQ.texi:1642
+#: rw-FAQ.texi:1656 rw-FAQ.texi:1662 rw-FAQ.texi:1699 rw-FAQ.texi:1719
+#: rw-FAQ.texi:1807 rw-FAQ.texi:1841 rw-FAQ.texi:1855 rw-FAQ.texi:1868
 #, no-wrap
 msgid "Building from Source"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:73
-#: rw-FAQ.texi:88
-#: rw-FAQ.texi:916
-#: rw-FAQ.texi:1072
-#: rw-FAQ.texi:1409
-#: rw-FAQ.texi:1556
-#: rw-FAQ.texi:1605
-#: rw-FAQ.texi:1641
+#: rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:1072
+#: rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1641
 msgid "@newchap{}"
 msgstr ""
 
@@ -267,118 +174,82 @@ msgid "The information here applies only to recent versions of R for Windows, (@
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:125
-#: rw-FAQ.texi:126
-#: rw-FAQ.texi:140
+#: rw-FAQ.texi:122 rw-FAQ.texi:125 rw-FAQ.texi:126 rw-FAQ.texi:140
 #, no-wrap
 msgid "Where can I find the latest version?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:125
-#: rw-FAQ.texi:140
-#: rw-FAQ.texi:141
+#: rw-FAQ.texi:122 rw-FAQ.texi:125 rw-FAQ.texi:140 rw-FAQ.texi:141
 #: rw-FAQ.texi:200
 #, no-wrap
 msgid "How do I install R for Windows?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:140
-#: rw-FAQ.texi:200
-#: rw-FAQ.texi:205
+#: rw-FAQ.texi:122 rw-FAQ.texi:140 rw-FAQ.texi:200 rw-FAQ.texi:205
 #, no-wrap
 msgid "How do I check an installation?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:200
-#: rw-FAQ.texi:205
-#: rw-FAQ.texi:206
+#: rw-FAQ.texi:122 rw-FAQ.texi:200 rw-FAQ.texi:205 rw-FAQ.texi:206
 #: rw-FAQ.texi:248
 #, no-wrap
 msgid "Can I customize the installation?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:205
-#: rw-FAQ.texi:248
-#: rw-FAQ.texi:249
+#: rw-FAQ.texi:122 rw-FAQ.texi:205 rw-FAQ.texi:248 rw-FAQ.texi:249
 #: rw-FAQ.texi:265
 #, no-wrap
 msgid "How do I run it?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:248
-#: rw-FAQ.texi:265
-#: rw-FAQ.texi:266
+#: rw-FAQ.texi:122 rw-FAQ.texi:248 rw-FAQ.texi:265 rw-FAQ.texi:266
 #: rw-FAQ.texi:279
 #, no-wrap
 msgid "Can I run R from a CD or USB drive?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:265
-#: rw-FAQ.texi:279
-#: rw-FAQ.texi:280
+#: rw-FAQ.texi:122 rw-FAQ.texi:265 rw-FAQ.texi:279 rw-FAQ.texi:280
 #: rw-FAQ.texi:295
 #, no-wrap
 msgid "How do I UNinstall R?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:279
-#: rw-FAQ.texi:295
-#: rw-FAQ.texi:296
+#: rw-FAQ.texi:122 rw-FAQ.texi:279 rw-FAQ.texi:295 rw-FAQ.texi:296
 #: rw-FAQ.texi:314
 #, no-wrap
 msgid "What's the best way to upgrade?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:295
-#: rw-FAQ.texi:314
-#: rw-FAQ.texi:315
+#: rw-FAQ.texi:122 rw-FAQ.texi:295 rw-FAQ.texi:314 rw-FAQ.texi:315
 #: rw-FAQ.texi:345
 #, no-wrap
 msgid "There seems to be a limit on the memory it uses!"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:314
-#: rw-FAQ.texi:345
-#: rw-FAQ.texi:346
+#: rw-FAQ.texi:122 rw-FAQ.texi:314 rw-FAQ.texi:345 rw-FAQ.texi:346
 #: rw-FAQ.texi:358
 #, no-wrap
 msgid "How can I keep workspaces for different projects in different directories?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:345
-#: rw-FAQ.texi:358
-#: rw-FAQ.texi:359
+#: rw-FAQ.texi:122 rw-FAQ.texi:345 rw-FAQ.texi:358 rw-FAQ.texi:359
 #: rw-FAQ.texi:383
 #, no-wrap
 msgid "How do I print from R?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:358
-#: rw-FAQ.texi:383
-#: rw-FAQ.texi:400
+#: rw-FAQ.texi:122 rw-FAQ.texi:358 rw-FAQ.texi:383 rw-FAQ.texi:400
 #, no-wrap
 msgid "Can I use R CMD BATCH?"
 msgstr ""
@@ -389,165 +260,114 @@ msgid "Can I use 3.3.0 with ESS and Emacs?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:400
-#: rw-FAQ.texi:410
-#: rw-FAQ.texi:411
+#: rw-FAQ.texi:122 rw-FAQ.texi:400 rw-FAQ.texi:410 rw-FAQ.texi:411
 #: rw-FAQ.texi:433
 #, no-wrap
 msgid "What are HOME and working directories?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:410
-#: rw-FAQ.texi:433
-#: rw-FAQ.texi:434
+#: rw-FAQ.texi:122 rw-FAQ.texi:410 rw-FAQ.texi:433 rw-FAQ.texi:434
 #: rw-FAQ.texi:475
 #, no-wrap
 msgid "How do I set environment variables?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:433
-#: rw-FAQ.texi:475
-#: rw-FAQ.texi:500
+#: rw-FAQ.texi:122 rw-FAQ.texi:433 rw-FAQ.texi:475 rw-FAQ.texi:500
 #, no-wrap
 msgid "R can't find my file"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:475
-#: rw-FAQ.texi:500
-#: rw-FAQ.texi:501
+#: rw-FAQ.texi:122 rw-FAQ.texi:475 rw-FAQ.texi:500 rw-FAQ.texi:501
 #: rw-FAQ.texi:536
 #, no-wrap
 msgid "Does R use the Registry?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:500
-#: rw-FAQ.texi:536
-#: rw-FAQ.texi:543
+#: rw-FAQ.texi:122 rw-FAQ.texi:500 rw-FAQ.texi:536 rw-FAQ.texi:543
 #, no-wrap
 msgid "Does R support automation?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:536
-#: rw-FAQ.texi:543
-#: rw-FAQ.texi:544
+#: rw-FAQ.texi:122 rw-FAQ.texi:536 rw-FAQ.texi:543 rw-FAQ.texi:544
 #: rw-FAQ.texi:578
 #, no-wrap
 msgid "The Internet download functions fail."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:543
-#: rw-FAQ.texi:578
-#: rw-FAQ.texi:579
+#: rw-FAQ.texi:122 rw-FAQ.texi:543 rw-FAQ.texi:578 rw-FAQ.texi:579
 #: rw-FAQ.texi:588
 #, no-wrap
 msgid "Entering certain characters crashes Rgui."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:578
-#: rw-FAQ.texi:588
-#: rw-FAQ.texi:589
+#: rw-FAQ.texi:122 rw-FAQ.texi:578 rw-FAQ.texi:588 rw-FAQ.texi:589
 #: rw-FAQ.texi:603
 #, no-wrap
 msgid "What does 'DLL attempted to change FPU control word' mean?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:588
-#: rw-FAQ.texi:603
-#: rw-FAQ.texi:604
+#: rw-FAQ.texi:122 rw-FAQ.texi:588 rw-FAQ.texi:603 rw-FAQ.texi:604
 #: rw-FAQ.texi:623
 #, no-wrap
 msgid "Other strange crashes."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:603
-#: rw-FAQ.texi:623
-#: rw-FAQ.texi:624
+#: rw-FAQ.texi:122 rw-FAQ.texi:603 rw-FAQ.texi:623 rw-FAQ.texi:624
 #: rw-FAQ.texi:638
 #, no-wrap
 msgid "Why does R never use more than 50% of my CPU?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:623
-#: rw-FAQ.texi:638
-#: rw-FAQ.texi:740
+#: rw-FAQ.texi:122 rw-FAQ.texi:623 rw-FAQ.texi:638 rw-FAQ.texi:740
 #, no-wrap
 msgid "Does R run under Windows Vista?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:638
-#: rw-FAQ.texi:740
-#: rw-FAQ.texi:785
+#: rw-FAQ.texi:122 rw-FAQ.texi:638 rw-FAQ.texi:740 rw-FAQ.texi:785
 #, no-wrap
 msgid "Quotes don't come out right on the console/terminal/pager"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:740
-#: rw-FAQ.texi:785
-#: rw-FAQ.texi:802
+#: rw-FAQ.texi:122 rw-FAQ.texi:740 rw-FAQ.texi:785 rw-FAQ.texi:802
 #, no-wrap
 msgid "There is no tilde on my keyboard"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:785
-#: rw-FAQ.texi:802
-#: rw-FAQ.texi:803
+#: rw-FAQ.texi:122 rw-FAQ.texi:785 rw-FAQ.texi:802 rw-FAQ.texi:803
 #: rw-FAQ.texi:818
 #, no-wrap
 msgid "Can I use R on 64-bit Windows?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:802
-#: rw-FAQ.texi:818
-#: rw-FAQ.texi:819
+#: rw-FAQ.texi:122 rw-FAQ.texi:802 rw-FAQ.texi:818 rw-FAQ.texi:819
 #: rw-FAQ.texi:851
 #, no-wrap
 msgid "Should I run 32-bit or 64-bit R?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:818
-#: rw-FAQ.texi:851
-#: rw-FAQ.texi:852
+#: rw-FAQ.texi:122 rw-FAQ.texi:818 rw-FAQ.texi:851 rw-FAQ.texi:852
 #: rw-FAQ.texi:868
 #, no-wrap
 msgid "Can both 32- and 64-bit R be installed on the same machine?"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:122
-#: rw-FAQ.texi:851
-#: rw-FAQ.texi:868
-#: rw-FAQ.texi:869
+#: rw-FAQ.texi:122 rw-FAQ.texi:851 rw-FAQ.texi:868 rw-FAQ.texi:869
 #, no-wrap
 msgid "Rcmd is not found in my PATH!"
 msgstr ""
@@ -826,10 +646,7 @@ msgid "If you have LaTeX installed and a PDF printing system you can print help 
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:383
-#: rw-FAQ.texi:400
-#: rw-FAQ.texi:401
-#: rw-FAQ.texi:410
+#: rw-FAQ.texi:383 rw-FAQ.texi:400 rw-FAQ.texi:401 rw-FAQ.texi:410
 #, no-wrap
 msgid "Can I use 3.3.0  with ESS and Emacs?"
 msgstr ""
@@ -1344,62 +1161,43 @@ msgid "CMD /K setpath.bat\n"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927
-#: rw-FAQ.texi:929
-#: rw-FAQ.texi:956
+#: rw-FAQ.texi:927 rw-FAQ.texi:929 rw-FAQ.texi:956
 #, no-wrap
 msgid "The installer does not offer my language"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927
-#: rw-FAQ.texi:929
-#: rw-FAQ.texi:956
-#: rw-FAQ.texi:968
+#: rw-FAQ.texi:927 rw-FAQ.texi:929 rw-FAQ.texi:956 rw-FAQ.texi:968
 #, no-wrap
 msgid "I want R in English!"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927
-#: rw-FAQ.texi:956
-#: rw-FAQ.texi:968
-#: rw-FAQ.texi:1005
+#: rw-FAQ.texi:927 rw-FAQ.texi:956 rw-FAQ.texi:968 rw-FAQ.texi:1005
 #, no-wrap
 msgid "I want to run R in Chinese/Japanese/Korean"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927
-#: rw-FAQ.texi:968
-#: rw-FAQ.texi:1005
-#: rw-FAQ.texi:1019
+#: rw-FAQ.texi:927 rw-FAQ.texi:968 rw-FAQ.texi:1005 rw-FAQ.texi:1019
 #, no-wrap
 msgid "I selected English for installation but R runs in Chinese"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927
-#: rw-FAQ.texi:1005
-#: rw-FAQ.texi:1019
-#: rw-FAQ.texi:1042
+#: rw-FAQ.texi:927 rw-FAQ.texi:1005 rw-FAQ.texi:1019 rw-FAQ.texi:1042
 #, no-wrap
 msgid "I would like to be able to use Japanese fonts"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927
-#: rw-FAQ.texi:1019
-#: rw-FAQ.texi:1042
-#: rw-FAQ.texi:1055
+#: rw-FAQ.texi:927 rw-FAQ.texi:1019 rw-FAQ.texi:1042 rw-FAQ.texi:1055
 #, no-wrap
 msgid "I don't see characters with accents at the R console"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927
-#: rw-FAQ.texi:1042
-#: rw-FAQ.texi:1055
+#: rw-FAQ.texi:927 rw-FAQ.texi:1042 rw-FAQ.texi:1055
 #, no-wrap
 msgid "The dialog buttons are not translated"
 msgstr ""
@@ -1537,145 +1335,100 @@ msgid "If you have Windows running completely in say French or Chinese these set
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1095
-#: rw-FAQ.texi:1096
-#: rw-FAQ.texi:1139
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1095 rw-FAQ.texi:1096 rw-FAQ.texi:1139
 #, no-wrap
 msgid "Can I install packages into libraries in this version?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1095
-#: rw-FAQ.texi:1139
-#: rw-FAQ.texi:1184
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1095 rw-FAQ.texi:1139 rw-FAQ.texi:1184
 #, no-wrap
 msgid "I don't have permission to write to the 3.3.0 \\library directory"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1139
-#: rw-FAQ.texi:1184
-#: rw-FAQ.texi:1191
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1139 rw-FAQ.texi:1184 rw-FAQ.texi:1191
 #, no-wrap
 msgid "The packages I installed do not appear in the HTML help system"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1184
-#: rw-FAQ.texi:1191
-#: rw-FAQ.texi:1192
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1184 rw-FAQ.texi:1191 rw-FAQ.texi:1192
 #: rw-FAQ.texi:1198
 #, no-wrap
 msgid "My functions are not found by the HTML help search system."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1191
-#: rw-FAQ.texi:1198
-#: rw-FAQ.texi:1199
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1191 rw-FAQ.texi:1198 rw-FAQ.texi:1199
 #: rw-FAQ.texi:1217
 #, no-wrap
 msgid "Loading a package fails."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1198
-#: rw-FAQ.texi:1217
-#: rw-FAQ.texi:1218
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1198 rw-FAQ.texi:1217 rw-FAQ.texi:1218
 #: rw-FAQ.texi:1250
 #, no-wrap
 msgid "Package TclTk does not work."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1217
-#: rw-FAQ.texi:1250
-#: rw-FAQ.texi:1258
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1217 rw-FAQ.texi:1250 rw-FAQ.texi:1258
 #, no-wrap
 msgid "Hyperlinks in HTML do not work."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1250
-#: rw-FAQ.texi:1258
-#: rw-FAQ.texi:1275
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1250 rw-FAQ.texi:1258 rw-FAQ.texi:1275
 #, no-wrap
 msgid "update.packages() fails"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1258
-#: rw-FAQ.texi:1275
-#: rw-FAQ.texi:1276
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1258 rw-FAQ.texi:1275 rw-FAQ.texi:1276
 #: rw-FAQ.texi:1285
 #, no-wrap
 msgid "How do I add to the list of repositories?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1275
-#: rw-FAQ.texi:1285
-#: rw-FAQ.texi:1286
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1275 rw-FAQ.texi:1285 rw-FAQ.texi:1286
 #: rw-FAQ.texi:1291
 #, no-wrap
 msgid "Help is not shown for some of the packages"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1285
-#: rw-FAQ.texi:1291
-#: rw-FAQ.texi:1292
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1285 rw-FAQ.texi:1291 rw-FAQ.texi:1292
 #: rw-FAQ.texi:1323
 #, no-wrap
 msgid "How do I get static HTML pages?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1291
-#: rw-FAQ.texi:1323
-#: rw-FAQ.texi:1324
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1291 rw-FAQ.texi:1323 rw-FAQ.texi:1324
 #: rw-FAQ.texi:1346
 #, no-wrap
 msgid "How can I get a binary version of a package?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1323
-#: rw-FAQ.texi:1346
-#: rw-FAQ.texi:1347
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1323 rw-FAQ.texi:1346 rw-FAQ.texi:1347
 #: rw-FAQ.texi:1367
 #, no-wrap
 msgid "Package xxx is out of date for Windows"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1346
-#: rw-FAQ.texi:1367
-#: rw-FAQ.texi:1368
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1346 rw-FAQ.texi:1367 rw-FAQ.texi:1368
 #: rw-FAQ.texi:1378
 #, no-wrap
 msgid "No binary packages appear to be available for my version of R"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1092
-#: rw-FAQ.texi:1367
-#: rw-FAQ.texi:1378
-#: rw-FAQ.texi:1379
+#: rw-FAQ.texi:1092 rw-FAQ.texi:1367 rw-FAQ.texi:1378 rw-FAQ.texi:1379
 #, no-wrap
 msgid "How do I build my package for both 32- and 64-bit R?"
 msgstr ""
@@ -1983,46 +1736,32 @@ msgid "Finally, a package without a @code{src/Makefile.win} file and no or empty
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418
-#: rw-FAQ.texi:1421
-#: rw-FAQ.texi:1444
+#: rw-FAQ.texi:1418 rw-FAQ.texi:1421 rw-FAQ.texi:1444
 #, no-wrap
 msgid "What should I expect to behave differently from the Unix version"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418
-#: rw-FAQ.texi:1421
-#: rw-FAQ.texi:1444
-#: rw-FAQ.texi:1483
+#: rw-FAQ.texi:1418 rw-FAQ.texi:1421 rw-FAQ.texi:1444 rw-FAQ.texi:1483
 #, no-wrap
 msgid "I hear about some nifty features."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418
-#: rw-FAQ.texi:1444
-#: rw-FAQ.texi:1483
-#: rw-FAQ.texi:1502
+#: rw-FAQ.texi:1418 rw-FAQ.texi:1444 rw-FAQ.texi:1483 rw-FAQ.texi:1502
 #, no-wrap
 msgid "Circles appear as ovals on screen"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418
-#: rw-FAQ.texi:1483
-#: rw-FAQ.texi:1502
-#: rw-FAQ.texi:1503
+#: rw-FAQ.texi:1418 rw-FAQ.texi:1483 rw-FAQ.texi:1502 rw-FAQ.texi:1503
 #: rw-FAQ.texi:1516
 #, no-wrap
 msgid "How do I move focus to a graphics window or the console?"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1418
-#: rw-FAQ.texi:1502
-#: rw-FAQ.texi:1516
-#: rw-FAQ.texi:1517
+#: rw-FAQ.texi:1418 rw-FAQ.texi:1502 rw-FAQ.texi:1516 rw-FAQ.texi:1517
 #, no-wrap
 msgid "What does TAB completion do?"
 msgstr ""
@@ -2164,27 +1903,20 @@ msgid "This feature is very similar to the completion available in the @code{rea
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1564
-#: rw-FAQ.texi:1567
-#: rw-FAQ.texi:1573
+#: rw-FAQ.texi:1564 rw-FAQ.texi:1567 rw-FAQ.texi:1573
 #, no-wrap
 msgid "My workspace gets saved in a strange place.  How do I stop this?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1564
-#: rw-FAQ.texi:1567
-#: rw-FAQ.texi:1573
-#: rw-FAQ.texi:1574
+#: rw-FAQ.texi:1564 rw-FAQ.texi:1567 rw-FAQ.texi:1573 rw-FAQ.texi:1574
 #: rw-FAQ.texi:1585
 #, no-wrap
 msgid "How do I store my workspace in a different place?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1564
-#: rw-FAQ.texi:1573
-#: rw-FAQ.texi:1585
+#: rw-FAQ.texi:1564 rw-FAQ.texi:1573 rw-FAQ.texi:1585
 #, no-wrap
 msgid "Can I load workspaces saved under Unix/GNU-Linux or OS X?"
 msgstr ""
@@ -2232,17 +1964,13 @@ msgid "It is possible to save references to package namespaces when saving the w
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1612
-#: rw-FAQ.texi:1617
-#: rw-FAQ.texi:1630
+#: rw-FAQ.texi:1612 rw-FAQ.texi:1617 rw-FAQ.texi:1630
 #, no-wrap
 msgid "The output to the console seems to be delayed"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1612
-#: rw-FAQ.texi:1617
-#: rw-FAQ.texi:1630
+#: rw-FAQ.texi:1612 rw-FAQ.texi:1617 rw-FAQ.texi:1630
 #, no-wrap
 msgid "Long lines seem to be truncated."
 msgstr ""
@@ -2275,76 +2003,53 @@ msgid "They only @strong{seem} to be truncated: that $ at the end indicates you 
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1656
-#: rw-FAQ.texi:1657
-#: rw-FAQ.texi:1662
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1656 rw-FAQ.texi:1657 rw-FAQ.texi:1662
 #, no-wrap
 msgid "How can I compile R from source?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1656
-#: rw-FAQ.texi:1662
-#: rw-FAQ.texi:1663
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1656 rw-FAQ.texi:1662 rw-FAQ.texi:1663
 #: rw-FAQ.texi:1699
 #, no-wrap
 msgid "Can I use a fast BLAS?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1662
-#: rw-FAQ.texi:1699
-#: rw-FAQ.texi:1700
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1662 rw-FAQ.texi:1699 rw-FAQ.texi:1700
 #: rw-FAQ.texi:1719
 #, no-wrap
 msgid "How do I include compiled C code?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1699
-#: rw-FAQ.texi:1719
-#: rw-FAQ.texi:1720
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1699 rw-FAQ.texi:1719 rw-FAQ.texi:1720
 #: rw-FAQ.texi:1807
 #, no-wrap
 msgid "How do I debug code that I have compiled and dyn.load-ed?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1719
-#: rw-FAQ.texi:1807
-#: rw-FAQ.texi:1808
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1719 rw-FAQ.texi:1807 rw-FAQ.texi:1808
 #: rw-FAQ.texi:1841
 #, no-wrap
 msgid "How do I include C++ code?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1807
-#: rw-FAQ.texi:1841
-#: rw-FAQ.texi:1855
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1807 rw-FAQ.texi:1841 rw-FAQ.texi:1855
 #, no-wrap
 msgid "The output from my C code disappears."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1841
-#: rw-FAQ.texi:1855
-#: rw-FAQ.texi:1868
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1841 rw-FAQ.texi:1855 rw-FAQ.texi:1868
 #, no-wrap
 msgid "The output from my Fortran code disappears."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653
-#: rw-FAQ.texi:1855
-#: rw-FAQ.texi:1868
+#: rw-FAQ.texi:1653 rw-FAQ.texi:1855 rw-FAQ.texi:1868
 #, no-wrap
 msgid "The console freezes when my compiled code is running"
 msgstr ""
@@ -2383,7 +2088,7 @@ msgstr ""
 #: rw-FAQ.texi:1708
 #, no-wrap
 msgid "...\\bin\\x64\\R CMD SHLIB foo.c bar.f\n"
-msgstr ""
+msgstr "...\\bin\\x64\\R CMD SHLIB foo.c bar.f\n"
 
 #. type: Plain text
 #: rw-FAQ.texi:1713
@@ -2412,6 +2117,8 @@ msgid ""
 "make clean\n"
 "make DEBUG=T\n"
 msgstr ""
+"make clean\n"
+"make DEBUG=T\n"
 
 #. type: Plain text
 #: rw-FAQ.texi:1738
@@ -2422,7 +2129,7 @@ msgstr ""
 #: rw-FAQ.texi:1741
 #, no-wrap
 msgid "Rcmd INSTALL --debug mypkg\n"
-msgstr ""
+msgstr "Rcmd INSTALL --debug mypkg\n"
 
 #. type: Plain text
 #: rw-FAQ.texi:1746
@@ -2433,7 +2140,7 @@ msgstr ""
 #: rw-FAQ.texi:1749
 #, no-wrap
 msgid "gdb /path/to/3.3.0 /bin/x64/Rgui.exe\n"
-msgstr ""
+msgstr "gdb /path/to/3.3.0 /bin/x64/Rgui.exe\n"
 
 #. type: Plain text
 #: rw-FAQ.texi:1753
@@ -2469,6 +2176,20 @@ msgid ""
 "     Rconsole> example(line)\n"
 "     ...\n"
 msgstr ""
+"     gdb ../../../../bin/i386/Rgui.exe\n"
+"     (gdb) break WinMain\n"
+"     (gdb) run\n"
+"     [ stops with R.dll loaded ]\n"
+"     (gdb) break R_ReadConsole\n"
+"     (gdb) continue\n"
+"     [ stops with console running ]\n"
+"     (gdb) continue\n"
+"     Rconsole> library(stats)\n"
+"     (gdb) break tukeyline\n"
+"     (gdb) clear R_ReadConsole\n"
+"     (gdb) continue\n"
+"     Rconsole> example(line)\n"
+"     ...\n"
 
 #. type: itemize
 #: rw-FAQ.texi:1790
@@ -2509,7 +2230,7 @@ msgstr ""
 #: rw-FAQ.texi:1822
 #, no-wrap
 msgid "...\\bin\\x64\\R CMD SHLIB X.cc X_main.cc\n"
-msgstr ""
+msgstr "...\\bin\\x64\\R CMD SHLIB X.cc X_main.cc\n"
 
 #. type: Plain text
 #: rw-FAQ.texi:1826
