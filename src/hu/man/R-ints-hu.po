@@ -24,7 +24,7 @@ msgstr ""
 #: R-ints.texi:51
 #, no-wrap
 msgid "R Internals"
-msgstr ""
+msgstr "R belügyek (Hungarian)"
 
 #. type: dircategory
 #: R-ints.texi:12

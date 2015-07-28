@@ -24,7 +24,7 @@ msgstr ""
 #: R-lang.texi:53
 #, no-wrap
 msgid "R Language Definition"
-msgstr ""
+msgstr "R Nyelv Definition (Hungarian)"
 
 #. type: dircategory
 #: R-lang.texi:10
