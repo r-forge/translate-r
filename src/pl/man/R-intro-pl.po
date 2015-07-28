@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the translate.R package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-07-27 11:36-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-07-28 15:25+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl_PL\n"
@@ -18,14 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: top
-#: R-intro.texi:4
-#: R-intro.texi:52
-#: R-intro.texi:70
+#: R-intro.texi:4 R-intro.texi:52 R-intro.texi:70
 #, no-wrap
 msgid "An Introduction to R"
-msgstr "Wprowadzenie do badań (Polish)"
+msgstr "Wprowadzenie do R"
 
 #. type: dircategory
 #: R-intro.texi:14
@@ -95,37 +94,18 @@ msgid "and the R Core Team"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:69
-#: R-intro.texi:112
-#: R-intro.texi:142
-#: R-intro.texi:576
-#: R-intro.texi:1180
-#: R-intro.texi:1407
-#: R-intro.texi:1582
-#: R-intro.texi:2374
-#: R-intro.texi:2719
-#: R-intro.texi:2954
-#: R-intro.texi:3358
-#: R-intro.texi:3503
-#: R-intro.texi:4194
-#: R-intro.texi:5336
-#: R-intro.texi:6419
-#: R-intro.texi:6548
-#: R-intro.texi:6736
-#: R-intro.texi:6968
-#: R-intro.texi:7518
-#: R-intro.texi:7651
-#: R-intro.texi:7656
-#: R-intro.texi:7661
+#: R-intro.texi:69 R-intro.texi:112 R-intro.texi:142 R-intro.texi:576
+#: R-intro.texi:1180 R-intro.texi:1407 R-intro.texi:1582 R-intro.texi:2374
+#: R-intro.texi:2719 R-intro.texi:2954 R-intro.texi:3358 R-intro.texi:3503
+#: R-intro.texi:4194 R-intro.texi:5336 R-intro.texi:6419 R-intro.texi:6548
+#: R-intro.texi:6736 R-intro.texi:6968 R-intro.texi:7518 R-intro.texi:7651
+#: R-intro.texi:7656 R-intro.texi:7661
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:69
-#: R-intro.texi:110
-#: R-intro.texi:112
-#: R-intro.texi:113
+#: R-intro.texi:69 R-intro.texi:110 R-intro.texi:112 R-intro.texi:113
 #: R-intro.texi:142
 #, no-wrap
 msgid "Preface"
@@ -148,285 +128,156 @@ msgid "This manual provides information on data types, programming elements, sta
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:112
-#: R-intro.texi:140
-#: R-intro.texi:142
-#: R-intro.texi:143
-#: R-intro.texi:158
-#: R-intro.texi:194
-#: R-intro.texi:219
-#: R-intro.texi:246
-#: R-intro.texi:266
-#: R-intro.texi:346
-#: R-intro.texi:424
-#: R-intro.texi:473
-#: R-intro.texi:494
-#: R-intro.texi:526
-#: R-intro.texi:576
+#: R-intro.texi:110 R-intro.texi:112 R-intro.texi:140 R-intro.texi:142
+#: R-intro.texi:143 R-intro.texi:158 R-intro.texi:194 R-intro.texi:219
+#: R-intro.texi:246 R-intro.texi:266 R-intro.texi:346 R-intro.texi:424
+#: R-intro.texi:473 R-intro.texi:494 R-intro.texi:526 R-intro.texi:576
 #, no-wrap
 msgid "Introduction and preliminaries"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:142
-#: R-intro.texi:576
-#: R-intro.texi:591
-#: R-intro.texi:667
-#: R-intro.texi:778
-#: R-intro.texi:861
-#: R-intro.texi:910
-#: R-intro.texi:967
-#: R-intro.texi:1019
-#: R-intro.texi:1142
-#: R-intro.texi:1180
+#: R-intro.texi:110 R-intro.texi:142 R-intro.texi:576 R-intro.texi:591
+#: R-intro.texi:667 R-intro.texi:778 R-intro.texi:861 R-intro.texi:910
+#: R-intro.texi:967 R-intro.texi:1019 R-intro.texi:1142 R-intro.texi:1180
 #, no-wrap
 msgid "Simple manipulations numbers and vectors"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:576
-#: R-intro.texi:1180
-#: R-intro.texi:1182
-#: R-intro.texi:1198
-#: R-intro.texi:1286
-#: R-intro.texi:1334
-#: R-intro.texi:1364
+#: R-intro.texi:110 R-intro.texi:576 R-intro.texi:1180 R-intro.texi:1182
+#: R-intro.texi:1198 R-intro.texi:1286 R-intro.texi:1334 R-intro.texi:1364
 #: R-intro.texi:1407
 #, no-wrap
 msgid "Objects"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:110
-#: R-intro.texi:1180
-#: R-intro.texi:1407
-#: R-intro.texi:1409
-#: R-intro.texi:1469
-#: R-intro.texi:1565
-#: R-intro.texi:1582
-#: R-intro.texi:4440
+#: R-intro.texi:110 R-intro.texi:1180 R-intro.texi:1407 R-intro.texi:1409
+#: R-intro.texi:1469 R-intro.texi:1565 R-intro.texi:1582 R-intro.texi:4440
 #, no-wrap
 msgid "Factors"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:1407
-#: R-intro.texi:1582
-#: R-intro.texi:1583
-#: R-intro.texi:1598
-#: R-intro.texi:1643
-#: R-intro.texi:1683
-#: R-intro.texi:1775
-#: R-intro.texi:1866
-#: R-intro.texi:1939
-#: R-intro.texi:1964
-#: R-intro.texi:2249
-#: R-intro.texi:2294
-#: R-intro.texi:2323
-#: R-intro.texi:2374
+#: R-intro.texi:110 R-intro.texi:1407 R-intro.texi:1582 R-intro.texi:1583
+#: R-intro.texi:1598 R-intro.texi:1643 R-intro.texi:1683 R-intro.texi:1775
+#: R-intro.texi:1866 R-intro.texi:1939 R-intro.texi:1964 R-intro.texi:2249
+#: R-intro.texi:2294 R-intro.texi:2323 R-intro.texi:2374
 #, no-wrap
 msgid "Arrays and matrices"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:1582
-#: R-intro.texi:2374
-#: R-intro.texi:2375
-#: R-intro.texi:2383
-#: R-intro.texi:2464
-#: R-intro.texi:2512
-#: R-intro.texi:2719
+#: R-intro.texi:110 R-intro.texi:1582 R-intro.texi:2374 R-intro.texi:2375
+#: R-intro.texi:2383 R-intro.texi:2464 R-intro.texi:2512 R-intro.texi:2719
 #, no-wrap
 msgid "Lists and data frames"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:2374
-#: R-intro.texi:2719
-#: R-intro.texi:2720
-#: R-intro.texi:2721
-#: R-intro.texi:2747
-#: R-intro.texi:2830
-#: R-intro.texi:2882
-#: R-intro.texi:2926
-#: R-intro.texi:2954
+#: R-intro.texi:110 R-intro.texi:2374 R-intro.texi:2719 R-intro.texi:2720
+#: R-intro.texi:2721 R-intro.texi:2747 R-intro.texi:2830 R-intro.texi:2882
+#: R-intro.texi:2926 R-intro.texi:2954
 #, no-wrap
 msgid "Reading data from files"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:2719
-#: R-intro.texi:2954
-#: R-intro.texi:2955
-#: R-intro.texi:2956
-#: R-intro.texi:2964
-#: R-intro.texi:3041
-#: R-intro.texi:3201
+#: R-intro.texi:110 R-intro.texi:2719 R-intro.texi:2954 R-intro.texi:2955
+#: R-intro.texi:2956 R-intro.texi:2964 R-intro.texi:3041 R-intro.texi:3201
 #: R-intro.texi:3358
 #, no-wrap
 msgid "Probability distributions"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:2954
-#: R-intro.texi:3358
-#: R-intro.texi:3360
-#: R-intro.texi:3367
-#: R-intro.texi:3383
-#: R-intro.texi:3503
+#: R-intro.texi:110 R-intro.texi:2954 R-intro.texi:3358 R-intro.texi:3360
+#: R-intro.texi:3367 R-intro.texi:3383 R-intro.texi:3503
 #, no-wrap
 msgid "Loops and conditional execution"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:3358
-#: R-intro.texi:3503
-#: R-intro.texi:3504
-#: R-intro.texi:3548
-#: R-intro.texi:3620
-#: R-intro.texi:3649
-#: R-intro.texi:3710
-#: R-intro.texi:3740
-#: R-intro.texi:3759
-#: R-intro.texi:3907
-#: R-intro.texi:4032
-#: R-intro.texi:4091
-#: R-intro.texi:4194
+#: R-intro.texi:110 R-intro.texi:3358 R-intro.texi:3503 R-intro.texi:3504
+#: R-intro.texi:3548 R-intro.texi:3620 R-intro.texi:3649 R-intro.texi:3710
+#: R-intro.texi:3740 R-intro.texi:3759 R-intro.texi:3907 R-intro.texi:4032
+#: R-intro.texi:4091 R-intro.texi:4194
 #, no-wrap
 msgid "Writing your own functions"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:3503
-#: R-intro.texi:4194
-#: R-intro.texi:4195
-#: R-intro.texi:4224
-#: R-intro.texi:4491
-#: R-intro.texi:4519
-#: R-intro.texi:4605
-#: R-intro.texi:4677
-#: R-intro.texi:4731
-#: R-intro.texi:5091
-#: R-intro.texi:5253
+#: R-intro.texi:110 R-intro.texi:3503 R-intro.texi:4194 R-intro.texi:4195
+#: R-intro.texi:4224 R-intro.texi:4491 R-intro.texi:4519 R-intro.texi:4605
+#: R-intro.texi:4677 R-intro.texi:4731 R-intro.texi:5091 R-intro.texi:5253
 #: R-intro.texi:5336
 #, no-wrap
 msgid "Statistical models in R"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:4194
-#: R-intro.texi:5336
-#: R-intro.texi:5392
-#: R-intro.texi:5622
-#: R-intro.texi:5782
-#: R-intro.texi:5849
-#: R-intro.texi:5948
-#: R-intro.texi:6227
-#: R-intro.texi:6398
-#: R-intro.texi:6419
+#: R-intro.texi:110 R-intro.texi:4194 R-intro.texi:5336 R-intro.texi:5392
+#: R-intro.texi:5622 R-intro.texi:5782 R-intro.texi:5849 R-intro.texi:5948
+#: R-intro.texi:6227 R-intro.texi:6398 R-intro.texi:6419
 #, no-wrap
 msgid "Graphics"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:221
-#: R-intro.texi:5336
-#: R-intro.texi:6419
-#: R-intro.texi:6420
-#: R-intro.texi:6421
-#: R-intro.texi:6486
-#: R-intro.texi:6496
-#: R-intro.texi:6512
-#: R-intro.texi:6548
+#: R-intro.texi:110 R-intro.texi:221 R-intro.texi:5336 R-intro.texi:6419
+#: R-intro.texi:6420 R-intro.texi:6421 R-intro.texi:6486 R-intro.texi:6496
+#: R-intro.texi:6512 R-intro.texi:6548
 #, no-wrap
 msgid "Packages"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:6419
-#: R-intro.texi:6548
-#: R-intro.texi:6549
-#: R-intro.texi:6566
-#: R-intro.texi:6611
-#: R-intro.texi:6686
-#: R-intro.texi:6706
+#: R-intro.texi:110 R-intro.texi:6419 R-intro.texi:6548 R-intro.texi:6549
+#: R-intro.texi:6566 R-intro.texi:6611 R-intro.texi:6686 R-intro.texi:6706
 #: R-intro.texi:6736
 #, no-wrap
 msgid "OS facilities"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:6548
-#: R-intro.texi:6736
-#: R-intro.texi:6737
+#: R-intro.texi:110 R-intro.texi:6548 R-intro.texi:6736 R-intro.texi:6737
 #: R-intro.texi:6968
 #, no-wrap
 msgid "A sample session"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:6736
-#: R-intro.texi:6968
-#: R-intro.texi:6969
-#: R-intro.texi:6981
-#: R-intro.texi:7322
-#: R-intro.texi:7392
-#: R-intro.texi:7408
+#: R-intro.texi:110 R-intro.texi:6736 R-intro.texi:6968 R-intro.texi:6969
+#: R-intro.texi:6981 R-intro.texi:7322 R-intro.texi:7392 R-intro.texi:7408
 #: R-intro.texi:7518
 #, no-wrap
 msgid "Invoking R"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:6968
-#: R-intro.texi:7518
-#: R-intro.texi:7519
+#: R-intro.texi:110 R-intro.texi:6968 R-intro.texi:7518 R-intro.texi:7519
 #: R-intro.texi:7651
 #, no-wrap
 msgid "The command-line editor"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:7518
-#: R-intro.texi:7651
-#: R-intro.texi:7652
+#: R-intro.texi:110 R-intro.texi:7518 R-intro.texi:7651 R-intro.texi:7652
 #: R-intro.texi:7656
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:110
-#: R-intro.texi:7651
-#: R-intro.texi:7656
-#: R-intro.texi:7657
+#: R-intro.texi:110 R-intro.texi:7651 R-intro.texi:7656 R-intro.texi:7657
 #: R-intro.texi:7661
 #, no-wrap
 msgid "Concept index"
 msgstr ""
 
 #. type: appendix
-#: R-intro.texi:110
-#: R-intro.texi:7656
-#: R-intro.texi:7661
-#: R-intro.texi:7662
+#: R-intro.texi:110 R-intro.texi:7656 R-intro.texi:7661 R-intro.texi:7662
 #, no-wrap
 msgid "References"
 msgstr ""
@@ -463,97 +314,67 @@ msgid "Many users will come to @R{} mainly for its graphical facilities.  @xref{
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:158
-#: R-intro.texi:159
-#: R-intro.texi:194
+#: R-intro.texi:156 R-intro.texi:158 R-intro.texi:159 R-intro.texi:194
 #, no-wrap
 msgid "The R environment"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:158
-#: R-intro.texi:194
-#: R-intro.texi:195
+#: R-intro.texi:156 R-intro.texi:158 R-intro.texi:194 R-intro.texi:195
 #: R-intro.texi:219
 #, no-wrap
 msgid "Related software and documentation"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:194
-#: R-intro.texi:219
-#: R-intro.texi:220
+#: R-intro.texi:156 R-intro.texi:194 R-intro.texi:219 R-intro.texi:220
 #: R-intro.texi:246
 #, no-wrap
 msgid "R and statistics"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:219
-#: R-intro.texi:246
-#: R-intro.texi:247
+#: R-intro.texi:156 R-intro.texi:219 R-intro.texi:246 R-intro.texi:247
 #: R-intro.texi:266
 #, no-wrap
 msgid "R and the window system"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:246
-#: R-intro.texi:266
-#: R-intro.texi:267
+#: R-intro.texi:156 R-intro.texi:246 R-intro.texi:266 R-intro.texi:267
 #: R-intro.texi:346
 #, no-wrap
 msgid "Using R interactively"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:266
-#: R-intro.texi:346
-#: R-intro.texi:424
+#: R-intro.texi:156 R-intro.texi:266 R-intro.texi:346 R-intro.texi:424
 #, no-wrap
 msgid "Getting help"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:346
-#: R-intro.texi:424
-#: R-intro.texi:473
+#: R-intro.texi:156 R-intro.texi:346 R-intro.texi:424 R-intro.texi:473
 #, no-wrap
 msgid "R commands; case sensitivity etc"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:424
-#: R-intro.texi:473
-#: R-intro.texi:474
+#: R-intro.texi:156 R-intro.texi:424 R-intro.texi:473 R-intro.texi:474
 #: R-intro.texi:494
 #, no-wrap
 msgid "Recall and correction of previous commands"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:156
-#: R-intro.texi:473
-#: R-intro.texi:494
-#: R-intro.texi:495
+#: R-intro.texi:156 R-intro.texi:473 R-intro.texi:494 R-intro.texi:495
 #: R-intro.texi:526
 #, no-wrap
 msgid "Executing commands from or diverting output to a file"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:156
-#: R-intro.texi:494
-#: R-intro.texi:526
-#: R-intro.texi:527
+#: R-intro.texi:156 R-intro.texi:494 R-intro.texi:526 R-intro.texi:527
 #, no-wrap
 msgid "Data permanency and removing objects"
 msgstr ""
@@ -744,8 +565,7 @@ msgid "Getting help with functions and features"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:348
-#: R-intro.texi:357
+#: R-intro.texi:348 R-intro.texi:357
 #, no-wrap
 msgid "help"
 msgstr ""
@@ -762,8 +582,7 @@ msgid "> help(solve)\n"
 msgstr ""
 
 #. type: Plain text
-#: R-intro.texi:360
-#: R-intro.texi:1884
+#: R-intro.texi:360 R-intro.texi:1884
 msgid "An alternative is"
 msgstr ""
 
@@ -801,8 +620,7 @@ msgid "On most @R{} installations help is available in @HTML{} format by running
 msgstr ""
 
 #. type: example
-#: R-intro.texi:384
-#: R-intro.texi:6474
+#: R-intro.texi:384 R-intro.texi:6474
 #, no-wrap
 msgid "> help.start()\n"
 msgstr ""
@@ -1070,81 +888,54 @@ msgid "Vectors"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:589
-#: R-intro.texi:591
-#: R-intro.texi:592
-#: R-intro.texi:667
+#: R-intro.texi:589 R-intro.texi:591 R-intro.texi:592 R-intro.texi:667
 #, no-wrap
 msgid "Vectors and assignment"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:589
-#: R-intro.texi:591
-#: R-intro.texi:667
-#: R-intro.texi:668
+#: R-intro.texi:589 R-intro.texi:591 R-intro.texi:667 R-intro.texi:668
 #: R-intro.texi:778
 #, no-wrap
 msgid "Vector arithmetic"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:589
-#: R-intro.texi:667
-#: R-intro.texi:776
-#: R-intro.texi:778
-#: R-intro.texi:779
-#: R-intro.texi:861
+#: R-intro.texi:589 R-intro.texi:667 R-intro.texi:776 R-intro.texi:778
+#: R-intro.texi:779 R-intro.texi:861
 #, no-wrap
 msgid "Generating regular sequences"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:589
-#: R-intro.texi:778
-#: R-intro.texi:861
-#: R-intro.texi:862
+#: R-intro.texi:589 R-intro.texi:778 R-intro.texi:861 R-intro.texi:862
 #: R-intro.texi:910
 #, no-wrap
 msgid "Logical vectors"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:589
-#: R-intro.texi:861
-#: R-intro.texi:910
-#: R-intro.texi:911
-#: R-intro.texi:912
-#: R-intro.texi:967
+#: R-intro.texi:589 R-intro.texi:861 R-intro.texi:910 R-intro.texi:911
+#: R-intro.texi:912 R-intro.texi:967
 #, no-wrap
 msgid "Missing values"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:589
-#: R-intro.texi:910
-#: R-intro.texi:967
-#: R-intro.texi:968
-#: R-intro.texi:969
-#: R-intro.texi:1019
+#: R-intro.texi:589 R-intro.texi:910 R-intro.texi:967 R-intro.texi:968
+#: R-intro.texi:969 R-intro.texi:1019
 #, no-wrap
 msgid "Character vectors"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:589
-#: R-intro.texi:967
-#: R-intro.texi:1019
-#: R-intro.texi:1142
+#: R-intro.texi:589 R-intro.texi:967 R-intro.texi:1019 R-intro.texi:1142
 #, no-wrap
 msgid "Index vectors"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:589
-#: R-intro.texi:1019
-#: R-intro.texi:1142
-#: R-intro.texi:1143
+#: R-intro.texi:589 R-intro.texi:1019 R-intro.texi:1142 R-intro.texi:1143
 #, no-wrap
 msgid "Other types of objects"
 msgstr ""
@@ -1161,10 +952,7 @@ msgid "> x <- c(10.4, 5.6, 3.1, 6.4, 21.7)\n"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:603
-#: R-intro.texi:986
-#: R-intro.texi:2317
-#: R-intro.texi:2497
+#: R-intro.texi:603 R-intro.texi:986 R-intro.texi:2317 R-intro.texi:2497
 #, no-wrap
 msgid "c"
 msgstr ""
@@ -1261,8 +1049,7 @@ msgid "Vectors can be used in arithmetic expressions, in which case the operatio
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:679
-#: R-intro.texi:1842
+#: R-intro.texi:679 R-intro.texi:1842
 #, no-wrap
 msgid "Recycling rule"
 msgstr ""
@@ -1394,8 +1181,7 @@ msgid "@code{length(x)} is the number of elements in @code{x},"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:715
-#: R-intro.texi:1246
+#: R-intro.texi:715 R-intro.texi:1246
 #, no-wrap
 msgid "length"
 msgstr ""
@@ -1445,8 +1231,7 @@ msgid "sum((x-mean(x))^2)/(length(x)-1)\n"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:729
-#: R-intro.texi:1525
+#: R-intro.texi:729 R-intro.texi:1525
 #, no-wrap
 msgid "var"
 msgstr ""
@@ -1566,10 +1351,7 @@ msgid "Arguments to @code{seq()}, and to many other @R{} functions, can also be 
 msgstr ""
 
 #. type: Plain text
-#: R-intro.texi:819
-#: R-intro.texi:999
-#: R-intro.texi:1123
-#: R-intro.texi:4504
+#: R-intro.texi:819 R-intro.texi:999 R-intro.texi:1123 R-intro.texi:4504
 msgid "For example"
 msgstr ""
 
@@ -2079,38 +1861,27 @@ msgid "Attributes"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1196
-#: R-intro.texi:1198
-#: R-intro.texi:1286
+#: R-intro.texi:1196 R-intro.texi:1198 R-intro.texi:1286
 #, no-wrap
 msgid "The intrinsic attributes mode and length"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1196
-#: R-intro.texi:1198
-#: R-intro.texi:1286
-#: R-intro.texi:1287
+#: R-intro.texi:1196 R-intro.texi:1198 R-intro.texi:1286 R-intro.texi:1287
 #: R-intro.texi:1334
 #, no-wrap
 msgid "Changing the length of an object"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1196
-#: R-intro.texi:1286
-#: R-intro.texi:1334
-#: R-intro.texi:1335
+#: R-intro.texi:1196 R-intro.texi:1286 R-intro.texi:1334 R-intro.texi:1335
 #: R-intro.texi:1364
 #, no-wrap
 msgid "Getting and setting attributes"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:1196
-#: R-intro.texi:1334
-#: R-intro.texi:1364
-#: R-intro.texi:1365
+#: R-intro.texi:1196 R-intro.texi:1334 R-intro.texi:1364 R-intro.texi:1365
 #, no-wrap
 msgid "The class of an object"
 msgstr ""
@@ -2260,15 +2031,13 @@ msgid "and vectors can be extended (by missing values) in the same way."
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:1336
-#: R-intro.texi:1343
+#: R-intro.texi:1336 R-intro.texi:1343
 #, no-wrap
 msgid "attr"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:1337
-#: R-intro.texi:1340
+#: R-intro.texi:1337 R-intro.texi:1340
 #, no-wrap
 msgid "attributes"
 msgstr ""
@@ -2310,8 +2079,7 @@ msgid "allows @R{} to treat @code{z} as if it were a 10-by-10 matrix."
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:1366
-#: R-intro.texi:4093
+#: R-intro.texi:1366 R-intro.texi:4093
 #, no-wrap
 msgid "Classes"
 msgstr ""
@@ -2376,12 +2144,8 @@ msgid "Ordered and unordered factors"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:1410
-#: R-intro.texi:1467
-#: R-intro.texi:1469
-#: R-intro.texi:1565
-#: R-intro.texi:1566
-#: R-intro.texi:4441
+#: R-intro.texi:1410 R-intro.texi:1467 R-intro.texi:1469 R-intro.texi:1565
+#: R-intro.texi:1566 R-intro.texi:4441
 #, no-wrap
 msgid "Ordered factors"
 msgstr ""
@@ -2469,9 +2233,7 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1467
-#: R-intro.texi:1469
-#: R-intro.texi:1565
+#: R-intro.texi:1467 R-intro.texi:1469 R-intro.texi:1565
 #, no-wrap
 msgid "The function tapply() and ragged arrays"
 msgstr ""
@@ -2594,8 +2356,7 @@ msgid "The combination of a vector and a labelling factor is an example of what 
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:1567
-#: R-intro.texi:1574
+#: R-intro.texi:1567 R-intro.texi:1574
 #, no-wrap
 msgid "ordered"
 msgstr ""
@@ -2616,104 +2377,68 @@ msgid "function creates such ordered factors but is otherwise identical to @code
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1598
-#: R-intro.texi:1599
-#: R-intro.texi:1600
+#: R-intro.texi:1596 R-intro.texi:1598 R-intro.texi:1599 R-intro.texi:1600
 #: R-intro.texi:1643
 #, no-wrap
 msgid "Arrays"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1598
-#: R-intro.texi:1643
-#: R-intro.texi:1683
+#: R-intro.texi:1596 R-intro.texi:1598 R-intro.texi:1643 R-intro.texi:1683
 #, no-wrap
 msgid "Array indexing"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1643
-#: R-intro.texi:1683
-#: R-intro.texi:1684
+#: R-intro.texi:1596 R-intro.texi:1643 R-intro.texi:1683 R-intro.texi:1684
 #: R-intro.texi:1775
 #, no-wrap
 msgid "Index matrices"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1681
-#: R-intro.texi:1683
-#: R-intro.texi:1775
-#: R-intro.texi:1840
-#: R-intro.texi:1866
+#: R-intro.texi:1596 R-intro.texi:1681 R-intro.texi:1683 R-intro.texi:1775
+#: R-intro.texi:1840 R-intro.texi:1866
 #, no-wrap
 msgid "The array() function"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1775
-#: R-intro.texi:1866
-#: R-intro.texi:1867
+#: R-intro.texi:1596 R-intro.texi:1775 R-intro.texi:1866 R-intro.texi:1867
 #: R-intro.texi:1939
 #, no-wrap
 msgid "The outer product of two arrays"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1866
-#: R-intro.texi:1939
-#: R-intro.texi:1940
-#: R-intro.texi:1941
-#: R-intro.texi:1964
+#: R-intro.texi:1596 R-intro.texi:1866 R-intro.texi:1939 R-intro.texi:1940
+#: R-intro.texi:1941 R-intro.texi:1964
 #, no-wrap
 msgid "Generalized transpose of an array"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1939
-#: R-intro.texi:1964
-#: R-intro.texi:1965
-#: R-intro.texi:2006
-#: R-intro.texi:2066
-#: R-intro.texi:2111
-#: R-intro.texi:2153
-#: R-intro.texi:2199
-#: R-intro.texi:2249
+#: R-intro.texi:1596 R-intro.texi:1939 R-intro.texi:1964 R-intro.texi:1965
+#: R-intro.texi:2006 R-intro.texi:2066 R-intro.texi:2111 R-intro.texi:2153
+#: R-intro.texi:2199 R-intro.texi:2249
 #, no-wrap
 msgid "Matrix facilities"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:1964
-#: R-intro.texi:2249
-#: R-intro.texi:2294
+#: R-intro.texi:1596 R-intro.texi:1964 R-intro.texi:2249 R-intro.texi:2294
 #, no-wrap
 msgid "Forming partitioned matrices"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1596
-#: R-intro.texi:2249
-#: R-intro.texi:2294
-#: R-intro.texi:2323
+#: R-intro.texi:1596 R-intro.texi:2249 R-intro.texi:2294 R-intro.texi:2323
 #, no-wrap
 msgid "The concatenation function c() with arrays"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:1596
-#: R-intro.texi:2294
-#: R-intro.texi:2323
-#: R-intro.texi:2324
+#: R-intro.texi:1596 R-intro.texi:2294 R-intro.texi:2323 R-intro.texi:2324
 #, no-wrap
 msgid "Frequency tables from factors"
 msgstr ""
@@ -2920,8 +2645,7 @@ msgid "> N <- crossprod(Xb, Xv)\n"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:1761
-#: R-intro.texi:2050
+#: R-intro.texi:1761 R-intro.texi:2050
 #, no-wrap
 msgid "crossprod"
 msgstr ""
@@ -2932,8 +2656,7 @@ msgid "However a simpler direct way of producing this matrix is to use @code{tab
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:1765
-#: R-intro.texi:2329
+#: R-intro.texi:1765 R-intro.texi:2329
 #, no-wrap
 msgid "table"
 msgstr ""
@@ -3032,8 +2755,7 @@ msgid "makes @code{D} a similar array with its data vector being the result of t
 msgstr ""
 
 #. type: node
-#: R-intro.texi:1838
-#: R-intro.texi:1840
+#: R-intro.texi:1838 R-intro.texi:1840
 #, no-wrap
 msgid "The recycling rule"
 msgstr ""
@@ -3246,56 +2968,40 @@ msgid "ncol"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2004
-#: R-intro.texi:2006
-#: R-intro.texi:2066
+#: R-intro.texi:2004 R-intro.texi:2006 R-intro.texi:2066
 #, no-wrap
 msgid "Multiplication"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2004
-#: R-intro.texi:2006
-#: R-intro.texi:2066
-#: R-intro.texi:2067
+#: R-intro.texi:2004 R-intro.texi:2006 R-intro.texi:2066 R-intro.texi:2067
 #: R-intro.texi:2111
 #, no-wrap
 msgid "Linear equations and inversion"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2004
-#: R-intro.texi:2066
-#: R-intro.texi:2111
-#: R-intro.texi:2112
-#: R-intro.texi:2113
-#: R-intro.texi:2153
+#: R-intro.texi:2004 R-intro.texi:2066 R-intro.texi:2111 R-intro.texi:2112
+#: R-intro.texi:2113 R-intro.texi:2153
 #, no-wrap
 msgid "Eigenvalues and eigenvectors"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2004
-#: R-intro.texi:2111
-#: R-intro.texi:2153
-#: R-intro.texi:2154
+#: R-intro.texi:2004 R-intro.texi:2111 R-intro.texi:2153 R-intro.texi:2154
 #: R-intro.texi:2199
 #, no-wrap
 msgid "Singular value decomposition and determinants"
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:2004
-#: R-intro.texi:2153
-#: R-intro.texi:2199
-#: R-intro.texi:2200
+#: R-intro.texi:2004 R-intro.texi:2153 R-intro.texi:2199 R-intro.texi:2200
 #, no-wrap
 msgid "Least squares fitting and the QR decomposition"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:2007
-#: R-intro.texi:2009
+#: R-intro.texi:2007 R-intro.texi:2009
 #, no-wrap
 msgid "Matrix multiplication"
 msgstr ""
@@ -3800,37 +3506,23 @@ msgid "Extension to higher-way frequency tables is immediate."
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2381
-#: R-intro.texi:2383
-#: R-intro.texi:2384
-#: R-intro.texi:2385
+#: R-intro.texi:2381 R-intro.texi:2383 R-intro.texi:2384 R-intro.texi:2385
 #: R-intro.texi:2464
 #, no-wrap
 msgid "Lists"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2381
-#: R-intro.texi:2383
-#: R-intro.texi:2464
-#: R-intro.texi:2465
-#: R-intro.texi:2493
-#: R-intro.texi:2512
+#: R-intro.texi:2381 R-intro.texi:2383 R-intro.texi:2464 R-intro.texi:2465
+#: R-intro.texi:2493 R-intro.texi:2512
 #, no-wrap
 msgid "Constructing and modifying lists"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2381
-#: R-intro.texi:2464
-#: R-intro.texi:2512
-#: R-intro.texi:2513
-#: R-intro.texi:2514
-#: R-intro.texi:2551
-#: R-intro.texi:2573
-#: R-intro.texi:2638
-#: R-intro.texi:2665
-#: R-intro.texi:2680
+#: R-intro.texi:2381 R-intro.texi:2464 R-intro.texi:2512 R-intro.texi:2513
+#: R-intro.texi:2514 R-intro.texi:2551 R-intro.texi:2573 R-intro.texi:2638
+#: R-intro.texi:2665 R-intro.texi:2680
 #, no-wrap
 msgid "Data frames"
 msgstr ""
@@ -3964,10 +3656,7 @@ msgid "> Lst[5] <- list(matrix=Mat)\n"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:2491
-#: R-intro.texi:2493
-#: R-intro.texi:2494
-#: R-intro.texi:2495
+#: R-intro.texi:2491 R-intro.texi:2493 R-intro.texi:2494 R-intro.texi:2495
 #, no-wrap
 msgid "Concatenating lists"
 msgstr ""
@@ -4019,48 +3708,33 @@ msgid "A data frame may for many purposes be regarded as a matrix with columns p
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2549
-#: R-intro.texi:2551
-#: R-intro.texi:2552
-#: R-intro.texi:2573
+#: R-intro.texi:2549 R-intro.texi:2551 R-intro.texi:2552 R-intro.texi:2573
 #, no-wrap
 msgid "Making data frames"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2549
-#: R-intro.texi:2551
-#: R-intro.texi:2573
-#: R-intro.texi:2638
+#: R-intro.texi:2549 R-intro.texi:2551 R-intro.texi:2573 R-intro.texi:2638
 #, no-wrap
 msgid "attach() and detach()"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2549
-#: R-intro.texi:2573
-#: R-intro.texi:2638
-#: R-intro.texi:2639
+#: R-intro.texi:2549 R-intro.texi:2573 R-intro.texi:2638 R-intro.texi:2639
 #: R-intro.texi:2665
 #, no-wrap
 msgid "Working with data frames"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2549
-#: R-intro.texi:2638
-#: R-intro.texi:2665
-#: R-intro.texi:2666
+#: R-intro.texi:2549 R-intro.texi:2638 R-intro.texi:2665 R-intro.texi:2666
 #: R-intro.texi:2680
 #, no-wrap
 msgid "Attaching arbitrary lists"
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:2549
-#: R-intro.texi:2665
-#: R-intro.texi:2680
-#: R-intro.texi:2681
+#: R-intro.texi:2549 R-intro.texi:2665 R-intro.texi:2680 R-intro.texi:2681
 #, no-wrap
 msgid "Managing the search path"
 msgstr ""
@@ -4312,39 +3986,27 @@ msgid "For more details on importing data into @R{} and also exporting data, see
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2745
-#: R-intro.texi:2747
-#: R-intro.texi:2830
+#: R-intro.texi:2745 R-intro.texi:2747 R-intro.texi:2830
 #, no-wrap
 msgid "The read.table() function"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2745
-#: R-intro.texi:2747
-#: R-intro.texi:2828
-#: R-intro.texi:2830
+#: R-intro.texi:2745 R-intro.texi:2747 R-intro.texi:2828 R-intro.texi:2830
 #: R-intro.texi:2882
 #, no-wrap
 msgid "The scan() function"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2745
-#: R-intro.texi:2830
-#: R-intro.texi:2882
-#: R-intro.texi:2883
-#: R-intro.texi:2884
-#: R-intro.texi:2926
+#: R-intro.texi:2745 R-intro.texi:2830 R-intro.texi:2882 R-intro.texi:2883
+#: R-intro.texi:2884 R-intro.texi:2926
 #, no-wrap
 msgid "Accessing builtin datasets"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:2745
-#: R-intro.texi:2882
-#: R-intro.texi:2926
-#: R-intro.texi:2927
+#: R-intro.texi:2745 R-intro.texi:2882 R-intro.texi:2926 R-intro.texi:2927
 #, no-wrap
 msgid "Editing data"
 msgstr ""
@@ -4622,8 +4284,7 @@ msgid "will allow you to edit your data set @code{xold}, and on completion the c
 msgstr ""
 
 #. type: Plain text
-#: R-intro.texi:2945
-#: R-intro.texi:7287
+#: R-intro.texi:2945 R-intro.texi:7287
 msgid "Use"
 msgstr ""
 
@@ -4639,29 +4300,20 @@ msgid "to enter new data via the spreadsheet interface."
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2962
-#: R-intro.texi:2964
-#: R-intro.texi:2965
-#: R-intro.texi:3041
+#: R-intro.texi:2962 R-intro.texi:2964 R-intro.texi:2965 R-intro.texi:3041
 #, no-wrap
 msgid "R as a set of statistical tables"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:2962
-#: R-intro.texi:2964
-#: R-intro.texi:3041
-#: R-intro.texi:3042
+#: R-intro.texi:2962 R-intro.texi:2964 R-intro.texi:3041 R-intro.texi:3042
 #: R-intro.texi:3201
 #, no-wrap
 msgid "Examining the distribution of a set of data"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:2962
-#: R-intro.texi:3041
-#: R-intro.texi:3201
-#: R-intro.texi:3202
+#: R-intro.texi:2962 R-intro.texi:3041 R-intro.texi:3201 R-intro.texi:3202
 #: R-intro.texi:3203
 #, no-wrap
 msgid "One- and two-sample tests"
@@ -4853,8 +4505,7 @@ msgid "Given a (univariate) set of data we can examine its distribution in a lar
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:3048
-#: R-intro.texi:4595
+#: R-intro.texi:3048 R-intro.texi:4595
 #, no-wrap
 msgid "summary"
 msgstr ""
@@ -4928,8 +4579,7 @@ msgid "A stem-and-leaf plot is like a histogram, and @R{} has a function @code{h
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:3086
-#: R-intro.texi:5535
+#: R-intro.texi:3086 R-intro.texi:5535
 #, no-wrap
 msgid "hist"
 msgstr ""
@@ -5022,15 +4672,13 @@ msgid "Quantile-quantile plots"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:3135
-#: R-intro.texi:5522
+#: R-intro.texi:3135 R-intro.texi:5522
 #, no-wrap
 msgid "qqnorm"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:3136
-#: R-intro.texi:5523
+#: R-intro.texi:3136 R-intro.texi:5523
 #, no-wrap
 msgid "qqline"
 msgstr ""
@@ -5471,23 +5119,15 @@ msgid "Grouping, loops and conditional execution"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3365
-#: R-intro.texi:3367
-#: R-intro.texi:3368
-#: R-intro.texi:3369
+#: R-intro.texi:3365 R-intro.texi:3367 R-intro.texi:3368 R-intro.texi:3369
 #: R-intro.texi:3383
 #, no-wrap
 msgid "Grouped expressions"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3365
-#: R-intro.texi:3367
-#: R-intro.texi:3383
-#: R-intro.texi:3384
-#: R-intro.texi:3385
-#: R-intro.texi:3392
-#: R-intro.texi:3424
+#: R-intro.texi:3365 R-intro.texi:3367 R-intro.texi:3383 R-intro.texi:3384
+#: R-intro.texi:3385 R-intro.texi:3392 R-intro.texi:3424
 #, no-wrap
 msgid "Control statements"
 msgstr ""
@@ -5503,17 +5143,13 @@ msgid "Commands may be grouped together in braces, @code{@{@var{expr_1}; @var{@d
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3390
-#: R-intro.texi:3392
-#: R-intro.texi:3424
+#: R-intro.texi:3390 R-intro.texi:3392 R-intro.texi:3424
 #, no-wrap
 msgid "Conditional execution"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3390
-#: R-intro.texi:3392
-#: R-intro.texi:3424
+#: R-intro.texi:3390 R-intro.texi:3392 R-intro.texi:3424
 #, no-wrap
 msgid "Repetitive execution"
 msgstr ""
@@ -5525,8 +5161,7 @@ msgid "Conditional execution: @code{if} statements"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:3394
-#: R-intro.texi:3401
+#: R-intro.texi:3394 R-intro.texi:3401
 #, no-wrap
 msgid "if"
 msgstr ""
@@ -5752,92 +5387,60 @@ msgid "A call to the function then usually takes the form @code{@var{name}(@var{
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3548
-#: R-intro.texi:3549
-#: R-intro.texi:3620
+#: R-intro.texi:3546 R-intro.texi:3548 R-intro.texi:3549 R-intro.texi:3620
 #, no-wrap
 msgid "Simple examples"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3548
-#: R-intro.texi:3620
-#: R-intro.texi:3621
+#: R-intro.texi:3546 R-intro.texi:3548 R-intro.texi:3620 R-intro.texi:3621
 #: R-intro.texi:3649
 #, no-wrap
 msgid "Defining new binary operators"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3620
-#: R-intro.texi:3649
-#: R-intro.texi:3650
+#: R-intro.texi:3546 R-intro.texi:3620 R-intro.texi:3649 R-intro.texi:3650
 #: R-intro.texi:3710
 #, no-wrap
 msgid "Named arguments and defaults"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3649
-#: R-intro.texi:3710
-#: R-intro.texi:3740
+#: R-intro.texi:3546 R-intro.texi:3649 R-intro.texi:3710 R-intro.texi:3740
 #, no-wrap
 msgid "The three dots argument"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3710
-#: R-intro.texi:3740
-#: R-intro.texi:3759
+#: R-intro.texi:3546 R-intro.texi:3710 R-intro.texi:3740 R-intro.texi:3759
 #, no-wrap
 msgid "Assignment within functions"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3740
-#: R-intro.texi:3759
-#: R-intro.texi:3760
-#: R-intro.texi:3768
-#: R-intro.texi:3815
-#: R-intro.texi:3858
-#: R-intro.texi:3907
+#: R-intro.texi:3546 R-intro.texi:3740 R-intro.texi:3759 R-intro.texi:3760
+#: R-intro.texi:3768 R-intro.texi:3815 R-intro.texi:3858 R-intro.texi:3907
 #, no-wrap
 msgid "More advanced examples"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3759
-#: R-intro.texi:3907
-#: R-intro.texi:3908
-#: R-intro.texi:3909
-#: R-intro.texi:4032
+#: R-intro.texi:3546 R-intro.texi:3759 R-intro.texi:3907 R-intro.texi:3908
+#: R-intro.texi:3909 R-intro.texi:4032
 #, no-wrap
 msgid "Scope"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3546
-#: R-intro.texi:3907
-#: R-intro.texi:4032
-#: R-intro.texi:4033
-#: R-intro.texi:4034
-#: R-intro.texi:4091
+#: R-intro.texi:3546 R-intro.texi:3907 R-intro.texi:4032 R-intro.texi:4033
+#: R-intro.texi:4034 R-intro.texi:4091
 #, no-wrap
 msgid "Customizing the environment"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:3546
-#: R-intro.texi:3905
-#: R-intro.texi:4032
-#: R-intro.texi:4091
+#: R-intro.texi:3546 R-intro.texi:3905 R-intro.texi:4032 R-intro.texi:4091
 #: R-intro.texi:4095
 #, no-wrap
 msgid "Object orientation"
@@ -6116,29 +5719,20 @@ msgid "If global and permanent assignments are intended within a function, then 
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3766
-#: R-intro.texi:3768
-#: R-intro.texi:3769
-#: R-intro.texi:3815
+#: R-intro.texi:3766 R-intro.texi:3768 R-intro.texi:3769 R-intro.texi:3815
 #, no-wrap
 msgid "Efficiency factors in block designs"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:3766
-#: R-intro.texi:3768
-#: R-intro.texi:3815
-#: R-intro.texi:3816
+#: R-intro.texi:3766 R-intro.texi:3768 R-intro.texi:3815 R-intro.texi:3816
 #: R-intro.texi:3858
 #, no-wrap
 msgid "Dropping all names in a printed array"
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:3766
-#: R-intro.texi:3815
-#: R-intro.texi:3858
-#: R-intro.texi:3859
+#: R-intro.texi:3766 R-intro.texi:3815 R-intro.texi:3858 R-intro.texi:3859
 #, no-wrap
 msgid "Recursive numerical integration"
 msgstr ""
@@ -6680,87 +6274,55 @@ msgid "@R{} provides an interlocking suite of facilities that make fitting stati
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4222
-#: R-intro.texi:4224
-#: R-intro.texi:4431
-#: R-intro.texi:4491
+#: R-intro.texi:4222 R-intro.texi:4224 R-intro.texi:4431 R-intro.texi:4491
 #, no-wrap
 msgid "Formulae for statistical models"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4222
-#: R-intro.texi:4224
-#: R-intro.texi:4491
-#: R-intro.texi:4492
-#: R-intro.texi:4493
-#: R-intro.texi:4519
+#: R-intro.texi:4222 R-intro.texi:4224 R-intro.texi:4491 R-intro.texi:4492
+#: R-intro.texi:4493 R-intro.texi:4519
 #, no-wrap
 msgid "Linear models"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4222
-#: R-intro.texi:4491
-#: R-intro.texi:4519
-#: R-intro.texi:4520
+#: R-intro.texi:4222 R-intro.texi:4491 R-intro.texi:4519 R-intro.texi:4520
 #: R-intro.texi:4605
 #, no-wrap
 msgid "Generic functions for extracting model information"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4222
-#: R-intro.texi:4519
-#: R-intro.texi:4605
-#: R-intro.texi:4606
-#: R-intro.texi:4648
-#: R-intro.texi:4677
+#: R-intro.texi:4222 R-intro.texi:4519 R-intro.texi:4605 R-intro.texi:4606
+#: R-intro.texi:4648 R-intro.texi:4677
 #, no-wrap
 msgid "Analysis of variance and model comparison"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4222
-#: R-intro.texi:4605
-#: R-intro.texi:4677
-#: R-intro.texi:4678
-#: R-intro.texi:4679
-#: R-intro.texi:4731
+#: R-intro.texi:4222 R-intro.texi:4605 R-intro.texi:4677 R-intro.texi:4678
+#: R-intro.texi:4679 R-intro.texi:4731
 #, no-wrap
 msgid "Updating fitted models"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4222
-#: R-intro.texi:4677
-#: R-intro.texi:4731
-#: R-intro.texi:4732
-#: R-intro.texi:4733
-#: R-intro.texi:4823
-#: R-intro.texi:4856
-#: R-intro.texi:5091
+#: R-intro.texi:4222 R-intro.texi:4677 R-intro.texi:4731 R-intro.texi:4732
+#: R-intro.texi:4733 R-intro.texi:4823 R-intro.texi:4856 R-intro.texi:5091
 #, no-wrap
 msgid "Generalized linear models"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4222
-#: R-intro.texi:4731
-#: R-intro.texi:5091
-#: R-intro.texi:5092
-#: R-intro.texi:5117
-#: R-intro.texi:5207
-#: R-intro.texi:5253
+#: R-intro.texi:4222 R-intro.texi:4731 R-intro.texi:5091 R-intro.texi:5092
+#: R-intro.texi:5117 R-intro.texi:5207 R-intro.texi:5253
 #, no-wrap
 msgid "Nonlinear least squares and maximum likelihood models"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:4222
-#: R-intro.texi:5091
-#: R-intro.texi:5253
-#: R-intro.texi:5254
+#: R-intro.texi:4222 R-intro.texi:5091 R-intro.texi:5253 R-intro.texi:5254
 #, no-wrap
 msgid "Some non-standard models"
 msgstr ""
@@ -7056,8 +6618,7 @@ msgid "@var{response} ~ @var{op_1} @var{term_1} @var{op_2} @var{term_2} @var{op_
 msgstr ""
 
 #. type: Plain text
-#: R-intro.texi:4352
-#: R-intro.texi:5071
+#: R-intro.texi:4352 R-intro.texi:5071
 msgid "where"
 msgstr ""
 
@@ -7234,10 +6795,7 @@ msgid "Note particularly that the model formulae specify the @emph{columns of th
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:4429
-#: R-intro.texi:4431
-#: R-intro.texi:4432
-#: R-intro.texi:4433
+#: R-intro.texi:4429 R-intro.texi:4431 R-intro.texi:4432 R-intro.texi:4433
 #, no-wrap
 msgid "Contrasts"
 msgstr ""
@@ -7360,8 +6918,7 @@ msgid "A brief description of the most commonly used ones is given below."
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:4538
-#: R-intro.texi:4665
+#: R-intro.texi:4538 R-intro.texi:4665
 #, no-wrap
 msgid "anova"
 msgstr ""
@@ -7440,8 +6997,7 @@ msgid "Extract the model formula."
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:4558
-#: R-intro.texi:5410
+#: R-intro.texi:4558 R-intro.texi:5410
 #, no-wrap
 msgid "plot"
 msgstr ""
@@ -7520,8 +7076,7 @@ msgid "Short form: @code{resid(@var{object})}."
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:4589
-#: R-intro.texi:4727
+#: R-intro.texi:4589 R-intro.texi:4727
 #, no-wrap
 msgid "step"
 msgstr ""
@@ -7626,9 +7181,7 @@ msgid "would typically be used to describe an experiment with mean model @code{v
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:4646
-#: R-intro.texi:4648
-#: R-intro.texi:4649
+#: R-intro.texi:4646 R-intro.texi:4648 R-intro.texi:4649
 #, no-wrap
 msgid "ANOVA tables"
 msgstr ""
@@ -7869,19 +7422,14 @@ msgid "These assumptions are loose enough to encompass a wide class of models us
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4821
-#: R-intro.texi:4823
-#: R-intro.texi:4824
-#: R-intro.texi:4825
+#: R-intro.texi:4821 R-intro.texi:4823 R-intro.texi:4824 R-intro.texi:4825
 #: R-intro.texi:4856
 #, no-wrap
 msgid "Families"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:4821
-#: R-intro.texi:4823
-#: R-intro.texi:4856
+#: R-intro.texi:4821 R-intro.texi:4823 R-intro.texi:4856
 #, no-wrap
 msgid "The glm() function"
 msgstr ""
@@ -8045,22 +7593,19 @@ msgid "On the Aegean island of Kalythos the male inhabitants suffer from a conge
 msgstr ""
 
 #. type: item
-#: R-intro.texi:4921
-#: R-intro.texi:4929
+#: R-intro.texi:4921 R-intro.texi:4929
 #, no-wrap
 msgid "Age:          @tab  20 @tab  35 @tab  45 @tab  55 @tab  70"
 msgstr ""
 
 #. type: item
-#: R-intro.texi:4922
-#: R-intro.texi:4930
+#: R-intro.texi:4922 R-intro.texi:4930
 #, no-wrap
 msgid "No.@: tested: @tab  50 @tab  50 @tab  50 @tab  50 @tab  50"
 msgstr ""
 
 #. type: item
-#: R-intro.texi:4923
-#: R-intro.texi:4931
+#: R-intro.texi:4923 R-intro.texi:4931
 #, no-wrap
 msgid "No.@: blind:  @tab  @w{ 6} @tab  17 @tab  26 @tab  37 @tab  44"
 msgstr ""
@@ -8311,9 +7856,7 @@ msgid "Certain forms of nonlinear model can be fitted by Generalized Linear Mode
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:5100
-#: R-intro.texi:5155
-#: R-intro.texi:5239
+#: R-intro.texi:5100 R-intro.texi:5155 R-intro.texi:5239
 #, no-wrap
 msgid "nlm"
 msgstr ""
@@ -8336,19 +7879,13 @@ msgid "which provide the functionality (and more) of @SPLUS{}'s @code{ms()} and 
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5115
-#: R-intro.texi:5117
-#: R-intro.texi:5118
-#: R-intro.texi:5207
+#: R-intro.texi:5115 R-intro.texi:5117 R-intro.texi:5118 R-intro.texi:5207
 #, no-wrap
 msgid "Least squares"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:5115
-#: R-intro.texi:5117
-#: R-intro.texi:5207
-#: R-intro.texi:5208
+#: R-intro.texi:5115 R-intro.texi:5117 R-intro.texi:5207 R-intro.texi:5208
 #: R-intro.texi:5209
 #, no-wrap
 msgid "Maximum likelihood"
@@ -8595,8 +8132,7 @@ msgid "@strong{Local approximating regressions.} The @code{loess()}"
 msgstr ""
 
 #. type: findex
-#: R-intro.texi:5275
-#: R-intro.texi:5283
+#: R-intro.texi:5275 R-intro.texi:5283
 #, no-wrap
 msgid "loess"
 msgstr ""
@@ -8773,83 +8309,50 @@ msgid "This manual only describes what are known as `base' graphics.  A separate
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5390
-#: R-intro.texi:5392
-#: R-intro.texi:5393
-#: R-intro.texi:5408
-#: R-intro.texi:5449
-#: R-intro.texi:5505
-#: R-intro.texi:5562
-#: R-intro.texi:5622
+#: R-intro.texi:5390 R-intro.texi:5392 R-intro.texi:5393 R-intro.texi:5408
+#: R-intro.texi:5449 R-intro.texi:5505 R-intro.texi:5562 R-intro.texi:5622
 #, no-wrap
 msgid "High-level plotting commands"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5390
-#: R-intro.texi:5392
-#: R-intro.texi:5622
-#: R-intro.texi:5623
-#: R-intro.texi:5731
-#: R-intro.texi:5753
-#: R-intro.texi:5782
+#: R-intro.texi:5390 R-intro.texi:5392 R-intro.texi:5622 R-intro.texi:5623
+#: R-intro.texi:5731 R-intro.texi:5753 R-intro.texi:5782
 #, no-wrap
 msgid "Low-level plotting commands"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5390
-#: R-intro.texi:5622
-#: R-intro.texi:5782
-#: R-intro.texi:5783
+#: R-intro.texi:5390 R-intro.texi:5622 R-intro.texi:5782 R-intro.texi:5783
 #: R-intro.texi:5849
 #, no-wrap
 msgid "Interacting with graphics"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5390
-#: R-intro.texi:5782
-#: R-intro.texi:5849
-#: R-intro.texi:5850
-#: R-intro.texi:5872
-#: R-intro.texi:5927
-#: R-intro.texi:5948
+#: R-intro.texi:5390 R-intro.texi:5782 R-intro.texi:5849 R-intro.texi:5850
+#: R-intro.texi:5872 R-intro.texi:5927 R-intro.texi:5948
 #, no-wrap
 msgid "Using graphics parameters"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5390
-#: R-intro.texi:5849
-#: R-intro.texi:5875
-#: R-intro.texi:5948
-#: R-intro.texi:5976
-#: R-intro.texi:6070
-#: R-intro.texi:6124
-#: R-intro.texi:6161
+#: R-intro.texi:5390 R-intro.texi:5849 R-intro.texi:5875 R-intro.texi:5948
+#: R-intro.texi:5976 R-intro.texi:6070 R-intro.texi:6124 R-intro.texi:6161
 #: R-intro.texi:6227
 #, no-wrap
 msgid "Graphics parameters"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5390
-#: R-intro.texi:5948
-#: R-intro.texi:6227
-#: R-intro.texi:6228
-#: R-intro.texi:6293
-#: R-intro.texi:6329
-#: R-intro.texi:6398
+#: R-intro.texi:5390 R-intro.texi:5948 R-intro.texi:6227 R-intro.texi:6228
+#: R-intro.texi:6293 R-intro.texi:6329 R-intro.texi:6398
 #, no-wrap
 msgid "Device drivers"
 msgstr ""
 
 #. type: cindex
-#: R-intro.texi:5390
-#: R-intro.texi:6227
-#: R-intro.texi:6398
-#: R-intro.texi:6399
+#: R-intro.texi:5390 R-intro.texi:6227 R-intro.texi:6398 R-intro.texi:6399
 #: R-intro.texi:6400
 #, no-wrap
 msgid "Dynamic graphics"
@@ -8861,38 +8364,27 @@ msgid "High-level plotting functions are designed to generate a complete plot of
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5406
-#: R-intro.texi:5408
-#: R-intro.texi:5449
+#: R-intro.texi:5406 R-intro.texi:5408 R-intro.texi:5449
 #, no-wrap
 msgid "The plot() function"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5406
-#: R-intro.texi:5408
-#: R-intro.texi:5449
-#: R-intro.texi:5450
+#: R-intro.texi:5406 R-intro.texi:5408 R-intro.texi:5449 R-intro.texi:5450
 #: R-intro.texi:5505
 #, no-wrap
 msgid "Displaying multivariate data"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5406
-#: R-intro.texi:5449
-#: R-intro.texi:5505
-#: R-intro.texi:5506
+#: R-intro.texi:5406 R-intro.texi:5449 R-intro.texi:5505 R-intro.texi:5506
 #: R-intro.texi:5562
 #, no-wrap
 msgid "Display graphics"
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:5406
-#: R-intro.texi:5505
-#: R-intro.texi:5562
-#: R-intro.texi:5563
+#: R-intro.texi:5406 R-intro.texi:5505 R-intro.texi:5562 R-intro.texi:5563
 #, no-wrap
 msgid "Arguments to high-level plotting functions"
 msgstr ""
@@ -9380,8 +8872,7 @@ msgid "text(x, y, labels, @dots{})"
 msgstr ""
 
 #. type: var{#1}
-#: R-intro.texi:5643
-#: R-intro.texi:7615
+#: R-intro.texi:5643 R-intro.texi:7615
 #, no-wrap
 msgid "text"
 msgstr ""
@@ -9576,19 +9067,13 @@ msgid "Where @code{x} and @code{y} arguments are required, it is also sufficient
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5729
-#: R-intro.texi:5731
-#: R-intro.texi:5732
-#: R-intro.texi:5753
+#: R-intro.texi:5729 R-intro.texi:5731 R-intro.texi:5732 R-intro.texi:5753
 #, no-wrap
 msgid "Mathematical annotation"
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:5729
-#: R-intro.texi:5731
-#: R-intro.texi:5753
-#: R-intro.texi:5754
+#: R-intro.texi:5729 R-intro.texi:5731 R-intro.texi:5753 R-intro.texi:5754
 #, no-wrap
 msgid "Hershey vector fonts"
 msgstr ""
@@ -9737,17 +9222,13 @@ msgid "A separate list of graphics parameters is maintained for each active devi
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5870
-#: R-intro.texi:5872
-#: R-intro.texi:5927
+#: R-intro.texi:5870 R-intro.texi:5872 R-intro.texi:5927
 #, no-wrap
 msgid "The par() function"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5870
-#: R-intro.texi:5872
-#: R-intro.texi:5927
+#: R-intro.texi:5870 R-intro.texi:5872 R-intro.texi:5927
 #, no-wrap
 msgid "Arguments to graphics functions"
 msgstr ""
@@ -9895,39 +9376,27 @@ msgid "Note that @code{axes} is @strong{not} a graphics parameter but an argumen
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5974
-#: R-intro.texi:5976
-#: R-intro.texi:5977
-#: R-intro.texi:6070
+#: R-intro.texi:5974 R-intro.texi:5976 R-intro.texi:5977 R-intro.texi:6070
 #, no-wrap
 msgid "Graphical elements"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5974
-#: R-intro.texi:5976
-#: R-intro.texi:6070
-#: R-intro.texi:6071
+#: R-intro.texi:5974 R-intro.texi:5976 R-intro.texi:6070 R-intro.texi:6071
 #: R-intro.texi:6124
 #, no-wrap
 msgid "Axes and tick marks"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:5974
-#: R-intro.texi:6070
-#: R-intro.texi:6124
-#: R-intro.texi:6125
+#: R-intro.texi:5974 R-intro.texi:6070 R-intro.texi:6124 R-intro.texi:6125
 #: R-intro.texi:6161
 #, no-wrap
 msgid "Figure margins"
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:5974
-#: R-intro.texi:6124
-#: R-intro.texi:6161
-#: R-intro.texi:6162
+#: R-intro.texi:5974 R-intro.texi:6124 R-intro.texi:6161 R-intro.texi:6162
 #, no-wrap
 msgid "Multiple figure environment"
 msgstr ""
@@ -10376,8 +9845,7 @@ msgid "causes all future graphics output to be sent to the printer in PostScript
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6251
-#: R-intro.texi:6342
+#: R-intro.texi:6251 R-intro.texi:6342
 #, no-wrap
 msgid "X11()"
 msgstr ""
@@ -10394,8 +9862,7 @@ msgid "For use with the X11 window system on Unix-alikes"
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6254
-#: R-intro.texi:6344
+#: R-intro.texi:6254 R-intro.texi:6344
 #, no-wrap
 msgid "windows()"
 msgstr ""
@@ -10412,8 +9879,7 @@ msgid "For use on Windows"
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6257
-#: R-intro.texi:6348
+#: R-intro.texi:6257 R-intro.texi:6348
 #, no-wrap
 msgid "quartz()"
 msgstr ""
@@ -10430,8 +9896,7 @@ msgid "For use on OS X"
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6260
-#: R-intro.texi:6350
+#: R-intro.texi:6260 R-intro.texi:6350
 #, no-wrap
 msgid "postscript()"
 msgstr ""
@@ -10448,8 +9913,7 @@ msgid "For printing on PostScript printers, or creating PostScript graphics file
 msgstr ""
 
 #. type: itemx
-#: R-intro.texi:6264
-#: R-intro.texi:6351
+#: R-intro.texi:6264 R-intro.texi:6351
 #, no-wrap
 msgid "pdf()"
 msgstr ""
@@ -10466,8 +9930,7 @@ msgid "Produces a PDF file, which can also be included into PDF files."
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6267
-#: R-intro.texi:6352
+#: R-intro.texi:6267 R-intro.texi:6352
 #, no-wrap
 msgid "png()"
 msgstr ""
@@ -10484,8 +9947,7 @@ msgid "Produces a bitmap PNG file. (Not always available: see its help page.)"
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6270
-#: R-intro.texi:6353
+#: R-intro.texi:6270 R-intro.texi:6353
 #, no-wrap
 msgid "jpeg()"
 msgstr ""
@@ -10518,19 +9980,13 @@ msgid "This ensures that the device finishes cleanly; for example in the case of
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6291
-#: R-intro.texi:6293
-#: R-intro.texi:6294
-#: R-intro.texi:6329
+#: R-intro.texi:6291 R-intro.texi:6293 R-intro.texi:6294 R-intro.texi:6329
 #, no-wrap
 msgid "PostScript diagrams for typeset documents"
 msgstr ""
 
 #. type: subsection
-#: R-intro.texi:6291
-#: R-intro.texi:6293
-#: R-intro.texi:6329
-#: R-intro.texi:6330
+#: R-intro.texi:6291 R-intro.texi:6293 R-intro.texi:6329 R-intro.texi:6330
 #, no-wrap
 msgid "Multiple graphics devices"
 msgstr ""
@@ -10817,28 +10273,19 @@ msgid "to start the @HTML{} help system, and then navigate to the package listin
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6484
-#: R-intro.texi:6486
-#: R-intro.texi:6487
-#: R-intro.texi:6496
+#: R-intro.texi:6484 R-intro.texi:6486 R-intro.texi:6487 R-intro.texi:6496
 #, no-wrap
 msgid "Standard packages"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6484
-#: R-intro.texi:6486
-#: R-intro.texi:6496
-#: R-intro.texi:6512
+#: R-intro.texi:6484 R-intro.texi:6486 R-intro.texi:6496 R-intro.texi:6512
 #, no-wrap
 msgid "Contributed packages and CRAN"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:6484
-#: R-intro.texi:6496
-#: R-intro.texi:6512
-#: R-intro.texi:6513
+#: R-intro.texi:6484 R-intro.texi:6496 R-intro.texi:6512 R-intro.texi:6513
 #, no-wrap
 msgid "Namespaces"
 msgstr ""
@@ -10919,39 +10366,27 @@ msgid "Because @R{}'s own scripts need to work across all platforms, considerabl
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6564
-#: R-intro.texi:6566
-#: R-intro.texi:6567
-#: R-intro.texi:6611
+#: R-intro.texi:6564 R-intro.texi:6566 R-intro.texi:6567 R-intro.texi:6611
 #, no-wrap
 msgid "Files and directories"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6564
-#: R-intro.texi:6566
-#: R-intro.texi:6611
-#: R-intro.texi:6612
+#: R-intro.texi:6564 R-intro.texi:6566 R-intro.texi:6611 R-intro.texi:6612
 #: R-intro.texi:6686
 #, no-wrap
 msgid "Filepaths"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6564
-#: R-intro.texi:6611
-#: R-intro.texi:6686
-#: R-intro.texi:6687
+#: R-intro.texi:6564 R-intro.texi:6611 R-intro.texi:6686 R-intro.texi:6687
 #: R-intro.texi:6706
 #, no-wrap
 msgid "System commands"
 msgstr ""
 
 #. type: section
-#: R-intro.texi:6564
-#: R-intro.texi:6686
-#: R-intro.texi:6706
-#: R-intro.texi:6707
+#: R-intro.texi:6564 R-intro.texi:6686 R-intro.texi:6706 R-intro.texi:6707
 #, no-wrap
 msgid "Compression and Archives"
 msgstr ""
@@ -11161,8 +10596,7 @@ msgid "Generate two pseudo-random normal vectors of @math{x}- and @math{y}-coord
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6766
-#: R-intro.texi:6802
+#: R-intro.texi:6766 R-intro.texi:6802
 #, no-wrap
 msgid "plot(x, y)"
 msgstr ""
@@ -11240,8 +10674,7 @@ msgid "fm <- lm(y ~ x, data=dummy)"
 msgstr ""
 
 #. type: itemx
-#: R-intro.texi:6787
-#: R-intro.texi:6866
+#: R-intro.texi:6787 R-intro.texi:6866
 #, no-wrap
 msgid "summary(fm)"
 msgstr ""
@@ -11340,8 +10773,7 @@ msgid "Weighted regression line."
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6817
-#: R-intro.texi:6874
+#: R-intro.texi:6817 R-intro.texi:6874
 #, no-wrap
 msgid "detach()"
 msgstr ""
@@ -11398,8 +10830,7 @@ msgid "rm(fm, fm1, lrf, x, dummy)"
 msgstr ""
 
 #. type: table
-#: R-intro.texi:6833
-#: R-intro.texi:6961
+#: R-intro.texi:6833 R-intro.texi:6961
 msgid "Clean up again."
 msgstr ""
 
@@ -11587,8 +11018,7 @@ msgid "oldpar <- par(no.readonly = TRUE)"
 msgstr ""
 
 #. type: item
-#: R-intro.texi:6902
-#: R-intro.texi:6935
+#: R-intro.texi:6902 R-intro.texi:6935
 #, no-wrap
 msgid "par(pty=\"s\")"
 msgstr ""
@@ -11738,8 +11168,7 @@ msgid "plot(w, xlim=c(-1,1), ylim=c(-1,1), pch=\"+\",xlab=\"x\", ylab=\"y\")"
 msgstr ""
 
 #. type: itemx
-#: R-intro.texi:6949
-#: R-intro.texi:6955
+#: R-intro.texi:6949 R-intro.texi:6955
 #, no-wrap
 msgid "lines(z)"
 msgstr ""
@@ -11789,39 +11218,27 @@ msgid "Users of @R{} on Windows or OS X should read the OS-specific section firs
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6979
-#: R-intro.texi:6981
-#: R-intro.texi:6982
-#: R-intro.texi:7322
+#: R-intro.texi:6979 R-intro.texi:6981 R-intro.texi:6982 R-intro.texi:7322
 #, no-wrap
 msgid "Invoking R from the command line"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6979
-#: R-intro.texi:6981
-#: R-intro.texi:7322
-#: R-intro.texi:7323
+#: R-intro.texi:6979 R-intro.texi:6981 R-intro.texi:7322 R-intro.texi:7323
 #: R-intro.texi:7392
 #, no-wrap
 msgid "Invoking R under Windows"
 msgstr ""
 
 #. type: node
-#: R-intro.texi:6979
-#: R-intro.texi:7322
-#: R-intro.texi:7392
-#: R-intro.texi:7393
+#: R-intro.texi:6979 R-intro.texi:7322 R-intro.texi:7392 R-intro.texi:7393
 #: R-intro.texi:7408
 #, no-wrap
 msgid "Invoking R under OS X"
 msgstr ""
 
 #. type: appendixsec
-#: R-intro.texi:6979
-#: R-intro.texi:7392
-#: R-intro.texi:7408
-#: R-intro.texi:7409
+#: R-intro.texi:6979 R-intro.texi:7392 R-intro.texi:7408 R-intro.texi:7409
 #, no-wrap
 msgid "Scripting with R"
 msgstr ""

@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the translate.R package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-07-27 11:36-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2015-07-28 15:26+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl_PL\n"
@@ -18,14 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: top
-#: R-lang.texi:4
-#: R-lang.texi:35
-#: R-lang.texi:53
+#: R-lang.texi:4 R-lang.texi:35 R-lang.texi:53
 #, no-wrap
 msgid "R Language Definition"
-msgstr "R Język Definicja (Polish)"
+msgstr "Definicja języka R"
 
 #. type: dircategory
 #: R-lang.texi:10
@@ -88,30 +87,16 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:52
-#: R-lang.texi:79
-#: R-lang.texi:137
-#: R-lang.texi:905
-#: R-lang.texi:2186
-#: R-lang.texi:2600
-#: R-lang.texi:3125
-#: R-lang.texi:3756
-#: R-lang.texi:3881
-#: R-lang.texi:3995
-#: R-lang.texi:4152
-#: R-lang.texi:4812
-#: R-lang.texi:4817
-#: R-lang.texi:4822
+#: R-lang.texi:52 R-lang.texi:79 R-lang.texi:137 R-lang.texi:905
+#: R-lang.texi:2186 R-lang.texi:2600 R-lang.texi:3125 R-lang.texi:3756
+#: R-lang.texi:3881 R-lang.texi:3995 R-lang.texi:4152 R-lang.texi:4812
+#: R-lang.texi:4817 R-lang.texi:4822
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:52
-#: R-lang.texi:77
-#: R-lang.texi:79
-#: R-lang.texi:81
-#: R-lang.texi:137
+#: R-lang.texi:52 R-lang.texi:77 R-lang.texi:79 R-lang.texi:81 R-lang.texi:137
 #, no-wrap
 msgid "Introduction"
 msgstr ""
@@ -128,160 +113,90 @@ msgid "This is an introduction to the @R{} language, explaining evaluation, pars
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:79
-#: R-lang.texi:137
-#: R-lang.texi:138
-#: R-lang.texi:251
-#: R-lang.texi:639
-#: R-lang.texi:782
-#: R-lang.texi:905
+#: R-lang.texi:77 R-lang.texi:79 R-lang.texi:137 R-lang.texi:138
+#: R-lang.texi:251 R-lang.texi:639 R-lang.texi:782 R-lang.texi:905
 #, no-wrap
 msgid "Objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:137
-#: R-lang.texi:905
-#: R-lang.texi:907
-#: R-lang.texi:933
-#: R-lang.texi:1227
-#: R-lang.texi:1508
-#: R-lang.texi:1605
-#: R-lang.texi:2030
-#: R-lang.texi:2186
+#: R-lang.texi:77 R-lang.texi:137 R-lang.texi:905 R-lang.texi:907
+#: R-lang.texi:933 R-lang.texi:1227 R-lang.texi:1508 R-lang.texi:1605
+#: R-lang.texi:2030 R-lang.texi:2186
 #, no-wrap
 msgid "Evaluation of expressions"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:905
-#: R-lang.texi:2186
-#: R-lang.texi:2187
-#: R-lang.texi:2195
-#: R-lang.texi:2291
-#: R-lang.texi:2299
-#: R-lang.texi:2600
+#: R-lang.texi:77 R-lang.texi:905 R-lang.texi:2186 R-lang.texi:2187
+#: R-lang.texi:2195 R-lang.texi:2291 R-lang.texi:2299 R-lang.texi:2600
 #, no-wrap
 msgid "Functions"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:2186
-#: R-lang.texi:2600
-#: R-lang.texi:2601
-#: R-lang.texi:2685
-#: R-lang.texi:2832
-#: R-lang.texi:2844
-#: R-lang.texi:2878
-#: R-lang.texi:2965
-#: R-lang.texi:3041
-#: R-lang.texi:3086
-#: R-lang.texi:3125
+#: R-lang.texi:77 R-lang.texi:2186 R-lang.texi:2600 R-lang.texi:2601
+#: R-lang.texi:2685 R-lang.texi:2832 R-lang.texi:2844 R-lang.texi:2878
+#: R-lang.texi:2965 R-lang.texi:3041 R-lang.texi:3086 R-lang.texi:3125
 #, no-wrap
 msgid "Object-oriented programming"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:2600
-#: R-lang.texi:3125
-#: R-lang.texi:3126
-#: R-lang.texi:3170
-#: R-lang.texi:3290
-#: R-lang.texi:3441
-#: R-lang.texi:3496
-#: R-lang.texi:3555
-#: R-lang.texi:3715
-#: R-lang.texi:3756
+#: R-lang.texi:77 R-lang.texi:2600 R-lang.texi:3125 R-lang.texi:3126
+#: R-lang.texi:3170 R-lang.texi:3290 R-lang.texi:3441 R-lang.texi:3496
+#: R-lang.texi:3555 R-lang.texi:3715 R-lang.texi:3756
 #, no-wrap
 msgid "Computing on the language"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:3125
-#: R-lang.texi:3756
-#: R-lang.texi:3757
-#: R-lang.texi:3765
-#: R-lang.texi:3851
-#: R-lang.texi:3871
-#: R-lang.texi:3881
+#: R-lang.texi:77 R-lang.texi:3125 R-lang.texi:3756 R-lang.texi:3757
+#: R-lang.texi:3765 R-lang.texi:3851 R-lang.texi:3871 R-lang.texi:3881
 #, no-wrap
 msgid "System and foreign language interfaces"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:3756
-#: R-lang.texi:3881
-#: R-lang.texi:3882
-#: R-lang.texi:3896
-#: R-lang.texi:3903
-#: R-lang.texi:3924
-#: R-lang.texi:3969
+#: R-lang.texi:77 R-lang.texi:3756 R-lang.texi:3881 R-lang.texi:3882
+#: R-lang.texi:3896 R-lang.texi:3903 R-lang.texi:3924 R-lang.texi:3969
 #: R-lang.texi:3995
 #, no-wrap
 msgid "Exception handling"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:3881
-#: R-lang.texi:3995
-#: R-lang.texi:3996
-#: R-lang.texi:4052
-#: R-lang.texi:4074
-#: R-lang.texi:4120
-#: R-lang.texi:4142
+#: R-lang.texi:77 R-lang.texi:3881 R-lang.texi:3995 R-lang.texi:3996
+#: R-lang.texi:4052 R-lang.texi:4074 R-lang.texi:4120 R-lang.texi:4142
 #: R-lang.texi:4152
 #, no-wrap
 msgid "Debugging"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:3995
-#: R-lang.texi:4152
-#: R-lang.texi:4153
-#: R-lang.texi:4170
-#: R-lang.texi:4250
-#: R-lang.texi:4266
-#: R-lang.texi:4546
-#: R-lang.texi:4780
-#: R-lang.texi:4812
+#: R-lang.texi:77 R-lang.texi:3995 R-lang.texi:4152 R-lang.texi:4153
+#: R-lang.texi:4170 R-lang.texi:4250 R-lang.texi:4266 R-lang.texi:4546
+#: R-lang.texi:4780 R-lang.texi:4812
 #, no-wrap
 msgid "Parser"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:4152
-#: R-lang.texi:4812
-#: R-lang.texi:4813
+#: R-lang.texi:77 R-lang.texi:4152 R-lang.texi:4812 R-lang.texi:4813
 #: R-lang.texi:4817
 #, no-wrap
 msgid "Function and Variable Index"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:77
-#: R-lang.texi:4812
-#: R-lang.texi:4817
-#: R-lang.texi:4818
+#: R-lang.texi:77 R-lang.texi:4812 R-lang.texi:4817 R-lang.texi:4818
 #: R-lang.texi:4822
 #, no-wrap
 msgid "Concept Index"
 msgstr ""
 
 #. type: appendix
-#: R-lang.texi:77
-#: R-lang.texi:4817
-#: R-lang.texi:4822
-#: R-lang.texi:4823
+#: R-lang.texi:77 R-lang.texi:4817 R-lang.texi:4822 R-lang.texi:4823
 #, no-wrap
 msgid "References"
 msgstr ""
@@ -307,9 +222,7 @@ msgid "It is possible to get quite far using @R{} interactively, executing"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:101
-#: R-lang.texi:331
-#: R-lang.texi:4492
+#: R-lang.texi:101 R-lang.texi:331 R-lang.texi:4492
 #, no-wrap
 msgid "expression"
 msgstr ""
@@ -356,10 +269,7 @@ msgid "variables provide a means of accessing the data stored in memory.  @R{} d
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:147
-#: R-lang.texi:233
-#: R-lang.texi:368
-#: R-lang.texi:643
+#: R-lang.texi:147 R-lang.texi:233 R-lang.texi:368 R-lang.texi:643
 #: R-lang.texi:2872
 #, no-wrap
 msgid "object"
@@ -382,12 +292,8 @@ msgid "typeof"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:159
-#: R-lang.texi:235
-#: R-lang.texi:252
-#: R-lang.texi:282
-#: R-lang.texi:698
-#: R-lang.texi:1558
+#: R-lang.texi:159 R-lang.texi:235 R-lang.texi:252 R-lang.texi:282
+#: R-lang.texi:698 R-lang.texi:1558
 #, no-wrap
 msgid "type"
 msgstr ""
@@ -433,9 +339,7 @@ msgid "@code{\"environment\"} @tab an environment"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:176
-#: R-lang.texi:3314
-#: R-lang.texi:3390
+#: R-lang.texi:176 R-lang.texi:3314 R-lang.texi:3390
 #, no-wrap
 msgid "evaluation, lazy"
 msgstr ""
@@ -560,10 +464,7 @@ msgid "Users cannot easily get hold of objects of types marked with a `***'."
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:203
-#: R-lang.texi:204
-#: R-lang.texi:283
-#: R-lang.texi:292
+#: R-lang.texi:203 R-lang.texi:204 R-lang.texi:283 R-lang.texi:292
 #: R-lang.texi:376
 #, no-wrap
 msgid "mode"
@@ -575,8 +476,7 @@ msgid "Function @code{mode} gives information about the @dfn{mode} of an object 
 msgstr ""
 
 #. type: multitable
-#: R-lang.texi:213
-#: R-lang.texi:292
+#: R-lang.texi:213 R-lang.texi:292
 #, no-wrap
 msgid "storage.mode"
 msgstr ""
@@ -615,10 +515,7 @@ msgid "types during computations.  There are also many functions available to pe
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:238
-#: R-lang.texi:379
-#: R-lang.texi:633
-#: R-lang.texi:745
+#: R-lang.texi:238 R-lang.texi:379 R-lang.texi:633 R-lang.texi:745
 #: R-lang.texi:1582
 #, no-wrap
 msgid "coercion"
@@ -630,162 +527,103 @@ msgid "coercion.  When programming in the @R{} language the type of an object ge
 msgstr ""
 
 #. type: node
-#: R-lang.texi:249
-#: R-lang.texi:251
-#: R-lang.texi:253
-#: R-lang.texi:271
-#: R-lang.texi:310
-#: R-lang.texi:325
-#: R-lang.texi:388
-#: R-lang.texi:411
-#: R-lang.texi:471
-#: R-lang.texi:485
-#: R-lang.texi:505
-#: R-lang.texi:536
-#: R-lang.texi:558
-#: R-lang.texi:597
-#: R-lang.texi:627
-#: R-lang.texi:639
+#: R-lang.texi:249 R-lang.texi:251 R-lang.texi:253 R-lang.texi:271
+#: R-lang.texi:310 R-lang.texi:325 R-lang.texi:388 R-lang.texi:411
+#: R-lang.texi:471 R-lang.texi:485 R-lang.texi:505 R-lang.texi:536
+#: R-lang.texi:558 R-lang.texi:597 R-lang.texi:627 R-lang.texi:639
 #, no-wrap
 msgid "Basic types"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:249
-#: R-lang.texi:251
-#: R-lang.texi:639
-#: R-lang.texi:640
-#: R-lang.texi:685
-#: R-lang.texi:708
-#: R-lang.texi:723
-#: R-lang.texi:731
-#: R-lang.texi:748
-#: R-lang.texi:755
-#: R-lang.texi:782
+#: R-lang.texi:249 R-lang.texi:251 R-lang.texi:639 R-lang.texi:640
+#: R-lang.texi:685 R-lang.texi:708 R-lang.texi:723 R-lang.texi:731
+#: R-lang.texi:748 R-lang.texi:755 R-lang.texi:782
 #, no-wrap
 msgid "Attributes"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:249
-#: R-lang.texi:639
-#: R-lang.texi:782
-#: R-lang.texi:783
-#: R-lang.texi:790
-#: R-lang.texi:813
+#: R-lang.texi:249 R-lang.texi:639 R-lang.texi:782 R-lang.texi:783
+#: R-lang.texi:790 R-lang.texi:813
 #, no-wrap
 msgid "Special compound objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:271
-#: R-lang.texi:310
+#: R-lang.texi:269 R-lang.texi:271 R-lang.texi:310
 #, no-wrap
 msgid "Vector objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:271
-#: R-lang.texi:310
-#: R-lang.texi:325
+#: R-lang.texi:269 R-lang.texi:271 R-lang.texi:310 R-lang.texi:325
 #, no-wrap
 msgid "List objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:310
-#: R-lang.texi:325
-#: R-lang.texi:326
-#: R-lang.texi:362
-#: R-lang.texi:388
+#: R-lang.texi:269 R-lang.texi:310 R-lang.texi:325 R-lang.texi:326
+#: R-lang.texi:362 R-lang.texi:388
 #, no-wrap
 msgid "Language objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:325
-#: R-lang.texi:388
-#: R-lang.texi:389
+#: R-lang.texi:269 R-lang.texi:325 R-lang.texi:388 R-lang.texi:389
 #: R-lang.texi:411
 #, no-wrap
 msgid "Expression objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:388
-#: R-lang.texi:411
-#: R-lang.texi:412
+#: R-lang.texi:269 R-lang.texi:388 R-lang.texi:411 R-lang.texi:412
 #: R-lang.texi:471
 #, no-wrap
 msgid "Function objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:411
-#: R-lang.texi:471
-#: R-lang.texi:485
+#: R-lang.texi:269 R-lang.texi:411 R-lang.texi:471 R-lang.texi:485
 #, no-wrap
 msgid "NULL object"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:471
-#: R-lang.texi:485
-#: R-lang.texi:505
+#: R-lang.texi:269 R-lang.texi:471 R-lang.texi:485 R-lang.texi:505
 #, no-wrap
 msgid "Builtin objects and special forms"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:485
-#: R-lang.texi:505
-#: R-lang.texi:506
+#: R-lang.texi:269 R-lang.texi:485 R-lang.texi:505 R-lang.texi:506
 #: R-lang.texi:536
 #, no-wrap
 msgid "Promise objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:505
-#: R-lang.texi:536
-#: R-lang.texi:537
+#: R-lang.texi:269 R-lang.texi:505 R-lang.texi:536 R-lang.texi:537
 #: R-lang.texi:558
 #, no-wrap
 msgid "Dot-dot-dot"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:536
-#: R-lang.texi:558
-#: R-lang.texi:597
+#: R-lang.texi:269 R-lang.texi:536 R-lang.texi:558 R-lang.texi:597
 #, no-wrap
 msgid "Environment objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:558
-#: R-lang.texi:597
-#: R-lang.texi:598
+#: R-lang.texi:269 R-lang.texi:558 R-lang.texi:597 R-lang.texi:598
 #: R-lang.texi:627
 #, no-wrap
 msgid "Pairlist objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:269
-#: R-lang.texi:597
-#: R-lang.texi:627
+#: R-lang.texi:269 R-lang.texi:597 R-lang.texi:627
 #, no-wrap
 msgid "Any-type"
 msgstr ""
@@ -797,9 +635,7 @@ msgid "Vectors"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:274
-#: R-lang.texi:718
-#: R-lang.texi:1183
+#: R-lang.texi:274 R-lang.texi:718 R-lang.texi:1183
 #, no-wrap
 msgid "vector"
 msgstr ""
@@ -810,12 +646,8 @@ msgid "Vectors can be thought of as contiguous cells containing data.  Cells are
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:277
-#: R-lang.texi:317
-#: R-lang.texi:1630
-#: R-lang.texi:1673
-#: R-lang.texi:1756
-#: R-lang.texi:1798
+#: R-lang.texi:277 R-lang.texi:317 R-lang.texi:1630 R-lang.texi:1673
+#: R-lang.texi:1756 R-lang.texi:1798
 #, no-wrap
 msgid "index"
 msgstr ""
@@ -920,18 +752,9 @@ msgid "call"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:332
-#: R-lang.texi:370
-#: R-lang.texi:988
-#: R-lang.texi:1535
-#: R-lang.texi:2034
-#: R-lang.texi:2275
-#: R-lang.texi:2347
-#: R-lang.texi:2399
-#: R-lang.texi:2858
-#: R-lang.texi:3009
-#: R-lang.texi:3231
-#: R-lang.texi:4031
+#: R-lang.texi:332 R-lang.texi:370 R-lang.texi:988 R-lang.texi:1535
+#: R-lang.texi:2034 R-lang.texi:2275 R-lang.texi:2347 R-lang.texi:2399
+#: R-lang.texi:2858 R-lang.texi:3009 R-lang.texi:3231 R-lang.texi:4031
 #, no-wrap
 msgid "name"
 msgstr ""
@@ -981,14 +804,8 @@ msgid "Components of the"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:354
-#: R-lang.texi:384
-#: R-lang.texi:912
-#: R-lang.texi:3140
-#: R-lang.texi:3259
-#: R-lang.texi:3371
-#: R-lang.texi:4154
-#: R-lang.texi:4220
+#: R-lang.texi:354 R-lang.texi:384 R-lang.texi:912 R-lang.texi:3140
+#: R-lang.texi:3259 R-lang.texi:3371 R-lang.texi:4154 R-lang.texi:4220
 #, no-wrap
 msgid "parsing"
 msgstr ""
@@ -999,20 +816,14 @@ msgid "parse tree can be extracted using the standard indexing operations."
 msgstr ""
 
 #. type: subsubsection
-#: R-lang.texi:360
-#: R-lang.texi:362
-#: R-lang.texi:363
+#: R-lang.texi:360 R-lang.texi:362 R-lang.texi:363
 #, no-wrap
 msgid "Symbol objects"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:366
-#: R-lang.texi:375
-#: R-lang.texi:990
-#: R-lang.texi:2492
-#: R-lang.texi:3369
-#: R-lang.texi:3688
+#: R-lang.texi:366 R-lang.texi:375 R-lang.texi:990 R-lang.texi:2492
+#: R-lang.texi:3369 R-lang.texi:3688
 #, no-wrap
 msgid "symbol"
 msgstr ""
@@ -1076,8 +887,7 @@ msgid "tokens."
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:396
-#: R-lang.texi:407
+#: R-lang.texi:396 R-lang.texi:407
 #, no-wrap
 msgid "expression object"
 msgstr ""
@@ -1088,9 +898,7 @@ msgid "Expression objects are special language objects which contain parsed but 
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:401
-#: R-lang.texi:522
-#: R-lang.texi:2269
+#: R-lang.texi:401 R-lang.texi:522 R-lang.texi:2269
 #, no-wrap
 msgid "evaluation, expression"
 msgstr ""
@@ -1101,8 +909,7 @@ msgid "evaluated when explicitly passed to @code{eval}, whereas other language o
 msgstr ""
 
 #. type: Plain text
-#: R-lang.texi:407
-#: R-lang.texi:2231
+#: R-lang.texi:407 R-lang.texi:2231
 msgid "An"
 msgstr ""
 
@@ -1112,38 +919,14 @@ msgid "expression object behaves much like a list and its components should be a
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:414
-#: R-lang.texi:437
-#: R-lang.texi:464
-#: R-lang.texi:489
-#: R-lang.texi:502
-#: R-lang.texi:513
-#: R-lang.texi:552
-#: R-lang.texi:1064
-#: R-lang.texi:2067
-#: R-lang.texi:2093
-#: R-lang.texi:2109
-#: R-lang.texi:2200
-#: R-lang.texi:2219
-#: R-lang.texi:2242
-#: R-lang.texi:2286
-#: R-lang.texi:2313
-#: R-lang.texi:2339
-#: R-lang.texi:2389
-#: R-lang.texi:2426
-#: R-lang.texi:2443
-#: R-lang.texi:2463
-#: R-lang.texi:2507
-#: R-lang.texi:2532
-#: R-lang.texi:2552
-#: R-lang.texi:2616
-#: R-lang.texi:2737
-#: R-lang.texi:3559
-#: R-lang.texi:3719
-#: R-lang.texi:3746
-#: R-lang.texi:4225
-#: R-lang.texi:4572
-#: R-lang.texi:4757
+#: R-lang.texi:414 R-lang.texi:437 R-lang.texi:464 R-lang.texi:489
+#: R-lang.texi:502 R-lang.texi:513 R-lang.texi:552 R-lang.texi:1064
+#: R-lang.texi:2067 R-lang.texi:2093 R-lang.texi:2109 R-lang.texi:2200
+#: R-lang.texi:2219 R-lang.texi:2242 R-lang.texi:2286 R-lang.texi:2313
+#: R-lang.texi:2339 R-lang.texi:2389 R-lang.texi:2426 R-lang.texi:2443
+#: R-lang.texi:2463 R-lang.texi:2507 R-lang.texi:2532 R-lang.texi:2552
+#: R-lang.texi:2616 R-lang.texi:2737 R-lang.texi:3559 R-lang.texi:3719
+#: R-lang.texi:3746 R-lang.texi:4225 R-lang.texi:4572 R-lang.texi:4757
 #, no-wrap
 msgid "function"
 msgstr ""
@@ -1154,26 +937,11 @@ msgid "In @R{} functions are objects and can be manipulated in much the same way
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:419
-#: R-lang.texi:438
-#: R-lang.texi:454
-#: R-lang.texi:511
-#: R-lang.texi:561
-#: R-lang.texi:2055
-#: R-lang.texi:2070
-#: R-lang.texi:2122
-#: R-lang.texi:2163
-#: R-lang.texi:2321
-#: R-lang.texi:2418
-#: R-lang.texi:2450
-#: R-lang.texi:2524
-#: R-lang.texi:2893
-#: R-lang.texi:2912
-#: R-lang.texi:3448
-#: R-lang.texi:3730
-#: R-lang.texi:3731
-#: R-lang.texi:3786
-#: R-lang.texi:4007
+#: R-lang.texi:419 R-lang.texi:438 R-lang.texi:454 R-lang.texi:511
+#: R-lang.texi:561 R-lang.texi:2055 R-lang.texi:2070 R-lang.texi:2122
+#: R-lang.texi:2163 R-lang.texi:2321 R-lang.texi:2418 R-lang.texi:2450
+#: R-lang.texi:2524 R-lang.texi:2893 R-lang.texi:2912 R-lang.texi:3448
+#: R-lang.texi:3730 R-lang.texi:3731 R-lang.texi:3786 R-lang.texi:4007
 #: R-lang.texi:4036
 #, no-wrap
 msgid "environment"
@@ -1185,8 +953,7 @@ msgid "environment.  The argument list is a comma-separated list of arguments.  
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:422
-#: R-lang.texi:2231
+#: R-lang.texi:422 R-lang.texi:2231
 #, no-wrap
 msgid "argument"
 msgstr ""
@@ -1217,18 +984,9 @@ msgid "It is possible to extract and manipulate the three parts of a closure obj
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:450
-#: R-lang.texi:1077
-#: R-lang.texi:1218
-#: R-lang.texi:1859
-#: R-lang.texi:2057
-#: R-lang.texi:2413
-#: R-lang.texi:2518
-#: R-lang.texi:2915
-#: R-lang.texi:2944
-#: R-lang.texi:3483
-#: R-lang.texi:3613
-#: R-lang.texi:4633
+#: R-lang.texi:450 R-lang.texi:1077 R-lang.texi:1218 R-lang.texi:1859
+#: R-lang.texi:2057 R-lang.texi:2413 R-lang.texi:2518 R-lang.texi:2915
+#: R-lang.texi:2944 R-lang.texi:3483 R-lang.texi:3613 R-lang.texi:4633
 #: R-lang.texi:4662
 #, no-wrap
 msgid "assignment"
@@ -1240,15 +998,13 @@ msgid "assignments)."
 msgstr ""
 
 #. type: item
-#: R-lang.texi:452
-#: R-lang.texi:3727
+#: R-lang.texi:452 R-lang.texi:3727
 #, no-wrap
 msgid "formals"
 msgstr ""
 
 #. type: item
-#: R-lang.texi:453
-#: R-lang.texi:3725
+#: R-lang.texi:453 R-lang.texi:3725
 #, no-wrap
 msgid "body"
 msgstr ""
@@ -1280,8 +1036,7 @@ msgid "These have been included to provide compatibility with @Sl{} and their us
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:472
-#: R-lang.texi:477
+#: R-lang.texi:472 R-lang.texi:477
 #, no-wrap
 msgid "NULL"
 msgstr ""
@@ -1308,15 +1063,13 @@ msgid "These two kinds of object contain the builtin"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:490
-#: R-lang.texi:3874
+#: R-lang.texi:490 R-lang.texi:3874
 #, no-wrap
 msgid ".Primitive"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:491
-#: R-lang.texi:3873
+#: R-lang.texi:491 R-lang.texi:3873
 #, no-wrap
 msgid ".Internal"
 msgstr ""
@@ -1353,8 +1106,7 @@ msgid "environment.  When a"
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:514
-#: R-lang.texi:553
+#: R-lang.texi:514 R-lang.texi:553
 #, no-wrap
 msgid "function argument"
 msgstr ""
@@ -1501,8 +1253,7 @@ msgid "coercion should not be done."
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:641
-#: R-lang.texi:649
+#: R-lang.texi:641 R-lang.texi:649
 #, no-wrap
 msgid "attributes"
 msgstr ""
@@ -1562,9 +1313,7 @@ msgid "Attributes are used to implement the class structure used in @R{}.  If an
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:672
-#: R-lang.texi:993
-#: R-lang.texi:2490
+#: R-lang.texi:672 R-lang.texi:993 R-lang.texi:2490
 #, no-wrap
 msgid "evaluation, symbol"
 msgstr ""
@@ -1575,59 +1324,41 @@ msgid "evaluation.  The class structure in @R{} is described in detail in @ref{O
 msgstr ""
 
 #. type: node
-#: R-lang.texi:683
-#: R-lang.texi:685
-#: R-lang.texi:686
-#: R-lang.texi:708
+#: R-lang.texi:683 R-lang.texi:685 R-lang.texi:686 R-lang.texi:708
 #, no-wrap
 msgid "Names"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:683
-#: R-lang.texi:685
-#: R-lang.texi:708
-#: R-lang.texi:709
+#: R-lang.texi:683 R-lang.texi:685 R-lang.texi:708 R-lang.texi:709
 #: R-lang.texi:723
 #, no-wrap
 msgid "Dimensions"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:683
-#: R-lang.texi:708
-#: R-lang.texi:723
-#: R-lang.texi:724
+#: R-lang.texi:683 R-lang.texi:708 R-lang.texi:723 R-lang.texi:724
 #: R-lang.texi:731
 #, no-wrap
 msgid "Dimnames"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:683
-#: R-lang.texi:723
-#: R-lang.texi:731
-#: R-lang.texi:732
+#: R-lang.texi:683 R-lang.texi:723 R-lang.texi:731 R-lang.texi:732
 #: R-lang.texi:748
 #, no-wrap
 msgid "Classes"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:683
-#: R-lang.texi:731
-#: R-lang.texi:748
-#: R-lang.texi:749
+#: R-lang.texi:683 R-lang.texi:731 R-lang.texi:748 R-lang.texi:749
 #: R-lang.texi:755
 #, no-wrap
 msgid "Time series attributes"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:683
-#: R-lang.texi:748
-#: R-lang.texi:755
-#: R-lang.texi:756
+#: R-lang.texi:683 R-lang.texi:748 R-lang.texi:755 R-lang.texi:756
 #, no-wrap
 msgid "Copying of attributes"
 msgstr ""
@@ -1725,19 +1456,13 @@ msgid "The default method for sorting drops all attributes except names, which a
 msgstr ""
 
 #. type: node
-#: R-lang.texi:788
-#: R-lang.texi:790
-#: R-lang.texi:791
-#: R-lang.texi:813
+#: R-lang.texi:788 R-lang.texi:790 R-lang.texi:791 R-lang.texi:813
 #, no-wrap
 msgid "Factors"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:788
-#: R-lang.texi:790
-#: R-lang.texi:813
-#: R-lang.texi:814
+#: R-lang.texi:788 R-lang.texi:790 R-lang.texi:813 R-lang.texi:814
 #, no-wrap
 msgid "Data frame objects"
 msgstr ""
@@ -1810,111 +1535,66 @@ msgid "Users can construct expressions and invoke the evaluator on them."
 msgstr ""
 
 #. type: node
-#: R-lang.texi:931
-#: R-lang.texi:933
-#: R-lang.texi:934
-#: R-lang.texi:943
-#: R-lang.texi:984
-#: R-lang.texi:1041
-#: R-lang.texi:1096
-#: R-lang.texi:1227
+#: R-lang.texi:931 R-lang.texi:933 R-lang.texi:934 R-lang.texi:943
+#: R-lang.texi:984 R-lang.texi:1041 R-lang.texi:1096 R-lang.texi:1227
 #, no-wrap
 msgid "Simple evaluation"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:931
-#: R-lang.texi:933
-#: R-lang.texi:1227
-#: R-lang.texi:1228
-#: R-lang.texi:1284
-#: R-lang.texi:1356
-#: R-lang.texi:1384
-#: R-lang.texi:1401
-#: R-lang.texi:1417
-#: R-lang.texi:1436
-#: R-lang.texi:1508
+#: R-lang.texi:931 R-lang.texi:933 R-lang.texi:1227 R-lang.texi:1228
+#: R-lang.texi:1284 R-lang.texi:1356 R-lang.texi:1384 R-lang.texi:1401
+#: R-lang.texi:1417 R-lang.texi:1436 R-lang.texi:1508
 #, no-wrap
 msgid "Control structures"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:931
-#: R-lang.texi:1227
-#: R-lang.texi:1508
-#: R-lang.texi:1509
-#: R-lang.texi:1522
-#: R-lang.texi:1533
-#: R-lang.texi:1541
-#: R-lang.texi:1547
+#: R-lang.texi:931 R-lang.texi:1227 R-lang.texi:1508 R-lang.texi:1509
+#: R-lang.texi:1522 R-lang.texi:1533 R-lang.texi:1541 R-lang.texi:1547
 #: R-lang.texi:1605
 #, no-wrap
 msgid "Elementary arithmetic operations"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:931
-#: R-lang.texi:1508
-#: R-lang.texi:1605
-#: R-lang.texi:1606
-#: R-lang.texi:1663
-#: R-lang.texi:1753
-#: R-lang.texi:1829
-#: R-lang.texi:1857
+#: R-lang.texi:931 R-lang.texi:1508 R-lang.texi:1605 R-lang.texi:1606
+#: R-lang.texi:1663 R-lang.texi:1753 R-lang.texi:1829 R-lang.texi:1857
 #: R-lang.texi:2030
 #, no-wrap
 msgid "Indexing"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:931
-#: R-lang.texi:1605
-#: R-lang.texi:2030
-#: R-lang.texi:2031
-#: R-lang.texi:2051
-#: R-lang.texi:2063
-#: R-lang.texi:2105
-#: R-lang.texi:2159
+#: R-lang.texi:931 R-lang.texi:1605 R-lang.texi:2030 R-lang.texi:2031
+#: R-lang.texi:2051 R-lang.texi:2063 R-lang.texi:2105 R-lang.texi:2159
 #, no-wrap
 msgid "Scope of variables"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:941
-#: R-lang.texi:943
-#: R-lang.texi:944
-#: R-lang.texi:984
+#: R-lang.texi:941 R-lang.texi:943 R-lang.texi:944 R-lang.texi:984
 #: R-lang.texi:4288
 #, no-wrap
 msgid "Constants"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:941
-#: R-lang.texi:943
-#: R-lang.texi:984
-#: R-lang.texi:985
+#: R-lang.texi:941 R-lang.texi:943 R-lang.texi:984 R-lang.texi:985
 #: R-lang.texi:1041
 #, no-wrap
 msgid "Symbol lookup"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:941
-#: R-lang.texi:984
-#: R-lang.texi:1041
-#: R-lang.texi:1042
-#: R-lang.texi:1096
-#: R-lang.texi:4570
+#: R-lang.texi:941 R-lang.texi:984 R-lang.texi:1041 R-lang.texi:1042
+#: R-lang.texi:1096 R-lang.texi:4570
 #, no-wrap
 msgid "Function calls"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:941
-#: R-lang.texi:1041
-#: R-lang.texi:1096
-#: R-lang.texi:1097
+#: R-lang.texi:941 R-lang.texi:1041 R-lang.texi:1096 R-lang.texi:1097
 #, no-wrap
 msgid "Operators"
 msgstr ""
@@ -2404,9 +2084,7 @@ msgid "Right assignment, binary"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:1173
-#: R-lang.texi:1629
-#: R-lang.texi:4695
+#: R-lang.texi:1173 R-lang.texi:1629 R-lang.texi:4695
 #, no-wrap
 msgid "$"
 msgstr ""
@@ -2462,8 +2140,7 @@ msgid "Indexing constructs can also appear on the right hand side of an"
 msgstr ""
 
 #. type: Plain text
-#: R-lang.texi:1220
-#: R-lang.texi:2520
+#: R-lang.texi:1220 R-lang.texi:2520
 msgid "assignment."
 msgstr ""
 
@@ -2526,62 +2203,41 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1282
-#: R-lang.texi:1284
-#: R-lang.texi:1285
-#: R-lang.texi:1356
+#: R-lang.texi:1282 R-lang.texi:1284 R-lang.texi:1285 R-lang.texi:1356
 #, no-wrap
 msgid "if"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1282
-#: R-lang.texi:1284
-#: R-lang.texi:1356
-#: R-lang.texi:1357
+#: R-lang.texi:1282 R-lang.texi:1284 R-lang.texi:1356 R-lang.texi:1357
 #: R-lang.texi:1384
 #, no-wrap
 msgid "Looping"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1282
-#: R-lang.texi:1356
-#: R-lang.texi:1384
-#: R-lang.texi:1385
-#: R-lang.texi:1386
-#: R-lang.texi:1401
+#: R-lang.texi:1282 R-lang.texi:1356 R-lang.texi:1384 R-lang.texi:1385
+#: R-lang.texi:1386 R-lang.texi:1401
 #, no-wrap
 msgid "repeat"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1282
-#: R-lang.texi:1384
-#: R-lang.texi:1401
-#: R-lang.texi:1402
-#: R-lang.texi:1403
-#: R-lang.texi:1417
+#: R-lang.texi:1282 R-lang.texi:1384 R-lang.texi:1401 R-lang.texi:1402
+#: R-lang.texi:1403 R-lang.texi:1417
 #, no-wrap
 msgid "while"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1282
-#: R-lang.texi:1401
-#: R-lang.texi:1417
-#: R-lang.texi:1418
-#: R-lang.texi:1419
-#: R-lang.texi:1436
+#: R-lang.texi:1282 R-lang.texi:1401 R-lang.texi:1417 R-lang.texi:1418
+#: R-lang.texi:1419 R-lang.texi:1436
 #, no-wrap
 msgid "for"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:1282
-#: R-lang.texi:1417
-#: R-lang.texi:1436
-#: R-lang.texi:1437
+#: R-lang.texi:1282 R-lang.texi:1417 R-lang.texi:1436 R-lang.texi:1437
 #: R-lang.texi:1438
 #, no-wrap
 msgid "switch"
@@ -2822,39 +2478,27 @@ msgid "To choose from a list of alternatives that already exists @code{switch} m
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1516
-#: R-lang.texi:1522
-#: R-lang.texi:1523
-#: R-lang.texi:1533
+#: R-lang.texi:1516 R-lang.texi:1522 R-lang.texi:1523 R-lang.texi:1533
 #, no-wrap
 msgid "Recycling rules"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1516
-#: R-lang.texi:1522
-#: R-lang.texi:1533
-#: R-lang.texi:1534
+#: R-lang.texi:1516 R-lang.texi:1522 R-lang.texi:1533 R-lang.texi:1534
 #: R-lang.texi:1541
 #, no-wrap
 msgid "Propagation of names"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1516
-#: R-lang.texi:1533
-#: R-lang.texi:1541
-#: R-lang.texi:1542
+#: R-lang.texi:1516 R-lang.texi:1533 R-lang.texi:1541 R-lang.texi:1542
 #: R-lang.texi:1547
 #, no-wrap
 msgid "Dimensional attributes"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:1516
-#: R-lang.texi:1541
-#: R-lang.texi:1547
-#: R-lang.texi:1548
+#: R-lang.texi:1516 R-lang.texi:1541 R-lang.texi:1547 R-lang.texi:1548
 #, no-wrap
 msgid "NA handling"
 msgstr ""
@@ -2896,8 +2540,7 @@ msgid "missing"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:1555
-#: R-lang.texi:1741
+#: R-lang.texi:1555 R-lang.texi:1741
 #, no-wrap
 msgid "NA"
 msgstr ""
@@ -2988,15 +2631,13 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:1627
-#: R-lang.texi:4679
+#: R-lang.texi:1627 R-lang.texi:4679
 #, no-wrap
 msgid "["
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:1628
-#: R-lang.texi:4680
+#: R-lang.texi:1628 R-lang.texi:4680
 #, no-wrap
 msgid "[["
 msgstr ""
@@ -3022,39 +2663,27 @@ msgid "The form using @code{$} applies to recursive objects such as lists and pa
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1661
-#: R-lang.texi:1663
-#: R-lang.texi:1664
-#: R-lang.texi:1753
+#: R-lang.texi:1661 R-lang.texi:1663 R-lang.texi:1664 R-lang.texi:1753
 #, no-wrap
 msgid "Indexing by vectors"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1661
-#: R-lang.texi:1663
-#: R-lang.texi:1753
-#: R-lang.texi:1754
+#: R-lang.texi:1661 R-lang.texi:1663 R-lang.texi:1753 R-lang.texi:1754
 #: R-lang.texi:1829
 #, no-wrap
 msgid "Indexing matrices and arrays"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:1661
-#: R-lang.texi:1753
-#: R-lang.texi:1829
-#: R-lang.texi:1830
+#: R-lang.texi:1661 R-lang.texi:1753 R-lang.texi:1829 R-lang.texi:1830
 #: R-lang.texi:1857
 #, no-wrap
 msgid "Indexing other structures"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:1661
-#: R-lang.texi:1829
-#: R-lang.texi:1857
-#: R-lang.texi:1858
+#: R-lang.texi:1661 R-lang.texi:1829 R-lang.texi:1857 R-lang.texi:1858
 #, no-wrap
 msgid "Subset assignment"
 msgstr ""
@@ -3256,10 +2885,7 @@ msgid "names(x) <- c(\"a\",\"b\")\n"
 msgstr ""
 
 #. type: Plain text
-#: R-lang.texi:1888
-#: R-lang.texi:1899
-#: R-lang.texi:1913
-#: R-lang.texi:1956
+#: R-lang.texi:1888 R-lang.texi:1899 R-lang.texi:1913 R-lang.texi:1956
 msgid "is equivalent to"
 msgstr ""
 
@@ -3415,12 +3041,8 @@ msgid "These two candidate interpretations differ only if there is also a local 
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:2032
-#: R-lang.texi:2118
-#: R-lang.texi:2488
-#: R-lang.texi:2505
-#: R-lang.texi:2565
-#: R-lang.texi:3461
+#: R-lang.texi:2032 R-lang.texi:2118 R-lang.texi:2488 R-lang.texi:2505
+#: R-lang.texi:2565 R-lang.texi:3461
 #, no-wrap
 msgid "scope"
 msgstr ""
@@ -3436,38 +3058,26 @@ msgid "@R{} uses a @emph{lexical scoping} model, similar to languages like Pasca
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2049
-#: R-lang.texi:2051
-#: R-lang.texi:2052
-#: R-lang.texi:2063
+#: R-lang.texi:2049 R-lang.texi:2051 R-lang.texi:2052 R-lang.texi:2063
 #, no-wrap
 msgid "Global environment"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2049
-#: R-lang.texi:2051
-#: R-lang.texi:2063
-#: R-lang.texi:2064
+#: R-lang.texi:2049 R-lang.texi:2051 R-lang.texi:2063 R-lang.texi:2064
 #: R-lang.texi:2105
 #, no-wrap
 msgid "Lexical environment"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2049
-#: R-lang.texi:2063
-#: R-lang.texi:2105
-#: R-lang.texi:2159
+#: R-lang.texi:2049 R-lang.texi:2063 R-lang.texi:2105 R-lang.texi:2159
 #, no-wrap
 msgid "Stacks"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:2049
-#: R-lang.texi:2105
-#: R-lang.texi:2159
-#: R-lang.texi:2160
+#: R-lang.texi:2049 R-lang.texi:2105 R-lang.texi:2159 R-lang.texi:2160
 #, no-wrap
 msgid "Search path"
 msgstr ""
@@ -3524,9 +3134,7 @@ msgid "A closure (mode @code{\"function\"}) object will contain the environment 
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:2087
-#: R-lang.texi:2096
-#: R-lang.texi:2420
+#: R-lang.texi:2087 R-lang.texi:2096 R-lang.texi:2420
 #, no-wrap
 msgid "environment, evaluation"
 msgstr ""
@@ -3599,14 +3207,8 @@ msgid "call stack is provided through a family of functions which have names tha
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:2133
-#: R-lang.texi:2315
-#: R-lang.texi:2455
-#: R-lang.texi:2549
-#: R-lang.texi:2835
-#: R-lang.texi:2889
-#: R-lang.texi:3444
-#: R-lang.texi:3604
+#: R-lang.texi:2133 R-lang.texi:2315 R-lang.texi:2455 R-lang.texi:2549
+#: R-lang.texi:2835 R-lang.texi:2889 R-lang.texi:3444 R-lang.texi:3604
 #, no-wrap
 msgid "evaluation"
 msgstr ""
@@ -3765,35 +3367,22 @@ msgid "Packages which have a @emph{namespace} have a different search path.  Whe
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2193
-#: R-lang.texi:2195
-#: R-lang.texi:2196
-#: R-lang.texi:2215
-#: R-lang.texi:2255
-#: R-lang.texi:2291
+#: R-lang.texi:2193 R-lang.texi:2195 R-lang.texi:2196 R-lang.texi:2215
+#: R-lang.texi:2255 R-lang.texi:2291
 #, no-wrap
 msgid "Writing functions"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2193
-#: R-lang.texi:2195
-#: R-lang.texi:2291
-#: R-lang.texi:2292
+#: R-lang.texi:2193 R-lang.texi:2195 R-lang.texi:2291 R-lang.texi:2292
 #: R-lang.texi:2299
 #, no-wrap
 msgid "Functions as objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2193
-#: R-lang.texi:2291
-#: R-lang.texi:2299
-#: R-lang.texi:2300
-#: R-lang.texi:2309
-#: R-lang.texi:2330
-#: R-lang.texi:2382
-#: R-lang.texi:2485
+#: R-lang.texi:2193 R-lang.texi:2291 R-lang.texi:2299 R-lang.texi:2300
+#: R-lang.texi:2309 R-lang.texi:2330 R-lang.texi:2382 R-lang.texi:2485
 #, no-wrap
 msgid "Evaluation"
 msgstr ""
@@ -3814,19 +3403,13 @@ msgid "@R{} also provides facilities that make it easy to document any functions
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2213
-#: R-lang.texi:2215
-#: R-lang.texi:2216
-#: R-lang.texi:2255
+#: R-lang.texi:2213 R-lang.texi:2215 R-lang.texi:2216 R-lang.texi:2255
 #, no-wrap
 msgid "Syntax and examples"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:2213
-#: R-lang.texi:2215
-#: R-lang.texi:2255
-#: R-lang.texi:2256
+#: R-lang.texi:2213 R-lang.texi:2215 R-lang.texi:2255 R-lang.texi:2256
 #, no-wrap
 msgid "Arguments"
 msgstr ""
@@ -3842,8 +3425,7 @@ msgid "function is"
 msgstr ""
 
 #. type: example
-#: R-lang.texi:2224
-#: R-lang.texi:4762
+#: R-lang.texi:2224 R-lang.texi:4762
 #, no-wrap
 msgid "function ( @var{arglist} ) @var{body}\n"
 msgstr ""
@@ -3936,46 +3518,33 @@ msgid "Functions are first class objects in @R{}.  They can be used anywhere tha
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2307
-#: R-lang.texi:2309
-#: R-lang.texi:2310
-#: R-lang.texi:2330
+#: R-lang.texi:2307 R-lang.texi:2309 R-lang.texi:2310 R-lang.texi:2330
 #, no-wrap
 msgid "Evaluation environment"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2307
-#: R-lang.texi:2309
-#: R-lang.texi:2330
-#: R-lang.texi:2331
+#: R-lang.texi:2307 R-lang.texi:2309 R-lang.texi:2330 R-lang.texi:2331
 #: R-lang.texi:2382
 #, no-wrap
 msgid "Argument matching"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2307
-#: R-lang.texi:2330
-#: R-lang.texi:2382
-#: R-lang.texi:2383
+#: R-lang.texi:2307 R-lang.texi:2330 R-lang.texi:2382 R-lang.texi:2383
 #: R-lang.texi:2485
 #, no-wrap
 msgid "Argument evaluation"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:2307
-#: R-lang.texi:2382
-#: R-lang.texi:2485
-#: R-lang.texi:2486
+#: R-lang.texi:2307 R-lang.texi:2382 R-lang.texi:2485 R-lang.texi:2486
 #, no-wrap
 msgid "Scope"
 msgstr ""
 
 #. type: Plain text
-#: R-lang.texi:2313
-#: R-lang.texi:2443
+#: R-lang.texi:2313 R-lang.texi:2443
 msgid "When a"
 msgstr ""
 
@@ -4064,8 +3633,7 @@ msgid "match.arg"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:2377
-#: R-lang.texi:3623
+#: R-lang.texi:2377 R-lang.texi:3623
 #, no-wrap
 msgid "match.call"
 msgstr ""
@@ -4173,8 +3741,7 @@ msgid "A promise is forced when its value is needed.  This usually happens insid
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:2464
-#: R-lang.texi:3045
+#: R-lang.texi:2464 R-lang.texi:3045
 #, no-wrap
 msgid "function, internal"
 msgstr ""
@@ -4221,8 +3788,7 @@ msgid "@R{} adheres to a set of rules that are called @emph{lexical scope}.  Thi
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:2499
-#: R-lang.texi:2509
+#: R-lang.texi:2499 R-lang.texi:2509
 #, no-wrap
 msgid "binding"
 msgstr ""
@@ -4321,8 +3887,7 @@ msgid "In @Sl{}, because of the different scoping rules one will get an error in
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:2603
-#: R-lang.texi:2689
+#: R-lang.texi:2603 R-lang.texi:2689
 #, no-wrap
 msgid "object-oriented"
 msgstr ""
@@ -4368,14 +3933,8 @@ msgid "The greatest use of object oriented programming in @R{} is through @code{
 msgstr ""
 
 #. type: cindex
-#: R-lang.texi:2648
-#: R-lang.texi:2705
-#: R-lang.texi:2748
-#: R-lang.texi:2802
-#: R-lang.texi:2837
-#: R-lang.texi:2847
-#: R-lang.texi:3090
-#: R-lang.texi:3103
+#: R-lang.texi:2648 R-lang.texi:2705 R-lang.texi:2748 R-lang.texi:2802
+#: R-lang.texi:2837 R-lang.texi:2847 R-lang.texi:3090 R-lang.texi:3103
 #, no-wrap
 msgid "function, generic"
 msgstr ""
@@ -4391,71 +3950,48 @@ msgid "In order to make the concepts clear we will consider the implementation o
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2683
-#: R-lang.texi:2685
-#: R-lang.texi:2686
-#: R-lang.texi:2832
+#: R-lang.texi:2683 R-lang.texi:2685 R-lang.texi:2686 R-lang.texi:2832
 #, no-wrap
 msgid "Definition"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2683
-#: R-lang.texi:2685
-#: R-lang.texi:2832
-#: R-lang.texi:2833
+#: R-lang.texi:2683 R-lang.texi:2685 R-lang.texi:2832 R-lang.texi:2833
 #: R-lang.texi:2844
 #, no-wrap
 msgid "Inheritance"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2683
-#: R-lang.texi:2832
-#: R-lang.texi:2844
-#: R-lang.texi:2845
+#: R-lang.texi:2683 R-lang.texi:2832 R-lang.texi:2844 R-lang.texi:2845
 #: R-lang.texi:2878
 #, no-wrap
 msgid "Method dispatching"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2683
-#: R-lang.texi:2844
-#: R-lang.texi:2878
-#: R-lang.texi:2879
-#: R-lang.texi:2880
-#: R-lang.texi:2965
+#: R-lang.texi:2683 R-lang.texi:2844 R-lang.texi:2878 R-lang.texi:2879
+#: R-lang.texi:2880 R-lang.texi:2965
 #, no-wrap
 msgid "UseMethod"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2683
-#: R-lang.texi:2878
-#: R-lang.texi:2965
-#: R-lang.texi:2966
-#: R-lang.texi:2967
-#: R-lang.texi:3041
+#: R-lang.texi:2683 R-lang.texi:2878 R-lang.texi:2965 R-lang.texi:2966
+#: R-lang.texi:2967 R-lang.texi:3041
 #, no-wrap
 msgid "NextMethod"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:2683
-#: R-lang.texi:2965
-#: R-lang.texi:3041
-#: R-lang.texi:3042
+#: R-lang.texi:2683 R-lang.texi:2965 R-lang.texi:3041 R-lang.texi:3042
 #: R-lang.texi:3086
 #, no-wrap
 msgid "Group methods"
 msgstr ""
 
 #. type: section
-#: R-lang.texi:2683
-#: R-lang.texi:3041
-#: R-lang.texi:3086
-#: R-lang.texi:3087
+#: R-lang.texi:2683 R-lang.texi:3041 R-lang.texi:3086 R-lang.texi:3087
 #, no-wrap
 msgid "Writing methods"
 msgstr ""
@@ -4859,59 +4395,41 @@ msgid "In this chapter, we give an introduction to the set of facilities that ar
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3168
-#: R-lang.texi:3170
-#: R-lang.texi:3171
-#: R-lang.texi:3290
+#: R-lang.texi:3168 R-lang.texi:3170 R-lang.texi:3171 R-lang.texi:3290
 #, no-wrap
 msgid "Direct manipulation of language objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3168
-#: R-lang.texi:3170
-#: R-lang.texi:3290
-#: R-lang.texi:3291
+#: R-lang.texi:3168 R-lang.texi:3170 R-lang.texi:3290 R-lang.texi:3291
 #: R-lang.texi:3441
 #, no-wrap
 msgid "Substitutions"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3168
-#: R-lang.texi:3290
-#: R-lang.texi:3441
-#: R-lang.texi:3442
+#: R-lang.texi:3168 R-lang.texi:3290 R-lang.texi:3441 R-lang.texi:3442
 #: R-lang.texi:3496
 #, no-wrap
 msgid "More on evaluation"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3168
-#: R-lang.texi:3441
-#: R-lang.texi:3496
-#: R-lang.texi:3497
+#: R-lang.texi:3168 R-lang.texi:3441 R-lang.texi:3496 R-lang.texi:3497
 #: R-lang.texi:3555
 #, no-wrap
 msgid "Evaluation of expression objects"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3168
-#: R-lang.texi:3496
-#: R-lang.texi:3555
-#: R-lang.texi:3556
+#: R-lang.texi:3168 R-lang.texi:3496 R-lang.texi:3555 R-lang.texi:3556
 #: R-lang.texi:3715
 #, no-wrap
 msgid "Manipulation of function calls"
 msgstr ""
 
 #. type: section
-#: R-lang.texi:3168
-#: R-lang.texi:3555
-#: R-lang.texi:3715
-#: R-lang.texi:3716
+#: R-lang.texi:3168 R-lang.texi:3555 R-lang.texi:3715 R-lang.texi:3716
 #, no-wrap
 msgid "Manipulation of functions"
 msgstr ""
@@ -5109,8 +4627,7 @@ msgid "Notice that quoting was necessary to substitute the @code{x}.  This kind 
 msgstr ""
 
 #. type: example
-#: R-lang.texi:3344
-#: R-lang.texi:3427
+#: R-lang.texi:3344 R-lang.texi:3427
 #, no-wrap
 msgid ""
 "> plot(0)\n"
@@ -5624,29 +5141,20 @@ msgid "function to a list using @code{as.list}.  The result is the concatenation
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3763
-#: R-lang.texi:3765
-#: R-lang.texi:3766
-#: R-lang.texi:3851
+#: R-lang.texi:3763 R-lang.texi:3765 R-lang.texi:3766 R-lang.texi:3851
 #, no-wrap
 msgid "Operating system access"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3763
-#: R-lang.texi:3765
-#: R-lang.texi:3851
-#: R-lang.texi:3852
+#: R-lang.texi:3763 R-lang.texi:3765 R-lang.texi:3851 R-lang.texi:3852
 #: R-lang.texi:3871
 #, no-wrap
 msgid "Foreign language interfaces"
 msgstr ""
 
 #. type: section
-#: R-lang.texi:3763
-#: R-lang.texi:3851
-#: R-lang.texi:3871
-#: R-lang.texi:3872
+#: R-lang.texi:3763 R-lang.texi:3851 R-lang.texi:3871 R-lang.texi:3872
 #, no-wrap
 msgid ".Internal and .Primitive"
 msgstr ""
@@ -5717,8 +5225,7 @@ msgid "Sys.getenv"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:3792
-#: R-lang.texi:3793
+#: R-lang.texi:3792 R-lang.texi:3793
 #, no-wrap
 msgid "Sys.putenv"
 msgstr ""
@@ -5736,15 +5243,13 @@ msgid "Sys.getlocale"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:3796
-#: R-lang.texi:3797
+#: R-lang.texi:3796 R-lang.texi:3797
 #, no-wrap
 msgid "Sys.putlocale"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:3798
-#: R-lang.texi:3799
+#: R-lang.texi:3798 R-lang.texi:3799
 #, no-wrap
 msgid "Sys.localeconv"
 msgstr ""
@@ -6013,42 +5518,28 @@ msgid "The exception handling facilities in @R{} are provided through two mechan
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3894
-#: R-lang.texi:3896
-#: R-lang.texi:3897
-#: R-lang.texi:3898
+#: R-lang.texi:3894 R-lang.texi:3896 R-lang.texi:3897 R-lang.texi:3898
 #: R-lang.texi:3903
 #, no-wrap
 msgid "stop"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3894
-#: R-lang.texi:3896
-#: R-lang.texi:3903
-#: R-lang.texi:3904
-#: R-lang.texi:3905
-#: R-lang.texi:3924
+#: R-lang.texi:3894 R-lang.texi:3896 R-lang.texi:3903 R-lang.texi:3904
+#: R-lang.texi:3905 R-lang.texi:3924
 #, no-wrap
 msgid "warning"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:3894
-#: R-lang.texi:3903
-#: R-lang.texi:3924
-#: R-lang.texi:3925
-#: R-lang.texi:3926
-#: R-lang.texi:3969
+#: R-lang.texi:3894 R-lang.texi:3903 R-lang.texi:3924 R-lang.texi:3925
+#: R-lang.texi:3926 R-lang.texi:3969
 #, no-wrap
 msgid "on.exit"
 msgstr ""
 
 #. type: section
-#: R-lang.texi:3894
-#: R-lang.texi:3924
-#: R-lang.texi:3969
-#: R-lang.texi:3970
+#: R-lang.texi:3894 R-lang.texi:3924 R-lang.texi:3969 R-lang.texi:3970
 #, no-wrap
 msgid "Error options"
 msgstr ""
@@ -6234,40 +5725,28 @@ msgid "The debugger provides access only to interpreted expressions.  If a funct
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4050
-#: R-lang.texi:4052
-#: R-lang.texi:4053
-#: R-lang.texi:4054
+#: R-lang.texi:4050 R-lang.texi:4052 R-lang.texi:4053 R-lang.texi:4054
 #: R-lang.texi:4074
 #, no-wrap
 msgid "browser"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4050
-#: R-lang.texi:4052
-#: R-lang.texi:4074
-#: R-lang.texi:4075
+#: R-lang.texi:4050 R-lang.texi:4052 R-lang.texi:4074 R-lang.texi:4075
 #: R-lang.texi:4120
 #, no-wrap
 msgid "debug/undebug"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4050
-#: R-lang.texi:4074
-#: R-lang.texi:4120
-#: R-lang.texi:4121
+#: R-lang.texi:4050 R-lang.texi:4074 R-lang.texi:4120 R-lang.texi:4121
 #: R-lang.texi:4142
 #, no-wrap
 msgid "trace/untrace"
 msgstr ""
 
 #. type: findex
-#: R-lang.texi:4050
-#: R-lang.texi:4120
-#: R-lang.texi:4142
-#: R-lang.texi:4143
+#: R-lang.texi:4050 R-lang.texi:4120 R-lang.texi:4142 R-lang.texi:4143
 #: R-lang.texi:4144
 #, no-wrap
 msgid "traceback"
@@ -6393,94 +5872,57 @@ msgid "The parser is what converts the textual representation of @R{} code into 
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4168
-#: R-lang.texi:4170
-#: R-lang.texi:4172
-#: R-lang.texi:4180
-#: R-lang.texi:4216
-#: R-lang.texi:4234
-#: R-lang.texi:4250
+#: R-lang.texi:4168 R-lang.texi:4170 R-lang.texi:4172 R-lang.texi:4180
+#: R-lang.texi:4216 R-lang.texi:4234 R-lang.texi:4250
 #, no-wrap
 msgid "The parsing process"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4168
-#: R-lang.texi:4170
-#: R-lang.texi:4250
-#: R-lang.texi:4252
+#: R-lang.texi:4168 R-lang.texi:4170 R-lang.texi:4250 R-lang.texi:4252
 #: R-lang.texi:4266
 #, no-wrap
 msgid "Comments"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4168
-#: R-lang.texi:4250
-#: R-lang.texi:4266
-#: R-lang.texi:4268
-#: R-lang.texi:4286
-#: R-lang.texi:4407
-#: R-lang.texi:4442
-#: R-lang.texi:4455
-#: R-lang.texi:4477
-#: R-lang.texi:4507
-#: R-lang.texi:4527
-#: R-lang.texi:4537
+#: R-lang.texi:4168 R-lang.texi:4250 R-lang.texi:4266 R-lang.texi:4268
+#: R-lang.texi:4286 R-lang.texi:4407 R-lang.texi:4442 R-lang.texi:4455
+#: R-lang.texi:4477 R-lang.texi:4507 R-lang.texi:4527 R-lang.texi:4537
 #: R-lang.texi:4546
 #, no-wrap
 msgid "Tokens"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4168
-#: R-lang.texi:4266
-#: R-lang.texi:4546
-#: R-lang.texi:4547
-#: R-lang.texi:4569
-#: R-lang.texi:4606
-#: R-lang.texi:4669
-#: R-lang.texi:4707
-#: R-lang.texi:4720
-#: R-lang.texi:4753
-#: R-lang.texi:4780
+#: R-lang.texi:4168 R-lang.texi:4266 R-lang.texi:4546 R-lang.texi:4547
+#: R-lang.texi:4569 R-lang.texi:4606 R-lang.texi:4669 R-lang.texi:4707
+#: R-lang.texi:4720 R-lang.texi:4753 R-lang.texi:4780
 #, no-wrap
 msgid "Expressions"
 msgstr ""
 
 #. type: section
-#: R-lang.texi:4168
-#: R-lang.texi:4546
-#: R-lang.texi:4780
-#: R-lang.texi:4781
+#: R-lang.texi:4168 R-lang.texi:4546 R-lang.texi:4780 R-lang.texi:4781
 #, no-wrap
 msgid "Directives"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4178
-#: R-lang.texi:4180
-#: R-lang.texi:4182
-#: R-lang.texi:4216
+#: R-lang.texi:4178 R-lang.texi:4180 R-lang.texi:4182 R-lang.texi:4216
 #, no-wrap
 msgid "Modes of parsing"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4178
-#: R-lang.texi:4180
-#: R-lang.texi:4216
-#: R-lang.texi:4218
+#: R-lang.texi:4178 R-lang.texi:4180 R-lang.texi:4216 R-lang.texi:4218
 #: R-lang.texi:4234
 #, no-wrap
 msgid "Internal representation"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:4178
-#: R-lang.texi:4216
-#: R-lang.texi:4234
-#: R-lang.texi:4236
+#: R-lang.texi:4178 R-lang.texi:4216 R-lang.texi:4234 R-lang.texi:4236
 #, no-wrap
 msgid "Deparsing"
 msgstr ""
@@ -6574,78 +6016,55 @@ msgid "Tokens are the elementary building blocks of a programming language.  The
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4284
-#: R-lang.texi:4286
-#: R-lang.texi:4407
+#: R-lang.texi:4284 R-lang.texi:4286 R-lang.texi:4407
 #, no-wrap
 msgid "Literal constants"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4284
-#: R-lang.texi:4286
-#: R-lang.texi:4407
-#: R-lang.texi:4408
+#: R-lang.texi:4284 R-lang.texi:4286 R-lang.texi:4407 R-lang.texi:4408
 #: R-lang.texi:4442
 #, no-wrap
 msgid "Identifiers"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4284
-#: R-lang.texi:4407
-#: R-lang.texi:4442
-#: R-lang.texi:4443
+#: R-lang.texi:4284 R-lang.texi:4407 R-lang.texi:4442 R-lang.texi:4443
 #: R-lang.texi:4455
 #, no-wrap
 msgid "Reserved words"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4284
-#: R-lang.texi:4442
-#: R-lang.texi:4455
-#: R-lang.texi:4456
+#: R-lang.texi:4284 R-lang.texi:4442 R-lang.texi:4455 R-lang.texi:4456
 #: R-lang.texi:4477
 #, no-wrap
 msgid "Special operators"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4284
-#: R-lang.texi:4455
-#: R-lang.texi:4477
-#: R-lang.texi:4478
+#: R-lang.texi:4284 R-lang.texi:4455 R-lang.texi:4477 R-lang.texi:4478
 #: R-lang.texi:4507
 #, no-wrap
 msgid "Separators"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4284
-#: R-lang.texi:4477
-#: R-lang.texi:4507
-#: R-lang.texi:4508
+#: R-lang.texi:4284 R-lang.texi:4477 R-lang.texi:4507 R-lang.texi:4508
 #: R-lang.texi:4527
 #, no-wrap
 msgid "Operator tokens"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4284
-#: R-lang.texi:4507
-#: R-lang.texi:4527
-#: R-lang.texi:4528
+#: R-lang.texi:4284 R-lang.texi:4507 R-lang.texi:4527 R-lang.texi:4528
 #: R-lang.texi:4537
 #, no-wrap
 msgid "Grouping"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:4284
-#: R-lang.texi:4527
-#: R-lang.texi:4537
-#: R-lang.texi:4538
+#: R-lang.texi:4284 R-lang.texi:4527 R-lang.texi:4537 R-lang.texi:4538
 #, no-wrap
 msgid "Indexing tokens"
 msgstr ""
@@ -7085,58 +6504,41 @@ msgid "The following sections detail the various syntactical constructs that are
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4564
-#: R-lang.texi:4569
-#: R-lang.texi:4606
+#: R-lang.texi:4564 R-lang.texi:4569 R-lang.texi:4606
 #, no-wrap
 msgid "Function calls (expressions)"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4564
-#: R-lang.texi:4569
-#: R-lang.texi:4606
-#: R-lang.texi:4607
+#: R-lang.texi:4564 R-lang.texi:4569 R-lang.texi:4606 R-lang.texi:4607
 #: R-lang.texi:4669
 #, no-wrap
 msgid "Infix and prefix operators"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4564
-#: R-lang.texi:4606
-#: R-lang.texi:4669
-#: R-lang.texi:4670
+#: R-lang.texi:4564 R-lang.texi:4606 R-lang.texi:4669 R-lang.texi:4670
 #: R-lang.texi:4707
 #, no-wrap
 msgid "Index constructions"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4564
-#: R-lang.texi:4669
-#: R-lang.texi:4707
-#: R-lang.texi:4708
+#: R-lang.texi:4564 R-lang.texi:4669 R-lang.texi:4707 R-lang.texi:4708
 #: R-lang.texi:4720
 #, no-wrap
 msgid "Compound expressions"
 msgstr ""
 
 #. type: node
-#: R-lang.texi:4564
-#: R-lang.texi:4707
-#: R-lang.texi:4720
-#: R-lang.texi:4721
+#: R-lang.texi:4564 R-lang.texi:4707 R-lang.texi:4720 R-lang.texi:4721
 #: R-lang.texi:4753
 #, no-wrap
 msgid "Flow control elements"
 msgstr ""
 
 #. type: subsection
-#: R-lang.texi:4564
-#: R-lang.texi:4720
-#: R-lang.texi:4753
-#: R-lang.texi:4754
+#: R-lang.texi:4564 R-lang.texi:4720 R-lang.texi:4753 R-lang.texi:4754
 #, no-wrap
 msgid "Function definitions"
 msgstr ""
