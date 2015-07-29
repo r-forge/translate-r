@@ -24,7 +24,7 @@ msgstr ""
 #: R-data.texi:49
 #, no-wrap
 msgid "R Data Import/Export"
-msgstr ""
+msgstr "R Εισαγωγή / Εξαγωγή (Greek)"
 
 #. type: dircategory
 #: R-data.texi:10

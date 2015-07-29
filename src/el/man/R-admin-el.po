@@ -24,7 +24,7 @@ msgstr ""
 #: R-admin.texi:50
 #, no-wrap
 msgid "R Installation and Administration"
-msgstr ""
+msgstr "Ε εγκατάσταση και διαχείριση (Greek)"
 
 #. type: dircategory
 #: R-admin.texi:11

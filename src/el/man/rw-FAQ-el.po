@@ -23,7 +23,7 @@ msgstr ""
 #: rw-FAQ.texi:26
 #, no-wrap
 msgid "R for Windows FAQ"
-msgstr ""
+msgstr "R για Windows FAQ (Greek)"
 
 #. type: Plain text
 #: rw-FAQ.texi:11

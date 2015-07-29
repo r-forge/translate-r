@@ -24,7 +24,7 @@ msgstr ""
 #: R-exts.texi:52
 #, no-wrap
 msgid "Writing R Extensions"
-msgstr ""
+msgstr "Γράφοντας Επεκτάσεις R (Greek)"
 
 #. type: dircategory
 #: R-exts.texi:13
