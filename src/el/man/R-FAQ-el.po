@@ -23,7 +23,7 @@ msgstr ""
 #: R-FAQ.texi:90
 #, no-wrap
 msgid "R FAQ"
-msgstr ""
+msgstr "Ε Συχνές Ερωτήσεις (Greek)"
 
 #. type: Plain text
 #: R-FAQ.texi:18
