@@ -9,7 +9,7 @@
 <meta name="resource-type" content="document">
 <meta name="distribution" content="global">
 <meta name="Generator" content="makeinfo">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link href="#Top" rel="start" title="Top">
 <link href="#SEC_Contents" rel="contents" title="Table of Contents">
 <link href="dir.html#Top" rel="up" title="(dir)">
@@ -122,6 +122,7 @@ p {
 
 
 
+
  <h2>Version for <tt>3.3.0</tt></h2> 
 <address>B. D. Ripley
 and D. J. Murdoch</address> <hr>
@@ -131,97 +132,97 @@ and D. J. Murdoch</address> <hr>
 
 <div class="contents">
 <ul class="no-bullet">
-<li><a name="toc-ie_00b0" href="#g_t_00ec_0086_008c_00ea_00b0_009c">1 소개</a></li>
-<li><a name="toc-i_0024_003fi1-e_00b0-i_0021i_00a9" href="#g_t_00ec_0084_00a4_00ec_00b9_0098-_00eb_00b0_008f-_00ec_0082_00ac_00ec_009a_00a9">2 설치 및 사용</a>
+<li><a name="toc-sogae" href="#g_t_c18c_ac1c">1 소개</a></li>
+<li><a name="toc-seolci-mic-sayong" href="#g_t_c124_ce58-_bc0f-_c0ac_c6a9">2 설치 및 사용</a>
 <ul class="no-bullet">
-  <li><a name="toc-i_0027ee_00a1ePi_00b0-iui-e2i-i-i_00b03_002f4i-i-iei_003f" href="#g_t_00ec_0096_00b4_00eb_0094_0094_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_00b5_009c_00ec_008b-_00eb_00b2_0084_00ec-_0084_00ec_009d_0084-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">2.1 어디로부터 최신버전을 찾을 수 있나요?</a></li>
+  <li><a name="toc-eodirobuteo-coesinbeojeoneul-cajeul-su-issnayo_003f" href="#g_t_c5b4_b514_b85c_bd80_d130-_cd5c_c2e0_bc84_c804_c744-_cc3e_c744-_c218-_c788_b098_c694_003f">2.1 어디로부터 최신버전을 찾을 수 있나요?</a></li>
   <li><a name="toc-How-do-I-install-R-for-Windows_003f-1" href="#How-do-I-install-R-for-Windows_003f">2.2 How do I install R for Windows?</a></li>
   <li><a name="toc-How-do-I-check-an-installation-is-not-corrupt_003f" href="#How-do-I-check-an-installation_003f">2.3 How do I check an installation is not corrupt?</a></li>
-  <li><a name="toc-i_0024_003fi1e31_002f4i-i-i_00a1_00b0i-i-i-iei_003f" href="#g_t_00ec_0084_00a4_00ec_00b9_0098_00ea_00b3_00bc_00ec-_0095_00ec_009d_0084-_00ec_00a1_00b0_00ec-_0095_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">2.4 설치과정을 조정할 수 있나요?</a></li>
-  <li><a name="toc-i_0027e_00bbe2-i_0024_003fiiei_003f" href="#g_t_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_008b_00a4_00ed_0096_0089_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">2.5 어떻게 실행하나요?</a></li>
-  <li><a name="toc-CD-ee-USB-ee1_002f4i_0027e_002ce_00a1ePi_00b0-Ri-i_0024_003fii-i-iei_003f" href="#CD-_00eb_0098_0090_00eb_008a_0094-USB-_00eb_0093_009c_00eb_009d_00bc_00ec_009d_00b4_00eb_00b8_008c_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-R_00ec_009d_0084-_00ec_008b_00a4_00ed_0096_0089_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">2.6 CD 또는 USB 드라이브로부터 R을 실행할 수 있나요?</a></li>
-  <li><a name="toc-i_0024_003fi1e-Ri-i_0027e_00bbe2-i-e_002b_002d_00b0iei_003f" href="#g_t_00ec_0084_00a4_00ec_00b9_0098_00eb_0090_009c-R_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec-_009c_00ea_00b1_00b0_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">2.7 설치된 R을 어떻게 제거하나요?</a></li>
-  <li><a name="toc-i-e_002a_002ce-i_0027e-ie-e_00b0iY_003d-iC_002fi-e_00b0_00a9e2i-e_0021_0027ii_002ce_00b0i_003f" href="#g_t_00ec_0097-_00ea_00b7_00b8_00eb-_0088_00ec_009d_00b4_00eb_0093_009c-_00ed_0095_0098_00eb_008a_0094-_00ea_00b0_0080_00ec_009e_00a5-_00ec_00a2_008b_00ec_009d_0080-_00eb_00b0_00a9_00eb_00b2_0095_00ec_009d_0080-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_00b8_00ea_00b0_0080_00ec_009a_0094_003f">2.8 업그레이드 하는 가장 좋은 방법은 무엇인가요?</a></li>
-  <li><a name="toc-i_0021i_00a9i-ii_0027-e_00a9e_00aa_0022e_007c_0021-i_0021e_002c_00b0i-i-ii_0027-iee2-e_00b0iuee_0024_003f_0021" href="#g_t_00ec_0082_00ac_00ec_009a_00a9_00ec_0097_0090-_00ec_009e_0088_00ec_0096_00b4-_00eb_00a9_0094_00eb_00aa_00a8_00eb_00a6_00ac-_00ed_0081_00ac_00ea_00b8_00b0_00ec_009d_0098-_00ec-_009c_00ed_0095_009c_00ec_009d_00b4-_00ec_009e_0088_00eb_008a_0094_00ea_00b2_0083-_00ea_00b0_0099_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_0021">2.9 사용에 있어 메모리 크기의 제한이 있는것 같습니다!</a></li>
+  <li><a name="toc-seolcigwajeongeul-jojeonghal-su-issnayo_003f" href="#g_t_c124_ce58_acfc_c815_c744-_c870_c815_d560-_c218-_c788_b098_c694_003f">2.4 설치과정을 조정할 수 있나요?</a></li>
+  <li><a name="toc-eoddeohge-silhaenghanayo_003f" href="#g_t_c5b4_b5bb_ac8c-_c2e4_d589_d558_b098_c694_003f">2.5 어떻게 실행하나요?</a></li>
+  <li><a name="toc-CD-ddoneun-USB-deuraibeurobuteo-Reul-silhaenghal-su-issnayo_003f" href="#CD-_b610_b294-USB-_b4dc_b77c_c774_be0c_b85c_bd80_d130-R_c744-_c2e4_d589_d560-_c218-_c788_b098_c694_003f">2.6 CD 또는 USB 드라이브로부터 R을 실행할 수 있나요?</a></li>
+  <li><a name="toc-seolcidoen-Reul-eoddeohge-jegeohanayo_003f" href="#g_t_c124_ce58_b41c-R_c744-_c5b4_b5bb_ac8c-_c81c_ac70_d558_b098_c694_003f">2.7 설치된 R을 어떻게 제거하나요?</a></li>
+  <li><a name="toc-eobgeureideu-haneun-gajang-joheun-bangbeobeun-mueosingayo_003f" href="#g_t_c5c5_adf8_b808_c774_b4dc-_d558_b294-_ac00_c7a5-_c88b_c740-_bc29_bc95_c740-_bb34_c5c7_c778_ac00_c694_003f">2.8 업그레이드 하는 가장 좋은 방법은 무엇인가요?</a></li>
+  <li><a name="toc-sayonge-isseo-memori-keugiyi-jehani-issneungeos-gatseubnida_0021" href="#g_t_c0ac_c6a9_c5d0-_c788_c5b4-_ba54_baa8_b9ac-_d06c_ae30_c758-_c81c_d55c_c774-_c788_b294_ac83-_ac19_c2b5_b2c8_b2e4_0021">2.9 사용에 있어 메모리 크기의 제한이 있는것 같습니다!</a></li>
   <li><a name="toc-How-can-I-keep-workspaces-for-different-projects-in-different-directories_003f-1" href="#How-can-I-keep-workspaces-for-different-projects-in-different-directories_003f">2.10 How can I keep workspaces for different projects in different directories?</a></li>
-  <li><a name="toc-Re_00a1ePi_00b0-ei_0022-e2_00b0e31_002f4e_00211_002f4i-i_0027e_00bbe2-ie_007c_00b0i_002ceY_003d1_002f4-iei_003f" href="#R_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00eb_0082_0098_00ec_0098_00a8-_00ea_00b2_00b0_00ea_00b3_00bc_00eb_00ac_00bc_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_0094_0084_00eb_00a6_00b0_00ed_008a_00b8_00eb_00a5_00bc-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">2.11 R로부터 나온 결과물을 어떻게 프린트를 하나요?</a></li>
-  <li><a name="toc-Can-I-use-R-CMD-BATCH_003f" href="#R-CMD-BATCH_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">2.12 Can I use <code>R CMD BATCH</code>?</a></li>
+  <li><a name="toc-Rrobuteo-naon-gyeolgwamuleul-eoddeohge-peurinteureul-hanayo_003f" href="#R_b85c_bd80_d130-_b098_c628-_acb0_acfc_bb3c_c744-_c5b4_b5bb_ac8c-_d504_b9b0_d2b8_b97c-_d558_b098_c694_003f">2.11 R로부터 나온 결과물을 어떻게 프린트를 하나요?</a></li>
+  <li><a name="toc-Can-I-use-R-CMD-BATCH_003f" href="#R-CMD-BATCH_b97c-_c0ac_c6a9_d560-_c218-_c788_b098_c694_003f">2.12 Can I use <code>R CMD BATCH</code>?</a></li>
   <li><a name="toc-Can-I-use-3_002e3_002e0-with-ESS-and-Emacs_003f-1" href="#Can-I-use-3_002e3_002e0-with-ESS-and-Emacs_003f">2.13 Can I use 3.3.0  with ESS and Emacs?</a></li>
   <li><a name="toc-What-are-HOME-and-working-directories_003f-1" href="#What-are-HOME-and-working-directories_003f">2.14 What are HOME and working directories?</a></li>
   <li><a name="toc-How-do-I-set-environment-variables_003f-1" href="#How-do-I-set-environment-variables_003f">2.15 How do I set environment variables?</a></li>
-  <li><a name="toc-R-can_0027t-find-my-file_002c-but-I-know-it-is-there_0021" href="#g_t_00ed_008c_008c_00ec_009d_00bc_00ec_009d_0084-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">2.16 R can&rsquo;t find my file, but I know it is there!</a></li>
-  <li><a name="toc-Ri-e-iSSi_0024_003fi_002ce_007c_0021eY_003d1_002f4-i_0021i_00a9iei_003f" href="#R_00ec_009d_0080-_00eb-_0088_00ec_00a7_0080_00ec_008a_00a4_00ed_008a_00b8_00eb_00a6_00ac_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">2.17 R은 레지스트리를 사용하나요?</a></li>
-  <li><a name="toc-Does-R-support-automation-_0028OLE_002c-COM_0029_003f" href="#R_00ec_0097_0090_00ec_0084_009c-_00ec_009e_0090_00eb_008f_0099_00ed_0099_0094_00ea_00b8_00b0_00eb_008a_00a5_00ec_009d_0084-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">2.18 Does R support automation (OLE, COM)?</a></li>
+  <li><a name="toc-R-can_0027t-find-my-file_002c-but-I-know-it-is-there_0021" href="#g_t_d30c_c77c_c744-_cc3e_c744-_c218-_c5c6_c2b5_b2c8_b2e4_002e">2.16 R can&rsquo;t find my file, but I know it is there!</a></li>
+  <li><a name="toc-Reun-rejiseuteurireul-sayonghanayo_003f" href="#R_c740-_b808_c9c0_c2a4_d2b8_b9ac_b97c-_c0ac_c6a9_d558_b098_c694_003f">2.17 R은 레지스트리를 사용하나요?</a></li>
+  <li><a name="toc-Does-R-support-automation-_0028OLE_002c-COM_0029_003f" href="#R_c5d0_c11c-_c790_b3d9_d654_ae30_b2a5_c744-_c0ac_c6a9_d560-_c218-_c788_b098_c694_003f">2.18 Does R support automation (OLE, COM)?</a></li>
   <li><a name="toc-The-Internet-download-functions-fail_002e-1" href="#The-Internet-download-functions-fail_002e">2.19 The Internet download functions fail.</a></li>
-  <li><a name="toc-i1i--e_0021_002cieY_003d1_002f4-i-e-Y_003die2-ee_00a9_0027-Rguie_00b0-iC_002f-e_00a3e_00a9ee_0024_003f_002e" href="#g_t_00ed_008a_00b9_00ec-_0095-_00eb_00ac_00b8_00ec_009e_0090_00eb_00a5_00bc-_00ec_009e-_00eb-_00a5_00ed_0095_0098_00ea_00b2_008c-_00eb_0090_0098_00eb_00a9_00b4-Rgui_00ea_00b0_0080-_00ec_00a2-_00eb_00a3_008c_00eb_0090_00a9_00eb_008b_0088_00eb_008b_00a4_002e">2.20 특정 문자를 입력하게 되면 Rgui가 종료됩니다.</a></li>
-  <li><a name="toc-_0027DLL-attempted-to-change-FPU-control-word_0027e-e_0021_0027ii-ie_002d_002ciei_003f" href="#g_t_0027DLL-attempted-to-change-FPU-control-word_0027_00eb_009e_0080-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_0084-_00ec_009d_0098_00eb_00af_00b8_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">2.21 &rsquo;DLL attempted to change FPU control word&rsquo;란 무엇을 의미하나요?</a></li>
+  <li><a name="toc-teugjeong-munjareul-ibryeoghage-doemyeon-Rguiga-jongryodoebnida_002e" href="#g_t_d2b9_c815-_bb38_c790_b97c-_c785_b825_d558_ac8c-_b418_ba74-Rgui_ac00-_c885_b8cc_b429_b2c8_b2e4_002e">2.20 특정 문자를 입력하게 되면 Rgui가 종료됩니다.</a></li>
+  <li><a name="toc-_0027DLL-attempted-to-change-FPU-control-word_0027ran-mueoseul-yimihanayo_003f" href="#g_t_0027DLL-attempted-to-change-FPU-control-word_0027_b780-_bb34_c5c7_c744-_c758_bbf8_d558_b098_c694_003f">2.21 &rsquo;DLL attempted to change FPU control word&rsquo;란 무엇을 의미하나요?</a></li>
   <li><a name="toc-Other-strange-crashes_002e-1" href="#Other-strange-crashes_002e">2.22 Other strange crashes.</a></li>
-  <li><a name="toc-Ri-i-CPUi-50_0025-i_0027ii-i_0021i_00a9iiSS-iei_003f" href="#R_00ec_009d_0080-_00ec_0099_009c-CPU_00ec_009d_0098-50_0025-_00ec_009d_00b4_00ec_0083_0081_00ec_009d_0084-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00eb_0082_0098_00ec_009a_0094_003f">2.23 R은 왜 CPU의 50% 이상을 사용하지 않나요?</a></li>
+  <li><a name="toc-Reun-wae-CPUyi-50_0025-isangeul-sayonghaji-anhnayo_003f" href="#R_c740-_c65c-CPU_c758-50_0025-_c774_c0c1_c744-_c0ac_c6a9_d558_c9c0-_c54a_b098_c694_003f">2.23 R은 왜 CPU의 50% 이상을 사용하지 않나요?</a></li>
   <li><a name="toc-Does-R-run-under-Windows-Vista_002f7_002f8_002fServer-2008_003f" href="#Does-R-run-under-Windows-Vista_003f">2.24 Does R run under Windows Vista/7/8/Server 2008?</a></li>
   <li><a name="toc-Quotes-don_0027t-come-out-right-on-the-console_002fterminal_002fpager_002e" href="#Quotes-don_0027t-come-out-right-on-the-console_002fterminal_002fpager">2.25 Quotes don&rsquo;t come out right on the console/terminal/pager.</a></li>
-  <li><a name="toc-There-is-no-tilde-on-my-keyboard_0021" href="#g_t_00ec_0082_00ac_00ec_009a_00a9_00ec_00a4_0091_00ec_009d_00b8-_00ed_0082_00a4_00eb_00b3_00b4_00eb_0093_009c_00ec_0097_0090_00eb_008a_0094-_00ed_008b_00b8_00eb_008d_00b0_0028tilde_0029-_00ea_00b8_00b0_00ed_0098_00b8_00ea_00b0_0080-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">2.26 There is no tilde on my keyboard!</a></li>
+  <li><a name="toc-There-is-no-tilde-on-my-keyboard_0021" href="#g_t_c0ac_c6a9_c911_c778-_d0a4_bcf4_b4dc_c5d0_b294-_d2f8_b370_0028tilde_0029-_ae30_d638_ac00-_c5c6_c2b5_b2c8_b2e4_002e">2.26 There is no tilde on my keyboard!</a></li>
   <li><a name="toc-Can-I-use-R-on-64_002dbit-Windows_003f-1" href="#Can-I-use-R-on-64_002dbit-Windows_003f">2.27 Can I use R on 64-bit Windows?</a></li>
   <li><a name="toc-Should-I-run-32_002dbit-or-64_002dbit-R_003f-1" href="#Should-I-run-32_002dbit-or-64_002dbit-R_003f">2.28 Should I run 32-bit or 64-bit R?</a></li>
-  <li><a name="toc-e_00b0i-e_0022_002ci-ii-32i-64-e1i_002c-Ri-i_0022e_00bb-i_0024_003fi1i-i-iei_003f" href="#g_t_00ea_00b0_0099_00ec_009d_0080-_00eb_00a8_00b8_00ec_008b-_00ec_009c_0084_00ec_0097_0090-32_00ec_0099_0080-64-_00eb_00b9_0084_00ed_008a_00b8-R_00ec_009d_0084-_00ed_0095_00a8_00ea_00bb_0098-_00ec_0084_00a4_00ec_00b9_0098_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">2.29 같은 머신위에 32와 64 비트 R을 함께 설치할 수 있나요?</a></li>
-  <li><a name="toc-RcmdeY_003d1_002f4-PATHii-i_00b03_002f4i-i-iiuee_0024_003f_0021" href="#Rcmd_00eb_00a5_00bc-PATH_00ec_0097_0090_00ec_0084_009c-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_0021">2.30 Rcmd를 PATH에서 찾을 수 없습니다!</a></li>
+  <li><a name="toc-gateun-meosinwie-32wa-64-biteu-Reul-hamgge-seolcihal-su-issnayo_003f" href="#g_t_ac19_c740-_ba38_c2e0_c704_c5d0-32_c640-64-_be44_d2b8-R_c744-_d568_aed8-_c124_ce58_d560-_c218-_c788_b098_c694_003f">2.29 같은 머신위에 32와 64 비트 R을 함께 설치할 수 있나요?</a></li>
+  <li><a name="toc-Rcmdreul-PATHeseo-cajeul-su-eobsseubnida_0021" href="#Rcmd_b97c-PATH_c5d0_c11c-_cc3e_c744-_c218-_c5c6_c2b5_b2c8_b2e4_0021">2.30 Rcmd를 PATH에서 찾을 수 없습니다!</a></li>
 </ul></li>
 <li><a name="toc-Languages-and-Internationalization-1" href="#Languages-and-Internationalization">3 Languages and Internationalization</a>
 <ul class="no-bullet">
-  <li><a name="toc-i_0024_003fi1ie_00a1e_002a_002ce_0022i_0027-e_0027-i_002ci_0027eY_003d1_002f4-iSSiiiSS-iiuee_0024_003f_002e" href="#g_t_00ec_0084_00a4_00ec_00b9_0098_00ed_0094_0084_00eb_00a1_009c_00ea_00b7_00b8_00eb_009e_00a8_00ec_009d_00b4-_00eb_0082_00b4-_00ec_0096_00b8_00ec_0096_00b4_00eb_00a5_00bc-_00ec_00a7_0080_00ec_009b_0090_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">3.1 설치프로그램이 내 언어를 지원하지 않습니다.</a></li>
-  <li><a name="toc-Ri-ii_0027e_00a1-ii_00a9ee_0024_003f_0028ePi_0027_002fi_0024_003feui_0027_002fa_007ce_00b0-ie_0029_0021" href="#R_00ec_009d_0084-_00ec_0098_0081_00ec_0096_00b4_00eb_00a1_009c-_00ec_0084_00a4_00ec_00b9_0098_00ed_0095_0098_00ea_00b8_00b0-_00ec_009b_0090_00ed_0095_00a9_00eb_008b_0088_00eb_008b_00a4_0021">3.2 R을 영어로 원합니다(불어/중국어/…가 아닌)!</a></li>
-  <li><a name="toc-Ri-i_0024_003feui_0027_002fi1_002f4e3_002ci_0027_002fieui_0027e_00a1-i_0024_003fiie_002c_00b0-ii_00a9ee_0024_003f_002e" href="#R_00ec_009d_0084-_00ec_00a4_0091_00ea_00b5_00ad_00ec_0096_00b4_002f_00ec_009d_00bc_00eb_00b3_00b8_00ec_0096_00b4_002f_00ed_0095_009c_00ea_00b5_00ad_00ec_0096_00b4_00eb_00a1_009c-_00ec_008b_00a4_00ed_0096_0089_00ed_0095_0098_00ea_00b8_00b0-_00ec_009b_0090_00ed_0095_00a9_00eb_008b_0088_00eb_008b_00a4_002e">3.3 R을 중국어/일본어/한국어로 실행하기 원합니다.</a></li>
-  <li><a name="toc-i_0024_003fi1e-ii_0027eY_003d1_002f4-i-iiii1_002f4e-Ri_0027-i_0024_003feui_0027e_00a1-i_0024_003fie_00a9ee_0024_003f_002e" href="#g_t_00ec_0084_00a4_00ec_00b9_0098_00eb_008a_0094-_00ec_0098_0081_00ec_0096_00b4_00eb_00a5_00bc-_00ec_0084-_00ed_0083_009d_00ed_0095_0098_00ec_0098_0080_00ec_009c_00bc_00eb_0082_0098-R_00ec_009d_00b4-_00ec_00a4_0091_00ea_00b5_00ad_00ec_0096_00b4_00eb_00a1_009c-_00ec_008b_00a4_00ed_0096_0089_00eb_0090_00a9_00eb_008b_0088_00eb_008b_00a4_002e">3.4 설치는 영어를 선택하였으나 R이 중국어로 실행됩니다.</a></li>
-  <li><a name="toc-i1_002f4e3_002ci_0027-i_00b0i_002ceY_003d1_002f4-i_0021i_00a9-e_00b0eY_003die2-ie3-iPiuee_0024_003f_002e" href="#g_t_00ec_009d_00bc_00eb_00b3_00b8_00ec_0096_00b4-_00ed_008f_00b0_00ed_008a_00b8_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9-_00ea_00b0_0080_00eb_008a_00a5_00ed_0095_0098_00ea_00b2_008c-_00ed_0095_0098_00ea_00b3-_00ec_008b_00b6_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">3.5 일본어 폰트를 사용 가능하게 하고 싶습니다.</a></li>
-  <li><a name="toc-R-i1_002f2iii-i-i1_002f4i_002c-ePi_002c-e_0021_002cieY_003d1_002f4-i_00b03_002f4i-i-iiuee_0024_003f_002e" href="#R-_00ec_00bd_0098_00ec_0086_0094_00ec_0097_0090_00ec_0084_009c-_00ec_0095-_00ec_0084_00bc_00ed_008a_00b8-_00eb_00b6_0080_00ed_0098_00b8-_00eb_00ac_00b8_00ec_009e_0090_00eb_00a5_00bc-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">3.6 R 콘솔에서 악센트 부호 문자를 찾을 수 없습니다.</a></li>
-  <li><a name="toc-eie2i1_002f4i_0027-e2iei_0027-iiSS-iiuee_0024_003f_002e" href="#g_t_00eb_008c_0080_00ed_0099_0094_00eb_00b2_0084_00ed_008a_00bc_00ec_009d_00b4-_00eb_00b2_0088_00ec_0097_00ad_00eb_0090_0098_00ec_0096_00b4-_00ec_009e_0088_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">3.7 대화버튼이 번역되어 있지 않습니다.</a></li>
+  <li><a name="toc-seolcipeurogeuraemi-nae-eoneoreul-jiweonhaji-anhseubnida_002e" href="#g_t_c124_ce58_d504_b85c_adf8_b7a8_c774-_b0b4-_c5b8_c5b4_b97c-_c9c0_c6d0_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e">3.1 설치프로그램이 내 언어를 지원하지 않습니다.</a></li>
+  <li><a name="toc-Reul-yeongeoro-weonhabnida_0028buleo_002fjunggugeo_002f_2026ga-anin_0029_0021" href="#R_c744-_c601_c5b4_b85c-_c124_ce58_d558_ae30-_c6d0_d569_b2c8_b2e4_0021">3.2 R을 영어로 원합니다(불어/중국어/…가 아닌)!</a></li>
+  <li><a name="toc-Reul-junggugeo_002filboneo_002fhangugeoro-silhaenghagi-weonhabnida_002e" href="#R_c744-_c911_ad6d_c5b4_002f_c77c_bcf8_c5b4_002f_d55c_ad6d_c5b4_b85c-_c2e4_d589_d558_ae30-_c6d0_d569_b2c8_b2e4_002e">3.3 R을 중국어/일본어/한국어로 실행하기 원합니다.</a></li>
+  <li><a name="toc-seolcineun-yeongeoreul-seontaeghayeosseuna-Ri-junggugeoro-silhaengdoebnida_002e" href="#g_t_c124_ce58_b294-_c601_c5b4_b97c-_c120_d0dd_d558_c600_c73c_b098-R_c774-_c911_ad6d_c5b4_b85c-_c2e4_d589_b429_b2c8_b2e4_002e">3.4 설치는 영어를 선택하였으나 R이 중국어로 실행됩니다.</a></li>
+  <li><a name="toc-ilboneo-ponteureul-sayong-ganeunghage-hago-sipseubnida_002e" href="#g_t_c77c_bcf8_c5b4-_d3f0_d2b8_b97c-_c0ac_c6a9-_ac00_b2a5_d558_ac8c-_d558_ace0-_c2f6_c2b5_b2c8_b2e4_002e">3.5 일본어 폰트를 사용 가능하게 하고 싶습니다.</a></li>
+  <li><a name="toc-R-konsoleseo-agsenteu-buho-munjareul-cajeul-su-eobsseubnida_002e" href="#R-_cf58_c194_c5d0_c11c-_c545_c13c_d2b8-_bd80_d638-_bb38_c790_b97c-_cc3e_c744-_c218-_c5c6_c2b5_b2c8_b2e4_002e">3.6 R 콘솔에서 악센트 부호 문자를 찾을 수 없습니다.</a></li>
+  <li><a name="toc-daehwabeoteuni-beonyeogdoeeo-issji-anhseubnida_002e" href="#g_t_b300_d654_bc84_d2bc_c774-_bc88_c5ed_b418_c5b4-_c788_c9c0-_c54a_c2b5_b2c8_b2e4_002e">3.7 대화버튼이 번역되어 있지 않습니다.</a></li>
 </ul></li>
 <li><a name="toc-Packages-1" href="#Packages">4 Packages</a>
 <ul class="no-bullet">
-  <li><a name="toc-i_0027-e2i-i-e1_002f4i_0027e_002ce_0021e_007c_0021i-i_0022i_0024_003fiSSeY_003d1_002f4-i_0024_003fi1i-i-iei_003f" href="#g_t_00ec_009d_00b4-_00eb_00b2_0084_00ec-_0084_00ec_009d_0098-_00eb_009d_00bc_00ec_009d_00b4_00eb_00b8_008c_00eb_009f_00ac_00eb_00a6_00ac_00ec_0097_0090-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00eb_00a5_00bc-_00ec_0084_00a4_00ec_00b9_0098_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">4.1 이 버전의 라이브러리에 패키지를 설치할 수 있나요?</a></li>
+  <li><a name="toc-i-beojeonyi-raibeureorie-paekijireul-seolcihal-su-issnayo_003f" href="#g_t_c774-_bc84_c804_c758-_b77c_c774_be0c_b7ec_b9ac_c5d0-_d328_d0a4_c9c0_b97c-_c124_ce58_d560-_c218-_c788_b098_c694_003f">4.1 이 버전의 라이브러리에 패키지를 설치할 수 있나요?</a></li>
   <li><a name="toc-I-don_0027t-have-permission-to-write-to-the-3_002e3_002e0-_005clibrary-directory_002e" href="#I-don_0027t-have-permission-to-write-to-the-3_002e3_002e0-_005clibrary-directory">4.2 I don&rsquo;t have permission to write to the <samp>3.3.0 \library</samp> directory.</a></li>
-  <li><a name="toc-i_0024_003fi1i-i_0022i_0024_003fiSSe_00b0-HTML-eieSS-ii_0024_003fi-i-e3_0027i_0027iSS-iiuee_0024_003f_002e" href="#g_t_00ec_0084_00a4_00ec_00b9_0098_00ed_0095_009c-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ea_00b0_0080-HTML-_00eb_008f_0084_00ec_009b_0080_00eb_00a7_0090-_00ec_008b_009c_00ec_008a_00a4_00ed-_009c_00ec_0097_0090-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.3 설치한 패키지가 HTML 도움말 시스템에 보이지 않습니다.</a></li>
-  <li><a name="toc-e_0027e_00b0-ii_002b_002di-i_0022ie_0024_003fi_0027-HTML-ei-e2i-ii_0024_003fi-i-iii_0021-i_00b03_002f4iiSSiSS-iiuee_0024_003f_002e" href="#g_t_00eb_0082_00b4_00ea_00b0_0080-_00ec_009e_0091_00ec_0084_00b1_00ed_0095_009c-_00ed_0095_00a8_00ec_0088_0098_00eb_0093_00a4_00ec_009d_00b4-HTML-_00eb_008f_0084_00ec_009b_0080-_00ea_00b2_0080_00ec_0083_0089-_00ec_008b_009c_00ec_008a_00a4_00ed-_009c_00ec_0097_0090-_00ec_009d_0098_00ed_0095_0098_00ec_0097_00ac-_00ec_00b0_00be_00ec_0095_0084_00ec_00a7_0080_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.4 내가 작성한 함수들이 HTML 도움 검색 시스템에 의하여 찾아지지 않습니다.</a></li>
-  <li><a name="toc-i_0022i_0024_003fiSS-e_00a1e_00a9i-i_0024_003fi_0022iiuee_0024_003f_002e" href="#g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080-_00eb_00a1_009c_00eb_0094_00a9_00ec_0097_0090-_00ec_008b_00a4_00ed_008c_00a8_00ed_0096_0088_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.5 패키지 로딩에 실패했습니다.</a></li>
-  <li><a name="toc-i_0022i_0024_003fiSS-TclTki_0027-ieiiSS-iiuee_0024_003f_002e" href="#g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080-TclTk_00ec_009d_00b4-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.6 패키지 TclTk이 작동하지 않습니다.</a></li>
-  <li><a name="toc-HTML-e_0027i-ii_0027i1_002f4eSSi_0021e_00b0-ieiiSS-iiuee_0024_003f_002e" href="#HTML-_00eb_0082_00b4_00ec_009d_0098-_00ed_0095_0098_00ec_009d_00b4_00ed_008d_00bc_00eb_00a7_0081_00ed_0081_00ac_00ea_00b0_0080-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.7 HTML 내의 하이퍼링크가 작동하지 않습니다.</a></li>
-  <li><a name="toc-update_002epackages_0028_0029e_00b0-ieeiSS-iiuee_0024_003f_002e" href="#update_002epackages_0028_0029_00ea_00b0_0080-_00ec_009e_0091_00eb_008f_0099_00eb_0090_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.8 <code>update.packages()</code>가 작동되지 않습니다.</a></li>
-  <li><a name="toc-i-iY_003dii-e_00aa_00a9e_00a1i-i_0027e_00bbe2-iPe_00b0i-i-iei_003f" href="#g_t_00ec-_0080_00ec_009e_00a5_00ec_0086_008c_00ec_009d_0098-_00eb_00aa_00a9_00eb_00a1_009d_00ec_0097_0090-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_00b6_0094_00ea_00b0_0080_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">4.9 저장소의 목록에 어떻게 추가할 수 있나요?</a></li>
-  <li><a name="toc-i_0022i_0024_003fiSSi-eieSSi_0027-e3_0027i_0027iSS-iiuee_0024_003f_002e" href="#g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ec_009d_0098-_00eb_008f_0084_00ec_009b_0080_00eb_00a7_0090_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.10 패키지의 도움말이 보이지 않습니다.</a></li>
-  <li><a name="toc-i-i-i_002c_0028static_0029-HTMLii_0027iSSeY_003d1_002f4-i_0027e_00bbe2-i_00bbi-i-iei_003f" href="#g_t_00ec-_0095_00ec-_0081_00ec_009d_00b8_0028static_0029-HTML_00ed_008e_0098_00ec_009d_00b4_00ec_00a7_0080_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_0096_00bb_00ec_009d_0084-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">4.11 정적인(static) HTML페이지를 어떻게 얻을 수 있나요?</a></li>
-  <li><a name="toc-i_0022i_0024_003fiSSi-e_00b0i_0027ee_007c_0021-e2i-i-i_0027e_00bbe2-i_00bbi-i-iei_003f" href="#g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ec_009d_0098-_00eb_00b0_0094_00ec_009d_00b4_00eb_0084_0088_00eb_00a6_00ac-_00eb_00b2_0084_00ec-_0084_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_0096_00bb_00ec_009d_0084-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">4.12 패키지의 바이너리 버전을 어떻게 얻을 수 있나요?</a></li>
-  <li><a name="toc-i_0022i_0024_003fiSS-xxxe_00b0-iei_00b0i-ei_0027-ii--e2i-i-ee_0024_003f_002e" href="#g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080-xxx_00ea_00b0_0080-_00ec_009c_0088_00eb_008f_0084_00ec_009a_00b0_00ec_0097_0090-_00eb_008c_0080_00ed_0095_00b4-_00ec_0098_0088_00ec-_0084-_00eb_00b2_0084_00ec-_0084_00ec_009e-_00eb_008b_0088_00eb_008b_00a4_002e">4.13 패키지 xxx가 윈도우에 대해 예전 버전입니다.</a></li>
-  <li><a name="toc-i_0021i_00a9-i_0024_003fi_002c-Re2i-ii-i_0021i_00a9-e_00b0eY_003di-e_00b0i_0027ee_007c_0021-i_0022i_0024_003fiSSe_00b0-eieiSS-iiuee_0024_003f_002e" href="#g_t_00ec_0082_00ac_00ec_009a_00a9-_00ec_00a4_0091_00ec_009d_00b8-R_00eb_00b2_0084_00ec-_0084_00ec_0097_0090_00ec_0084_009c-_00ec_0082_00ac_00ec_009a_00a9-_00ea_00b0_0080_00eb_008a_00a5_00ed_0095_009c-_00eb_00b0_0094_00ec_009d_00b4_00eb_0084_0088_00eb_00a6_00ac-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ea_00b0_0080-_00eb_0082_0098_00ed_0083_0080_00eb_0082_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">4.14 사용 중인 R버전에서 사용 가능한 바이너리 패키지가 나타나지 않습니다.</a></li>
-  <li><a name="toc-32e1i_002ci-64e1i_002c-Ri-e_0027-i_0022i_0024_003fiSSeY_003d1_002f4-i_0027e_00bbe2-eu_0021iPi_0027i1_002f4-iei_003f" href="#g_t32_00eb_00b9_0084_00ed_008a_00b8_00ec_0099_0080-64_00eb_00b9_0084_00ed_008a_00b8-R_00ec_0097_0090-_00eb_0082_00b4-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ea_00b5_00ac_00ec_00b6_0095_00ed_0095_00b4_00ec_0095_00bc-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">4.15 32비트와 64비트 R에 내 패키지를 어떻게 구축해야 하나요?</a></li>
+  <li><a name="toc-seolcihan-paekijiga-HTML-doummal-siseuteme-boiji-anhseubnida_002e" href="#g_t_c124_ce58_d55c-_d328_d0a4_c9c0_ac00-HTML-_b3c4_c6c0_b9d0-_c2dc_c2a4_d15c_c5d0-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e">4.3 설치한 패키지가 HTML 도움말 시스템에 보이지 않습니다.</a></li>
+  <li><a name="toc-naega-jagseonghan-hamsudeuli-HTML-doum-geomsaeg-siseuteme-yihayeo-cajajiji-anhseubnida_002e" href="#g_t_b0b4_ac00-_c791_c131_d55c-_d568_c218_b4e4_c774-HTML-_b3c4_c6c0-_ac80_c0c9-_c2dc_c2a4_d15c_c5d0-_c758_d558_c5ec-_cc3e_c544_c9c0_c9c0-_c54a_c2b5_b2c8_b2e4_002e">4.4 내가 작성한 함수들이 HTML 도움 검색 시스템에 의하여 찾아지지 않습니다.</a></li>
+  <li><a name="toc-paekiji-rodinge-silpaehaessseubnida_002e" href="#g_t_d328_d0a4_c9c0-_b85c_b529_c5d0-_c2e4_d328_d588_c2b5_b2c8_b2e4_002e">4.5 패키지 로딩에 실패했습니다.</a></li>
+  <li><a name="toc-paekiji-TclTki-jagdonghaji-anhseubnida_002e" href="#g_t_d328_d0a4_c9c0-TclTk_c774-_c791_b3d9_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e">4.6 패키지 TclTk이 작동하지 않습니다.</a></li>
+  <li><a name="toc-HTML-naeyi-haipeoringkeuga-jagdonghaji-anhseubnida_002e" href="#HTML-_b0b4_c758-_d558_c774_d37c_b9c1_d06c_ac00-_c791_b3d9_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e">4.7 HTML 내의 하이퍼링크가 작동하지 않습니다.</a></li>
+  <li><a name="toc-update_002epackages_0028_0029ga-jagdongdoeji-anhseubnida_002e" href="#update_002epackages_0028_0029_ac00-_c791_b3d9_b418_c9c0-_c54a_c2b5_b2c8_b2e4_002e">4.8 <code>update.packages()</code>가 작동되지 않습니다.</a></li>
+  <li><a name="toc-jeojangsoyi-mogroge-eoddeohge-cugahal-su-issnayo_003f" href="#g_t_c800_c7a5_c18c_c758-_baa9_b85d_c5d0-_c5b4_b5bb_ac8c-_cd94_ac00_d560-_c218-_c788_b098_c694_003f">4.9 저장소의 목록에 어떻게 추가할 수 있나요?</a></li>
+  <li><a name="toc-paekijiyi-doummali-boiji-anhseubnida_002e" href="#g_t_d328_d0a4_c9c0_c758-_b3c4_c6c0_b9d0_c774-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e">4.10 패키지의 도움말이 보이지 않습니다.</a></li>
+  <li><a name="toc-jeongjeogin_0028static_0029-HTMLpeijireul-eoddeohge-eodeul-su-issnayo_003f" href="#g_t_c815_c801_c778_0028static_0029-HTML_d398_c774_c9c0_b97c-_c5b4_b5bb_ac8c-_c5bb_c744-_c218-_c788_b098_c694_003f">4.11 정적인(static) HTML페이지를 어떻게 얻을 수 있나요?</a></li>
+  <li><a name="toc-paekijiyi-baineori-beojeoneul-eoddeohge-eodeul-su-issnayo_003f" href="#g_t_d328_d0a4_c9c0_c758-_bc14_c774_b108_b9ac-_bc84_c804_c744-_c5b4_b5bb_ac8c-_c5bb_c744-_c218-_c788_b098_c694_003f">4.12 패키지의 바이너리 버전을 어떻게 얻을 수 있나요?</a></li>
+  <li><a name="toc-paekiji-xxxga-windoue-daehae-yejeon-beojeonibnida_002e" href="#g_t_d328_d0a4_c9c0-xxx_ac00-_c708_b3c4_c6b0_c5d0-_b300_d574-_c608_c804-_bc84_c804_c785_b2c8_b2e4_002e">4.13 패키지 xxx가 윈도우에 대해 예전 버전입니다.</a></li>
+  <li><a name="toc-sayong-jungin-Rbeojeoneseo-sayong-ganeunghan-baineori-paekijiga-natanaji-anhseubnida_002e" href="#g_t_c0ac_c6a9-_c911_c778-R_bc84_c804_c5d0_c11c-_c0ac_c6a9-_ac00_b2a5_d55c-_bc14_c774_b108_b9ac-_d328_d0a4_c9c0_ac00-_b098_d0c0_b098_c9c0-_c54a_c2b5_b2c8_b2e4_002e">4.14 사용 중인 R버전에서 사용 가능한 바이너리 패키지가 나타나지 않습니다.</a></li>
+  <li><a name="toc-32biteuwa-64biteu-Re-nae-paekijireul-eoddeohge-gucughaeya-hanayo_003f" href="#g_t32_be44_d2b8_c640-64_be44_d2b8-R_c5d0-_b0b4-_d328_d0a4_c9c0_b97c-_c5b4_b5bb_ac8c-_ad6c_cd95_d574_c57c-_d558_b098_c694_003f">4.15 32비트와 64비트 R에 내 패키지를 어떻게 구축해야 하나요?</a></li>
 </ul></li>
 <li><a name="toc-Windows-Features-1" href="#Windows-Features">5 Windows Features</a>
 <ul class="no-bullet">
-  <li><a name="toc-What-should-I-expect-to-behave-differently-from-the-Unix-version-of-R_003f" href="#g_t_00ec_009c-_00eb_008b_0089_00ec_008a_00a4-_00eb_00b2_0084_00ec-_0084_00ea_00b3_00bc-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_00b4-_00eb_008b_00a4_00eb_00a5_00b4_00ea_00b2_008c-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">5.1 What should I expect to behave differently from the Unix version of R?</a></li>
-  <li><a name="toc-I-hear-about-some-nifty-features_003a-please-tell-me-about-them_0021" href="#g_t_00ec_009d_00bc_00eb_00b6_0080-_00ea_00b0_009c_00ec_0084-_00eb_0090_009c-_00ec_0082_00ac_00ed_0095_00ad_00eb_0093_00a4_00ec_0097_0090-_00eb_008c_0080_00ed_0095_0098_00ec_0097_00ac-_00eb_0093_00a4_00ec_0097_0088_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">5.2 I hear about some nifty features: please tell me about them!</a></li>
-  <li><a name="toc-Circles-appear-as-ovals-on-screen_002e" href="#g_t_00ed_0099_0094_00eb_00a9_00b4_00ec_0083_0081_00ec_0097_0090_00ec_0084_009c-_00ec_009b_0090_00ec_009d_00b4-_00ed_0083_0080_00ec_009b_0090_00ea_00b3_00bc-_00ea_00b0_0099_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009e-_00eb_008b_0088_00eb_008b_00a4_002e">5.3 Circles appear as ovals on screen.</a></li>
-  <li><a name="toc-i_0027e_00bbe2-i_0021i_00bb_0024_003fi_0024_003feY_003d1_002f4-e_002a_002cei1_002f2i_00b01_002f2ii-i1_002f2ie_00a1-i_00aee_002c_002c-i-iei_003f" href="#g_t_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_008f_00ac_00ec_00bb_00a4_00ec_008a_00a4_00eb_00a5_00bc-_00ea_00b7_00b8_00eb_009e_0098_00ed_0094_00bd_00ec_00b0_00bd_00ec_0097_0090_00ec_0084_009c-_00ec_00bd_0098_00ec_0086_0094_00eb_00a1_009c-_00ec_0098_00ae_00ea_00b8_00b8-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">5.4 어떻게 포커스를 그래픽창에서 콘솔로 옮길 수 있나요?</a></li>
-  <li><a name="toc-TAB-ii_002b_002di_0027e-e_0021_0027ii_002ce_00b0i_003f" href="#TAB-_00ec_0099_0084_00ec_0084_00b1_00ec_009d_00b4_00eb_009e_0080-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_00b8_00ea_00b0_0080_00ec_009a_0094_003f">5.5 TAB 완성이란 무엇인가요?</a></li>
+  <li><a name="toc-What-should-I-expect-to-behave-differently-from-the-Unix-version-of-R_003f" href="#g_t_c720_b2c9_c2a4-_bc84_c804_acfc-_bb34_c5c7_c774-_b2e4_b974_ac8c-_c791_b3d9_d558_b098_c694_003f">5.1 What should I expect to behave differently from the Unix version of R?</a></li>
+  <li><a name="toc-I-hear-about-some-nifty-features_003a-please-tell-me-about-them_0021" href="#g_t_c77c_bd80-_ac1c_c120_b41c-_c0ac_d56d_b4e4_c5d0-_b300_d558_c5ec-_b4e4_c5c8_c2b5_b2c8_b2e4_002e">5.2 I hear about some nifty features: please tell me about them!</a></li>
+  <li><a name="toc-Circles-appear-as-ovals-on-screen_002e" href="#g_t_d654_ba74_c0c1_c5d0_c11c-_c6d0_c774-_d0c0_c6d0_acfc-_ac19_c774-_bcf4_c785_b2c8_b2e4_002e">5.3 Circles appear as ovals on screen.</a></li>
+  <li><a name="toc-eoddeohge-pokeoseureul-geuraepigcangeseo-konsolro-olmgil-su-issnayo_003f" href="#g_t_c5b4_b5bb_ac8c-_d3ec_cee4_c2a4_b97c-_adf8_b798_d53d_cc3d_c5d0_c11c-_cf58_c194_b85c-_c62e_ae38-_c218-_c788_b098_c694_003f">5.4 어떻게 포커스를 그래픽창에서 콘솔로 옮길 수 있나요?</a></li>
+  <li><a name="toc-TAB-wanseongiran-mueosingayo_003f" href="#TAB-_c644_c131_c774_b780-_bb34_c5c7_c778_ac00_c694_003f">5.5 TAB 완성이란 무엇인가요?</a></li>
 </ul></li>
 <li><a name="toc-Workspaces-1" href="#Workspaces">6 Workspaces</a>
 <ul class="no-bullet">
-  <li><a name="toc-My-workspace-gets-saved-in-a-strange-place_003a-how-do-I-stop-this_003f" href="#g_t_00ec_009b_0090_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00eb_008a_0094-_00ec_009c_0084_00ec_00b9_0098_00ec_0097_0090-_00ec_009e_0091_00ec_0097-_00ea_00b3_00b5_00ea_00b0_0084_00ec_009d_00b4-_00ec-_0080_00ec_009e_00a5_00eb_0090_0098_00ec_0097_0088_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e-_00ec_009d_00b4_00ea_00b2_0083_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_00a9_0088_00ec_00b6_0094_00ec_0096_00b4_00ec_0095_00bc-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">6.1 My workspace gets saved in a strange place: how do I stop this?</a></li>
-  <li><a name="toc-ii-e3ue_00b0i-i_0027e_00bbe2-e_0024_003feY_003d_002c-ii1i-i-iY_003diei_003f" href="#g_t_00ec_009e_0091_00ec_0097-_00ea_00b3_00b5_00ea_00b0_0084_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_008b_00a4_00eb_00a5_00b8-_00ec_009c_0084_00ec_00b9_0098_00ec_0097_0090-_00ec-_0080_00ec_009e_00a5_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">6.2 작업공간을 어떻게 다른 위치에 저장하나요?</a></li>
-  <li><a name="toc-Can-I-load-workspaces-saved-under-Unix_002fGNU_002dLinux-or-Mac-OS-X_003f" href="#Unix_002fGNU_002dLinux-_00eb_0098_0090_00eb_008a_0094-OS-X_00ec_0097_0090_00ec_0084_009c-_00ec-_0080_00ec_009e_00a5_00eb_0090_009c-_00ec_009e_0091_00ec_0097-_00ea_00b3_00b5_00ea_00b0_0084_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_00b6_0088_00eb_009f_00ac_00ec_0098_00ac-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">6.3 Can I load workspaces saved under Unix/GNU-Linux or Mac OS X?</a></li>
+  <li><a name="toc-My-workspace-gets-saved-in-a-strange-place_003a-how-do-I-stop-this_003f" href="#g_t_c6d0_d558_c9c0-_c54a_b294-_c704_ce58_c5d0-_c791_c5c5_acf5_ac04_c774-_c800_c7a5_b418_c5c8_c2b5_b2c8_b2e4_002e-_c774_ac83_c744-_c5b4_b5bb_ac8c-_ba48_cd94_c5b4_c57c-_d558_b098_c694_003f">6.1 My workspace gets saved in a strange place: how do I stop this?</a></li>
+  <li><a name="toc-jageobgongganeul-eoddeohge-dareun-wicie-jeojanghanayo_003f" href="#g_t_c791_c5c5_acf5_ac04_c744-_c5b4_b5bb_ac8c-_b2e4_b978-_c704_ce58_c5d0-_c800_c7a5_d558_b098_c694_003f">6.2 작업공간을 어떻게 다른 위치에 저장하나요?</a></li>
+  <li><a name="toc-Can-I-load-workspaces-saved-under-Unix_002fGNU_002dLinux-or-Mac-OS-X_003f" href="#Unix_002fGNU_002dLinux-_b610_b294-OS-X_c5d0_c11c-_c800_c7a5_b41c-_c791_c5c5_acf5_ac04_c744-_c5b4_b5bb_ac8c-_bd88_b7ec_c62c-_c218-_c788_b098_c694_003f">6.3 Can I load workspaces saved under Unix/GNU-Linux or Mac OS X?</a></li>
 </ul></li>
 <li><a name="toc-The-R-Console-1" href="#The-R-Console">7 The R Console</a>
 <ul class="no-bullet">
   <li><a name="toc-When-using-Rgui-the-output-to-the-console-seems-to-be-delayed_002e" href="#The-output-to-the-console-seems-to-be-delayed">7.1 When using Rgui the output to the console seems to be delayed.</a></li>
-  <li><a name="toc-Long-lines-in-the-console-or-pager-are-truncated_002e" href="#g_t_00ec_009e-_00eb-_00a5_00ec_009d_00b4-_00ea_00b8_00b4-_00eb_009d_00bc_00ec_009d_00b8_00ec_009d_00b4-_00ec_009e_0098_00eb-_00a4_00eb_0082_0098_00ea_00b0_0084-_00ea_00b2_0083-_00ea_00b0_0099_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">7.2 Long lines in the console or pager are truncated.</a></li>
+  <li><a name="toc-Long-lines-in-the-console-or-pager-are-truncated_002e" href="#g_t_c785_b825_c774-_ae34-_b77c_c778_c774-_c798_b824_b098_ac04-_ac83-_ac19_c2b5_b2c8_b2e4_002e">7.2 Long lines in the console or pager are truncated.</a></li>
 </ul></li>
 <li><a name="toc-Building-from-Source-1" href="#Building-from-Source">8 Building from Source</a>
 <ul class="no-bullet">
-  <li><a name="toc-Ri-ii_0024_003fe_00a1ePi_00b0-i_0027e_00bbe2-i_00bb_0027ii1_002f4i-i-iei_003f" href="#R_00ec_009d_0084-_00ec_0086_008c_00ec_008a_00a4_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">8.1 R을 소스로부터 어떻게 컴파일할 수 있나요?</a></li>
-  <li><a name="toc-fast-BLASeY_003d1_002f4-i_0021i_00a9i-i-iei_003f" href="#fast-BLAS_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f">8.2 fast BLAS를 사용할 수 있나요?</a></li>
-  <li><a name="toc-i_00bb_0027ii1_002f4e-C-i1_002f2eeY_003d1_002f4-i_0027e_00bbe2-i_0021i_0022ii_0024_003fei_003f" href="#g_t_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00eb_0090_009c-C-_00ec_00bd_0094_00eb_0093_009c_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_008f_00ac_00ed_0095_00a8_00ec_008b_009c_00ed_0082_00a4_00eb_0082_0098_00ec_009a_0094_003f">8.3 컴파일된 C 코드를 어떻게 포함시키나요?</a></li>
-  <li><a name="toc-i_00bb_0027ii1_002f4ee3-dyn_002eloade-i1_002f2eeY_003d1_002f4-i_0027e_00bbe2-ee2e_002a_002c-iei_003f" href="#g_t_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00eb_0090_0098_00ea_00b3-dyn_002eload_00eb_0090_009c-_00ec_00bd_0094_00eb_0093_009c_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_0094_0094_00eb_00b2_0084_00ea_00b7_00b8-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f">8.4 컴파일되고 dyn.load된 코드를 어떻게 디버그 하나요?</a></li>
-  <li><a name="toc-C_002b_002b-i1_002f2eeY_003d1_002f4-i_0027e_00bbe2-i_0021i_0022ii_0024_003fei_003f" href="#C_002b_002b-_00ec_00bd_0094_00eb_0093_009c_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_008f_00ac_00ed_0095_00a8_00ec_008b_009c_00ed_0082_00a4_00eb_0082_0098_00ec_009a_0094_003f">8.5 C++ 코드를 어떻게 포함시키나요?</a></li>
-  <li><a name="toc-The-output-from-my-C-code-disappears_002e-Why_003f" href="#C-_00ec_00bd_0094_00eb_0093_009c_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_0096_00bb_00ec_0096_00b4_00ec_00a7_0084-_00ec_00b6_009c_00eb-_00a5_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">8.6 The output from my C code disappears.  Why?</a></li>
-  <li><a name="toc-The-output-from-my-Fortran-code-disappears_002e-Why_003f" href="#Fortran-_00ec_00bd_0094_00eb_0093_009c_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_0096_00bb_00ec_0096_00b4_00ec_00a7_0084-_00ec_00b6_009c_00eb-_00a5_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">8.7 The output from my Fortran code disappears.  Why?</a></li>
-  <li><a name="toc-The-console-freezes-when-my-compiled-code-is-running_002e" href="#g_t_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00eb_0090_009c-_00ec_00bd_0094_00eb_0093_009c_00ea_00b0_0080-_00ec_008b_00a4_00ed_0096_0089_00ec_00a4_0091_00ec_009d_00bc-_00eb_0095_008c-_00ec_00bd_0098_00ec_0086_0094_00ec_009d_00b4-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e">8.8 The console freezes when my compiled code is running.</a></li>
+  <li><a name="toc-Reul-soseurobuteo-eoddeohge-keompailhal-su-issnayo_003f" href="#R_c744-_c18c_c2a4_b85c_bd80_d130-_c5b4_b5bb_ac8c-_cef4_d30c_c77c_d560-_c218-_c788_b098_c694_003f">8.1 R을 소스로부터 어떻게 컴파일할 수 있나요?</a></li>
+  <li><a name="toc-fast-BLASreul-sayonghal-su-issnayo_003f" href="#fast-BLAS_b97c-_c0ac_c6a9_d560-_c218-_c788_b098_c694_003f">8.2 fast BLAS를 사용할 수 있나요?</a></li>
+  <li><a name="toc-keompaildoen-C-kodeureul-eoddeohge-pohamsikinayo_003f" href="#g_t_cef4_d30c_c77c_b41c-C-_cf54_b4dc_b97c-_c5b4_b5bb_ac8c-_d3ec_d568_c2dc_d0a4_b098_c694_003f">8.3 컴파일된 C 코드를 어떻게 포함시키나요?</a></li>
+  <li><a name="toc-keompaildoego-dyn_002eloaddoen-kodeureul-eoddeohge-dibeogeu-hanayo_003f" href="#g_t_cef4_d30c_c77c_b418_ace0-dyn_002eload_b41c-_cf54_b4dc_b97c-_c5b4_b5bb_ac8c-_b514_bc84_adf8-_d558_b098_c694_003f">8.4 컴파일되고 dyn.load된 코드를 어떻게 디버그 하나요?</a></li>
+  <li><a name="toc-C_002b_002b-kodeureul-eoddeohge-pohamsikinayo_003f" href="#C_002b_002b-_cf54_b4dc_b97c-_c5b4_b5bb_ac8c-_d3ec_d568_c2dc_d0a4_b098_c694_003f">8.5 C++ 코드를 어떻게 포함시키나요?</a></li>
+  <li><a name="toc-The-output-from-my-C-code-disappears_002e-Why_003f" href="#C-_cf54_b4dc_b85c_bd80_d130-_c5bb_c5b4_c9c4-_cd9c_b825_c774-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e">8.6 The output from my C code disappears.  Why?</a></li>
+  <li><a name="toc-The-output-from-my-Fortran-code-disappears_002e-Why_003f" href="#Fortran-_cf54_b4dc_b85c_bd80_d130-_c5bb_c5b4_c9c4-_cd9c_b825_c774-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e">8.7 The output from my Fortran code disappears.  Why?</a></li>
+  <li><a name="toc-The-console-freezes-when-my-compiled-code-is-running_002e" href="#g_t_cef4_d30c_c77c_b41c-_cf54_b4dc_ac00-_c2e4_d589_c911_c77c-_b54c-_cf58_c194_c774-_c791_b3d9_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e">8.8 The console freezes when my compiled code is running.</a></li>
 </ul></li>
 
 </ul>
@@ -236,8 +237,8 @@ and D. J. Murdoch</address> <hr>
 
 
  <hr><hr>
-<a name="g_t_00ec_0086_008c_00ea_00b0_009c"></a>
-<a name="ie_00b0"></a>
+<a name="g_t_c18c_ac1c"></a>
+<a name="sogae"></a>
 <h2 class="chapter">1 소개</h2>
 
 <p>본 FAQ 문서는 윈도우즈 버전의 R 사용자들을 위한 것입니다. 기본이 되는 중요한 R FAQ 문서는 다음의 링크로부터 찾을 수
@@ -252,15 +253,15 @@ and D. J. Murdoch</address> <hr>
 </p>
 
  <hr><hr>
-<a name="g_t_00ec_0084_00a4_00ec_00b9_0098-_00eb_00b0_008f-_00ec_0082_00ac_00ec_009a_00a9"></a>
-<a name="i_0024_003fi1-e_00b0-i_0021i_00a9"></a>
+<a name="g_t_c124_ce58-_bc0f-_c0ac_c6a9"></a>
+<a name="seolci-mic-sayong"></a>
 <h2 class="chapter">2 설치 및 사용</h2>
 
 
 
 <hr>
-<a name="g_t_00ec_0096_00b4_00eb_0094_0094_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_00b5_009c_00ec_008b-_00eb_00b2_0084_00ec-_0084_00ec_009d_0084-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_0027ee_00a1ePi_00b0-iui-e2i-i-i_00b03_002f4i-i-iei_003f"></a>
+<a name="g_t_c5b4_b514_b85c_bd80_d130-_cd5c_c2e0_bc84_c804_c744-_cc3e_c744-_c218-_c788_b098_c694_003f"></a>
+<a name="eodirobuteo-coesinbeojeoneul-cajeul-su-issnayo_003f"></a>
 <h3 class="section">2.1 어디로부터 최신버전을 찾을 수 있나요?</h3>
 
 <p>Go to any CRAN site (see <a href="http://cran.r-project.org/mirrors.html">http://cran.r-project.org/mirrors.html</a> for
@@ -333,8 +334,8 @@ example <code>R_LIBS=p:/myRlib</code> 입니다. 그리고 만약 사용자가 m
 <p>R 2.11.0에서 제거된 설치파일들과 관련되어 있습니다.
 </p>
 <hr>
-<a name="g_t_00ec_0084_00a4_00ec_00b9_0098_00ea_00b3_00bc_00ec-_0095_00ec_009d_0084-_00ec_00a1_00b0_00ec-_0095_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_0024_003fi1e31_002f4i-i-i_00a1_00b0i-i-i-iei_003f"></a>
+<a name="g_t_c124_ce58_acfc_c815_c744-_c870_c815_d560-_c218-_c788_b098_c694_003f"></a>
+<a name="seolcigwajeongeul-jojeonghal-su-issnayo_003f"></a>
 <h3 class="section">2.4 설치과정을 조정할 수 있나요?</h3>
 
 <p>사용자가 원하는 대로 설치하는 일반적인 방법은 installer 마법사로 부터 콤포넨트를 선택하는 것 입니다. 하지만 sysadmin들은
@@ -381,8 +382,8 @@ those settings using
 보십시오.
 </p>
 <hr>
-<a name="g_t_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_008b_00a4_00ed_0096_0089_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_0027e_00bbe2-i_0024_003fiiei_003f"></a>
+<a name="g_t_c5b4_b5bb_ac8c-_c2e4_d589_d558_b098_c694_003f"></a>
+<a name="eoddeohge-silhaenghanayo_003f"></a>
 <h3 class="section">2.5 어떻게 실행하나요?</h3>
 
 <p>사용자가 준비했었던 installation의 바로가기를 더블클릭하십시오. 
@@ -399,8 +400,8 @@ default added to the <code>PATH</code>.)  People running from a terminal usually
 prefer to run <code>Rterm.exe</code> and not <code>Rgui.exe</code>.
 </p>
 <hr>
-<a name="CD-_00eb_0098_0090_00eb_008a_0094-USB-_00eb_0093_009c_00eb_009d_00bc_00ec_009d_00b4_00eb_00b8_008c_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-R_00ec_009d_0084-_00ec_008b_00a4_00ed_0096_0089_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="CD-ee-USB-ee1_002f4i_0027e_002ce_00a1ePi_00b0-Ri-i_0024_003fii-i-iei_003f"></a>
+<a name="CD-_b610_b294-USB-_b4dc_b77c_c774_be0c_b85c_bd80_d130-R_c744-_c2e4_d589_d560-_c218-_c788_b098_c694_003f"></a>
+<a name="CD-ddoneun-USB-deuraibeurobuteo-Reul-silhaenghal-su-issnayo_003f"></a>
 <h3 class="section">2.6 CD 또는 USB 드라이브로부터 R을 실행할 수 있나요?</h3>
 
 <p>가능합니다. 기본적인 R installation 은 재배치 되어 질 수 있으며, 그로인해 사용자는 R installation 이미지를
@@ -413,8 +414,8 @@ the last resort these are taken to be the current directory. 적절하게 환경
 </p>
 
 <hr>
-<a name="g_t_00ec_0084_00a4_00ec_00b9_0098_00eb_0090_009c-R_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec-_009c_00ea_00b1_00b0_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_0024_003fi1e-Ri-i_0027e_00bbe2-i-e_002b_002d_00b0iei_003f"></a>
+<a name="g_t_c124_ce58_b41c-R_c744-_c5b4_b5bb_ac8c-_c81c_ac70_d558_b098_c694_003f"></a>
+<a name="seolcidoen-Reul-eoddeohge-jegeohanayo_003f"></a>
 <h3 class="section">2.7 설치된 R을 어떻게 제거하나요?</h3>
 
 <p>Normally you can do this from the &lsquo;<samp>Programs and Features</samp>&rsquo; group in the
@@ -430,8 +431,8 @@ asked to confirm that you wish to run a program from an &lsquo;unknown&rsquo; or
 </p>
 
 <hr>
-<a name="g_t_00ec_0097-_00ea_00b7_00b8_00eb-_0088_00ec_009d_00b4_00eb_0093_009c-_00ed_0095_0098_00eb_008a_0094-_00ea_00b0_0080_00ec_009e_00a5-_00ec_00a2_008b_00ec_009d_0080-_00eb_00b0_00a9_00eb_00b2_0095_00ec_009d_0080-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_00b8_00ea_00b0_0080_00ec_009a_0094_003f"></a>
-<a name="i-e_002a_002ce-i_0027e-ie-e_00b0iY_003d-iC_002fi-e_00b0_00a9e2i-e_0021_0027ii_002ce_00b0i_003f"></a>
+<a name="g_t_c5c5_adf8_b808_c774_b4dc-_d558_b294-_ac00_c7a5-_c88b_c740-_bc29_bc95_c740-_bb34_c5c7_c778_ac00_c694_003f"></a>
+<a name="eobgeureideu-haneun-gajang-joheun-bangbeobeun-mueosingayo_003f"></a>
 <h3 class="section">2.8 업그레이드 하는 가장 좋은 방법은 무엇인가요?</h3>
 
 <p>이것은 사람의 기호에 따라 다릅니다. 대부분의 사람들에게 최고의 방법은 R을 삭제한 후, 새로운 버전을 설치하고, 새롭게 설치된
@@ -448,8 +449,8 @@ from 3.0.2 to 3.1.0).  A simple way to do so is to copy (say)
 </p>
 
 <hr>
-<a name="g_t_00ec_0082_00ac_00ec_009a_00a9_00ec_0097_0090-_00ec_009e_0088_00ec_0096_00b4-_00eb_00a9_0094_00eb_00aa_00a8_00eb_00a6_00ac-_00ed_0081_00ac_00ea_00b8_00b0_00ec_009d_0098-_00ec-_009c_00ed_0095_009c_00ec_009d_00b4-_00ec_009e_0088_00eb_008a_0094_00ea_00b2_0083-_00ea_00b0_0099_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_0021"></a>
-<a name="i_0021i_00a9i-ii_0027-e_00a9e_00aa_0022e_007c_0021-i_0021e_002c_00b0i-i-ii_0027-iee2-e_00b0iuee_0024_003f_0021"></a>
+<a name="g_t_c0ac_c6a9_c5d0-_c788_c5b4-_ba54_baa8_b9ac-_d06c_ae30_c758-_c81c_d55c_c774-_c788_b294_ac83-_ac19_c2b5_b2c8_b2e4_0021"></a>
+<a name="sayonge-isseo-memori-keugiyi-jehani-issneungeos-gatseubnida_0021"></a>
 <h3 class="section">2.9 사용에 있어 메모리 크기의 제한이 있는것 같습니다!</h3>
 
 <p>command-line flag <samp>--max-mem-size</samp> 혹은 환경 변수 <code>R_MAX_MEM_SIZE</code> 에
@@ -487,8 +488,8 @@ directory와 연관됩니다. 그러므로, &rsquo;Start in&rsquo; 필드를 세
 </p>
 
 <hr>
-<a name="R_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00eb_0082_0098_00ec_0098_00a8-_00ea_00b2_00b0_00ea_00b3_00bc_00eb_00ac_00bc_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_0094_0084_00eb_00a6_00b0_00ed_008a_00b8_00eb_00a5_00bc-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="Re_00a1ePi_00b0-ei_0022-e2_00b0e31_002f4e_00211_002f4i-i_0027e_00bbe2-ie_007c_00b0i_002ceY_003d1_002f4-iei_003f"></a>
+<a name="R_b85c_bd80_d130-_b098_c628-_acb0_acfc_bb3c_c744-_c5b4_b5bb_ac8c-_d504_b9b0_d2b8_b97c-_d558_b098_c694_003f"></a>
+<a name="Rrobuteo-naon-gyeolgwamuleul-eoddeohge-peurinteureul-hanayo_003f"></a>
 <h3 class="section">2.11 R로부터 나온 결과물을 어떻게 프린트를 하나요?</h3>
 
 <p>이것은 사용자가 어떤 것을 프린터하느냐에 의해서 달라집니다
@@ -509,7 +510,7 @@ help_type=&quot;postscript&quot;) (or &quot;PDF&quot;)</code>에 의해서 도�
 
 
 <hr>
-<a name="R-CMD-BATCH_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
+<a name="R-CMD-BATCH_b97c-_c0ac_c6a9_d560-_c218-_c788_b098_c694_003f"></a>
 <a name="Can-I-use-R-CMD-BATCH_003f"></a>
 <h3 class="section">2.12 Can I use <code>R CMD BATCH</code>?</h3>
 
@@ -600,7 +601,7 @@ variables&rsquo;.
 </p>
 
 <hr>
-<a name="g_t_00ed_008c_008c_00ec_009d_00bc_00ec_009d_0084-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="g_t_d30c_c77c_c744-_cc3e_c744-_c218-_c5c6_c2b5_b2c8_b2e4_002e"></a>
 <a name="R-can_0027t-find-my-file_002c-but-I-know-it-is-there_0021"></a>
 <h3 class="section">2.16 R can&rsquo;t find my file, but I know it is there!</h3>
 
@@ -624,8 +625,8 @@ R이 요구하는 정확한 포맷이 될것입니다.
 </p>
 
 <hr>
-<a name="R_00ec_009d_0080-_00eb-_0088_00ec_00a7_0080_00ec_008a_00a4_00ed_008a_00b8_00eb_00a6_00ac_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="Ri-e-iSSi_0024_003fi_002ce_007c_0021eY_003d1_002f4-i_0021i_00a9iei_003f"></a>
+<a name="R_c740-_b808_c9c0_c2a4_d2b8_b9ac_b97c-_c0ac_c6a9_d558_b098_c694_003f"></a>
+<a name="Reun-rejiseuteurireul-sayonghanayo_003f"></a>
 <h3 class="section">2.17 R은 레지스트리를 사용하나요?</h3>
 
 <p>R 자신혼자 실행되고 있을때는 Registry를 사용하진 않습니다.
@@ -656,7 +657,7 @@ with .RData files</samp>&rsquo;)을 체크표시 했다면, entries들은 <code>
 </p>
 
 <hr>
-<a name="R_00ec_0097_0090_00ec_0084_009c-_00ec_009e_0090_00eb_008f_0099_00ed_0099_0094_00ea_00b8_00b0_00eb_008a_00a5_00ec_009d_0084-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
+<a name="R_c5d0_c11c-_c790_b3d9_d654_ae30_b2a5_c744-_c0ac_c6a9_d560-_c218-_c788_b098_c694_003f"></a>
 <a name="Does-R-support-automation-_0028OLE_002c-COM_0029_003f"></a>
 <h3 class="section">2.18 Does R support automation (OLE, COM)?</h3>
 
@@ -698,8 +699,8 @@ command-line에 대한 예들의 두가지 버전 있습니다.
 </p>
 
 <hr>
-<a name="g_t_00ed_008a_00b9_00ec-_0095-_00eb_00ac_00b8_00ec_009e_0090_00eb_00a5_00bc-_00ec_009e-_00eb-_00a5_00ed_0095_0098_00ea_00b2_008c-_00eb_0090_0098_00eb_00a9_00b4-Rgui_00ea_00b0_0080-_00ec_00a2-_00eb_00a3_008c_00eb_0090_00a9_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i1i--e_0021_002cieY_003d1_002f4-i-e-Y_003die2-ee_00a9_0027-Rguie_00b0-iC_002f-e_00a3e_00a9ee_0024_003f_002e"></a>
+<a name="g_t_d2b9_c815-_bb38_c790_b97c-_c785_b825_d558_ac8c-_b418_ba74-Rgui_ac00-_c885_b8cc_b429_b2c8_b2e4_002e"></a>
+<a name="teugjeong-munjareul-ibryeoghage-doemyeon-Rguiga-jongryodoebnida_002e"></a>
 <h3 class="section">2.20 특정 문자를 입력하게 되면 Rgui가 종료됩니다.</h3>
 
 <p>This has not been reported for a few years, but used to happen regularly.
@@ -709,8 +710,8 @@ A few other people have discovered this was caused by desktop switcher and
 keyboard macro programs, for example &lsquo;Macro Magic&rsquo; and &lsquo;JS Pager&rsquo;.
 </p>
 <hr>
-<a name="g_t_0027DLL-attempted-to-change-FPU-control-word_0027_00eb_009e_0080-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_0084-_00ec_009d_0098_00eb_00af_00b8_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="g_t_0027DLL-attempted-to-change-FPU-control-word_0027e-e_0021_0027ii-ie_002d_002ciei_003f"></a>
+<a name="g_t_0027DLL-attempted-to-change-FPU-control-word_0027_b780-_bb34_c5c7_c744-_c758_bbf8_d558_b098_c694_003f"></a>
+<a name="g_t_0027DLL-attempted-to-change-FPU-control-word_0027ran-mueoseul-yimihanayo_003f"></a>
 <h3 class="section">2.21 &rsquo;DLL attempted to change FPU control word&rsquo;란 무엇을 의미하나요?</h3>
 
 <p>This is a <em>warning</em> which indicates that R has taken action to correct
@@ -745,8 +746,8 @@ replace the buggy system component that is causing the error.
 </p>
 
 <hr>
-<a name="R_00ec_009d_0080-_00ec_0099_009c-CPU_00ec_009d_0098-50_0025-_00ec_009d_00b4_00ec_0083_0081_00ec_009d_0084-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="Ri-i-CPUi-50_0025-i_0027ii-i_0021i_00a9iiSS-iei_003f"></a>
+<a name="R_c740-_c65c-CPU_c758-50_0025-_c774_c0c1_c744-_c0ac_c6a9_d558_c9c0-_c54a_b098_c694_003f"></a>
+<a name="Reun-wae-CPUyi-50_0025-isangeul-sayonghaji-anhnayo_003f"></a>
 <h3 class="section">2.23 R은 왜 CPU의 50% 이상을 사용하지 않나요?</h3>
 
 <p>This is a misreading of Windows&rsquo; confusing Task Manager.  R&rsquo;s computation is
@@ -903,7 +904,7 @@ including in the LaTeX preamble e.g. (for a Western European locale)
 <p>or their use suppressed by <code>options(useFancyQuotes=FALSE)</code>.
 </p>
 <hr>
-<a name="g_t_00ec_0082_00ac_00ec_009a_00a9_00ec_00a4_0091_00ec_009d_00b8-_00ed_0082_00a4_00eb_00b3_00b4_00eb_0093_009c_00ec_0097_0090_00eb_008a_0094-_00ed_008b_00b8_00eb_008d_00b0_0028tilde_0029-_00ea_00b8_00b0_00ed_0098_00b8_00ea_00b0_0080-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="g_t_c0ac_c6a9_c911_c778-_d0a4_bcf4_b4dc_c5d0_b294-_d2f8_b370_0028tilde_0029-_ae30_d638_ac00-_c5c6_c2b5_b2c8_b2e4_002e"></a>
 <a name="There-is-no-tilde-on-my-keyboard_0021"></a>
 <h3 class="section">2.26 There is no tilde on my keyboard!</h3>
 
@@ -972,8 +973,8 @@ to use 64-bit <code>RODBC</code> and hence R.  (And similarly for 32-bit Microso
 Office.)
 </p>
 <hr>
-<a name="g_t_00ea_00b0_0099_00ec_009d_0080-_00eb_00a8_00b8_00ec_008b-_00ec_009c_0084_00ec_0097_0090-32_00ec_0099_0080-64-_00eb_00b9_0084_00ed_008a_00b8-R_00ec_009d_0084-_00ed_0095_00a8_00ea_00bb_0098-_00ec_0084_00a4_00ec_00b9_0098_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="e_00b0i-e_0022_002ci-ii-32i-64-e1i_002c-Ri-i_0022e_00bb-i_0024_003fi1i-i-iei_003f"></a>
+<a name="g_t_ac19_c740-_ba38_c2e0_c704_c5d0-32_c640-64-_be44_d2b8-R_c744-_d568_aed8-_c124_ce58_d560-_c218-_c788_b098_c694_003f"></a>
+<a name="gateun-meosinwie-32wa-64-biteu-Reul-hamgge-seolcihal-su-issnayo_003f"></a>
 <h3 class="section">2.29 같은 머신위에 32와 64 비트 R을 함께 설치할 수 있나요?</h3>
 
 <p>Obviously, only relevant if the machine is running a 64-bit version of
@@ -991,8 +992,8 @@ edit the Registry entry
 </p>
 
 <hr>
-<a name="Rcmd_00eb_00a5_00bc-PATH_00ec_0097_0090_00ec_0084_009c-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_0021"></a>
-<a name="RcmdeY_003d1_002f4-PATHii-i_00b03_002f4i-i-iiuee_0024_003f_0021"></a>
+<a name="Rcmd_b97c-PATH_c5d0_c11c-_cc3e_c744-_c218-_c5c6_c2b5_b2c8_b2e4_0021"></a>
+<a name="Rcmdreul-PATHeseo-cajeul-su-eobsseubnida_0021"></a>
 <h3 class="section">2.30 Rcmd를 PATH에서 찾을 수 없습니다!</h3>
 
 <p>This has often been reported after an upgrade.
@@ -1042,8 +1043,8 @@ batch file <code>setpath.bat</code> containing
 
 
 <hr>
-<a name="g_t_00ec_0084_00a4_00ec_00b9_0098_00ed_0094_0084_00eb_00a1_009c_00ea_00b7_00b8_00eb_009e_00a8_00ec_009d_00b4-_00eb_0082_00b4-_00ec_0096_00b8_00ec_0096_00b4_00eb_00a5_00bc-_00ec_00a7_0080_00ec_009b_0090_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0024_003fi1ie_00a1e_002a_002ce_0022i_0027-e_0027-i_002ci_0027eY_003d1_002f4-iSSiiiSS-iiuee_0024_003f_002e"></a>
+<a name="g_t_c124_ce58_d504_b85c_adf8_b7a8_c774-_b0b4-_c5b8_c5b4_b97c-_c9c0_c6d0_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="seolcipeurogeuraemi-nae-eoneoreul-jiweonhaji-anhseubnida_002e"></a>
 <h3 class="section">3.1 설치프로그램이 내 언어를 지원하지 않습니다.</h3>
 
 <p>제한된 언어들만 지원되고 있습니다. 현재는 카탈로니아어, 중국어(간체와 번체), 체코어, 덴마크어, 네덜란드어, 핀란드어, 불어,
@@ -1051,8 +1052,8 @@ batch file <code>setpath.bat</code> containing
 포르투갈어(포르투갈), 러시아어, 슬로베니아어, 스페인어(스페인)와 우크라이나어 입니다.
 </p>
 <hr>
-<a name="R_00ec_009d_0084-_00ec_0098_0081_00ec_0096_00b4_00eb_00a1_009c-_00ec_0084_00a4_00ec_00b9_0098_00ed_0095_0098_00ea_00b8_00b0-_00ec_009b_0090_00ed_0095_00a9_00eb_008b_0088_00eb_008b_00a4_0021"></a>
-<a name="Ri-ii_0027e_00a1-ii_00a9ee_0024_003f_0028ePi_0027_002fi_0024_003feui_0027_002fa_007ce_00b0-ie_0029_0021"></a>
+<a name="R_c744-_c601_c5b4_b85c-_c124_ce58_d558_ae30-_c6d0_d569_b2c8_b2e4_0021"></a>
+<a name="Reul-yeongeoro-weonhabnida_0028buleo_002fjunggugeo_002f_2026ga-anin_0029_0021"></a>
 <h3 class="section">3.2 R을 영어로 원합니다(불어/중국어/…가 아닌)!</h3>
 
 <p>R은 디폴트(default)로 윈도우와 동일한 언어로 운영되도록 설정 되어있습니다.
@@ -1062,8 +1063,8 @@ batch file <code>setpath.bat</code> containing
 <samp>Rconsole</samp> file에 설정하시면 됩니다.
 </p>
 <hr>
-<a name="R_00ec_009d_0084-_00ec_00a4_0091_00ea_00b5_00ad_00ec_0096_00b4_002f_00ec_009d_00bc_00eb_00b3_00b8_00ec_0096_00b4_002f_00ed_0095_009c_00ea_00b5_00ad_00ec_0096_00b4_00eb_00a1_009c-_00ec_008b_00a4_00ed_0096_0089_00ed_0095_0098_00ea_00b8_00b0-_00ec_009b_0090_00ed_0095_00a9_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="Ri-i_0024_003feui_0027_002fi1_002f4e3_002ci_0027_002fieui_0027e_00a1-i_0024_003fiie_002c_00b0-ii_00a9ee_0024_003f_002e"></a>
+<a name="R_c744-_c911_ad6d_c5b4_002f_c77c_bcf8_c5b4_002f_d55c_ad6d_c5b4_b85c-_c2e4_d589_d558_ae30-_c6d0_d569_b2c8_b2e4_002e"></a>
+<a name="Reul-junggugeo_002filboneo_002fhangugeoro-silhaenghagi-weonhabnida_002e"></a>
 <h3 class="section">3.3 R을 중국어/일본어/한국어로 실행하기 원합니다.</h3>
 
 <p>적합한 윈도우 버전은 동아시아(East Asian) 언어를 지원합니다만 예를 들어, 외국어로 설치된 윈도우(e.g. Western
@@ -1096,8 +1097,8 @@ Console</code> 또는 <code>Consolas</code>)와 적합한 코드페이지(Window
 <code>chcp</code>로 정의할 수 있습니다.)를 사용할 수 있도록 설정되어야 합니다.
 </p>
 <hr>
-<a name="g_t_00ec_0084_00a4_00ec_00b9_0098_00eb_008a_0094-_00ec_0098_0081_00ec_0096_00b4_00eb_00a5_00bc-_00ec_0084-_00ed_0083_009d_00ed_0095_0098_00ec_0098_0080_00ec_009c_00bc_00eb_0082_0098-R_00ec_009d_00b4-_00ec_00a4_0091_00ea_00b5_00ad_00ec_0096_00b4_00eb_00a1_009c-_00ec_008b_00a4_00ed_0096_0089_00eb_0090_00a9_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0024_003fi1e-ii_0027eY_003d1_002f4-i-iiii1_002f4e-Ri_0027-i_0024_003feui_0027e_00a1-i_0024_003fie_00a9ee_0024_003f_002e"></a>
+<a name="g_t_c124_ce58_b294-_c601_c5b4_b97c-_c120_d0dd_d558_c600_c73c_b098-R_c774-_c911_ad6d_c5b4_b85c-_c2e4_d589_b429_b2c8_b2e4_002e"></a>
+<a name="seolcineun-yeongeoreul-seontaeghayeosseuna-Ri-junggugeoro-silhaengdoebnida_002e"></a>
 <h3 class="section">3.4 설치는 영어를 선택하였으나 R이 중국어로 실행됩니다.</h3>
 
 <p>정확하게 말하자면 설치를 위한(<strong>for installation</strong>) 영어를 선택한 것입니다! 설치 프로그램의 언어는R을
@@ -1110,8 +1111,8 @@ Console</code> 또는 <code>Consolas</code>)와 적합한 코드페이지(Window
 파일에 정의하여야 함을 기억하시기 바랍니다.
 </p>
 <hr>
-<a name="g_t_00ec_009d_00bc_00eb_00b3_00b8_00ec_0096_00b4-_00ed_008f_00b0_00ed_008a_00b8_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9-_00ea_00b0_0080_00eb_008a_00a5_00ed_0095_0098_00ea_00b2_008c-_00ed_0095_0098_00ea_00b3-_00ec_008b_00b6_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i1_002f4e3_002ci_0027-i_00b0i_002ceY_003d1_002f4-i_0021i_00a9-e_00b0eY_003die2-ie3-iPiuee_0024_003f_002e"></a>
+<a name="g_t_c77c_bcf8_c5b4-_d3f0_d2b8_b97c-_c0ac_c6a9-_ac00_b2a5_d558_ac8c-_d558_ace0-_c2f6_c2b5_b2c8_b2e4_002e"></a>
+<a name="ilboneo-ponteureul-sayong-ganeunghage-hago-sipseubnida_002e"></a>
 <h3 class="section">3.5 일본어 폰트를 사용 가능하게 하고 싶습니다.</h3>
 
 <p>콘솔에서와 그래프에 주석 다는 것을 예를 들어 보겠습니다. Western-European이 아닌 어떤 언어에도 유사한 설명이 적용됩니다.
@@ -1130,8 +1131,8 @@ Console</code> 또는 <code>Consolas</code>)와 적합한 코드페이지(Window
 참고하세요(<code>pdf</code>로도 가능합니다).
 </p>
 <hr>
-<a name="R-_00ec_00bd_0098_00ec_0086_0094_00ec_0097_0090_00ec_0084_009c-_00ec_0095-_00ec_0084_00bc_00ed_008a_00b8-_00eb_00b6_0080_00ed_0098_00b8-_00eb_00ac_00b8_00ec_009e_0090_00eb_00a5_00bc-_00ec_00b0_00be_00ec_009d_0084-_00ec_0088_0098-_00ec_0097_0086_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="R-i1_002f2iii-i-i1_002f4i_002c-ePi_002c-e_0021_002cieY_003d1_002f4-i_00b03_002f4i-i-iiuee_0024_003f_002e"></a>
+<a name="R-_cf58_c194_c5d0_c11c-_c545_c13c_d2b8-_bd80_d638-_bb38_c790_b97c-_cc3e_c744-_c218-_c5c6_c2b5_b2c8_b2e4_002e"></a>
+<a name="R-konsoleseo-agsenteu-buho-munjareul-cajeul-su-eobsseubnida_002e"></a>
 <h3 class="section">3.6 R 콘솔에서 악센트 부호 문자를 찾을 수 없습니다.</h3>
 
 <p><samp>Rconsole</samp>에 사용 중인 encoding을 지원하는 폰트를 정의해야 합니다(Q5.2 참조). 윈도우 이전 버전에서는
@@ -1142,8 +1143,8 @@ Console</code> 또는 <code>Consolas</code>)와 적합한 코드페이지(Window
 필요가 있습니다.
 </p>
 <hr>
-<a name="g_t_00eb_008c_0080_00ed_0099_0094_00eb_00b2_0084_00ed_008a_00bc_00ec_009d_00b4-_00eb_00b2_0088_00ec_0097_00ad_00eb_0090_0098_00ec_0096_00b4-_00ec_009e_0088_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="eie2i1_002f4i_0027-e2iei_0027-iiSS-iiuee_0024_003f_002e"></a>
+<a name="g_t_b300_d654_bc84_d2bc_c774-_bc88_c5ed_b418_c5b4-_c788_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="daehwabeoteuni-beonyeogdoeeo-issji-anhseubnida_002e"></a>
 <h3 class="section">3.7 대화버튼이 번역되어 있지 않습니다.</h3>
 
 <p>대부분의 경우에는 그렇습니다만 윈도우에 의한 경우는 아닙니다. 사용장소 또는 <code>LANGUAGE</code> 환경 변수 설정은 &lsquo;UI
@@ -1163,8 +1164,8 @@ locale)는 &lsquo;non-Unicode&rsquo; 프로그램(윈도우 7에서 관리자 �
 
 
 <hr>
-<a name="g_t_00ec_009d_00b4-_00eb_00b2_0084_00ec-_0084_00ec_009d_0098-_00eb_009d_00bc_00ec_009d_00b4_00eb_00b8_008c_00eb_009f_00ac_00eb_00a6_00ac_00ec_0097_0090-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00eb_00a5_00bc-_00ec_0084_00a4_00ec_00b9_0098_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_0027-e2i-i-e1_002f4i_0027e_002ce_0021e_007c_0021i-i_0022i_0024_003fiSSeY_003d1_002f4-i_0024_003fi1i-i-iei_003f"></a>
+<a name="g_t_c774-_bc84_c804_c758-_b77c_c774_be0c_b7ec_b9ac_c5d0-_d328_d0a4_c9c0_b97c-_c124_ce58_d560-_c218-_c788_b098_c694_003f"></a>
+<a name="i-beojeonyi-raibeureorie-paekijireul-seolcihal-su-issnayo_003f"></a>
 <h3 class="section">4.1 이 버전의 라이브러리에 패키지를 설치할 수 있나요?</h3>
 
 <p>네, 하지만 CRAN내 <samp>bin/windows/contrib</samp> 섹션의 저자나 유지보수자가 윈도우를 위한 바이너리 버전이
@@ -1235,24 +1236,24 @@ C/C++/Fortran 코드를 포함하지 않은 소스 패키지는<code>install.pac
 </p>
 
 <hr>
-<a name="g_t_00ec_0084_00a4_00ec_00b9_0098_00ed_0095_009c-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ea_00b0_0080-HTML-_00eb_008f_0084_00ec_009b_0080_00eb_00a7_0090-_00ec_008b_009c_00ec_008a_00a4_00ed-_009c_00ec_0097_0090-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0024_003fi1i-i_0022i_0024_003fiSSe_00b0-HTML-eieSS-ii_0024_003fi-i-e3_0027i_0027iSS-iiuee_0024_003f_002e"></a>
+<a name="g_t_c124_ce58_d55c-_d328_d0a4_c9c0_ac00-HTML-_b3c4_c6c0_b9d0-_c2dc_c2a4_d15c_c5d0-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="seolcihan-paekijiga-HTML-doummal-siseuteme-boiji-anhseubnida_002e"></a>
 <h3 class="section">4.3 설치한 패키지가 HTML 도움말 시스템에 보이지 않습니다.</h3>
 
 <p>이 질문은 대체된 pre-2.10.0 HTML 도움말 시스템에 적용됩니다. 
 </p>
 
 <hr>
-<a name="g_t_00eb_0082_00b4_00ea_00b0_0080-_00ec_009e_0091_00ec_0084_00b1_00ed_0095_009c-_00ed_0095_00a8_00ec_0088_0098_00eb_0093_00a4_00ec_009d_00b4-HTML-_00eb_008f_0084_00ec_009b_0080-_00ea_00b2_0080_00ec_0083_0089-_00ec_008b_009c_00ec_008a_00a4_00ed-_009c_00ec_0097_0090-_00ec_009d_0098_00ed_0095_0098_00ec_0097_00ac-_00ec_00b0_00be_00ec_0095_0084_00ec_00a7_0080_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="e_0027e_00b0-ii_002b_002di-i_0022ie_0024_003fi_0027-HTML-ei-e2i-ii_0024_003fi-i-iii_0021-i_00b03_002f4iiSSiSS-iiuee_0024_003f_002e"></a>
+<a name="g_t_b0b4_ac00-_c791_c131_d55c-_d568_c218_b4e4_c774-HTML-_b3c4_c6c0-_ac80_c0c9-_c2dc_c2a4_d15c_c5d0-_c758_d558_c5ec-_cc3e_c544_c9c0_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="naega-jagseonghan-hamsudeuli-HTML-doum-geomsaeg-siseuteme-yihayeo-cajajiji-anhseubnida_002e"></a>
 <h3 class="section">4.4 내가 작성한 함수들이 HTML 도움 검색 시스템에 의하여 찾아지지 않습니다.</h3>
 
 <p>이 질문은 대체된 pre-2.10.0 HTML 검색 시스템에 적용됩니다. 
 </p>
 
 <hr>
-<a name="g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080-_00eb_00a1_009c_00eb_0094_00a9_00ec_0097_0090-_00ec_008b_00a4_00ed_008c_00a8_00ed_0096_0088_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0022i_0024_003fiSS-e_00a1e_00a9i-i_0024_003fi_0022iiuee_0024_003f_002e"></a>
+<a name="g_t_d328_d0a4_c9c0-_b85c_b529_c5d0-_c2e4_d328_d588_c2b5_b2c8_b2e4_002e"></a>
+<a name="paekiji-rodinge-silpaehaessseubnida_002e"></a>
 <h3 class="section">4.5 패키지 로딩에 실패했습니다.</h3>
 
 <p>이 버전의 R에 대한 패키지가 설치되었습니까? 패키지는 R 2.10.0 또는 이후 버전에 대한 준비가 필요하며, R 2.10.0 또는
@@ -1269,8 +1270,8 @@ C/C++/Fortran 코드를 포함하지 않은 소스 패키지는<code>install.pac
 </p>
 
 <hr>
-<a name="g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080-TclTk_00ec_009d_00b4-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0022i_0024_003fiSS-TclTki_0027-ieiiSS-iiuee_0024_003f_002e"></a>
+<a name="g_t_d328_d0a4_c9c0-TclTk_c774-_c791_b3d9_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="paekiji-TclTki-jagdonghaji-anhseubnida_002e"></a>
 <h3 class="section">4.6 패키지 TclTk이 작동하지 않습니다.</h3>
 
 <p>패키지 <code>tcltk</code>가 작동하기 위해서는(<code>demo(tkdensity)</code> 또는 <code>library(tcltk)</code>
@@ -1297,8 +1298,8 @@ ActiveTcl(<a href="http://www.activestate.com/Products/activetcl/">http://www.ac
 </p>
 
 <hr>
-<a name="HTML-_00eb_0082_00b4_00ec_009d_0098-_00ed_0095_0098_00ec_009d_00b4_00ed_008d_00bc_00eb_00a7_0081_00ed_0081_00ac_00ea_00b0_0080-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="HTML-e_0027i-ii_0027i1_002f4eSSi_0021e_00b0-ieiiSS-iiuee_0024_003f_002e"></a>
+<a name="HTML-_b0b4_c758-_d558_c774_d37c_b9c1_d06c_ac00-_c791_b3d9_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="HTML-naeyi-haipeoringkeuga-jagdonghaji-anhseubnida_002e"></a>
 <h3 class="section">4.7 HTML 내의 하이퍼링크가 작동하지 않습니다.</h3>
 
 <p>이 질문은 2.10.0 이전의 버전에서 빈번하였습니다. 
@@ -1307,8 +1308,8 @@ ActiveTcl(<a href="http://www.activestate.com/Products/activetcl/">http://www.ac
 가능하도록 하는 것입니다!
 </p>
 <hr>
-<a name="update_002epackages_0028_0029_00ea_00b0_0080-_00ec_009e_0091_00eb_008f_0099_00eb_0090_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="update_002epackages_0028_0029e_00b0-ieeiSS-iiuee_0024_003f_002e"></a>
+<a name="update_002epackages_0028_0029_ac00-_c791_b3d9_b418_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="update_002epackages_0028_0029ga-jagdongdoeji-anhseubnida_002e"></a>
 <h3 class="section">4.8 <code>update.packages()</code>가 작동되지 않습니다.</h3>
 
 <p>사용 중인 패키지를 업데이트 할 수 없을 수 있습니다: 패키지의 DLL이 로드되었을 때 윈도우가 락(lock)을 합니다. 그러면 새로운
@@ -1323,8 +1324,8 @@ ActiveTcl(<a href="http://www.activestate.com/Products/activetcl/">http://www.ac
 </p>
 
 <hr>
-<a name="g_t_00ec-_0080_00ec_009e_00a5_00ec_0086_008c_00ec_009d_0098-_00eb_00aa_00a9_00eb_00a1_009d_00ec_0097_0090-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_00b6_0094_00ea_00b0_0080_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i-iY_003dii-e_00aa_00a9e_00a1i-i_0027e_00bbe2-iPe_00b0i-i-iei_003f"></a>
+<a name="g_t_c800_c7a5_c18c_c758-_baa9_b85d_c5d0-_c5b4_b5bb_ac8c-_cd94_ac00_d560-_c218-_c788_b098_c694_003f"></a>
+<a name="jeojangsoyi-mogroge-eoddeohge-cugahal-su-issnayo_003f"></a>
 <h3 class="section">4.9 저장소의 목록에 어떻게 추가할 수 있나요?</h3>
 
 <p><code>Packages</code>메뉴에 <code>Select repositories...</code> 항목과 같이 나타날 수 있나요? 
@@ -1333,15 +1334,15 @@ ActiveTcl(<a href="http://www.activestate.com/Products/activetcl/">http://www.ac
 <samp>R_HOME\etc\repositories</samp>로 부터 읽어옵니다. 
 </p>
 <hr>
-<a name="g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ec_009d_0098-_00eb_008f_0084_00ec_009b_0080_00eb_00a7_0090_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0022i_0024_003fiSSi-eieSSi_0027-e3_0027i_0027iSS-iiuee_0024_003f_002e"></a>
+<a name="g_t_d328_d0a4_c9c0_c758-_b3c4_c6c0_b9d0_c774-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="paekijiyi-doummali-boiji-anhseubnida_002e"></a>
 <h3 class="section">4.10 패키지의 도움말이 보이지 않습니다.</h3>
 
 <p>R 2.10.0 이후로는 지원되지 않는 컴파일된 HTML 도움말에 대한 것입니다.
 </p>
 <hr>
-<a name="g_t_00ec-_0095_00ec-_0081_00ec_009d_00b8_0028static_0029-HTML_00ed_008e_0098_00ec_009d_00b4_00ec_00a7_0080_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_0096_00bb_00ec_009d_0084-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i-i-i_002c_0028static_0029-HTMLii_0027iSSeY_003d1_002f4-i_0027e_00bbe2-i_00bbi-i-iei_003f"></a>
+<a name="g_t_c815_c801_c778_0028static_0029-HTML_d398_c774_c9c0_b97c-_c5b4_b5bb_ac8c-_c5bb_c744-_c218-_c788_b098_c694_003f"></a>
+<a name="jeongjeogin_0028static_0029-HTMLpeijireul-eoddeohge-eodeul-su-issnayo_003f"></a>
 <h3 class="section">4.11 정적인(static) HTML페이지를 어떻게 얻을 수 있나요?</h3>
 
 <p>당신이 특별한 목적을 위해서 이것을 하기 원한다고 추측합니다: R의 도움말 시스템은 그것들을 사용하도록 만들지 않을 것이며, 라이브러리
@@ -1368,8 +1369,8 @@ BUILD_HTML = NO
 <p>그러고 나면 R(디폴트에 의해)의 구축에 의해 설치된 모든 패키지가 정적인 HTML 페이지와 함께 설치할 것입니다. 
 </p>
 <hr>
-<a name="g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ec_009d_0098-_00eb_00b0_0094_00ec_009d_00b4_00eb_0084_0088_00eb_00a6_00ac-_00eb_00b2_0084_00ec-_0084_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_0096_00bb_00ec_009d_0084-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_0022i_0024_003fiSSi-e_00b0i_0027ee_007c_0021-e2i-i-i_0027e_00bbe2-i_00bbi-i-iei_003f"></a>
+<a name="g_t_d328_d0a4_c9c0_c758-_bc14_c774_b108_b9ac-_bc84_c804_c744-_c5b4_b5bb_ac8c-_c5bb_c744-_c218-_c788_b098_c694_003f"></a>
+<a name="paekijiyi-baineori-beojeoneul-eoddeohge-eodeul-su-issnayo_003f"></a>
 <h3 class="section">4.12 패키지의 바이너리 버전을 어떻게 얻을 수 있나요?</h3>
 
 <p>CRAN, BioC 또는 유사한 저장소에서도 이용 가능하지 않은 경우 
@@ -1388,8 +1389,8 @@ BUILD_HTML = NO
 바쁜 자원봉사자들로부터 도움을 요청하기 전에 스스로 시도해 보시기 바랍니다. 
 </p>
 <hr>
-<a name="g_t_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080-xxx_00ea_00b0_0080-_00ec_009c_0088_00eb_008f_0084_00ec_009a_00b0_00ec_0097_0090-_00eb_008c_0080_00ed_0095_00b4-_00ec_0098_0088_00ec-_0084-_00eb_00b2_0084_00ec-_0084_00ec_009e-_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0022i_0024_003fiSS-xxxe_00b0-iei_00b0i-ei_0027-ii--e2i-i-ee_0024_003f_002e"></a>
+<a name="g_t_d328_d0a4_c9c0-xxx_ac00-_c708_b3c4_c6b0_c5d0-_b300_d574-_c608_c804-_bc84_c804_c785_b2c8_b2e4_002e"></a>
+<a name="paekiji-xxxga-windoue-daehae-yejeon-beojeonibnida_002e"></a>
 <h3 class="section">4.13 패키지 xxx가 윈도우에 대해 예전 버전입니다.</h3>
 
 <p>세 가지 가능한 이유가 있습니다:
@@ -1407,8 +1408,8 @@ BUILD_HTML = NO
 설치를 시도할 수 있습니다. 
 </p>
 <hr>
-<a name="g_t_00ec_0082_00ac_00ec_009a_00a9-_00ec_00a4_0091_00ec_009d_00b8-R_00eb_00b2_0084_00ec-_0084_00ec_0097_0090_00ec_0084_009c-_00ec_0082_00ac_00ec_009a_00a9-_00ea_00b0_0080_00eb_008a_00a5_00ed_0095_009c-_00eb_00b0_0094_00ec_009d_00b4_00eb_0084_0088_00eb_00a6_00ac-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00ea_00b0_0080-_00eb_0082_0098_00ed_0083_0080_00eb_0082_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
-<a name="i_0021i_00a9-i_0024_003fi_002c-Re2i-ii-i_0021i_00a9-e_00b0eY_003di-e_00b0i_0027ee_007c_0021-i_0022i_0024_003fiSSe_00b0-eieiSS-iiuee_0024_003f_002e"></a>
+<a name="g_t_c0ac_c6a9-_c911_c778-R_bc84_c804_c5d0_c11c-_c0ac_c6a9-_ac00_b2a5_d55c-_bc14_c774_b108_b9ac-_d328_d0a4_c9c0_ac00-_b098_d0c0_b098_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
+<a name="sayong-jungin-Rbeojeoneseo-sayong-ganeunghan-baineori-paekijiga-natanaji-anhseubnida_002e"></a>
 <h3 class="section">4.14 사용 중인 R버전에서 사용 가능한 바이너리 패키지가 나타나지 않습니다.</h3>
 
 <p>얼마나 오래되었습니까? CRAN 정책은2.x 시리즈가 마감된 후 2년 동안에 바이너리 패키지를 보관하는 것입니다. 다른 저장소는 더 빨리
@@ -1419,8 +1420,8 @@ BUILD_HTML = NO
 </p>
 
 <hr>
-<a name="g_t32_00eb_00b9_0084_00ed_008a_00b8_00ec_0099_0080-64_00eb_00b9_0084_00ed_008a_00b8-R_00ec_0097_0090-_00eb_0082_00b4-_00ed_008c_00a8_00ed_0082_00a4_00ec_00a7_0080_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ea_00b5_00ac_00ec_00b6_0095_00ed_0095_00b4_00ec_0095_00bc-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="g_t32e1i_002ci-64e1i_002c-Ri-e_0027-i_0022i_0024_003fiSSeY_003d1_002f4-i_0027e_00bbe2-eu_0021iPi_0027i1_002f4-iei_003f"></a>
+<a name="g_t32_be44_d2b8_c640-64_be44_d2b8-R_c5d0-_b0b4-_d328_d0a4_c9c0_b97c-_c5b4_b5bb_ac8c-_ad6c_cd95_d574_c57c-_d558_b098_c694_003f"></a>
+<a name="g_t32biteuwa-64biteu-Re-nae-paekijireul-eoddeohge-gucughaeya-hanayo_003f"></a>
 <h3 class="section">4.15 32비트와 64비트 R에 내 패키지를 어떻게 구축해야 하나요?</h3>
 
 <p>컴파일 코드나 <samp>configure.win</samp> 스크립트 없는 패키지가 32비트와 64비트 R에서 실행될 것입니다.
@@ -1451,7 +1452,7 @@ INSTALL</code>로 하드코드된 architecture-independent <samp>configure.win</
 
 
 <hr>
-<a name="g_t_00ec_009c-_00eb_008b_0089_00ec_008a_00a4-_00eb_00b2_0084_00ec-_0084_00ea_00b3_00bc-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_00b4-_00eb_008b_00a4_00eb_00a5_00b4_00ea_00b2_008c-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
+<a name="g_t_c720_b2c9_c2a4-_bc84_c804_acfc-_bb34_c5c7_c774-_b2e4_b974_ac8c-_c791_b3d9_d558_b098_c694_003f"></a>
 <a name="What-should-I-expect-to-behave-differently-from-the-Unix-version-of-R_003f"></a>
 <h3 class="section">5.1 What should I expect to behave differently from the Unix version of R?</h3>
 
@@ -1474,7 +1475,7 @@ of <code>shell()</code>.
 
 
 <hr>
-<a name="g_t_00ec_009d_00bc_00eb_00b6_0080-_00ea_00b0_009c_00ec_0084-_00eb_0090_009c-_00ec_0082_00ac_00ed_0095_00ad_00eb_0093_00a4_00ec_0097_0090-_00eb_008c_0080_00ed_0095_0098_00ec_0097_00ac-_00eb_0093_00a4_00ec_0097_0088_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="g_t_c77c_bd80-_ac1c_c120_b41c-_c0ac_d56d_b4e4_c5d0-_b300_d558_c5ec-_b4e4_c5c8_c2b5_b2c8_b2e4_002e"></a>
 <a name="I-hear-about-some-nifty-features_003a-please-tell-me-about-them_0021"></a>
 <h3 class="section">5.2 I hear about some nifty features: please tell me about them!</h3>
 
@@ -1513,7 +1514,7 @@ from the <code>Edit</code> menu which can be used to edit the file
 </p>
 
 <hr>
-<a name="g_t_00ed_0099_0094_00eb_00a9_00b4_00ec_0083_0081_00ec_0097_0090_00ec_0084_009c-_00ec_009b_0090_00ec_009d_00b4-_00ed_0083_0080_00ec_009b_0090_00ea_00b3_00bc-_00ea_00b0_0099_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009e-_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="g_t_d654_ba74_c0c1_c5d0_c11c-_c6d0_c774-_d0c0_c6d0_acfc-_ac19_c774-_bcf4_c785_b2c8_b2e4_002e"></a>
 <a name="Circles-appear-as-ovals-on-screen_002e"></a>
 <h3 class="section">5.3 Circles appear as ovals on screen.</h3>
 
@@ -1533,8 +1534,8 @@ modes.  In fact it was a 21&quot; monitor and 400mm x 300mm!
 are not running at their native resolution.
 </p>
 <hr>
-<a name="g_t_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_008f_00ac_00ec_00bb_00a4_00ec_008a_00a4_00eb_00a5_00bc-_00ea_00b7_00b8_00eb_009e_0098_00ed_0094_00bd_00ec_00b0_00bd_00ec_0097_0090_00ec_0084_009c-_00ec_00bd_0098_00ec_0086_0094_00eb_00a1_009c-_00ec_0098_00ae_00ea_00b8_00b8-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_0027e_00bbe2-i_0021i_00bb_0024_003fi_0024_003feY_003d1_002f4-e_002a_002cei1_002f2i_00b01_002f2ii-i1_002f2ie_00a1-i_00aee_002c_002c-i-iei_003f"></a>
+<a name="g_t_c5b4_b5bb_ac8c-_d3ec_cee4_c2a4_b97c-_adf8_b798_d53d_cc3d_c5d0_c11c-_cf58_c194_b85c-_c62e_ae38-_c218-_c788_b098_c694_003f"></a>
+<a name="eoddeohge-pokeoseureul-geuraepigcangeseo-konsolro-olmgil-su-issnayo_003f"></a>
 <h3 class="section">5.4 어떻게 포커스를 그래픽창에서 콘솔로 옮길 수 있나요?</h3>
 
 <p>You may want to do this from within a function, for example when calling
@@ -1549,8 +1550,8 @@ act on it).
 </p>
 
 <hr>
-<a name="TAB-_00ec_0099_0084_00ec_0084_00b1_00ec_009d_00b4_00eb_009e_0080-_00eb_00ac_00b4_00ec_0097_0087_00ec_009d_00b8_00ea_00b0_0080_00ec_009a_0094_003f"></a>
-<a name="TAB-ii_002b_002di_0027e-e_0021_0027ii_002ce_00b0i_003f"></a>
+<a name="TAB-_c644_c131_c774_b780-_bb34_c5c7_c778_ac00_c694_003f"></a>
+<a name="TAB-wanseongiran-mueosingayo_003f"></a>
 <h3 class="section">5.5 TAB 완성이란 무엇인가요?</h3>
 
 <p>Both <code>Rgui</code> and <code>Rterm</code> support <kbd>TAB</kbd> completion.
@@ -1593,7 +1594,7 @@ Further, the behaviour can be fine-tuned: to see the settings available use
 
 
 <hr>
-<a name="g_t_00ec_009b_0090_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00eb_008a_0094-_00ec_009c_0084_00ec_00b9_0098_00ec_0097_0090-_00ec_009e_0091_00ec_0097-_00ea_00b3_00b5_00ea_00b0_0084_00ec_009d_00b4-_00ec-_0080_00ec_009e_00a5_00eb_0090_0098_00ec_0097_0088_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e-_00ec_009d_00b4_00ea_00b2_0083_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_00a9_0088_00ec_00b6_0094_00ec_0096_00b4_00ec_0095_00bc-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
+<a name="g_t_c6d0_d558_c9c0-_c54a_b294-_c704_ce58_c5d0-_c791_c5c5_acf5_ac04_c774-_c800_c7a5_b418_c5c8_c2b5_b2c8_b2e4_002e-_c774_ac83_c744-_c5b4_b5bb_ac8c-_ba48_cd94_c5b4_c57c-_d558_b098_c694_003f"></a>
 <a name="My-workspace-gets-saved-in-a-strange-place_003a-how-do-I-stop-this_003f"></a>
 <h3 class="section">6.1 My workspace gets saved in a strange place: how do I stop this?</h3>
 
@@ -1601,8 +1602,8 @@ Further, the behaviour can be fine-tuned: to see the settings available use
 </p>
 
 <hr>
-<a name="g_t_00ec_009e_0091_00ec_0097-_00ea_00b3_00b5_00ea_00b0_0084_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_008b_00a4_00eb_00a5_00b8-_00ec_009c_0084_00ec_00b9_0098_00ec_0097_0090-_00ec-_0080_00ec_009e_00a5_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="ii-e3ue_00b0i-i_0027e_00bbe2-e_0024_003feY_003d_002c-ii1i-i-iY_003diei_003f"></a>
+<a name="g_t_c791_c5c5_acf5_ac04_c744-_c5b4_b5bb_ac8c-_b2e4_b978-_c704_ce58_c5d0-_c800_c7a5_d558_b098_c694_003f"></a>
+<a name="jageobgongganeul-eoddeohge-dareun-wicie-jeojanghanayo_003f"></a>
 <h3 class="section">6.2 작업공간을 어떻게 다른 위치에 저장하나요?</h3>
 
 <p>Use the &lsquo;File | Change Dir...&rsquo; menu item to select a new working directory:
@@ -1615,7 +1616,7 @@ workspace from the &lsquo;Save Workspace...&rsquo; menu item.
 </p>
 
 <hr>
-<a name="Unix_002fGNU_002dLinux-_00eb_0098_0090_00eb_008a_0094-OS-X_00ec_0097_0090_00ec_0084_009c-_00ec-_0080_00ec_009e_00a5_00eb_0090_009c-_00ec_009e_0091_00ec_0097-_00ea_00b3_00b5_00ea_00b0_0084_00ec_009d_0084-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_00b6_0088_00eb_009f_00ac_00ec_0098_00ac-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
+<a name="Unix_002fGNU_002dLinux-_b610_b294-OS-X_c5d0_c11c-_c800_c7a5_b41c-_c791_c5c5_acf5_ac04_c744-_c5b4_b5bb_ac8c-_bd88_b7ec_c62c-_c218-_c788_b098_c694_003f"></a>
 <a name="Can-I-load-workspaces-saved-under-Unix_002fGNU_002dLinux-or-Mac-OS-X_003f"></a>
 <h3 class="section">6.3 Can I load workspaces saved under Unix/GNU-Linux or Mac OS X?</h3>
 
@@ -1660,7 +1661,7 @@ buffer and so update the console.
 </p>
 
 <hr>
-<a name="g_t_00ec_009e-_00eb-_00a5_00ec_009d_00b4-_00ea_00b8_00b4-_00eb_009d_00bc_00ec_009d_00b8_00ec_009d_00b4-_00ec_009e_0098_00eb-_00a4_00eb_0082_0098_00ea_00b0_0084-_00ea_00b2_0083-_00ea_00b0_0099_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="g_t_c785_b825_c774-_ae34-_b77c_c778_c774-_c798_b824_b098_ac04-_ac83-_ac19_c2b5_b2c8_b2e4_002e"></a>
 <a name="Long-lines-in-the-console-or-pager-are-truncated_002e"></a>
 <h3 class="section">7.2 Long lines in the console or pager are truncated.</h3>
 
@@ -1679,16 +1680,16 @@ or the <tt class="key">CTRL + left/right arrow</tt> keys to scroll horizontally.
 
 
 <hr>
-<a name="R_00ec_009d_0084-_00ec_0086_008c_00ec_008a_00a4_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="Ri-ii_0024_003fe_00a1ePi_00b0-i_0027e_00bbe2-i_00bb_0027ii1_002f4i-i-iei_003f"></a>
+<a name="R_c744-_c18c_c2a4_b85c_bd80_d130-_c5b4_b5bb_ac8c-_cef4_d30c_c77c_d560-_c218-_c788_b098_c694_003f"></a>
+<a name="Reul-soseurobuteo-eoddeohge-keompailhal-su-issnayo_003f"></a>
 <h3 class="section">8.1 R을 소스로부터 어떻게 컴파일할 수 있나요?</h3>
 
 <p>See the &lsquo;R Installation and Administration&rsquo; manual (for the version of R you
 want to install).
 </p>
 <hr>
-<a name="fast-BLAS_00eb_00a5_00bc-_00ec_0082_00ac_00ec_009a_00a9_00ed_0095-_00ec_0088_0098-_00ec_009e_0088_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="fast-BLASeY_003d1_002f4-i_0021i_00a9i-i-iei_003f"></a>
+<a name="fast-BLAS_b97c-_c0ac_c6a9_d560-_c218-_c788_b098_c694_003f"></a>
+<a name="fast-BLASreul-sayonghal-su-issnayo_003f"></a>
 <h3 class="section">8.2 fast BLAS를 사용할 수 있나요?</h3>
 
 <p>Fast BLAS (Basic Linear Algebra Subprograms,
@@ -1723,8 +1724,8 @@ so you will not find versions for recent CPUs.)
 less accurate) results than the reference BLAS included in R.
 </p>
 <hr>
-<a name="g_t_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00eb_0090_009c-C-_00ec_00bd_0094_00eb_0093_009c_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_008f_00ac_00ed_0095_00a8_00ec_008b_009c_00ed_0082_00a4_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_00bb_0027ii1_002f4e-C-i1_002f2eeY_003d1_002f4-i_0027e_00bbe2-i_0021i_0022ii_0024_003fei_003f"></a>
+<a name="g_t_cef4_d30c_c77c_b41c-C-_cf54_b4dc_b97c-_c5b4_b5bb_ac8c-_d3ec_d568_c2dc_d0a4_b098_c694_003f"></a>
+<a name="keompaildoen-C-kodeureul-eoddeohge-pohamsikinayo_003f"></a>
 <h3 class="section">8.3 컴파일된 C 코드를 어떻게 포함시키나요?</h3>
 
 <p>We strongly encourage you to do this <em>via</em> building an R package: see
@@ -1744,8 +1745,8 @@ appropriate section in <samp>README.packages</samp>.
 
 
 <hr>
-<a name="g_t_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00eb_0090_0098_00ea_00b3-dyn_002eload_00eb_0090_009c-_00ec_00bd_0094_00eb_0093_009c_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00eb_0094_0094_00eb_00b2_0084_00ea_00b7_00b8-_00ed_0095_0098_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="i_00bb_0027ii1_002f4ee3-dyn_002eloade-i1_002f2eeY_003d1_002f4-i_0027e_00bbe2-ee2e_002a_002c-iei_003f"></a>
+<a name="g_t_cef4_d30c_c77c_b418_ace0-dyn_002eload_b41c-_cf54_b4dc_b97c-_c5b4_b5bb_ac8c-_b514_bc84_adf8-_d558_b098_c694_003f"></a>
+<a name="keompaildoego-dyn_002eloaddoen-kodeureul-eoddeohge-dibeogeu-hanayo_003f"></a>
 <h3 class="section">8.4 컴파일되고 dyn.load된 코드를 어떻게 디버그 하나요?</h3>
 
 <p>Debugging under Windows is often a fraught process, and sometimes does not
@@ -1825,8 +1826,8 @@ for some further details.
 </p>
 
 <hr>
-<a name="C_002b_002b-_00ec_00bd_0094_00eb_0093_009c_00eb_00a5_00bc-_00ec_0096_00b4_00eb_0096_00bb_00ea_00b2_008c-_00ed_008f_00ac_00ed_0095_00a8_00ec_008b_009c_00ed_0082_00a4_00eb_0082_0098_00ec_009a_0094_003f"></a>
-<a name="C_002b_002b-i1_002f2eeY_003d1_002f4-i_0027e_00bbe2-i_0021i_0022ii_0024_003fei_003f"></a>
+<a name="C_002b_002b-_cf54_b4dc_b97c-_c5b4_b5bb_ac8c-_d3ec_d568_c2dc_d0a4_b098_c694_003f"></a>
+<a name="C_002b_002b-kodeureul-eoddeohge-pohamsikinayo_003f"></a>
 <h3 class="section">8.5 C++ 코드를 어떻게 포함시키나요?</h3>
 
 <p>You need to do two things:
@@ -1859,7 +1860,7 @@ console: see the next section.
 </p>
 
 <hr>
-<a name="C-_00ec_00bd_0094_00eb_0093_009c_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_0096_00bb_00ec_0096_00b4_00ec_00a7_0084-_00ec_00b6_009c_00eb-_00a5_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="C-_cf54_b4dc_b85c_bd80_d130-_c5bb_c5b4_c9c4-_cd9c_b825_c774-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
 <a name="The-output-from-my-C-code-disappears_002e-Why_003f"></a>
 <h3 class="section">8.6 The output from my C code disappears.  Why?</h3>
 
@@ -1874,7 +1875,7 @@ before returning to the R prompt.
 </p>
 
 <hr>
-<a name="Fortran-_00ec_00bd_0094_00eb_0093_009c_00eb_00a1_009c_00eb_00b6_0080_00ed_0084_00b0-_00ec_0096_00bb_00ec_0096_00b4_00ec_00a7_0084-_00ec_00b6_009c_00eb-_00a5_00ec_009d_00b4-_00eb_00b3_00b4_00ec_009d_00b4_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="Fortran-_cf54_b4dc_b85c_bd80_d130-_c5bb_c5b4_c9c4-_cd9c_b825_c774-_bcf4_c774_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
 <a name="The-output-from-my-Fortran-code-disappears_002e-Why_003f"></a>
 <h3 class="section">8.7 The output from my Fortran code disappears.  Why?</h3>
 
@@ -1888,7 +1889,7 @@ subroutines.
 </p>
 
 <hr>
-<a name="g_t_00ec_00bb_00b4_00ed_008c_008c_00ec_009d_00bc_00eb_0090_009c-_00ec_00bd_0094_00eb_0093_009c_00ea_00b0_0080-_00ec_008b_00a4_00ed_0096_0089_00ec_00a4_0091_00ec_009d_00bc-_00eb_0095_008c-_00ec_00bd_0098_00ec_0086_0094_00ec_009d_00b4-_00ec_009e_0091_00eb_008f_0099_00ed_0095_0098_00ec_00a7_0080-_00ec_0095_008a_00ec_008a_00b5_00eb_008b_0088_00eb_008b_00a4_002e"></a>
+<a name="g_t_cef4_d30c_c77c_b41c-_cf54_b4dc_ac00-_c2e4_d589_c911_c77c-_b54c-_cf58_c194_c774-_c791_b3d9_d558_c9c0-_c54a_c2b5_b2c8_b2e4_002e"></a>
 <a name="The-console-freezes-when-my-compiled-code-is-running_002e"></a>
 <h3 class="section">8.8 The console freezes when my compiled code is running.</h3>
 
