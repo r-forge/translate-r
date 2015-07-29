@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-07-28 22:51-0600\n"
-"PO-Revision-Date: 2015-07-28 15:23+0200\n"
+"PO-Revision-Date: 2015-07-29 09:48+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl_PL\n"
@@ -21,9 +21,7 @@ msgstr ""
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: top
-#: R-admin.texi:4
-#: R-admin.texi:32
-#: R-admin.texi:50
+#: R-admin.texi:4 R-admin.texi:32 R-admin.texi:50
 #, no-wrap
 msgid "R Installation and Administration"
 msgstr "Instalacja oraz Administracja R"
@@ -32,12 +30,12 @@ msgstr "Instalacja oraz Administracja R"
 #: R-admin.texi:11
 #, no-wrap
 msgid "Programming"
-msgstr ""
+msgstr "Programming"
 
 #. type: menuentry
 #: R-admin.texi:14
 msgid "R Administration: (R-admin)"
-msgstr ""
+msgstr "R Administration: (R-admin)"
 
 #. type: menuentry
 #: R-admin.texi:14
@@ -48,34 +46,34 @@ msgstr "Instalacja oraz Administracja R."
 #: R-admin.texi:18
 #, no-wrap
 msgid "R-defs.texi"
-msgstr ""
+msgstr "R-defs.texi"
 
 #. type: include
 #: R-admin.texi:19
 #, no-wrap
 msgid "version.texi"
-msgstr ""
+msgstr "version.texi"
 
 #. type: copying
 #: R-admin.texi:23
 msgid "This manual is for R, version @value{VERSION}."
-msgstr ""
+msgstr "Niniejszy podręcznik przeznaczony jest dla R w wersji @value{VERSION}."
 
 #. type: copying
 #: R-admin.texi:25
 msgid "@Rcopyright{2001}"
-msgstr ""
+msgstr "@Rcopyright{2001}"
 
 #. type: quotation
 #: R-admin.texi:28
 msgid "@permission{}"
-msgstr ""
+msgstr "@permission{}"
 
 #. type: subtitle
 #: R-admin.texi:33
 #, no-wrap
 msgid "Version @value{VERSION}"
-msgstr ""
+msgstr "Wersja @value{VERSION}"
 
 #. type: author
 #: R-admin.texi:34
@@ -84,36 +82,18 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:49
-#: R-admin.texi:77
-#: R-admin.texi:223
-#: R-admin.texi:1035
-#: R-admin.texi:1605
-#: R-admin.texi:1770
-#: R-admin.texi:1819
-#: R-admin.texi:2446
-#: R-admin.texi:2672
-#: R-admin.texi:2748
-#: R-admin.texi:2961
-#: R-admin.texi:3782
-#: R-admin.texi:4265
-#: R-admin.texi:5502
-#: R-admin.texi:5749
-#: R-admin.texi:5754
+#: R-admin.texi:49 R-admin.texi:77 R-admin.texi:223 R-admin.texi:1035
+#: R-admin.texi:1605 R-admin.texi:1770 R-admin.texi:1819 R-admin.texi:2446
+#: R-admin.texi:2672 R-admin.texi:2748 R-admin.texi:2961 R-admin.texi:3782
+#: R-admin.texi:4265 R-admin.texi:5502 R-admin.texi:5749 R-admin.texi:5754
 #: R-admin.texi:5759
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:49
-#: R-admin.texi:75
-#: R-admin.texi:77
-#: R-admin.texi:78
-#: R-admin.texi:79
-#: R-admin.texi:90
-#: R-admin.texi:139
-#: R-admin.texi:223
+#: R-admin.texi:49 R-admin.texi:75 R-admin.texi:77 R-admin.texi:78
+#: R-admin.texi:79 R-admin.texi:90 R-admin.texi:139 R-admin.texi:223
 #, no-wrap
 msgid "Obtaining R"
 msgstr "Pozyskiwanie R"
@@ -122,206 +102,121 @@ msgstr "Pozyskiwanie R"
 #: R-admin.texi:49
 #, no-wrap
 msgid "(dir)"
-msgstr ""
+msgstr "(dir)"
 
 #. type: ifnottex
 #: R-admin.texi:53
 msgid "This is a guide to installation and administration for R."
-msgstr ""
+msgstr "To jest przewodnik dotyczący instalacji oraz administrowania R."
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:77
-#: R-admin.texi:223
-#: R-admin.texi:224
-#: R-admin.texi:265
-#: R-admin.texi:397
-#: R-admin.texi:422
-#: R-admin.texi:579
-#: R-admin.texi:757
-#: R-admin.texi:784
-#: R-admin.texi:913
-#: R-admin.texi:940
+#: R-admin.texi:75 R-admin.texi:77 R-admin.texi:223 R-admin.texi:224
+#: R-admin.texi:265 R-admin.texi:397 R-admin.texi:422 R-admin.texi:579
+#: R-admin.texi:757 R-admin.texi:784 R-admin.texi:913 R-admin.texi:940
 #: R-admin.texi:1035
 #, no-wrap
 msgid "Installing R under Unix-alikes"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:223
-#: R-admin.texi:1035
-#: R-admin.texi:1036
-#: R-admin.texi:1065
-#: R-admin.texi:1572
-#: R-admin.texi:1605
+#: R-admin.texi:75 R-admin.texi:223 R-admin.texi:1035 R-admin.texi:1036
+#: R-admin.texi:1065 R-admin.texi:1572 R-admin.texi:1605
 #, no-wrap
 msgid "Installing R under Windows"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:1035
-#: R-admin.texi:1605
-#: R-admin.texi:1606
-#: R-admin.texi:1652
-#: R-admin.texi:1705
-#: R-admin.texi:1743
-#: R-admin.texi:1770
+#: R-admin.texi:75 R-admin.texi:1035 R-admin.texi:1605 R-admin.texi:1606
+#: R-admin.texi:1652 R-admin.texi:1705 R-admin.texi:1743 R-admin.texi:1770
 #, no-wrap
 msgid "Installing R under OS X"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:1605
-#: R-admin.texi:1770
-#: R-admin.texi:1771
+#: R-admin.texi:75 R-admin.texi:1605 R-admin.texi:1770 R-admin.texi:1771
 #: R-admin.texi:1819
 #, no-wrap
 msgid "Running R"
 msgstr "Uruchamianie R"
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:1770
-#: R-admin.texi:1819
-#: R-admin.texi:1820
-#: R-admin.texi:1842
-#: R-admin.texi:1868
-#: R-admin.texi:1910
-#: R-admin.texi:2262
-#: R-admin.texi:2296
-#: R-admin.texi:2319
-#: R-admin.texi:2389
-#: R-admin.texi:2446
+#: R-admin.texi:75 R-admin.texi:1770 R-admin.texi:1819 R-admin.texi:1820
+#: R-admin.texi:1842 R-admin.texi:1868 R-admin.texi:1910 R-admin.texi:2262
+#: R-admin.texi:2296 R-admin.texi:2319 R-admin.texi:2389 R-admin.texi:2446
 #, no-wrap
 msgid "Add-on packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:1819
-#: R-admin.texi:2446
-#: R-admin.texi:2448
-#: R-admin.texi:2479
-#: R-admin.texi:2579
-#: R-admin.texi:2672
+#: R-admin.texi:75 R-admin.texi:1819 R-admin.texi:2446 R-admin.texi:2448
+#: R-admin.texi:2479 R-admin.texi:2579 R-admin.texi:2672
 #, no-wrap
 msgid "Internationalization"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:2446
-#: R-admin.texi:2672
-#: R-admin.texi:2673
+#: R-admin.texi:75 R-admin.texi:2446 R-admin.texi:2672 R-admin.texi:2673
 #: R-admin.texi:2748
 #, no-wrap
 msgid "Choosing between 32- and 64-bit builds"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:2672
-#: R-admin.texi:2748
-#: R-admin.texi:2749
-#: R-admin.texi:2823
-#: R-admin.texi:2884
-#: R-admin.texi:2961
+#: R-admin.texi:75 R-admin.texi:2672 R-admin.texi:2748 R-admin.texi:2749
+#: R-admin.texi:2823 R-admin.texi:2884 R-admin.texi:2961
 #, no-wrap
 msgid "The standalone Rmath library"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:2748
-#: R-admin.texi:2961
-#: R-admin.texi:2962
-#: R-admin.texi:2980
-#: R-admin.texi:3117
-#: R-admin.texi:3352
-#: R-admin.texi:3782
+#: R-admin.texi:75 R-admin.texi:2748 R-admin.texi:2961 R-admin.texi:2962
+#: R-admin.texi:2980 R-admin.texi:3117 R-admin.texi:3352 R-admin.texi:3782
 #, no-wrap
 msgid "Essential and useful other programs under a Unix-alike"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:2961
-#: R-admin.texi:3782
-#: R-admin.texi:3783
-#: R-admin.texi:3796
-#: R-admin.texi:3869
-#: R-admin.texi:3886
-#: R-admin.texi:4006
-#: R-admin.texi:4016
-#: R-admin.texi:4041
-#: R-admin.texi:4145
-#: R-admin.texi:4226
+#: R-admin.texi:75 R-admin.texi:2961 R-admin.texi:3782 R-admin.texi:3783
+#: R-admin.texi:3796 R-admin.texi:3869 R-admin.texi:3886 R-admin.texi:4006
+#: R-admin.texi:4016 R-admin.texi:4041 R-admin.texi:4145 R-admin.texi:4226
 #: R-admin.texi:4265
 #, no-wrap
 msgid "Configuration on a Unix-alike"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:3782
-#: R-admin.texi:4265
-#: R-admin.texi:4266
-#: R-admin.texi:4308
-#: R-admin.texi:4396
-#: R-admin.texi:4601
-#: R-admin.texi:4945
-#: R-admin.texi:5232
-#: R-admin.texi:5379
-#: R-admin.texi:5385
-#: R-admin.texi:5440
+#: R-admin.texi:75 R-admin.texi:3782 R-admin.texi:4265 R-admin.texi:4266
+#: R-admin.texi:4308 R-admin.texi:4396 R-admin.texi:4601 R-admin.texi:4945
+#: R-admin.texi:5232 R-admin.texi:5379 R-admin.texi:5385 R-admin.texi:5440
 #: R-admin.texi:5502
 #, no-wrap
 msgid "Platform notes"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:4265
-#: R-admin.texi:5502
-#: R-admin.texi:5503
-#: R-admin.texi:5595
-#: R-admin.texi:5626
-#: R-admin.texi:5638
-#: R-admin.texi:5695
-#: R-admin.texi:5730
-#: R-admin.texi:5749
+#: R-admin.texi:75 R-admin.texi:4265 R-admin.texi:5502 R-admin.texi:5503
+#: R-admin.texi:5595 R-admin.texi:5626 R-admin.texi:5638 R-admin.texi:5695
+#: R-admin.texi:5730 R-admin.texi:5749
 #, no-wrap
 msgid "The Windows toolset"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:5502
-#: R-admin.texi:5749
-#: R-admin.texi:5750
+#: R-admin.texi:75 R-admin.texi:5502 R-admin.texi:5749 R-admin.texi:5750
 #: R-admin.texi:5754
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:75
-#: R-admin.texi:5749
-#: R-admin.texi:5754
-#: R-admin.texi:5755
+#: R-admin.texi:75 R-admin.texi:5749 R-admin.texi:5754 R-admin.texi:5755
 #: R-admin.texi:5759
 #, no-wrap
 msgid "Concept index"
 msgstr ""
 
 #. type: unnumbered
-#: R-admin.texi:75
-#: R-admin.texi:5754
-#: R-admin.texi:5759
-#: R-admin.texi:5760
+#: R-admin.texi:75 R-admin.texi:5754 R-admin.texi:5759 R-admin.texi:5760
 #, no-wrap
 msgid "Environment variable index"
 msgstr ""
@@ -332,19 +227,13 @@ msgid "Sources, binaries and documentation for @R{} can be obtained via @acronym
 msgstr ""
 
 #. type: node
-#: R-admin.texi:88
-#: R-admin.texi:90
-#: R-admin.texi:91
-#: R-admin.texi:139
+#: R-admin.texi:88 R-admin.texi:90 R-admin.texi:91 R-admin.texi:139
 #, no-wrap
 msgid "Getting and unpacking the sources"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:88
-#: R-admin.texi:90
-#: R-admin.texi:139
-#: R-admin.texi:140
+#: R-admin.texi:88 R-admin.texi:90 R-admin.texi:139 R-admin.texi:140
 #: R-admin.texi:160
 #, no-wrap
 msgid "Getting patched and development versions"
@@ -405,8 +294,7 @@ msgid "and perhaps also include the option @option{--no-same-permissions}."
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:132
-#: R-admin.texi:1149
+#: R-admin.texi:132 R-admin.texi:1149
 #, no-wrap
 msgid "TAR_OPTIONS"
 msgstr ""
@@ -427,16 +315,13 @@ msgid "The tarballs are available from @uref{ftp://ftp.stat.math.ethz.ch/@/pub/@
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:158
-#: R-admin.texi:160
-#: R-admin.texi:161
+#: R-admin.texi:158 R-admin.texi:160 R-admin.texi:161
 #, no-wrap
 msgid "Using Subversion and rsync"
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:162
-#: R-admin.texi:3087
+#: R-admin.texi:162 R-admin.texi:3087
 #, no-wrap
 msgid "Subversion"
 msgstr ""
@@ -501,35 +386,18 @@ msgid "@R{} will configure and build under most common Unix and Unix-alike platf
 msgstr ""
 
 #. type: node
-#: R-admin.texi:244
-#: R-admin.texi:4306
-#: R-admin.texi:4308
-#: R-admin.texi:4396
-#: R-admin.texi:4397
-#: R-admin.texi:4398
-#: R-admin.texi:4506
-#: R-admin.texi:4524
-#: R-admin.texi:4562
-#: R-admin.texi:4601
+#: R-admin.texi:244 R-admin.texi:4306 R-admin.texi:4308 R-admin.texi:4396
+#: R-admin.texi:4397 R-admin.texi:4398 R-admin.texi:4506 R-admin.texi:4524
+#: R-admin.texi:4562 R-admin.texi:4601
 #, no-wrap
 msgid "Linux"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:245
-#: R-admin.texi:1607
-#: R-admin.texi:2093
-#: R-admin.texi:4306
-#: R-admin.texi:4396
-#: R-admin.texi:4601
-#: R-admin.texi:4602
-#: R-admin.texi:4603
-#: R-admin.texi:4723
-#: R-admin.texi:4783
-#: R-admin.texi:4825
-#: R-admin.texi:4887
-#: R-admin.texi:4917
-#: R-admin.texi:4945
+#: R-admin.texi:245 R-admin.texi:1607 R-admin.texi:2093 R-admin.texi:4306
+#: R-admin.texi:4396 R-admin.texi:4601 R-admin.texi:4602 R-admin.texi:4603
+#: R-admin.texi:4723 R-admin.texi:4783 R-admin.texi:4825 R-admin.texi:4887
+#: R-admin.texi:4917 R-admin.texi:4945
 #, no-wrap
 msgid "OS X"
 msgstr ""
@@ -545,80 +413,55 @@ msgid "Cross-building is not possible: installing @R{} builds a minimal version 
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:265
-#: R-admin.texi:266
-#: R-admin.texi:397
+#: R-admin.texi:263 R-admin.texi:265 R-admin.texi:266 R-admin.texi:397
 #, no-wrap
 msgid "Simple compilation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:265
-#: R-admin.texi:397
-#: R-admin.texi:398
+#: R-admin.texi:263 R-admin.texi:265 R-admin.texi:397 R-admin.texi:398
 #: R-admin.texi:422
 #, no-wrap
 msgid "Help options"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:397
-#: R-admin.texi:422
-#: R-admin.texi:423
+#: R-admin.texi:263 R-admin.texi:397 R-admin.texi:422 R-admin.texi:423
 #: R-admin.texi:579
 #, no-wrap
 msgid "Making the manuals"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:422
-#: R-admin.texi:579
-#: R-admin.texi:580
-#: R-admin.texi:581
-#: R-admin.texi:757
+#: R-admin.texi:263 R-admin.texi:422 R-admin.texi:579 R-admin.texi:580
+#: R-admin.texi:581 R-admin.texi:757
 #, no-wrap
 msgid "Installation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:579
-#: R-admin.texi:757
-#: R-admin.texi:758
+#: R-admin.texi:263 R-admin.texi:579 R-admin.texi:757 R-admin.texi:758
 #: R-admin.texi:784
 #, no-wrap
 msgid "Uninstallation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:757
-#: R-admin.texi:784
-#: R-admin.texi:785
-#: R-admin.texi:867
-#: R-admin.texi:913
+#: R-admin.texi:263 R-admin.texi:757 R-admin.texi:784 R-admin.texi:785
+#: R-admin.texi:867 R-admin.texi:913
 #, no-wrap
 msgid "Sub-architectures"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:784
-#: R-admin.texi:913
-#: R-admin.texi:914
+#: R-admin.texi:263 R-admin.texi:784 R-admin.texi:913 R-admin.texi:914
 #: R-admin.texi:940
 #, no-wrap
 msgid "Other Options"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:263
-#: R-admin.texi:913
-#: R-admin.texi:940
+#: R-admin.texi:263 R-admin.texi:913 R-admin.texi:940
 #, no-wrap
 msgid "Testing a Unix-alike Installation"
 msgstr ""
@@ -629,10 +472,7 @@ msgid "First review the essential and useful tools and libraries in @ref{Essenti
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:271
-#: R-admin.texi:1221
-#: R-admin.texi:1797
-#: R-admin.texi:1810
+#: R-admin.texi:271 R-admin.texi:1221 R-admin.texi:1797 R-admin.texi:1810
 #: R-admin.texi:1938
 #, no-wrap
 msgid "TMPDIR"
@@ -647,7 +487,7 @@ msgstr ""
 #: R-admin.texi:280
 #, no-wrap
 msgid "R_HOME"
-msgstr ""
+msgstr "R_HOME"
 
 #. type: Plain text
 #: R-admin.texi:288
@@ -655,12 +495,8 @@ msgid "Choose a directory to install the @R{} tree (@R{} is not just a binary, b
 msgstr ""
 
 #. type: findex
-#: R-admin.texi:289
-#: R-admin.texi:355
-#: R-admin.texi:589
-#: R-admin.texi:629
-#: R-admin.texi:3889
-#: R-admin.texi:4036
+#: R-admin.texi:289 R-admin.texi:355 R-admin.texi:589 R-admin.texi:629
+#: R-admin.texi:3889 R-admin.texi:4036
 #, no-wrap
 msgid "configure"
 msgstr ""
@@ -696,8 +532,7 @@ msgid "Then check the built system works correctly by"
 msgstr ""
 
 #. type: example
-#: R-admin.texi:311
-#: R-admin.texi:1336
+#: R-admin.texi:311 R-admin.texi:1336
 #, no-wrap
 msgid "make check\n"
 msgstr "make check\n"
@@ -713,22 +548,18 @@ msgid "More comprehensive testing can be done by"
 msgstr ""
 
 #. type: example
-#: R-admin.texi:326
-#: R-admin.texi:1350
+#: R-admin.texi:326 R-admin.texi:1350
 #, no-wrap
 msgid "make check-devel\n"
 msgstr "make check-devel\n"
 
 #. type: Plain text
-#: R-admin.texi:330
-#: R-admin.texi:555
-#: R-admin.texi:4795
+#: R-admin.texi:330 R-admin.texi:555 R-admin.texi:4795
 msgid "or"
 msgstr "lub"
 
 #. type: example
-#: R-admin.texi:333
-#: R-admin.texi:1357
+#: R-admin.texi:333 R-admin.texi:1357
 #, no-wrap
 msgid "make check-all\n"
 msgstr "make check-all\n"
@@ -791,7 +622,7 @@ msgstr ""
 #: R-admin.texi:414
 #, no-wrap
 msgid "R_DISABLE_HTTPD"
-msgstr ""
+msgstr "R_DISABLE_HTTPD"
 
 #. type: Plain text
 #: R-admin.texi:421
@@ -813,7 +644,7 @@ msgstr ""
 #: R-admin.texi:429
 #, no-wrap
 msgid "fullrefman"
-msgstr ""
+msgstr "fullrefman"
 
 #. type: table
 #: R-admin.texi:432
@@ -824,7 +655,7 @@ msgstr ""
 #: R-admin.texi:432
 #, no-wrap
 msgid "refman"
-msgstr ""
+msgstr "refman"
 
 #. type: table
 #: R-admin.texi:435
@@ -840,7 +671,7 @@ msgstr ""
 #. type: table
 #: R-admin.texi:437
 msgid "R @acronym{FAQ}"
-msgstr ""
+msgstr "R @acronym{FAQ}"
 
 #. type: item
 #: R-admin.texi:437
@@ -921,13 +752,10 @@ msgid "The PDF versions can be viewed using any recent PDF viewer: they have hyp
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:474
-#: R-admin.texi:1787
-#: R-admin.texi:3941
-#: R-admin.texi:4002
+#: R-admin.texi:474 R-admin.texi:1787 R-admin.texi:3941 R-admin.texi:4002
 #, no-wrap
 msgid "R_PAPERSIZE"
-msgstr ""
+msgstr "R_PAPERSIZE"
 
 #. type: Plain text
 #: R-admin.texi:480
@@ -943,7 +771,7 @@ msgstr ""
 #: R-admin.texi:488
 #, no-wrap
 msgid "times"
-msgstr ""
+msgstr "times"
 
 #. type: table
 #: R-admin.texi:501
@@ -964,7 +792,7 @@ msgstr ""
 #: R-admin.texi:509
 #, no-wrap
 msgid "lm"
-msgstr ""
+msgstr "lm"
 
 #. type: table
 #: R-admin.texi:515
@@ -975,7 +803,7 @@ msgstr ""
 #: R-admin.texi:516
 #, no-wrap
 msgid "cm-super"
-msgstr ""
+msgstr "cm-super"
 
 #. type: table
 #: R-admin.texi:522
@@ -986,7 +814,7 @@ msgstr ""
 #: R-admin.texi:523
 #, no-wrap
 msgid "ae"
-msgstr ""
+msgstr "ae"
 
 #. type: table
 #: R-admin.texi:531
@@ -999,12 +827,10 @@ msgid "The default can be overridden by setting the environment variable"
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:534
-#: R-admin.texi:4001
-#: R-admin.texi:5620
+#: R-admin.texi:534 R-admin.texi:4001 R-admin.texi:5620
 #, no-wrap
 msgid "R_RD4PDF"
-msgstr ""
+msgstr "R_RD4PDF"
 
 #. type: Plain text
 #: R-admin.texi:544
@@ -1020,13 +846,13 @@ msgstr ""
 #: R-admin.texi:551
 #, no-wrap
 msgid "\\ifthenelse@{\\boolean@{Rd@@use@@hyper@}@}@{\\hypersetup@{linktoc=section@}@}@{@}\n"
-msgstr ""
+msgstr "\\ifthenelse@{\\boolean@{Rd@@use@@hyper@}@}@{\\hypersetup@{linktoc=section@}@}@{@}\n"
 
 #. type: example
 #: R-admin.texi:557
 #, no-wrap
 msgid "\\ifthenelse@{\\boolean@{Rd@@use@@hyper@}@}@{\\hypersetup@{linktoc=all@}@}@{@}\n"
-msgstr ""
+msgstr "\\ifthenelse@{\\boolean@{Rd@@use@@hyper@}@}@{\\hypersetup@{linktoc=all@}@}@{@}\n"
 
 #. type: Plain text
 #: R-admin.texi:562
@@ -1070,6 +896,9 @@ msgid ""
 "make\n"
 "make check\n"
 msgstr ""
+"./configure\n"
+"make\n"
+"make check\n"
 
 #. type: Plain text
 #: R-admin.texi:601
@@ -1080,7 +909,7 @@ msgstr ""
 #: R-admin.texi:604
 #, no-wrap
 msgid "make install\n"
-msgstr ""
+msgstr "make install\n"
 
 #. type: Plain text
 #: R-admin.texi:610
@@ -1096,7 +925,7 @@ msgstr ""
 #: R-admin.texi:614
 #, no-wrap
 msgid "@file{@var{prefix}/bin} or @file{@var{bindir}}"
-msgstr ""
+msgstr "@file{@var{prefix}/bin} lub @file{@var{bindir}}"
 
 #. type: table
 #: R-admin.texi:616
@@ -1107,7 +936,7 @@ msgstr ""
 #: R-admin.texi:616
 #, no-wrap
 msgid "@file{@var{prefix}/man/man1} or @file{@var{mandir}/man1}"
-msgstr ""
+msgstr "@file{@var{prefix}/man/man1} lub @file{@var{mandir}/man1}"
 
 #. type: table
 #: R-admin.texi:618
@@ -1134,7 +963,7 @@ msgstr ""
 #: R-admin.texi:632
 #, no-wrap
 msgid "./configure --prefix=/where/you/want/R/to/go\n"
-msgstr ""
+msgstr "./configure --prefix=/where/you/want/R/to/go\n"
 
 #. type: Plain text
 #: R-admin.texi:641
@@ -1150,7 +979,7 @@ msgstr ""
 #: R-admin.texi:646
 #, no-wrap
 msgid "make prefix=/path/to/here install\n"
-msgstr ""
+msgstr "make prefix=/path/to/here install\n"
 
 #. type: Plain text
 #: R-admin.texi:651
@@ -1207,7 +1036,7 @@ msgstr ""
 #: R-admin.texi:694
 #, no-wrap
 msgid "make prefix=/path/to/here install-libR\n"
-msgstr ""
+msgstr "make prefix=/path/to/here install-libR\n"
 
 #. type: Plain text
 #: R-admin.texi:704
@@ -1218,7 +1047,7 @@ msgstr ""
 #: R-admin.texi:707
 #, no-wrap
 msgid "make install-strip\n"
-msgstr ""
+msgstr "make install-strip\n"
 
 #. type: Plain text
 #: R-admin.texi:713
@@ -1265,11 +1094,10 @@ msgid "A staged installation is possible, that it is installing @R{} into a temp
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:742
-#: R-admin.texi:2866
+#: R-admin.texi:742 R-admin.texi:2866
 #, no-wrap
 msgid "DESTDIR"
-msgstr ""
+msgstr "DESTDIR"
 
 #. type: Plain text
 #: R-admin.texi:745
@@ -1282,15 +1110,13 @@ msgid "You can optionally install the run-time tests that are part of @command{m
 msgstr ""
 
 #. type: example
-#: R-admin.texi:751
-#: R-admin.texi:947
+#: R-admin.texi:751 R-admin.texi:947
 #, no-wrap
 msgid "make install-tests\n"
-msgstr ""
+msgstr "make install-tests\n"
 
 #. type: Plain text
-#: R-admin.texi:755
-#: R-admin.texi:951
+#: R-admin.texi:755 R-admin.texi:951
 msgid "which populates a @file{tests} directory in the installation."
 msgstr ""
 
@@ -1303,7 +1129,7 @@ msgstr ""
 #: R-admin.texi:764
 #, no-wrap
 msgid "make uninstall\n"
-msgstr ""
+msgstr "make uninstall\n"
 
 #. type: Plain text
 #: R-admin.texi:769
@@ -1350,7 +1176,7 @@ msgstr ""
 #: R-admin.texi:809
 #, no-wrap
 msgid "R --arch=@var{name}\n"
-msgstr ""
+msgstr "R --arch=@var{name}\n"
 
 #. type: Plain text
 #: R-admin.texi:813
@@ -1379,11 +1205,10 @@ msgid "When sub-architectures are used the version of @command{Rscript} in e.g.@
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:836
-#: R-admin.texi:856
+#: R-admin.texi:836 R-admin.texi:856
 #, no-wrap
 msgid "R_ARCH"
-msgstr ""
+msgstr "R_ARCH"
 
 #. type: Plain text
 #: R-admin.texi:839
@@ -1417,9 +1242,7 @@ msgid "@env{R_ARCH} environment variable, then from the @option{--arch} command-
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:865
-#: R-admin.texi:867
-#: R-admin.texi:868
+#: R-admin.texi:865 R-admin.texi:867 R-admin.texi:868
 #, no-wrap
 msgid "Multilib"
 msgstr ""
@@ -1484,8 +1307,7 @@ msgid "Option @option{--with-internal-tzcode} makes use of @R{}'s own code and c
 msgstr ""
 
 #. type: section
-#: R-admin.texi:941
-#: R-admin.texi:1573
+#: R-admin.texi:941 R-admin.texi:1573
 #, no-wrap
 msgid "Testing an Installation"
 msgstr ""
@@ -1535,7 +1357,7 @@ msgstr ""
 #: R-admin.texi:990
 #, no-wrap
 msgid "LC_COLLATE"
-msgstr ""
+msgstr "LC_COLLATE"
 
 #. type: example
 #: R-admin.texi:998
@@ -1583,7 +1405,7 @@ msgstr ""
 #: R-admin.texi:1029
 #, no-wrap
 msgid "LANGUAGE=en\n"
-msgstr ""
+msgstr "LANGUAGE=en\n"
 
 #. type: Plain text
 #: R-admin.texi:1033
@@ -1622,29 +1444,16 @@ msgid "See the @uref{http://CRAN.R-project.org/@/bin/@/windows/@/base/@/rw-FAQ.h
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1063
-#: R-admin.texi:1065
-#: R-admin.texi:1066
-#: R-admin.texi:1107
-#: R-admin.texi:1123
-#: R-admin.texi:1218
-#: R-admin.texi:1270
-#: R-admin.texi:1288
-#: R-admin.texi:1314
-#: R-admin.texi:1329
-#: R-admin.texi:1372
-#: R-admin.texi:1407
-#: R-admin.texi:1508
-#: R-admin.texi:1554
-#: R-admin.texi:1572
+#: R-admin.texi:1063 R-admin.texi:1065 R-admin.texi:1066 R-admin.texi:1107
+#: R-admin.texi:1123 R-admin.texi:1218 R-admin.texi:1270 R-admin.texi:1288
+#: R-admin.texi:1314 R-admin.texi:1329 R-admin.texi:1372 R-admin.texi:1407
+#: R-admin.texi:1508 R-admin.texi:1554 R-admin.texi:1572
 #, no-wrap
 msgid "Building from source"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1063
-#: R-admin.texi:1065
-#: R-admin.texi:1572
+#: R-admin.texi:1063 R-admin.texi:1065 R-admin.texi:1572
 #, no-wrap
 msgid "Testing a Windows Installation"
 msgstr ""
@@ -1670,108 +1479,75 @@ msgid "@strong{NB:} The build process is currently being changed to require exte
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1107
-#: R-admin.texi:1108
-#: R-admin.texi:1123
+#: R-admin.texi:1105 R-admin.texi:1107 R-admin.texi:1108 R-admin.texi:1123
 #, no-wrap
 msgid "Getting the tools"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1107
-#: R-admin.texi:1123
-#: R-admin.texi:1124
+#: R-admin.texi:1105 R-admin.texi:1107 R-admin.texi:1123 R-admin.texi:1124
 #: R-admin.texi:1218
 #, no-wrap
 msgid "Getting the source files"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1123
-#: R-admin.texi:1218
-#: R-admin.texi:1219
+#: R-admin.texi:1105 R-admin.texi:1123 R-admin.texi:1218 R-admin.texi:1219
 #: R-admin.texi:1270
 #, no-wrap
 msgid "Building the core files"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1218
-#: R-admin.texi:1270
-#: R-admin.texi:1288
+#: R-admin.texi:1105 R-admin.texi:1218 R-admin.texi:1270 R-admin.texi:1288
 #, no-wrap
 msgid "Building the cairo devices files"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1270
-#: R-admin.texi:1288
-#: R-admin.texi:1289
+#: R-admin.texi:1105 R-admin.texi:1270 R-admin.texi:1288 R-admin.texi:1289
 #: R-admin.texi:1314
 #, no-wrap
 msgid "Using ICU for collation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1288
-#: R-admin.texi:1314
-#: R-admin.texi:1315
+#: R-admin.texi:1105 R-admin.texi:1288 R-admin.texi:1314 R-admin.texi:1315
 #: R-admin.texi:1329
 #, no-wrap
 msgid "Support for libcurl"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1314
-#: R-admin.texi:1329
-#: R-admin.texi:1330
+#: R-admin.texi:1105 R-admin.texi:1314 R-admin.texi:1329 R-admin.texi:1330
 #: R-admin.texi:1372
 #, no-wrap
 msgid "Checking the build"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1329
-#: R-admin.texi:1372
-#: R-admin.texi:1373
+#: R-admin.texi:1105 R-admin.texi:1329 R-admin.texi:1372 R-admin.texi:1373
 #: R-admin.texi:1407
 #, no-wrap
 msgid "Building the manuals"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1372
-#: R-admin.texi:1407
-#: R-admin.texi:1408
+#: R-admin.texi:1105 R-admin.texi:1372 R-admin.texi:1407 R-admin.texi:1408
 #: R-admin.texi:1508
 #, no-wrap
 msgid "Building the Inno Setup installer"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1105
-#: R-admin.texi:1407
-#: R-admin.texi:1508
-#: R-admin.texi:1509
+#: R-admin.texi:1105 R-admin.texi:1407 R-admin.texi:1508 R-admin.texi:1509
 #: R-admin.texi:1554
 #, no-wrap
 msgid "Building the MSI installer"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:1105
-#: R-admin.texi:1508
-#: R-admin.texi:1554
-#: R-admin.texi:1555
+#: R-admin.texi:1105 R-admin.texi:1508 R-admin.texi:1554 R-admin.texi:1555
 #, no-wrap
 msgid "64-bit Windows builds"
 msgstr ""
@@ -2301,7 +2077,7 @@ msgstr ""
 #. type: sc{#1}
 #: R-admin.texi:1611
 msgid "R.app"
-msgstr ""
+msgstr "R.app"
 
 #. type: Plain text
 #: R-admin.texi:1617
@@ -2344,29 +2120,20 @@ msgid "For building @R{} from source, see @ref{OS X}."
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1650
-#: R-admin.texi:1652
-#: R-admin.texi:1653
-#: R-admin.texi:1705
+#: R-admin.texi:1650 R-admin.texi:1652 R-admin.texi:1653 R-admin.texi:1705
 #, no-wrap
 msgid "Running R under OS X"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1650
-#: R-admin.texi:1652
-#: R-admin.texi:1705
-#: R-admin.texi:1706
+#: R-admin.texi:1650 R-admin.texi:1652 R-admin.texi:1705 R-admin.texi:1706
 #: R-admin.texi:1743
 #, no-wrap
 msgid "Uninstalling under OS X"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:1650
-#: R-admin.texi:1705
-#: R-admin.texi:1743
-#: R-admin.texi:1744
+#: R-admin.texi:1650 R-admin.texi:1705 R-admin.texi:1743 R-admin.texi:1744
 #, no-wrap
 msgid "Multiple versions"
 msgstr ""
@@ -2511,13 +2278,13 @@ msgstr ""
 #: R-admin.texi:1798
 #, no-wrap
 msgid "TMP"
-msgstr ""
+msgstr "TMP"
 
 #. type: enindex
 #: R-admin.texi:1799
 #, no-wrap
 msgid "TEMP"
-msgstr ""
+msgstr "TEMP"
 
 #. type: Plain text
 #: R-admin.texi:1803
@@ -2528,7 +2295,7 @@ msgstr ""
 #: R-admin.texi:1803
 #, no-wrap
 msgid "R_USER"
-msgstr ""
+msgstr "R_USER"
 
 #. type: Plain text
 #: R-admin.texi:1807
@@ -2563,74 +2330,49 @@ msgid "Libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832
-#: R-admin.texi:1842
-#: R-admin.texi:1843
-#: R-admin.texi:1868
+#: R-admin.texi:1832 R-admin.texi:1842 R-admin.texi:1843 R-admin.texi:1868
 #, no-wrap
 msgid "Default packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832
-#: R-admin.texi:1842
-#: R-admin.texi:1868
-#: R-admin.texi:1869
+#: R-admin.texi:1832 R-admin.texi:1842 R-admin.texi:1868 R-admin.texi:1869
 #: R-admin.texi:1910
 #, no-wrap
 msgid "Managing libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832
-#: R-admin.texi:1868
-#: R-admin.texi:1910
-#: R-admin.texi:1911
-#: R-admin.texi:2005
-#: R-admin.texi:2092
-#: R-admin.texi:2163
-#: R-admin.texi:2201
-#: R-admin.texi:2242
-#: R-admin.texi:2262
+#: R-admin.texi:1832 R-admin.texi:1868 R-admin.texi:1910 R-admin.texi:1911
+#: R-admin.texi:2005 R-admin.texi:2092 R-admin.texi:2163 R-admin.texi:2201
+#: R-admin.texi:2242 R-admin.texi:2262
 #, no-wrap
 msgid "Installing packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832
-#: R-admin.texi:1910
-#: R-admin.texi:2262
-#: R-admin.texi:2263
+#: R-admin.texi:1832 R-admin.texi:1910 R-admin.texi:2262 R-admin.texi:2263
 #: R-admin.texi:2296
 #, no-wrap
 msgid "Updating packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832
-#: R-admin.texi:2262
-#: R-admin.texi:2296
-#: R-admin.texi:2297
+#: R-admin.texi:1832 R-admin.texi:2262 R-admin.texi:2296 R-admin.texi:2297
 #: R-admin.texi:2319
 #, no-wrap
 msgid "Removing packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1832
-#: R-admin.texi:2296
-#: R-admin.texi:2319
-#: R-admin.texi:2320
+#: R-admin.texi:1832 R-admin.texi:2296 R-admin.texi:2319 R-admin.texi:2320
 #: R-admin.texi:2389
 #, no-wrap
 msgid "Setting up a package repository"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:1832
-#: R-admin.texi:2319
-#: R-admin.texi:2389
-#: R-admin.texi:2390
+#: R-admin.texi:1832 R-admin.texi:2319 R-admin.texi:2389 R-admin.texi:2390
 #, no-wrap
 msgid "Checking installed source packages"
 msgstr ""
@@ -2644,7 +2386,7 @@ msgstr ""
 #: R-admin.texi:1838
 #, no-wrap
 msgid "R_LIBS"
-msgstr ""
+msgstr "R_LIBS"
 
 #. type: Plain text
 #: R-admin.texi:1841
@@ -2679,7 +2421,7 @@ msgstr ""
 #: R-admin.texi:1856
 #, no-wrap
 msgid "R_DEFAULT_PACKAGES"
-msgstr ""
+msgstr "R_DEFAULT_PACKAGES"
 
 #. type: Plain text
 #: R-admin.texi:1860
@@ -2728,7 +2470,7 @@ msgstr ""
 #: R-admin.texi:1893
 #, no-wrap
 msgid "R_LIBS_SITE"
-msgstr ""
+msgstr "R_LIBS_SITE"
 
 #. type: Plain text
 #: R-admin.texi:1896
@@ -2751,7 +2493,7 @@ msgstr ""
 #: R-admin.texi:1899
 #, no-wrap
 msgid "R_LIBS_USER"
-msgstr ""
+msgstr "R_LIBS_USER"
 
 #. type: Plain text
 #: R-admin.texi:1905
@@ -2770,47 +2512,33 @@ msgid "Packages, installing"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920
-#: R-admin.texi:2005
-#: R-admin.texi:2092
+#: R-admin.texi:1920 R-admin.texi:2005 R-admin.texi:2092
 #, no-wrap
 msgid "Windows packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920
-#: R-admin.texi:2005
-#: R-admin.texi:2092
-#: R-admin.texi:2163
+#: R-admin.texi:1920 R-admin.texi:2005 R-admin.texi:2092 R-admin.texi:2163
 #, no-wrap
 msgid "OS X packages"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920
-#: R-admin.texi:2092
-#: R-admin.texi:2163
-#: R-admin.texi:2164
+#: R-admin.texi:1920 R-admin.texi:2092 R-admin.texi:2163 R-admin.texi:2164
 #: R-admin.texi:2201
 #, no-wrap
 msgid "Customizing package compilation"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:1920
-#: R-admin.texi:2163
-#: R-admin.texi:2201
-#: R-admin.texi:2202
+#: R-admin.texi:1920 R-admin.texi:2163 R-admin.texi:2201 R-admin.texi:2202
 #: R-admin.texi:2242
 #, no-wrap
 msgid "Multiple sub-architectures"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:1920
-#: R-admin.texi:2201
-#: R-admin.texi:2242
-#: R-admin.texi:2243
+#: R-admin.texi:1920 R-admin.texi:2201 R-admin.texi:2242 R-admin.texi:2243
 #, no-wrap
 msgid "Byte-compilation"
 msgstr ""
@@ -2860,7 +2588,7 @@ msgstr ""
 #: R-admin.texi:1965
 #, no-wrap
 msgid "install.packages"
-msgstr ""
+msgstr "install.packages"
 
 #. type: Plain text
 #: R-admin.texi:1970
@@ -2871,7 +2599,7 @@ msgstr ""
 #: R-admin.texi:1973
 #, no-wrap
 msgid "> install.packages(c(\"pkg1\", \"pkg2\"))\n"
-msgstr ""
+msgstr "> install.packages(c(\"pkg1\", \"pkg2\"))\n"
 
 #. type: Plain text
 #: R-admin.texi:1981
@@ -2905,9 +2633,7 @@ msgid "Naive users sometimes forget that as well as installing a package, they h
 msgstr ""
 
 #. type: section
-#: R-admin.texi:2006
-#: R-admin.texi:2218
-#: R-admin.texi:2885
+#: R-admin.texi:2006 R-admin.texi:2218 R-admin.texi:2885
 #, no-wrap
 msgid "Windows"
 msgstr ""
@@ -2941,7 +2667,7 @@ msgstr ""
 #: R-admin.texi:2049
 #, no-wrap
 msgid "R_INSTALL_TAR"
-msgstr ""
+msgstr "R_INSTALL_TAR"
 
 #. type: Plain text
 #: R-admin.texi:2055
@@ -2962,7 +2688,7 @@ msgstr ""
 #: R-admin.texi:2079
 #, no-wrap
 msgid "LOCAL_SOFT"
-msgstr ""
+msgstr "LOCAL_SOFT"
 
 #. type: Plain text
 #: R-admin.texi:2090
@@ -3023,6 +2749,10 @@ msgid ""
 "CFLAGS=-mtune=native -g -O2 -Wall -pedantic -Wconversion\n"
 "CXXFLAGS=-mtune=native -g -O2 -Wall -pedantic -Wconversion\n"
 msgstr ""
+"CC=clang\n"
+"CXX=clang++\n"
+"CFLAGS=-mtune=native -g -O2 -Wall -pedantic -Wconversion\n"
+"CXXFLAGS=-mtune=native -g -O2 -Wall -pedantic -Wconversion\n"
 
 #. type: Plain text
 #: R-admin.texi:2158
@@ -3033,7 +2763,7 @@ msgstr ""
 #: R-admin.texi:2160
 #, no-wrap
 msgid "FLIBS=-lgfortran\n"
-msgstr ""
+msgstr "FLIBS=-lgfortran\n"
 
 #. type: Plain text
 #: R-admin.texi:2175
@@ -3080,8 +2810,7 @@ msgid "When a source package is installed by a build of @R{} which supports mult
 msgstr ""
 
 #. type: section
-#: R-admin.texi:2214
-#: R-admin.texi:2824
+#: R-admin.texi:2214 R-admin.texi:2824
 #, no-wrap
 msgid "Unix-alikes"
 msgstr ""
@@ -3105,7 +2834,7 @@ msgstr ""
 #: R-admin.texi:2234
 #, no-wrap
 msgid "R CMD INSTALL --libs-only @var{pkg}\n"
-msgstr ""
+msgstr "R CMD INSTALL --libs-only @var{pkg}\n"
 
 #. type: Plain text
 #: R-admin.texi:2241
@@ -3131,7 +2860,7 @@ msgstr ""
 #: R-admin.texi:2264
 #, no-wrap
 msgid "update.packages"
-msgstr ""
+msgstr "update.packages"
 
 #. type: cindex
 #: R-admin.texi:2265
@@ -3171,7 +2900,7 @@ msgstr ""
 #: R-admin.texi:2298
 #, no-wrap
 msgid "remove.packages"
-msgstr ""
+msgstr "remove.packages"
 
 #. type: cindex
 #: R-admin.texi:2299
@@ -3188,7 +2917,7 @@ msgstr ""
 #: R-admin.texi:2306
 #, no-wrap
 msgid "R CMD REMOVE -l /path/to/library @var{pkg1} @var{pkg2} @dots{}\n"
-msgstr ""
+msgstr "R CMD REMOVE -l /path/to/library @var{pkg1} @var{pkg2} @dots{}\n"
 
 #. type: Plain text
 #: R-admin.texi:2309
@@ -3202,6 +2931,8 @@ msgid ""
 "> remove.packages(c(\"pkg1\", \"pkg2\"),\n"
 "                  lib = file.path(\"path\", \"to\", \"library\"))\n"
 msgstr ""
+"> remove.packages(c(\"pkg1\", \"pkg2\"),\n"
+"                  lib = file.path(\"path\", \"to\", \"library\"))\n"
 
 #. type: Plain text
 #: R-admin.texi:2317
@@ -3268,7 +2999,7 @@ msgstr ""
 #: R-admin.texi:2384
 #, no-wrap
 msgid "Path: @var{path/to/subdirectory}\n"
-msgstr ""
+msgstr "Ścieżka: @var{path/to/subdirectory}\n"
 
 #. type: Plain text
 #: R-admin.texi:2388
@@ -3297,7 +3028,7 @@ msgstr ""
 #: R-admin.texi:2408
 #, no-wrap
 msgid "R --arch @var{arch} CMD check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
-msgstr ""
+msgstr "R --arch @var{arch} CMD check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
 
 #. type: Plain text
 #: R-admin.texi:2420
@@ -3317,6 +3048,9 @@ msgid ""
 ".../bin/i386/Rcmd check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
 ".../bin/x64/Rcmd check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
 msgstr ""
+".../bin/i386/Rcmd INSTALL -l @var{libdir} @var{tarball} --build > @var{pkg}.log 2>&1\n"
+".../bin/i386/Rcmd check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
+".../bin/x64/Rcmd check -l @var{libdir} --extra-arch --install=check:@var{pkg}.log @var{pkg}\n"
 
 #. type: Plain text
 #: R-admin.texi:2435
@@ -3332,7 +3066,7 @@ msgstr ""
 #: R-admin.texi:2441
 #, no-wrap
 msgid "R CMD INSTALL --merge-multiarch -l @var{libdir} @var{tarball}\n"
-msgstr ""
+msgstr "R CMD INSTALL --merge-multiarch -l @var{libdir} @var{tarball}\n"
 
 #. type: Plain text
 #: R-admin.texi:2445
@@ -3362,8 +3096,7 @@ msgid "Current builds of @R{} support all the character sets that the underlying
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:2463
-#: R-admin.texi:2481
+#: R-admin.texi:2463 R-admin.texi:2481
 #, no-wrap
 msgid "Locale"
 msgstr ""
@@ -3379,22 +3112,14 @@ msgid "The other aspect of the internationalization is support for the translati
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2477
-#: R-admin.texi:2479
-#: R-admin.texi:2480
-#: R-admin.texi:2529
-#: R-admin.texi:2544
-#: R-admin.texi:2560
-#: R-admin.texi:2579
+#: R-admin.texi:2477 R-admin.texi:2479 R-admin.texi:2480 R-admin.texi:2529
+#: R-admin.texi:2544 R-admin.texi:2560 R-admin.texi:2579
 #, no-wrap
 msgid "Locales"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:2477
-#: R-admin.texi:2479
-#: R-admin.texi:2579
-#: R-admin.texi:2580
+#: R-admin.texi:2477 R-admin.texi:2479 R-admin.texi:2579 R-admin.texi:2580
 #, no-wrap
 msgid "Localization of messages"
 msgstr ""
@@ -3435,29 +3160,20 @@ msgid "@R{} is principally concerned with the first (for translations) and third
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2527
-#: R-admin.texi:2529
-#: R-admin.texi:2530
-#: R-admin.texi:2544
+#: R-admin.texi:2527 R-admin.texi:2529 R-admin.texi:2530 R-admin.texi:2544
 #, no-wrap
 msgid "Locales under Unix-alikes"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2527
-#: R-admin.texi:2529
-#: R-admin.texi:2544
-#: R-admin.texi:2545
+#: R-admin.texi:2527 R-admin.texi:2529 R-admin.texi:2544 R-admin.texi:2545
 #: R-admin.texi:2560
 #, no-wrap
 msgid "Locales under Windows"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:2527
-#: R-admin.texi:2544
-#: R-admin.texi:2560
-#: R-admin.texi:2561
+#: R-admin.texi:2527 R-admin.texi:2544 R-admin.texi:2560 R-admin.texi:2561
 #, no-wrap
 msgid "Locales under OS X"
 msgstr ""
@@ -3503,29 +3219,28 @@ msgid "The preferred language for messages is by default taken from the locale. 
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:2584
-#: R-admin.texi:2657
+#: R-admin.texi:2584 R-admin.texi:2657
 #, no-wrap
 msgid "LANGUAGE"
-msgstr ""
+msgstr "LANGUAGE"
 
 #. type: enindex
 #: R-admin.texi:2585
 #, no-wrap
 msgid "LC_ALL"
-msgstr ""
+msgstr "LC_ALL"
 
 #. type: enindex
 #: R-admin.texi:2586
 #, no-wrap
 msgid "LC_MESSAGES"
-msgstr ""
+msgstr "LC_MESSAGES"
 
 #. type: enindex
 #: R-admin.texi:2587
 #, no-wrap
 msgid "LANG"
-msgstr ""
+msgstr "LANG"
 
 #. type: Plain text
 #: R-admin.texi:2599
@@ -3681,7 +3396,7 @@ msgstr ""
 #: R-admin.texi:2771
 #, no-wrap
 msgid "    ISNAN, R_FINITE, R_log, R_pow and R_pow_di\n"
-msgstr ""
+msgstr "    ISNAN, R_FINITE, R_log, R_pow oraz R_pow_di\n"
 
 #. type: Plain text
 #: R-admin.texi:2775
@@ -3745,17 +3460,13 @@ msgid "(and @samp{USER_NORM} is not available)."
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2821
-#: R-admin.texi:2823
-#: R-admin.texi:2884
+#: R-admin.texi:2821 R-admin.texi:2823 R-admin.texi:2884
 #, no-wrap
 msgid "Unix-alike standalone"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2821
-#: R-admin.texi:2823
-#: R-admin.texi:2884
+#: R-admin.texi:2821 R-admin.texi:2823 R-admin.texi:2884
 #, no-wrap
 msgid "Windows standalone"
 msgstr ""
@@ -3787,13 +3498,14 @@ msgid "To use the routines in your own C or C++ programs, include"
 msgstr ""
 
 #. type: example
-#: R-admin.texi:2846
-#: R-admin.texi:2921
+#: R-admin.texi:2846 R-admin.texi:2921
 #, no-wrap
 msgid ""
 "#define MATHLIB_STANDALONE\n"
 "#include <Rmath.h>\n"
 msgstr ""
+"#define MATHLIB_STANDALONE\n"
+"#include <Rmath.h>\n"
 
 #. type: Plain text
 #: R-admin.texi:2853
@@ -3801,14 +3513,11 @@ msgid "and link against @samp{-lRmath} (and @samp{-lm} if needed on your OS).  T
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:2853
-#: R-admin.texi:3497
-#: R-admin.texi:4079
-#: R-admin.texi:4198
+#: R-admin.texi:2853 R-admin.texi:3497 R-admin.texi:4079 R-admin.texi:4198
 #: R-admin.texi:5195
 #, no-wrap
 msgid "LD_LIBRARY_PATH"
-msgstr ""
+msgstr "LD_LIBRARY_PATH"
 
 #. type: Plain text
 #: R-admin.texi:2856
@@ -3827,6 +3536,8 @@ msgid ""
 "make install\n"
 "make uninstall\n"
 msgstr ""
+"make install\n"
+"make uninstall\n"
 
 #. type: Plain text
 #: R-admin.texi:2866
@@ -3850,6 +3561,8 @@ msgid ""
 "$(CC) `pkg-config --cflags libRmath` -c test.c\n"
 "$(CC) `pkg-config --libs libRmath` test.o -o test\n"
 msgstr ""
+"$(CC) `pkg-config --cflags libRmath` -c test.c\n"
+"$(CC) `pkg-config --libs libRmath` test.o -o test\n"
 
 #. type: Plain text
 #: R-admin.texi:2881
@@ -3869,6 +3582,9 @@ msgid ""
 "(cd ../../include; make -f Makefile.win config.h Rconfig.h Rmath.h)\n"
 "make -f Makefile.win\n"
 msgstr ""
+"(cd ../../gnuwin32; make MkRules)\n"
+"(cd ../../include; make -f Makefile.win config.h Rconfig.h Rmath.h)\n"
+"make -f Makefile.win\n"
 
 #. type: Plain text
 #: R-admin.texi:2899
@@ -3884,6 +3600,10 @@ msgid ""
 "cd ../nmath/standalone\n"
 "make -f Makefile.win\n"
 msgstr ""
+"cd ../../include\n"
+"make -f Makefile.win config.h Rconfig.h Rmath.h\n"
+"cd ../nmath/standalone\n"
+"make -f Makefile.win\n"
 
 #. type: Plain text
 #: R-admin.texi:2911
@@ -3937,6 +3657,9 @@ msgid ""
 "#define RMATH_DLL\n"
 "#include <Rmath.h>\n"
 msgstr ""
+"#define MATHLIB_STANDALONE\n"
+"#define RMATH_DLL\n"
+"#include <Rmath.h>\n"
 
 #. type: Plain text
 #: R-admin.texi:2959
@@ -3954,35 +3677,21 @@ msgid "Remember that some package management systems (such as @acronym{RPM} and 
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2978
-#: R-admin.texi:2980
-#: R-admin.texi:2981
-#: R-admin.texi:3117
+#: R-admin.texi:2978 R-admin.texi:2980 R-admin.texi:2981 R-admin.texi:3117
 #, no-wrap
 msgid "Essential programs and libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2978
-#: R-admin.texi:2980
-#: R-admin.texi:3117
-#: R-admin.texi:3118
-#: R-admin.texi:3249
-#: R-admin.texi:3276
-#: R-admin.texi:3324
-#: R-admin.texi:3352
+#: R-admin.texi:2978 R-admin.texi:2980 R-admin.texi:3117 R-admin.texi:3118
+#: R-admin.texi:3249 R-admin.texi:3276 R-admin.texi:3324 R-admin.texi:3352
 #, no-wrap
 msgid "Useful libraries and programs"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:2978
-#: R-admin.texi:3117
-#: R-admin.texi:3352
-#: R-admin.texi:3353
-#: R-admin.texi:3362
-#: R-admin.texi:3682
-#: R-admin.texi:3767
+#: R-admin.texi:2978 R-admin.texi:3117 R-admin.texi:3352 R-admin.texi:3353
+#: R-admin.texi:3362 R-admin.texi:3682 R-admin.texi:3767
 #, no-wrap
 msgid "Linear algebra"
 msgstr ""
@@ -4026,7 +3735,7 @@ msgstr ""
 #: R-admin.texi:3065
 #, no-wrap
 msgid "TAR"
-msgstr ""
+msgstr "TAR"
 
 #. type: Plain text
 #: R-admin.texi:3067
@@ -4060,13 +3769,10 @@ msgid "The PDF documentation (including @file{doc/NEWS.pdf}) and building vignet
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:3113
-#: R-admin.texi:4073
-#: R-admin.texi:5312
-#: R-admin.texi:5554
+#: R-admin.texi:3113 R-admin.texi:4073 R-admin.texi:5312 R-admin.texi:5554
 #, no-wrap
 msgid "PATH"
-msgstr ""
+msgstr "PATH"
 
 #. type: Plain text
 #: R-admin.texi:3116
@@ -4132,32 +3838,23 @@ msgstr ""
 #: R-admin.texi:3240
 #, no-wrap
 msgid "R_GSCMD"
-msgstr ""
+msgstr "R_GSCMD"
 
 #. type: node
-#: R-admin.texi:3247
-#: R-admin.texi:3249
-#: R-admin.texi:3250
-#: R-admin.texi:3276
+#: R-admin.texi:3247 R-admin.texi:3249 R-admin.texi:3250 R-admin.texi:3276
 #, no-wrap
 msgid "Tcl/Tk"
-msgstr ""
+msgstr "Tcl/Tk"
 
 #. type: node
-#: R-admin.texi:3247
-#: R-admin.texi:3249
-#: R-admin.texi:3276
-#: R-admin.texi:3277
+#: R-admin.texi:3247 R-admin.texi:3249 R-admin.texi:3276 R-admin.texi:3277
 #: R-admin.texi:3324
 #, no-wrap
 msgid "Java support"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:3247
-#: R-admin.texi:3276
-#: R-admin.texi:3324
-#: R-admin.texi:3325
+#: R-admin.texi:3247 R-admin.texi:3276 R-admin.texi:3324 R-admin.texi:3325
 #, no-wrap
 msgid "Other compiled languages"
 msgstr ""
@@ -4171,7 +3868,7 @@ msgstr ""
 #: R-admin.texi:3257
 #, no-wrap
 msgid "--with-tcltk"
-msgstr ""
+msgstr "--with-tcltk"
 
 #. type: table
 #: R-admin.texi:3259
@@ -4182,7 +3879,7 @@ msgstr ""
 #: R-admin.texi:3259
 #, no-wrap
 msgid "--with-tcl-config=@var{TCL_CONFIG}"
-msgstr ""
+msgstr "--with-tcl-config=@var{TCL_CONFIG}"
 
 #. type: table
 #: R-admin.texi:3261
@@ -4193,7 +3890,7 @@ msgstr ""
 #: R-admin.texi:3261
 #, no-wrap
 msgid "--with-tk-config=@var{TK_CONFIG}"
-msgstr ""
+msgstr "--with-tk-config=@var{TK_CONFIG}"
 
 #. type: table
 #: R-admin.texi:3263
@@ -4219,7 +3916,7 @@ msgstr ""
 #: R-admin.texi:3281
 #, no-wrap
 msgid "JAVA_HOME"
-msgstr ""
+msgstr "JAVA_HOME"
 
 #. type: Plain text
 #: R-admin.texi:3283
@@ -4232,11 +3929,10 @@ msgid "Principal amongst these are setting some library paths to the Java librar
 msgstr ""
 
 #. type: enindex
-#: R-admin.texi:3286
-#: R-admin.texi:3304
+#: R-admin.texi:3286 R-admin.texi:3304
 #, no-wrap
 msgid "R_JAVA_LD_LIBRARY_PATH"
-msgstr ""
+msgstr "R_JAVA_LD_LIBRARY_PATH"
 
 #. type: Plain text
 #: R-admin.texi:3290
@@ -4250,6 +3946,8 @@ msgid ""
 "JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.25.x86_64/jre\n"
 "R_JAVA_LD_LIBRARY_PATH=$@{JAVA_HOME@}/lib/amd64/server\n"
 msgstr ""
+"JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.25.x86_64/jre\n"
+"R_JAVA_LD_LIBRARY_PATH=$@{JAVA_HOME@}/lib/amd64/server\n"
 
 #. type: Plain text
 #: R-admin.texi:3302
@@ -4270,7 +3968,7 @@ msgstr ""
 #: R-admin.texi:3311
 #, no-wrap
 msgid "R_JAVA_LD_LIBRARY_PATH=/usr/lib/jvm/java-1.7.0/jre/lib/amd64/server\n"
-msgstr ""
+msgstr "R_JAVA_LD_LIBRARY_PATH=/usr/lib/jvm/java-1.7.0/jre/lib/amd64/server\n"
 
 #. type: Plain text
 #: R-admin.texi:3315
@@ -4284,6 +3982,8 @@ msgid ""
 "JAVA_HOME=/usr/lib/jvm/java-1.7.0\n"
 "JAVA_HOME=/usr/lib/jvm/java-1.7.0/jre\n"
 msgstr ""
+"JAVA_HOME=/usr/lib/jvm/java-1.7.0\n"
+"JAVA_HOME=/usr/lib/jvm/java-1.7.0/jre\n"
 
 #. type: Plain text
 #: R-admin.texi:3323
@@ -4306,42 +4006,28 @@ msgid "See file @file{config.site} in the @R{} source for more details about the
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:3354
-#: R-admin.texi:4669
-#: R-admin.texi:5134
+#: R-admin.texi:3354 R-admin.texi:4669 R-admin.texi:5134
 #, no-wrap
 msgid "BLAS library"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3360
-#: R-admin.texi:3362
-#: R-admin.texi:3363
-#: R-admin.texi:3444
-#: R-admin.texi:3484
-#: R-admin.texi:3517
-#: R-admin.texi:3543
-#: R-admin.texi:3624
+#: R-admin.texi:3360 R-admin.texi:3362 R-admin.texi:3363 R-admin.texi:3444
+#: R-admin.texi:3484 R-admin.texi:3517 R-admin.texi:3543 R-admin.texi:3624
 #: R-admin.texi:3682
 #, no-wrap
 msgid "BLAS"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3360
-#: R-admin.texi:3362
-#: R-admin.texi:3682
-#: R-admin.texi:3683
+#: R-admin.texi:3360 R-admin.texi:3362 R-admin.texi:3682 R-admin.texi:3683
 #: R-admin.texi:3767
 #, no-wrap
 msgid "LAPACK"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:3360
-#: R-admin.texi:3682
-#: R-admin.texi:3767
-#: R-admin.texi:3768
+#: R-admin.texi:3360 R-admin.texi:3682 R-admin.texi:3767 R-admin.texi:3768
 #, no-wrap
 msgid "Caveats"
 msgstr ""
@@ -4371,7 +4057,7 @@ msgstr ""
 #: R-admin.texi:3386
 #, no-wrap
 msgid "--with-blas=\"foo\"\n"
-msgstr ""
+msgstr "--with-blas=\"foo\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3391
@@ -4414,48 +4100,33 @@ msgid "The URIs for several of these BLAS are subject to frequent gratuitous cha
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442
-#: R-admin.texi:3444
-#: R-admin.texi:3445
-#: R-admin.texi:3484
+#: R-admin.texi:3442 R-admin.texi:3444 R-admin.texi:3445 R-admin.texi:3484
 #, no-wrap
 msgid "ATLAS"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442
-#: R-admin.texi:3444
-#: R-admin.texi:3484
-#: R-admin.texi:3485
+#: R-admin.texi:3442 R-admin.texi:3444 R-admin.texi:3484 R-admin.texi:3485
 #: R-admin.texi:3517
 #, no-wrap
 msgid "ACML"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442
-#: R-admin.texi:3484
-#: R-admin.texi:3517
-#: R-admin.texi:3518
+#: R-admin.texi:3442 R-admin.texi:3484 R-admin.texi:3517 R-admin.texi:3518
 #: R-admin.texi:3543
 #, no-wrap
 msgid "Goto and OpenBLAS"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3442
-#: R-admin.texi:3517
-#: R-admin.texi:3543
-#: R-admin.texi:3624
+#: R-admin.texi:3442 R-admin.texi:3517 R-admin.texi:3543 R-admin.texi:3624
 #, no-wrap
 msgid "MKL"
 msgstr ""
 
 #. type: subsubsection
-#: R-admin.texi:3442
-#: R-admin.texi:3543
-#: R-admin.texi:3624
-#: R-admin.texi:3625
+#: R-admin.texi:3442 R-admin.texi:3543 R-admin.texi:3624 R-admin.texi:3625
 #, no-wrap
 msgid "Shared BLAS"
 msgstr ""
@@ -4474,7 +4145,7 @@ msgstr ""
 #: R-admin.texi:3459
 #, no-wrap
 msgid "--with-blas=\"-lf77blas -latlas\"\n"
-msgstr ""
+msgstr "--with-blas=\"-lf77blas -latlas\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3463
@@ -4485,7 +4156,7 @@ msgstr ""
 #: R-admin.texi:3466
 #, no-wrap
 msgid "--with-blas=\"-L/path/to/ATLAS/libs -lf77blas -latlas\"\n"
-msgstr ""
+msgstr "--with-blas=\"-L/path/to/ATLAS/libs -lf77blas -latlas\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3470
@@ -4496,7 +4167,7 @@ msgstr ""
 #: R-admin.texi:3472
 #, no-wrap
 msgid "--with-blas=\"-L/usr/lib64/atlas -lf77blas -latlas\"\n"
-msgstr ""
+msgstr "--with-blas=\"-L/usr/lib64/atlas -lf77blas -latlas\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3476
@@ -4507,7 +4178,7 @@ msgstr ""
 #: R-admin.texi:3479
 #, no-wrap
 msgid "--with-blas=\"-lptf77blas -lpthread -latlas\"\n"
-msgstr ""
+msgstr "--with-blas=\"-lptf77blas -lpthread -latlas\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3483
@@ -4523,7 +4194,7 @@ msgstr ""
 #: R-admin.texi:3493
 #, no-wrap
 msgid "--with-blas=\"-lacml\"\n"
-msgstr ""
+msgstr "--with-blas=\"-lacml\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3497
@@ -4539,7 +4210,7 @@ msgstr ""
 #: R-admin.texi:3505
 #, no-wrap
 msgid "--with-blas=\"-L/opt/acml5.1.0/gfortran64_mp/lib -lacml_mp\"\n"
-msgstr ""
+msgstr "--with-blas=\"-L/opt/acml5.1.0/gfortran64_mp/lib -lacml_mp\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3510
@@ -4565,7 +4236,7 @@ msgstr ""
 #: R-admin.texi:3527
 #, no-wrap
 msgid "--with-blas=\"-lgoto2\"\n"
-msgstr ""
+msgstr "--with-blas=\"-lgoto2\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3531
@@ -4581,7 +4252,7 @@ msgstr ""
 #: R-admin.texi:3538
 #, no-wrap
 msgid "--with-blas=\"-lopenblas\"\n"
-msgstr ""
+msgstr "--with-blas=\"-lopenblas\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3542
@@ -4628,6 +4299,10 @@ msgid ""
 "MKL=\"-L$@{MKL_LIB_PATH@} -lmkl_gf_lp64 -lmkl_sequential -lmkl_core\"\n"
 "./configure --with-blas=\"$MKL\" --with-lapack\n"
 msgstr ""
+"MKL_LIB_PATH=/opt/intel/mkl/10.311.339/lib/intel64/\n"
+"export LD_LIBRARY_PATH=$MKL_LIB_PATH\n"
+"MKL=\"-L$@{MKL_LIB_PATH@} -lmkl_gf_lp64 -lmkl_sequential -lmkl_core\"\n"
+"./configure --with-blas=\"$MKL\" --with-lapack\n"
 
 #. type: Plain text
 #: R-admin.texi:3582
@@ -4646,6 +4321,8 @@ msgid ""
 "MKL=\"-L$@{MKL_LIB_PATH@} -lmkl_gf_lp64 -lmkl_intel_thread \\\n"
 "     -lmkl_core -liomp5 -lpthread\"\n"
 msgstr ""
+"MKL=\"-L$@{MKL_LIB_PATH@} -lmkl_gf_lp64 -lmkl_intel_thread \\\n"
+"     -lmkl_core -liomp5 -lpthread\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3593
@@ -4659,6 +4336,8 @@ msgid ""
 "MKL=\"-L$@{MKL_LIB_PATH@} -lmkl_gf_lp64 -lmkl_gnu_thread \\\n"
 "     -lmkl_core -fopenmp -lpthread\"\n"
 msgstr ""
+"MKL=\"-L$@{MKL_LIB_PATH@} -lmkl_gf_lp64 -lmkl_gnu_thread \\\n"
+"     -lmkl_core -fopenmp -lpthread\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3604
@@ -4682,6 +4361,13 @@ msgid ""
 "        -Wl,--end-group                                 \\\n"
 "        -lgomp -ldl -lpthread\"\n"
 msgstr ""
+"MKL=\"   -L$@{MKL_LIB_PATH@}                               \\\n"
+"        -Wl,--start-group                               \\\n"
+"                $@{MKL_LIB_PATH@}/libmkl_gf_lp64.a        \\\n"
+"                $@{MKL_LIB_PATH@}/libmkl_gnu_thread.a     \\\n"
+"                $@{MKL_LIB_PATH@}/libmkl_core.a           \\\n"
+"        -Wl,--end-group                                 \\\n"
+"        -lgomp -ldl -lpthread\"\n"
 
 #. type: Plain text
 #: R-admin.texi:3620
@@ -4747,9 +4433,7 @@ msgid "will change the @acronym{BLAS} in use to multithreaded ACML.  A similar l
 msgstr ""
 
 #. type: cindex
-#: R-admin.texi:3685
-#: R-admin.texi:4670
-#: R-admin.texi:5135
+#: R-admin.texi:3685 R-admin.texi:4670 R-admin.texi:5135
 #, no-wrap
 msgid "LAPACK library"
 msgstr ""
@@ -4779,7 +4463,7 @@ msgstr ""
 #: R-admin.texi:3710
 #, no-wrap
 msgid "LAPACK_LIBS"
-msgstr ""
+msgstr "LAPACK_LIBS"
 
 #. type: Plain text
 #: R-admin.texi:3714
@@ -4860,84 +4544,56 @@ msgid "On some systems it is necessary that an external @acronym{BLAS}/LAPACK wa
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794
-#: R-admin.texi:3796
-#: R-admin.texi:3797
-#: R-admin.texi:3869
+#: R-admin.texi:3794 R-admin.texi:3796 R-admin.texi:3797 R-admin.texi:3869
 #, no-wrap
 msgid "Configuration options"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794
-#: R-admin.texi:3796
-#: R-admin.texi:3869
-#: R-admin.texi:3870
+#: R-admin.texi:3794 R-admin.texi:3796 R-admin.texi:3869 R-admin.texi:3870
 #: R-admin.texi:3886
 #, no-wrap
 msgid "Internationalization support"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794
-#: R-admin.texi:3869
-#: R-admin.texi:3886
-#: R-admin.texi:3887
-#: R-admin.texi:3939
-#: R-admin.texi:3956
-#: R-admin.texi:3967
-#: R-admin.texi:3998
+#: R-admin.texi:3794 R-admin.texi:3869 R-admin.texi:3886 R-admin.texi:3887
+#: R-admin.texi:3939 R-admin.texi:3956 R-admin.texi:3967 R-admin.texi:3998
 #: R-admin.texi:4006
 #, no-wrap
 msgid "Configuration variables"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794
-#: R-admin.texi:3886
-#: R-admin.texi:4006
-#: R-admin.texi:4007
+#: R-admin.texi:3794 R-admin.texi:3886 R-admin.texi:4006 R-admin.texi:4007
 #: R-admin.texi:4016
 #, no-wrap
 msgid "Setting the shell"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794
-#: R-admin.texi:4006
-#: R-admin.texi:4016
-#: R-admin.texi:4017
+#: R-admin.texi:3794 R-admin.texi:4006 R-admin.texi:4016 R-admin.texi:4017
 #: R-admin.texi:4041
 #, no-wrap
 msgid "Using make"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794
-#: R-admin.texi:4016
-#: R-admin.texi:4041
-#: R-admin.texi:4042
-#: R-admin.texi:4122
-#: R-admin.texi:4145
+#: R-admin.texi:3794 R-admin.texi:4016 R-admin.texi:4041 R-admin.texi:4042
+#: R-admin.texi:4122 R-admin.texi:4145
 #, no-wrap
 msgid "Using FORTRAN"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3794
-#: R-admin.texi:4041
-#: R-admin.texi:4145
-#: R-admin.texi:4146
+#: R-admin.texi:3794 R-admin.texi:4041 R-admin.texi:4145 R-admin.texi:4146
 #: R-admin.texi:4226
 #, no-wrap
 msgid "Compile and load flags"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:3794
-#: R-admin.texi:4145
-#: R-admin.texi:4226
-#: R-admin.texi:4227
+#: R-admin.texi:3794 R-admin.texi:4145 R-admin.texi:4226 R-admin.texi:4227
 #, no-wrap
 msgid "Maintainer mode"
 msgstr ""
@@ -4951,7 +4607,7 @@ msgstr ""
 #: R-admin.texi:3803
 #, no-wrap
 msgid "./configure --help\n"
-msgstr ""
+msgstr "./configure --help\n"
 
 #. type: Plain text
 #: R-admin.texi:3808
@@ -4962,7 +4618,7 @@ msgstr ""
 #: R-admin.texi:3810
 #, no-wrap
 msgid "--with-x"
-msgstr ""
+msgstr "--with-x"
 
 #. type: table
 #: R-admin.texi:3812
@@ -4973,7 +4629,7 @@ msgstr ""
 #: R-admin.texi:3812
 #, no-wrap
 msgid "--x-includes=@var{DIR}"
-msgstr ""
+msgstr "--x-includes=@var{DIR}"
 
 #. type: table
 #: R-admin.texi:3814
@@ -4984,7 +4640,7 @@ msgstr ""
 #: R-admin.texi:3814
 #, no-wrap
 msgid "--x-libraries=@var{DIR}"
-msgstr ""
+msgstr "--x-libraries=@var{DIR}"
 
 #. type: table
 #: R-admin.texi:3816
@@ -4995,7 +4651,7 @@ msgstr ""
 #: R-admin.texi:3816
 #, no-wrap
 msgid "--with-readline"
-msgstr ""
+msgstr "--with-readline"
 
 #. type: table
 #: R-admin.texi:3818
@@ -5006,7 +4662,7 @@ msgstr ""
 #: R-admin.texi:3818
 #, no-wrap
 msgid "--enable-R-profiling"
-msgstr ""
+msgstr "--enable-R-profiling"
 
 #. type: table
 #: R-admin.texi:3820
@@ -5017,7 +4673,7 @@ msgstr ""
 #: R-admin.texi:3820
 #, no-wrap
 msgid "--enable-memory-profiling"
-msgstr ""
+msgstr "--enable-memory-profiling"
 
 #. type: table
 #: R-admin.texi:3822
@@ -5028,7 +4684,7 @@ msgstr ""
 #: R-admin.texi:3822
 #, no-wrap
 msgid "--enable-R-shlib"
-msgstr ""
+msgstr "--enable-R-shlib"
 
 #. type: table
 #: R-admin.texi:3824
@@ -5039,7 +4695,7 @@ msgstr ""
 #: R-admin.texi:3824
 #, no-wrap
 msgid "--enable-BLAS-shlib"
-msgstr ""
+msgstr "--enable-BLAS-shlib"
 
 #. type: table
 #: R-admin.texi:3826
@@ -5101,7 +4757,7 @@ msgstr ""
 #: R-admin.texi:3898
 #, no-wrap
 msgid "./configure @var{VAR}=@var{value}\n"
-msgstr ""
+msgstr "./configure @var{VAR}=@var{value}\n"
 
 #. type: Plain text
 #: R-admin.texi:3906
@@ -5117,7 +4773,7 @@ msgstr ""
 #: R-admin.texi:3910
 #, no-wrap
 msgid "CONFIG_SITE"
-msgstr ""
+msgstr "CONFIG_SITE"
 
 #. type: Plain text
 #: R-admin.texi:3915
@@ -5140,39 +4796,27 @@ msgid "If you find you need to alter configure variables, it is worth noting tha
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3937
-#: R-admin.texi:3939
-#: R-admin.texi:3940
-#: R-admin.texi:3956
+#: R-admin.texi:3937 R-admin.texi:3939 R-admin.texi:3940 R-admin.texi:3956
 #, no-wrap
 msgid "Setting paper size"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3937
-#: R-admin.texi:3939
-#: R-admin.texi:3956
-#: R-admin.texi:3957
+#: R-admin.texi:3937 R-admin.texi:3939 R-admin.texi:3956 R-admin.texi:3957
 #: R-admin.texi:3967
 #, no-wrap
 msgid "Setting the browsers"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:3937
-#: R-admin.texi:3956
-#: R-admin.texi:3967
-#: R-admin.texi:3968
+#: R-admin.texi:3937 R-admin.texi:3956 R-admin.texi:3967 R-admin.texi:3968
 #: R-admin.texi:3998
 #, no-wrap
 msgid "Compilation flags"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:3937
-#: R-admin.texi:3967
-#: R-admin.texi:3998
-#: R-admin.texi:3999
+#: R-admin.texi:3937 R-admin.texi:3967 R-admin.texi:3998 R-admin.texi:3999
 #, no-wrap
 msgid "Making manuals"
 msgstr ""
@@ -5196,7 +4840,7 @@ msgstr ""
 #: R-admin.texi:3952
 #, no-wrap
 msgid "PAPERSIZE"
-msgstr ""
+msgstr "PAPERSIZE"
 
 #. type: Plain text
 #: R-admin.texi:3955
@@ -5207,7 +4851,7 @@ msgstr ""
 #: R-admin.texi:3959
 #, no-wrap
 msgid "R_BROWSER"
-msgstr ""
+msgstr "R_BROWSER"
 
 #. type: Plain text
 #: R-admin.texi:3963
@@ -5218,7 +4862,7 @@ msgstr ""
 #: R-admin.texi:3964
 #, no-wrap
 msgid "R_PDFVIEWER"
-msgstr ""
+msgstr "R_PDFVIEWER"
 
 #. type: Plain text
 #: R-admin.texi:3966
@@ -5249,7 +4893,7 @@ msgstr ""
 #: R-admin.texi:4018
 #, no-wrap
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #. type: Plain text
 #: R-admin.texi:4025
@@ -5275,7 +4919,7 @@ msgstr ""
 #: R-admin.texi:4039
 #, no-wrap
 msgid "./configure MAKE=gmake\n"
-msgstr ""
+msgstr "./configure MAKE=gmake\n"
 
 #. type: cindex
 #: R-admin.texi:4043
@@ -5284,9 +4928,7 @@ msgid "FORTRAN"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:4047
-#: R-admin.texi:4122
-#: R-admin.texi:4123
+#: R-admin.texi:4047 R-admin.texi:4122 R-admin.texi:4123
 #, no-wrap
 msgid "Using gfortran"
 msgstr ""
@@ -5345,19 +4987,19 @@ msgstr ""
 #: R-admin.texi:4104
 #, no-wrap
 msgid "F2C"
-msgstr ""
+msgstr "F2C"
 
 #. type: enindex
 #: R-admin.texi:4105
 #, no-wrap
 msgid "F2CLIBS"
-msgstr ""
+msgstr "F2CLIBS"
 
 #. type: enindex
 #: R-admin.texi:4106
 #, no-wrap
 msgid "CC"
-msgstr ""
+msgstr "CC"
 
 #. type: Plain text
 #: R-admin.texi:4108
@@ -5368,7 +5010,7 @@ msgstr ""
 #: R-admin.texi:4108
 #, no-wrap
 msgid "CPP"
-msgstr ""
+msgstr "CPP"
 
 #. type: Plain text
 #: R-admin.texi:4115
@@ -5376,11 +5018,10 @@ msgid "@env{CPP}.)  You will need to ensure that the FORTRAN type @code{integer}
 msgstr ""
 
 #. type: item
-#: R-admin.texi:4115
-#: R-admin.texi:4186
+#: R-admin.texi:4115 R-admin.texi:4186
 #, no-wrap
 msgid "FPICFLAGS"
-msgstr ""
+msgstr "FPICFLAGS"
 
 #. type: Plain text
 #: R-admin.texi:4120
@@ -5411,7 +5052,7 @@ msgstr ""
 #: R-admin.texi:4152
 #, no-wrap
 msgid "CPPFLAGS"
-msgstr ""
+msgstr "CPPFLAGS"
 
 #. type: table
 #: R-admin.texi:4155
@@ -5422,7 +5063,7 @@ msgstr ""
 #: R-admin.texi:4155
 #, no-wrap
 msgid "LDFLAGS"
-msgstr ""
+msgstr "LDFLAGS"
 
 #. type: table
 #: R-admin.texi:4158
@@ -5438,7 +5079,7 @@ msgstr ""
 #: R-admin.texi:4164
 #, no-wrap
 msgid "CFLAGS"
-msgstr ""
+msgstr "CFLAGS"
 
 #. type: table
 #: R-admin.texi:4166
@@ -5449,11 +5090,10 @@ msgstr ""
 #: R-admin.texi:4166
 #, no-wrap
 msgid "MAIN_CFLAGS"
-msgstr ""
+msgstr "MAIN_CFLAGS"
 
 #. type: table
-#: R-admin.texi:4168
-#: R-admin.texi:4176
+#: R-admin.texi:4168 R-admin.texi:4176
 msgid "ditto, for compiling the main program"
 msgstr ""
 
@@ -5461,11 +5101,10 @@ msgstr ""
 #: R-admin.texi:4168
 #, no-wrap
 msgid "SHLIB_CFLAGS"
-msgstr ""
+msgstr "SHLIB_CFLAGS"
 
 #. type: table
-#: R-admin.texi:4170
-#: R-admin.texi:4178
+#: R-admin.texi:4170 R-admin.texi:4178
 msgid "for shared objects"
 msgstr ""
 
@@ -5473,7 +5112,7 @@ msgstr ""
 #: R-admin.texi:4170
 #, no-wrap
 msgid "FFLAGS"
-msgstr ""
+msgstr "FFLAGS"
 
 #. type: table
 #: R-admin.texi:4172
@@ -5484,7 +5123,7 @@ msgstr ""
 #: R-admin.texi:4172
 #, no-wrap
 msgid "SAFE_FFLAGS"
-msgstr ""
+msgstr "SAFE_FFLAGS"
 
 #. type: table
 #: R-admin.texi:4174
@@ -5495,7 +5134,7 @@ msgstr ""
 #: R-admin.texi:4174
 #, no-wrap
 msgid "MAIN_FFLAGS"
-msgstr ""
+msgstr "MAIN_FFLAGS"
 
 #. type: item
 #: R-admin.texi:4176
@@ -5507,7 +5146,7 @@ msgstr ""
 #: R-admin.texi:4178
 #, no-wrap
 msgid "MAIN_LDFLAGS"
-msgstr ""
+msgstr "MAIN_LDFLAGS"
 
 #. type: table
 #: R-admin.texi:4180
@@ -5518,7 +5157,7 @@ msgstr ""
 #: R-admin.texi:4180
 #, no-wrap
 msgid "SHLIB_LDFLAGS"
-msgstr ""
+msgstr "SHLIB_LDFLAGS"
 
 #. type: table
 #: R-admin.texi:4182
@@ -5529,7 +5168,7 @@ msgstr ""
 #: R-admin.texi:4182
 #, no-wrap
 msgid "LIBnn"
-msgstr ""
+msgstr "LIBnn"
 
 #. type: table
 #: R-admin.texi:4184
@@ -5540,7 +5179,7 @@ msgstr ""
 #: R-admin.texi:4184
 #, no-wrap
 msgid "CPICFLAGS"
-msgstr ""
+msgstr "CPICFLAGS"
 
 #. type: table
 #: R-admin.texi:4186
@@ -5556,7 +5195,7 @@ msgstr ""
 #: R-admin.texi:4188
 #, no-wrap
 msgid "CXXPICFLAGS"
-msgstr ""
+msgstr "CXXPICFLAGS"
 
 #. type: table
 #: R-admin.texi:4190
@@ -5567,7 +5206,7 @@ msgstr ""
 #: R-admin.texi:4190
 #, no-wrap
 msgid "FCPICFLAGS"
-msgstr ""
+msgstr "FCPICFLAGS"
 
 #. type: table
 #: R-admin.texi:4192
@@ -5578,7 +5217,7 @@ msgstr ""
 #: R-admin.texi:4192
 #, no-wrap
 msgid "DEFS"
-msgstr ""
+msgstr "DEFS"
 
 #. type: table
 #: R-admin.texi:4194
@@ -5676,65 +5315,54 @@ msgid ""
 "Solaris: __sun, sun\n"
 "Windows: _WIN32, _WIN64\n"
 msgstr ""
+"AIX: _AIX\n"
+"Cygwin: __CYGWIN__\n"
+"FreeBSD: __FreeBSD__\n"
+"HP-UX: __hpux__, __hpux\n"
+"IRIX: sgi, __sgi\n"
+"Linux: __linux__\n"
+"OS X: __APPLE__\n"
+"NetBSD: __NetBSD__\n"
+"OpenBSD: __OpenBSD__\n"
+"Solaris: __sun, sun\n"
+"Windows: _WIN32, _WIN64\n"
 
 #. type: node
-#: R-admin.texi:4306
-#: R-admin.texi:4308
-#: R-admin.texi:4309
-#: R-admin.texi:4396
+#: R-admin.texi:4306 R-admin.texi:4308 R-admin.texi:4309 R-admin.texi:4396
 #, no-wrap
 msgid "X11 issues"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306
-#: R-admin.texi:4601
-#: R-admin.texi:4945
-#: R-admin.texi:4946
-#: R-admin.texi:4947
-#: R-admin.texi:5160
-#: R-admin.texi:5232
+#: R-admin.texi:4306 R-admin.texi:4601 R-admin.texi:4945 R-admin.texi:4946
+#: R-admin.texi:4947 R-admin.texi:5160 R-admin.texi:5232
 #, no-wrap
 msgid "Solaris"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306
-#: R-admin.texi:4945
-#: R-admin.texi:5232
-#: R-admin.texi:5233
-#: R-admin.texi:5234
-#: R-admin.texi:5379
+#: R-admin.texi:4306 R-admin.texi:4945 R-admin.texi:5232 R-admin.texi:5233
+#: R-admin.texi:5234 R-admin.texi:5379
 #, no-wrap
 msgid "AIX"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306
-#: R-admin.texi:5232
-#: R-admin.texi:5379
-#: R-admin.texi:5380
-#: R-admin.texi:5381
-#: R-admin.texi:5385
+#: R-admin.texi:4306 R-admin.texi:5232 R-admin.texi:5379 R-admin.texi:5380
+#: R-admin.texi:5381 R-admin.texi:5385
 #, no-wrap
 msgid "FreeBSD"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4306
-#: R-admin.texi:5379
-#: R-admin.texi:5385
-#: R-admin.texi:5386
+#: R-admin.texi:4306 R-admin.texi:5379 R-admin.texi:5385 R-admin.texi:5386
 #: R-admin.texi:5440
 #, no-wrap
 msgid "Cygwin"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:4306
-#: R-admin.texi:5385
-#: R-admin.texi:5440
-#: R-admin.texi:5441
+#: R-admin.texi:4306 R-admin.texi:5385 R-admin.texi:5440 R-admin.texi:5441
 #, no-wrap
 msgid "New platforms"
 msgstr ""
@@ -5764,6 +5392,11 @@ msgid ""
 "xorg-x11-fonts-Type1\n"
 "xorg-x11-fonts-cyrillic\n"
 msgstr ""
+"xorg-x11-fonts-75dpi\n"
+"xorg-x11-fonts-100dpi\n"
+"xorg-x11-fonts-ISO8859-2-75dpi\n"
+"xorg-x11-fonts-Type1\n"
+"xorg-x11-fonts-cyrillic\n"
 
 #. type: Plain text
 #: R-admin.texi:4344
@@ -5779,7 +5412,7 @@ msgstr ""
 #: R-admin.texi:4356
 #, no-wrap
 msgid "\"-adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*\"\n"
-msgstr ""
+msgstr "\"-adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*\"\n"
 
 #. type: Plain text
 #: R-admin.texi:4364
@@ -5803,6 +5436,8 @@ msgid ""
 "/usr/share/fonts/default/Type1\n"
 "/usr/share/fonts/ja/TrueType\n"
 msgstr ""
+"/usr/share/fonts/default/Type1\n"
+"/usr/share/fonts/ja/TrueType\n"
 
 #. type: Plain text
 #: R-admin.texi:4402
@@ -5822,6 +5457,9 @@ msgid ""
 "  External libraries:        readline, zlib, bzlib, lzma, PCRE, curl\n"
 "  Additional capabilities:   PNG, JPEG, TIFF, NLS, cairo, ICU\n"
 msgstr ""
+"  Interfaces supported:      X11, tcltk\n"
+"  External libraries:        readline, zlib, bzlib, lzma, PCRE, curl\n"
+"  Additional capabilities:   PNG, JPEG, TIFF, NLS, cairo, ICU\n"
 
 #. type: Plain text
 #: R-admin.texi:4424
@@ -5847,7 +5485,7 @@ msgstr ""
 #: R-admin.texi:4452
 #, no-wrap
 msgid "LDFLAGS=\"-L/usr/local/lib64 -L/usr/local/lib\"\n"
-msgstr ""
+msgstr "LDFLAGS=\"-L/usr/local/lib64 -L/usr/local/lib\"\n"
 
 #. type: Plain text
 #: R-admin.texi:4458
@@ -5866,6 +5504,13 @@ msgid ""
 "LDFLAGS=\"-L/usr/local/lib\"\n"
 "LIBnn=lib\n"
 msgstr ""
+"CC=\"gcc -m32\"\n"
+"CXX=\"g++ -m32\"\n"
+"F77=\"gfortran -m32\"\n"
+"FC=$@{F77@}\n"
+"OBJC=$@{CC@}\n"
+"LDFLAGS=\"-L/usr/local/lib\"\n"
+"LIBnn=lib\n"
 
 #. type: Plain text
 #: R-admin.texi:4475
@@ -5876,7 +5521,7 @@ msgstr ""
 #: R-admin.texi:4478
 #, no-wrap
 msgid "export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig\n"
-msgstr ""
+msgstr "export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/usr/lib/pkgconfig\n"
 
 #. type: Plain text
 #: R-admin.texi:4483
@@ -5899,6 +5544,12 @@ msgid ""
 "CFLAGS=\"-mminimal-toc -fno-optimize-sibling-calls -g -O2\"\n"
 "FFLAGS=\"-mminimal-toc -fno-optimize-sibling-calls -g -O2\"\n"
 msgstr ""
+"CC=\"gcc -m64\"\n"
+"CXX=\"gxx -m64\"\n"
+"F77=\"gfortran -m64\"\n"
+"FC=\"gfortran -m64\"\n"
+"CFLAGS=\"-mminimal-toc -fno-optimize-sibling-calls -g -O2\"\n"
+"FFLAGS=\"-mminimal-toc -fno-optimize-sibling-calls -g -O2\"\n"
 
 #. type: Plain text
 #: R-admin.texi:4499
@@ -5906,29 +5557,20 @@ msgid "the additional flags being needed to resolve problems linking against @fi
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4504
-#: R-admin.texi:4506
-#: R-admin.texi:4507
-#: R-admin.texi:4524
+#: R-admin.texi:4504 R-admin.texi:4506 R-admin.texi:4507 R-admin.texi:4524
 #, no-wrap
 msgid "Clang"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4504
-#: R-admin.texi:4506
-#: R-admin.texi:4524
-#: R-admin.texi:4525
+#: R-admin.texi:4504 R-admin.texi:4506 R-admin.texi:4524 R-admin.texi:4525
 #: R-admin.texi:4562
 #, no-wrap
 msgid "Intel compilers"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:4504
-#: R-admin.texi:4524
-#: R-admin.texi:4562
-#: R-admin.texi:4563
+#: R-admin.texi:4504 R-admin.texi:4524 R-admin.texi:4562 R-admin.texi:4563
 #, no-wrap
 msgid "Oracle Solaris Studio compilers"
 msgstr ""
@@ -5970,6 +5612,18 @@ msgid ""
 "LDFLAGS=\"-L$ICC_LIBS -L$IFC_LIBS -L/usr/local/lib64\"\n"
 "SHLIB_CXXLD=icpc\n"
 msgstr ""
+"CC=icc\n"
+"CFLAGS=\"-g -O3 -wd188 -ip -mp\"\n"
+"F77=ifort\n"
+"FLAGS=\"-g -O3 -mp\"\n"
+"CXX=icpc\n"
+"CXXFLAGS=\"-g -O3 -mp\"\n"
+"FC=ifort\n"
+"FCFLAGS=\"-g -O3 -mp\"\n"
+"ICC_LIBS=/opt/compilers/intel/cce/9.1.039/lib\n"
+"IFC_LIBS=/opt/compilers/intel/fce/9.1.033/lib\n"
+"LDFLAGS=\"-L$ICC_LIBS -L$IFC_LIBS -L/usr/local/lib64\"\n"
+"SHLIB_CXXLD=icpc\n"
 
 #. type: Plain text
 #: R-admin.texi:4553
@@ -6013,6 +5667,23 @@ msgid ""
 "SHLIB_FCLDFLAGS=-G\n"
 "SAFE_FFLAGS=\"-O5 -libmil\"\n"
 msgstr ""
+"CC=suncc\n"
+"CFLAGS=\"-xO5 -xc99 -xlibmil -nofstore\"\n"
+"CPICFLAGS=-Kpic\n"
+"F77=sunf95\n"
+"FFLAGS=\"-O5 -libmil -nofstore\"\n"
+"FPICFLAGS=-Kpic\n"
+"CXX=\"sunCC -library=stlport4\"\n"
+"CXXFLAGS=\"-xO5 -xlibmil -nofstore -features=tmplrefstatic\"\n"
+"CXXPICFLAGS=-Kpic\n"
+"FC=sunf95\n"
+"FCFLAGS=$FFLAGS\n"
+"FCPICFLAGS=-Kpic\n"
+"LDFLAGS=-L/opt/sunstudio12.1/rtlibs/amd64\n"
+"SHLIB_LDFLAGS=-shared\n"
+"SHLIB_CXXLDFLAGS=-G\n"
+"SHLIB_FCLDFLAGS=-G\n"
+"SAFE_FFLAGS=\"-O5 -libmil\"\n"
 
 #. type: Plain text
 #: R-admin.texi:4595
@@ -6069,6 +5740,16 @@ msgid ""
 "F77FLAGS=-Wall -g -O2\n"
 "FCFLAGS=$F77FLAGS\n"
 msgstr ""
+"CC=clang\n"
+"CXX=clang++\n"
+"F77=gfortran-4.8\n"
+"FC=$F77\n"
+"OBJC=clang\n"
+"CFLAGS=-Wall -mtune=core2 -g -O2\n"
+"CXXFLAGS=-Wall -mtune=core2 -g -O2'\n"
+"OBJCFLAGS=-Wall -mtune=core2 -g -O2\n"
+"F77FLAGS=-Wall -g -O2\n"
+"FCFLAGS=$F77FLAGS\n"
 
 #. type: Plain text
 #: R-admin.texi:4661
@@ -6089,7 +5770,7 @@ msgstr ""
 #: R-admin.texi:4675
 #, no-wrap
 msgid "--with-blas=\"-framework Accelerate\" --with-lapack\n"
-msgstr ""
+msgstr "--with-blas=\"-framework Accelerate\" --with-lapack\n"
 
 #. type: Plain text
 #: R-admin.texi:4681
@@ -6105,7 +5786,7 @@ msgstr ""
 #: R-admin.texi:4688
 #, no-wrap
 msgid "--enable-memory-profiling\n"
-msgstr ""
+msgstr "--enable-memory-profiling\n"
 
 #. type: Plain text
 #: R-admin.texi:4691
@@ -6128,48 +5809,33 @@ msgid "One OS X quirk is that the default path has @file{/usr/local/bin} after @
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721
-#: R-admin.texi:4723
-#: R-admin.texi:4724
-#: R-admin.texi:4783
+#: R-admin.texi:4721 R-admin.texi:4723 R-admin.texi:4724 R-admin.texi:4783
 #, no-wrap
 msgid "Mavericks and later"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721
-#: R-admin.texi:4723
-#: R-admin.texi:4783
-#: R-admin.texi:4784
+#: R-admin.texi:4721 R-admin.texi:4723 R-admin.texi:4783 R-admin.texi:4784
 #: R-admin.texi:4825
 #, no-wrap
 msgid "Tcl/Tk headers and libraries"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721
-#: R-admin.texi:4783
-#: R-admin.texi:4825
-#: R-admin.texi:4887
+#: R-admin.texi:4721 R-admin.texi:4783 R-admin.texi:4825 R-admin.texi:4887
 #, no-wrap
 msgid "Java (OS X)"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:4721
-#: R-admin.texi:4825
-#: R-admin.texi:4887
-#: R-admin.texi:4888
+#: R-admin.texi:4721 R-admin.texi:4825 R-admin.texi:4887 R-admin.texi:4888
 #: R-admin.texi:4917
 #, no-wrap
 msgid "Frameworks"
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:4721
-#: R-admin.texi:4887
-#: R-admin.texi:4917
-#: R-admin.texi:4918
+#: R-admin.texi:4721 R-admin.texi:4887 R-admin.texi:4917 R-admin.texi:4918
 #, no-wrap
 msgid "Building R.app"
 msgstr ""
@@ -6199,6 +5865,11 @@ msgid ""
 "FC=$F77\n"
 "OBJC=clang\n"
 msgstr ""
+"CC=clang\n"
+"CXX=clang++\n"
+"F77=gfortran-4.8\n"
+"FC=$F77\n"
+"OBJC=clang\n"
 
 #. type: Plain text
 #: R-admin.texi:4750
@@ -6217,6 +5888,8 @@ msgid ""
 "export PKG_CONFIG_PATH= \\\n"
 "  /opt/X11/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig\n"
 msgstr ""
+"export PKG_CONFIG_PATH= \\\n"
+"  /opt/X11/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig\n"
 
 #. type: Plain text
 #: R-admin.texi:4763
@@ -6227,11 +5900,10 @@ msgstr ""
 #: R-admin.texi:4765
 #, no-wrap
 msgid "PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig\n"
-msgstr ""
+msgstr "PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig\n"
 
 #. type: Plain text
-#: R-admin.texi:4769
-#: R-admin.texi:4882
+#: R-admin.texi:4769 R-admin.texi:4882
 msgid "in @file{config.site}."
 msgstr ""
 
@@ -6259,7 +5931,7 @@ msgstr ""
 #: R-admin.texi:4793
 #, no-wrap
 msgid "-with-tcltk=/usr/local/lib\n"
-msgstr ""
+msgstr "-with-tcltk=/usr/local/lib\n"
 
 #. type: example
 #: R-admin.texi:4798
@@ -6286,6 +5958,8 @@ msgid ""
 "--with-tcl-config=/Library/Frameworks/Tcl.framework/tclConfig.sh \n"
 "--with-tk-config=/Library/Frameworks/Tk.framework/tkConfig.sh\n"
 msgstr ""
+"--with-tcl-config=/Library/Frameworks/Tcl.framework/tclConfig.sh \n"
+"--with-tk-config=/Library/Frameworks/Tk.framework/tkConfig.sh\n"
 
 #. type: Plain text
 #: R-admin.texi:4818
@@ -6304,6 +5978,8 @@ msgid ""
 "library(tcltk)\n"
 "tclvalue(.Tcl(\"tk windowingsystem\"))  # \"x11\" or \"aqua\"\n"
 msgstr ""
+"library(tcltk)\n"
+"tclvalue(.Tcl(\"tk windowingsystem\"))  # \"x11\" or \"aqua\"\n"
 
 #. type: subsection
 #: R-admin.texi:4826
@@ -6355,6 +6031,10 @@ msgid ""
 "JAVA_LD_LIBRARY_PATH=\n"
 "JAVA_LIBS=\"-framework JavaVM\"\n"
 msgstr ""
+"JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home\n"
+"JAVA_CPPFLAGS=\"-I/System/Library/Frameworks/JavaVM.framework/Headers\"\n"
+"JAVA_LD_LIBRARY_PATH=\n"
+"JAVA_LIBS=\"-framework JavaVM\"\n"
 
 #. type: Plain text
 #: R-admin.texi:4870
@@ -6365,7 +6045,7 @@ msgstr ""
 #: R-admin.texi:4872
 #, no-wrap
 msgid "JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_43-b01-447.jdk/Contents/Home\n"
-msgstr ""
+msgstr "JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_43-b01-447.jdk/Contents/Home\n"
 
 #. type: Plain text
 #: R-admin.texi:4875
@@ -6381,6 +6061,10 @@ msgid ""
 "JAVA_LD_LIBRARY_PATH=\"$@{JAVA_HOME@}/jre/lib/server\"\n"
 "JAVA_LIBS=\"-L/$@{JAVA_HOME@}/jre/lib/server -ljvm\" \n"
 msgstr ""
+"JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home\n"
+"JAVA_CPPFLAGS=\"-I/$@{JAVA_HOME@}/include -I/$@{JAVA_HOME@}/include/darwin\"\n"
+"JAVA_LD_LIBRARY_PATH=\"$@{JAVA_HOME@}/jre/lib/server\"\n"
+"JAVA_LIBS=\"-L/$@{JAVA_HOME@}/jre/lib/server -ljvm\" \n"
 
 #. type: Plain text
 #: R-admin.texi:4885
@@ -6396,7 +6080,7 @@ msgstr ""
 #: R-admin.texi:4895
 #, no-wrap
 msgid "./configure --enable-R-framework\n"
-msgstr ""
+msgstr "./configure --enable-R-framework\n"
 
 #. type: Plain text
 #: R-admin.texi:4899
@@ -6412,7 +6096,7 @@ msgstr ""
 #: R-admin.texi:4910
 #, no-wrap
 msgid "make prefix=/where/you/want/R.framework/to/go install\n"
-msgstr ""
+msgstr "make prefix=/where/you/want/R.framework/to/go install\n"
 
 #. type: Plain text
 #: R-admin.texi:4916
@@ -6433,7 +6117,7 @@ msgstr ""
 #: R-admin.texi:4928
 #, no-wrap
 msgid "svn co https://svn.r-project.org/R-packages/trunk/Mac-GUI\n"
-msgstr ""
+msgstr "svn co https://svn.r-project.org/R-packages/trunk/Mac-GUI\n"
 
 #. type: Plain text
 #: R-admin.texi:4933
@@ -6444,7 +6128,7 @@ msgstr ""
 #: R-admin.texi:4935
 #, no-wrap
 msgid "xcodebuild -target R -configuration Release\n"
-msgstr ""
+msgstr "xcodebuild -target R -configuration Release\n"
 
 #. type: Plain text
 #: R-admin.texi:4938
@@ -6515,7 +6199,7 @@ msgstr ""
 #: R-admin.texi:5008
 #, no-wrap
 msgid "INTERNET_LIBS=\"-lsocket -lnsl\"\n"
-msgstr ""
+msgstr "INTERNET_LIBS=\"-lsocket -lnsl\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5013
@@ -6542,6 +6226,16 @@ msgid ""
 "FCLIBS=\"-lfai -lfsu\"\n"
 "R_LD_LIBRARY_PATH=\"/usr/local/lib:/opt/csw/gcc4/lib:/opt/csw/lib\"\n"
 msgstr ""
+"CC=\"cc -xc99\"\n"
+"CFLAGS=\"-O -xlibmieee\"\n"
+"F77=f95\n"
+"FFLAGS=-O\n"
+"CXX=\"CC -library=stlport4\"\n"
+"CXXFLAGS=-O\n"
+"FC=f95\n"
+"FCFLAGS=$FFLAGS\n"
+"FCLIBS=\"-lfai -lfsu\"\n"
+"R_LD_LIBRARY_PATH=\"/usr/local/lib:/opt/csw/gcc4/lib:/opt/csw/lib\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5037
@@ -6555,6 +6249,8 @@ msgid ""
 "PKG_CONFIG_PATH=/opt/csw/lib/amd64/pkgconfig:/usr/lib/amd64/pkgconfig\n"
 "PKG_CONFIG_PATH=/opt/csw/lib/sparcv9/pkgconfig:/usr/lib/sparcv9/pkgconfig\n"
 msgstr ""
+"PKG_CONFIG_PATH=/opt/csw/lib/amd64/pkgconfig:/usr/lib/amd64/pkgconfig\n"
+"PKG_CONFIG_PATH=/opt/csw/lib/sparcv9/pkgconfig:/usr/lib/sparcv9/pkgconfig\n"
 
 #. type: Plain text
 #: R-admin.texi:5045
@@ -6570,6 +6266,10 @@ msgid ""
 "JAVA_LIBS=\"-L$@{JAVA_HOME@}/lib/amd64/server \\\n"
 "  -R$@{JAVA_HOME@}/lib/amd64/server -ljvm\"\n"
 msgstr ""
+"JAVA_CPPFLAGS=\"-I$@{JAVA_HOME@}/../include -I$@{JAVA_HOME@}/../include/solaris\"\n"
+"JAVA_LD_LIBRARY_PATH=$@{JAVA_HOME@}/lib/amd64/server\n"
+"JAVA_LIBS=\"-L$@{JAVA_HOME@}/lib/amd64/server \\\n"
+"  -R$@{JAVA_HOME@}/lib/amd64/server -ljvm\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5054
@@ -6580,7 +6280,7 @@ msgstr ""
 #: R-admin.texi:5057
 #, no-wrap
 msgid "FCLIBS=\"-lfai -lfai2 -lfsu\"\n"
-msgstr ""
+msgstr "FCLIBS=\"-lfai -lfai2 -lfsu\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5062
@@ -6600,6 +6300,9 @@ msgid ""
 "  /opt/solarisstudio12.3/lib/amd64/libfui.so\n"
 "  /opt/solarisstudio12.3/lib/amd64/libfsu.so\"\n"
 msgstr ""
+"FLIBS_IN_SO=\"-R/opt/solarisstudio12.3/lib/amd64\n"
+"  /opt/solarisstudio12.3/lib/amd64/libfui.so\n"
+"  /opt/solarisstudio12.3/lib/amd64/libfsu.so\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5080
@@ -6615,6 +6318,10 @@ msgid ""
 " -lfminvai -lfmaxvai -lfui -lsunmath -lmtsk\n"
 " /opt/solarisstudio12.3/prod/lib/sparc/64/libfsu.so.1\"\n"
 msgstr ""
+"FLIBS=\"-R/opt/solarisstudio12.3/prod/lib/sparc/64\n"
+" -lifai -lsunimath -lfai -lfai2 -lfsumai -lfprodai -lfminlai -lfmaxlai\n"
+" -lfminvai -lfmaxvai -lfui -lsunmath -lmtsk\n"
+" /opt/solarisstudio12.3/prod/lib/sparc/64/libfsu.so.1\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5090
@@ -6645,6 +6352,10 @@ msgid ""
 "CXXFLAGS=\"-xO5 -xlibmil -nofstore -xtarget=native\"\n"
 "SAFE_FFLAGS=\"-libmil -fstore -xtarget=native\"\n"
 msgstr ""
+"CFLAGS=\"-xO5 -xc99 -xlibmieee -xlibmil -nofstore -xtarget=native\"\n"
+"FFLAGS=\"-O5 -libmil -nofstore -xtarget=native\"\n"
+"CXXFLAGS=\"-xO5 -xlibmil -nofstore -xtarget=native\"\n"
+"SAFE_FFLAGS=\"-libmil -fstore -xtarget=native\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5112
@@ -6665,7 +6376,7 @@ msgstr ""
 #: R-admin.texi:5131
 #, no-wrap
 msgid "CXXFLAGS=\"-features=tmplrefstatic\"\n"
-msgstr ""
+msgstr "CXXFLAGS=\"-features=tmplrefstatic\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5140
@@ -6676,7 +6387,7 @@ msgstr ""
 #: R-admin.texi:5143
 #, no-wrap
 msgid "./configure --with-blas='-library=sunperf' --with-lapack\n"
-msgstr ""
+msgstr "./configure --with-blas='-library=sunperf' --with-lapack\n"
 
 #. type: Plain text
 #: R-admin.texi:5150
@@ -6689,9 +6400,7 @@ msgid "Parsing very complex @R{} expressions needs a lot of stack space when the
 msgstr ""
 
 #. type: subsection
-#: R-admin.texi:5158
-#: R-admin.texi:5160
-#: R-admin.texi:5161
+#: R-admin.texi:5158 R-admin.texi:5160 R-admin.texi:5161
 #, no-wrap
 msgid "Using gcc"
 msgstr ""
@@ -6718,6 +6427,8 @@ msgid ""
 "CPPFLAGS=-I/opt/csw/include\n"
 "LDFLAGS=\"-L/opt/csw/gcc4/lib -L/opt/csw/lib\"\n"
 msgstr ""
+"CPPFLAGS=-I/opt/csw/include\n"
+"LDFLAGS=\"-L/opt/csw/gcc4/lib -L/opt/csw/lib\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5183
@@ -6735,6 +6446,12 @@ msgid ""
 "CPPFLAGS=-I/opt/csw/include\n"
 "LDFLAGS=\"-L/opt/csw/gcc4/lib/sparcv9 -L/opt/csw/lib/sparcv9\"\n"
 msgstr ""
+"CC=\"gcc -m64\"\n"
+"F77=\"gfortran -m64\"\n"
+"CXX=\"g++ -m64\"\n"
+"FC=$F77\n"
+"CPPFLAGS=-I/opt/csw/include\n"
+"LDFLAGS=\"-L/opt/csw/gcc4/lib/sparcv9 -L/opt/csw/lib/sparcv9\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5195
@@ -6767,6 +6484,12 @@ msgid ""
 "FC=\"/opt/csw/gcc4/bin/gfortran -m32\"\n"
 "LDFLAGS=\"-L/opt/csw/gcc4/lib -L/opt/csw/lib -L/usr/local/lib\"\n"
 msgstr ""
+"CC=\"/opt/csw/gcc4/bin/gcc -m32\"\n"
+"CPPFLAGS=\"-I/opt/csw/include -I/usr/local/include\"\n"
+"F77=\"/opt/csw/gcc4/bin/gfortran -m32\"\n"
+"CXX=\"/opt/csw/gcc4/bin/g++ -m32\"\n"
+"FC=\"/opt/csw/gcc4/bin/gfortran -m32\"\n"
+"LDFLAGS=\"-L/opt/csw/gcc4/lib -L/opt/csw/lib -L/usr/local/lib\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5217
@@ -6791,6 +6514,14 @@ msgid ""
 "FCPICFLAGS=$FPICFLAGS\n"
 "LDFLAGS=\"-L/opt/csw/gcc4/lib/amd64 -L/opt/csw/lib/amd64\"\n"
 msgstr ""
+"CC=\"/opt/csw/gcc4/bin/gcc -m64\"\n"
+"CPPFLAGS=\"-I/opt/csw/include -I/usr/local/include\"\n"
+"F77=\"/opt/csw/gcc4/bin/gfortran -m64\"\n"
+"FPICFLAGS=-fPIC\n"
+"CXX=\"/opt/csw/gcc4/bin/g++ -m64\"\n"
+"FC=$F77\n"
+"FCPICFLAGS=$FPICFLAGS\n"
+"LDFLAGS=\"-L/opt/csw/gcc4/lib/amd64 -L/opt/csw/lib/amd64\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5238
@@ -6812,6 +6543,11 @@ msgid ""
 "F77=\"gfortran -maix64\"\n"
 "FC=\"gfortran -maix64\"\n"
 msgstr ""
+"OBJECT_MODE=64\n"
+"CC=\"gcc -maix64\"\n"
+"CXX=\"g++ -maix64\"\n"
+"F77=\"gfortran -maix64\"\n"
+"FC=\"gfortran -maix64\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5255
@@ -6829,6 +6565,12 @@ msgid ""
 "FC=\"f90 -cpu=pwr4 -hf77 -parallel=0 -i,L -O3 -64\"\n"
 "FLIBS=\"-L/opt/ofort90/lib -lhf90vecmath -lhf90math -lf90\"\n"
 msgstr ""
+"OBJECT_MODE=64\n"
+"CC=\"xlc -q64\"\n"
+"CXX=\"g++ -maix64\"\n"
+"F77=\"f90 -cpu=pwr4 -hf77 -parallel=0 -i,L -O3 -64\"\n"
+"FC=\"f90 -cpu=pwr4 -hf77 -parallel=0 -i,L -O3 -64\"\n"
+"FLIBS=\"-L/opt/ofort90/lib -lhf90vecmath -lhf90math -lf90\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5269
@@ -6860,12 +6602,22 @@ msgid ""
 "CPPFLAGS=\"-I$LIBICONV/include -I/usr/lpp/X11/include/X11\"\n"
 "LDFLAGS=\"-L$LIBICONV/lib -L/usr/lib -L/usr/X11R6/lib\"\n"
 msgstr ""
+"OBJECT_MODE=64\n"
+"LIBICONV=@var{/where/libiconv/installed}\n"
+"CC=\"xlc_r -q64\" \n"
+"CFLAGS=\"-O -qstrict\"\n"
+"CXX=\"xlC_r -q64\"\n"
+"CXXFLAGS=\"-O -qstrict\"\n"
+"F77=\"xlf_r -q64\"\n"
+"AR=\"ar -X64\"\n"
+"CPPFLAGS=\"-I$LIBICONV/include -I/usr/lpp/X11/include/X11\"\n"
+"LDFLAGS=\"-L$LIBICONV/lib -L/usr/lib -L/usr/X11R6/lib\"\n"
 
 #. type: enindex
 #: R-admin.texi:5290
 #, no-wrap
 msgid "R_SHELL"
-msgstr ""
+msgstr "R_SHELL"
 
 #. type: Plain text
 #: R-admin.texi:5293
@@ -6909,6 +6661,13 @@ msgid ""
 "FFLAGS=\"-O2 -g -mcpu=power6\"\n"
 "FCFLAGS=\"-O2 -g -mcpu=power6\"\n"
 msgstr ""
+"CC =\"gcc -maix64 -pthread\"\n"
+"CXX=\"g++ -maix64 -pthread\"\n"
+"FC=\"gfortran -maix64 -pthread\"\n"
+"F77=\"gfortran -maix64 -pthread\"\n"
+"CFLAGS=\"-O2 -g -mcpu=power6\"\n"
+"FFLAGS=\"-O2 -g -mcpu=power6\"\n"
+"FCFLAGS=\"-O2 -g -mcpu=power6\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5348
@@ -6928,6 +6687,14 @@ msgid ""
 "FCFLAGS=\"-qarch=auto -qcache=auto -qtune=auto -O3 -qstrict\"\n"
 "CXXFLAGS=\"-qarch=auto -qcache=auto -qtune=auto -O3 -qstrict\"\n"
 msgstr ""
+"CC=xlc\n"
+"CXX=xlc++\n"
+"FC=xlf\n"
+"F77=xlf\n"
+"CFLAGS=\"-qarch=auto -qcache=auto -qtune=auto -O3 -qstrict -ma\"\n"
+"FFLAGS=\"-qarch=auto -qcache=auto -qtune=auto -O3 -qstrict\"\n"
+"FCFLAGS=\"-qarch=auto -qcache=auto -qtune=auto -O3 -qstrict\"\n"
+"CXXFLAGS=\"-qarch=auto -qcache=auto -qtune=auto -O3 -qstrict\"\n"
 
 #. type: Plain text
 #: R-admin.texi:5363
@@ -6938,7 +6705,7 @@ msgstr ""
 #: R-admin.texi:5363
 #, no-wrap
 msgid "OBJECT_MODE"
-msgstr ""
+msgstr "OBJECT_MODE"
 
 #. type: Plain text
 #: R-admin.texi:5369
@@ -6987,6 +6754,8 @@ msgid ""
 "./configure --disable-nls --enable-R-shlib FLIBS=-lgfortran\n"
 "make\n"
 msgstr ""
+"./configure --disable-nls --enable-R-shlib FLIBS=-lgfortran\n"
+"make\n"
 
 #. type: Plain text
 #: R-admin.texi:5416
@@ -7007,7 +6776,7 @@ msgstr ""
 #: R-admin.texi:5429
 #, no-wrap
 msgid "TK_LIB_SPEC='-ltk84'\n"
-msgstr ""
+msgstr "TK_LIB_SPEC='-ltk84'\n"
 
 #. type: Plain text
 #: R-admin.texi:5433
@@ -7105,19 +6874,14 @@ msgid "A complete build of @R{} including PDF manuals, and producing the install
 msgstr ""
 
 #. type: section
-#: R-admin.texi:5548
-#: R-admin.texi:5596
+#: R-admin.texi:5548 R-admin.texi:5596
 #, no-wrap
 msgid "@LaTeX{}"
-msgstr ""
+msgstr "@LaTeX{}"
 
 #. type: node
-#: R-admin.texi:5550
-#: R-admin.texi:5593
-#: R-admin.texi:5595
-#: R-admin.texi:5626
-#: R-admin.texi:5627
-#: R-admin.texi:5638
+#: R-admin.texi:5550 R-admin.texi:5593 R-admin.texi:5595 R-admin.texi:5626
+#: R-admin.texi:5627 R-admin.texi:5638
 #, no-wrap
 msgid "The Inno Setup installer"
 msgstr ""
@@ -7149,6 +6913,8 @@ msgid ""
 "PATH=c:\\Rtools\\bin;c:\\Rtools\\gcc-4.6.3\\bin;c:\\MiKTeX\\miktex\\bin;\n"
 "     c:\\R\\R-3.2\\bin\\i386;c:\\windows;c:\\windows\\system32\n"
 msgstr ""
+"PATH=c:\\Rtools\\bin;c:\\Rtools\\gcc-4.6.3\\bin;c:\\MiKTeX\\miktex\\bin;\n"
+"     c:\\R\\R-3.2\\bin\\i386;c:\\windows;c:\\windows\\system32\n"
 
 #. type: Plain text
 #: R-admin.texi:5579
@@ -7161,38 +6927,27 @@ msgid "Our toolset contains copies of Cygwin DLLs that may conflict with other o
 msgstr ""
 
 #. type: node
-#: R-admin.texi:5593
-#: R-admin.texi:5595
-#: R-admin.texi:5626
+#: R-admin.texi:5593 R-admin.texi:5595 R-admin.texi:5626
 #, no-wrap
 msgid "LaTeX"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:5593
-#: R-admin.texi:5626
-#: R-admin.texi:5638
-#: R-admin.texi:5639
+#: R-admin.texi:5593 R-admin.texi:5626 R-admin.texi:5638 R-admin.texi:5639
 #: R-admin.texi:5695
 #, no-wrap
 msgid "The command line tools"
 msgstr ""
 
 #. type: node
-#: R-admin.texi:5593
-#: R-admin.texi:5638
-#: R-admin.texi:5695
-#: R-admin.texi:5696
+#: R-admin.texi:5593 R-admin.texi:5638 R-admin.texi:5695 R-admin.texi:5696
 #: R-admin.texi:5730
 #, no-wrap
 msgid "The MinGW-w64 toolchain"
 msgstr ""
 
 #. type: section
-#: R-admin.texi:5593
-#: R-admin.texi:5695
-#: R-admin.texi:5730
-#: R-admin.texi:5731
+#: R-admin.texi:5593 R-admin.texi:5695 R-admin.texi:5730 R-admin.texi:5731
 #, no-wrap
 msgid "Useful additional programs"
 msgstr ""
@@ -7257,7 +7012,7 @@ msgstr ""
 #: R-admin.texi:5690
 #, no-wrap
 msgid "CYGWIN"
-msgstr ""
+msgstr "CYGWIN"
 
 #. type: Plain text
 #: R-admin.texi:5694
