@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-28 22:55-0600\n"
+"POT-Creation-Date: 2015-07-29 07:45-0600\n"
 "PO-Revision-Date: 2015-07-29 10:43+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -21,7 +21,9 @@ msgstr ""
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: top
-#: R-data.texi:4 R-data.texi:31 R-data.texi:49
+#: R-data.texi:4
+#: R-data.texi:31
+#: R-data.texi:49
 #, no-wrap
 msgid "R Data Import/Export"
 msgstr "Import/Export Danych do R"
@@ -82,16 +84,30 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-data.texi:48 R-data.texi:73 R-data.texi:112 R-data.texi:449
-#: R-data.texi:983 R-data.texi:1106 R-data.texi:1725 R-data.texi:1797
-#: R-data.texi:1838 R-data.texi:2204 R-data.texi:2246 R-data.texi:2326
-#: R-data.texi:2371 R-data.texi:2376
+#: R-data.texi:48
+#: R-data.texi:73
+#: R-data.texi:112
+#: R-data.texi:449
+#: R-data.texi:983
+#: R-data.texi:1106
+#: R-data.texi:1725
+#: R-data.texi:1797
+#: R-data.texi:1838
+#: R-data.texi:2204
+#: R-data.texi:2246
+#: R-data.texi:2326
+#: R-data.texi:2371
+#: R-data.texi:2376
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-data.texi:48 R-data.texi:71 R-data.texi:73 R-data.texi:74 R-data.texi:112
+#: R-data.texi:48
+#: R-data.texi:71
+#: R-data.texi:73
+#: R-data.texi:74
+#: R-data.texi:112
 #, no-wrap
 msgid "Acknowledgements"
 msgstr ""
@@ -108,89 +124,152 @@ msgid "This is a guide to importing and exporting data to and from R."
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:73 R-data.texi:112 R-data.texi:113
-#: R-data.texi:163 R-data.texi:253 R-data.texi:407 R-data.texi:449
+#: R-data.texi:71
+#: R-data.texi:73
+#: R-data.texi:112
+#: R-data.texi:113
+#: R-data.texi:163
+#: R-data.texi:253
+#: R-data.texi:407
+#: R-data.texi:449
 #, no-wrap
 msgid "Introduction"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:112 R-data.texi:449 R-data.texi:450
-#: R-data.texi:451 R-data.texi:467 R-data.texi:720 R-data.texi:743
-#: R-data.texi:760 R-data.texi:848 R-data.texi:930 R-data.texi:983
+#: R-data.texi:71
+#: R-data.texi:112
+#: R-data.texi:449
+#: R-data.texi:450
+#: R-data.texi:451
+#: R-data.texi:467
+#: R-data.texi:720
+#: R-data.texi:743
+#: R-data.texi:760
+#: R-data.texi:848
+#: R-data.texi:930
+#: R-data.texi:983
 #, no-wrap
 msgid "Spreadsheet-like data"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:449 R-data.texi:983 R-data.texi:984
-#: R-data.texi:985 R-data.texi:1001 R-data.texi:1092 R-data.texi:1106
+#: R-data.texi:71
+#: R-data.texi:449
+#: R-data.texi:983
+#: R-data.texi:984
+#: R-data.texi:985
+#: R-data.texi:1001
+#: R-data.texi:1092
+#: R-data.texi:1106
 #, no-wrap
 msgid "Importing from other statistical systems"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:983 R-data.texi:1106 R-data.texi:1107
-#: R-data.texi:1109 R-data.texi:1118 R-data.texi:1172 R-data.texi:1321
+#: R-data.texi:71
+#: R-data.texi:983
+#: R-data.texi:1106
+#: R-data.texi:1107
+#: R-data.texi:1109
+#: R-data.texi:1118
+#: R-data.texi:1172
+#: R-data.texi:1321
 #: R-data.texi:1725
 #, no-wrap
 msgid "Relational databases"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:71 R-data.texi:1106 R-data.texi:1725 R-data.texi:1726
-#: R-data.texi:1727 R-data.texi:1739 R-data.texi:1768 R-data.texi:1797
+#: R-data.texi:71
+#: R-data.texi:1106
+#: R-data.texi:1725
+#: R-data.texi:1726
+#: R-data.texi:1727
+#: R-data.texi:1739
+#: R-data.texi:1768
+#: R-data.texi:1797
 #: R-data.texi:2108
 #, no-wrap
 msgid "Binary files"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:1725 R-data.texi:1797 R-data.texi:1798
+#: R-data.texi:71
+#: R-data.texi:1725
+#: R-data.texi:1797
+#: R-data.texi:1798
 #: R-data.texi:1838
 #, no-wrap
 msgid "Image files"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:1797 R-data.texi:1838 R-data.texi:1839
-#: R-data.texi:1841 R-data.texi:1856 R-data.texi:1858 R-data.texi:1946
-#: R-data.texi:1948 R-data.texi:2001 R-data.texi:2081 R-data.texi:2083
-#: R-data.texi:2106 R-data.texi:2204
+#: R-data.texi:71
+#: R-data.texi:1797
+#: R-data.texi:1838
+#: R-data.texi:1839
+#: R-data.texi:1841
+#: R-data.texi:1856
+#: R-data.texi:1858
+#: R-data.texi:1946
+#: R-data.texi:1948
+#: R-data.texi:2001
+#: R-data.texi:2081
+#: R-data.texi:2083
+#: R-data.texi:2106
+#: R-data.texi:2204
 #, no-wrap
 msgid "Connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:1838 R-data.texi:2204 R-data.texi:2205
-#: R-data.texi:2215 R-data.texi:2235 R-data.texi:2246
+#: R-data.texi:71
+#: R-data.texi:1838
+#: R-data.texi:2204
+#: R-data.texi:2205
+#: R-data.texi:2215
+#: R-data.texi:2235
+#: R-data.texi:2246
 #, no-wrap
 msgid "Network interfaces"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:2204 R-data.texi:2246 R-data.texi:2247
+#: R-data.texi:71
+#: R-data.texi:2204
+#: R-data.texi:2246
+#: R-data.texi:2247
 #: R-data.texi:2326
 #, no-wrap
 msgid "Reading Excel spreadsheets"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:2246 R-data.texi:2326 R-data.texi:2327
+#: R-data.texi:71
+#: R-data.texi:2246
+#: R-data.texi:2326
+#: R-data.texi:2327
 #: R-data.texi:2371
 #, no-wrap
 msgid "References"
 msgstr ""
 
 #. type: node
-#: R-data.texi:71 R-data.texi:2326 R-data.texi:2371 R-data.texi:2372
+#: R-data.texi:71
+#: R-data.texi:2326
+#: R-data.texi:2371
+#: R-data.texi:2372
 #: R-data.texi:2376
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: unnumbered
-#: R-data.texi:71 R-data.texi:2371 R-data.texi:2376 R-data.texi:2377
+#: R-data.texi:71
+#: R-data.texi:2371
+#: R-data.texi:2376
+#: R-data.texi:2377
 #, no-wrap
 msgid "Concept index"
 msgstr ""
@@ -374,7 +453,8 @@ msgid "AWK"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:148 R-data.texi:736
+#: R-data.texi:148
+#: R-data.texi:736
 #, no-wrap
 msgid "perl"
 msgstr ""
@@ -385,35 +465,50 @@ msgid "It is also worth remembering that @R{} like @Sl{} comes from the Unix tra
 msgstr ""
 
 #. type: node
-#: R-data.texi:161 R-data.texi:163 R-data.texi:164 R-data.texi:205
+#: R-data.texi:161
+#: R-data.texi:163
+#: R-data.texi:164
+#: R-data.texi:205
 #: R-data.texi:253
 #, no-wrap
 msgid "Imports"
 msgstr ""
 
 #. type: node
-#: R-data.texi:161 R-data.texi:163 R-data.texi:253 R-data.texi:254
+#: R-data.texi:161
+#: R-data.texi:163
+#: R-data.texi:253
+#: R-data.texi:254
 #: R-data.texi:407
 #, no-wrap
 msgid "Export to text files"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:161 R-data.texi:253 R-data.texi:407 R-data.texi:408
+#: R-data.texi:161
+#: R-data.texi:253
+#: R-data.texi:407
+#: R-data.texi:408
 #: R-data.texi:409
 #, no-wrap
 msgid "XML"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:165 R-data.texi:762 R-data.texi:2004
+#: R-data.texi:165
+#: R-data.texi:762
+#: R-data.texi:2004
 #, no-wrap
 msgid "scan"
 msgstr "scan"
 
 #. type: cindex
-#: R-data.texi:169 R-data.texi:205 R-data.texi:206 R-data.texi:207
-#: R-data.texi:366 R-data.texi:367
+#: R-data.texi:169
+#: R-data.texi:205
+#: R-data.texi:206
+#: R-data.texi:207
+#: R-data.texi:366
+#: R-data.texi:367
 #, no-wrap
 msgid "Encodings"
 msgstr ""
@@ -482,7 +577,8 @@ msgid "Exporting results from @R{} is usually a less contentious task, but there
 msgstr ""
 
 #. type: findex
-#: R-data.texi:263 R-data.texi:1950
+#: R-data.texi:263
+#: R-data.texi:1950
 #, no-wrap
 msgid "cat"
 msgstr "cat"
@@ -493,13 +589,15 @@ msgid "Function @code{cat} underlies the functions for exporting data.  It takes
 msgstr ""
 
 #. type: findex
-#: R-data.texi:271 R-data.texi:1951
+#: R-data.texi:271
+#: R-data.texi:1951
 #, no-wrap
 msgid "write"
 msgstr "write"
 
 #. type: findex
-#: R-data.texi:272 R-data.texi:1952
+#: R-data.texi:272
+#: R-data.texi:1952
 #, no-wrap
 msgid "write.table"
 msgstr "write.table"
@@ -532,7 +630,8 @@ msgid "Most of the conversions of real/complex numbers done by these functions i
 msgstr ""
 
 #. type: strong{#1}
-#: R-data.texi:294 R-data.texi:497
+#: R-data.texi:294
+#: R-data.texi:497
 #, no-wrap
 msgid "Header line"
 msgstr ""
@@ -560,13 +659,15 @@ msgid "Some other systems require a (possibly empty) entry for the row names, wh
 msgstr ""
 
 #. type: strong{#1}
-#: R-data.texi:310 R-data.texi:513
+#: R-data.texi:310
+#: R-data.texi:513
 #, no-wrap
 msgid "Separator"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:311 R-data.texi:679
+#: R-data.texi:311
+#: R-data.texi:679
 #, no-wrap
 msgid "CSV files"
 msgstr ""
@@ -600,7 +701,10 @@ msgid "Using a semicolon or tab (@code{sep = \"\\t\"}) are probably the safest o
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:332 R-data.texi:333 R-data.texi:556 R-data.texi:557
+#: R-data.texi:332
+#: R-data.texi:333
+#: R-data.texi:556
+#: R-data.texi:557
 #, no-wrap
 msgid "Missing values"
 msgstr ""
@@ -611,7 +715,9 @@ msgid "By default missing values are output as @code{NA}, but this may be change
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:339 R-data.texi:340 R-data.texi:526
+#: R-data.texi:339
+#: R-data.texi:340
+#: R-data.texi:526
 #, no-wrap
 msgid "Quoting strings"
 msgstr ""
@@ -669,7 +775,8 @@ msgid "Function @code{write.matrix} in package @CRANpkg{MASS} provides a special
 msgstr ""
 
 #. type: findex
-#: R-data.texi:395 R-data.texi:1953
+#: R-data.texi:395
+#: R-data.texi:1953
 #, no-wrap
 msgid "sink"
 msgstr "sink"
@@ -727,40 +834,60 @@ msgid "NB: @CRANpkg{XML} is available as a binary package for Windows, normally 
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:467 R-data.texi:720
+#: R-data.texi:460
+#: R-data.texi:467
+#: R-data.texi:720
 #, no-wrap
 msgid "Variations on read.table"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:467 R-data.texi:720 R-data.texi:721
-#: R-data.texi:722 R-data.texi:743
+#: R-data.texi:460
+#: R-data.texi:467
+#: R-data.texi:720
+#: R-data.texi:721
+#: R-data.texi:722
+#: R-data.texi:743
 #, no-wrap
 msgid "Fixed-width-format files"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:720 R-data.texi:743 R-data.texi:744
-#: R-data.texi:745 R-data.texi:760
+#: R-data.texi:460
+#: R-data.texi:720
+#: R-data.texi:743
+#: R-data.texi:744
+#: R-data.texi:745
+#: R-data.texi:760
 #, no-wrap
 msgid "Data Interchange Format (DIF)"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:743 R-data.texi:760 R-data.texi:848
+#: R-data.texi:460
+#: R-data.texi:743
+#: R-data.texi:760
+#: R-data.texi:848
 #, no-wrap
 msgid "Using scan directly"
 msgstr ""
 
 #. type: node
-#: R-data.texi:460 R-data.texi:760 R-data.texi:848 R-data.texi:849
-#: R-data.texi:850 R-data.texi:930
+#: R-data.texi:460
+#: R-data.texi:760
+#: R-data.texi:848
+#: R-data.texi:849
+#: R-data.texi:850
+#: R-data.texi:930
 #, no-wrap
 msgid "Re-shaping data"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:460 R-data.texi:848 R-data.texi:930 R-data.texi:931
+#: R-data.texi:460
+#: R-data.texi:848
+#: R-data.texi:930
+#: R-data.texi:931
 #: R-data.texi:932
 #, no-wrap
 msgid "Flat contingency tables"
@@ -778,7 +905,9 @@ msgid "Variations on @code{read.table}"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:469 R-data.texi:2005 R-data.texi:2257
+#: R-data.texi:469
+#: R-data.texi:2005
+#: R-data.texi:2257
 #, no-wrap
 msgid "read.table"
 msgstr ""
@@ -799,7 +928,8 @@ msgid "Some of the issues to consider are:"
 msgstr ""
 
 #. type: strong{#1}
-#: R-data.texi:482 R-data.texi:633
+#: R-data.texi:482
+#: R-data.texi:633
 #, no-wrap
 msgid "Encoding"
 msgstr ""
@@ -1047,7 +1177,8 @@ msgid "Another problem with this (real-life) example is that whereas @command{fi
 msgstr ""
 
 #. type: findex
-#: R-data.texi:675 R-data.texi:2254
+#: R-data.texi:675
+#: R-data.texi:2254
 #, no-wrap
 msgid "read.csv"
 msgstr "read.csv"
@@ -1059,7 +1190,8 @@ msgid "read.csv2"
 msgstr "read.csv2"
 
 #. type: findex
-#: R-data.texi:677 R-data.texi:2255
+#: R-data.texi:677
+#: R-data.texi:2255
 #, no-wrap
 msgid "read.delim"
 msgstr "read.delim"
@@ -1166,7 +1298,8 @@ msgid "An old format sometimes used for spreadsheet-like data is DIF, or Data In
 msgstr ""
 
 #. type: findex
-#: R-data.texi:750 R-data.texi:2256
+#: R-data.texi:750
+#: R-data.texi:2256
 #, no-wrap
 msgid "read.DIF"
 msgstr "read.DIF"
@@ -1213,7 +1346,8 @@ msgid "returns a list with three components and discards the fourth column in th
 msgstr ""
 
 #. type: findex
-#: R-data.texi:785 R-data.texi:2006
+#: R-data.texi:785
+#: R-data.texi:2006
 #, no-wrap
 msgid "readLines"
 msgstr "readLines"
@@ -1542,13 +1676,18 @@ msgid "In all cases the facilities described were written for data files from sp
 msgstr ""
 
 #. type: node
-#: R-data.texi:999 R-data.texi:1001 R-data.texi:1092
+#: R-data.texi:999
+#: R-data.texi:1001
+#: R-data.texi:1092
 #, no-wrap
 msgid "EpiInfo Minitab SAS S-PLUS SPSS Stata Systat"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:999 R-data.texi:1001 R-data.texi:1092 R-data.texi:1093
+#: R-data.texi:999
+#: R-data.texi:1001
+#: R-data.texi:1092
+#: R-data.texi:1093
 #: R-data.texi:1094
 #, no-wrap
 msgid "Octave"
@@ -1746,21 +1885,33 @@ msgid "DBMS"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1116 R-data.texi:1118 R-data.texi:1119 R-data.texi:1172
+#: R-data.texi:1116
+#: R-data.texi:1118
+#: R-data.texi:1119
+#: R-data.texi:1172
 #, no-wrap
 msgid "Why use a database?"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1116 R-data.texi:1118 R-data.texi:1172 R-data.texi:1173
-#: R-data.texi:1211 R-data.texi:1282 R-data.texi:1321
+#: R-data.texi:1116
+#: R-data.texi:1118
+#: R-data.texi:1172
+#: R-data.texi:1173
+#: R-data.texi:1211
+#: R-data.texi:1282
+#: R-data.texi:1321
 #, no-wrap
 msgid "Overview of RDBMSs"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1116 R-data.texi:1172 R-data.texi:1321 R-data.texi:1322
-#: R-data.texi:1360 R-data.texi:1450
+#: R-data.texi:1116
+#: R-data.texi:1172
+#: R-data.texi:1321
+#: R-data.texi:1322
+#: R-data.texi:1360
+#: R-data.texi:1450
 #, no-wrap
 msgid "R interface packages"
 msgstr ""
@@ -1826,13 +1977,15 @@ msgid "Traditionally there had been large (and expensive) commercial RDBMSs (@ur
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1187 R-data.texi:1452
+#: R-data.texi:1187
+#: R-data.texi:1452
 #, no-wrap
 msgid "ODBC"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1188 R-data.texi:1453
+#: R-data.texi:1188
+#: R-data.texi:1453
 #, no-wrap
 msgid "Open Database Connectivity"
 msgstr ""
@@ -1848,13 +2001,19 @@ msgid "All of the packages described later in this chapter provide clients to cl
 msgstr ""
 
 #. type: node
-#: R-data.texi:1209 R-data.texi:1211 R-data.texi:1213 R-data.texi:1282
+#: R-data.texi:1209
+#: R-data.texi:1211
+#: R-data.texi:1213
+#: R-data.texi:1282
 #, no-wrap
 msgid "SQL queries"
 msgstr ""
 
 #. type: subsection
-#: R-data.texi:1209 R-data.texi:1211 R-data.texi:1282 R-data.texi:1283
+#: R-data.texi:1209
+#: R-data.texi:1211
+#: R-data.texi:1282
+#: R-data.texi:1283
 #, no-wrap
 msgid "Data types"
 msgstr ""
@@ -2093,13 +2252,17 @@ msgid "Package @CRANpkg{RMongo} provides an @R{} interface to a Java client for 
 msgstr ""
 
 #. type: node
-#: R-data.texi:1357 R-data.texi:1360 R-data.texi:1450
+#: R-data.texi:1357
+#: R-data.texi:1360
+#: R-data.texi:1450
 #, no-wrap
 msgid "DBI"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1357 R-data.texi:1360 R-data.texi:1450
+#: R-data.texi:1357
+#: R-data.texi:1360
+#: R-data.texi:1450
 #, no-wrap
 msgid "RODBC"
 msgstr ""
@@ -2111,7 +2274,8 @@ msgid "Packages using DBI"
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1362 R-data.texi:1541
+#: R-data.texi:1362
+#: R-data.texi:1541
 #, no-wrap
 msgid "MySQL database system"
 msgstr ""
@@ -2306,13 +2470,15 @@ msgid "On Windows ODBC support is part of the OS.  On Unix/Linux you will need a
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1473 R-data.texi:1579
+#: R-data.texi:1473
+#: R-data.texi:1579
 #, no-wrap
 msgid "Excel"
 msgstr ""
 
 #. type: findex
-#: R-data.texi:1474 R-data.texi:1580
+#: R-data.texi:1474
+#: R-data.texi:1580
 #, no-wrap
 msgid ".xls"
 msgstr ".xls"
@@ -2369,7 +2535,8 @@ msgid "odbcClose"
 msgstr "odbcClose"
 
 #. type: findex
-#: R-data.texi:1504 R-data.texi:1870
+#: R-data.texi:1504
+#: R-data.texi:1870
 #, no-wrap
 msgid "close"
 msgstr "close"
@@ -2526,7 +2693,8 @@ msgstr ""
 "> odbcClose(channel)\n"
 
 #. type: findex
-#: R-data.texi:1581 R-data.texi:2282
+#: R-data.texi:1581
+#: R-data.texi:2282
 #, no-wrap
 msgid "odbcConnectExcel"
 msgstr "odbcConnectExcel"
@@ -2572,13 +2740,19 @@ msgid "Notice that the specification of the table is different from the name ret
 msgstr ""
 
 #. type: node
-#: R-data.texi:1732 R-data.texi:1739 R-data.texi:1740 R-data.texi:1768
+#: R-data.texi:1732
+#: R-data.texi:1739
+#: R-data.texi:1740
+#: R-data.texi:1768
 #, no-wrap
 msgid "Binary data formats"
 msgstr ""
 
 #. type: section
-#: R-data.texi:1732 R-data.texi:1739 R-data.texi:1768 R-data.texi:1769
+#: R-data.texi:1732
+#: R-data.texi:1739
+#: R-data.texi:1768
+#: R-data.texi:1769
 #, no-wrap
 msgid "dBase files (DBF)"
 msgstr ""
@@ -2708,34 +2882,50 @@ msgid "@emph{Connections} are used in @R{} in the sense of Chambers (1998) and R
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:1856 R-data.texi:1857 R-data.texi:1946
+#: R-data.texi:1853
+#: R-data.texi:1856
+#: R-data.texi:1857
+#: R-data.texi:1946
 #, no-wrap
 msgid "Types of connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:1856 R-data.texi:1946 R-data.texi:1947
+#: R-data.texi:1853
+#: R-data.texi:1856
+#: R-data.texi:1946
+#: R-data.texi:1947
 #: R-data.texi:2001
 #, no-wrap
 msgid "Output to connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:1946 R-data.texi:2001 R-data.texi:2002
-#: R-data.texi:2044 R-data.texi:2081
+#: R-data.texi:1853
+#: R-data.texi:1946
+#: R-data.texi:2001
+#: R-data.texi:2002
+#: R-data.texi:2044
+#: R-data.texi:2081
 #, no-wrap
 msgid "Input from connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:2001 R-data.texi:2081 R-data.texi:2082
+#: R-data.texi:1853
+#: R-data.texi:2001
+#: R-data.texi:2081
+#: R-data.texi:2082
 #: R-data.texi:2106
 #, no-wrap
 msgid "Listing and manipulating connections"
 msgstr ""
 
 #. type: node
-#: R-data.texi:1853 R-data.texi:2081 R-data.texi:2106 R-data.texi:2107
+#: R-data.texi:1853
+#: R-data.texi:2081
+#: R-data.texi:2106
+#: R-data.texi:2107
 #: R-data.texi:2173
 #, no-wrap
 msgid "Binary connections"
@@ -2866,7 +3056,8 @@ msgid "@emph{Pipes} are a special form of file that connects to another process,
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1931 R-data.texi:2035
+#: R-data.texi:1931
+#: R-data.texi:2035
 #, no-wrap
 msgid "URL connections"
 msgstr ""
@@ -2883,7 +3074,8 @@ msgid "@acronym{URL}s of types @samp{http://}, @samp{ftp://} and @samp{file://} 
 msgstr ""
 
 #. type: cindex
-#: R-data.texi:1938 R-data.texi:2218
+#: R-data.texi:1938
+#: R-data.texi:2218
 #, no-wrap
 msgid "Sockets"
 msgstr ""
@@ -2921,7 +3113,8 @@ msgid "There is a function @code{writeLines} to write complete text lines to a c
 msgstr ""
 
 #. type: Plain text
-#: R-data.texi:1974 R-data.texi:2017
+#: R-data.texi:1974
+#: R-data.texi:2017
 msgid "Some simple examples are"
 msgstr ""
 
@@ -3051,7 +3244,9 @@ msgid "For convenience, if the @code{file} argument specifies a FTP or HTTP @acr
 msgstr ""
 
 #. type: subsection
-#: R-data.texi:2042 R-data.texi:2044 R-data.texi:2045
+#: R-data.texi:2042
+#: R-data.texi:2044
+#: R-data.texi:2045
 #, no-wrap
 msgid "Pushback"
 msgstr ""
@@ -3226,7 +3421,9 @@ msgid "Character strings are read and written in C format, that is as a string o
 msgstr ""
 
 #. type: subsection
-#: R-data.texi:2171 R-data.texi:2173 R-data.texi:2174
+#: R-data.texi:2171
+#: R-data.texi:2173
+#: R-data.texi:2174
 #, no-wrap
 msgid "Special values"
 msgstr ""
@@ -3257,13 +3454,18 @@ msgid "Character missing values are written as @code{NA}, and there are no provi
 msgstr ""
 
 #. type: node
-#: R-data.texi:2210 R-data.texi:2215 R-data.texi:2216 R-data.texi:2235
+#: R-data.texi:2210
+#: R-data.texi:2215
+#: R-data.texi:2216
+#: R-data.texi:2235
 #, no-wrap
 msgid "Reading from sockets"
 msgstr ""
 
 #. type: node
-#: R-data.texi:2210 R-data.texi:2215 R-data.texi:2235
+#: R-data.texi:2210
+#: R-data.texi:2215
+#: R-data.texi:2235
 #, no-wrap
 msgid "Using download.file"
 msgstr ""

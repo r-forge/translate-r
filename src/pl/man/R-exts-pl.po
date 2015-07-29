@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-28 22:53-0600\n"
+"POT-Creation-Date: 2015-07-29 07:45-0600\n"
 "PO-Revision-Date: 2015-07-29 10:46+0200\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -21,7 +21,9 @@ msgstr ""
 "X-Poedit-SourceCharset: iso-8859-1\n"
 
 #. type: top
-#: R-exts.texi:4 R-exts.texi:34 R-exts.texi:52
+#: R-exts.texi:4
+#: R-exts.texi:34
+#: R-exts.texi:52
 #, no-wrap
 msgid "Writing R Extensions"
 msgstr "Pisanie rozszerzeń R (Polish)"
@@ -82,15 +84,28 @@ msgid "R Core Team"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:51 R-exts.texi:76 R-exts.texi:85 R-exts.texi:4950
-#: R-exts.texi:6450 R-exts.texi:7045 R-exts.texi:8285 R-exts.texi:11242
-#: R-exts.texi:12824 R-exts.texi:12998 R-exts.texi:13919 R-exts.texi:13924
+#: R-exts.texi:51
+#: R-exts.texi:76
+#: R-exts.texi:85
+#: R-exts.texi:4950
+#: R-exts.texi:6450
+#: R-exts.texi:7045
+#: R-exts.texi:8285
+#: R-exts.texi:11242
+#: R-exts.texi:12824
+#: R-exts.texi:12998
+#: R-exts.texi:13919
+#: R-exts.texi:13924
 #, no-wrap
 msgid "Top"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:51 R-exts.texi:74 R-exts.texi:76 R-exts.texi:77 R-exts.texi:85
+#: R-exts.texi:51
+#: R-exts.texi:74
+#: R-exts.texi:76
+#: R-exts.texi:77
+#: R-exts.texi:85
 #, no-wrap
 msgid "Acknowledgements"
 msgstr ""
@@ -107,85 +122,170 @@ msgid "This is a guide to extending @R{}, describing the process of creating @R{
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:76 R-exts.texi:85 R-exts.texi:86 R-exts.texi:237
-#: R-exts.texi:1491 R-exts.texi:2490 R-exts.texi:3038 R-exts.texi:3326
-#: R-exts.texi:3926 R-exts.texi:4566 R-exts.texi:4665 R-exts.texi:4830
-#: R-exts.texi:4898 R-exts.texi:4927 R-exts.texi:4950
+#: R-exts.texi:74
+#: R-exts.texi:76
+#: R-exts.texi:85
+#: R-exts.texi:86
+#: R-exts.texi:237
+#: R-exts.texi:1491
+#: R-exts.texi:2490
+#: R-exts.texi:3038
+#: R-exts.texi:3326
+#: R-exts.texi:3926
+#: R-exts.texi:4566
+#: R-exts.texi:4665
+#: R-exts.texi:4830
+#: R-exts.texi:4898
+#: R-exts.texi:4927
+#: R-exts.texi:4950
 #, no-wrap
 msgid "Creating R packages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:85 R-exts.texi:4950 R-exts.texi:4951
-#: R-exts.texi:4973 R-exts.texi:5600 R-exts.texi:5641 R-exts.texi:5789
-#: R-exts.texi:5849 R-exts.texi:5901 R-exts.texi:5965 R-exts.texi:6007
-#: R-exts.texi:6053 R-exts.texi:6089 R-exts.texi:6126 R-exts.texi:6160
-#: R-exts.texi:6260 R-exts.texi:6323 R-exts.texi:6389 R-exts.texi:6426
+#: R-exts.texi:74
+#: R-exts.texi:85
+#: R-exts.texi:4950
+#: R-exts.texi:4951
+#: R-exts.texi:4973
+#: R-exts.texi:5600
+#: R-exts.texi:5641
+#: R-exts.texi:5789
+#: R-exts.texi:5849
+#: R-exts.texi:5901
+#: R-exts.texi:5965
+#: R-exts.texi:6007
+#: R-exts.texi:6053
+#: R-exts.texi:6089
+#: R-exts.texi:6126
+#: R-exts.texi:6160
+#: R-exts.texi:6260
+#: R-exts.texi:6323
+#: R-exts.texi:6389
+#: R-exts.texi:6426
 #: R-exts.texi:6450
 #, no-wrap
 msgid "Writing R documentation files"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:4950 R-exts.texi:6450 R-exts.texi:6451
-#: R-exts.texi:6465 R-exts.texi:6531 R-exts.texi:6645 R-exts.texi:6803
+#: R-exts.texi:74
+#: R-exts.texi:4950
+#: R-exts.texi:6450
+#: R-exts.texi:6451
+#: R-exts.texi:6465
+#: R-exts.texi:6531
+#: R-exts.texi:6645
+#: R-exts.texi:6803
 #: R-exts.texi:7045
 #, no-wrap
 msgid "Tidying and profiling R code"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:6450 R-exts.texi:7045 R-exts.texi:7046
-#: R-exts.texi:7066 R-exts.texi:7145 R-exts.texi:7461 R-exts.texi:7985
-#: R-exts.texi:7987 R-exts.texi:8285
+#: R-exts.texi:74
+#: R-exts.texi:6450
+#: R-exts.texi:7045
+#: R-exts.texi:7046
+#: R-exts.texi:7066
+#: R-exts.texi:7145
+#: R-exts.texi:7461
+#: R-exts.texi:7985
+#: R-exts.texi:7987
+#: R-exts.texi:8285
 #, no-wrap
 msgid "Debugging"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:7045 R-exts.texi:8285 R-exts.texi:8286
-#: R-exts.texi:8306 R-exts.texi:8330 R-exts.texi:8499 R-exts.texi:8629
-#: R-exts.texi:8927 R-exts.texi:9044 R-exts.texi:9172 R-exts.texi:9190
-#: R-exts.texi:9363 R-exts.texi:10193 R-exts.texi:10438 R-exts.texi:10875
-#: R-exts.texi:10974 R-exts.texi:11149 R-exts.texi:11170 R-exts.texi:11242
+#: R-exts.texi:74
+#: R-exts.texi:7045
+#: R-exts.texi:8285
+#: R-exts.texi:8286
+#: R-exts.texi:8306
+#: R-exts.texi:8330
+#: R-exts.texi:8499
+#: R-exts.texi:8629
+#: R-exts.texi:8927
+#: R-exts.texi:9044
+#: R-exts.texi:9172
+#: R-exts.texi:9190
+#: R-exts.texi:9363
+#: R-exts.texi:10193
+#: R-exts.texi:10438
+#: R-exts.texi:10875
+#: R-exts.texi:10974
+#: R-exts.texi:11149
+#: R-exts.texi:11170
+#: R-exts.texi:11242
 #, no-wrap
 msgid "System and foreign language interfaces"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:8285 R-exts.texi:11242 R-exts.texi:11334
-#: R-exts.texi:11484 R-exts.texi:11543 R-exts.texi:11600 R-exts.texi:11645
-#: R-exts.texi:11708 R-exts.texi:11781 R-exts.texi:12173 R-exts.texi:12260
-#: R-exts.texi:12347 R-exts.texi:12485 R-exts.texi:12518 R-exts.texi:12547
-#: R-exts.texi:12610 R-exts.texi:12638 R-exts.texi:12696 R-exts.texi:12747
+#: R-exts.texi:74
+#: R-exts.texi:8285
+#: R-exts.texi:11242
+#: R-exts.texi:11334
+#: R-exts.texi:11484
+#: R-exts.texi:11543
+#: R-exts.texi:11600
+#: R-exts.texi:11645
+#: R-exts.texi:11708
+#: R-exts.texi:11781
+#: R-exts.texi:12173
+#: R-exts.texi:12260
+#: R-exts.texi:12347
+#: R-exts.texi:12485
+#: R-exts.texi:12518
+#: R-exts.texi:12547
+#: R-exts.texi:12610
+#: R-exts.texi:12638
+#: R-exts.texi:12696
+#: R-exts.texi:12747
 #: R-exts.texi:12824
 #, no-wrap
 msgid "The R API"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:11242 R-exts.texi:12824 R-exts.texi:12825
-#: R-exts.texi:12958 R-exts.texi:12998
+#: R-exts.texi:74
+#: R-exts.texi:11242
+#: R-exts.texi:12824
+#: R-exts.texi:12825
+#: R-exts.texi:12958
+#: R-exts.texi:12998
 #, no-wrap
 msgid "Generic functions and methods"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:12824 R-exts.texi:12998 R-exts.texi:12999
-#: R-exts.texi:13022 R-exts.texi:13604 R-exts.texi:13919
+#: R-exts.texi:74
+#: R-exts.texi:12824
+#: R-exts.texi:12998
+#: R-exts.texi:12999
+#: R-exts.texi:13022
+#: R-exts.texi:13604
+#: R-exts.texi:13919
 #, no-wrap
 msgid "Linking GUIs and other front-ends to R"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:74 R-exts.texi:12998 R-exts.texi:13919 R-exts.texi:13920
+#: R-exts.texi:74
+#: R-exts.texi:12998
+#: R-exts.texi:13919
+#: R-exts.texi:13920
 #: R-exts.texi:13924
 #, no-wrap
 msgid "Function and variable index"
 msgstr ""
 
 #. type: unnumbered
-#: R-exts.texi:74 R-exts.texi:13919 R-exts.texi:13924 R-exts.texi:13925
+#: R-exts.texi:74
+#: R-exts.texi:13919
+#: R-exts.texi:13924
+#: R-exts.texi:13925
 #, no-wrap
 msgid "Concept index"
 msgstr ""
@@ -322,82 +422,142 @@ msgid "@acronym{CRAN} is a network of WWW sites holding the @R{} distributions a
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:237 R-exts.texi:238 R-exts.texi:239
-#: R-exts.texi:335 R-exts.texi:680 R-exts.texi:798 R-exts.texi:1015
-#: R-exts.texi:1034 R-exts.texi:1319 R-exts.texi:1398 R-exts.texi:1464
+#: R-exts.texi:235
+#: R-exts.texi:237
+#: R-exts.texi:238
+#: R-exts.texi:239
+#: R-exts.texi:335
+#: R-exts.texi:680
+#: R-exts.texi:798
+#: R-exts.texi:1015
+#: R-exts.texi:1034
+#: R-exts.texi:1319
+#: R-exts.texi:1398
+#: R-exts.texi:1464
 #: R-exts.texi:1491
 #, no-wrap
 msgid "Package structure"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:237 R-exts.texi:1491 R-exts.texi:1492
-#: R-exts.texi:1738 R-exts.texi:2198 R-exts.texi:2333 R-exts.texi:2386
+#: R-exts.texi:235
+#: R-exts.texi:237
+#: R-exts.texi:1491
+#: R-exts.texi:1492
+#: R-exts.texi:1738
+#: R-exts.texi:2198
+#: R-exts.texi:2333
+#: R-exts.texi:2386
 #: R-exts.texi:2490
 #, no-wrap
 msgid "Configure and cleanup"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:1491 R-exts.texi:2490 R-exts.texi:2491
-#: R-exts.texi:2538 R-exts.texi:2847 R-exts.texi:2971 R-exts.texi:3038
+#: R-exts.texi:235
+#: R-exts.texi:1491
+#: R-exts.texi:2490
+#: R-exts.texi:2491
+#: R-exts.texi:2538
+#: R-exts.texi:2847
+#: R-exts.texi:2971
+#: R-exts.texi:3038
 #, no-wrap
 msgid "Checking and building packages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:2490 R-exts.texi:3038 R-exts.texi:3039
-#: R-exts.texi:3195 R-exts.texi:3268 R-exts.texi:3326
+#: R-exts.texi:235
+#: R-exts.texi:2490
+#: R-exts.texi:3038
+#: R-exts.texi:3039
+#: R-exts.texi:3195
+#: R-exts.texi:3268
+#: R-exts.texi:3326
 #, no-wrap
 msgid "Writing package vignettes"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:3038 R-exts.texi:3326 R-exts.texi:3327
-#: R-exts.texi:3384 R-exts.texi:3465 R-exts.texi:3504 R-exts.texi:3549
-#: R-exts.texi:3732 R-exts.texi:3804 R-exts.texi:3926
+#: R-exts.texi:235
+#: R-exts.texi:3038
+#: R-exts.texi:3326
+#: R-exts.texi:3327
+#: R-exts.texi:3384
+#: R-exts.texi:3465
+#: R-exts.texi:3504
+#: R-exts.texi:3549
+#: R-exts.texi:3732
+#: R-exts.texi:3804
+#: R-exts.texi:3926
 #, no-wrap
 msgid "Package namespaces"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:3326 R-exts.texi:3926 R-exts.texi:3927
-#: R-exts.texi:4253 R-exts.texi:4311 R-exts.texi:4339 R-exts.texi:4405
-#: R-exts.texi:4513 R-exts.texi:4566
+#: R-exts.texi:235
+#: R-exts.texi:3326
+#: R-exts.texi:3926
+#: R-exts.texi:3927
+#: R-exts.texi:4253
+#: R-exts.texi:4311
+#: R-exts.texi:4339
+#: R-exts.texi:4405
+#: R-exts.texi:4513
+#: R-exts.texi:4566
 #, no-wrap
 msgid "Writing portable packages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:3926 R-exts.texi:4566 R-exts.texi:4567
+#: R-exts.texi:235
+#: R-exts.texi:3926
+#: R-exts.texi:4566
+#: R-exts.texi:4567
 #: R-exts.texi:4665
 #, no-wrap
 msgid "Diagnostic messages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:4566 R-exts.texi:4665 R-exts.texi:4666
-#: R-exts.texi:4684 R-exts.texi:4742 R-exts.texi:4769 R-exts.texi:4830
+#: R-exts.texi:235
+#: R-exts.texi:4566
+#: R-exts.texi:4665
+#: R-exts.texi:4666
+#: R-exts.texi:4684
+#: R-exts.texi:4742
+#: R-exts.texi:4769
+#: R-exts.texi:4830
 #, no-wrap
 msgid "Internationalization"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:4665 R-exts.texi:4830 R-exts.texi:4831
+#: R-exts.texi:235
+#: R-exts.texi:4665
+#: R-exts.texi:4830
+#: R-exts.texi:4831
 #: R-exts.texi:4898
 #, no-wrap
 msgid "CITATION files"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:235 R-exts.texi:4830 R-exts.texi:4898 R-exts.texi:4899
-#: R-exts.texi:4910 R-exts.texi:4927
+#: R-exts.texi:235
+#: R-exts.texi:4830
+#: R-exts.texi:4898
+#: R-exts.texi:4899
+#: R-exts.texi:4910
+#: R-exts.texi:4927
 #, no-wrap
 msgid "Package types"
 msgstr ""
 
 #. type: section
-#: R-exts.texi:235 R-exts.texi:4898 R-exts.texi:4927 R-exts.texi:4928
+#: R-exts.texi:235
+#: R-exts.texi:4898
+#: R-exts.texi:4927
+#: R-exts.texi:4928
 #, no-wrap
 msgid "Services"
 msgstr ""
@@ -460,54 +620,79 @@ msgid "The @R{} function @code{package.skeleton} can help to create the structur
 msgstr ""
 
 #. type: node
-#: R-exts.texi:333 R-exts.texi:335 R-exts.texi:680
+#: R-exts.texi:333
+#: R-exts.texi:335
+#: R-exts.texi:680
 #, no-wrap
 msgid "The DESCRIPTION file"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:333 R-exts.texi:335 R-exts.texi:680 R-exts.texi:681
+#: R-exts.texi:333
+#: R-exts.texi:335
+#: R-exts.texi:680
+#: R-exts.texi:681
 #: R-exts.texi:798
 #, no-wrap
 msgid "Licensing"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:333 R-exts.texi:680 R-exts.texi:798 R-exts.texi:799
-#: R-exts.texi:983 R-exts.texi:1015
+#: R-exts.texi:333
+#: R-exts.texi:680
+#: R-exts.texi:798
+#: R-exts.texi:799
+#: R-exts.texi:983
+#: R-exts.texi:1015
 #, no-wrap
 msgid "Package Dependencies"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:333 R-exts.texi:798 R-exts.texi:1015 R-exts.texi:1034
+#: R-exts.texi:333
+#: R-exts.texi:798
+#: R-exts.texi:1015
+#: R-exts.texi:1034
 #, no-wrap
 msgid "The INDEX file"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:333 R-exts.texi:1015 R-exts.texi:1034 R-exts.texi:1035
-#: R-exts.texi:1036 R-exts.texi:1319
+#: R-exts.texi:333
+#: R-exts.texi:1015
+#: R-exts.texi:1034
+#: R-exts.texi:1035
+#: R-exts.texi:1036
+#: R-exts.texi:1319
 #, no-wrap
 msgid "Package subdirectories"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:333 R-exts.texi:1034 R-exts.texi:1319 R-exts.texi:1320
+#: R-exts.texi:333
+#: R-exts.texi:1034
+#: R-exts.texi:1319
+#: R-exts.texi:1320
 #: R-exts.texi:1398
 #, no-wrap
 msgid "Data in packages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:333 R-exts.texi:1319 R-exts.texi:1398 R-exts.texi:1399
+#: R-exts.texi:333
+#: R-exts.texi:1319
+#: R-exts.texi:1398
+#: R-exts.texi:1399
 #: R-exts.texi:1464
 #, no-wrap
 msgid "Non-R scripts in packages"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:333 R-exts.texi:1398 R-exts.texi:1464 R-exts.texi:1465
+#: R-exts.texi:333
+#: R-exts.texi:1398
+#: R-exts.texi:1464
+#: R-exts.texi:1465
 #, no-wrap
 msgid "Specifying URLs"
 msgstr ""
@@ -621,7 +806,8 @@ msgid "Both @samp{Author} and @samp{Maintainer} fields can be omitted if a suita
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:479 R-exts.texi:1266
+#: R-exts.texi:479
+#: R-exts.texi:1266
 #, no-wrap
 msgid "COPYRIGHTS"
 msgstr ""
@@ -737,7 +923,9 @@ msgid "As of @R{} 3.2.0, an @samp{RdMacros} field can be used to hold a comma-se
 msgstr ""
 
 #. type: quotation
-#: R-exts.texi:663 R-exts.texi:2509 R-exts.texi:11297
+#: R-exts.texi:663
+#: R-exts.texi:2509
+#: R-exts.texi:11297
 #, no-wrap
 msgid "Note"
 msgstr ""
@@ -1015,7 +1203,9 @@ msgid "The @samp{Additional_repositories} field is a comma-separated list of rep
 msgstr ""
 
 #. type: subsubsection
-#: R-exts.texi:981 R-exts.texi:983 R-exts.texi:984
+#: R-exts.texi:981
+#: R-exts.texi:983
+#: R-exts.texi:984
 #, no-wrap
 msgid "Suggested packages"
 msgstr ""
@@ -1099,7 +1289,8 @@ msgid "Only @acronym{ASCII} characters (and the control characters tab, formfeed
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:1081 R-exts.texi:8533
+#: R-exts.texi:1081
+#: R-exts.texi:8533
 #, no-wrap
 msgid "library.dynam"
 msgstr ""
@@ -1221,13 +1412,15 @@ msgid "Note that with the exceptions of @file{INDEX}, @file{LICENSE}/@file{LICEN
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:1256 R-exts.texi:4828
+#: R-exts.texi:1256
+#: R-exts.texi:4828
 #, no-wrap
 msgid "CITATION"
 msgstr "CITATION"
 
 #. type: cindex
-#: R-exts.texi:1257 R-exts.texi:4829
+#: R-exts.texi:1257
+#: R-exts.texi:4829
 #, no-wrap
 msgid "citation"
 msgstr ""
@@ -1698,28 +1891,41 @@ msgid "pkg-config --list-all | sort\n"
 msgstr "pkg-config --list-all | sort\n"
 
 #. type: node
-#: R-exts.texi:1736 R-exts.texi:1738 R-exts.texi:2001 R-exts.texi:2088
-#: R-exts.texi:2140 R-exts.texi:2198
+#: R-exts.texi:1736
+#: R-exts.texi:1738
+#: R-exts.texi:2001
+#: R-exts.texi:2088
+#: R-exts.texi:2140
+#: R-exts.texi:2198
 #, no-wrap
 msgid "Using Makevars"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:1736 R-exts.texi:1738 R-exts.texi:2198 R-exts.texi:2199
+#: R-exts.texi:1736
+#: R-exts.texi:1738
+#: R-exts.texi:2198
+#: R-exts.texi:2199
 #: R-exts.texi:2333
 #, no-wrap
 msgid "Configure example"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:1736 R-exts.texi:2198 R-exts.texi:2333 R-exts.texi:2334
+#: R-exts.texi:1736
+#: R-exts.texi:2198
+#: R-exts.texi:2333
+#: R-exts.texi:2334
 #: R-exts.texi:2386
 #, no-wrap
 msgid "Using F95 code"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:1736 R-exts.texi:2333 R-exts.texi:2386 R-exts.texi:2387
+#: R-exts.texi:1736
+#: R-exts.texi:2333
+#: R-exts.texi:2386
+#: R-exts.texi:2387
 #, no-wrap
 msgid "Using C++11 code"
 msgstr ""
@@ -1731,20 +1937,29 @@ msgid "Using @file{Makevars}"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:1745 R-exts.texi:2001 R-exts.texi:2002 R-exts.texi:2088
+#: R-exts.texi:1745
+#: R-exts.texi:2001
+#: R-exts.texi:2002
+#: R-exts.texi:2088
 #, no-wrap
 msgid "OpenMP support"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:1745 R-exts.texi:2001 R-exts.texi:2088 R-exts.texi:2089
+#: R-exts.texi:1745
+#: R-exts.texi:2001
+#: R-exts.texi:2088
+#: R-exts.texi:2089
 #: R-exts.texi:2140
 #, no-wrap
 msgid "Using pthreads"
 msgstr ""
 
 #. type: subsubsection
-#: R-exts.texi:1745 R-exts.texi:2088 R-exts.texi:2140 R-exts.texi:2141
+#: R-exts.texi:1745
+#: R-exts.texi:2088
+#: R-exts.texi:2140
+#: R-exts.texi:2141
 #, no-wrap
 msgid "Compiling in sub-directories"
 msgstr ""
@@ -1785,7 +2000,9 @@ msgid "Also, do not set variables such as @code{CPPFLAGS}, @code{CFLAGS} etc.: t
 msgstr ""
 
 #. type: ifset
-#: R-exts.texi:1785 R-exts.texi:4049 R-exts.texi:8984
+#: R-exts.texi:1785
+#: R-exts.texi:4049
+#: R-exts.texi:8984
 msgid "@xref{Customizing package compilation, , Customizing package compilation, R-admin, R Installation and Administration},"
 msgstr ""
 
@@ -1795,7 +2012,8 @@ msgid "There are some macros@footnote{in POSIX parlance: GNU @command{make} call
 msgstr ""
 
 #. type: vindex
-#: R-exts.texi:1796 R-exts.texi:1797
+#: R-exts.texi:1796
+#: R-exts.texi:1797
 #, no-wrap
 msgid "FLIBS"
 msgstr ""
@@ -1806,7 +2024,8 @@ msgid "A macro containing the set of libraries need to link FORTRAN code.  This 
 msgstr ""
 
 #. type: vindex
-#: R-exts.texi:1802 R-exts.texi:1803
+#: R-exts.texi:1802
+#: R-exts.texi:1803
 #, no-wrap
 msgid "BLAS_LIBS"
 msgstr ""
@@ -1817,7 +2036,8 @@ msgid "A macro containing the BLAS libraries used when building @R{}.  This may 
 msgstr ""
 
 #. type: vindex
-#: R-exts.texi:1814 R-exts.texi:1815
+#: R-exts.texi:1814
+#: R-exts.texi:1815
 #, no-wrap
 msgid "LAPACK_LIBS"
 msgstr ""
@@ -1838,7 +2058,8 @@ msgid "For portability, the macros @code{BLAS_LIBS} and @code{FLIBS} should alwa
 msgstr ""
 
 #. type: vindex
-#: R-exts.texi:1831 R-exts.texi:1832
+#: R-exts.texi:1831
+#: R-exts.texi:1832
 #, no-wrap
 msgid "SAFE_FFLAGS"
 msgstr "SAFE_FFLAGS"
@@ -1849,7 +2070,8 @@ msgid "A macro containing flags which are needed to circumvent over-optimization
 msgstr ""
 
 #. type: vindex
-#: R-exts.texi:1843 R-exts.texi:8964
+#: R-exts.texi:1843
+#: R-exts.texi:8964
 #, no-wrap
 msgid "OBJECTS"
 msgstr "OBJECTS"
@@ -1891,7 +2113,8 @@ msgstr ""
 "\n"
 
 #. type: example
-#: R-exts.texi:1871 R-exts.texi:1882
+#: R-exts.texi:1871
+#: R-exts.texi:1882
 #, no-wrap
 msgid ""
 "all: $(SHLIB)\n"
@@ -2084,7 +2307,8 @@ msgid "If static libraries are available they can save a lot of problems with ru
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:2004 R-exts.texi:12550
+#: R-exts.texi:2004
+#: R-exts.texi:12550
 #, no-wrap
 msgid "OpenMP"
 msgstr ""
@@ -2729,21 +2953,30 @@ msgid "Before using these tools, please check that your package can be installed
 msgstr ""
 
 #. type: node
-#: R-exts.texi:2502 R-exts.texi:2538 R-exts.texi:2539 R-exts.texi:2540
+#: R-exts.texi:2502
+#: R-exts.texi:2538
+#: R-exts.texi:2539
+#: R-exts.texi:2540
 #: R-exts.texi:2847
 #, no-wrap
 msgid "Checking packages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:2502 R-exts.texi:2538 R-exts.texi:2847 R-exts.texi:2848
+#: R-exts.texi:2502
+#: R-exts.texi:2538
+#: R-exts.texi:2847
+#: R-exts.texi:2848
 #: R-exts.texi:2971
 #, no-wrap
 msgid "Building package tarballs"
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:2502 R-exts.texi:2847 R-exts.texi:2971 R-exts.texi:2972
+#: R-exts.texi:2502
+#: R-exts.texi:2847
+#: R-exts.texi:2971
+#: R-exts.texi:2972
 #: R-exts.texi:2973
 #, no-wrap
 msgid "Building binary packages"
@@ -3187,13 +3420,19 @@ msgid "Sweave"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3046 R-exts.texi:3195 R-exts.texi:3196 R-exts.texi:3268
+#: R-exts.texi:3046
+#: R-exts.texi:3195
+#: R-exts.texi:3196
+#: R-exts.texi:3268
 #, no-wrap
 msgid "Encodings and vignettes"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:3046 R-exts.texi:3195 R-exts.texi:3268 R-exts.texi:3269
+#: R-exts.texi:3046
+#: R-exts.texi:3195
+#: R-exts.texi:3268
+#: R-exts.texi:3269
 #, no-wrap
 msgid "Non-Sweave vignettes"
 msgstr ""
@@ -3352,7 +3591,8 @@ msgid "@code{Sweave()} will produce a @file{.tex} file in the current encoding, 
 msgstr ""
 
 #. type: example
-#: R-exts.texi:3219 R-exts.texi:6375
+#: R-exts.texi:3219
+#: R-exts.texi:6375
 #, no-wrap
 msgid "\\usepackage[utf8]@{inputenc@}\n"
 msgstr ""
@@ -3490,41 +3730,61 @@ msgid "Prior to @R{} 2.14.0, namespaces were optional in packages: a default nam
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3381 R-exts.texi:3384 R-exts.texi:3385 R-exts.texi:3465
+#: R-exts.texi:3381
+#: R-exts.texi:3384
+#: R-exts.texi:3385
+#: R-exts.texi:3465
 #, no-wrap
 msgid "Specifying imports and exports"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3381 R-exts.texi:3384 R-exts.texi:3465 R-exts.texi:3466
+#: R-exts.texi:3381
+#: R-exts.texi:3384
+#: R-exts.texi:3465
+#: R-exts.texi:3466
 #: R-exts.texi:3504
 #, no-wrap
 msgid "Registering S3 methods"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3381 R-exts.texi:3465 R-exts.texi:3504 R-exts.texi:3505
+#: R-exts.texi:3381
+#: R-exts.texi:3465
+#: R-exts.texi:3504
+#: R-exts.texi:3505
 #: R-exts.texi:3549
 #, no-wrap
 msgid "Load hooks"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3381 R-exts.texi:3504 R-exts.texi:3549 R-exts.texi:3550
-#: R-exts.texi:3557 R-exts.texi:3732
+#: R-exts.texi:3381
+#: R-exts.texi:3504
+#: R-exts.texi:3549
+#: R-exts.texi:3550
+#: R-exts.texi:3557
+#: R-exts.texi:3732
 #, no-wrap
 msgid "useDynLib"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:3381 R-exts.texi:3549 R-exts.texi:3732 R-exts.texi:3733
-#: R-exts.texi:3804 R-exts.texi:11099
+#: R-exts.texi:3381
+#: R-exts.texi:3549
+#: R-exts.texi:3732
+#: R-exts.texi:3733
+#: R-exts.texi:3804
+#: R-exts.texi:11099
 #, no-wrap
 msgid "An example"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:3381 R-exts.texi:3732 R-exts.texi:3804 R-exts.texi:3805
+#: R-exts.texi:3381
+#: R-exts.texi:3732
+#: R-exts.texi:3804
+#: R-exts.texi:3805
 #, no-wrap
 msgid "Namespaces with S4 classes and methods"
 msgstr ""
@@ -3557,7 +3817,8 @@ msgid "For packages with many variables to export it may be more convenient to s
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:3404 R-exts.texi:3835
+#: R-exts.texi:3404
+#: R-exts.texi:3835
 #, no-wrap
 msgid "exportPattern"
 msgstr ""
@@ -4103,7 +4364,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: R-exts.texi:3899 R-exts.texi:11384
+#: R-exts.texi:3899
+#: R-exts.texi:11384
 msgid "and"
 msgstr ""
 
@@ -4140,34 +4402,49 @@ msgid "This section contains advice on writing packages to be used on multiple p
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3939 R-exts.texi:4253 R-exts.texi:4254 R-exts.texi:4311
+#: R-exts.texi:3939
+#: R-exts.texi:4253
+#: R-exts.texi:4254
+#: R-exts.texi:4311
 #, no-wrap
 msgid "PDF size"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3939 R-exts.texi:4253 R-exts.texi:4311 R-exts.texi:4312
+#: R-exts.texi:3939
+#: R-exts.texi:4253
+#: R-exts.texi:4311
+#: R-exts.texi:4312
 #: R-exts.texi:4339
 #, no-wrap
 msgid "Check timing"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3939 R-exts.texi:4311 R-exts.texi:4339 R-exts.texi:4340
+#: R-exts.texi:3939
+#: R-exts.texi:4311
+#: R-exts.texi:4339
+#: R-exts.texi:4340
 #: R-exts.texi:4405
 #, no-wrap
 msgid "Encoding issues"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:3939 R-exts.texi:4339 R-exts.texi:4405 R-exts.texi:4406
+#: R-exts.texi:3939
+#: R-exts.texi:4339
+#: R-exts.texi:4405
+#: R-exts.texi:4406
 #: R-exts.texi:4513
 #, no-wrap
 msgid "Portable C and C++ code"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:3939 R-exts.texi:4405 R-exts.texi:4513 R-exts.texi:4514
+#: R-exts.texi:3939
+#: R-exts.texi:4405
+#: R-exts.texi:4513
+#: R-exts.texi:4514
 #, no-wrap
 msgid "Binary distribution"
 msgstr ""
@@ -4766,20 +5043,29 @@ msgid "The procedures make use of @code{msgfmt} and @code{xgettext} which are pa
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4682 R-exts.texi:4684 R-exts.texi:4685 R-exts.texi:4742
+#: R-exts.texi:4682
+#: R-exts.texi:4684
+#: R-exts.texi:4685
+#: R-exts.texi:4742
 #, no-wrap
 msgid "C-level messages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4682 R-exts.texi:4684 R-exts.texi:4742 R-exts.texi:4743
+#: R-exts.texi:4682
+#: R-exts.texi:4684
+#: R-exts.texi:4742
+#: R-exts.texi:4743
 #: R-exts.texi:4769
 #, no-wrap
 msgid "R messages"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:4682 R-exts.texi:4742 R-exts.texi:4769 R-exts.texi:4770
+#: R-exts.texi:4682
+#: R-exts.texi:4742
+#: R-exts.texi:4769
+#: R-exts.texi:4770
 #, no-wrap
 msgid "Preparing translations"
 msgstr ""
@@ -5026,7 +5312,9 @@ msgid "The @file{DESCRIPTION} file has an optional field @code{Type} which if mi
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:4908 R-exts.texi:4910 R-exts.texi:4911
+#: R-exts.texi:4908
+#: R-exts.texi:4910
+#: R-exts.texi:4911
 #, no-wrap
 msgid "Frontend"
 msgstr ""
@@ -5068,111 +5356,163 @@ msgid "Documentation, writing"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:4973 R-exts.texi:4974 R-exts.texi:5100
-#: R-exts.texi:5446 R-exts.texi:5519 R-exts.texi:5573 R-exts.texi:5600
+#: R-exts.texi:4971
+#: R-exts.texi:4973
+#: R-exts.texi:4974
+#: R-exts.texi:5100
+#: R-exts.texi:5446
+#: R-exts.texi:5519
+#: R-exts.texi:5573
+#: R-exts.texi:5600
 #, no-wrap
 msgid "Rd format"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:4973 R-exts.texi:5600 R-exts.texi:5601
+#: R-exts.texi:4971
+#: R-exts.texi:4973
+#: R-exts.texi:5600
+#: R-exts.texi:5601
 #: R-exts.texi:5641
 #, no-wrap
 msgid "Sectioning"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:5600 R-exts.texi:5641 R-exts.texi:5642
+#: R-exts.texi:4971
+#: R-exts.texi:5600
+#: R-exts.texi:5641
+#: R-exts.texi:5642
 #: R-exts.texi:5789
 #, no-wrap
 msgid "Marking text"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:5641 R-exts.texi:5789 R-exts.texi:5790
+#: R-exts.texi:4971
+#: R-exts.texi:5641
+#: R-exts.texi:5789
+#: R-exts.texi:5790
 #: R-exts.texi:5849
 #, no-wrap
 msgid "Lists and tables"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:5789 R-exts.texi:5849 R-exts.texi:5850
+#: R-exts.texi:4971
+#: R-exts.texi:5789
+#: R-exts.texi:5849
+#: R-exts.texi:5850
 #: R-exts.texi:5901
 #, no-wrap
 msgid "Cross-references"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:5849 R-exts.texi:5901 R-exts.texi:5902
+#: R-exts.texi:4971
+#: R-exts.texi:5849
+#: R-exts.texi:5901
+#: R-exts.texi:5902
 #: R-exts.texi:5965
 #, no-wrap
 msgid "Mathematics"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:5901 R-exts.texi:5965 R-exts.texi:5966
+#: R-exts.texi:4971
+#: R-exts.texi:5901
+#: R-exts.texi:5965
+#: R-exts.texi:5966
 #: R-exts.texi:6007
 #, no-wrap
 msgid "Figures"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:5965 R-exts.texi:6007 R-exts.texi:6008
+#: R-exts.texi:4971
+#: R-exts.texi:5965
+#: R-exts.texi:6007
+#: R-exts.texi:6008
 #: R-exts.texi:6053
 #, no-wrap
 msgid "Insertions"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:6007 R-exts.texi:6053 R-exts.texi:6054
-#: R-exts.texi:6055 R-exts.texi:6089
+#: R-exts.texi:4971
+#: R-exts.texi:6007
+#: R-exts.texi:6053
+#: R-exts.texi:6054
+#: R-exts.texi:6055
+#: R-exts.texi:6089
 #, no-wrap
 msgid "Indices"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:6053 R-exts.texi:6089 R-exts.texi:6126
+#: R-exts.texi:4971
+#: R-exts.texi:6053
+#: R-exts.texi:6089
+#: R-exts.texi:6126
 #, no-wrap
 msgid "Platform-specific sections"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:6089 R-exts.texi:6126 R-exts.texi:6127
+#: R-exts.texi:4971
+#: R-exts.texi:6089
+#: R-exts.texi:6126
+#: R-exts.texi:6127
 #: R-exts.texi:6160
 #, no-wrap
 msgid "Conditional text"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:6126 R-exts.texi:6160 R-exts.texi:6161
+#: R-exts.texi:4971
+#: R-exts.texi:6126
+#: R-exts.texi:6160
+#: R-exts.texi:6161
 #: R-exts.texi:6260
 #, no-wrap
 msgid "Dynamic pages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:6160 R-exts.texi:6260 R-exts.texi:6261
+#: R-exts.texi:4971
+#: R-exts.texi:6160
+#: R-exts.texi:6260
+#: R-exts.texi:6261
 #: R-exts.texi:6323
 #, no-wrap
 msgid "User-defined macros"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:6260 R-exts.texi:6323 R-exts.texi:6324
+#: R-exts.texi:4971
+#: R-exts.texi:6260
+#: R-exts.texi:6323
+#: R-exts.texi:6324
 #: R-exts.texi:6389
 #, no-wrap
 msgid "Encoding"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:4971 R-exts.texi:6323 R-exts.texi:6389 R-exts.texi:6390
+#: R-exts.texi:4971
+#: R-exts.texi:6323
+#: R-exts.texi:6389
+#: R-exts.texi:6390
 #: R-exts.texi:6426
 #, no-wrap
 msgid "Processing documentation files"
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:4971 R-exts.texi:6389 R-exts.texi:6426 R-exts.texi:6427
+#: R-exts.texi:4971
+#: R-exts.texi:6389
+#: R-exts.texi:6426
+#: R-exts.texi:6427
 #: R-exts.texi:6428
 #, no-wrap
 msgid "Editing Rd files"
@@ -5289,27 +5629,39 @@ msgid "Because backslashes, braces and percent symbols have special meaning, to 
 msgstr ""
 
 #. type: node
-#: R-exts.texi:5098 R-exts.texi:5100 R-exts.texi:5101 R-exts.texi:5446
+#: R-exts.texi:5098
+#: R-exts.texi:5100
+#: R-exts.texi:5101
+#: R-exts.texi:5446
 #, no-wrap
 msgid "Documenting functions"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:5098 R-exts.texi:5100 R-exts.texi:5446 R-exts.texi:5447
+#: R-exts.texi:5098
+#: R-exts.texi:5100
+#: R-exts.texi:5446
+#: R-exts.texi:5447
 #: R-exts.texi:5519
 #, no-wrap
 msgid "Documenting data sets"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:5098 R-exts.texi:5446 R-exts.texi:5519 R-exts.texi:5520
+#: R-exts.texi:5098
+#: R-exts.texi:5446
+#: R-exts.texi:5519
+#: R-exts.texi:5520
 #: R-exts.texi:5573
 #, no-wrap
 msgid "Documenting S4 classes and methods"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:5098 R-exts.texi:5519 R-exts.texi:5573 R-exts.texi:5574
+#: R-exts.texi:5098
+#: R-exts.texi:5519
+#: R-exts.texi:5573
+#: R-exts.texi:5574
 #, no-wrap
 msgid "Documenting packages"
 msgstr ""
@@ -5488,12 +5840,14 @@ msgid ""
 msgstr ""
 
 #. type: table
-#: R-exts.texi:5226 R-exts.texi:5262
+#: R-exts.texi:5226
+#: R-exts.texi:5262
 msgid "which will print as"
 msgstr ""
 
 #. type: group
-#: R-exts.texi:5230 R-exts.texi:5266
+#: R-exts.texi:5230
+#: R-exts.texi:5266
 #, no-wrap
 msgid ""
 "Usage:\n"
@@ -5765,7 +6119,8 @@ msgid "Text inside @code{\\dontrun@{@}} is `verbatim', but the other parts of th
 msgstr ""
 
 #. type: Plain text
-#: R-exts.texi:5378 R-exts.texi:9099
+#: R-exts.texi:5378
+#: R-exts.texi:9099
 msgid "For example,"
 msgstr ""
 
@@ -6806,7 +7161,8 @@ msgid "If you want to cross reference such items from other help files @emph{via
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:6090 R-exts.texi:6091
+#: R-exts.texi:6090
+#: R-exts.texi:6091
 #, no-wrap
 msgid "Platform-specific documentation"
 msgstr ""
@@ -6967,7 +7323,8 @@ msgid "Whether to keep the author's formatting when displaying the code, or thro
 msgstr ""
 
 #. type: code{#1}
-#: R-exts.texi:6194 R-exts.texi:6199
+#: R-exts.texi:6194
+#: R-exts.texi:6199
 #, no-wrap
 msgid "results=text"
 msgstr ""
@@ -7027,7 +7384,8 @@ msgid "Remove leading and trailing white space from each line of output if @code
 msgstr ""
 
 #. type: code{#1}
-#: R-exts.texi:6224 R-exts.texi:6230
+#: R-exts.texi:6224
+#: R-exts.texi:6230
 #, no-wrap
 msgid "stage=install"
 msgstr ""
@@ -7309,29 +7667,46 @@ msgid "Some @R{} front-ends provide editing support for @file{.Rd} files, for ex
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6458 R-exts.texi:6465 R-exts.texi:6466 R-exts.texi:6467
+#: R-exts.texi:6458
+#: R-exts.texi:6465
+#: R-exts.texi:6466
+#: R-exts.texi:6467
 #: R-exts.texi:6531
 #, no-wrap
 msgid "Tidying R code"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6458 R-exts.texi:6465 R-exts.texi:6531 R-exts.texi:6532
+#: R-exts.texi:6458
+#: R-exts.texi:6465
+#: R-exts.texi:6531
+#: R-exts.texi:6532
 #: R-exts.texi:6645
 #, no-wrap
 msgid "Profiling R code for speed"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6458 R-exts.texi:6531 R-exts.texi:6645 R-exts.texi:6646
-#: R-exts.texi:6708 R-exts.texi:6729 R-exts.texi:6752 R-exts.texi:6803
+#: R-exts.texi:6458
+#: R-exts.texi:6531
+#: R-exts.texi:6645
+#: R-exts.texi:6646
+#: R-exts.texi:6708
+#: R-exts.texi:6729
+#: R-exts.texi:6752
+#: R-exts.texi:6803
 #, no-wrap
 msgid "Profiling R code for memory use"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6458 R-exts.texi:6645 R-exts.texi:6803 R-exts.texi:6804
-#: R-exts.texi:6819 R-exts.texi:7029 R-exts.texi:7035
+#: R-exts.texi:6458
+#: R-exts.texi:6645
+#: R-exts.texi:6803
+#: R-exts.texi:6804
+#: R-exts.texi:6819
+#: R-exts.texi:7029
+#: R-exts.texi:7035
 #, no-wrap
 msgid "Profiling compiled code"
 msgstr ""
@@ -7401,13 +7776,16 @@ msgid "The standard format provides a good starting point for further tidying.  
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:6533 R-exts.texi:6647 R-exts.texi:6805
+#: R-exts.texi:6533
+#: R-exts.texi:6647
+#: R-exts.texi:6805
 #, no-wrap
 msgid "Profiling"
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:6534 R-exts.texi:6710
+#: R-exts.texi:6534
+#: R-exts.texi:6710
 #, no-wrap
 msgid "Rprof"
 msgstr ""
@@ -7596,20 +7974,28 @@ msgid "The main reason that memory-use profiling is difficult is garbage collect
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6706 R-exts.texi:6708 R-exts.texi:6729
+#: R-exts.texi:6706
+#: R-exts.texi:6708
+#: R-exts.texi:6729
 #, no-wrap
 msgid "Memory statistics from Rprof"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6706 R-exts.texi:6708 R-exts.texi:6729 R-exts.texi:6730
+#: R-exts.texi:6706
+#: R-exts.texi:6708
+#: R-exts.texi:6729
+#: R-exts.texi:6730
 #: R-exts.texi:6752
 #, no-wrap
 msgid "Tracking memory allocations"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:6706 R-exts.texi:6729 R-exts.texi:6752 R-exts.texi:6753
+#: R-exts.texi:6706
+#: R-exts.texi:6729
+#: R-exts.texi:6752
+#: R-exts.texi:6753
 #, no-wrap
 msgid "Tracing copies of an object"
 msgstr ""
@@ -7729,20 +8115,29 @@ msgid "Profiling compiled code is highly system-specific, but this section conta
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6817 R-exts.texi:6819 R-exts.texi:6820 R-exts.texi:7029
+#: R-exts.texi:6817
+#: R-exts.texi:6819
+#: R-exts.texi:6820
+#: R-exts.texi:7029
 #, no-wrap
 msgid "Linux"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:6817 R-exts.texi:6819 R-exts.texi:7029 R-exts.texi:7030
+#: R-exts.texi:6817
+#: R-exts.texi:6819
+#: R-exts.texi:7029
+#: R-exts.texi:7030
 #: R-exts.texi:7035
 #, no-wrap
 msgid "Solaris"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:6817 R-exts.texi:7029 R-exts.texi:7035 R-exts.texi:7036
+#: R-exts.texi:6817
+#: R-exts.texi:7029
+#: R-exts.texi:7035
+#: R-exts.texi:7036
 #, no-wrap
 msgid "OS X"
 msgstr ""
@@ -8071,29 +8466,48 @@ msgid "This chapter covers the debugging of @R{} extensions, starting with the w
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7063 R-exts.texi:7066 R-exts.texi:7067 R-exts.texi:7145
+#: R-exts.texi:7063
+#: R-exts.texi:7066
+#: R-exts.texi:7067
+#: R-exts.texi:7145
 #, no-wrap
 msgid "Browsing"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7063 R-exts.texi:7066 R-exts.texi:7145 R-exts.texi:7146
+#: R-exts.texi:7063
+#: R-exts.texi:7066
+#: R-exts.texi:7145
+#: R-exts.texi:7146
 #: R-exts.texi:7461
 #, no-wrap
 msgid "Debugging R code"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7063 R-exts.texi:7145 R-exts.texi:7461 R-exts.texi:7462
-#: R-exts.texi:7492 R-exts.texi:7561 R-exts.texi:7680 R-exts.texi:7809
-#: R-exts.texi:7926 R-exts.texi:7940 R-exts.texi:7949 R-exts.texi:7985
+#: R-exts.texi:7063
+#: R-exts.texi:7145
+#: R-exts.texi:7461
+#: R-exts.texi:7462
+#: R-exts.texi:7492
+#: R-exts.texi:7561
+#: R-exts.texi:7680
+#: R-exts.texi:7809
+#: R-exts.texi:7926
+#: R-exts.texi:7940
+#: R-exts.texi:7949
+#: R-exts.texi:7985
 #, no-wrap
 msgid "Checking memory access"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7063 R-exts.texi:7461 R-exts.texi:7985 R-exts.texi:7986
-#: R-exts.texi:8116 R-exts.texi:8147
+#: R-exts.texi:7063
+#: R-exts.texi:7461
+#: R-exts.texi:7985
+#: R-exts.texi:7986
+#: R-exts.texi:8116
+#: R-exts.texi:8147
 #, no-wrap
 msgid "Debugging compiled code"
 msgstr ""
@@ -8615,47 +9029,68 @@ msgid "Some of these tools can detect mismatched allocation and deallocation.  C
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7490 R-exts.texi:7492 R-exts.texi:7493 R-exts.texi:7561
+#: R-exts.texi:7490
+#: R-exts.texi:7492
+#: R-exts.texi:7493
+#: R-exts.texi:7561
 #, no-wrap
 msgid "Using gctorture"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7490 R-exts.texi:7492 R-exts.texi:7561 R-exts.texi:7562
+#: R-exts.texi:7490
+#: R-exts.texi:7492
+#: R-exts.texi:7561
+#: R-exts.texi:7562
 #: R-exts.texi:7680
 #, no-wrap
 msgid "Using valgrind"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7490 R-exts.texi:7561 R-exts.texi:7680 R-exts.texi:7776
+#: R-exts.texi:7490
+#: R-exts.texi:7561
+#: R-exts.texi:7680
+#: R-exts.texi:7776
 #: R-exts.texi:7809
 #, no-wrap
 msgid "Using Address Sanitizer"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7490 R-exts.texi:7680 R-exts.texi:7809 R-exts.texi:7926
+#: R-exts.texi:7490
+#: R-exts.texi:7680
+#: R-exts.texi:7809
+#: R-exts.texi:7926
 #, no-wrap
 msgid "Using Undefined Behaviour Sanitizer"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7490 R-exts.texi:7809 R-exts.texi:7926 R-exts.texi:7927
+#: R-exts.texi:7490
+#: R-exts.texi:7809
+#: R-exts.texi:7926
+#: R-exts.texi:7927
 #: R-exts.texi:7940
 #, no-wrap
 msgid "Other analyses with `clang'"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7490 R-exts.texi:7926 R-exts.texi:7940 R-exts.texi:7941
+#: R-exts.texi:7490
+#: R-exts.texi:7926
+#: R-exts.texi:7940
+#: R-exts.texi:7941
 #: R-exts.texi:7949
 #, no-wrap
 msgid "Using `Dr. Memory'"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:7490 R-exts.texi:7940 R-exts.texi:7949 R-exts.texi:7950
+#: R-exts.texi:7490
+#: R-exts.texi:7940
+#: R-exts.texi:7949
+#: R-exts.texi:7950
 #, no-wrap
 msgid "Fortran array bounds checking"
 msgstr ""
@@ -8924,7 +9359,8 @@ msgid "(See @uref{http://code.google.com/p/address-sanitizer/wiki/AddressSanitiz
 msgstr ""
 
 #. type: node
-#: R-exts.texi:7774 R-exts.texi:7776
+#: R-exts.texi:7774
+#: R-exts.texi:7776
 #, no-wrap
 msgid "Using Leak Sanitizer"
 msgstr ""
@@ -9346,13 +9782,17 @@ msgid "Some ``tricks'' worth knowing follow:"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8114 R-exts.texi:8116 R-exts.texi:8147
+#: R-exts.texi:8114
+#: R-exts.texi:8116
+#: R-exts.texi:8147
 #, no-wrap
 msgid "Finding entry points"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8114 R-exts.texi:8116 R-exts.texi:8147
+#: R-exts.texi:8114
+#: R-exts.texi:8116
+#: R-exts.texi:8147
 #, no-wrap
 msgid "Inspecting R objects"
 msgstr ""
@@ -9404,7 +9844,8 @@ msgid "Under Windows signals may not be able to be used, and if so the procedure
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:8148 R-exts.texi:8149
+#: R-exts.texi:8148
+#: R-exts.texi:8149
 #, no-wrap
 msgid "Inspecting R objects when debugging"
 msgstr ""
@@ -9585,105 +10026,174 @@ msgid "For a more fine-grained control over the depth of the recursion and the o
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:8306 R-exts.texi:8307 R-exts.texi:8308
+#: R-exts.texi:8304
+#: R-exts.texi:8306
+#: R-exts.texi:8307
+#: R-exts.texi:8308
 #: R-exts.texi:8330
 #, no-wrap
 msgid "Operating system access"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:8306 R-exts.texi:8330 R-exts.texi:8499
+#: R-exts.texi:8304
+#: R-exts.texi:8306
+#: R-exts.texi:8330
+#: R-exts.texi:8499
 #, no-wrap
 msgid "Interface functions .C and .Fortran"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:8330 R-exts.texi:8499 R-exts.texi:8629
+#: R-exts.texi:8304
+#: R-exts.texi:8330
+#: R-exts.texi:8499
+#: R-exts.texi:8629
 #, no-wrap
 msgid "dyn.load and dyn.unload"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:8499 R-exts.texi:8629 R-exts.texi:8630
-#: R-exts.texi:8631 R-exts.texi:8808 R-exts.texi:8875 R-exts.texi:8927
+#: R-exts.texi:8304
+#: R-exts.texi:8499
+#: R-exts.texi:8629
+#: R-exts.texi:8630
+#: R-exts.texi:8631
+#: R-exts.texi:8808
+#: R-exts.texi:8875
+#: R-exts.texi:8927
 #, no-wrap
 msgid "Registering native routines"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:8629 R-exts.texi:8927 R-exts.texi:8928
-#: R-exts.texi:8929 R-exts.texi:9044
+#: R-exts.texi:8304
+#: R-exts.texi:8629
+#: R-exts.texi:8927
+#: R-exts.texi:8928
+#: R-exts.texi:8929
+#: R-exts.texi:9044
 #, no-wrap
 msgid "Creating shared objects"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:8927 R-exts.texi:9044 R-exts.texi:9045
-#: R-exts.texi:9046 R-exts.texi:9172
+#: R-exts.texi:8304
+#: R-exts.texi:8927
+#: R-exts.texi:9044
+#: R-exts.texi:9045
+#: R-exts.texi:9046
+#: R-exts.texi:9172
 #, no-wrap
 msgid "Interfacing C++ code"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:9044 R-exts.texi:9172 R-exts.texi:9173
+#: R-exts.texi:8304
+#: R-exts.texi:9044
+#: R-exts.texi:9172
+#: R-exts.texi:9173
 #: R-exts.texi:9190
 #, no-wrap
 msgid "Fortran I/O"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:9172 R-exts.texi:9190 R-exts.texi:9191
-#: R-exts.texi:9212 R-exts.texi:9286 R-exts.texi:9363
+#: R-exts.texi:8304
+#: R-exts.texi:9172
+#: R-exts.texi:9190
+#: R-exts.texi:9191
+#: R-exts.texi:9212
+#: R-exts.texi:9286
+#: R-exts.texi:9363
 #, no-wrap
 msgid "Linking to other packages"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:9190 R-exts.texi:9363 R-exts.texi:9364
-#: R-exts.texi:9365 R-exts.texi:9488 R-exts.texi:9606 R-exts.texi:9628
-#: R-exts.texi:9704 R-exts.texi:9845 R-exts.texi:9875 R-exts.texi:9936
-#: R-exts.texi:9968 R-exts.texi:10028 R-exts.texi:10107 R-exts.texi:10193
+#: R-exts.texi:8304
+#: R-exts.texi:9190
+#: R-exts.texi:9363
+#: R-exts.texi:9364
+#: R-exts.texi:9365
+#: R-exts.texi:9488
+#: R-exts.texi:9606
+#: R-exts.texi:9628
+#: R-exts.texi:9704
+#: R-exts.texi:9845
+#: R-exts.texi:9875
+#: R-exts.texi:9936
+#: R-exts.texi:9968
+#: R-exts.texi:10028
+#: R-exts.texi:10107
+#: R-exts.texi:10193
 #, no-wrap
 msgid "Handling R objects in C"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:9363 R-exts.texi:10193 R-exts.texi:10210
-#: R-exts.texi:10251 R-exts.texi:10392 R-exts.texi:10438
+#: R-exts.texi:8304
+#: R-exts.texi:9363
+#: R-exts.texi:10193
+#: R-exts.texi:10210
+#: R-exts.texi:10251
+#: R-exts.texi:10392
+#: R-exts.texi:10438
 #, no-wrap
 msgid "Interface functions .Call and .External"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:10193 R-exts.texi:10438 R-exts.texi:10439
-#: R-exts.texi:10440 R-exts.texi:10569 R-exts.texi:10652 R-exts.texi:10875
+#: R-exts.texi:8304
+#: R-exts.texi:10193
+#: R-exts.texi:10438
+#: R-exts.texi:10439
+#: R-exts.texi:10440
+#: R-exts.texi:10569
+#: R-exts.texi:10652
+#: R-exts.texi:10875
 #, no-wrap
 msgid "Evaluating R expressions from C"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:10438 R-exts.texi:10875 R-exts.texi:10876
-#: R-exts.texi:10877 R-exts.texi:10944 R-exts.texi:10974
+#: R-exts.texi:8304
+#: R-exts.texi:10438
+#: R-exts.texi:10875
+#: R-exts.texi:10876
+#: R-exts.texi:10877
+#: R-exts.texi:10944
+#: R-exts.texi:10974
 #, no-wrap
 msgid "Parsing R code from C"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:10875 R-exts.texi:10974 R-exts.texi:10975
-#: R-exts.texi:11098 R-exts.texi:11149
+#: R-exts.texi:8304
+#: R-exts.texi:10875
+#: R-exts.texi:10974
+#: R-exts.texi:10975
+#: R-exts.texi:11098
+#: R-exts.texi:11149
 #, no-wrap
 msgid "External pointers and weak references"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8304 R-exts.texi:10974 R-exts.texi:11149 R-exts.texi:11150
+#: R-exts.texi:8304
+#: R-exts.texi:10974
+#: R-exts.texi:11149
+#: R-exts.texi:11150
 #: R-exts.texi:11170
 #, no-wrap
 msgid "Vector accessor functions"
 msgstr ""
 
 #. type: section
-#: R-exts.texi:8304 R-exts.texi:11149 R-exts.texi:11170 R-exts.texi:11171
+#: R-exts.texi:8304
+#: R-exts.texi:11149
+#: R-exts.texi:11170
+#: R-exts.texi:11171
 #, no-wrap
 msgid "Character encoding issues"
 msgstr ""
@@ -9738,7 +10248,8 @@ msgid "Interface functions @code{.C} and @code{.Fortran}"
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:8332 R-exts.texi:10195
+#: R-exts.texi:8332
+#: R-exts.texi:10195
 #, no-wrap
 msgid "Interfaces to compiled code"
 msgstr ""
@@ -10299,13 +10810,19 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: R-exts.texi:8806 R-exts.texi:8808 R-exts.texi:8809 R-exts.texi:8875
+#: R-exts.texi:8806
+#: R-exts.texi:8808
+#: R-exts.texi:8809
+#: R-exts.texi:8875
 #, no-wrap
 msgid "Speed considerations"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:8806 R-exts.texi:8808 R-exts.texi:8875 R-exts.texi:8876
+#: R-exts.texi:8806
+#: R-exts.texi:8808
+#: R-exts.texi:8875
+#: R-exts.texi:8876
 #, no-wrap
 msgid "Linking to native routines in other packages"
 msgstr ""
@@ -10327,7 +10844,8 @@ msgid "foo <- function(x) .Call(\"foo\", x)\n"
 msgstr ""
 
 #. type: Plain text
-#: R-exts.texi:8822 R-exts.texi:10466
+#: R-exts.texi:8822
+#: R-exts.texi:10466
 msgid "with C code"
 msgstr ""
 
@@ -10686,7 +11204,8 @@ msgid "To use with @R{}, the only thing we have to do is writing a wrapper funct
 msgstr ""
 
 #. type: example
-#: R-exts.texi:9093 R-exts.texi:9108
+#: R-exts.texi:9093
+#: R-exts.texi:9108
 #, no-wrap
 msgid ""
 "extern \"C\" @{\n"
@@ -10813,13 +11332,19 @@ msgid "Shipping a static library in package @pkg{packB} for other packages to li
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9210 R-exts.texi:9212 R-exts.texi:9213 R-exts.texi:9286
+#: R-exts.texi:9210
+#: R-exts.texi:9212
+#: R-exts.texi:9213
+#: R-exts.texi:9286
 #, no-wrap
 msgid "Unix-alikes"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:9210 R-exts.texi:9212 R-exts.texi:9286 R-exts.texi:9287
+#: R-exts.texi:9210
+#: R-exts.texi:9212
+#: R-exts.texi:9286
+#: R-exts.texi:9287
 #, no-wrap
 msgid "Windows"
 msgstr ""
@@ -11005,13 +11530,15 @@ msgid "Using C code to speed up the execution of an @R{} function is often very 
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:9376 R-exts.texi:10213
+#: R-exts.texi:9376
+#: R-exts.texi:10213
 #, no-wrap
 msgid ".Call"
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:9377 R-exts.texi:10254
+#: R-exts.texi:9377
+#: R-exts.texi:10254
 #, no-wrap
 msgid ".External"
 msgstr ""
@@ -11033,8 +11560,13 @@ msgid "The first argument should be a character string giving a C symbol name of
 msgstr ""
 
 #. type: group
-#: R-exts.texi:9394 R-exts.texi:9413 R-exts.texi:9535 R-exts.texi:9736
-#: R-exts.texi:9762 R-exts.texi:10230 R-exts.texi:10272
+#: R-exts.texi:9394
+#: R-exts.texi:9413
+#: R-exts.texi:9535
+#: R-exts.texi:9736
+#: R-exts.texi:9762
+#: R-exts.texi:10230
+#: R-exts.texi:10272
 #, no-wrap
 msgid ""
 "#include <R.h>\n"
@@ -11105,69 +11637,104 @@ msgid "It is necessary to know something about how @R{} objects are handled in C
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9488 R-exts.texi:9606
+#: R-exts.texi:9486
+#: R-exts.texi:9488
+#: R-exts.texi:9606
 #, no-wrap
 msgid "Garbage Collection"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9488 R-exts.texi:9606 R-exts.texi:9607
-#: R-exts.texi:9608 R-exts.texi:9628
+#: R-exts.texi:9486
+#: R-exts.texi:9488
+#: R-exts.texi:9606
+#: R-exts.texi:9607
+#: R-exts.texi:9608
+#: R-exts.texi:9628
 #, no-wrap
 msgid "Allocating storage"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9606 R-exts.texi:9628 R-exts.texi:9629
-#: R-exts.texi:9630 R-exts.texi:9704
+#: R-exts.texi:9486
+#: R-exts.texi:9606
+#: R-exts.texi:9628
+#: R-exts.texi:9629
+#: R-exts.texi:9630
+#: R-exts.texi:9704
 #, no-wrap
 msgid "Details of R types"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9628 R-exts.texi:9704 R-exts.texi:9705
-#: R-exts.texi:9706 R-exts.texi:9845
+#: R-exts.texi:9486
+#: R-exts.texi:9628
+#: R-exts.texi:9704
+#: R-exts.texi:9705
+#: R-exts.texi:9706
+#: R-exts.texi:9845
 #, no-wrap
 msgid "Attributes"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9704 R-exts.texi:9845 R-exts.texi:9846
-#: R-exts.texi:9847 R-exts.texi:9875
+#: R-exts.texi:9486
+#: R-exts.texi:9704
+#: R-exts.texi:9845
+#: R-exts.texi:9846
+#: R-exts.texi:9847
+#: R-exts.texi:9875
 #, no-wrap
 msgid "Classes"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9845 R-exts.texi:9875 R-exts.texi:9876
-#: R-exts.texi:9877 R-exts.texi:9936
+#: R-exts.texi:9486
+#: R-exts.texi:9845
+#: R-exts.texi:9875
+#: R-exts.texi:9876
+#: R-exts.texi:9877
+#: R-exts.texi:9936
 #, no-wrap
 msgid "Handling lists"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9875 R-exts.texi:9936 R-exts.texi:9937
+#: R-exts.texi:9486
+#: R-exts.texi:9875
+#: R-exts.texi:9936
+#: R-exts.texi:9937
 #: R-exts.texi:9968
 #, no-wrap
 msgid "Handling character data"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9936 R-exts.texi:9968 R-exts.texi:9969
+#: R-exts.texi:9486
+#: R-exts.texi:9936
+#: R-exts.texi:9968
+#: R-exts.texi:9969
 #: R-exts.texi:10028
 #, no-wrap
 msgid "Finding and setting variables"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:9486 R-exts.texi:9968 R-exts.texi:10028 R-exts.texi:10029
-#: R-exts.texi:10094 R-exts.texi:10107
+#: R-exts.texi:9486
+#: R-exts.texi:9968
+#: R-exts.texi:10028
+#: R-exts.texi:10029
+#: R-exts.texi:10094
+#: R-exts.texi:10107
 #, no-wrap
 msgid "Some convenience functions"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:9486 R-exts.texi:10028 R-exts.texi:10107 R-exts.texi:10108
+#: R-exts.texi:9486
+#: R-exts.texi:10028
+#: R-exts.texi:10107
+#: R-exts.texi:10108
 #, no-wrap
 msgid "Named objects and copying"
 msgstr ""
@@ -11959,7 +12526,9 @@ msgid "Functions @code{str2type} and @code{type2str} map @R{} length-one charact
 msgstr ""
 
 #. type: subsubsection
-#: R-exts.texi:10092 R-exts.texi:10094 R-exts.texi:10095
+#: R-exts.texi:10092
+#: R-exts.texi:10094
+#: R-exts.texi:10095
 #, no-wrap
 msgid "Semi-internal convenience functions"
 msgstr ""
@@ -12110,19 +12679,27 @@ msgid "These two interfaces have almost the same functionality. @code{.Call} is 
 msgstr ""
 
 #. type: node
-#: R-exts.texi:10208 R-exts.texi:10210 R-exts.texi:10251
+#: R-exts.texi:10208
+#: R-exts.texi:10210
+#: R-exts.texi:10251
 #, no-wrap
 msgid "Calling .Call"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:10208 R-exts.texi:10210 R-exts.texi:10251 R-exts.texi:10392
+#: R-exts.texi:10208
+#: R-exts.texi:10210
+#: R-exts.texi:10251
+#: R-exts.texi:10392
 #, no-wrap
 msgid "Calling .External"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:10208 R-exts.texi:10251 R-exts.texi:10392 R-exts.texi:10393
+#: R-exts.texi:10208
+#: R-exts.texi:10251
+#: R-exts.texi:10392
+#: R-exts.texi:10393
 #, no-wrap
 msgid "Missing and special values"
 msgstr ""
@@ -12376,13 +12953,15 @@ msgid "The (very similar) C code is in the scripts."
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:10394 R-exts.texi:11602
+#: R-exts.texi:10394
+#: R-exts.texi:11602
 #, no-wrap
 msgid "Missing values"
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:10395 R-exts.texi:11603
+#: R-exts.texi:10395
+#: R-exts.texi:11603
 #, no-wrap
 msgid "IEEE special values"
 msgstr ""
@@ -12412,13 +12991,15 @@ msgid ""
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:10424 R-exts.texi:11604
+#: R-exts.texi:10424
+#: R-exts.texi:11604
 #, no-wrap
 msgid "ISNA"
 msgstr ""
 
 #. type: findex
-#: R-exts.texi:10425 R-exts.texi:11605
+#: R-exts.texi:10425
+#: R-exts.texi:11605
 #, no-wrap
 msgid "ISNAN"
 msgstr ""
@@ -12577,14 +13158,20 @@ msgid "A pairlist is quite distinct from a generic vector list, the only user-vi
 msgstr ""
 
 #. type: node
-#: R-exts.texi:10567 R-exts.texi:10569 R-exts.texi:10570 R-exts.texi:10571
+#: R-exts.texi:10567
+#: R-exts.texi:10569
+#: R-exts.texi:10570
+#: R-exts.texi:10571
 #: R-exts.texi:10652
 #, no-wrap
 msgid "Zero-finding"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:10567 R-exts.texi:10569 R-exts.texi:10652 R-exts.texi:10653
+#: R-exts.texi:10567
+#: R-exts.texi:10569
+#: R-exts.texi:10652
+#: R-exts.texi:10653
 #, no-wrap
 msgid "Calculating numerical derivatives"
 msgstr ""
@@ -12793,7 +13380,8 @@ msgid ""
 msgstr ""
 
 #. type: group
-#: R-exts.texi:10729 R-exts.texi:10772
+#: R-exts.texi:10729
+#: R-exts.texi:10772
 #, no-wrap
 msgid ""
 "    expr = CADR(args);\n"
@@ -13007,7 +13595,9 @@ msgid "@code{R_ParseVector} is essentially the code used to implement @code{pars
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:10942 R-exts.texi:10944 R-exts.texi:10945
+#: R-exts.texi:10942
+#: R-exts.texi:10944
+#: R-exts.texi:10945
 #, no-wrap
 msgid "Accessing source references"
 msgstr ""
@@ -13214,7 +13804,8 @@ msgid "A toy example of the use of weak references can be found at @uref{http://
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11096 R-exts.texi:11098
+#: R-exts.texi:11096
+#: R-exts.texi:11098
 #, no-wrap
 msgid "An external pointer example"
 msgstr ""
@@ -13391,117 +13982,175 @@ msgid "The R @acronym{API}: entry points for C code"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11334 R-exts.texi:11335 R-exts.texi:11347
-#: R-exts.texi:11440 R-exts.texi:11484
+#: R-exts.texi:11263
+#: R-exts.texi:11334
+#: R-exts.texi:11335
+#: R-exts.texi:11347
+#: R-exts.texi:11440
+#: R-exts.texi:11484
 #, no-wrap
 msgid "Memory allocation"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11334 R-exts.texi:11484 R-exts.texi:11485
-#: R-exts.texi:11525 R-exts.texi:11543
+#: R-exts.texi:11263
+#: R-exts.texi:11334
+#: R-exts.texi:11484
+#: R-exts.texi:11485
+#: R-exts.texi:11525
+#: R-exts.texi:11543
 #, no-wrap
 msgid "Error handling"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11484 R-exts.texi:11543 R-exts.texi:11600
+#: R-exts.texi:11263
+#: R-exts.texi:11484
+#: R-exts.texi:11543
+#: R-exts.texi:11600
 #, no-wrap
 msgid "Random numbers"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11543 R-exts.texi:11600 R-exts.texi:11645
+#: R-exts.texi:11263
+#: R-exts.texi:11543
+#: R-exts.texi:11600
+#: R-exts.texi:11645
 #, no-wrap
 msgid "Missing and IEEE values"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11600 R-exts.texi:11645 R-exts.texi:11646
-#: R-exts.texi:11678 R-exts.texi:11708
+#: R-exts.texi:11263
+#: R-exts.texi:11600
+#: R-exts.texi:11645
+#: R-exts.texi:11646
+#: R-exts.texi:11678
+#: R-exts.texi:11708
 #, no-wrap
 msgid "Printing"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11645 R-exts.texi:11708 R-exts.texi:11709
-#: R-exts.texi:11710 R-exts.texi:11781
+#: R-exts.texi:11263
+#: R-exts.texi:11645
+#: R-exts.texi:11708
+#: R-exts.texi:11709
+#: R-exts.texi:11710
+#: R-exts.texi:11781
 #, no-wrap
 msgid "Calling C from FORTRAN and vice versa"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11708 R-exts.texi:11781 R-exts.texi:11782
-#: R-exts.texi:11808 R-exts.texi:11932 R-exts.texi:11992 R-exts.texi:12117
+#: R-exts.texi:11263
+#: R-exts.texi:11708
+#: R-exts.texi:11781
+#: R-exts.texi:11782
+#: R-exts.texi:11808
+#: R-exts.texi:11932
+#: R-exts.texi:11992
+#: R-exts.texi:12117
 #: R-exts.texi:12173
 #, no-wrap
 msgid "Numerical analysis subroutines"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:11781 R-exts.texi:12173 R-exts.texi:12174
+#: R-exts.texi:11263
+#: R-exts.texi:11781
+#: R-exts.texi:12173
+#: R-exts.texi:12174
 #: R-exts.texi:12260
 #, no-wrap
 msgid "Optimization"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12173 R-exts.texi:12260 R-exts.texi:12261
+#: R-exts.texi:11263
+#: R-exts.texi:12173
+#: R-exts.texi:12260
+#: R-exts.texi:12261
 #: R-exts.texi:12347
 #, no-wrap
 msgid "Integration"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12260 R-exts.texi:12347 R-exts.texi:12348
+#: R-exts.texi:11263
+#: R-exts.texi:12260
+#: R-exts.texi:12347
+#: R-exts.texi:12348
 #: R-exts.texi:12485
 #, no-wrap
 msgid "Utility functions"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12347 R-exts.texi:12485 R-exts.texi:12486
+#: R-exts.texi:11263
+#: R-exts.texi:12347
+#: R-exts.texi:12485
+#: R-exts.texi:12486
 #: R-exts.texi:12518
 #, no-wrap
 msgid "Re-encoding"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12485 R-exts.texi:12518 R-exts.texi:12519
+#: R-exts.texi:11263
+#: R-exts.texi:12485
+#: R-exts.texi:12518
+#: R-exts.texi:12519
 #: R-exts.texi:12547
 #, no-wrap
 msgid "Allowing interrupts"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12518 R-exts.texi:12547 R-exts.texi:12548
+#: R-exts.texi:11263
+#: R-exts.texi:12518
+#: R-exts.texi:12547
+#: R-exts.texi:12548
 #: R-exts.texi:12610
 #, no-wrap
 msgid "Platform and version information"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12547 R-exts.texi:12610 R-exts.texi:12611
+#: R-exts.texi:11263
+#: R-exts.texi:12547
+#: R-exts.texi:12610
+#: R-exts.texi:12611
 #: R-exts.texi:12638
 #, no-wrap
 msgid "Inlining C functions"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12610 R-exts.texi:12638 R-exts.texi:12639
+#: R-exts.texi:11263
+#: R-exts.texi:12610
+#: R-exts.texi:12638
+#: R-exts.texi:12639
 #: R-exts.texi:12696
 #, no-wrap
 msgid "Controlling visibility"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11263 R-exts.texi:12638 R-exts.texi:12696 R-exts.texi:12747
+#: R-exts.texi:11263
+#: R-exts.texi:12638
+#: R-exts.texi:12696
+#: R-exts.texi:12747
 #, no-wrap
 msgid "Standalone Mathlib"
 msgstr ""
 
 #. type: section
-#: R-exts.texi:11263 R-exts.texi:12696 R-exts.texi:12747 R-exts.texi:12748
+#: R-exts.texi:11263
+#: R-exts.texi:12696
+#: R-exts.texi:12747
+#: R-exts.texi:12748
 #, no-wrap
 msgid "Organization of header files"
 msgstr ""
@@ -13608,13 +14257,19 @@ msgid "Memory allocation from C"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11341 R-exts.texi:11347 R-exts.texi:11348 R-exts.texi:11440
+#: R-exts.texi:11341
+#: R-exts.texi:11347
+#: R-exts.texi:11348
+#: R-exts.texi:11440
 #, no-wrap
 msgid "Transient storage allocation"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:11341 R-exts.texi:11347 R-exts.texi:11440 R-exts.texi:11441
+#: R-exts.texi:11341
+#: R-exts.texi:11347
+#: R-exts.texi:11440
+#: R-exts.texi:11441
 #, no-wrap
 msgid "User-controlled memory"
 msgstr ""
@@ -13879,7 +14534,10 @@ msgid "the last two being the forms available in all @Sl{} versions.  Here @samp
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:11523 R-exts.texi:11525 R-exts.texi:11526 R-exts.texi:11527
+#: R-exts.texi:11523
+#: R-exts.texi:11525
+#: R-exts.texi:11526
+#: R-exts.texi:11527
 #, no-wrap
 msgid "Error handling from FORTRAN"
 msgstr ""
@@ -13909,7 +14567,8 @@ msgid "Random number generation"
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:11545 R-exts.texi:11856
+#: R-exts.texi:11545
+#: R-exts.texi:11856
 #, no-wrap
 msgid "Random numbers in C"
 msgstr ""
@@ -14144,7 +14803,10 @@ msgid "Another circumstance when it may be important to use these functions is w
 msgstr ""
 
 #. type: cindex
-#: R-exts.texi:11676 R-exts.texi:11678 R-exts.texi:11679 R-exts.texi:11680
+#: R-exts.texi:11676
+#: R-exts.texi:11678
+#: R-exts.texi:11679
+#: R-exts.texi:11680
 #, no-wrap
 msgid "Printing from FORTRAN"
 msgstr ""
@@ -14250,7 +14912,8 @@ msgid "Random numbers in FORTRAN"
 msgstr ""
 
 #. type: example
-#: R-exts.texi:11743 R-exts.texi:12622
+#: R-exts.texi:11743
+#: R-exts.texi:12622
 #, no-wrap
 msgid ""
 "#include <R.h>\n"
@@ -14321,27 +14984,39 @@ msgid "The header file @file{Rmath.h} lists many other functions that are availa
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11806 R-exts.texi:11808 R-exts.texi:11809 R-exts.texi:11932
+#: R-exts.texi:11806
+#: R-exts.texi:11808
+#: R-exts.texi:11809
+#: R-exts.texi:11932
 #, no-wrap
 msgid "Distribution functions"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11806 R-exts.texi:11808 R-exts.texi:11932 R-exts.texi:11933
+#: R-exts.texi:11806
+#: R-exts.texi:11808
+#: R-exts.texi:11932
+#: R-exts.texi:11933
 #: R-exts.texi:11992
 #, no-wrap
 msgid "Mathematical functions"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:11806 R-exts.texi:11932 R-exts.texi:11992 R-exts.texi:11993
+#: R-exts.texi:11806
+#: R-exts.texi:11932
+#: R-exts.texi:11992
+#: R-exts.texi:11993
 #: R-exts.texi:12117
 #, no-wrap
 msgid "Numerical Utilities"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:11806 R-exts.texi:11992 R-exts.texi:12117 R-exts.texi:12118
+#: R-exts.texi:11806
+#: R-exts.texi:11992
+#: R-exts.texi:12117
+#: R-exts.texi:12118
 #, no-wrap
 msgid "Mathematical constants"
 msgstr ""
@@ -14850,7 +15525,8 @@ msgid "Computes @code{log(1 + @var{x})} (@emph{log 1 @b{p}lus x}), accurately ev
 msgstr ""
 
 #. type: deftypefun
-#: R-exts.texi:12013 R-exts.texi:12034
+#: R-exts.texi:12013
+#: R-exts.texi:12034
 msgid "This should be provided by your platform, in which case it is not included in @file{Rmath.h}, but is (probably) in @file{math.h} which @file{Rmath.h} includes."
 msgstr ""
 
@@ -14926,7 +15602,8 @@ msgid "Computes @code{sin(pi * x)} accurately, notably for (half) integer @var{x
 msgstr ""
 
 #. type: deftypefun
-#: R-exts.texi:12055 R-exts.texi:12062
+#: R-exts.texi:12055
+#: R-exts.texi:12062
 msgid "This might be provided by your platform, in which case it is not included in @file{Rmath.h}, but is in @file{math.h} which @file{Rmath.h} includes."
 msgstr ""
 
@@ -16502,7 +17179,9 @@ msgid "Only add parameters and defaults to the generic if they make sense in all
 msgstr ""
 
 #. type: section
-#: R-exts.texi:12956 R-exts.texi:12958 R-exts.texi:12959
+#: R-exts.texi:12956
+#: R-exts.texi:12958
+#: R-exts.texi:12959
 #, no-wrap
 msgid "Adding new generics"
 msgstr ""
@@ -16551,16 +17230,27 @@ msgid "Note that the APIs described in this chapter are only intended to be used
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13020 R-exts.texi:13022 R-exts.texi:13023 R-exts.texi:13174
-#: R-exts.texi:13243 R-exts.texi:13456 R-exts.texi:13477 R-exts.texi:13565
+#: R-exts.texi:13020
+#: R-exts.texi:13022
+#: R-exts.texi:13023
+#: R-exts.texi:13174
+#: R-exts.texi:13243
+#: R-exts.texi:13456
+#: R-exts.texi:13477
+#: R-exts.texi:13565
 #: R-exts.texi:13604
 #, no-wrap
 msgid "Embedding R under Unix-alikes"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13020 R-exts.texi:13022 R-exts.texi:13604 R-exts.texi:13605
-#: R-exts.texi:13617 R-exts.texi:13648 R-exts.texi:13853
+#: R-exts.texi:13020
+#: R-exts.texi:13022
+#: R-exts.texi:13604
+#: R-exts.texi:13605
+#: R-exts.texi:13617
+#: R-exts.texi:13648
+#: R-exts.texi:13853
 #, no-wrap
 msgid "Embedding R under Windows"
 msgstr ""
@@ -16751,34 +17441,49 @@ msgid "It is the user's responsibility to attempt to initialize only once.  To p
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13172 R-exts.texi:13174 R-exts.texi:13175 R-exts.texi:13243
+#: R-exts.texi:13172
+#: R-exts.texi:13174
+#: R-exts.texi:13175
+#: R-exts.texi:13243
 #, no-wrap
 msgid "Compiling against the R library"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13172 R-exts.texi:13174 R-exts.texi:13243 R-exts.texi:13244
+#: R-exts.texi:13172
+#: R-exts.texi:13174
+#: R-exts.texi:13243
+#: R-exts.texi:13244
 #: R-exts.texi:13456
 #, no-wrap
 msgid "Setting R callbacks"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13172 R-exts.texi:13243 R-exts.texi:13456 R-exts.texi:13457
+#: R-exts.texi:13172
+#: R-exts.texi:13243
+#: R-exts.texi:13456
+#: R-exts.texi:13457
 #: R-exts.texi:13477
 #, no-wrap
 msgid "Registering symbols"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13172 R-exts.texi:13456 R-exts.texi:13477 R-exts.texi:13478
+#: R-exts.texi:13172
+#: R-exts.texi:13456
+#: R-exts.texi:13477
+#: R-exts.texi:13478
 #: R-exts.texi:13565
 #, no-wrap
 msgid "Meshing event loops"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:13172 R-exts.texi:13477 R-exts.texi:13565 R-exts.texi:13566
+#: R-exts.texi:13172
+#: R-exts.texi:13477
+#: R-exts.texi:13565
+#: R-exts.texi:13566
 #, no-wrap
 msgid "Threading issues"
 msgstr ""
@@ -17403,20 +18108,29 @@ msgid "All Windows interfaces to @R{} call entry points in the DLL @file{R.dll},
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13615 R-exts.texi:13617 R-exts.texi:13618 R-exts.texi:13648
+#: R-exts.texi:13615
+#: R-exts.texi:13617
+#: R-exts.texi:13618
+#: R-exts.texi:13648
 #, no-wrap
 msgid "Using (D)COM"
 msgstr ""
 
 #. type: node
-#: R-exts.texi:13615 R-exts.texi:13617 R-exts.texi:13648 R-exts.texi:13649
+#: R-exts.texi:13615
+#: R-exts.texi:13617
+#: R-exts.texi:13648
+#: R-exts.texi:13649
 #: R-exts.texi:13853
 #, no-wrap
 msgid "Calling R.dll directly"
 msgstr ""
 
 #. type: subsection
-#: R-exts.texi:13615 R-exts.texi:13648 R-exts.texi:13853 R-exts.texi:13854
+#: R-exts.texi:13615
+#: R-exts.texi:13648
+#: R-exts.texi:13853
+#: R-exts.texi:13854
 #, no-wrap
 msgid "Finding R_HOME"
 msgstr ""
