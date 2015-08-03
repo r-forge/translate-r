@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translation.ko_0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-29 08:22-0600\n"
+"POT-Creation-Date: 2015-08-03 07:39-0600\n"
 "PO-Revision-Date: 2015-07-20 22:48-0600\n"
 "Last-Translator: Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -2322,10 +2322,9 @@ msgstr ""
 msgid "All code in @R{} extensions is by default behind the write barrier.  The only way to obtain direct access to the internals of the @code{SEXPREC}s is to define @samp{USE_RINTERNALS} before including header file @file{Rinternals.h}, which is normally defined in @file{Defn.h}.  To enable a check on the way that the access is used, @R{} can be compiled with flag @option{--enable-strict-barrier} which ensures that header @file{Defn.h} does not define @samp{USE_RINTERNALS} and hence that @code{SEXP} is opaque in most of @R{} itself.  (There are some necessary exceptions: foremost in file @file{memory.c} where the accessor functions are defined and also in file @file{size.c} which needs access to the sizes of the internal structures.)"
 msgstr ""
 
-#
 #. type: Plain text
 #: R-ints.texi:1120
-msgid "For background papers see @uref{http://www.stat.uiowa.edu/~luke/R/barrier.html} and @uref{http://www.stat.uiowa.edu/~luke/R/gengcnotes.html}."
+msgid "For background papers see @uref{http://homepage.stat.uiowa.edu/~luke/R/barrier.html} and @uref{http://homepage.stat.uiowa.edu/~luke/R/gengcnotes.html}."
 msgstr ""
 
 #
@@ -2680,10 +2679,9 @@ msgstr ""
 msgid "When a package with a namespace is attached @code{methods:::cacheMetaData} is called to update the internal tables: only the visible methods will be cached."
 msgstr ""
 
-#
 #. type: Plain text
 #: R-ints.texi:1484
-msgid "This subsection does not discuss how S4 methods are chosen: see @uref{http://@/developer.@/r-project.org/howMethodsWork.pdf}."
+msgid "This subsection does not discuss how S4 methods are chosen: see @uref{https://@/developer.@/r-project.org/howMethodsWork.pdf}."
 msgstr ""
 
 #
@@ -4027,7 +4025,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:2447
-msgid "This is handled separately: see @uref{http://developer.r-project.org/Translations30.html}."
+msgid "This is handled separately: see @uref{https://developer.r-project.org/Translations30.html}."
 msgstr ""
 
 #
@@ -4245,10 +4243,9 @@ msgstr ""
 msgid "@R{}'s graphics internals were re-designed to enable multiple graphics systems to be installed on top on the graphics `engine' -- currently there are two such systems, one supporting `base' graphics (based on that in S and whose @R{} code@footnote{The C code is in files @code{base.c}, @code{graphics.c}, @code{par.c}, @code{plot.c} and @code{plot3d.c} in directory @file{src/main}.} is in package @pkg{graphics}) and one implemented in package @pkg{grid}."
 msgstr ""
 
-#
 #. type: Plain text
 #: R-ints.texi:2705
-msgid "Some notes on the historical changes can be found at @uref{http://www.stat.auckland.ac.nz/@/~paul/@/R/basegraph.html} and @uref{http://www.stat.auckland.ac.nz/@/~paul/R/@/graphicsChanges.html}."
+msgid "Some notes on the historical changes can be found at @uref{https://www.stat.auckland.ac.nz/@/~paul/@/R/basegraph.html} and @uref{https://www.stat.auckland.ac.nz/@/~paul/R/@/graphicsChanges.html}."
 msgstr ""
 
 #
@@ -6989,10 +6986,9 @@ msgstr ""
 msgid "The remaining interfaces will need to cope with the changed @code{VECTOR_SEXPREC} types.  It seems likely that in most cases lengths are accessed by the @code{length} and @code{LENGTH} functions@footnote{but @code{LENGTH} is a macro under some internal uses.} The current approach is to keep these returning 32-bit lengths and introduce `long' versions @code{xlength} and @code{XLENGTH} which return @code{R_xlen_t} values."
 msgstr ""
 
-#
 #. type: Plain text
 #: R-ints.texi:4458
-msgid "See also @uref{http://www.cs.uiowa.edu/~luke/talks/useR10.pdf}."
+msgid "See also @uref{http://homepage.cs.uiowa.edu/~luke/talks/useR10.pdf}."
 msgstr ""
 
 #

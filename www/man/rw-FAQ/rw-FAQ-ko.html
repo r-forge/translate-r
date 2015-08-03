@@ -245,7 +245,7 @@ and D. J. Murdoch</address> <hr>
 있습니다.
 </p>
 <div class="display">
-<pre class="display"><a href="http://CRAN.R-project.org/doc/FAQ/R-FAQ.html">http://CRAN.R-project.org/doc/FAQ/R-FAQ.html</a>.
+<pre class="display"><a href="https://CRAN.R-project.org/doc/FAQ/R-FAQ.html">https://CRAN.R-project.org/doc/FAQ/R-FAQ.html</a>.
 </pre></div>
 
 <p>이 문서에 담겨있는 내용은 오로지 윈도우즈를 위한 R ((&lsquo;<samp>3.1.0</samp>&rsquo; 또는 이후에 배포)에만 적용됩니다.  또한 64-비트
@@ -264,9 +264,9 @@ and D. J. Murdoch</address> <hr>
 <a name="eodirobuteo-coesinbeojeoneul-cajeul-su-issnayo_003f"></a>
 <h3 class="section">2.1 어디로부터 최신버전을 찾을 수 있나요?</h3>
 
-<p>Go to any CRAN site (see <a href="http://cran.r-project.org/mirrors.html">http://cran.r-project.org/mirrors.html</a> for
-a list), navigate to the <samp>bin/windows/base</samp> directory and collect the
-file(s) you need.  The current release is distributed as an installer
+<p>Go to any CRAN site (see <a href="https://cran.r-project.org/mirrors.html">https://cran.r-project.org/mirrors.html</a>
+for a list), navigate to the <samp>bin/windows/base</samp> directory and collect
+the file(s) you need.  The current release is distributed as an installer
 &lsquo;<samp>3.3.0 -win.exe</samp>&rsquo; of about 60MB.
 </p>
 <p>There are also links on that page to the &lsquo;<samp>r-patched</samp>&rsquo; and &lsquo;<samp>r-devel</samp>&rsquo;
@@ -375,7 +375,7 @@ those settings using
 
 <p>A successful installation has exit code 0: unsuccessful ones may give 1, 2,
 3, 4 or 5.  See the help for Inno Setup
-(<a href="http://jrsoftware.org/ishelp.php">http://jrsoftware.org/ishelp.php</a>) for details.
+(<a href="https://jrsoftware.org/ishelp.php">https://jrsoftware.org/ishelp.php</a>) for details.
 </p>
 <p>저희는 사용자지정 installer 설계를 위한 설비들을 가지고 있습니다 (특별히 installer에 패키지 더하는
 것). &rsquo;Building the installers&rsquo;안의 &rsquo;R Installation and Administration&rsquo; 메뉴얼을
@@ -1177,9 +1177,9 @@ locale)는 &lsquo;non-Unicode&rsquo; 프로그램(윈도우 7에서 관리자 �
 point-and-click interface 를 제공하는 메뉴 항목들이 있습니다.각각의 마이너 버전 (3.x.?)에 대한 패키지는
 분리된 영역에 저장될 것이며,R 3.1.?을 위한 파일들은 <samp>bin/windows/contrib/3.1</samp> 내에 저장될 것입니다.
 </p>
-<p>CRAN 내 바이너리 버전은 지원되지 않는 것을 참고하시기 바랍니다:
-<a href="http://cran.r-project.org/bin/windows/contrib/3.1/ReadMe">http://cran.r-project.org/bin/windows/contrib/3.1/ReadMe</a> 를
-참조하십시오. 또한, 여러 다른 바이너리 패키지의 위치도 제공해 줄 것입니다.
+<p>Note that the binary versions on CRAN are unsupported: see
+<a href="https://cran.r-project.org/bin/windows/contrib/3.1/ReadMe">https://cran.r-project.org/bin/windows/contrib/3.1/ReadMe</a>,
+which also gives the locations of a few other binary packages.
 </p>
 <p>바이너리 패키지가 없거나, 최신의 것이 아니거나 또는 소스(source)로 부터 컴파일하는 것을 선호한다면, &lsquo;R Installation
 and Administration&rsquo; 매뉴얼의  &lsquo;Add-on Packages&rsquo; 부분을 읽어보십시오. 컴파일이 필요한
@@ -1261,12 +1261,13 @@ C/C++/Fortran 코드를 포함하지 않은 소스 패키지는<code>install.pac
 </p>
 <p><samp>DESCRIPTION</samp> 파일 내 &lsquo;<samp>Built:</samp>&rsquo; 라인을 검토해 봄으로써컴파일된 패키지 버전을 알 수 있을 것입니다.
 </p>
-<p>몇 가지 바이너리 패키지에 대해 추가적인 소프트웨어 설치가 필요하며, <code>PATH</code>에DLL을 가질 필요가 있습니다.윈도우는 보통
-찾을 수 없는 특정한 DLL에 대해 유용한 정보를 줄 것입니다. 이러한 패키지들(특히, <code>RGtk2</code>,
-<code>cairoDevice</code>, <code>rggobi</code>, <code>rJava</code>, <code>rjags</code>와 데이터베이스와 연결된
-패키지들)의 목록을 위해
-<a href="http://cran.r-project.org/bin/windows/contrib/3.1/ReadMe">http://cran.r-project.org/bin/windows/contrib/3.1/ReadMe</a>을
-보시기 바랍니다. 
+<p>For a small number of binary packages you need to install additional
+software and have its DLLs in your <code>PATH</code>.  Windows will normally give
+an informative message about a certain DLL not being found.  See
+<a href="https://cran.r-project.org/bin/windows/contrib/3.1/ReadMe">https://cran.r-project.org/bin/windows/contrib/3.1/ReadMe</a>
+for a listing of some of these packages (notably <code>RGtk2</code>,
+<code>cairoDevice</code>, <code>rggobi</code>, <code>rJava</code>, <code>rjags</code> and some of
+the packages connecting to databases).
 </p>
 
 <hr>
@@ -1284,10 +1285,11 @@ C/C++/Fortran 코드를 포함하지 않은 소스 패키지는<code>install.pac
 것과  Tcl/Tk의 32비트 또는 64비트 빌드와 사용 중인 R 빌드가 일치하는 구조를 필요로 하는 것을 참고하시기
 바랍니다. (64비트 빌드가 작동할 것인지는 보장할 수 없습니다: 사용하는 레이아웃에 따라 다릅니다.) 
 </p>
-<p>과거에는 여러 패키지 저자들이Tcl/Tk 확장(하지만, 지원 파일들은 대부분 가장 공통적으로 사용되는 <code>TkTable</code> 와
-<code>BWidget</code> 확장을 포함합니다.)을 얻을 방법으로
-ActiveTcl(<a href="http://www.activestate.com/Products/activetcl/">http://www.activestate.com/Products/activetcl/</a>)사용을 제안해
-왔습니다. 이것은 다음 설정(디폴트 설치를 위한)에 의해 사용될 수 있습니다.
+<p>In the past several package authors have suggested using ActiveTcl
+(<a href="https://www.activestate.com/Products/activetcl/">https://www.activestate.com/Products/activetcl/</a>) as a way to get
+Tcl/Tk extensions (but the support files do contain the most commonly used
+<code>TkTable</code> and <code>BWidget</code> extensions).  This could be used by
+setting (for a default install)
 </p>
 <div class="example">
 <pre class="example">MY_TCLTK=c:/Tcl/bin
@@ -1395,10 +1397,12 @@ BUILD_HTML = NO
 
 <p>세 가지 가능한 이유가 있습니다:
 </p>
-<p>당신은 단순히 성급하며, 바이너리 패키지가 구축되고 당신이 사용하는 CRAN 미러에 보급될 때 까지 기다릴 필요가 있습니다. 이것은 보통
-(항상은 아님) 24시간 이내에 발생합니다. 때로는 미러가 늦어지기 때문에 (특히, 공인되지 않은 경우), 다른 미러를 시도해 볼 수
-있습니다.(미러 통계는 CRAN 미러 페이지<a href="http://cran.r-project.org/mirrors.html">http://cran.r-project.org/mirrors.html</a> 상단 근처에
-링크되어 있습니다. 
+<p>You are simply impatient, and need to wait until the binary package has been
+built and propagated to the CRAN mirror you are using.  This normally (but
+not always) happens within 24 hours.  Sometimes mirrors do get behind
+(especially unofficial ones), so you could try another mirror.  (Mirror
+statistics are linked near the top of the CRAN mirror page at
+<a href="https://cran.r-project.org/mirrors.html">https://cran.r-project.org/mirrors.html</a>.)
 </p>
 <p>패키지의 최신 버전은 사용자가 사용하고 있는 R 보다 최근 버전에서 요구할 수 있습니다. CRAN내 패키지 HTML 페이지에서 확인할 수
 있으며, 필요 시 R을 업데이트할 수 있습니다. 
@@ -1710,7 +1714,7 @@ your system using the R sources.  Unfortunately the process has been less
 successful when tried for the common current chips such as Intel&rsquo;s Core 2.
 </p>
 <p>Versions of Dr Kazushige Goto&rsquo;s BLAS (see
-<a href="http://en.wikipedia.org/wiki/Kazushige_Goto">http://en.wikipedia.org/wiki/Kazushige_Goto</a>) for 64-bit Windows by
+<a href="https://en.wikipedia.org/wiki/Kazushige_Goto">https://en.wikipedia.org/wiki/Kazushige_Goto</a>) for 64-bit Windows by
 Ei-Ji Nakama can be found at
 <a href="http://prs.ism.ac.jp/~nakama/SurviveGotoBLAS2/binary/windows/x64/">http://prs.ism.ac.jp/~nakama/SurviveGotoBLAS2/binary/windows/x64/</a>.
 Just download the file <samp>Rblas.dll</samp> appropriate to your CPU and replace

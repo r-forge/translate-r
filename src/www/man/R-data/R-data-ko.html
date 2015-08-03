@@ -401,7 +401,7 @@ simply have to ask the originator for some clues (e.g. &lsquo;Russian on
 Windows&rsquo;).
 </p>
 <p>&lsquo;BOMs&rsquo; (Byte Order Marks,
-<a href="http://en.wikipedia.org/wiki/Byte_order_mark">http://en.wikipedia.org/wiki/Byte_order_mark</a>) cause problems for
+<a href="https://en.wikipedia.org/wiki/Byte_order_mark">https://en.wikipedia.org/wiki/Byte_order_mark</a>) cause problems for
 Unicode files.  In the Unix world BOMs are rarely used, whereas in the
 Windows world they almost always are for UCS-2/UTF-16 files, and often are
 for UTF-8 files.  The <code>file</code> utility will not even recognize UCS-2
@@ -469,15 +469,17 @@ NA</code>라고 지정되어 있을 때, <code>write.table</code>이 보여주�
 <a name="index-write_002ecsv"></a>
 <a name="index-write_002ecsv2"></a>
 
-<p>가장 많이 사용되는 필드 구분자 중 하나는 쉼표(comma)이며, 그래서 영어를 사용하는 국가에서는 필드 안에서 입력된 값에서 쉼표를
-발견하는 일이 그리 흔하지는 않습니다. 이러한 형태의 파일들을 CSV (comma separated values)라고 하며,
-wrapper 함수인 <code>write.csv</code>가 적당한 기본값을 제공합니다. 몇몇 지역에서는, 쉼표가 소수점(decimal
-point)으로 사용되고 있으므로(이 경우는 <code>write.table</code>에서 {dec = &quot;,&quot;을 지정하는 것과 같습니다)
-CSV 파일 중에 세미콜론이 필드 구분자로 사용되는 것도 있습니다. 이 경우 적절한 기본값을 사용하기 위해
-<code>write.csv2</code>을 사용해야 합니다. CSV에 대한 IETF 표준이 있습니다. IETF에서는 <code>eol =
-&quot;\r\n&quot;</code>), RFC4180 (see <a href="http://tools.ietf.org/html/rfc4180">http://tools.ietf.org/html/rfc4180</a>) 를 사용하는 것에
-대해콤마와 CRLF 라인 인코딩을 권장합니다. 그러나 실제에서 더욱 중요한 것은 목표로 하고 있는 어플리케이션에 의해 읽혀들여 질 수
-있는가 입니다.
+<p>A common field separator to use in the file is a comma, as that is unlikely
+to appear in any of the fields in English-speaking countries.  Such files
+are known as CSV (comma separated values) files, and wrapper function
+<code>write.csv</code> provides appropriate defaults.  In some locales the comma
+is used as the decimal point (set this in <code>write.table</code> by <code>dec =
+&quot;,&quot;</code>) and there CSV files use the semicolon as the field separator: use
+<code>write.csv2</code> for appropriate defaults.  There is an IETF standard for
+CSV files (which mandates commas and CRLF line endings, for which use
+<code>eol = &quot;\r\n&quot;</code>), RFC4180 (see
+<a href="https://tools.ietf.org/html/rfc4180">https://tools.ietf.org/html/rfc4180</a>), but what is more important in
+practice is that the file is readable by the application it is targeted at.
 </p>
 <p>따라서, 세미콜론을 사용하거나 탭(<code>sep = &quot;\t&quot;</code>)을 사용하는 것이 가장 안전한 선택이 될 수 있습니다.
 </p>
@@ -1194,7 +1196,7 @@ system)입니다. 외부패키지<a href="http://CRAN.R-project.org/package=fore
 </p>
 <p>Increasingly OSes are themselves making use of DBMSs for these reasons, so
 it is nowadays likely that one will be already installed on your
-(non-Windows) OS.  <a href="http://en.wikipedia.org/wiki/Akonadi">Akonadi</a> is
+(non-Windows) OS.  <a href="https://en.wikipedia.org/wiki/Akonadi">Akonadi</a> is
 used by KDE4 to store personal information.  Several OS X applications,
 including Mail and Address Book, use SQLite.
 </p>
@@ -1203,14 +1205,14 @@ including Mail and Address Book, use SQLite.
 <a name="Overview-of-RDBMSs-1"></a>
 <h3 class="section">4.2 Overview of RDBMSs</h3>
 
-<p>전통적으로 데이터 보안에 보다 비중을 두고 있는 비싸고 큰 상업용 RDBMSs 는
-있었습니다((<a href="http://www.informix.com">Informix</a>;
-<a href="http://www.oracle.com">Oracle</a>; <a href="http://www.sybase.com">Sybase</a>;
-<a href="http://www.ibm.com/db2">IBM&rsquo;s DB2</a>;
-<a href="http://www.microsoft.com/SQL/default.mspx">Microsoft <acronym>SQL</acronym>
-Server</a> on Windows). 그리고 교육용이나 작은 크기의 데이터베이스(MySQL, PostgreSQL, Microsoft
-Access 와 같은)도 있었습니다.오픈소스인 PostgreSQL 이 점점 고도화되고 Informix, Oracle, 그리고 Sybase
-가 리눅스에서 무료 버전을 배포하면서 이러한 관점의 논의는 의미가 희미해져 가고 있습니다.
+<p>Traditionally there had been large (and expensive) commercial RDBMSs
+(<a href="http://www.informix.com">Informix</a>; <a href="https://www.oracle.com">Oracle</a>; <a href="http://www.sybase.com">Sybase</a>; <a href="http://www.ibm.com/db2">IBM&rsquo;s DB2</a>; <a href="https://www.microsoft.com/SQL/default.mspx">Microsoft
+<acronym>SQL</acronym> Server</a> on Windows) and academic and small-system databases
+(such as MySQL<a name="DOCF4" href="#FOOT4"><sup>4</sup></a>, PostgreSQL, Microsoft
+Access, &hellip;), the former marked out by much greater emphasis on data
+security features.  The line is blurring, with MySQL and PostgreSQL having
+more and more high-end features, and free &lsquo;express&rsquo; versions being made
+available for the commercial DBMSs.
 </p>
 <a name="index-ODBC"></a>
 <a name="index-Open-Database-Connectivity"></a>
@@ -1218,7 +1220,7 @@ Access 와 같은)도 있었습니다.오픈소스인 PostgreSQL 이 점점 고�
 non-relational databases and even text files (possibly compressed).  Open
 Database Connectivity (<acronym>ODBC</acronym>) is a standard to use all of these
 data sources.  It originated on Windows (see
-<a href="http://msdn.microsoft.com/en-us/library/ms710252%28v=vs.85%29.aspx">http://msdn.microsoft.com/en-us/library/ms710252%28v=vs.85%29.aspx</a>)
+<a href="https://msdn.microsoft.com/en-us/library/ms710252%28v=vs.85%29.aspx">https://msdn.microsoft.com/en-us/library/ms710252%28v=vs.85%29.aspx</a>)
 but is also implemented on Linux/Unix/OS X.
 </p>
 <p>데이터베이스는 같은 machine 또는 (보다 자주) 원격적으로 같이 존재할 수 있습니다. 여러 DBMSs 를 지원하는
@@ -1343,11 +1345,11 @@ always has a limit of 255 chars.
 </p>
 <p>All except <a href="http://CRAN.R-project.org/package=RODBC"><strong>RODBC</strong></a> are tied to one DBMS, but there has been a
 proposal for a unified &lsquo;front-end&rsquo; package <a href="http://CRAN.R-project.org/package=DBI"><strong>DBI</strong></a>
-(<a href="http://developer.r-project.org/db">http://developer.r-project.org/db</a>) in conjunction with a &lsquo;back-end&rsquo;,
-the most developed of which is <a href="http://CRAN.R-project.org/package=RMySQL"><strong>RMySQL</strong></a>.  Also on <acronym>CRAN</acronym> are
-the back-ends <a href="http://CRAN.R-project.org/package=ROracle"><strong>ROracle</strong></a>, <a href="http://CRAN.R-project.org/package=RPostgreSQL"><strong>RPostgreSQL</strong></a> and <a href="http://CRAN.R-project.org/package=RSQLite"><strong>RSQLite</strong></a>
-(which works with the bundled DBMS <code>SQLite</code>,
-<a href="http://www.sqlite.org">http://www.sqlite.org</a>), <a href="http://CRAN.R-project.org/package=RJDBC"><strong>RJDBC</strong></a> (which uses Java and can
+(<a href="https://developer.r-project.org/db">https://developer.r-project.org/db</a>) in conjunction with a
+&lsquo;back-end&rsquo;, the most developed of which is <a href="http://CRAN.R-project.org/package=RMySQL"><strong>RMySQL</strong></a>.  Also on
+<acronym>CRAN</acronym> are the back-ends <a href="http://CRAN.R-project.org/package=ROracle"><strong>ROracle</strong></a>, <a href="http://CRAN.R-project.org/package=RPostgreSQL"><strong>RPostgreSQL</strong></a>
+and <a href="http://CRAN.R-project.org/package=RSQLite"><strong>RSQLite</strong></a> (which works with the bundled DBMS <code>SQLite</code>,
+<a href="https://www.sqlite.org">https://www.sqlite.org</a>), <a href="http://CRAN.R-project.org/package=RJDBC"><strong>RJDBC</strong></a> (which uses Java and can
 connect to any DBMS that has a JDBC driver) and <a href="http://CRAN.R-project.org/package=RpgSQL"><strong>RpgSQL</strong></a> (a
 specialist interface to PostgreSQL built on top of <a href="http://CRAN.R-project.org/package=RJDBC"><strong>RJDBC</strong></a>).
 </p>
@@ -1358,8 +1360,8 @@ specialist interface to PostgreSQL built on top of <a href="http://CRAN.R-projec
 심기위한 프로젝트 입니다.
 </p>
 <p>Package <a href="http://CRAN.R-project.org/package=RMongo"><strong>RMongo</strong></a> provides an R interface to a Java client for
-&lsquo;MongoDB&rsquo; (<a href="http://en.wikipedia.org/wiki/MongoDB">http://en.wikipedia.org/wiki/MongoDB</a>) databases, which are
-queried using JavaScript rather than SQL.  Package <a href="http://CRAN.R-project.org/package=rmongodb"><strong>rmongodb</strong></a> is
+&lsquo;MongoDB&rsquo; (<a href="https://en.wikipedia.org/wiki/MongoDB">https://en.wikipedia.org/wiki/MongoDB</a>) databases, which
+are queried using JavaScript rather than SQL.  Package <a href="http://CRAN.R-project.org/package=rmongodb"><strong>rmongodb</strong></a> is
 another client using <strong>mongodb</strong>&rsquo;s C driver.
 </p>
 
@@ -1371,11 +1373,13 @@ another client using <strong>mongodb</strong>&rsquo;s C driver.
 <h4 class="subsection">4.3.1 Packages using DBI</h4>
 <a name="index-MySQL-database-system"></a>
 
-<p><acronym>CRAN</acronym> 에 있는 패키지 <a href="http://CRAN.R-project.org/package=RMySQL"><strong>RMySQL</strong></a> 는 MySQL 데이터 베이스 시스템을 위한 인터페이스를
-제공합니다(이에 관하여는 <a href="http://www.mysql.com">http://www.mysql.com</a> and Dubois, 2000.을 참고하십시오). 여기에서
-설명하는 것은 버전 <code>0.5-0</code> 에 관한 것이고 그 이전 버전은 완전히 다른 인터페이스를 가지고 있습니다. 현재 버전은
-<a href="http://CRAN.R-project.org/package=DBI"><strong>DBI</strong></a> 패키지를 필요로 하고 여기서의 설명은 다른 모든 최근의 작은 변화들과 함께 <a href="http://CRAN.R-project.org/package=DBI"><strong>DBI</strong></a> 에
-적용됩니다.
+<p>Package <a href="http://CRAN.R-project.org/package=RMySQL"><strong>RMySQL</strong></a> on <acronym>CRAN</acronym> provides an interface to the
+MySQL database system (see <a href="https://www.mysql.com">https://www.mysql.com</a> and Dubois, 2000) or
+its fork MariaDB (see <a href="https://mariadb.org/">https://mariadb.org/</a>).  The description here
+applies to versions <code>0.5-0</code> and later: earlier versions had a
+substantially different interface.  The current version requires the
+<a href="http://CRAN.R-project.org/package=DBI"><strong>DBI</strong></a> package, and this description will apply with minor changes to
+all the other back-ends to <a href="http://CRAN.R-project.org/package=DBI"><strong>DBI</strong></a>.
 </p>
 <p>2001 년 1 월의 3.23.x 버전부터 GPL 하에서 공개된 MySQL 은 Unix/Linux 및 Windows 에
 존재합니다. MySQL 은 &rsquo;가볍고 간결한&rsquo; 데이터 베이스 입니다(그것은 운용 중인 파일 시스템이 경우에 따라 민감한 이름의 경우를
@@ -1479,16 +1483,17 @@ unixODBC(<a href="http://www.unixODBC.org">http://www.unixODBC.org</a>) 또는 i
 spreadsheets, DBase (<samp>.dbf</samp>) files and even text files.  (The named
 applications do <em>not</em> need to be installed. Which file formats are
 supported depends on the versions of the drivers.)  There are versions for
-Excel and Access 2007/2010 (go to <a href="http://download.microsoft.com">http://download.microsoft.com</a>, and
+Excel and Access 2007/2010 (go to
+<a href="https://www.microsoft.com/en-us/download/default.aspx">https://www.microsoft.com/en-us/download/default.aspx</a>, and
 search for &lsquo;Office ODBC&rsquo;, which will lead to
 <samp>AccessDatabaseEngine.exe</samp>), the &lsquo;2007 Office System Driver&rsquo; (the
 latter has a version for 64-bit Windows, and that will also read earlier
 versions).
 </p>
 <p>On OS X the Actual Technologies
-(<a href="http://www.actualtechnologies.com/product_access.php">http://www.actualtechnologies.com/product_access.php</a>) drivers provide
-ODBC interfaces to Access databases (including Access 2007/2010)  and to
-Excel spreadsheets (not including Excel 2007/2010).
+(<a href="https://www.actualtech.com/product_access.php">https://www.actualtech.com/product_access.php</a>) drivers provide ODBC
+interfaces to Access databases (including Access 2007/2010)  and to Excel
+spreadsheets (not including Excel 2007/2010).
 </p>
 <a name="index-odbcConnect"></a>
 <a name="index-odbcDriverConnect"></a>
@@ -1630,7 +1635,7 @@ Alaska           10.0     263       48 44.5
 <p>Packages <a href="http://CRAN.R-project.org/package=hdf5"><strong>hdf5</strong></a>, <a href="http://CRAN.R-project.org/package=h5r"><strong>h5r</strong></a>, Bioconductor&rsquo;s <strong>rhdf5</strong>,
 <a href="http://CRAN.R-project.org/package=RNetCDF"><strong>RNetCDF</strong></a>, <a href="http://CRAN.R-project.org/package=ncdf"><strong>ncdf</strong></a> and <a href="http://CRAN.R-project.org/package=ncdf4"><strong>ncdf4</strong></a> on <acronym>CRAN</acronym>
 provide interfaces to <acronym>NASA</acronym>&rsquo;s HDF5 (Hierarchical Data Format, see
-<a href="http://www.hdfgroup.org/HDF5/">http://www.hdfgroup.org/HDF5/</a>) and to UCAR&rsquo;s netCDF data files
+<a href="https://www.hdfgroup.org/HDF5/">https://www.hdfgroup.org/HDF5/</a>) and to UCAR&rsquo;s netCDF data files
 (network Common Data Form, see
 <a href="http://www.unidata.ucar.edu/software/netcdf/">http://www.unidata.ucar.edu/software/netcdf/</a>).
 </p>
@@ -1798,9 +1803,10 @@ connection 에 쓰는 것과 연결시켜 줍니다. 반대로 말하면, 입력
 </p>
 <a name="index-URL-connections"></a>
 <a name="index-url"></a>
-<p>&lsquo;<samp>http://</samp>&rsquo;, &lsquo;<samp>ftp://</samp>&rsquo;, 그리고 &lsquo;<samp>file://</samp>&rsquo;과 같은 유형의 <acronym>URL</acronym> 들은
-<code>url</code> 함수를 사용함으로써 읽혀질 수 있습니다. 편의를 위해 파일을 지정함으로써 <code>file</code> 또한
-&lsquo;<samp>http://</samp>&rsquo;, &lsquo;<samp>ftp://</samp>&rsquo;, 그리고 &lsquo;<samp>file://</samp>&rsquo;을 인식하고 <code>url</code> 을 불러옵니다.
+<p><acronym>URL</acronym>s of types &lsquo;<samp>http://</samp>&rsquo;, &lsquo;<samp>ftp://</samp>&rsquo; and &lsquo;<samp>file://</samp>&rsquo; can
+be read from using the function <code>url</code>.  For convenience, <code>file</code>
+will also accept these as the file specification and call <code>url</code>.  On
+most platforms &lsquo;<samp>https://</samp>&rsquo; are also accepted.
 </p>
 <a name="index-Sockets"></a>
 <a name="index-socketConnection"></a>
@@ -2107,7 +2113,7 @@ reading it using <code>read.DIF</code> is another possibility.
 <p>If you do not have Excel, many other programs are able to read such
 spreadsheets and export in a text format on both Windows and Unix, for
 example Gnumeric (<a href="http://www.gnome.org/projects/gnumeric/">http://www.gnome.org/projects/gnumeric/</a>) and
-OpenOffice (<a href="http://www.openoffice.org">http://www.openoffice.org</a>).  You can also cut-and-paste
+OpenOffice (<a href="https://www.openoffice.org">https://www.openoffice.org</a>).  You can also cut-and-paste
 between the display of a spreadsheet in such a program and R:
 <code>read.table</code> will read from the R console or, under Windows, from the
 clipboard (via <code>file = &quot;clipboard&quot;</code> or <code>readClipboard</code>).  The
@@ -2189,7 +2195,7 @@ Addison-Wesley.  Also available at
 <a href="http://momjian.us/main/writings/pgsql/aw_pgsql_book/">http://momjian.us/main/writings/pgsql/aw_pgsql_book/</a>.
 </p>
 <p>B. D. Ripley (2001) Connections. \<em>R News</em>, <strong>1/1</strong>, 16&ndash;7.
-\<a href="http://www.r-project.org/doc/Rnews/Rnews_2001-1.pdf">http://www.r-project.org/doc/Rnews/Rnews_2001-1.pdf</a>
+\<a href="https://www.r-project.org/doc/Rnews/Rnews_2001-1.pdf">https://www.r-project.org/doc/Rnews/Rnews_2001-1.pdf</a>
 </p>
 
 <p>T. M. Therneau and P. M. Grambsch (2000) <em>Modeling Survival
@@ -2640,12 +2646,14 @@ repository but as a source package for download from
 <a href="http://www.omegahat.org/ROpenOffice/">http://www.omegahat.org/ROpenOffice/</a>.</p>
 <h3><a name="FOOT2" href="#DOCF2">(2)</a></h3>
 <p>the distinction is subtle,
-<a href="http://en.wikipedia.org/wiki/UTF-16/UCS-2">http://en.wikipedia.org/wiki/UTF-16/UCS-2</a>, and the use of
+<a href="https://en.wikipedia.org/wiki/UTF-16/UCS-2">https://en.wikipedia.org/wiki/UTF-16/UCS-2</a>, and the use of
 surrogate pairs is very rare.</p>
 <h3><a name="FOOT3" href="#DOCF3">(3)</a></h3>
 <p>Even then, Windows
 applications may expect a Byte Order Mark which the implementation of
 <code>iconv</code> used by R may or may not add depending on the platform.</p>
+<h3><a name="FOOT4" href="#DOCF4">(4)</a></h3>
+<p>and forks, notably MariaDB.</p>
 </div>
 <hr>
 
