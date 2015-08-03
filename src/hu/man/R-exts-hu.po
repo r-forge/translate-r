@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-29 08:23-0600\n"
+"POT-Creation-Date: 2015-08-03 07:40-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -416,7 +416,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:221
-msgid "@acronym{CRAN} is a network of WWW sites holding the @R{} distributions and contributed code, especially @R{} packages.  Users of @R{} are encouraged to join in the collaborative project and to submit their own packages to @acronym{CRAN}: current instructions are linked from @uref{http://CRAN.R-project.org/@/banner.shtml#submitting}."
+msgid "@acronym{CRAN} is a network of WWW sites holding the @R{} distributions and contributed code, especially @R{} packages.  Users of @R{} are encouraged to join in the collaborative project and to submit their own packages to @acronym{CRAN}: current instructions are linked from @uref{https://CRAN.R-project.org/@/banner.shtml#submitting}."
 msgstr ""
 
 #. type: node
@@ -594,7 +594,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:282
-msgid "For the conventions for files @file{NEWS} and @file{ChangeLog} in the @acronym{GNU} project see @uref{http://www.gnu.org/@/prep/@/standards/@/standards.html#Documentation}."
+msgid "For the conventions for files @file{NEWS} and @file{ChangeLog} in the @acronym{GNU} project see @uref{https://www.gnu.org/@/prep/@/standards/@/standards.html#Documentation}."
 msgstr ""
 
 #. type: Plain text
@@ -735,12 +735,12 @@ msgid ""
 "  the package does and why it may be useful.\n"
 "License: GPL (>= 2)\n"
 "URL: http://www.r-project.org, http://www.another.url\n"
-"BugReports: http://pkgname.bugtracker.url\n"
+"BugReports: https://pkgname.bugtracker.url\n"
 msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:379
-msgid "The format is that of a version of a `Debian Control File' (see the help for @samp{read.dcf} and @uref{http://www.debian.org/@/doc/@/debian-policy/@/ch-controlfields.html}: @R{} does not require encoding in UTF-8 and does not support comments starting with @samp{#}).  Fields start with an @acronym{ASCII} name immediately followed by a colon: the value starts after the colon and a space.  Continuation lines (for example, for descriptions longer than one line) start with a space or tab.  Field names are case-sensitive: all those used by @R{} are capitalized."
+msgid "The format is that of a version of a `Debian Control File' (see the help for @samp{read.dcf} and @uref{https://www.debian.org/@/doc/@/debian-policy/@/ch-controlfields.html}: @R{} does not require encoding in UTF-8 and does not support comments starting with @samp{#}).  Fields start with an @acronym{ASCII} name immediately followed by a colon: the value starts after the colon and a space.  Continuation lines (for example, for descriptions longer than one line) start with a space or tab.  Field names are case-sensitive: all those used by @R{} are capitalized."
 msgstr ""
 
 #. type: Plain text
@@ -912,7 +912,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:649
-msgid "A @samp{Language} field can be used to indicate if the package documentation is not in English: this should be a comma-separated list of standard (not private use or grandfathered) IETF language tags as currently defined by RFC 5646 (@uref{http://tools.ietf.org/@/html/@/rfc5646}, see also @uref{http://en.wikipedia.org/@/wiki/@/IETF_language_tag}), i.e., use language subtags which in essence are 2-letter ISO 639-1 (@uref{http://en.wikipedia.@/org/@/wiki/@/ISO_639-1}) or 3-letter ISO 639-3 (@uref{http://en.wikipedia.@/org/@/wiki/@/ISO_639-3}) language codes."
+msgid "A @samp{Language} field can be used to indicate if the package documentation is not in English: this should be a comma-separated list of standard (not private use or grandfathered) IETF language tags as currently defined by RFC 5646 (@uref{https://tools.ietf.org/@/html/@/rfc5646}, see also @uref{https://en.wikipedia.org/@/wiki/@/IETF_language_tag}), i.e., use language subtags which in essence are 2-letter ISO 639-1 (@uref{https://en.wikipedia.@/org/@/wiki/@/ISO_639-1}) or 3-letter ISO 639-3 (@uref{https://en.wikipedia.@/org/@/wiki/@/ISO_639-3}) language codes."
 msgstr ""
 
 #. type: Plain text
@@ -950,7 +950,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:698
-msgid "The package management tools use the concept of `free or open source software' (FOSS, e.g., @uref{http://en.wikipedia.org/@/wiki/@/FOSS})  licenses: the idea being that some users of @R{} and its packages want to restrict themselves to such software.  Others need to ensure that there are no restrictions stopping them using a package, e.g.@: forbidding commercial or military use.  It is a central tenet of FOSS software that there are no restrictions on users nor usage."
+msgid "The package management tools use the concept of `free or open source software' (FOSS, e.g., @uref{https://en.wikipedia.org/@/wiki/@/FOSS})  licenses: the idea being that some users of @R{} and its packages want to restrict themselves to such software.  Others need to ensure that there are no restrictions stopping them using a package, e.g.@: forbidding commercial or military use.  It is a central tenet of FOSS software that there are no restrictions on users nor usage."
 msgstr ""
 
 #. type: Plain text
@@ -978,7 +978,7 @@ msgstr ""
 
 #. type: itemize
 #: R-exts.texi:719
-msgid "as made available @emph{via} @uref{http://www.R-project.org/@/Licenses/} and contained in subdirectory @file{share/licenses} of the @R{} source or home directory."
+msgid "as made available @emph{via} @uref{https://www.R-project.org/@/Licenses/} and contained in subdirectory @file{share/licenses} of the @R{} source or home directory."
 msgstr ""
 
 #. type: itemize
@@ -1056,7 +1056,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:794
-msgid "Whereas you should feel free to include a license file in your @emph{source} distribution, please do not arrange to @emph{install} yet another copy of the @acronym{GNU} @file{COPYING} or @file{COPYING.LIB} files but refer to the copies on @uref{http://www.R-project.org/@/Licenses/} and included in the @R{} distribution (in directory @file{share/licenses}).  Since files named @file{LICENSE} or @file{LICENCE} @emph{will} be installed, do not use these names for standard license files.  To include comments about the licensing rather than the body of a license, use a file named something like @file{LICENSE.note}."
+msgid "Whereas you should feel free to include a license file in your @emph{source} distribution, please do not arrange to @emph{install} yet another copy of the @acronym{GNU} @file{COPYING} or @file{COPYING.LIB} files but refer to the copies on @uref{https://www.R-project.org/@/Licenses/} and included in the @R{} distribution (in directory @file{share/licenses}).  Since files named @file{LICENSE} or @file{LICENCE} @emph{will} be installed, do not use these names for standard license files.  To include comments about the licensing rather than the body of a license, use a file named something like @file{LICENSE.note}."
 msgstr ""
 
 #. type: Plain text
@@ -1478,7 +1478,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:1339
-msgid "Data files can have one of three types as indicated by their extension: plain @R{} code (@file{.R} or @file{.r}), tables (@file{.tab}, @file{.txt}, or @file{.csv}, see @code{?data} for the file formats, and note that @file{.csv} is @strong{not} the standard@footnote{e.g.@: @uref{http://tools.ietf.org/@/html/@/rfc4180}.} CSV format), or @code{save()} images (@file{.RData} or @file{.rda}).  The files should not be hidden (have names starting with a dot).  Note that @R{} code should be ``self-sufficient'' and not make use of extra functionality provided by the package, so that the data file can also be used without having to load the package or its namespace."
+msgid "Data files can have one of three types as indicated by their extension: plain @R{} code (@file{.R} or @file{.r}), tables (@file{.tab}, @file{.txt}, or @file{.csv}, see @code{?data} for the file formats, and note that @file{.csv} is @strong{not} the standard@footnote{e.g.@: @uref{https://tools.ietf.org/@/html/@/rfc4180}.} CSV format), or @code{save()} images (@file{.RData} or @file{.rda}).  The files should not be hidden (have names starting with a dot).  Note that @R{} code should be ``self-sufficient'' and not make use of extra functionality provided by the package, so that the data file can also be used without having to load the package or its namespace."
 msgstr ""
 
 #. type: Plain text
@@ -1619,7 +1619,7 @@ msgstr ""
 #. type: example
 #: R-exts.texi:1485
 #, no-wrap
-msgid "http://cran.r-project.org/package=@var{pkgname}\n"
+msgid "https://cran.r-project.org/package=@var{pkgname}\n"
 msgstr ""
 
 #. type: Plain text
@@ -2254,7 +2254,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:1987
-msgid "where the first and second are conventionally import libraries, the third and fourth often static libraries (with @code{.lib} intended for Visual C++), but might be import libraries.  See for example @uref{http://sourceware.org/@/binutils/@/docs-2.20/@/ld/@/WIN32.html#WIN32}."
+msgid "where the first and second are conventionally import libraries, the third and fourth often static libraries (with @code{.lib} intended for Visual C++), but might be import libraries.  See for example @uref{https://sourceware.org/@/binutils/@/docs-2.20/@/ld/@/WIN32.html#WIN32}."
 msgstr ""
 
 #. type: Plain text
@@ -2276,7 +2276,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:2011
-msgid "There is some support for packages which wish to use OpenMP@footnote{@uref{http://www.openmp.org/}, @uref{http://en.wikipedia.org/@/wiki/@/OpenMP}, @uref{https://computing.llnl.gov/@/tutorials/@/openMP/}}.  The @command{make} macros"
+msgid "There is some support for packages which wish to use OpenMP@footnote{@uref{http://www.openmp.org/}, @uref{https://en.wikipedia.org/@/wiki/@/OpenMP}, @uref{https://computing.llnl.gov/@/tutorials/@/openMP/}}.  The @command{make} macros"
 msgstr ""
 
 #. type: example
@@ -2701,7 +2701,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:2349
-msgid "This means that portable packages need to be written in correct FORTRAN 77, which will also be valid Fortran 95.  See @uref{http://developer.R-project.org/@/Portability.html} for reference resources.  In particular, @emph{free source form} F95 code is not portable."
+msgid "This means that portable packages need to be written in correct FORTRAN 77, which will also be valid Fortran 95.  See @uref{https://developer.R-project.org/@/Portability.html} for reference resources.  In particular, @emph{free source form} F95 code is not portable."
 msgstr ""
 
 #. type: Plain text
@@ -2789,7 +2789,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:2470
-msgid "As noted above, support for C++11 varies across platforms.  The default compiler on Windows is GCC 4.6.x and supports the @option{-std=c++0x} flag and some C++11 features (see @uref{http://gcc.gnu.org/@/gcc-4.6/@/cxx0x_status.html}).  On some platforms, it may be possible or necessary to select a different compiler for C++11, @emph{via} personal or site @file{Makevars} files."
+msgid "As noted above, support for C++11 varies across platforms.  The default compiler on Windows is GCC 4.6.x and supports the @option{-std=c++0x} flag and some C++11 features (see @uref{https://gcc.gnu.org/@/gcc-4.6/@/cxx0x_status.html}).  On some platforms, it may be possible or necessary to select a different compiler for C++11, @emph{via} personal or site @file{Makevars} files."
 msgstr ""
 
 #. type: Plain text
@@ -3068,7 +3068,7 @@ msgstr ""
 #. type: example
 #: R-exts.texi:2788
 #, no-wrap
-msgid "options(repos = c(CRAN=\"http://cran.r-project.org\"))\n"
+msgid "options(repos = c(CRAN=\"https://cran.r-project.org\"))\n"
 msgstr ""
 
 #. type: Plain text
@@ -3410,7 +3410,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:3173
-msgid "At install time an @HTML{} index for all vignettes in the package is automatically created from the @code{\\VignetteIndexEntry} statements unless a file @file{index.html} exists in directory @file{inst/doc}. This index is linked from the @HTML{} help index for the package.  If you do supply a @file{inst/doc/index.html} file it should contain relative links only to files under the installed @file{doc} directory, or perhaps (not really an index) to @HTML{} help files or to the @file{DESCRIPTION} file, and be valid @HTML{} as confirmed via the @uref{http://validator.w3.org, W3C Markup Validation Service} or @uref{http://validator.nu/, Validator.nu}."
+msgid "At install time an @HTML{} index for all vignettes in the package is automatically created from the @code{\\VignetteIndexEntry} statements unless a file @file{index.html} exists in directory @file{inst/doc}. This index is linked from the @HTML{} help index for the package.  If you do supply a @file{inst/doc/index.html} file it should contain relative links only to files under the installed @file{doc} directory, or perhaps (not really an index) to @HTML{} help files or to the @file{DESCRIPTION} file, and be valid @HTML{} as confirmed via the @uref{https://validator.w3.org, W3C Markup Validation Service} or @uref{https://validator.nu/, Validator.nu}."
 msgstr ""
 
 #. type: Plain text
@@ -4382,7 +4382,7 @@ msgstr ""
 
 #. type: itemize
 #: R-exts.texi:4027
-msgid "Bash extensions also need to be avoided in shell scripts, including expressions in Makefiles (which are passed to the shell for processing).  Some @R{} platforms use strict@footnote{For example, @command{test} options @option{-a} and @option{-e} are not portable, and not supported in the AT&T Bourne shell used on Solaris, even though they are in the POSIX standard.} Bourne shells: the @R{} toolset on Windows and some Unix-alike OSes use @command{ash} (@uref{http://en.wikipedia.org/@/wiki/@/Almquist_shell}), a rather minimal shell with few builtins.  Beware of assuming that all the POSIX command-line utilities are available, especially on Windows where only a minimal set is provided for use with @R{}."
+msgid "Bash extensions also need to be avoided in shell scripts, including expressions in Makefiles (which are passed to the shell for processing).  Some @R{} platforms use strict@footnote{For example, @command{test} options @option{-a} and @option{-e} are not portable, and not supported in the AT&T Bourne shell used on Solaris, even though they are in the POSIX standard.} Bourne shells: the @R{} toolset on Windows and some Unix-alike OSes use @command{ash} (@uref{https://en.wikipedia.org/@/wiki/@/Almquist_shell}), a rather minimal shell with few builtins.  Beware of assuming that all the POSIX command-line utilities are available, especially on Windows where only a minimal set is provided for use with @R{}."
 msgstr ""
 
 #. type: ifset
@@ -4595,7 +4595,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:4301
-msgid "; see @uref{http://www.ghostscript.com/@/doc/@/current/@/Ps2pdf.htm} for more such and consider all the options for image downsampling).  There have been examples in @acronym{CRAN} packages for which Ghostscript 9.06 and later produced much better reductions than 9.05 or earlier."
+msgid "; see @uref{https://www.ghostscript.com/@/doc/@/current/@/Ps2pdf.htm} for more such and consider all the options for image downsampling).  There have been examples in @acronym{CRAN} packages for which Ghostscript 9.06 and later produced much better reductions than 9.05 or earlier."
 msgstr ""
 
 #. type: Plain text
@@ -4747,7 +4747,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:4512
-msgid "Some additional information for C++ is available at @uref{http://journal.r-project.org/archive/2011-2/RJournal_2011-2_Plummer.pdf} by Martyn Plummer."
+msgid "Some additional information for C++ is available at @uref{http://journal.r-project.org/@/archive/@/2011-2/@/RJournal_2011-2_Plummer.pdf} by Martyn Plummer."
 msgstr ""
 
 #. type: Plain text
@@ -4903,7 +4903,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:4677
-msgid "The procedures make use of @code{msgfmt} and @code{xgettext} which are part of @acronym{GNU} @code{gettext} and this will need to be installed: Windows users can find pre-compiled binaries at @uref{http://www.stats.ox.ac.uk/pub/Rtools/goodies/gettext-tools.zip}."
+msgid "The procedures make use of @code{msgfmt} and @code{xgettext} which are part of @acronym{GNU} @code{gettext} and this will need to be installed: Windows users can find pre-compiled binaries at @uref{https://www.stats.ox.ac.uk/pub/Rtools/goodies/gettext-tools.zip}."
 msgstr ""
 
 #. type: node
@@ -5135,7 +5135,7 @@ msgid ""
 "                    person(\"R Core Team\")),\n"
 "         year = year,\n"
 "         note = note,\n"
-"         url = \"http://CRAN.R-project.org/package=nlme\")\n"
+"         url = \"https://CRAN.R-project.org/package=nlme\")\n"
 msgstr ""
 
 #. type: Plain text
@@ -5210,7 +5210,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:4948
-msgid "R-Forge (@uref{http://R-Forge.r-project.org, R-Forge.r-project.org}) and RForge (@uref{http://www.rforge.net, www.rforge.net}) are similar services with similar names.  Both provide source-code management through SVN, daily building and checking, mailing lists and a repository that can be accessed @emph{via} @code{install.packages} (they can be selected by @code{setRepositories} and the GUI menus that use it).  Package developers have the opportunity to present their work on the basis of project websites or news announcements.  Mailing lists, forums or wikis provide useRs with convenient instruments for discussions and for exchanging information between developers and/or interested useRs."
+msgid "R-Forge (@uref{https://R-Forge.r-project.org, R-Forge.r-project.org}) and RForge (@uref{https://www.rforge.net, www.rforge.net}) are similar services with similar names.  Both provide source-code management through SVN, daily building and checking, mailing lists and a repository that can be accessed @emph{via} @code{install.packages} (they can be selected by @code{setRepositories} and the GUI menus that use it).  Package developers have the opportunity to present their work on the basis of project websites or news announcements.  Mailing lists, forums or wikis provide useRs with convenient instruments for discussions and for exchanging information between developers and/or interested useRs."
 msgstr ""
 
 #. type: cindex
@@ -5458,7 +5458,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:5050
-msgid "See @uref{http://developer.r-project.org/Rds.html, ``Guidelines for Rd files''} for guidelines for writing documentation in @file{Rd} format which should be useful for package writers."
+msgid "See @uref{https://developer.r-project.org/Rds.html, ``Guidelines for Rd files''} for guidelines for writing documentation in @file{Rd} format which should be useful for package writers."
 msgstr ""
 
 #. type: findex
@@ -5474,7 +5474,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:5062
-msgid "The general syntax of @file{Rd} files is summarized below.  For a detailed technical discussion of current @file{Rd} syntax, see @uref{http://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''}."
+msgid "The general syntax of @file{Rd} files is summarized below.  For a detailed technical discussion of current @file{Rd} syntax, see @uref{https://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''}."
 msgstr ""
 
 #. type: Plain text
@@ -5489,7 +5489,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:5092
-msgid "Because backslashes, braces and percent symbols have special meaning, to enter them into text sometimes requires escapes using a backslash.  In general balanced braces do not need to be escaped, but percent symbols always do, except in the `verbatim' variant.  For the complete list of macros and rules for escapes, see @uref{http://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''}."
+msgid "Because backslashes, braces and percent symbols have special meaning, to enter them into text sometimes requires escapes using a backslash.  In general balanced braces do not need to be escaped, but percent symbols always do, except in the `verbatim' variant.  For the complete list of macros and rules for escapes, see @uref{https://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''}."
 msgstr ""
 
 #. type: node
@@ -6965,7 +6965,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:6040
-msgid "The ``comment'' character @samp{%} and unpaired braces@footnote{See the examples section in the file @file{Paren.Rd} for an example.} @emph{almost always} need to be escaped by @samp{\\}, and @samp{\\\\} can be used for backslash and needs to be when there two or more adjacent backslashes).  In @R{}-like code quoted strings are handled slightly differently; see @uref{http://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''} for details -- in particular braces should not be escaped in quoted strings."
+msgid "The ``comment'' character @samp{%} and unpaired braces@footnote{See the examples section in the file @file{Paren.Rd} for an example.} @emph{almost always} need to be escaped by @samp{\\}, and @samp{\\\\} can be used for backslash and needs to be when there two or more adjacent backslashes).  In @R{}-like code quoted strings are handled slightly differently; see @uref{https://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''} for details -- in particular braces should not be escaped in quoted strings."
 msgstr ""
 
 #. type: Plain text
@@ -7314,7 +7314,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:6259
-msgid "For more details, see the online document @uref{http://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''}."
+msgid "For more details, see the online document @uref{https://developer.r-project.org/parseRd.pdf, ``Parsing Rd files''}."
 msgstr ""
 
 #. type: cindex
@@ -7527,7 +7527,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:6449
-msgid "Some @R{} front-ends provide editing support for @file{.Rd} files, for example RStudio (@uref{http://rstudio.org/})."
+msgid "Some @R{} front-ends provide editing support for @file{.Rd} files, for example RStudio (@uref{https://rstudio.org/})."
 msgstr ""
 
 #. type: node
@@ -8326,7 +8326,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:7057
-msgid "This chapter covers the debugging of @R{} extensions, starting with the ways to get useful error information and moving on to how to deal with errors that crash @R{}.  For those who prefer other styles there are contributed packages such as @CRANpkg{debug} on @acronym{CRAN} (described in an article in @uref{http://CRAN.R-project.org/@/doc/@/Rnews/@/Rnews_2003-3.pdf, R-News 3/3}).  (There are notes from 2002 provided by Roger Peng at @uref{http://www.biostat.jhsph.edu/@/~rpeng/@/docs/@/R-debug-tools.pdf} which provide complementary examples to those given here.)"
+msgid "This chapter covers the debugging of @R{} extensions, starting with the ways to get useful error information and moving on to how to deal with errors that crash @R{}.  For those who prefer other styles there are contributed packages such as @CRANpkg{debug} on @acronym{CRAN} (described in an article in @uref{https://CRAN.R-project.org/@/doc/@/Rnews/@/Rnews_2003-3.pdf, R-News 3/3}).  (There are notes from 2002 provided by Roger Peng at @uref{http://www.biostat.jhsph.edu/@/~rpeng/@/docs/@/R-debug-tools.pdf} which provide complementary examples to those given here.)"
 msgstr ""
 
 #. type: node
@@ -9219,7 +9219,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:7771
-msgid "(See @uref{http://code.google.com/p/address-sanitizer/wiki/AddressSanitizer#gdb}.)"
+msgid "(See @uref{https://code.google.com/p/address-sanitizer/wiki/AddressSanitizer#gdb}.)"
 msgstr ""
 
 #. type: node
@@ -10643,7 +10643,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:8776
-msgid "Examples of registering routines can be found in the different packages in the @R{} source tree (e.g., @pkg{stats}).  Also, there is a brief, high-level introduction in @emph{R News} (volume 1/3, September 2001, pages 20--23, @uref{http://www.r-project.org/doc/Rnews/Rnews_2001-3.pdf})."
+msgid "Examples of registering routines can be found in the different packages in the @R{} source tree (e.g., @pkg{stats}).  Also, there is a brief, high-level introduction in @emph{R News} (volume 1/3, September 2001, pages 20--23, @uref{https://www.r-project.org/doc/Rnews/Rnews_2001-3.pdf})."
 msgstr ""
 
 #. type: Plain text
@@ -13664,7 +13664,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:11092
-msgid "A toy example of the use of weak references can be found at @uref{http://www.stat.uiowa.edu/~luke/R/references/weakfinex.html, @code{www.@/stat.@/uiowa.@/edu/@/~luke/@/R/references/@/weakfinex.html}}, but that is used to add finalizers to external pointers which can now be done more directly.  At the time of writing no @acronym{CRAN} or Bioconductor package uses weak references."
+msgid "A toy example of the use of weak references can be found at @uref{http://homepage.stat.uiowa.edu/~luke/R/references/weakfinex.html, @code{homepage.@/stat.@/uiowa.@/edu/@/~luke/@/R/references/@/weakfinex.html}}, but that is used to add finalizers to external pointers which can now be done more directly.  At the time of writing no @acronym{CRAN} or Bioconductor package uses weak references."
 msgstr ""
 
 #. type: node
@@ -16417,7 +16417,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:12567
-msgid "Header file @file{Rconfig.h} (included by @file{R.h}) is used to define platform-specific macros that are mainly for use in other header files.  The macro @code{WORDS_BIGENDIAN} is defined on big-endian@footnote{@uref{http://en.wikipedia.org/@/wiki/@/Endianness}.} systems (e.g.@: most OSes on Sparc and PowerPC hardware) and not on little-endian systems (such as @code{i686} and @code{x86_64} on all OSes, and Linux on Alpha and Itanium).  It can be useful when manipulating binary files.  The macro @code{SUPPORT_OPENMP} is defined on suitable systems and can be used in conjunction with the @code{SUPPORT_OPENMP_*} macros in packages that want to make use of OpenMP."
+msgid "Header file @file{Rconfig.h} (included by @file{R.h}) is used to define platform-specific macros that are mainly for use in other header files.  The macro @code{WORDS_BIGENDIAN} is defined on big-endian@footnote{@uref{https://en.wikipedia.org/@/wiki/@/Endianness}.} systems (e.g.@: most OSes on Sparc and PowerPC hardware) and not on little-endian systems (such as @code{i686} and @code{x86_64} on all OSes, and Linux on Alpha and Itanium).  It can be useful when manipulating binary files.  The macro @code{SUPPORT_OPENMP} is defined on suitable systems and can be used in conjunction with the @code{SUPPORT_OPENMP_*} macros in packages that want to make use of OpenMP."
 msgstr ""
 
 #. type: Plain text
@@ -17085,7 +17085,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-exts.texi:13009
-msgid "There are a number of ways to build front-ends to @R{}: we take this to mean a GUI or other application that has the ability to submit commands to @R{} and perhaps to receive results back (not necessarily in a text format).  There are other routes besides those described here, for example the package @CRANpkg{Rserve} (from @acronym{CRAN}, see also @uref{http://www.rforge.net/@/Rserve/}) and connections to Java in @samp{JRI} (part of the @CRANpkg{rJava} package on @acronym{CRAN}) and the Omegahat/Bioconductor package @samp{SJava}."
+msgid "There are a number of ways to build front-ends to @R{}: we take this to mean a GUI or other application that has the ability to submit commands to @R{} and perhaps to receive results back (not necessarily in a text format).  There are other routes besides those described here, for example the package @CRANpkg{Rserve} (from @acronym{CRAN}, see also @uref{https://www.rforge.net/@/Rserve/}) and connections to Java in @samp{JRI} (part of the @CRANpkg{rJava} package on @acronym{CRAN}) and the Omegahat/Bioconductor package @samp{SJava}."
 msgstr ""
 
 #. type: Plain text

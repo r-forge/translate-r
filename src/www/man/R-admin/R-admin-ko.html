@@ -361,9 +361,9 @@ approved by the R Core Team.
 <h2 class="chapter">1 R을 얻는 방법</h2>
 <a name="index-Reul-eodneun-bangbeob"></a>
 
-<p>R의 소스, 바이너리 그리고 문서는 <acronym>CRAN</acronym> &ldquo;Comprehensive R Archive Network&rdquo;을
-통해 얻을 수 있으며, CRAN 미러들의 목록을 <a href="http://CRAN.R-project.org/mirrors.html">http://CRAN.R-project.org/mirrors.html</a>에서
-확인할 수 있습니다.
+<p>Sources, binaries and documentation for R can be obtained via
+<acronym>CRAN</acronym>, the &ldquo;Comprehensive R Archive Network&rdquo; whose current
+members are listed at <a href="https://CRAN.R-project.org/mirrors.html">https://CRAN.R-project.org/mirrors.html</a>.
 </p>
 
 <hr>
@@ -431,13 +431,14 @@ Subversion을 통해 얻을 수 있었습니다).
 <h4 class="subsection">1.2.1 서브버전과 rsync를 이용하는 방법</h4>
 <a name="index-Subversion"></a>
 
-<p>소스들은 R 서브버전 저장소인 <a href="https://svn.R-project.org/R/">https://svn.R-project.org/R/</a>에서 얻을 수 있습니다. 만약 서브버전
-클라이언트를 가지고 있다면(<a href="http://subversion.apache.org/">http://subversion.apache.org/</a>를 참고하십시오),
-<a href="http://svn.r-project.org/R/trunk/">http://svn.r-project.org/R/trunk/</a>로부터 현재의 &lsquo;<samp>r-devel</samp>&rsquo;과
-(<var>x</var>와 <var>y</var>는 현재 릴리즈되어 있는 R의 메이저와 마이너 버전의 숫자입니다)
-&lsquo;<samp>https://svn.r-project.org/R/branches/R-<var>x</var>-<var>y</var>-branch/</samp>&rsquo;로부터
-&lsquo;<samp>r-patched</samp>&rsquo;를 체크아웃하고 업데이트를 할 수 있습니다. 예를들면, 아래와 같이 사용하는 것은 (만약 필요하다면 새로이
-생성될 수 있는) 디렉토리 <var>path</var>에 &lsquo;<samp>r-devel</samp>&rsquo;를 체크아웃하는 것입니다.
+<p>Sources are also available via <a href="https://svn.R-project.org/R/">https://svn.R-project.org/R/</a>, the R
+Subversion repository.  If you have a Subversion client (see
+<a href="https://subversion.apache.org/">https://subversion.apache.org/</a>), you can check out and update the
+current &lsquo;<samp>r-devel</samp>&rsquo; from <a href="https://svn.r-project.org/R/trunk/">https://svn.r-project.org/R/trunk/</a>
+and the current &lsquo;<samp>r-patched</samp>&rsquo; from
+&lsquo;<samp>https://svn.r-project.org/R/branches/R-<var>x</var>-<var>y</var>-branch/</samp>&rsquo;
+(where <var>x</var> and <var>y</var> are the major and minor number of the current
+released version of R).  E.g., use
 </p>
 <div class="example">
 <pre class="example">svn checkout https://svn.r-project.org/R/trunk/ <var>path</var>
@@ -456,20 +457,22 @@ Subversion을 통해 얻을 수 있었습니다).
 <acronym>CRAN</acronym>에서 다운로드 받아야 합니다.추천 패키지의 올바른 소스를 설치하기 위해 <code>rsync</code>를 이용하는 것은
 R 소스의 최상위 레벨에서 <code>./tools/rsync-recommended</code>를 실행하는 것입니다.
 </p>
-<p><acronym>CRAN</acronym>에서 수동으로(manually) 내려받는 경우, 추천 패키지의 정확한 버전을 확인해야 합니다.만약
-<samp>VERSION</samp> 파일 내에 있는 숫자가 &lsquo;<samp><var>x</var>.<var>y</var>.<var>z</var></samp>&rsquo;이라면,
-&lsquo;<samp>http://CRAN.R-project.org/src/contrib/<var>dir</var></samp>&rsquo; 내에 있는 내용을 다운받아야
-합니다. 여기에서 <var>dir</var>은 r-devel인 경우
-&lsquo;<samp><var>x</var>.<var>y</var>.<var>z</var>/Recommended</samp>&rsquo;를, r-patched 인 경우에는
-<samp><var>x</var>.<var>y</var>-patched/Recommended</samp>를 다운 받아
-<samp>src/library/Recommended</samp>에 압축을 풀어야 합니다. 수동으로 다운로드를 한 뒤에는
-<samp>src/library/Recommended</samp> 내에 필요한 링크들을 만들기 위하여 소스의 최상위 레벨에서
-<code>tools/link-recommended</code> 명령어를 실행해야 합니다. <code>wget</code>을 이용하여 R 소스의
-최상위레벨로부터 필요한 명령은 아래와 같을 것입니다.여기에서  <samp><var>dir</var></samp> 파일의 정확한 값입니다.
+<p>If downloading manually from <acronym>CRAN</acronym>, do ensure that you have the
+correct versions of the recommended packages: if the number in the file
+<samp>VERSION</samp> is &lsquo;<samp><var>x</var>.<var>y</var>.<var>z</var></samp>&rsquo; you need to download the
+contents of &lsquo;<samp>https://CRAN.R-project.org/src/contrib/<var>dir</var></samp>&rsquo;, where
+<var>dir</var> is &lsquo;<samp><var>x</var>.<var>y</var>.<var>z</var>/Recommended</samp>&rsquo; for r-devel or
+<samp><var>x</var>.<var>y</var>-patched/Recommended</samp> for r-patched, respectively, to
+directory <samp>src/library/Recommended</samp> in the sources you have unpacked.
+After downloading manually you need to execute
+<code>tools/link-recommended</code> from the top level of the sources to make
+the requisite links in <samp>src/library/Recommended</samp>.  A suitable
+incantation from the top level of the R sources using <code>wget</code> might
+be (for the correct value of <samp><var>dir</var></samp>)
 </p>
 <div class="example">
 <pre class="example">wget -r -l1 --no-parent -A\*.gz -nd -P src/library/Recommended \
-  http://CRAN.R-project.org/src/contrib/<var>dir</var>
+  https://CRAN.R-project.org/src/contrib/<var>dir</var>
 ./tools/link-recommended
 </pre></div>
 
@@ -481,15 +484,17 @@ R 소스의 최상위 레벨에서 <code>./tools/rsync-recommended</code>를 실
 <h2 class="chapter">2 유닉스와 같은 환경에서 R 설치하기</h2>
 <a name="index-yunigseuwa-gateun-hwangyeonge-R-seolcihagi"></a>
 
-<p>R은 &lsquo;<samp><var>cpu</var>-*-linux-gnu</samp>&rsquo;를 포함하여 &lsquo;<samp>alpha</samp>&rsquo;, &lsquo;<samp>arm</samp>&rsquo;,
-&lsquo;<samp>hppa</samp>&rsquo;, &lsquo;<samp>ix86</samp>&rsquo;,&lsquo;<samp>ia64</samp>&rsquo;, &lsquo;<samp>m68k</samp>&rsquo;,
-&lsquo;<samp>mips</samp>&rsquo;, &lsquo;<samp>mipsel</samp>&rsquo;,&lsquo;<samp>powerpc</samp>&rsquo;, &lsquo;<samp>s390</samp>&rsquo;,
-&lsquo;<samp>sparc</samp>&rsquo;, 그리고 &lsquo;<samp>x86_64</samp>&rsquo;<acronym>CPU</acronym>,<a href="http://buildd.debian.org/build.php?&amp;pkg=r-base">http://buildd.debian.org/build.php?&amp;pkg=r-base</a>),http://packages.debian.org/unstable/math/r-base-core as is not used for all platforms; note also that Debian ix86 &lt;=&gt; i386.&lsquo;<samp>i386-apple-darwin</samp>&rsquo;,
-&lsquo;<samp>x86_64-apple-darwin</samp>&rsquo;,&lsquo;<samp>i386-sun-solaris</samp>&rsquo;,
-&lsquo;<samp>sparc-sun-solaris</samp>&rsquo;,&lsquo;<samp>x86_64-*-freebsd</samp>&rsquo;, 그리고
-&lsquo;<samp>powerpc-ibm-aix6*</samp>&rsquo;와 같은 유닉스 또는 유닉스와 비슷한 플랫폼 위에 구성될 수 있습니다.아마도
-&lsquo;<samp>i386-*-freebsd</samp>&rsquo;, &lsquo;<samp>i386-*-netbsd</samp>&rsquo;
-그리고&lsquo;<samp>i386-*-openbsd</samp>&rsquo; 에서도 가능할 것입니다 (이 플랫폼들 위에서는 많은 테스트를 거치지 않았습니다).
+<p>R will configure and build under most common Unix and Unix-alike
+platforms including &lsquo;<samp><var>cpu</var>-*-linux-gnu</samp>&rsquo; for the &lsquo;<samp>alpha</samp>&rsquo;,
+&lsquo;<samp>arm</samp>&rsquo;, &lsquo;<samp>hppa</samp>&rsquo;, &lsquo;<samp>ix86</samp>&rsquo;, &lsquo;<samp>m68k</samp>&rsquo;,
+&lsquo;<samp>mips</samp>&rsquo;, &lsquo;<samp>mipsel</samp>&rsquo;, &lsquo;<samp>powerpc</samp>&rsquo;, &lsquo;<samp>s390</samp>&rsquo;,
+&lsquo;<samp>sparc</samp>&rsquo;, and &lsquo;<samp>x86_64</samp>&rsquo; <acronym>CPU</acronym>s,
+&lsquo;<samp>x86_64-apple-darwin</samp>&rsquo;, &lsquo;<samp>i386-sun-solaris</samp>&rsquo; and
+&lsquo;<samp>sparc-sun-solaris</samp>&rsquo; as well as perhaps (it is tested less
+frequently on these platforms)  &lsquo;<samp>i386-apple-darwin</samp>&rsquo;,
+&lsquo;<samp>i386-*-freebsd</samp>&rsquo;, &lsquo;<samp>x86_64-*-freebsd</samp>&rsquo;,
+&lsquo;<samp>i386-*-netbsd</samp>&rsquo;, &lsquo;<samp>i386-*-openbsd</samp>&rsquo; and
+&lsquo;<samp>powerpc-ibm-aix6*</samp>&rsquo;
 </p>
 <a name="index-rinugseu_0028linux_0029"></a>
 <a name="index-OS-X"></a>
@@ -594,7 +599,7 @@ previously been used for a build.)
 
 <p>Now <code>rehash</code> if necessary, type <kbd>R</kbd>, and read the R manuals and
 the R <acronym>FAQ</acronym> (files <samp>FAQ</samp> or <samp>doc/manual/R-FAQ.html</samp>, or
-<a href="http://CRAN.R-project.org/doc/FAQ/R-FAQ.html">http://CRAN.R-project.org/doc/FAQ/R-FAQ.html</a> which always has
+<a href="https://CRAN.R-project.org/doc/FAQ/R-FAQ.html">https://CRAN.R-project.org/doc/FAQ/R-FAQ.html</a> which always has
 the version for the latest release of R).
 </p>
 <p>만약 필요하다면, <code>rehash</code>를 수행한 뒤에 <kbd>R</kbd>이라고 입력하고 R 매뉴얼들과 R
@@ -708,17 +713,19 @@ NimbusRom, NimbusSans, 그리고 MimbusMon을 끼워넣는 것입니다.
 </p>
 </dd>
 <dt><code>lm</code></dt>
-<dd><p><em>Latin Modern</em> 글꼴들을 이용하는 것입니다. 이것들은 TeX 배포의 일부분이기 때문에 종종 설치되지 않지만,
-<a href="http://www.ctan.org/tex-archive/fonts/ps-type1/lm/">http://www.ctan.org/tex-archive/fonts/ps-type1/lm/</a>과 이것의
-미러들로부터 얻을 수 있습니다.이것은 Computer Modern과 다소 유사한 글꼴들을 사용하지만 <code>times</code>와 같이
-스크린상에서 보기 좋은 글꼴은 아닙니다.
+<dd><p>Using the <em>Latin Modern</em> fonts.  These are not often installed as part
+of a TeX distribution, but can obtained from
+<a href="https://www.ctan.org/tex-archive/fonts/ps-type1/lm/">https://www.ctan.org/tex-archive/fonts/ps-type1/lm/</a> and
+mirrors.  This uses fonts rather similar to Computer Modern, but is not so
+good on-screen as <code>times</code>.
 </p>
 </dd>
 <dt><code>cm-super</code></dt>
-<dd><p>Vladimir Volovich에 의해서 만들어진 Computer Modern 글꼴의 type-1 버전들을 이용하는 것입니다. 이것은
-<a href="http://www.ctan.org/tex-archive/fonts/ps-type1/cm-super/">http://www.ctan.org/tex-archive/fonts/ps-type1/cm-super/</a>과 이것의
-미러들로부터 얻을 수 있는데, 매우 방대한 설치입니다.이러한 type-1 글꼴은 좋지 않은 질을 가지고 있어  다른 세가지 옵션처럼
-스크린상에서만 읽을 수 있을 것입니다.
+<dd><p>Using type-1 versions of the Computer Modern fonts by Vladimir Volovich.
+This is a large installation, obtainable from
+<a href="https://www.ctan.org/tex-archive/fonts/ps-type1/cm-super/">https://www.ctan.org/tex-archive/fonts/ps-type1/cm-super/</a> and
+its mirrors.  These type-1 fonts have poor hinting and so are nowhere near
+as readable on-screen as the other three options.
 </p>
 </dd>
 <dt><code>ae</code></dt>
@@ -909,9 +916,8 @@ command <code>install-info</code> on the system.)
 <p>스테이지된 설치 또한 가능합니다. 즉, 최종목적에 설치된 트리를 옮기기 위해서 R을 임시디렉토리에 설치하는 것입니다. 이 경우에는
 <code>prefix</code>는 최종목적지를 반드시 지정해야 하며, <code>DESTDIR</code>이 사용되어야 합니다. 
 <a name="index-DESTDIR"></a>
-이에 대해서는
-<a href="http://www.gnu.org/prep/standards/html_node/DESTDIR.html">http://www.gnu.org/prep/standards/html_node/DESTDIR.html</a>를
-살펴보세요.
+final destination, and <code>DESTDIR</code> should be used: see
+<a href="https://www.gnu.org/prep/standards/html_node/DESTDIR.html">https://www.gnu.org/prep/standards/html_node/DESTDIR.html</a>.
 </p>
 <p><code>make check-all</code>의 일부분인 런타임 테스트를 아래의 명령어를 사용하여 선택적으로 설치할수 있습니다. 이는
 설치시 <samp>tests</samp> 디렉토리를 채웁니다.
@@ -1184,9 +1190,9 @@ package-specific tests) by <code>testInstalledPackages</code> even if
 <p>참고하실것은 설치 실행시 언어를 선택하게 되어있습니다, 그리고 선택하신 언어는 설치와 제거 실행시 모두 적용되지만 R 자체를
 실행할때는 적용이 않됩니다.
 </p>
-<p>바이너리 설치 프로그램에 관한 더욱 자세한 내용은
-<a href="http://CRAN.R-project.org/bin/windows/base/rw-FAQ.html">R
-Windows <acronym>FAQ</acronym></a> 을 참고하십시요.
+<p>See the
+<a href="https://CRAN.R-project.org/bin/windows/base/rw-FAQ.html">R
+Windows <acronym>FAQ</acronym></a> for more details on the binary installer.
 </p>
 
 <hr>
@@ -1211,8 +1217,8 @@ the $(LOCAL_SOFT) macro defaults to <samp>$(R_HOME)/extsoft</samp>.  This
 directory can be populated using <code>make rsync-extsoft</code>. The location
 can be overridden by setting <code>EXT_LIBS</code> to a different path in
 <samp>src/gnuwin32/MkRules.local</samp>. A suitable collection of files can also
-be obtained from <a href="http://CRAN.R-project.org/bin/windows/extsoft">http://CRAN.R-project.org/bin/windows/extsoft</a>
-or <a href="http://www.stats.ox.ac.uk/pub/Rtools/libs.html">http://www.stats.ox.ac.uk/pub/Rtools/libs.html</a>.
+be obtained from <a href="https://CRAN.R-project.org/bin/windows/extsoft">https://CRAN.R-project.org/bin/windows/extsoft</a>
+or <a href="https://www.stats.ox.ac.uk/pub/Rtools/libs.html">https://www.stats.ox.ac.uk/pub/Rtools/libs.html</a>.
 </p>
 
 <hr>
@@ -1220,10 +1226,10 @@ or <a href="http://www.stats.ox.ac.uk/pub/Rtools/libs.html">http://www.stats.ox.
 <a name="pilyohan-dogu-gajcugi"></a>
 <h4 class="subsection">3.1.1 필요한 도구 갖추기</h4>
 
-<p>소스로부터 R을 빌드하기 원한다면 제일 먼저 필요한 도구들을 수집, 설치, 그리고 테스트를 해 보아야 합니다. 자세한 사항은
-<a href="#The-Windows-toolset">The Windows toolset</a>을 살펴보세요 (그리고 아마도 다음 페이지
-<a href="http://CRAN.R-project.org/bin/windows/Rtools/">http://CRAN.R-project.org/bin/windows/Rtools/</a>에 있는 업데이트되는 내용을
-살펴보셔야 합니다).
+<p>If you want to build R from the sources, you will first need to collect,
+install and test an extensive set of tools.  See <a href="#The-Windows-toolset">The Windows toolset</a>
+(and perhaps updates in
+<a href="https://CRAN.R-project.org/bin/windows/Rtools/">https://CRAN.R-project.org/bin/windows/Rtools/</a>) for details.
 </p>
 <p><a href="#The-Windows-toolset">The Windows toolset</a>에 설며되어 있는 <samp>Rtools*.exe</samp>이라는 실행가능한 인스톨러는 또한 아래
 설명된 것과 같이 R 소스외에도 추가적인 몇가지 소스파일들이 포함되어 있습니다.올바른 <code>tar</code> 파일과 그외에 필요한
@@ -1273,7 +1279,7 @@ or <a href="http://www.stats.ox.ac.uk/pub/Rtools/libs.html">http://www.stats.ox.
 </li><li> The binary distributions of external software.  Download
 
 <div class="example">
-<pre class="example">http://www.stats.ox.ac.uk/pub/Rtools/goodies/multilib/local320.zip
+<pre class="example">https://www.stats.ox.ac.uk/pub/Rtools/goodies/multilib/local320.zip
 </pre></div>
 
 <p>create an empty directory, say <samp>c:/R/extsoft</samp>, and unpack it in that
@@ -1304,9 +1310,11 @@ devices.
 요구됩니다.
 </p>
 <ul>
-<li> <samp>Rtools30.exe</samp>내에 포함되어 있는 Tcl/Tk 지원 파일들이 필요하며 이들은
-<a href="http://www.stats.ox.ac.uk/pub/Rtools">http://www.stats.ox.ac.uk/pub/Rtools</a>에서 <samp>.zip</samp>의 형식으로 얻을 수
-있습니다. 올바른 버전을 설치하고 있는지에 대해서 반드시 확인하시길 바랍니다: 32 비트 버전과 64 비트 버전이 있습니다. 
+<li> The Tcl/Tk support files are contained in <samp>Rtools31.exe</samp> and available
+as <samp>.zip</samp> files from <a href="https://www.stats.ox.ac.uk/pub/Rtools">https://www.stats.ox.ac.uk/pub/Rtools</a>.
+Please make sure you install the right version: there is a 32-bit version
+and a 64-bit version.  They should be installed to <samp><var>R_HOME</var></samp>,
+creating directory <samp>Tcl</samp> there.
 
 </li></ul>
 
@@ -1362,11 +1370,12 @@ R 자체에서 작업을 하는경우). 이럴경우 베이스나 추천된 팩�
 기본적으로 빌드되지 않고, <code>make cairodevices</code>에 의해 <samp>Rbitmap.dll</samp> 뒤에 빌드되어져야만
 합니다. 
 </p>
-<p>이러한 장치들이 빌드되게 하기 위해서는 Simon Urbanek에 의해 빌드 되어진 static cairographics 라이브러리들을
-<a href="http://www.rforge.net/Cairo/files/cairo-current-win.tar.gz">http://www.rforge.net/Cairo/files/cairo-current-win.tar.gz</a>으로부터 받아
-설치해야만 합니다. <samp>MkRules.local</samp>에 있는 &lsquo;<samp>CAIRO_HOME</samp>&rsquo; 매크로를 설정해주세요.(이 타르볼은
-최상위 디렉토리 <samp>scr/</samp>에서 압축해제가 되어야 합니다. &lsquo;<samp>CAIRO_HOME</samp>&rsquo;은 그 경로를 포함해야 할 필요가
-있습니다).
+<p>To enable the building of these devices you need to install the static
+cairographics libraries built by Simon Urbanek at
+<a href="https://www.rforge.net/Cairo/files/cairo-current-win.tar.gz">https://www.rforge.net/Cairo/files/cairo-current-win.tar.gz</a>.  Set the
+macro &lsquo;<samp>CAIRO_HOME</samp>&rsquo; in <samp>MkRules.local</samp>.  (Note that this tarball
+unpacks with a top-level directory <samp>src/</samp>: &lsquo;<samp>CAIRO_HOME</samp>&rsquo; needs to
+include that directory in its path.)
 </p>
 <hr>
 <a name="g_t_c778_d130_d398_c774_c2a4-_c81c_c5b4_c7a5_ce58_0028ICU_0029-_c0ac_c6a9_d558_ae30"></a>
@@ -1387,7 +1396,7 @@ ICU_PATH = /path/to/ICU
 
 <p>The first should be uncommented and the second set to the top-level
 directory of a suitably packaged binary build of ICU, for example that at
-<a href="http://www.stats.ox.ac.uk/pub/Rtools/goodies/ICU_531.zip">http://www.stats.ox.ac.uk/pub/Rtools/goodies/ICU_531.zip</a>.  Depending
+<a href="https://www.stats.ox.ac.uk/pub/Rtools/goodies/ICU_531.zip">https://www.stats.ox.ac.uk/pub/Rtools/goodies/ICU_531.zip</a>.  Depending
 on the build, it may be necessary to edit the macro <code>ICU_LIBS</code>.
 </p>
 <p>Unlike on a Unix-alike, it is normally necessary to call
@@ -1404,7 +1413,7 @@ collation, or set the environment variable <code>R_ICU_LOCALE</code>.
 <code>download.file</code> and <code>url</code>.
 </p>
 <p>A suitable distribution can be found <em>via</em>
-<a href="http://www.stats.ox.ac.uk/pub/Rtools/libs.html">http://www.stats.ox.ac.uk/pub/Rtools/libs.html</a> and its unpacked
+<a href="https://www.stats.ox.ac.uk/pub/Rtools/libs.html">https://www.stats.ox.ac.uk/pub/Rtools/libs.html</a> and its unpacked
 location should be specified in file <samp>MkRules.local</samp>.
 </p>
 <p>For secure use of e.g. &lsquo;<samp>https://</samp>&rsquo; URLs Windows users may need to
@@ -1476,7 +1485,7 @@ make -f Makefile.win info
 manuals will not be built.  The comments in file <samp>MkRules.dist</samp>
 describe settings to build them.  (Copy that file to <samp>MkRules.local</samp>
 and edit it.)  The <strong>texinfo</strong> 5.x package for use on Windows is available
-at <a href="http://www.stats.ox.ac.uk/pub/Rtools/">http://www.stats.ox.ac.uk/pub/Rtools/</a>: you will also need to
+at <a href="https://www.stats.ox.ac.uk/pub/Rtools/">https://www.stats.ox.ac.uk/pub/Rtools/</a>: you will also need to
 install <code>Perl</code><a name="DOCF10" href="#FOOT10"><sup>10</sup></a>
 </p>
 <hr>
@@ -1572,9 +1581,10 @@ crandir <span class="roman">(the <acronym>CRAN</acronym> distribution directory,
 <p>Microsoft Installer와 함께 사용하기위한 인스톨러를 빌드하는 것 또한 가능합니다. 이는 자동 설치를 필요로 하는 시스템
 관리자를 위해 만들어졌으므로, 일반적 사용으로는 추천되지 않습니다. 
 </p>
-<p>이는 <a href="http://wix.sourceforge.net/">http://wix.sourceforge.net/</a>에서 사용가능한 Windows Installer XML (WiX)
-toolkit version 3.0 or 3.5을 사용합니다. WiX가 설치되면, <samp>MkRules.local</samp>에 홈 디렉토리로
-경로를 지정하십시오.
+<p>It makes use of the Windows Installer XML (WiX) toolkit <em>version 3.5</em>
+(or perhaps later, untested) available from <a href="http://wixtoolset.org/">http://wixtoolset.org/</a>.
+Once WiX is installed, set the path to its home directory in
+<samp>MkRules.local</samp>.
 </p>
 <p>비트맵과 Tcl/Tk 지원과 매뉴얼, 그리고 추천 패키지들을 포함한 완전한 R 빌드를 위한 파일들을 가지고 있어야 합니다. 사용자 지정
 스타트업 옵션을 지정하는 옵션이 인스톨러에는 없기때문에, 설정이 필요한 경우에 <samp>etc/Rconsole</samp>와
@@ -1698,7 +1708,7 @@ distribution.
 <samp>/Applications</samp> which you can run by double-clicking (e.g. from
 Launchpad or Finder).  This is usually referred to as <small>R.APP</small> to distinguish
 it from command-line R: its user manual is currently part of the OS X FAQ
-at <a href="http://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html">http://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html</a> and
+at <a href="https://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html">https://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html</a> and
 can be viewed from <small>R.APP</small>&rsquo;s &lsquo;Help&rsquo; menu.
 </p>
 
@@ -2014,7 +2024,7 @@ with, if <code>make</code> is available (and this can be tuned by option
 </p>
 <p>A few of the binary packages need other software to be installed on your
 system: see for example
-<a href="http://CRAN.R-project.org/bin/windows/contrib/3.2/@ReadMe">http://CRAN.R-project.org/bin/windows/contrib/3.2/@ReadMe</a>.
+<a href="https://CRAN.R-project.org/bin/windows/contrib/3.2/@ReadMe">https://CRAN.R-project.org/bin/windows/contrib/3.2/@ReadMe</a>.
 Packages using Gtk+ (<a href="http://CRAN.R-project.org/package=Cairo"><strong>Cairo</strong></a>, <a href="http://CRAN.R-project.org/package=RGtk2"><strong>RGtk2</strong></a>, <a href="http://CRAN.R-project.org/package=cairoDevice"><strong>cairoDevice</strong></a>
 and those that depend on them) need the <samp>bin</samp> directory of a bundled
 distribution of Gtk2 from <a href="http://www.gtk.org/download/win32.php">http://www.gtk.org/download/win32.php</a>
@@ -2281,12 +2291,14 @@ rgdal               rgdal  0.6-27     upgrade
 <h3 class="section">6.6 패키지 저장소(repository) 설정하기</h3>
 <a name="index-Repositories"></a>
 
-<p><code>install.packages</code>와 같은 유틸리티들은 모든 <acronym>CRAN</acronym> 스타일의 저장소로 가리켜지도록 할 수
-있고, R 사용자들은 자신들에게 맞게 설정하고 싶어할 지도 모릅니다. 저장소의 ‘베이스’는
-<a href="http://www.omegahat.org/R/">http://www.omegahat.org/R/</a>과 같은 URL입니다: 이는 <code>download.packages</code> 가
-지원하는 URL scheme일 것입니다 (&lsquo;<samp>ftp://</samp>&rsquo;와 &lsquo;<samp>file://</samp>&rsquo;도 포함하지만, 대부분의 시스템들에서
-&lsquo;<samp>https://</samp>&rsquo;는 포함하지 않습니다). 베이스 URL에서, 하나 이상의 다음의 패키지 배포의 종류들의 디렉토리 트리들이
-있어야만 합니다.
+<p>Utilities such as <code>install.packages</code> can be pointed at any
+<acronym>CRAN</acronym>-style repository, and R users may want to set up their
+own.  The &lsquo;base&rsquo; of a repository is a URL such as
+<a href="http://www.omegahat.org/R/">http://www.omegahat.org/R/</a>: this must be an URL scheme that
+<code>download.packages</code> supports (which also includes &lsquo;<samp>ftp://</samp>&rsquo; and
+&lsquo;<samp>file://</samp>&rsquo; and on most systems &lsquo;<samp>https://</samp>&rsquo;).  Under that base URL
+there should be directory trees for one or more of the following types of
+package distributions:
 </p>
 <ul>
 <li> <code>source</code>:  &rsquo;<samp>src/contrib</samp>&rsquo;에 위치하고 &rsquo;<samp>.tar.gz</samp>파일들을 포함하고
@@ -2416,11 +2428,13 @@ DLL를 추가할 수 있습니다.
 <p>로케일을 명명하는 방식은 운영체제별로 다릅니다. 이에 대한 일반적인 작동방식은 동일하지만 실제적인 구현에 대한 내용은 그렇지
 않습니다. 로케일은 다음과 같은 것들을 지정할 필요가 있습니다.
 </p><ul>
-<li> 사용언어.  이것은 일반적으로 ISO 639를 따르는 두개의 소문자로 된 약어에 의해서
-지정됩니다. (<a href="http://en.wikipedia.org/wiki/ISO_639-1">http://en.wikipedia.org/wiki/ISO_639-1</a>를 살펴보세요).
+<li> A human language.  These are generally specified by a lower-case
+two-character abbreviation following ISO 639 (see e.g.
+<a href="https://en.wikipedia.org/wiki/ISO_639-1">https://en.wikipedia.org/wiki/ISO_639-1</a>).
 
-</li><li> 지역. 주로 화폐단위를 지정하는데 이용됩니다. 이것들은 일반적으로 ISO 3166을 따르는 두개의 대문자로 지정됩니다. (
-<a href="http://en.wikipedia.org/wiki/ISO_3166">http://en.wikipedia.org/wiki/ISO_3166</a>를 살펴보세요).
+</li><li> A &lsquo;territory&rsquo;, used mainly to specify the currency. These are generally
+specified by an upper-case two-character abbreviation following ISO 3166
+(see e.g. <a href="https://en.wikipedia.org/wiki/ISO_3166">https://en.wikipedia.org/wiki/ISO_3166</a>).
 
 </li><li> 문자 인코딩.  이것은 어떻게 바이트 스트림이 문자들로 나누어지고 어떤 문자들이 바이트의 부분적인 시퀀스로 표현할 수 있는가를
 결정합니다. 때때로 언어와 지역의 조합이 인코딩을 지정하는데 사용되기도 합니다. 예를들면, 중국어 간체와 번체를 구분하는 것이
@@ -2456,11 +2470,12 @@ compatibility.
 <a name="windoujeueseoyi-rokeil"></a>
 <h4 class="subsection">7.1.2 윈도우즈에서의 로케일</h4>
 
-<p>윈도우즈 또한 로케일을 사용하지만 덜 간결한 방법으로 지정됩니다. 대부분의 사용자들은 오로지 드랍-다운 메뉴를 통해서만 로케일을 조절할
-수 있으나, 더 많은 정보를
-<a href="http://msdn.microsoft.com/en-us/library/hzz3tw78(v=vs.80)">http://msdn.microsoft.com/en-us/library/hzz3tw78(v=vs.80)</a> 에서 찾을 수
-있습니다 (또는 Microsoft가 이를 아직 다시 옮기지 않았다면, &lsquo;<samp>Windows language country
-strings</samp>&rsquo;로 검색해보시길 바랍니다). 
+<p>Windows also uses locales, but specified in a rather less concise way.  Most
+users will encounter locales only via drop-down menus, but more information
+and lists can be found at
+<a href="https://msdn.microsoft.com/en-us/library/hzz3tw78(v=vs.80)">https://msdn.microsoft.com/en-us/library/hzz3tw78(v=vs.80)</a> (or if
+Microsoft moves it yet again, search for &lsquo;<samp>Windows language country
+strings</samp>&rsquo;).
 </p>
 <p>언어별로 오로지 하나의 인코딩만을 제공합니다.
 </p>
@@ -2472,13 +2487,15 @@ strings</samp>&rsquo;로 검색해보시길 바랍니다).
 <a name="OS-Xeseoyi-rokeil"></a>
 <h4 class="subsection">7.1.3 OS X에서의 로케일</h4>
 
-<p>OS X는 그들의 특별한 방법으로 로케일을 지원하지만, R GUI는 사용자에게 보다 쉽게 만들고자 하였습니다.어떻게 사용자가 그들의
-로케일을 지정할 수 있는지에 대해서는
+<p>OS X supports locales in its own particular way, but the R GUI tries to make
+this easier for users. See
 <a href="https://developer.apple.com/documentation/MacOSX/Conceptual/BPInternational/">https://developer.apple.com/documentation/MacOSX/Conceptual/BPInternational/</a>
-를 살펴보시길 바랍니다. 윈도우즈에서와 같이 사용자는 일반적으로 언어/지역의 목록만을 볼 수 있습니다. 만약 로케일의 기본이
-&lsquo;<samp>C</samp>&rsquo; 터미널 내에서 R의 사용자들은 &lsquo;<samp>en_GB.UTF-8</samp>&rsquo;과 같이 로케일을 지정할 필요가 있습니다 (마치
-때때로 이를 원격으로 로그인하고 배치작업을 수행할때입니다: <code>Terminal</code>이 <code>LANG</code> 환경변수를 조절할 수
-있는지 여부는 (advanced) 옵션입니다).
+for how users can set their locales.  As with Windows, end users will
+generally only see lists of languages/territories.  Users of R in a
+terminal may need to set the locale to something like &lsquo;<samp>en_GB.UTF-8</samp>&rsquo; if
+it defaults to &lsquo;<samp>C</samp>&rsquo; (as it sometimes does when logging in remotely and
+for batch jobs: note whether <code>Terminal</code> sets the <code>LANG</code>
+environment variable is an (advanced) preference, but does so by default).
 </p>
 <p>내부적으로 OS X는 리눅스와 유사한 형식을 이용합니다.이는 XPG가 아닌 ICU 로케일 ID
 (<a href="http://userguide.icu-project.org/locale">http://userguide.icu-project.org/locale</a>)에 기반을 두는데,
@@ -2547,7 +2564,7 @@ Latin American 국가에서 사용됩니다. 그리고 브라질 로케일에서
 <p>만약 적합한 번역 카탈로그를 찾을 수 없거나 특정 메시지가 어떤 적합한 카탈로그에서 번역되어 있지 않다면 이는
 영어<a name="DOCF17" href="#FOOT17"><sup>17</sup></a>.가 사용되게 됩니다.
 </p>
-<p>See <a href="http://developer.r-project.org/Translations30.html">http://developer.r-project.org/Translations30.html</a> for how to
+<p>See <a href="https://developer.r-project.org/Translations30.html">https://developer.r-project.org/Translations30.html</a> for how to
 prepare and install translation catalogues.
 </p>
 <hr>
@@ -2810,12 +2827,13 @@ installed.
 Your C compiler should be
 <acronym>ISO</acronym>/<acronym>IEC</acronym>&nbsp;60059<a name="DOCF20" href="#FOOT20"><sup>20</sup></a>, POSIX 1003.1 and C99-compliant.<a name="DOCF21" href="#FOOT21"><sup>21</sup></a> R tries to choose suitable flags for the C
 compilers it knows about, but you may have to set <code>CC</code> or <code>CFLAGS</code>
-suitably.  For recent versions of <code>gcc</code> with <code>glibc</code> this means
-including <samp>-std=gnu99</samp><a name="DOCF22" href="#FOOT22"><sup>22</sup></a>.  If the compiler is detected as <code>gcc</code>,
-<samp>-std=gnu99</samp> will be appended to <code>CC</code> unless it conflicts with a
-setting of <code>CFLAGS</code>.  (Note that options essential to run the compiler
-even for linking, such as those to set the architecture, should be specified
-as part of <code>CC</code> rather than in <code>CFLAGS</code>.)
+suitably.  For many versions of <code>gcc</code> with <code>glibc</code> this means
+including <samp>-std=gnu99</samp><a name="DOCF22" href="#FOOT22"><sup>22</sup></a>.  If the compiler is detected as
+<code>gcc</code>&nbsp;<code>4.x</code>, <samp>-std=gnu99</samp> will be appended to
+<code>CC</code> unless it conflicts with a setting of <code>CFLAGS</code>.  (Note that
+options essential to run the compiler even for linking, such as those to set
+the architecture, should be specified as part of <code>CC</code> rather than in
+<code>CFLAGS</code>.)
 </p>
 <p>스크린에서 그래프들을 보는 것을 원하지 않지 않는 이상 (아니면 Mac을 사용), 헤더들과 클라이언트 라이브러리들을 포함하는
 &lsquo;<samp>X11</samp>&rsquo;을 설치할 필요가 있습니다. 최근의 Fedora 배포에서, 이는 (적어도)
@@ -2835,7 +2853,7 @@ formats <code>&quot;UCS-[24][BL]E&quot;</code> &mdash; this is true by default f
 <code>glibc</code><a name="DOCF23" href="#FOOT23"><sup>23</sup></a> but
 not of most commercial Unixes.  However, you can make use of <acronym>GNU</acronym>
 <code>libiconv</code> (as used on OS X: see
-<a href="http://www.gnu.org/software/libiconv/">http://www.gnu.org/software/libiconv/</a>).
+<a href="https://www.gnu.org/software/libiconv/">https://www.gnu.org/software/libiconv/</a>).
 </p>
 <p>OS는 wide-character types에 대해 충분한 지원<a name="DOCF24" href="#FOOT24"><sup>24</sup></a> 을 가지는 것이 필요합니다: 이는 configuration에서 체크됩니다.
 </p>
@@ -2912,17 +2930,19 @@ as used for 10.8 and later, ships <code>cairo</code>), but <code>cairo</code> su
 <code>freetype</code> and <code>pixman</code> too): <code>pkg-config</code> is still needed
 when building R from source and can be installed from its sources.
 </p>
-<p>이 장비들로 최상의 글꼴 경험을 위해서는 알맞은 글꼴들의 설치가 필요합니다: 리눅스 사용자들은 <code>urw-fonts</code>
-패키지<a name="DOCF30" href="#FOOT30"><sup>30</sup></a>를 원할 것 입니다. 사용
-가능 한 플랫폼들에서, <code>msttcorefonts</code> 패키지는Arial 과 Times New Roman 과 같은 Monotype
-글꼴들의TrueType 버전들을 제공 할 것입니다. 다른 유용한 글 꼴 세트는
-<a href="https://fedorahosted.org/liberation-fonts/">https://fedorahosted.org/liberation-fonts/</a>,<a name="DOCF31" href="#FOOT31"><sup>31</sup></a>에서 사용가능한Latin, Greek, Cyrillic alphabets과 더불어 상당한 양의
-sign들을 커버하는 &lsquo;liberation&rsquo; TrueType 글꼴들 입니다. 이들은 Arial, Times New Roman 그리고
-Courier New 와 metrics를 공유하고 처음 두 개와 비슷한 글꼴들을 포함합니다
-(<a href="http://en.wikipedia.org/wiki/Liberation_fonts">http://en.wikipedia.org/wiki/Liberation_fonts</a>). URW 글꼴들에 기초하지만
-extend된 Unicode coverage가 있는 OpenType/TrueType 글꼴들인&lsquo;Free UCS Outline Fonts&rsquo;
-프로젝트 (<a href="http://www.gnu.org/software/freefont/">http://www.gnu.org/software/freefont/</a>) 가 있습니다. 이러한 글꼴들의 선택은
-<code>X11</code>의 R help를 참조하세요.
+<p>For the best font experience with these devices you need suitable fonts
+installed: Linux users will want the <code>urw-fonts</code> package.  On platforms
+which have it available, the <code>msttcorefonts</code> package<a name="DOCF30" href="#FOOT30"><sup>30</sup></a> provides
+TrueType versions of Monotype fonts such as Arial and Times New Roman.
+Another useful set of fonts is the &lsquo;liberation&rsquo; TrueType fonts available at
+<a href="https://fedorahosted.org/liberation-fonts/">https://fedorahosted.org/liberation-fonts/</a>,<a name="DOCF31" href="#FOOT31"><sup>31</sup></a> which cover the Latin, Greek and Cyrillic alphabets plus
+a fair range of signs.  These share metrics with Arial, Times New Roman and
+Courier New, and contain fonts rather similar to the first two
+(<a href="https://en.wikipedia.org/wiki/Liberation_fonts">https://en.wikipedia.org/wiki/Liberation_fonts</a>).  Then there is
+the &lsquo;Free UCS Outline Fonts&rsquo; project
+(<a href="https://www.gnu.org/software/freefont/">https://www.gnu.org/software/freefont/</a>) which are OpenType/TrueType
+fonts based on the URW fonts but with extended Unicode coverage.  See the
+R help on <code>X11</code> on selecting such fonts.
 </p>
 <p>비트맵된 그래픽 장치들<code>jpeg()</code>, <code>png()</code> 와 <code>tiff()</code> 는 알맞은 헤더들과 라이브러리의
 설치를 필요로 합니다: 순서대로, <code>jpeg</code> (버전 6b 이나 그 후 버전들, 혹은 <code>libjpeg-turbo</code>)
@@ -2988,9 +3008,9 @@ ghostscript (<a href="http://www.cs.wisc.edu/~ghost">http://www.cs.wisc.edu/~gho
 <a name="Tcl_002fTk-1"></a>
 <h4 class="subsection">A.2.1 Tcl/Tk</h4>
 
-<p><strong>tcltk</strong>패키지는Tcl/Tk &gt;= 8.4의 설치를 필요로 합니다: 소스들은
-<a href="http://www.tcl.tk/">http://www.tcl.tk/</a>에서 이용 가능합니다.  Tcl/Tk 파일들의 위치를 지정하기 위해서는,
-configuration 옵션들이 필요할 수 있습니다.
+<p>The <strong>tcltk</strong> package needs Tcl/Tk &gt;= 8.4 installed: the sources are
+available at <a href="https://www.tcl.tk/">https://www.tcl.tk/</a>.  To specify the locations of the
+Tcl/Tk files you may need the configuration options
 </p>
 <dl compact="compact">
 <dt><samp>--with-tcltk</samp></dt>
@@ -3237,9 +3257,9 @@ cache).
 
 <p>를 사용하기위한 다른 방법 (그리고 더 나은 방법들)을 위해서는  see <a href="#Shared-BLAS">Shared BLAS</a>를 참조하세요.
 </p>
-<p>OpenBLAS (<a href="http://xianyi.github.com/OpenBLAS/">http://xianyi.github.com/OpenBLAS/</a>) is a descendant project
-with support for some later CPUs (e.g. Intel Sandy Bridge).  Once
-installed it can be used by something like
+<p>OpenBLAS (<a href="http://www.openblas.net/">http://www.openblas.net/</a>) is a descendant project with
+support for some later CPUs (e.g. Intel Sandy Bridge).  Once installed it
+can be used by something like
 </p>
 <div class="example">
 <pre class="example">--with-blas=&quot;-lopenblas&quot;
@@ -3624,13 +3644,18 @@ flag들을 사용)를 사용하세요. 이들은 대부분의 흔한 경우들�
 않을지도 모릅니다. (이는 native <code>cc</code>를 가진HP_UX에서 문제가 된다고 리포트 되었었습니다). 이런 경우에는,
 다른컴파일러 (혹은 재 배열을 하는 front end shell script)를 사용하세요.
 </p>
-<p>이 flag들은 R버전의 더 빠르게 돌아가는 빌드를 하기위해서 쓰여질 수도 있습니다. <code>gcc</code>를 사용하는 대부분의
-플랫폼에서, <code>CFLAGS</code>와 <code>FFLAGS</code>에 &lsquo;<samp>-O3</samp>&rsquo; 를 가지고 있는 것은 <code>gcc</code>와
-<code>gfortran</code>과 함께가치있는 성능 향상을 생산합니다. <acronym>GNU</acronym> linker를 사용하는 시스템들에서
-(특히 R을 공유 라이브러리처럼 사용하는 것들), LDFLAGSdp &lsquo;<samp>-Wl, -O1</samp>&rsquo;를 포함하는 것이 가치가 있고,
-<a href="http://lwn.net/Articles/192624/">http://lwn.net/Articles/192624/</a>에서는 &lsquo;<samp>-Bdirect, --hash-style=both,
--Wl, O1</samp>&rsquo;이 추천됩니다. 특정한 CPU 패밀리로 compilation을 조율하는 것은 (예로, <code>gcc</code>를 위한
-&lsquo;<samp>-mtune=native</samp>&rsquo;) 특히 &lsquo;<samp>ix86</samp>&rsquo;과 같은 더 오래된 아키텍처 들에서 가치있는 성능 향상을 줍니다.
+<p>These flags can also be used to build a faster-running version of R.  On
+most platforms using <code>gcc</code>, having &lsquo;<samp>-O3</samp>&rsquo; in <code>CFLAGS</code> and
+<code>FFLAGS</code> produces worthwhile performance gains with <code>gcc</code> and
+<code>gfortran</code>, but may result in a less reliable build (both segfaults
+and incorrect numeric computations have been seen).  On systems using the
+<acronym>GNU</acronym> linker (especially those using R as a shared library), it
+is likely that including &lsquo;<samp>-Wl,-O1</samp>&rsquo; in <code>LDFLAGS</code> is worthwhile, and
+&lsquo;<samp>'-Bdirect,--hash-style=both,-Wl,-O1'</samp>&rsquo; is recommended at
+<a href="https://lwn.net/Articles/192624/">https://lwn.net/Articles/192624/</a>.  Tuning compilation to a
+specific <acronym>CPU</acronym> family (e.g. &lsquo;<samp>-mtune=native</samp>&rsquo; for
+<code>gcc</code>) can give worthwhile performance gains, especially on older
+architectures such as &lsquo;<samp>ix86</samp>&rsquo;.
 </p>
 <hr>
 <a name="Making-manuals"></a>
@@ -3878,13 +3903,13 @@ satisfactory.
 directory.  To re-create the sources from
 <samp>src/library/compiler/noweb/compiler.nw</samp>, the command
 <code>notangle</code> is required.  This is likely to need to be installed from
-the sources at <a href="http://www.cs.tufts.edu/~nr/noweb/">http://www.cs.tufts.edu/~nr/noweb/</a> (and can also be
+the sources at <a href="https://www.cs.tufts.edu/~nr/noweb/">https://www.cs.tufts.edu/~nr/noweb/</a> (and can also be
 found on CTAN).  The package sources are only re-created even in maintainer
 mode if <samp>src/library/compiler/noweb/compiler.nw</samp> has been updated.
 </p>
 <p>It is likely that in future creating <code>configure</code> will need the GNU
 &lsquo;autoconf archive&rsquo; installed.  This can be found at
-<a href="http://www.gnu.org/software/autoconf-archive/">http://www.gnu.org/software/autoconf-archive/</a> and as a package
+<a href="https://www.gnu.org/software/autoconf-archive/">https://www.gnu.org/software/autoconf-archive/</a> and as a package
 (usually called <strong>autoconf-archive</strong>) in most packaged distributions, for
 example Debian, Fedora, OpenCSW, Homebrew and MacPorts.
 </p>
@@ -4029,9 +4054,9 @@ CPU들(특히 &rsquo;ix86&rsquo;) 상에서 현저한 성능 향상을 초래할
 <pre class="example">LDFLAGS=&quot;-L/usr/local/lib64 -L/usr/local/lib&quot;
 </pre></div>
 
-<p>대부분의 (모두는 아님) 소프트웨어들이 그의 64-비트 라이브러리들을 <samp>/usr/loal/lib64</samp>에 설치하기 때문에 위의
-것이 적당할 것입니다. Fedora 16과 함께 &lsquo;<samp>x86_64</samp>&rsquo;에 R의 32-비트 버전을 빌트하기위해서는 다음을
-사용합니다.
+<p>is appropriate since most (but not all) software installs its 64-bit
+libraries in <samp>/usr/local/lib64</samp>.  To build a 32-bit version of R on
+&lsquo;<samp>x86_64</samp>&rsquo; with Fedora 21 we used
 </p>
 <div class="example">
 <pre class="example">CC=&quot;gcc -m32&quot;
@@ -4134,8 +4159,7 @@ SHLIB_CXXLD=icpc
 <h4 class="subsection">C.2.3 Oracle Solaris Studio compilers</h4>
 
 <p>Brian Ripley tested the Sun Studio 12 compilers, since renamed to Oracle
-Solaris Studio, (<a href="http://developers.sun.com/sunstudio/index.jsp">http://developers.sun.com/sunstudio/index.jsp</a>)
-On &lsquo;<samp>x86_64</samp>&rsquo; Linux with
+Solaris Studio.  On &lsquo;<samp>x86_64</samp>&rsquo; Linux with
 </p>
 <div class="example">
 <pre class="example">CC=suncc
@@ -4185,7 +4209,7 @@ but not headers for these).
 </p>
 <p>You may also need to install an X sub-system (or you will need to configure
 using option <samp>--without-x</samp>): see
-<a href="http://xquartz.macosforge.org/">http://xquartz.macosforge.org/</a>.  (Note that XQuartz will likely need
+<a href="https://xquartz.macosforge.org/">https://xquartz.macosforge.org/</a>.  (Note that XQuartz will likely need
 to be re-installed after an OS upgrade.)
 </p>
 <p>To use the <code>quartz()</code> graphics device you need to configure with
@@ -4217,10 +4241,10 @@ F77FLAGS=-Wall -g -O2
 FCFLAGS=$F77FLAGS
 </pre></div>
 
-<p>with <code>clang</code> and <code>clang++</code> from Xcode 5, and the Fortran
+<p>with <code>clang</code> and <code>clang++</code> from Xcode, and the Fortran
 compiler from
-<a href="http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2">http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2</a>.<a name="DOCF40" href="#FOOT40"><sup>40</sup></a> Apple&rsquo;s
-builds of <code>clang</code> currently have little or no OpenMP support.
+<a href="http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2">http://r.research.att.com/libs/gfortran-4.8.2-darwin13.tar.bz2</a>.<a name="DOCF40" href="#FOOT40"><sup>40</sup></a> Apple&rsquo;s builds of <code>clang</code> currently have
+little or no OpenMP support.
 </p>
 <p>Pre-compiled versions of many of the <a href="#Useful-libraries-and-programs">Useful libraries and programs</a> are
 available from <a href="http://r.research.att.com/libs/">http://r.research.att.com/libs/</a>.  You will most likely
@@ -4255,9 +4279,9 @@ a 64-bit <code>time_t</code> is available but the system implementation of time
 zones does not work correctly for times before 1902 or after 2037.
 </p>
 <p>The TeX implementation used by the developers is MacTeX
-(<a href="http://www.tug.org/mactex/">http://www.tug.org/mactex/</a>): the full installation is about 4GB, but
-a smaller version is available at
-<a href="http://www.tug.org/mactex/morepackages.html">http://www.tug.org/mactex/morepackages.html</a>: you will need to add
+(<a href="https://www.tug.org/mactex/">https://www.tug.org/mactex/</a>): the full installation is about 4GB,
+but a smaller version is available at
+<a href="https://www.tug.org/mactex/morepackages.html">https://www.tug.org/mactex/morepackages.html</a>: you will need to add
 some packages, e.g. for the 2015 version we needed to add <strong>cm-super</strong>,
 <strong>helvetic</strong>, <strong>inconsolata</strong> and <strong>texinfo</strong> which brought this to
 about 410MB (or package <strong>texinfo</strong> and the collections
@@ -4357,7 +4381,7 @@ a much more intuitive interface to Tk for experienced Mac users.  Most
 versions of OS X come with Aqua Tcl/Tk libraries, but these are not current
 (nor recent) versions of Tcl/Tk (8.5.9 in Mavericks).  It is better to
 install Tcl/Tk 8.6.x from the sources or a binary distribution from
-<a href="http://www.activestate.com/activetcl/downloads">http://www.activestate.com/activetcl/downloads</a>.  Configure R with
+<a href="https://www.activestate.com/activetcl/downloads">https://www.activestate.com/activetcl/downloads</a>.  Configure R with
 </p><div class="example">
 <pre class="example">--with-tcl-config=/Library/Frameworks/Tcl.framework/tclConfig.sh 
 --with-tk-config=/Library/Frameworks/Tk.framework/tkConfig.sh
@@ -4377,8 +4401,7 @@ tclvalue(.Tcl(&quot;tk windowingsystem&quot;))  # &quot;x11&quot; or &quot;aqua&
 <a name="Java"></a>
 <h4 class="subsection">C.3.3 Java</h4>
 
-<p>The situation with Java support on OS X is messy, with Apple essentially no
-longer supporting Java.
+<p>The situation with Java support on OS X is messy.
 </p>
 <p>OS X no longer comes with an installed JRE, and an OS X upgrade removes one
 if already installed: it is intended to be installed at first use.  Check if
@@ -4388,8 +4411,7 @@ to install it.
 </p>
 <p>You may want/need to install the latest Java from Oracle (currently Java 8
 from
-<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a>);
-this is for Lion and later.
+<a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a>).
 </p>
 <p>You may need to install what Apple calls &lsquo;legacy Java&rsquo;<a name="DOCF42" href="#FOOT42"><sup>42</sup></a> to suppress pop-up messages, at
 least under Yosemite, even if you have a current version installed.
@@ -4412,19 +4434,20 @@ JAVA_CPPFLAGS=&quot;-I/System/Library/Frameworks/JavaVM.framework/Headers&quot;
 JAVA_LD_LIBRARY_PATH=
 JAVA_LIBS=&quot;-framework JavaVM&quot;
 </pre></div>
-<p>The Apple developer versions of the JDK install somewhere like
-</p><div class="example">
-<pre class="example">JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_43-b01-447.jdk/Contents/Home
-</pre></div>
 <p>The Oracle JDK can be specified explicitly by something like
 </p><div class="example">
-<pre class="example">JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
+<pre class="example">JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home
 JAVA_CPPFLAGS=&quot;-I/${JAVA_HOME}/include -I/${JAVA_HOME}/include/darwin&quot;
 JAVA_LD_LIBRARY_PATH=&quot;${JAVA_HOME}/jre/lib/server&quot;
 JAVA_LIBS=&quot;-L/${JAVA_HOME}/jre/lib/server -ljvm&quot; 
 </pre></div>
 <p>in <samp>config.site</samp>.
-</p>
+The Apple developer versions of the JDK installed somewhere like
+</p><div class="example">
+<pre class="example">JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_43-b01-447.jdk/Contents/Home
+</pre></div>
+
+
 <p>Note that it is necessary to set the environment variable <code>NOAWT</code> to
 <code>1</code> to install many of the Java-using packages.
 </p>
@@ -4515,7 +4538,7 @@ preferred <acronym>GNU</acronym> <code>tar</code> is (if installed) in
 <samp>/usr/xpg4/bin</samp> and <samp>/usr/xpg6/bin</samp>.
 </p>
 <p>A large selection of Open Source software can be installed from
-<a href="http://www.opencsw.org">http://www.opencsw.org</a>, by default installed under <samp>/opt/csw</samp>.
+<a href="https://www.opencsw.org">https://www.opencsw.org</a>, by default installed under <samp>/opt/csw</samp>.
 Solaris 10 ships with <code>bzlib</code> version 1.0.6 (sufficient for the default
 <samp>--with-system-bzlib</samp>) but <code>zlib</code> version 1.2.3 (too old for
 <samp>--with-system-zlib</samp>): OpenCSW has 1.2.8.
@@ -4656,7 +4679,7 @@ both compiling and linking is best specified as part of the compiler.  The
 examples above use &lsquo;<samp>stlport4</samp>&rsquo;, currently the most modern of the
 options: the default (but still needed to be specified as it is needed for
 linking) is &lsquo;<samp>Cstd</samp>&rsquo;: see
-<a href="http://developers.sun.com/solaris/articles/cmp_stlport_libCstd.html">http://developers.sun.com/solaris/articles/cmp_stlport_libCstd.html</a>.
+<a href="http://www.oracle.com/technetwork/server-storage/solaris/cmp-stlport-libcstd-142559.html">http://www.oracle.com/technetwork/server-storage/solaris/cmp-stlport-libcstd-142559.html</a>.
 Note though that most external Solaris C++ libraries will have been built
 with &lsquo;<samp>Cstd</samp>&rsquo; and so an R package using such libraries also needs to
 be.  Occasionally the option <samp>-library=stlport4,Crun</samp> has been
@@ -4675,7 +4698,7 @@ interpretation given by adding
 
 <p>The performance library <code>sunperf</code> is available for use with the Solaris
 Studio compilers.  If selected as a <acronym>BLAS</acronym>, it must also be selected
-as LAPACK <em>via</em> (for Solaris Studio 12.2)
+as LAPACK <em>via</em> (for Solaris Studio 12.2 and later)
 </p>
 <div class="example">
 <pre class="example">./configure --with-blas='-library=sunperf' --with-lapack
@@ -4800,7 +4823,7 @@ as <code>xlf_r</code>.
 &lsquo;<samp>&quot;&quot;</samp>&rsquo; and so cannot be used.  (As far as we know <acronym>GNU</acronym>
 <code>libiconv</code> could be installed.)
 </p>
-<p>Fan Long reports success on AIX 5.3 using
+<p>Fan Long reported success on AIX 5.3 using
 </p>
 <div class="example">
 <pre class="example">OBJECT_MODE=64
@@ -4845,7 +4868,7 @@ corresponding package from the ICU project
 binaries for various platforms which in case of AIX can be installed via
 unpacking the tarball to the root file system.  For full LaTeX support
 one can install the TeX Live DVD distribution
-(<a href="http://www.tug.org/texlive/">http://www.tug.org/texlive/</a>): it is recommended to update the
+(<a href="https://www.tug.org/texlive/">https://www.tug.org/texlive/</a>): it is recommended to update the
 distribution using the <code>tlmgr</code> update manager.  For 64-bit R builds
 supporting Tcl/Tk this needs to installed from the sources as available
 pre-compiled binaries supply only 32-bit shared objects.
@@ -4898,7 +4921,7 @@ environment, and to use <acronym>GNU</acronym> Make (e.g., via
 </p>
 <p>Further installation instructions to set up a proper R development
 environment can be found in the &ldquo;R on AIX&rdquo; project on R-Forge
-(<a href="http://R-Forge.R-project.org/projects/aix/">http://R-Forge.R-project.org/projects/aix/</a>).
+(<a href="https://R-Forge.R-project.org/projects/aix/">https://R-Forge.R-project.org/projects/aix/</a>).
 </p>
 <hr>
 <a name="FreeBSD"></a>
@@ -4906,7 +4929,8 @@ environment can be found in the &ldquo;R on AIX&rdquo; project on R-Forge
 <h3 class="section">C.6 FreeBSD</h3>
 <a name="index-FreeBSD"></a>
 
-<p>There have been no reports for R 3.0.0 or later.
+<p>There have been no reports for R 3.0.0 or later, except for an
+configuration failure of R 3.2.0 on FreeBSD 10 (addressed in R 3.2.2).
 </p>
 <hr>
 <a name="Cygwin"></a>
@@ -5029,7 +5053,7 @@ fair amount of practice at porting R to new platforms <small class="enddots">...
 
 <p>If you want to build R or add-on packages from source in Windows, you
 will need to collect, install and test an extensive set of tools.  See
-<a href="http://CRAN.R-project.org/bin/windows/Rtools/">http://CRAN.R-project.org/bin/windows/Rtools/</a> for the current
+<a href="https://CRAN.R-project.org/bin/windows/Rtools/">https://CRAN.R-project.org/bin/windows/Rtools/</a> for the current
 locations and other updates to these instructions.  (Most Windows users will
 not need to build add-on packages from source; see <a href="#Add_002don-packages">Add-on packages</a> for
 details.)
@@ -5047,7 +5071,7 @@ mailing lists unless you have followed all the prescriptions.</em>
 </p>
 <p>We have collected most of the necessary tools (unfortunately not all, due to
 license or size limitations) into an executable installer named<a name="DOCF46" href="#FOOT46"><sup>46</sup></a> <samp>Rtools31.exe</samp>, available from
-<a href="http://CRAN.R-project.org/bin/windows/Rtools/">http://CRAN.R-project.org/bin/windows/Rtools/</a>. You should
+<a href="https://CRAN.R-project.org/bin/windows/Rtools/">https://CRAN.R-project.org/bin/windows/Rtools/</a>. You should
 download and run it, choosing the default &ldquo;Package authoring installation&rdquo;
 to build add-on packages, or the &ldquo;full installation&rdquo; if you intend to
 build R.
@@ -5122,7 +5146,7 @@ package is installed&mdash;you can check with the &lsquo;<samp>MiKTeX</samp>&rsq
 LaTeX.
 </p>
 <p>It is also possible to use the TeXLive distribution from
-<a href="http://www.tug.org/texlive/">http://www.tug.org/texlive/</a>.
+<a href="https://www.tug.org/texlive/">https://www.tug.org/texlive/</a>.
 </p>
 <a name="index-R_005fRD4PDF-2"></a>
 <p>Please read <a href="#Making-the-manuals">Making the manuals</a> about how to make <samp>fullrefman.pdf</samp>
@@ -5158,10 +5182,10 @@ at least <code>basename</code>, <code>cat</code>, <code>cmp</code>, <code>comm</
 <code>gzip</code>, <code>ls</code>, <code>make</code>, <code>makeinfo</code>, <code>mkdir</code>,
 <code>mv</code>, <code>rm</code>, <code>rsync</code>, <code>sed</code>, <code>sh</code>, <code>sort</code>,
 <code>tar</code>, <code>texindex</code>, <code>touch</code> and <code>uniq</code>; we use those from
-the Cygwin distribution (<a href="http://www.cygwin.com/">http://www.cygwin.com/</a>) or compiled from the
-sources.  You will also need <code>zip</code> and <code>unzip</code> from the Info-ZIP
-project (<a href="http://www.info-zip.org/">http://www.info-zip.org/</a>).  All of these tools are in
-<samp>Rtools*.exe</samp>.
+the Cygwin distribution (<a href="https://www.cygwin.com/">https://www.cygwin.com/</a>) or compiled from
+the sources.  You will also need <code>zip</code> and <code>unzip</code> from the
+Info-ZIP project (<a href="http://www.info-zip.org/">http://www.info-zip.org/</a>).  All of these tools are
+in <samp>Rtools*.exe</samp>.
 </p>
 
 <p><strong>Beware</strong>: &lsquo;Native&rsquo; ports of make are <strong>not</strong> suitable (including
@@ -5202,7 +5226,7 @@ build 64-bit R as the build process runs R.
 <p>Some external software libraries will need to be re-compiled under the new
 toolchain: especially those providing a C++ interface.  Many of those used
 by <acronym>CRAN</acronym> packages are available from
-<a href="http://www.stats.ox.ac.uk/pub/Rtools/multilib/">http://www.stats.ox.ac.uk/pub/Rtools/multilib/</a>.  Users
+<a href="https://www.stats.ox.ac.uk/pub/Rtools/multilib/">https://www.stats.ox.ac.uk/pub/Rtools/multilib/</a>.  Users
 developing packages with <a href="http://CRAN.R-project.org/package=Rcpp"><strong>Rcpp</strong></a> need to ensure that they use a
 version built with exactly the same toolchain as their package: the
 recommendation is to build <a href="http://CRAN.R-project.org/package=Rcpp"><strong>Rcpp</strong></a> from its sources yourself.
@@ -5223,7 +5247,7 @@ some of the package vignettes, if it is available.  Windows binaries of
 the <code>qpdf</code> installation in file <samp>MkRules.local</samp>.
 </p>
 <p>Developers of packages will find some of the &lsquo;goodies&rsquo; at
-<a href="http://www.stats.ox.ac.uk/pub/Rtools/goodies">http://www.stats.ox.ac.uk/pub/Rtools/goodies</a> useful.  
+<a href="https://www.stats.ox.ac.uk/pub/Rtools/goodies">https://www.stats.ox.ac.uk/pub/Rtools/goodies</a> useful.  
 </p>
 <p>There is a version of the <code>file</code> command that identifies the type of
 files, and is used by <code>Rcmd check</code> if available.  The binary
@@ -5605,7 +5629,7 @@ used to (de)compress files with that form of compression.
 <h3><a name="FOOT4" href="#DOCF4">(4)</a></h3>
 <p>Instructions on how
 to install the latest version are at
-<a href="http://www.ctan.org/tex-archive/fonts/inconsolata/">http://www.ctan.org/tex-archive/fonts/inconsolata/</a>.</p>
+<a href="https://www.ctan.org/tex-archive/fonts/inconsolata/">https://www.ctan.org/tex-archive/fonts/inconsolata/</a>.</p>
 <h3><a name="FOOT5" href="#DOCF5">(5)</a></h3>
 <p>on a Unix-alike,
 &lsquo;<samp>inconsolata</samp>&rsquo; is omitted if not found by <code>configure</code>.</p>
@@ -5623,7 +5647,7 @@ to prepare such a directory is described in file
 <h3><a name="FOOT10" href="#DOCF10">(10)</a></h3>
 <p>Suitable distributions include Strawberry
 Perl, <a href="http://strawberryperl.com/">http://strawberryperl.com/</a> and ActivePerl,
-<a href="http://www.activestate.com/activeperl">http://www.activestate.com/activeperl</a>.</p>
+<a href="https://www.activestate.com/activeperl">https://www.activestate.com/activeperl</a>.</p>
 <h3><a name="FOOT11" href="#DOCF11">(11)</a></h3>
 <p>만약 그렇지 않다면 그들은 빌드시에 제외될
 것입니다</p>
@@ -5661,7 +5685,7 @@ but is mandatory in C99.</p>
 <h3><a name="FOOT22" href="#DOCF22">(22)</a></h3>
 <p><samp>-std=c99</samp> excludes POSIX
 functionality, but <samp>config.h</samp> will turn on all <acronym>GNU</acronym> extensions
-to include the POSIX functionality. The default mode for GCC 5 is
+to include the POSIX functionality.  The default mode for GCC 5 is
 <samp>-std=gnu11</samp>.</p>
 <h3><a name="FOOT23" href="#DOCF23">(23)</a></h3>
 <p>However, it is possible to break the default behaviour
@@ -5686,8 +5710,8 @@ performance.</p>
 <h3><a name="FOOT27" href="#DOCF27">(27)</a></h3>
 <p>Such as
 <acronym>GNU</acronym> <code>tar</code> 1.15 or later, <code>bsdtar</code> (from
-<a href="http://code.google.com/p/libarchive/">http://code.google.com/p/libarchive/</a>, as used by FreeBSD and OS X
-10.6 and later) or <code>tar</code> from the Heirloom Toolchest
+<a href="https://github.com/libarchive/libarchive/">https://github.com/libarchive/libarchive/</a>, as used by FreeBSD and OS
+X 10.6 and later) or <code>tar</code> from the Heirloom Toolchest
 (<a href="http://heirloom.sourceforge.net/tools.html">http://heirloom.sourceforge.net/tools.html</a>).</p>
 <h3><a name="FOOT28" href="#DOCF28">(28)</a></h3>
 <p><code>texi2dvi</code> is normally a shell script.
@@ -5699,7 +5723,9 @@ Some versions (including that from <strong>texinfo</strong> 5.2) need to be run 
 <samp>config.site</samp>, on the <code>configure</code> command line or in the
 environment.</p>
 <h3><a name="FOOT30" href="#DOCF30">(30)</a></h3>
-<p>also known as <code>ttf-mscorefonts-installer.</code></p>
+<p>also
+known as <code>ttf-mscorefonts-installer</code> in the Debian/Ubuntu world: see
+also <a href="https://en.wikipedia.org/wiki/Core_fonts_for_the_Web">https://en.wikipedia.org/wiki/Core_fonts_for_the_Web</a>.</p>
 <h3><a name="FOOT31" href="#DOCF31">(31)</a></h3>
 <p><code>ttf-liberation</code>
 in Debian/Ubuntu.</p>
@@ -5732,7 +5758,8 @@ recommended to use that.</p>
 <h3><a name="FOOT40" href="#DOCF40">(40)</a></h3>
 <p>This
 is a tarball which needs to be unpacked in the Terminal by e.g.
-<code>sudo tar -zxf gfortran-4.8.2-darwin13.tar.bz2 -C /</code>.</p>
+<code>sudo tar -zxf gfortran-4.8.2-darwin13.tar.bz2 -C /</code>. It does not
+run on Core 2 Duo Macs.</p>
 <h3><a name="FOOT41" href="#DOCF41">(41)</a></h3>
 <p>It is reported that for some non-Apple toolchains
 <code>CPPFLAGS</code> needed to contain <code>-D__ACCELERATE__</code>.</p>

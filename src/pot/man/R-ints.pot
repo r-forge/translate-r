@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R VERSION\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-07-29 08:22-0600\n"
+"POT-Creation-Date: 2015-08-03 07:39-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2340,8 +2340,8 @@ msgstr ""
 #: R-ints.texi:1120
 msgid ""
 "For background papers see "
-"@uref{http://www.stat.uiowa.edu/~luke/R/barrier.html} and "
-"@uref{http://www.stat.uiowa.edu/~luke/R/gengcnotes.html}."
+"@uref{http://homepage.stat.uiowa.edu/~luke/R/barrier.html} and "
+"@uref{http://homepage.stat.uiowa.edu/~luke/R/gengcnotes.html}."
 msgstr ""
 
 #. type: cindex
@@ -2885,7 +2885,7 @@ msgstr ""
 #: R-ints.texi:1484
 msgid ""
 "This subsection does not discuss how S4 methods are chosen: see "
-"@uref{http://@/developer.@/r-project.org/howMethodsWork.pdf}."
+"@uref{https://@/developer.@/r-project.org/howMethodsWork.pdf}."
 msgstr ""
 
 #. type: Plain text
@@ -4456,7 +4456,7 @@ msgstr ""
 #: R-ints.texi:2447
 msgid ""
 "This is handled separately: see "
-"@uref{http://developer.r-project.org/Translations30.html}."
+"@uref{https://developer.r-project.org/Translations30.html}."
 msgstr ""
 
 #. type: Plain text
@@ -4801,8 +4801,8 @@ msgstr ""
 #: R-ints.texi:2705
 msgid ""
 "Some notes on the historical changes can be found at "
-"@uref{http://www.stat.auckland.ac.nz/@/~paul/@/R/basegraph.html} and "
-"@uref{http://www.stat.auckland.ac.nz/@/~paul/R/@/graphicsChanges.html}."
+"@uref{https://www.stat.auckland.ac.nz/@/~paul/@/R/basegraph.html} and "
+"@uref{https://www.stat.auckland.ac.nz/@/~paul/R/@/graphicsChanges.html}."
 msgstr ""
 
 #. type: Plain text
@@ -8054,7 +8054,7 @@ msgstr ""
 
 #. type: Plain text
 #: R-ints.texi:4458
-msgid "See also @uref{http://www.cs.uiowa.edu/~luke/talks/useR10.pdf}."
+msgid "See also @uref{http://homepage.cs.uiowa.edu/~luke/talks/useR10.pdf}."
 msgstr ""
 
 #. type: Plain text
