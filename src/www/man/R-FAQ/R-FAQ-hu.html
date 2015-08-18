@@ -131,7 +131,7 @@ p {
 
 
  <h2>Frequently Asked Questions on R</h2> <h3 style="text-align:
-center;">Version 3.2.2015-07-11</h3> <h3 style="text-align:
+center;">Version 3.2.2015-08-09</h3> <h3 style="text-align:
 center;">Kurt Hornik</h3> <hr>
 <a name="SEC_Contents"></a>
 <h2 class="contents-heading">Table of Contents</h2>
@@ -450,7 +450,7 @@ mips-sgi-irix, i386-freebsd, rs6000-ibm-aix, and sparc-sun-solaris.
 <a name="What-is-the-current-version-of-R_003f-1"></a>
 <h3 class="section">2.3 What is the current version of R?</h3>
  
-<p>The current released version is 3.2.1.  Based on this
+<p>The current released version is 3.2.2.  Based on this
 &lsquo;major.minor.patchlevel&rsquo; numbering scheme, there are two development
 versions of R, a patched version of the current release (&lsquo;r-patched&rsquo;)  and
 one working towards the next minor or eventually major (&lsquo;r-devel&rsquo;)  releases
@@ -469,7 +469,7 @@ features are typically introduced in r-devel.
 Subversion repository, but currently not via anonymous rsync (nor CVS).
 </p>
 <p>Tarballs with daily snapshots of the r-devel and r-patched development
-versions of R can be found at <a href="ftp://ftp.stat.math.ethz.ch/Software/R/">ftp://ftp.stat.math.ethz.ch/Software/R/</a>.
+versions of R can be found at <a href="https://stat.ethz.ch/R/daily">https://stat.ethz.ch/R/daily</a>.
 </p>
 
 
@@ -3225,28 +3225,35 @@ released.
 <a name="How-can-I-enable-secure-https-downloads-in-R_003f-1"></a>
 <h3 class="section">7.43 How can I enable secure https downloads in R?</h3>
 
+
 <p>When R transfers files over <acronym>HTTP</acronym> (e.g., using the
 <code>install.packages()</code> or <code>download.file()</code> function), a download
 method is chosen based on the <samp>download.file.method</samp> option.  There
 are several methods available and the default behavior if no option is
 explicitly specified is to use R&rsquo;s internal <acronym>HTTP</acronym> implementation.
-In many circumstances this internal method will not support <acronym>HTTPS</acronym>
-connections so you&rsquo;ll need to override the default.
+In most circumstances this internal method will not support <acronym>HTTPS</acronym>
+URLs so you will need to override the default: this is done automatically
+for such URLs as from R 3.2.2.
 </p>
 <p>R versions 3.2.0 and greater include two download methods (<code>&quot;libcurl&quot;</code>
-and <code>&quot;wininet&quot;</code>) that both support <acronym>HTTPS</acronym> connections.  We
+and <code>&quot;wininet&quot;</code>) that both support <acronym>HTTPS</acronym> connections: we
 recommend that you use these methods.  The requisite code to add to
-<samp>.Rprofile</samp> or <samp>Rprofile.site</samp> is as follows: 
+<samp>.Rprofile</samp> or <samp>Rprofile.site</samp> is:
 </p>
 <div class="example">
-<pre class="example">options(download.file.method = &quot;wininet&quot;)     <span class="roman">(Windows)</span>
-options(download.file.method = &quot;libcurl&quot;)     <span class="roman">(Linux and OS X)</span>
+<pre class="example">options(download.file.method = &quot;wininet&quot;, url.method = &quot;wininet&quot;)     <span class="roman">(Windows)</span>
+options(download.file.method = &quot;libcurl&quot;, url.method = &quot;libcurl&quot;)     <span class="roman">(Linux and OS X)</span>
 </pre></div>
 
-<p>Note that if you built R from source the <code>&quot;libcurl&quot;</code> method may or may
-not have been compiled in.  In the case that it wasn&rsquo;t,
-i.e.. <code>capabilities(&quot;libcurl&quot;) == FALSE</code>, we recommend method
-<code>&quot;wget&quot;</code> on Linux and <code>&quot;curl&quot;</code> on OS X.
+<p>(Method <code>&quot;wininet&quot;</code> is the default on Windows as from R 3.2.2.)
+</p>
+<p>Note that the <code>&quot;libcurl&quot;</code> method may or may not have been compiled in.
+In the case that it was not, i.e.. <code>capabilities(&quot;libcurl&quot;) == FALSE</code>,
+we recommend method <code>&quot;wget&quot;</code> on Linux and <code>&quot;curl&quot;</code> on OS X.  It is
+possible that system versions of <code>&quot;libcurl&quot;</code>, <code>wget</code> or
+<code>curl</code> may have been compiled without <acronym>HTTPS</acronym> support, but
+this is unlikely.  As from R 3.3.0 <code>&quot;libcurl&quot;</code> with <acronym>HTTPS</acronym>
+support is required except on Windows.
 </p>
 
 <hr>

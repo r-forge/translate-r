@@ -688,7 +688,7 @@ Suggests: MASS
 Description: A (one paragraph) description of what
   the package does and why it may be useful.
 License: GPL (&gt;= 2)
-URL: http://www.r-project.org, http://www.another.url
+URL: https://www.r-project.org, http://www.another.url
 BugReports: https://pkgname.bugtracker.url
 </pre></div>
 </td></tr></table>
@@ -754,7 +754,8 @@ quotes should be used for quotations (including titles of books and
 articles), and single quotes for non-English usage, including names of other
 packages and external software.  This field should also be used for
 explaining the package name if necessary.  URLs should be enclosed in angle
-brackets, e.g. &lsquo;<samp>&lt;http://www.r-project.org&gt;</samp>&rsquo;: see also <a href="#Specifying-URLs">Specifying URLs</a>.
+brackets, e.g. &lsquo;<samp>&lt;https://www.r-project.org&gt;</samp>&rsquo;: see also
+<a href="#Specifying-URLs">Specifying URLs</a>.
 </p>
 <p>The mandatory &lsquo;<samp>Author</samp>&rsquo; field describes who wrote <em>the package</em>.
 It is a plain text field intended for human readers, but not for automatic
@@ -1623,18 +1624,10 @@ should be declared in the &lsquo;<samp>SystemRequirements</samp>&rsquo; field of
 </p>
 <p>Windows and Mac users should be aware that the Tcl extensions &lsquo;<samp>BWidget</samp>&rsquo;
 and &lsquo;<samp>Tktable</samp>&rsquo; which are currently included with the R for Windows
-and in the OS X installers <em>are</em> extensions and do need to be
-declared.  &lsquo;<samp>Tktable</samp>&rsquo; did ship as part of the X11-based Tcl/Tk provided
-on <acronym>CRAN</acronym> for OS X prior to R 3.0.0, but you will need to tell
-your users how to make use of it:
-</p>
-<div class="example">
-<pre class="example">&gt; addTclPath('/usr/local/lib/Tktable2.9')
-&gt; tclRequire('Tktable')
-&lt;Tcl&gt; 2.9
-</pre></div>
-
-<p>It should work with no further user action as from R 3.0.0.
+and in the OS X installers <em>are</em> extensions and do need to be declared
+for users of other platforms (and that &lsquo;<samp>Tktable</samp>&rsquo; is less widely
+available than it used to be, including not in the main repositories for
+major Linux distributions).
 </p>
 <p>&lsquo;<samp>BWidget</samp>&rsquo; needs to be installed by the user on other OSes.  This is
 fairly easy to do: first find the Tcl/Tk search path:
@@ -1665,8 +1658,8 @@ if needed.
 clickable hyperlinks in at least some of their renderings.  So care is
 needed that their forms are correct and portable.
 </p>
-<p>The full URL should be given, including the scheme (often &lsquo;<samp>http://</samp>&rsquo;)
-and a final &lsquo;<samp>/</samp>&rsquo; for references to directories.
+<p>The full URL should be given, including the scheme (often &lsquo;<samp>http://</samp>&rsquo; or
+&lsquo;<samp>https://</samp>&rsquo;) and a final &lsquo;<samp>/</samp>&rsquo; for references to directories.
 </p>
 <p>Spaces in URLs are not portable and how they are handled does vary by HTTP
 server and by client.  There should be no space in the host part of an
@@ -2159,7 +2152,7 @@ OpenMP<a name="DOCF26" href="#FOOT26"><sup>26</sup></a>.  The
 <div class="example">
 <pre class="example">SHLIB_OPENMP_CFLAGS
 SHLIB_OPENMP_CXXFLAGS
-Shlib_OPENMP_FCFLAGS
+SHLIB_OPENMP_FCFLAGS
 SHLIB_OPENMP_FFLAGS
 </pre></div>
 
@@ -2168,8 +2161,8 @@ Include the appropriate macro in <code>PKG_CFLAGS</code>, <code>PKG_CPPFLAGS</co
 so on, and also in <code>PKG_LIBS</code>.  C/C++ code that needs to be conditioned
 on the use of OpenMP can be used inside <code>#ifdef SUPPORT_OPENMP</code>, a
 macro defined in the header <samp>Rconfig.h</samp> (see <a href="#Platform-and-version-information">Platform and version information</a>) or <code>_OPENMP</code>: note that some toolchains used for R
-(including most of those using <code>clang</code>) have no OpenMP support at
-all, not even <samp>omp.h</samp>.
+(including most of those using <code>clang</code><a name="DOCF27" href="#FOOT27"><sup>27</sup></a>) have no OpenMP support at all, not even
+<samp>omp.h</samp>.
 </p>
 <p>For example, a package with C code written for OpenMP should have in
 <samp>src/Makevars</samp> the lines
@@ -2186,9 +2179,8 @@ should do their own <code>configure</code> checks.
 <p>There is nothing to say what version of OpenMP is supported: version 3.0
 (May 2008) is supported by recent versions of the Linux, Windows and Solaris
 platforms, but portable packages cannot assume that end users have recent
-versions.  OS X nowadays uses <code>clang</code>, and the Apple builds
-currently<a name="DOCF27" href="#FOOT27"><sup>27</sup></a> have no OpenMP
-support.
+versions.  OS X currently uses Apple builds of <code>clang</code> with no
+OpenMP support.
 </p>
 <p>The performance of OpenMP varies substantially between platforms.  Both the
 Windows and earlier Apple OS X implementations have substantial overheads
@@ -2848,11 +2840,10 @@ environment variables <code><span class="nolinebreak">_R_CHECK_*_</span></code>:
 &lsquo;R Internals&rsquo;:
 a set of these customizations similar to those used by <acronym>CRAN</acronym> can be
 selected by the option <samp>--as-cran</samp> (which works best if Internet
-access is available<a name="DOCF38" href="#FOOT38"><sup>38</sup></a>).  Some Windows users may need to set
-environment variable <code>R_WIN_NO_JUNCTIONS</code> to a non-empty value.  The
-test of cyclic declarations<a name="DOCF39" href="#FOOT39"><sup>39</sup></a>in <samp>DESCRIPTION</samp> files needs
-repositories (including <acronym>CRAN</acronym>) set: do this in <samp>~/.Rprofile</samp>,
-by e.g.
+access is available).  Some Windows users may need to set environment
+variable <code>R_WIN_NO_JUNCTIONS</code> to a non-empty value.  The test of cyclic
+declarations<a name="DOCF38" href="#FOOT38"><sup>38</sup></a>in <samp>DESCRIPTION</samp> files needs repositories (including
+<acronym>CRAN</acronym>) set: do this in <samp>~/.Rprofile</samp>, by e.g.
 </p><div class="example">
 <pre class="example">options(repos = c(CRAN=&quot;https://cran.r-project.org&quot;))
 </pre></div>
@@ -2901,7 +2892,7 @@ architecture-specific files such as
 check the primary sub-architecture, and then to use something like
 <code>R --arch=x86_64 CMD check --extra-arch</code> or (Windows)
 <code>/path/to/R/bin/x64/Rcmd check --extra-arch</code> to run for each
-additional sub-architecture just the checks<a name="DOCF40" href="#FOOT40"><sup>40</sup></a> which differ by sub-architecture.  (This
+additional sub-architecture just the checks<a name="DOCF39" href="#FOOT39"><sup>39</sup></a> which differ by sub-architecture.  (This
 approach is required for packages which are installed by <code>R CMD
 INSTALL --merge-multiarch</code>.)
 </p>
@@ -2944,12 +2935,12 @@ using <code>R CMD check</code> prior to invoking the final build procedure.
 exclude patterns in file <samp>.Rbuildignore</samp> in the top-level source
 directory.  These patterns should be Perl-like regular expressions (see the
 help for <code>regexp</code> in R for the precise details), one per line, to be
-matched case-insensitively<a name="DOCF41" href="#FOOT41"><sup>41</sup></a>
+matched case-insensitively<a name="DOCF40" href="#FOOT40"><sup>40</sup></a>
 against the file and directory names relative to the top-level package
 source directory.  In addition, directories from source control
-systems<a name="DOCF42" href="#FOOT42"><sup>42</sup></a> or from <code>eclipse</code><a name="DOCF43" href="#FOOT43"><sup>43</sup></a>,
+systems<a name="DOCF41" href="#FOOT41"><sup>41</sup></a> or from <code>eclipse</code><a name="DOCF42" href="#FOOT42"><sup>42</sup></a>,
 directories with names ending <samp>.Rcheck</samp> or <samp>Old</samp> or <samp>old</samp> and
-files <samp>GNUMakefile</samp><a name="DOCF44" href="#FOOT44"><sup>44</sup></a>, <samp>Read-and-delete-me</samp> or with base names starting
+files <samp>GNUMakefile</samp><a name="DOCF43" href="#FOOT43"><sup>43</sup></a>, <samp>Read-and-delete-me</samp> or with base names starting
 with &lsquo;<samp>.#</samp>&rsquo;, or starting and ending with &lsquo;<samp>#</samp>&rsquo;, or ending in &lsquo;<samp>~</samp>&rsquo;,
 &lsquo;<samp>.bak</samp>&rsquo; or &lsquo;<samp>.swp</samp>&rsquo;, are excluded by default.  In addition, those
 files in the <samp>R</samp>, <samp>demo</samp> and <samp>man</samp> directories which are
@@ -3120,7 +3111,7 @@ by <code>R CMD build</code> includes in <samp>inst/doc</samp> the components int
 to be installed.
 </p>
 <p>Sweave vignette sources are normally given the file extension <samp>.Rnw</samp> or
-<samp>.Rtex</samp>, but for historical reasons extensions<a name="DOCF45" href="#FOOT45"><sup>45</sup></a> <samp>.Snw</samp> and <samp>.Stex</samp> are also recognized.  Sweave
+<samp>.Rtex</samp>, but for historical reasons extensions<a name="DOCF44" href="#FOOT44"><sup>44</sup></a> <samp>.Snw</samp> and <samp>.Stex</samp> are also recognized.  Sweave
 allows the integration of LaTeX documents: see the <code>Sweave</code> help
 page in R and the <code>Sweave</code> vignette in package <strong>utils</strong> for
 details on the source document format.
@@ -3137,13 +3128,13 @@ as LaTeX style files, BibTeX input files and files for any figures not
 created by running the code in the vignette) must be in the vignette source
 directory.
 </p>
-<p><code>R CMD build</code> will automatically<a name="DOCF46" href="#FOOT46"><sup>46</sup></a> create the (PDF
+<p><code>R CMD build</code> will automatically<a name="DOCF45" href="#FOOT45"><sup>45</sup></a> create the (PDF
 or <acronym>HTML</acronym> versions of the) vignettes in <samp>inst/doc</samp> for distribution
 with the package sources.  By including the vignette outputs in the package
 sources it is not necessary that these can be re-built at install time,
 i.e., the package author can use private R packages, screen snapshots and
 LaTeX extensions which are only available on his
-machine.<a name="DOCF47" href="#FOOT47"><sup>47</sup></a>
+machine.<a name="DOCF46" href="#FOOT46"><sup>46</sup></a>
 </p>
 <p>By default <code>R CMD build</code> will run <code>Sweave</code> on all Sweave vignette
 source files in <samp>vignettes</samp>.  If <samp>Makefile</samp> is found in the
@@ -3156,7 +3147,7 @@ PDF/<acronym>HTML</acronym> files and cleaning up afterwards (including after
 <code>Sweave</code>), i.e., delete all files that shall not appear in the final
 package archive.  Note that if the <code>make</code> step runs R it needs to be
 careful to respect the environment values of <code>R_LIBS</code> and
-<code>R_HOME</code><a name="DOCF48" href="#FOOT48"><sup>48</sup></a>.  Finally, if there
+<code>R_HOME</code><a name="DOCF47" href="#FOOT47"><sup>47</sup></a>.  Finally, if there
 is a <samp>Makefile</samp> and it has a &lsquo;<samp>clean:</samp>&rsquo; target, <code>make clean</code>
 is run.
 </p>
@@ -3362,14 +3353,13 @@ allows the package writer to specify which variables in the package should
 be <em>exported</em> to make them available to package users, and which
 variables should be <em>imported</em> from other packages.
 </p>
-<p>The mechanism for specifying a namespace for a package is to place a
-<samp>NAMESPACE</samp> file in the top level package directory.  This file
-contains <em>namespace directives</em> describing the imports and exports of
-the namespace.  Additional directives register any shared objects to be
-loaded and any S3-style methods that are provided.  Note that although the
-file looks like R code (and often has R-style comments) it is not
-processed as R code.  Only very simple conditional processing of
-<code>if</code> statements is implemented.
+<p>The namespace for a package is specified by the <samp>NAMESPACE</samp> file in the
+top level package directory.  This file contains <em>namespace directives</em>
+describing the imports and exports of the namespace.  Additional directives
+register any shared objects to be loaded and any S3-style methods that are
+provided.  Note that although the file looks like R code (and often has
+R-style comments) it is not processed as R code.  Only very simple
+conditional processing of <code>if</code> statements is implemented.
 </p>
 <p>Packages are loaded and attached to the search path by calling
 <code>library</code> or <code>require</code>.  Only the exported variables are placed in
@@ -3378,7 +3368,7 @@ packages will cause these other packages to be loaded as well (unless they
 have already been loaded), but they will <em>not</em> be placed on the search
 path by these implicit loads.  Thus code in the package can only depend on
 objects in its own namespace and its imports (including the <strong>base</strong>
-namespace) being visible<a name="DOCF49" href="#FOOT49"><sup>49</sup></a>.
+namespace) being visible<a name="DOCF48" href="#FOOT48"><sup>48</sup></a>.
 </p>
 <p>Namespaces are <em>sealed</em> once they are loaded.  Sealing means that
 imports and exports cannot be changed and that internal variable bindings
@@ -3456,7 +3446,8 @@ directive
 
 <p>specifies that the exported variables <code>f</code> and <code>g</code> of the package
 <strong>foo</strong> are to be imported.  Using <code>importFrom</code> selectively rather
-than <code>import</code> is good practice.
+than <code>import</code> is good practice and recommended notably when importing
+from packages with more than a dozen exports.
 </p>
 <p>It is possible to export variables from a namespace which it has imported
 from other namespaces: this has to be done explicitly and not <em>via</em>
@@ -3527,7 +3518,7 @@ detached, and unloaded.  See <code>help(&quot;.onLoad&quot;)</code> for more det
 </p>
 <p>Since loading and attaching are distinct operations, separate hooks are
 provided for each.  These hook functions are called <code>.onLoad</code> and
-<code>.onAttach</code>.  They both take arguments<a name="DOCF50" href="#FOOT50"><sup>50</sup></a> <code>libname</code> and
+<code>.onAttach</code>.  They both take arguments<a name="DOCF49" href="#FOOT49"><sup>49</sup></a> <code>libname</code> and
 <code>pkgname</code>; they should be defined in the namespace but not exported.
 </p>
 <a name="index-_002eonUnload"></a>
@@ -3565,14 +3556,14 @@ loaded.
 <h4 class="subsection">1.5.4 useDynLib</h4>
 
 <p>A <samp>NAMESPACE</samp> file can contain one or more <code>useDynLib</code> directives
-which allows shared objects that need to be loaded.<a name="DOCF51" href="#FOOT51"><sup>51</sup></a> The directive
+which allows shared objects that need to be loaded.<a name="DOCF50" href="#FOOT50"><sup>50</sup></a> The directive
 </p>
 <a name="index-useDynLib"></a>
 <div class="example">
 <pre class="example">useDynLib(foo)
 </pre></div>
 
-<p>registers the shared object <code>foo</code><a name="DOCF52" href="#FOOT52"><sup>52</sup></a> for loading with <code>library.dynam</code>.  Loading
+<p>registers the shared object <code>foo</code><a name="DOCF51" href="#FOOT51"><sup>51</sup></a> for loading with <code>library.dynam</code>.  Loading
 of registered object(s) occurs after the package code has been loaded and
 before running the load hook function.  Packages that would only need a load
 hook function to load a shared object can use the <code>useDynLib</code> directive
@@ -3808,7 +3799,7 @@ but in <strong>foo</strong> the variable <code>c</code> refers to the standard f
 <p>Some additional steps are needed for packages which make use of formal
 (S4-style) classes and methods (unless these are purely used internally).
 The package should have <code>Depends: methods</code> in its <samp>DESCRIPTION</samp>
-file<a name="DOCF53" href="#FOOT53"><sup>53</sup></a> and
+file<a name="DOCF52" href="#FOOT52"><sup>52</sup></a> and
 <code>import(methods)</code> or <code>importFrom(methods, ...)</code> plus any classes
 and methods which are to be exported need to be declared in the
 <samp>NAMESPACE</samp> file.  For example, the <strong>stats4</strong> package has
@@ -3835,7 +3826,7 @@ export(AIC, BIC, nobs)
 <a name="index-exportClassPattern"></a>
 <p>All S4 classes to be used outside the package need to be listed in an
 <code>exportClasses</code> directive. Alternatively, they can be specified using
-<code>exportClassPattern</code><a name="DOCF54" href="#FOOT54"><sup>54</sup></a> in the same style as for <code>exportPattern</code>.  To export
+<code>exportClassPattern</code><a name="DOCF53" href="#FOOT53"><sup>53</sup></a> in the same style as for <code>exportPattern</code>.  To export
 methods for generics from other packages an <code>exportMethods</code> directive
 can be used.
 </p>
@@ -3861,7 +3852,7 @@ you do not need to document such implicitly created generic functions, and
 <code>undoc</code> in package <strong>tools</strong> will not report them.
 </p>
 <p>If a package uses S4 classes and methods exported from another package, but
-does not import the entire namespace of the other package<a name="DOCF55" href="#FOOT55"><sup>55</sup></a>, it needs to import the classes and
+does not import the entire namespace of the other package<a name="DOCF54" href="#FOOT54"><sup>54</sup></a>, it needs to import the classes and
 methods explicitly, with directives
 </p>
 <a name="index-importClassesFrom"></a>
@@ -3931,7 +3922,7 @@ allowed under Windows which are mentioned above.
 <code>x11()</code>) which although emulated on Windows may not be available on a
 Unix-alike (and is not the preferred screen device on OS X).  It is rarely
 necessary for package code or examples to open a new device, but if
-essential,<a name="DOCF56" href="#FOOT56"><sup>56</sup></a> use <code>dev.new()</code>.
+essential,<a name="DOCF55" href="#FOOT55"><sup>55</sup></a> use <code>dev.new()</code>.
 </p>
 <p>Use <code>R CMD build</code> to make the release <samp>.tar.gz</samp> file.
 </p>
@@ -3947,14 +3938,14 @@ actions are needed).
 
 </li><li> If your package has a <samp>Makevars</samp> or <samp>Makefile</samp> file, make sure
 that you use only portable make features.  Such files should be
-LF-terminated<a name="DOCF57" href="#FOOT57"><sup>57</sup></a> (including the final line of
+LF-terminated<a name="DOCF56" href="#FOOT56"><sup>56</sup></a> (including the final line of
 the file) and not make use of GNU extensions.  (The POSIX specification is
 available at
 <a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html">http://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html</a>;
 anything not documented there should be regarded as an extension to be
 avoided.)  Commonly misused GNU extensions are conditional inclusions
 (<code>ifeq</code> and the like), <code>${shell ...}</code> and <code>${wildcard
-...}</code>, and the use of <code>+=</code><a name="DOCF58" href="#FOOT58"><sup>58</sup></a> and <code>:=</code>.  Also, the use of <code>$&lt;</code> other than in implicit
+...}</code>, and the use of <code>+=</code><a name="DOCF57" href="#FOOT57"><sup>57</sup></a> and <code>:=</code>.  Also, the use of <code>$&lt;</code> other than in implicit
 rules is a GNU extension, as is the <code>$^</code> macro.  Unfortunately
 makefiles which use GNU extensions often run on other platforms but do not
 have the intended results.
@@ -3965,7 +3956,7 @@ have the intended results.
 <pre class="example">PKG_CPPFLAGS = `gsl-config --cflags`
 </pre></div>
 
-<p>which works in all versions of <code>make</code> known<a name="DOCF59" href="#FOOT59"><sup>59</sup></a> to be used with R.
+<p>which works in all versions of <code>make</code> known<a name="DOCF58" href="#FOOT58"><sup>58</sup></a> to be used with R.
 </p>
 <p>If you really must require GNU make, declare it in the <samp>DESCRIPTION</samp>
 file by
@@ -3984,7 +3975,7 @@ GNU extensions in files <samp>Makevars.win</samp> or <samp>Makefile.win</samp>.
 </p>
 </li><li> Bash extensions also need to be avoided in shell scripts, including
 expressions in Makefiles (which are passed to the shell for processing).
-Some R platforms use strict<a name="DOCF60" href="#FOOT60"><sup>60</sup></a>
+Some R platforms use strict<a name="DOCF59" href="#FOOT59"><sup>59</sup></a>
 Bourne shells: the R toolset on Windows and some Unix-alike OSes use
 <code>ash</code> (<a href="https://en.wikipedia.org/wiki/Almquist_shell">https://en.wikipedia.org/wiki/Almquist_shell</a>), a
 rather minimal shell with few builtins.  Beware of assuming that all the
@@ -4026,7 +4017,7 @@ some R platforms (including 64-bit Windows), but 64-bit on most modern
 Unix and Linux platforms.  It is rather unlikely that the use of <code>long</code>
 in C code has been thought through: if you need a longer type than
 <code>int</code> you should use a configure test for a C99 type such as
-<code>int_fast64_t</code> (and failing that, <code>long long</code> <a name="DOCF61" href="#FOOT61"><sup>61</sup></a>) and typedef your own type to be
+<code>int_fast64_t</code> (and failing that, <code>long long</code> <a name="DOCF60" href="#FOOT60"><sup>60</sup></a>) and typedef your own type to be
 <code>long</code> or <code>long long</code>, or use another suitable type (such as
 <code>size_t</code>).
 
@@ -4040,7 +4031,7 @@ not required to be implemented by the C99 standard).
 on all R platforms.
 </p>
 </li><li> Under no circumstances should your compiled code ever call <code>abort</code> or
-<code>exit</code><a name="DOCF62" href="#FOOT62"><sup>62</sup></a>: these terminate the user&rsquo;s R process, quite possibly
+<code>exit</code><a name="DOCF61" href="#FOOT61"><sup>61</sup></a>: these terminate the user&rsquo;s R process, quite possibly
 including all his unsaved work.  One usage that could call <code>abort</code> is
 the <code>assert</code> macro in C or C++ functions, which should never be active
 in production code.  The normal way to ensure that is to define the macro
@@ -4059,7 +4050,7 @@ come from external software and may never be called, but package authors are
 often mistaken about that.
 
 </li><li> Compiled code should not call the system random number generators such as
-<code>rand</code>, <code>drand48</code> and <code>random</code><a name="DOCF63" href="#FOOT63"><sup>63</sup></a>, but rather use the
+<code>rand</code>, <code>drand48</code> and <code>random</code><a name="DOCF62" href="#FOOT62"><sup>62</sup></a>, but rather use the
 interfaces to R&rsquo;s RNGs described in <a href="#Random-numbers">Random numbers</a>.  In particular,
 if more than one package initializes the system RNG (e.g. <em>via</em>
 <code>srand</code>), they will interfere with each other.
@@ -4090,7 +4081,7 @@ against the old version compiled into the package, sometimes against the
 copy compiled into R and sometimes against the system dynamic library.
 The only safe solution is to rename the entry points in the copy in the
 package.  We have even seen problems with entry point name <code>myprintf</code>,
-which is a system entry point<a name="DOCF64" href="#FOOT64"><sup>64</sup></a> on some Linux
+which is a system entry point<a name="DOCF63" href="#FOOT63"><sup>63</sup></a> on some Linux
 systems.
 
 </li><li> Conflicts between symbols in DLLs are handled in very platform-specific
@@ -4120,9 +4111,17 @@ as intended.  For alternatives, see <a href="#Suggested-packages">Suggested pack
 </li><li> Examples can be run interactively <em>via</em> <code>example</code> as well as in
 batch mode when checking.  So they should behave appropriately in both
 scenarios, conditioning by <code>interactive()</code> the parts which need an
-operator or observer.  For instance, progress bars<a name="DOCF65" href="#FOOT65"><sup>65</sup></a>
+operator or observer.  For instance, progress bars<a name="DOCF64" href="#FOOT64"><sup>64</sup></a>
 are only appropriate in interactive use, as is displaying help pages or
 calling <code>View()</code> (see below).
+
+</li><li> Be careful with the order of entries in macros such as <code>PKG_LIBS</code>.
+Some linkers will re-order the entries, and behaviour can differ between
+dynamic and static libraries.  Generally <samp>-L</samp> options should
+precede<a name="DOCF65" href="#FOOT65"><sup>65</sup></a> the libraries (typically
+specified by <samp>-l</samp> options) to be found from those directories, and
+libraries are searched once in the order they are specified.  Not all
+linkers allow a space after <samp>-L</samp> .
 
 </li></ul>
 
@@ -4306,9 +4305,10 @@ default 8-bit encoding depending on the language of the UTF-8 locale, and
 your users would need to be told how to select the &lsquo;<samp>encoding</samp>&rsquo; argument.
 </p>
 <p>If you want to run <code>R CMD check</code> on a Unix-alike over a package that
-sets a package encoding in its <samp>DESCRIPTION</samp> file you may need to
-specify a suitable locale <em>via</em> environment variable
-<code>R_ENCODING_LOCALES</code>.  The default is equivalent to the value
+sets a package encoding in its <samp>DESCRIPTION</samp> file <em>and do not use
+a UTF-8 locale</em> you may need to specify a suitable locale <em>via</em>
+environment variable <code>R_ENCODING_LOCALES</code>.  The default is equivalent to
+the value
 </p>
 <div class="example">
 <pre class="example">&quot;latin1=en_US:latin2=pl_PL:UTF-8=en_US.UTF-8:latin9=fr_FR.iso885915@euro&quot;
@@ -6136,9 +6136,40 @@ used in the <samp>NEWS.Rd</samp> file) like
 </p><div class="example">
 <pre class="example">\Sexpr[results=rd]{tools:::Rd_expr_PR(1234)}
 </pre></div>
-<p>when parsed.  See the comments in that file for a discussion of what macros
-are available and what they do.
+<p>when parsed.  
 </p>
+<p>Some macros that might be of general use are: </p><dl compact="compact">
+<dt><code>\CRANpkg{pkg}</code>
+<a name="index-_005cCRANpkg_007bpkg_007d"></a>
+</dt>
+<dd><p>A package on CRAN
+</p>
+</dd>
+<dt><code>\sspace</code>
+<a name="index-_005csspace"></a>
+</dt>
+<dd><p>A single space (used after a period that does not end a sentence).
+</p>
+</dd>
+<dt><code>\doi{numbers}</code>
+<a name="index-_005cdoi_007bnumbers_007d"></a>
+</dt>
+<dd><p>A digital object identifier (DOI).
+</p></dd>
+</dl>
+<p>See the <samp>system.Rd</samp> file in <samp>share/Rd/macros</samp> for more details and
+macro definitions, including macros <code>\packageTitle</code>,
+<code>\packageDescription</code>, <code>\packageAuthor</code>,
+<code>\packageMaintainer</code>, <code>\packageDESCRIPTION</code> and
+<code>\packageIndices</code>.
+<a name="index-_005cpackageTitle"></a>
+<a name="index-_005cpackageDescription"></a>
+<a name="index-_005cpackageAuthor"></a>
+<a name="index-_005cpackageMaintainer"></a>
+<a name="index-_005cpackageDESCRIPTION"></a>
+<a name="index-_005cpackageIndices"></a>
+</p>
+
 <p>Packages may also define their own common macros; these would be stored in
 an <samp>.Rd</samp> file in <samp>man/macros</samp> in the package source and will be
 installed into <samp>help/macros</samp> when the package is installed.  A package
@@ -7570,8 +7601,8 @@ as from 4.9.0.  Its runtime library is linked into each package&rsquo;s DLL, so 
 is less often needed to be included in <code>MAIN_LDFLAGS</code>.
 </p>
 <p>Some versions have greatly increased compilation times on a few files
-(e.g. <samp>src/extra/bzip2/decompress.c</samp> in the R sources with
-<code>clang</code> 3.5).
+(e.g. <samp>src/main/dotcode.c</samp> and parts of the <strong>Matrix</strong> sources with
+<code>clang</code> 3.7.0).
 </p>
 <p>This sanitizer can be combined with the Address Sanitizer by
 <samp>-fsanitize=undefined,address</samp>.
@@ -7581,10 +7612,10 @@ is less often needed to be included in <code>MAIN_LDFLAGS</code>.
 <a href="http://clang.llvm.org/docs/UsersManual.html#controlling-code-generation">http://clang.llvm.org/docs/UsersManual.html#controlling-code-generation</a>.
 The current set for <code>clang</code> is (on a single line):
 </p><div class="example">
-<pre class="example">-fsanitize=alignment,bounds,bool,enum,float-cast-overflow,
-float-divide-by-zero,function,integer-divide-by-zero,null,object-size,
-return,returns-nonnull-attribute,shift,signed-integer-overflow,
-unreachable,vla-bound,vptr
+<pre class="example">-fsanitize=alignment,bool,bounds,enum,float-cast-overflow,
+float-divide-by-zero,function,integer-divide-by-zero,non-null-attribute,
+null,object-size,return,returns-nonnull-attribute,shift,
+signed-integer-overflow,unreachable,vla-bound,vptr
 </pre></div>
 
 <p>a subset of which could be combined with <code>address</code>, or use something
@@ -11491,7 +11522,7 @@ notably for half integer <var>x</var>.
 <dl>
 <dt><a name="index-logspace_005fadd"></a>Function: <em>double</em> <strong>logspace_add</strong> <em>(double <var>logx</var>, double <var>logy</var>)</em></dt>
 <dt><a name="index-logspace_005fsub"></a>Function: <em>double</em> <strong>logspace_sub</strong> <em>(double <var>logx</var>, double <var>logy</var>)</em></dt>
-<dt><a name="index-logspace_005fsum"></a>Function: <em>double</em> <strong>logspace_sum</strong> <em>(double* <var>logx</var>, int <var>n</var>)</em></dt>
+<dt><a name="index-logspace_005fsum"></a>Function: <em>double</em> <strong>logspace_sum</strong> <em>(const double* <var>logx</var>, int <var>n</var>)</em></dt>
 <dd><p>Compute the log of a sum or difference from logs of terms, i.e., &ldquo;x + y&rdquo;
 as <code>log (exp(<var>logx</var>) + exp(<var>logy</var>))</code> and &ldquo;x - y&rdquo; as <code>log
 (exp(<var>logx</var>) - exp(<var>logy</var>))</code>, and &ldquo;sum_i x[i]&rdquo; as <code>log (sum[i
@@ -13357,11 +13388,13 @@ architecture-specific subdirectory and then in <samp>R_HOME\bin</samp>.
 <tr><td></td><td valign="top"><a href="#index-_005ccommand"><code>\command</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Marking-text">Marking text</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cconcept"><code>\concept</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Indices">Indices</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005ccr"><code>\cr</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Sectioning">Sectioning</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cCRANpkg_007bpkg_007d"><code>\CRANpkg{pkg}</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdeqn"><code>\deqn</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Mathematics">Mathematics</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdescribe"><code>\describe</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Lists-and-tables">Lists and tables</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdescription"><code>\description</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Documenting-functions">Documenting functions</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdetails"><code>\details</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Documenting-functions">Documenting functions</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdfn"><code>\dfn</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Marking-text">Marking text</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cdoi_007bnumbers_007d"><code>\doi{numbers}</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdontrun"><code>\dontrun</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Documenting-functions">Documenting functions</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdontshow"><code>\dontshow</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Documenting-functions">Documenting functions</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cdots"><code>\dots</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Insertions">Insertions</a></td></tr>
@@ -13390,6 +13423,12 @@ architecture-specific subdirectory and then in <samp>R_HOME\bin</samp>.
 <tr><td></td><td valign="top"><a href="#index-_005cnote"><code>\note</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Documenting-functions">Documenting functions</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005coption"><code>\option</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Marking-text">Marking text</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cout"><code>\out</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Conditional-text">Conditional text</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cpackageAuthor"><code><code>\packageAuthor</code></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cpackageDescription"><code><code>\packageDescription</code></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cpackageDESCRIPTION"><code><code>\packageDESCRIPTION</code></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cpackageIndices"><code><code>\packageIndices</code></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cpackageMaintainer"><code><code>\packageMaintainer</code></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005cpackageTitle"><code><code>\packageTitle</code></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cpkg"><code>\pkg</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Marking-text">Marking text</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cpreformatted"><code>\preformatted</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Marking-text">Marking text</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cR"><code>\R</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Insertions">Insertions</a></td></tr>
@@ -13403,6 +13442,7 @@ architecture-specific subdirectory and then in <samp>R_HOME\bin</samp>.
 <tr><td></td><td valign="top"><a href="#index-_005cSexpr"><code>\Sexpr</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Dynamic-pages">Dynamic pages</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005csource"><code>\source</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Documenting-data-sets">Documenting data sets</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005csQuote"><code>\sQuote</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Marking-text">Marking text</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_005csspace"><code>\sspace</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#User_002ddefined-macros">User-defined macros</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005cstrong"><code>\strong</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Marking-text">Marking text</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005ctabular"><code>\tabular</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Lists-and-tables">Lists and tables</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005ctitle"><code>\title</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Documenting-functions">Documenting functions</a></td></tr>
@@ -14094,8 +14134,10 @@ to a static FORTRAN library when <samp>Rblas.dll</samp> is built.</p>
 <a href="https://en.wikipedia.org/wiki/OpenMP">https://en.wikipedia.org/wiki/OpenMP</a>,
 <a href="https://computing.llnl.gov/tutorials/openMP/">https://computing.llnl.gov/tutorials/openMP/</a></p>
 <h3><a name="FOOT27" href="#DOCF27">(27)</a></h3>
-<p>Projects to add it has been announced, but it is unknown
-when or even if the Apple builds will incorporate them.</p>
+<p>Some builds of
+<code>clang</code> 3.7 will have support for OpenMP 3.1. However, this needs
+the compiler/linker flag <samp>-fopenmp=libomp</samp> which is not currently
+added by <code>configure</code>.</p>
 <h3><a name="FOOT28" href="#DOCF28">(28)</a></h3>
 <p>Windows,
 not MinGW-w64 default.</p>
@@ -14133,105 +14175,104 @@ toolchain is not a standard part of the OS.</p>
 or environment variable <code>_R_CHECK_ALWAYS_LOG_VIGNETTE_OUTPUT_</code> is set to
 a true value or if there are differences from a target output file</p>
 <h3><a name="FOOT38" href="#DOCF38">(38)</a></h3>
-<p>Windows users behind proxies may want to set
-environment variable <code>R_WIN_INTERNET2</code> to a non-empty value, e.g. in
-<samp>~/.R/check_environ</samp>.</p>
+<p>For example, in early 2014 <a href="http://CRAN.R-project.org/package=gdata"><strong>gdata</strong></a> declared
+&lsquo;<samp>Imports: gtools</samp>&rsquo; and <a href="http://CRAN.R-project.org/package=gtools"><strong>gtools</strong></a> declared &lsquo;<samp>Imports:
+gdata</samp>&rsquo;.</p>
 <h3><a name="FOOT39" href="#DOCF39">(39)</a></h3>
-<p>For example, in early 2014
-<a href="http://CRAN.R-project.org/package=gdata"><strong>gdata</strong></a> declared &lsquo;<samp>Imports: gtools</samp>&rsquo; and <a href="http://CRAN.R-project.org/package=gtools"><strong>gtools</strong></a>
-declared &lsquo;<samp>Imports: gdata</samp>&rsquo;.</p>
-<h3><a name="FOOT40" href="#DOCF40">(40)</a></h3>
 <p>loading, examples,
 tests, running vignette code</p>
-<h3><a name="FOOT41" href="#DOCF41">(41)</a></h3>
+<h3><a name="FOOT40" href="#DOCF40">(40)</a></h3>
 <p>on all platforms from R 3.1.0.</p>
-<h3><a name="FOOT42" href="#DOCF42">(42)</a></h3>
+<h3><a name="FOOT41" href="#DOCF41">(41)</a></h3>
 <p>called <samp>CVS</samp> or <samp>.svn</samp> or <samp>.arch-ids</samp> or
 <samp>.bzr</samp> or <samp>.git</samp> (but not files called <samp>.git</samp>) or
 <samp>.hg</samp>.</p>
-<h3><a name="FOOT43" href="#DOCF43">(43)</a></h3>
+<h3><a name="FOOT42" href="#DOCF42">(42)</a></h3>
 <p>called <samp>.metadata</samp>.</p>
-<h3><a name="FOOT44" href="#DOCF44">(44)</a></h3>
+<h3><a name="FOOT43" href="#DOCF43">(43)</a></h3>
 <p>which is an error: GNU make uses
 <samp>GNUmakefile</samp>.</p>
-<h3><a name="FOOT45" href="#DOCF45">(45)</a></h3>
+<h3><a name="FOOT44" href="#DOCF44">(44)</a></h3>
 <p>and to avoid
 problems with case-insensitive file systems, lower-case versions of all
 these extensions.</p>
-<h3><a name="FOOT46" href="#DOCF46">(46)</a></h3>
+<h3><a name="FOOT45" href="#DOCF45">(45)</a></h3>
 <p>unless inhibited by using
 &lsquo;<samp>BuildVignettes: no</samp>&rsquo; in the <samp>DESCRIPTION</samp> file.</p>
-<h3><a name="FOOT47" href="#DOCF47">(47)</a></h3>
+<h3><a name="FOOT46" href="#DOCF46">(46)</a></h3>
 <p>provided the conditions of the package&rsquo;s license are met:
 many, including <acronym>CRAN</acronym>, see the omission of source components as
 incompatible with an Open Source license.</p>
-<h3><a name="FOOT48" href="#DOCF48">(48)</a></h3>
+<h3><a name="FOOT47" href="#DOCF47">(47)</a></h3>
 <p><code>R_HOME/bin</code> is prepended to the <code>PATH</code> so
 that references to <code>R</code> or <code>Rscript</code> in the <samp>Makefile</samp>
 do make use of the currently running version of R.</p>
-<h3><a name="FOOT49" href="#DOCF49">(49)</a></h3>
+<h3><a name="FOOT48" href="#DOCF48">(48)</a></h3>
 <p>Note that lazy-loaded datasets are
 <em>not</em> in the package&rsquo;s namespace so need to be accessed <em>via</em>
 <code>::</code>, e.g. <code>survival::survexp.us</code>.</p>
-<h3><a name="FOOT50" href="#DOCF50">(50)</a></h3>
+<h3><a name="FOOT49" href="#DOCF49">(49)</a></h3>
 <p>they will be called
 with two unnamed arguments, in that order.</p>
-<h3><a name="FOOT51" href="#DOCF51">(51)</a></h3>
+<h3><a name="FOOT50" href="#DOCF50">(50)</a></h3>
 <p>NB: this will
 only be read in all versions of R if the package contains R code in a
 <samp>R</samp> directory.</p>
-<h3><a name="FOOT52" href="#DOCF52">(52)</a></h3>
+<h3><a name="FOOT51" href="#DOCF51">(51)</a></h3>
 <p>Note that this is the
 basename of the shared object, and the appropriate extension (<samp>.so</samp> or
 <samp>.dll</samp>) will be added.</p>
-<h3><a name="FOOT53" href="#DOCF53">(53)</a></h3>
+<h3><a name="FOOT52" href="#DOCF52">(52)</a></h3>
 <p>This was necessary at least prior to R 3.0.2 as the
 <strong>methods</strong> package looked for its own R code on the search path.</p>
-<h3><a name="FOOT54" href="#DOCF54">(54)</a></h3>
+<h3><a name="FOOT53" href="#DOCF53">(53)</a></h3>
 <p>This defaults to the same pattern as
 <code>exportPattern</code>: use something like <code>exportClassPattern(&quot;^$&quot;)</code> to
 override this.</p>
-<h3><a name="FOOT55" href="#DOCF55">(55)</a></h3>
+<h3><a name="FOOT54" href="#DOCF54">(54)</a></h3>
 <p>if it
 does, there will be opaque warnings about replacing imports if the
 classes/methods are also imported.</p>
-<h3><a name="FOOT56" href="#DOCF56">(56)</a></h3>
+<h3><a name="FOOT55" href="#DOCF55">(55)</a></h3>
 <p>People use <code>dev.new()</code> to open a device at a
 particular size: that is not portable but using <code>dev.new(noRStudioGD =
 TRUE)</code> helps.</p>
-<h3><a name="FOOT57" href="#DOCF57">(57)</a></h3>
+<h3><a name="FOOT56" href="#DOCF56">(56)</a></h3>
 <p>Solaris <code>make</code> does not accept
 CRLF-terminated Makefiles; Solaris warns about and some other
 <code>make</code>s ignore incomplete final lines.</p>
-<h3><a name="FOOT58" href="#DOCF58">(58)</a></h3>
+<h3><a name="FOOT57" href="#DOCF57">(57)</a></h3>
 <p>This was apparently introduced in
 SunOS 4, and is available elsewhere <em>provided</em> it is surrounded by
 spaces.</p>
-<h3><a name="FOOT59" href="#DOCF59">(59)</a></h3>
+<h3><a name="FOOT58" href="#DOCF58">(58)</a></h3>
 <p>GNU make, BSD
 make formerly in FreeBSD and OS X, AT&amp;T make as implemented on Solaris,
 <code>pmake</code> in FreeBSD, &lsquo;Distributed Make&rsquo; (<code>dmake</code>), part of
 Solaris Studio and available in other versions.</p>
-<h3><a name="FOOT60" href="#DOCF60">(60)</a></h3>
+<h3><a name="FOOT59" href="#DOCF59">(59)</a></h3>
 <p>For example, <code>test</code> options
 <samp>-a</samp> and <samp>-e</samp> are not portable, and not supported in the AT&amp;T
 Bourne shell used on Solaris, even though they are in the POSIX standard.</p>
-<h3><a name="FOOT61" href="#DOCF61">(61)</a></h3>
+<h3><a name="FOOT60" href="#DOCF60">(60)</a></h3>
 <p>but note
 that <code>long long</code> is not a standard C++ type, and C++ compilers set up
 for strict checking will reject it.</p>
-<h3><a name="FOOT62" href="#DOCF62">(62)</a></h3>
+<h3><a name="FOOT61" href="#DOCF61">(61)</a></h3>
 <p>or where supported the variants <code>_Exit</code> and
 <code>_exit</code>.</p>
-<h3><a name="FOOT63" href="#DOCF63">(63)</a></h3>
+<h3><a name="FOOT62" href="#DOCF62">(62)</a></h3>
 <p>This and
 <code>srandom</code> are in any case not portable.  They are in POSIX but not in
 the C99 standard, and not available on Windows.</p>
-<h3><a name="FOOT64" href="#DOCF64">(64)</a></h3>
+<h3><a name="FOOT63" href="#DOCF63">(63)</a></h3>
 <p>in <samp>libselinux</samp>.</p>
-<h3><a name="FOOT65" href="#DOCF65">(65)</a></h3>
+<h3><a name="FOOT64" href="#DOCF64">(64)</a></h3>
 <p>except perhaps
 the simplest kind as used by <code>download.file()</code> in non-interactive use.</p>
+<h3><a name="FOOT65" href="#DOCF65">(65)</a></h3>
+<p>Whereas the GNU linker reorders so <samp>-L</samp> options are
+processed first, the Solaris one does not.</p>
 <h3><a name="FOOT66" href="#DOCF66">(66)</a></h3>
 <p>Not
 doing so is the default on Windows, overridden for the R executables.  It
