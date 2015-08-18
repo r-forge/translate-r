@@ -265,7 +265,7 @@ that version.  The main R FAQ can be found at
 <p>Go to any CRAN site (see <a href="https://cran.r-project.org/mirrors.html">https://cran.r-project.org/mirrors.html</a>
 for a list), navigate to the <samp>bin/windows/base</samp> directory and collect
 the file(s) you need.  The current release is distributed as an installer
-&lsquo;<samp>3.3.0 -win.exe</samp>&rsquo; of about 60MB.
+&lsquo;<samp>3.3.0 -win.exe</samp>&rsquo; of about 65MB.
 </p>
 <p>There are also links on that page to the &lsquo;<samp>r-patched</samp>&rsquo; and &lsquo;<samp>r-devel</samp>&rsquo;
 snapshots.  These are frequently updated builds of development versions of
@@ -287,8 +287,8 @@ run on Windows 2000 was 2.12.2.
 64-bit Windows 7 and Server 2008.
 </p>
 <p>Your file system must allow case-honouring long file names (as is likely
-except perhaps for some network-mounted systems).  A installation takes
-75&ndash;110MB of disk space (up to 150MB if ICU was included in the build)
+except perhaps for some network-mounted systems).  An installation takes up
+to 150MB of disk space.
 </p>
 <p>If you want to be able to build packages from sources, we recommend that you
 choose an installation path not containing spaces.  (Using a path with
@@ -383,8 +383,8 @@ having checked the command line.
 </dl>
 
 <p>A successful installation has exit code 0: unsuccessful ones may give 1, 2,
-3, 4 or 5.  See the help for Inno Setup
-(<a href="https://jrsoftware.org/ishelp.php">https://jrsoftware.org/ishelp.php</a>) for details.
+3, 4 or 5.  See the help for Inno Setup (<a href="http://jrsoftware.org/">http://jrsoftware.org/</a>) for
+details.
 </p>
 <p>We have some facilities for building a customized installer, in particular
 to add packages to the installer.  See the &lsquo;R Installation and
@@ -710,32 +710,13 @@ neither sets up nor removes the file associations.
 menu.
 </p>
 <p>We have had several reports of this, although they do work for us on
-<em>all</em> of our machines.  There are two known possible fixes.
+<em>all</em> of our machines.  There are two known possible causes.
 </p>
-<p>(a) Use the Windows internet functions by starting R with the flag
-<samp>--internet2</samp> (see <a href="#How-do-I-install-R-for-Windows_003f">How do I install R for Windows?</a>)  or calling
-<code>setInternet2(TRUE)</code> or setting the environment variable
-<code>R_WIN_INTERNET2</code> to a non-empty value when starting R.  These cause R
-to use the OS&rsquo;s functions used by Internet Explorer, which may already be
-configured for use with proxies.  Note that this does <em>not</em> work with
-proxies that need authentication.
+<p>(a) A proxy needs to be set up: see <code>?download.file</code>.
 </p>
-<p>(b) A proxy needs to be set up: see <code>?download.file</code>.  Here are two
-versions of an example (a real one, but from a machine that is only
-available locally) of a command-line in a short cut:
-</p>
-<div class="example">
-<pre class="example">&quot;path_to_R\bin\x64\Rgui.exe&quot; http_proxy=http://user:pass@gannet:80/
-
-&quot;path_to_R\bin\x64\Rgui.exe&quot; http_proxy=http://gannet/ http_proxy_user=ask
-</pre></div>
-
-<p>The second version will prompt the user for the proxy username and password
-when HTTP downloads are first used.
-</p>
-<p>Another possibility is that firewall settings are blocking the R executables
-from contacting the Internet, but this should result in informative error
-messages from the firewall program.
+<p>(b) Firewall settings are blocking the R executables from contacting the
+Internet (but this should result in informative error messages from the
+firewall program).
 </p>
 
 <hr>
@@ -823,14 +804,12 @@ software installation to be done by an account which is in the local
 Administrator group with &lsquo;admin approval mode&rsquo; turned on.  (The
 Administrator account by default has it turned off.)  Unlike (say)  Windows
 XP, such accounts do not run programs with full administrator privileges,
-and this is where the issues arise.  (For background information consult
-e.g.
-<a href="http://windowsvistablog.com/blogs/windowsvista/archive/2007/01/23/security-features-vs-convenience.aspx">http://windowsvistablog.com/blogs/windowsvista/archive/2007/01/23/security-features-vs-convenience.aspx</a>.)
-These OSes have the concept of &lsquo;over-the-shoulder&rsquo; credentials: if you are
-running without full administrator privileges and do something which needs
-them you may be prompted with one or more security-check dialog boxes, and
-may be required to provide administrator credentials or confirm that you
-really want to take that action.
+and this is where the issues arise.  These OSes have the concept of
+&lsquo;over-the-shoulder&rsquo; credentials: if you are running without full
+administrator privileges and do something which needs them you may be
+prompted with one or more security-check dialog boxes, and may be required
+to provide administrator credentials or confirm that you really want to take
+that action.
 </p>
 <p>Vista and later will report that the R installer has an &lsquo;unidentified
 publisher&rsquo; or &lsquo;unknown publisher&rsquo; and ask if it should be run.  System
@@ -952,11 +931,9 @@ including in the LaTeX preamble e.g. (for a Western European locale)
 accessed by pressing AltGr (the right Alt key) plus some other key.  This is
 <code>]</code> in Canadian (multilingual), German and Scandinavian layouts,
 <code>1</code> in Eastern Europe, <code>[</code> in Portuguese, <code>4</code> or <code>5</code> in
-Spanish, <code>/</code> in Francophone Belgian, and so on.  For some keyboards the
-uses of AltGr are shown at
-<a href="http://office.microsoft.com/en-us/word/HP052590631033.aspx">http://office.microsoft.com/en-us/word/HP052590631033.aspx</a>: you
-can explore those for your keyboard via the &lsquo;On-Screen Keyboard&rsquo; (under Ease
-of access on Windows 7).
+Spanish, <code>/</code> in Francophone Belgian, and so on.  You can explore those
+for your keyboard via the &lsquo;On-Screen Keyboard&rsquo; (under Ease of access on
+Windows 7).
 </p>
 <p>On all Windows versions you should be able to get tilde by holding the down
 the left Alt key and typing 0126 on the numeric keypad (if you have one),
@@ -1134,7 +1111,9 @@ language characters always being available, which is the case for so-called
 &lsquo;Unicode&rsquo; Windows applications.  However, R is primarily written for
 Unix-alikes and is not therefore &lsquo;Unicode&rsquo; in the Windows sense.)  You can
 find suitable locale names from
-<a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vccore98/html/_crt_language_and_country_strings.asp">http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vccore98/html/_crt_language_and_country_strings.asp</a>:
+<a href="https://msdn.microsoft.com/en-us/library/39cwe7zf%28v=vs.80%29.aspx">https://msdn.microsoft.com/en-us/library/39cwe7zf%28v=vs.80%29.aspx</a>
+and
+<a href="https://msdn.microsoft.com/en-us/library/cdax410z%28v=vs.80%29.aspx">https://msdn.microsoft.com/en-us/library/cdax410z%28v=vs.80%29.aspx</a>
 beware that <code>&quot;Chinese&quot;</code> is Traditional Chinese (code page 950, Big5)
 and <code>&quot;chs&quot;</code> is needed for Simplified Chinese (code page 936, GB2312).
 </p>

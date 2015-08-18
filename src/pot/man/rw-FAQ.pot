@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translate.R VERSION\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-08-03 07:45-0600\n"
+"POT-Creation-Date: 2015-08-18 02:49-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgid "@paragraphindent 0"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:58 rw-FAQ.texi:73 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1641
+#: rw-FAQ.texi:58 rw-FAQ.texi:73 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:892 rw-FAQ.texi:1049 rw-FAQ.texi:1386 rw-FAQ.texi:1533 rw-FAQ.texi:1582 rw-FAQ.texi:1618
 #, no-wrap
 msgid "Top"
 msgstr ""
@@ -89,49 +89,49 @@ msgid "(dir)"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:89 rw-FAQ.texi:125 rw-FAQ.texi:125 rw-FAQ.texi:140 rw-FAQ.texi:200 rw-FAQ.texi:205 rw-FAQ.texi:248 rw-FAQ.texi:265 rw-FAQ.texi:279 rw-FAQ.texi:295 rw-FAQ.texi:314 rw-FAQ.texi:345 rw-FAQ.texi:358 rw-FAQ.texi:383 rw-FAQ.texi:400 rw-FAQ.texi:410 rw-FAQ.texi:433 rw-FAQ.texi:475 rw-FAQ.texi:500 rw-FAQ.texi:536 rw-FAQ.texi:543 rw-FAQ.texi:578 rw-FAQ.texi:588 rw-FAQ.texi:603 rw-FAQ.texi:623 rw-FAQ.texi:638 rw-FAQ.texi:740 rw-FAQ.texi:785 rw-FAQ.texi:802 rw-FAQ.texi:818 rw-FAQ.texi:851 rw-FAQ.texi:868 rw-FAQ.texi:916
+#: rw-FAQ.texi:69 rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:89 rw-FAQ.texi:125 rw-FAQ.texi:125 rw-FAQ.texi:140 rw-FAQ.texi:200 rw-FAQ.texi:205 rw-FAQ.texi:248 rw-FAQ.texi:265 rw-FAQ.texi:279 rw-FAQ.texi:295 rw-FAQ.texi:314 rw-FAQ.texi:345 rw-FAQ.texi:358 rw-FAQ.texi:383 rw-FAQ.texi:400 rw-FAQ.texi:410 rw-FAQ.texi:433 rw-FAQ.texi:475 rw-FAQ.texi:500 rw-FAQ.texi:536 rw-FAQ.texi:543 rw-FAQ.texi:558 rw-FAQ.texi:568 rw-FAQ.texi:583 rw-FAQ.texi:603 rw-FAQ.texi:618 rw-FAQ.texi:718 rw-FAQ.texi:763 rw-FAQ.texi:778 rw-FAQ.texi:794 rw-FAQ.texi:827 rw-FAQ.texi:844 rw-FAQ.texi:892
 #, no-wrap
 msgid "Installation and Usage"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:917 rw-FAQ.texi:929 rw-FAQ.texi:929 rw-FAQ.texi:956 rw-FAQ.texi:968 rw-FAQ.texi:1005 rw-FAQ.texi:1019 rw-FAQ.texi:1042 rw-FAQ.texi:1055 rw-FAQ.texi:1072
+#: rw-FAQ.texi:69 rw-FAQ.texi:88 rw-FAQ.texi:892 rw-FAQ.texi:893 rw-FAQ.texi:905 rw-FAQ.texi:905 rw-FAQ.texi:932 rw-FAQ.texi:944 rw-FAQ.texi:982 rw-FAQ.texi:996 rw-FAQ.texi:1019 rw-FAQ.texi:1032 rw-FAQ.texi:1049
 #, no-wrap
 msgid "Languages and Internationalization"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1073 rw-FAQ.texi:1095 rw-FAQ.texi:1095 rw-FAQ.texi:1139 rw-FAQ.texi:1184 rw-FAQ.texi:1191 rw-FAQ.texi:1198 rw-FAQ.texi:1217 rw-FAQ.texi:1250 rw-FAQ.texi:1258 rw-FAQ.texi:1275 rw-FAQ.texi:1285 rw-FAQ.texi:1291 rw-FAQ.texi:1323 rw-FAQ.texi:1346 rw-FAQ.texi:1367 rw-FAQ.texi:1378 rw-FAQ.texi:1409
+#: rw-FAQ.texi:69 rw-FAQ.texi:892 rw-FAQ.texi:1049 rw-FAQ.texi:1050 rw-FAQ.texi:1072 rw-FAQ.texi:1072 rw-FAQ.texi:1116 rw-FAQ.texi:1161 rw-FAQ.texi:1168 rw-FAQ.texi:1175 rw-FAQ.texi:1194 rw-FAQ.texi:1227 rw-FAQ.texi:1235 rw-FAQ.texi:1252 rw-FAQ.texi:1262 rw-FAQ.texi:1268 rw-FAQ.texi:1300 rw-FAQ.texi:1323 rw-FAQ.texi:1344 rw-FAQ.texi:1355 rw-FAQ.texi:1386
 #, no-wrap
 msgid "Packages"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1410 rw-FAQ.texi:1421 rw-FAQ.texi:1421 rw-FAQ.texi:1444 rw-FAQ.texi:1483 rw-FAQ.texi:1502 rw-FAQ.texi:1516 rw-FAQ.texi:1556
+#: rw-FAQ.texi:69 rw-FAQ.texi:1049 rw-FAQ.texi:1386 rw-FAQ.texi:1387 rw-FAQ.texi:1398 rw-FAQ.texi:1398 rw-FAQ.texi:1421 rw-FAQ.texi:1460 rw-FAQ.texi:1479 rw-FAQ.texi:1493 rw-FAQ.texi:1533
 #, no-wrap
 msgid "Windows Features"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1557 rw-FAQ.texi:1567 rw-FAQ.texi:1567 rw-FAQ.texi:1573 rw-FAQ.texi:1585 rw-FAQ.texi:1605
+#: rw-FAQ.texi:69 rw-FAQ.texi:1386 rw-FAQ.texi:1533 rw-FAQ.texi:1534 rw-FAQ.texi:1544 rw-FAQ.texi:1544 rw-FAQ.texi:1550 rw-FAQ.texi:1562 rw-FAQ.texi:1582
 #, no-wrap
 msgid "Workspaces"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1606 rw-FAQ.texi:1617 rw-FAQ.texi:1617 rw-FAQ.texi:1630 rw-FAQ.texi:1641
+#: rw-FAQ.texi:69 rw-FAQ.texi:1533 rw-FAQ.texi:1582 rw-FAQ.texi:1583 rw-FAQ.texi:1594 rw-FAQ.texi:1594 rw-FAQ.texi:1607 rw-FAQ.texi:1618
 #, no-wrap
 msgid "The R Console"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:69 rw-FAQ.texi:1605 rw-FAQ.texi:1641 rw-FAQ.texi:1642 rw-FAQ.texi:1656 rw-FAQ.texi:1656 rw-FAQ.texi:1662 rw-FAQ.texi:1699 rw-FAQ.texi:1719 rw-FAQ.texi:1807 rw-FAQ.texi:1841 rw-FAQ.texi:1855 rw-FAQ.texi:1868
+#: rw-FAQ.texi:69 rw-FAQ.texi:1582 rw-FAQ.texi:1618 rw-FAQ.texi:1619 rw-FAQ.texi:1633 rw-FAQ.texi:1633 rw-FAQ.texi:1639 rw-FAQ.texi:1676 rw-FAQ.texi:1696 rw-FAQ.texi:1784 rw-FAQ.texi:1818 rw-FAQ.texi:1832 rw-FAQ.texi:1845
 #, no-wrap
 msgid "Building from Source"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:916 rw-FAQ.texi:1072 rw-FAQ.texi:1409 rw-FAQ.texi:1556 rw-FAQ.texi:1605 rw-FAQ.texi:1641
+#: rw-FAQ.texi:73 rw-FAQ.texi:88 rw-FAQ.texi:892 rw-FAQ.texi:1049 rw-FAQ.texi:1386 rw-FAQ.texi:1533 rw-FAQ.texi:1582 rw-FAQ.texi:1618
 msgid "@newchap{}"
 msgstr ""
 
@@ -263,73 +263,73 @@ msgid "Does R support automation?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:536 rw-FAQ.texi:543 rw-FAQ.texi:544 rw-FAQ.texi:578
+#: rw-FAQ.texi:122 rw-FAQ.texi:536 rw-FAQ.texi:543 rw-FAQ.texi:544 rw-FAQ.texi:558
 #, no-wrap
 msgid "The Internet download functions fail."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:543 rw-FAQ.texi:578 rw-FAQ.texi:579 rw-FAQ.texi:588
+#: rw-FAQ.texi:122 rw-FAQ.texi:543 rw-FAQ.texi:558 rw-FAQ.texi:559 rw-FAQ.texi:568
 #, no-wrap
 msgid "Entering certain characters crashes Rgui."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:578 rw-FAQ.texi:588 rw-FAQ.texi:589 rw-FAQ.texi:603
+#: rw-FAQ.texi:122 rw-FAQ.texi:558 rw-FAQ.texi:568 rw-FAQ.texi:569 rw-FAQ.texi:583
 #, no-wrap
 msgid "What does 'DLL attempted to change FPU control word' mean?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:588 rw-FAQ.texi:603 rw-FAQ.texi:604 rw-FAQ.texi:623
+#: rw-FAQ.texi:122 rw-FAQ.texi:568 rw-FAQ.texi:583 rw-FAQ.texi:584 rw-FAQ.texi:603
 #, no-wrap
 msgid "Other strange crashes."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:603 rw-FAQ.texi:623 rw-FAQ.texi:624 rw-FAQ.texi:638
+#: rw-FAQ.texi:122 rw-FAQ.texi:583 rw-FAQ.texi:603 rw-FAQ.texi:604 rw-FAQ.texi:618
 #, no-wrap
 msgid "Why does R never use more than 50% of my CPU?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:623 rw-FAQ.texi:638 rw-FAQ.texi:740
+#: rw-FAQ.texi:122 rw-FAQ.texi:603 rw-FAQ.texi:618 rw-FAQ.texi:718
 #, no-wrap
 msgid "Does R run under Windows Vista?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:638 rw-FAQ.texi:740 rw-FAQ.texi:785
+#: rw-FAQ.texi:122 rw-FAQ.texi:618 rw-FAQ.texi:718 rw-FAQ.texi:763
 #, no-wrap
 msgid "Quotes don't come out right on the console/terminal/pager"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:740 rw-FAQ.texi:785 rw-FAQ.texi:802
+#: rw-FAQ.texi:122 rw-FAQ.texi:718 rw-FAQ.texi:763 rw-FAQ.texi:778
 #, no-wrap
 msgid "There is no tilde on my keyboard"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:785 rw-FAQ.texi:802 rw-FAQ.texi:803 rw-FAQ.texi:818
+#: rw-FAQ.texi:122 rw-FAQ.texi:763 rw-FAQ.texi:778 rw-FAQ.texi:779 rw-FAQ.texi:794
 #, no-wrap
 msgid "Can I use R on 64-bit Windows?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:802 rw-FAQ.texi:818 rw-FAQ.texi:819 rw-FAQ.texi:851
+#: rw-FAQ.texi:122 rw-FAQ.texi:778 rw-FAQ.texi:794 rw-FAQ.texi:795 rw-FAQ.texi:827
 #, no-wrap
 msgid "Should I run 32-bit or 64-bit R?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:122 rw-FAQ.texi:818 rw-FAQ.texi:851 rw-FAQ.texi:852 rw-FAQ.texi:868
+#: rw-FAQ.texi:122 rw-FAQ.texi:794 rw-FAQ.texi:827 rw-FAQ.texi:828 rw-FAQ.texi:844
 #, no-wrap
 msgid "Can both 32- and 64-bit R be installed on the same machine?"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:122 rw-FAQ.texi:851 rw-FAQ.texi:868 rw-FAQ.texi:869
+#: rw-FAQ.texi:122 rw-FAQ.texi:827 rw-FAQ.texi:844 rw-FAQ.texi:845
 #, no-wrap
 msgid "Rcmd is not found in my PATH!"
 msgstr ""
@@ -340,7 +340,7 @@ msgid ""
 "Go to any CRAN site (see @uref{https://cran.r-project.org/@/mirrors.html} "
 "for a list), navigate to the @file{bin/windows/base} directory and collect "
 "the file(s) you need.  The current release is distributed as an installer "
-"@samp{3.3.0 -win.exe} of about 60MB."
+"@samp{3.3.0 -win.exe} of about 65MB."
 msgstr ""
 
 #. type: Plain text
@@ -372,8 +372,8 @@ msgstr ""
 #: rw-FAQ.texi:156
 msgid ""
 "Your file system must allow case-honouring long file names (as is likely "
-"except perhaps for some network-mounted systems).  A installation takes "
-"75--110MB of disk space (up to 150MB if ICU was included in the build)"
+"except perhaps for some network-mounted systems).  An installation takes up "
+"to 150MB of disk space."
 msgstr ""
 
 #. type: Plain text
@@ -556,8 +556,8 @@ msgstr ""
 #: rw-FAQ.texi:243
 msgid ""
 "A successful installation has exit code 0: unsuccessful ones may give 1, 2, "
-"3, 4 or 5.  See the help for Inno Setup "
-"(@uref{https://jrsoftware.org/@/ishelp.php}) for details."
+"3, 4 or 5.  See the help for Inno Setup (@uref{http://jrsoftware.org/}) for "
+"details."
 msgstr ""
 
 #. type: Plain text
@@ -1037,62 +1037,24 @@ msgstr ""
 #: rw-FAQ.texi:550
 msgid ""
 "We have had several reports of this, although they do work for us on "
-"@emph{all} of our machines.  There are two known possible fixes."
+"@emph{all} of our machines.  There are two known possible causes."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:558
-msgid ""
-"(a) Use the Windows internet functions by starting R with the flag "
-"@option{--internet2} (@pxref{How do I install R for Windows?})  or calling "
-"@code{setInternet2(TRUE)} or setting the environment variable "
-"@env{R_WIN_INTERNET2} to a non-empty value when starting R.  These cause R "
-"to use the OS's functions used by Internet Explorer, which may already be "
-"configured for use with proxies.  Note that this does @emph{not} work with "
-"proxies that need authentication."
+#: rw-FAQ.texi:552
+msgid "(a) A proxy needs to be set up: see @code{?download.file}."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:562
+#: rw-FAQ.texi:556
 msgid ""
-"(b) A proxy needs to be set up: see @code{?download.file}.  Here are two "
-"versions of an example (a real one, but from a machine that is only "
-"available locally) of a command-line in a short cut:"
+"(b) Firewall settings are blocking the R executables from contacting the "
+"Internet (but this should result in informative error messages from the "
+"firewall program)."
 msgstr ""
 
-#. type: example
-#: rw-FAQ.texi:565
-#, no-wrap
-msgid ""
-"\"path_to_R\\bin\\x64\\Rgui.exe\" http_proxy=http://user:pass@@gannet:80/\n"
-"\n"
-msgstr ""
-
-#. type: example
+#. type: Plain text
 #: rw-FAQ.texi:567
-#, no-wrap
-msgid ""
-"\"path_to_R\\bin\\x64\\Rgui.exe\" http_proxy=http://gannet/ "
-"http_proxy_user=ask\n"
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:572
-msgid ""
-"The second version will prompt the user for the proxy username and password "
-"when HTTP downloads are first used."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:576
-msgid ""
-"Another possibility is that firewall settings are blocking the R executables "
-"from contacting the Internet, but this should result in informative error "
-"messages from the firewall program."
-msgstr ""
-
-#. type: Plain text
-#: rw-FAQ.texi:587
 msgid ""
 "This has not been reported for a few years, but used to happen regularly.  "
 "All the occurrences we have solved have been traced to faulty versions of "
@@ -1102,7 +1064,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:597
+#: rw-FAQ.texi:577
 msgid ""
 "This is a @emph{warning} which indicates that R has taken action to correct "
 "the action of some (non-R) DLL which has just been loaded and has changed "
@@ -1112,19 +1074,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:600
+#: rw-FAQ.texi:580
 msgid ""
 "Unfortunately, because DLLs may themselves load other DLLs it is not "
 "possible for R to track which DLL caused the problem."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:602
+#: rw-FAQ.texi:582
 msgid "See also @code{?dyn.load}."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:616
+#: rw-FAQ.texi:596
 msgid ""
 "Some users have found that @code{Rgui.exe} fails to start, exiting with a "
 "``Floating-point invalid operation'' or other low level error.  This error "
@@ -1138,7 +1100,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:621
+#: rw-FAQ.texi:601
 msgid ""
 "These errors are essentially impossible for us to fix or work around beyond "
 "the measures already taken.  The only solution we know of is for the user to "
@@ -1146,7 +1108,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:632
+#: rw-FAQ.texi:612
 msgid ""
 "This is a misreading of Windows' confusing Task Manager.  R's computation is "
 "single-threaded, and so it cannot use more than one CPU.  What the task "
@@ -1157,20 +1119,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:636
+#: rw-FAQ.texi:616
 msgid ""
 "You can see how many `CPU's are assumed by looking at the number of graphs "
 "of `CPU Usage History' on the `Performance' tab of the Windows Task manager."
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:639
+#: rw-FAQ.texi:619
 #, no-wrap
 msgid "Does R run under Windows Vista/7/8/Server 2008?"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:644
+#: rw-FAQ.texi:624
 msgid ""
 "It does.  A few issues have been reported that are related to the way "
 "accounts and file permissions work.  (These are not specifically R issues, "
@@ -1178,7 +1140,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:653
+#: rw-FAQ.texi:633
 msgid ""
 "Earlier versions of Windows had user and Administrator accounts, and user "
 "accounts could be give administrative privileges (by being added to the "
@@ -1190,25 +1152,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:667
+#: rw-FAQ.texi:645
 msgid ""
 "Vista and later normally disable the Administrator account and expect "
 "software installation to be done by an account which is in the local "
 "Administrator group with `admin approval mode' turned on.  (The "
 "Administrator account by default has it turned off.)  Unlike (say)  Windows "
 "XP, such accounts do not run programs with full administrator privileges, "
-"and this is where the issues arise.  (For background information consult "
-"e.g.@: "
-"@url{http://windowsvistablog.com/@/blogs/@/windowsvista/@/archive/@/2007/01/23/@/security-features-vs-convenience.aspx}.)  "
-"These OSes have the concept of `over-the-shoulder' credentials: if you are "
-"running without full administrator privileges and do something which needs "
-"them you may be prompted with one or more security-check dialog boxes, and "
-"may be required to provide administrator credentials or confirm that you "
-"really want to take that action."
+"and this is where the issues arise.  These OSes have the concept of "
+"`over-the-shoulder' credentials: if you are running without full "
+"administrator privileges and do something which needs them you may be "
+"prompted with one or more security-check dialog boxes, and may be required "
+"to provide administrator credentials or confirm that you really want to take "
+"that action."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:676
+#: rw-FAQ.texi:654
 msgid ""
 "Vista and later will report that the R installer has an `unidentified "
 "publisher' or `unknown publisher' and ask if it should be run.  System "
@@ -1220,14 +1180,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:679
+#: rw-FAQ.texi:657
 msgid ""
 "If you install R as a standard user into your own file space and use it "
 "under the same account, there are no known permission issues."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:683
+#: rw-FAQ.texi:661
 msgid ""
 "If you use the default Administrator account (without `admin approval mode' "
 "being turned on) and install/update packages (in the system area or "
@@ -1235,7 +1195,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:692
+#: rw-FAQ.texi:670
 msgid ""
 "If you use an account in the local Administrators group in `admin approval "
 "mode' (which is the intended norm under these OSes), installation will make "
@@ -1248,7 +1208,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:698
+#: rw-FAQ.texi:676
 msgid ""
 "Run R with Administrator privileges in sessions where you want to install "
 "packages.  (Do so by right-clicking on the R shortcut and selecting 'Run as "
@@ -1256,7 +1216,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:704
+#: rw-FAQ.texi:682
 msgid ""
 "Transfer ownership of the R installation to the user which installed R.  To "
 "do so, use the security tab on the @samp{Properties} of the top-level R "
@@ -1265,14 +1225,14 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:708
+#: rw-FAQ.texi:686
 msgid ""
 "Install packages into a different library tree owned by the account used to "
 "install R."
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:712
+#: rw-FAQ.texi:690
 msgid ""
 "For an installation to be used by a single user, the simplest way is to make "
 "use of a `personal library': @xref{I don't have permission to write to the "
@@ -1280,7 +1240,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:721
+#: rw-FAQ.texi:699
 msgid ""
 "For a site installation, you can create a site-wide library directory "
 "anywhere convenient, and add it to the default package search path for all "
@@ -1293,7 +1253,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:725
+#: rw-FAQ.texi:703
 msgid ""
 "This approach will not allow you to update the recommended packages unless "
 "you `Run as administrator': we suggest you use an R session running under "
@@ -1301,7 +1261,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:733
+#: rw-FAQ.texi:711
 msgid ""
 "Another issue with Vista was that the standard POSIX ways that R uses "
 "(e.g.@: in @code{file.info} and @code{file.access}) to look at file "
@@ -1311,7 +1271,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:738
+#: rw-FAQ.texi:716
 msgid ""
 "On suitably recent hardware Vista and later can prevent the execution of "
 "code from data areas via `Data Execution Prevention' (from a tab in System "
@@ -1320,13 +1280,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:741
+#: rw-FAQ.texi:719
 #, no-wrap
 msgid "Quotes don't come out right on the console/terminal/pager."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:746
+#: rw-FAQ.texi:724
 msgid ""
 "R may make use of directional quotes that are not always rendered correctly "
 "by Windows: these are used by default only by @code{Rgui} in suitable "
@@ -1334,7 +1294,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:758
+#: rw-FAQ.texi:736
 msgid ""
 "Whether these are used in R output (from functions @code{sQuote} and "
 "@code{dQuote}) is controlled by @code{getOption(\"useFancyQuotes\")} whose "
@@ -1350,7 +1310,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:763
+#: rw-FAQ.texi:741
 msgid ""
 "Directional quotes will also be used in text help which is normally "
 "displayed in R's internal pager: these may not be rendered correctly in an "
@@ -1359,7 +1319,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:772
+#: rw-FAQ.texi:750
 msgid ""
 "The font used can affect whether quotes are rendered correctly.  The default "
 "font in the @code{Rgui} console and internal pager is @code{Courier New}, "
@@ -1372,7 +1332,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:777
+#: rw-FAQ.texi:755
 msgid ""
 "There is a related problem with using @code{Sweave} output in @code{Rgui}, "
 "for LaTeX needs to be told about the encoding of directional quotes by "
@@ -1380,38 +1340,36 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:780
+#: rw-FAQ.texi:758
 #, no-wrap
 msgid "\\usepackage[cp1252]@{inputenc@}\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:784
+#: rw-FAQ.texi:762
 msgid "or their use suppressed by @code{options(useFancyQuotes=FALSE)}."
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:786
+#: rw-FAQ.texi:764
 #, no-wrap
 msgid "There is no tilde on my keyboard!"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:797
+#: rw-FAQ.texi:773
 msgid ""
 "Where tilde does not appear on the main keyboard, it can normally be "
 "accessed by pressing AltGr (the right Alt key) plus some other key.  This is "
 "@code{]} in Canadian (multilingual), German and Scandinavian layouts, "
 "@code{1} in Eastern Europe, @code{[} in Portuguese, @code{4} or @code{5} in "
-"Spanish, @code{/} in Francophone Belgian, and so on.  For some keyboards the "
-"uses of AltGr are shown at "
-"@url{http://office.microsoft.com/@/en-us/@/word/@/HP052590631033.aspx}: you "
-"can explore those for your keyboard via the `On-Screen Keyboard' (under Ease "
-"of access on Windows 7)."
+"Spanish, @code{/} in Francophone Belgian, and so on.  You can explore those "
+"for your keyboard via the `On-Screen Keyboard' (under Ease of access on "
+"Windows 7)."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:801
+#: rw-FAQ.texi:777
 msgid ""
 "On all Windows versions you should be able to get tilde by holding the down "
 "the left Alt key and typing 0126 on the numeric keypad (if you have one), "
@@ -1419,7 +1377,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:812
+#: rw-FAQ.texi:788
 msgid ""
 "The 32-bit build of R for Windows will run on both 32-bit and "
 "64-bit@footnote{what Windows calls x64 for x86-64 CPUs, not the very rare "
@@ -1431,7 +1389,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:817
+#: rw-FAQ.texi:793
 msgid ""
 "When R is installed on 64-bit Windows there is the option of installing 32- "
 "and/or 64-bit builds: the default is to install both. If you are using the "
@@ -1439,19 +1397,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:822
+#: rw-FAQ.texi:798
 msgid "Obviously, only relevant if you are using 64-bit Windows."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:825
+#: rw-FAQ.texi:801
 msgid ""
 "For most users we would recommend using the `native' build, that is the "
 "32-bit version on 32-bit Windows and the 64-bit version of 64-bit Windows."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:840
+#: rw-FAQ.texi:816
 msgid ""
 "The advantage of a native 64-bit application is that it gets a 64-bit "
 "address space and hence can address far more than 4GB (how much depends on "
@@ -1469,7 +1427,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:850
+#: rw-FAQ.texi:826
 msgid ""
 "For advanced users the choice may be dictated by whether the contributed "
 "packages needed are available in 64-bit builds (although CRAN only offers "
@@ -1483,7 +1441,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:857
+#: rw-FAQ.texi:833
 msgid ""
 "Obviously, only relevant if the machine is running a 64-bit version of "
 "Windows -- simply select both when using the installer.  You can also go "
@@ -1491,7 +1449,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:866
+#: rw-FAQ.texi:842
 msgid ""
 "For many Registry items, 32- and 64-bit programs have different views of the "
 "Registry, but clashes can occur.  The most obvious problem is the file "
@@ -1504,12 +1462,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:872
+#: rw-FAQ.texi:848
 msgid "This has often been reported after an upgrade."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:879
+#: rw-FAQ.texi:855
 msgid ""
 "The R installer does not put @command{Rcmd.exe} (nor any other R executable) "
 "on your @env{PATH}.  What seems to have happened is that people did this for "
@@ -1519,25 +1477,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:881
+#: rw-FAQ.texi:857
 msgid "The element you want to add to the path is something like"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:884
+#: rw-FAQ.texi:860
 #, no-wrap
 msgid "c:\\Program Files\\R\\R-3.1.0\\bin\\x64\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:889
+#: rw-FAQ.texi:865
 msgid ""
 "for 64-bit @command{Rcmd.exe}, replacing @code{x64} by @code{i386} for "
 "32-bit."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:894
+#: rw-FAQ.texi:870
 msgid ""
 "How you set the path depends on your OS version.  Under recent versions, go "
 "to `User Accounts' in the Control Panel, and select your account and then "
@@ -1546,7 +1504,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:899
+#: rw-FAQ.texi:875
 msgid ""
 "An alternative is to set the @env{PATH} in the shell you are running "
 "(@command{Rcmd.exe} is a command-line program).  For those using the "
@@ -1554,79 +1512,79 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:902
+#: rw-FAQ.texi:878
 msgid ""
 "The simple way to do it just for the command prompt is to write a little "
 "batch file @command{setpath.bat} containing"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:905
+#: rw-FAQ.texi:881
 #, no-wrap
 msgid "set PATH=newstuff;%PATH%\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:909
+#: rw-FAQ.texi:885
 msgid "and then run @command{cmd} with"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:912
+#: rw-FAQ.texi:888
 #, no-wrap
 msgid "CMD /K setpath.bat\n"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927 rw-FAQ.texi:929 rw-FAQ.texi:956
+#: rw-FAQ.texi:903 rw-FAQ.texi:905 rw-FAQ.texi:932
 #, no-wrap
 msgid "The installer does not offer my language"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927 rw-FAQ.texi:929 rw-FAQ.texi:956 rw-FAQ.texi:968
+#: rw-FAQ.texi:903 rw-FAQ.texi:905 rw-FAQ.texi:932 rw-FAQ.texi:944
 #, no-wrap
 msgid "I want R in English!"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927 rw-FAQ.texi:956 rw-FAQ.texi:968 rw-FAQ.texi:1005
+#: rw-FAQ.texi:903 rw-FAQ.texi:932 rw-FAQ.texi:944 rw-FAQ.texi:982
 #, no-wrap
 msgid "I want to run R in Chinese/Japanese/Korean"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927 rw-FAQ.texi:968 rw-FAQ.texi:1005 rw-FAQ.texi:1019
+#: rw-FAQ.texi:903 rw-FAQ.texi:944 rw-FAQ.texi:982 rw-FAQ.texi:996
 #, no-wrap
 msgid "I selected English for installation but R runs in Chinese"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927 rw-FAQ.texi:1005 rw-FAQ.texi:1019 rw-FAQ.texi:1042
+#: rw-FAQ.texi:903 rw-FAQ.texi:982 rw-FAQ.texi:996 rw-FAQ.texi:1019
 #, no-wrap
 msgid "I would like to be able to use Japanese fonts"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927 rw-FAQ.texi:1019 rw-FAQ.texi:1042 rw-FAQ.texi:1055
+#: rw-FAQ.texi:903 rw-FAQ.texi:996 rw-FAQ.texi:1019 rw-FAQ.texi:1032
 #, no-wrap
 msgid "I don't see characters with accents at the R console"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:927 rw-FAQ.texi:1042 rw-FAQ.texi:1055
+#: rw-FAQ.texi:903 rw-FAQ.texi:1019 rw-FAQ.texi:1032
 #, no-wrap
 msgid "The dialog buttons are not translated"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:930
+#: rw-FAQ.texi:906
 #, no-wrap
 msgid "The installer does not offer my language."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:955
+#: rw-FAQ.texi:931
 msgid ""
 "Only a limited range of languages is supported, currently Catalan, both "
 "Simplified and Traditional Chinese, Czech, Danish, Dutch, Finnish, French, "
@@ -1636,20 +1594,20 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:957
+#: rw-FAQ.texi:933
 #, no-wrap
 msgid "I want R in English (and not in French/Chinese/...)!"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:961
+#: rw-FAQ.texi:937
 msgid ""
 "The default behaviour of R is to try to run in the language you run Windows "
 "in."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:967
+#: rw-FAQ.texi:943
 msgid ""
 "Apparently some users want@footnote{or they may have no choice: apparently "
 "some Windows editions are tied to a specific language.} Windows in their "
@@ -1658,13 +1616,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:969
+#: rw-FAQ.texi:945
 #, no-wrap
 msgid "I want to run R in Chinese/Japanese/Korean."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:974
+#: rw-FAQ.texi:950
 msgid ""
 "Suitable versions of Windows support what it calls `East Asian' languages, "
 "but e.g.@: Western installations of Windows often do not have such support.  "
@@ -1672,7 +1630,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:983
+#: rw-FAQ.texi:959
 msgid ""
 "Both @command{Rterm.exe} and @command{Rgui.exe} support single- and "
 "double-width characters.  It will be necessary to select suitable fonts in "
@@ -1685,7 +1643,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:988
+#: rw-FAQ.texi:964
 msgid ""
 "Note that it is important that the console font uses double-width characters "
 "for all CJK characters (as that is what the width table used assumes): this "
@@ -1694,7 +1652,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:999
+#: rw-FAQ.texi:976
 msgid ""
 "You do need to ensure that R is running in a suitable locale: use "
 "@code{Sys.getlocale()} to find out.  (CJK users may be used to their "
@@ -1702,13 +1660,15 @@ msgid ""
 "`Unicode' Windows applications.  However, R is primarily written for "
 "Unix-alikes and is not therefore `Unicode' in the Windows sense.)  You can "
 "find suitable locale names from "
-"@uref{http://msdn.microsoft.com/@/library/@/default.asp?url=/@/library/@/en-us/@/vccore98/@/html/@/_crt_language_and_country_strings.asp}: "
+"@uref{https://msdn.microsoft.com/@/en-us/@/library/@/39cwe7zf%28v=vs.80%29.aspx} "
+"and "
+"@uref{https://msdn.microsoft.com/@/en-us/@/library/cdax410z%28v=vs.80%29.aspx} "
 "beware that @code{\"Chinese\"} is Traditional Chinese (code page 950, Big5) "
 "and @code{\"chs\"} is needed for Simplified Chinese (code page 936, GB2312)."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1004
+#: rw-FAQ.texi:981
 msgid ""
 "When using @command{Rterm} the window in which it is run has to be set up to "
 "use a suitable font (e.g. @code{Lucida Console} or @code{Consolas}, not the "
@@ -1717,13 +1677,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1006
+#: rw-FAQ.texi:983
 #, no-wrap
 msgid "I selected English for installation but R runs in Chinese."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1012
+#: rw-FAQ.texi:989
 msgid ""
 "Precisely, you selected English @strong{for installation}! The language of "
 "the installer has nothing to do with the language used to run R: this is "
@@ -1732,7 +1692,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1018
+#: rw-FAQ.texi:995
 msgid ""
 "The language R uses for menus and messages is determined by the "
 "@emph{locale}: please read the appropriate manual (`R Installation and "
@@ -1742,20 +1702,20 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1020
+#: rw-FAQ.texi:997
 #, no-wrap
 msgid "I would like to be able to use Japanese fonts."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1024
+#: rw-FAQ.texi:1001
 msgid ""
 "for example, in the console and to annotate graphs.  Similar comments apply "
 "to any non-Western-European language."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1034
+#: rw-FAQ.texi:1011
 msgid ""
 "With suitable fonts, this should just work.  You will need to set MS Mincho "
 "or MS Gothic as the console font to ensure that single- and double-width "
@@ -1768,7 +1728,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1038
+#: rw-FAQ.texi:1015
 msgid ""
 "In addition, the Hershey vector fonts (see @code{?Hershey}, @code{?Japanese} "
 "and @code{demo(Japanese)}) can be used on any graphics device to display "
@@ -1776,20 +1736,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1041
+#: rw-FAQ.texi:1018
 msgid ""
 "To use non-Latin-1 characters in the @code{postscript} graphics device, see "
 "its help page (which also applies to @code{pdf})."
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1043
+#: rw-FAQ.texi:1020
 #, no-wrap
 msgid "I don't see characters with accents at the R console, for example in ?text."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1048
+#: rw-FAQ.texi:1025
 msgid ""
 "You need to specify a font in @file{Rconsole} (see Q5.2) that supports the "
 "encoding in use.  This used to be a problem in earlier versions of Windows, "
@@ -1797,7 +1757,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1054
+#: rw-FAQ.texi:1031
 msgid ""
 "Support for these characters within @command{Rterm} depends on the "
 "environment (the terminal window and shell, including locale and codepage "
@@ -1806,13 +1766,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1056
+#: rw-FAQ.texi:1033
 #, no-wrap
 msgid "The dialog buttons are not translated."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1063
+#: rw-FAQ.texi:1040
 msgid ""
 "In most cases they actually are, but by Windows.  Setting the locale or the "
 "@code{LANGUAGE} environment variable does not change the Windows setting of "
@@ -1822,7 +1782,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1070
+#: rw-FAQ.texi:1047
 msgid ""
 "If you have Windows running completely in say French or Chinese these "
 "settings are likely to be consistent.  However, if you try to run Windows in "
@@ -1831,97 +1791,97 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1095 rw-FAQ.texi:1096 rw-FAQ.texi:1139
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1072 rw-FAQ.texi:1073 rw-FAQ.texi:1116
 #, no-wrap
 msgid "Can I install packages into libraries in this version?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1095 rw-FAQ.texi:1139 rw-FAQ.texi:1184
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1072 rw-FAQ.texi:1116 rw-FAQ.texi:1161
 #, no-wrap
 msgid "I don't have permission to write to the 3.3.0 \\library directory"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1139 rw-FAQ.texi:1184 rw-FAQ.texi:1191
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1116 rw-FAQ.texi:1161 rw-FAQ.texi:1168
 #, no-wrap
 msgid "The packages I installed do not appear in the HTML help system"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1184 rw-FAQ.texi:1191 rw-FAQ.texi:1192 rw-FAQ.texi:1198
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1161 rw-FAQ.texi:1168 rw-FAQ.texi:1169 rw-FAQ.texi:1175
 #, no-wrap
 msgid "My functions are not found by the HTML help search system."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1191 rw-FAQ.texi:1198 rw-FAQ.texi:1199 rw-FAQ.texi:1217
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1168 rw-FAQ.texi:1175 rw-FAQ.texi:1176 rw-FAQ.texi:1194
 #, no-wrap
 msgid "Loading a package fails."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1198 rw-FAQ.texi:1217 rw-FAQ.texi:1218 rw-FAQ.texi:1250
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1175 rw-FAQ.texi:1194 rw-FAQ.texi:1195 rw-FAQ.texi:1227
 #, no-wrap
 msgid "Package TclTk does not work."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1217 rw-FAQ.texi:1250 rw-FAQ.texi:1258
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1194 rw-FAQ.texi:1227 rw-FAQ.texi:1235
 #, no-wrap
 msgid "Hyperlinks in HTML do not work."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1250 rw-FAQ.texi:1258 rw-FAQ.texi:1275
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1227 rw-FAQ.texi:1235 rw-FAQ.texi:1252
 #, no-wrap
 msgid "update.packages() fails"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1258 rw-FAQ.texi:1275 rw-FAQ.texi:1276 rw-FAQ.texi:1285
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1235 rw-FAQ.texi:1252 rw-FAQ.texi:1253 rw-FAQ.texi:1262
 #, no-wrap
 msgid "How do I add to the list of repositories?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1275 rw-FAQ.texi:1285 rw-FAQ.texi:1286 rw-FAQ.texi:1291
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1252 rw-FAQ.texi:1262 rw-FAQ.texi:1263 rw-FAQ.texi:1268
 #, no-wrap
 msgid "Help is not shown for some of the packages"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1285 rw-FAQ.texi:1291 rw-FAQ.texi:1292 rw-FAQ.texi:1323
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1262 rw-FAQ.texi:1268 rw-FAQ.texi:1269 rw-FAQ.texi:1300
 #, no-wrap
 msgid "How do I get static HTML pages?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1291 rw-FAQ.texi:1323 rw-FAQ.texi:1324 rw-FAQ.texi:1346
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1268 rw-FAQ.texi:1300 rw-FAQ.texi:1301 rw-FAQ.texi:1323
 #, no-wrap
 msgid "How can I get a binary version of a package?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1323 rw-FAQ.texi:1346 rw-FAQ.texi:1347 rw-FAQ.texi:1367
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1300 rw-FAQ.texi:1323 rw-FAQ.texi:1324 rw-FAQ.texi:1344
 #, no-wrap
 msgid "Package xxx is out of date for Windows"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1346 rw-FAQ.texi:1367 rw-FAQ.texi:1368 rw-FAQ.texi:1378
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1323 rw-FAQ.texi:1344 rw-FAQ.texi:1345 rw-FAQ.texi:1355
 #, no-wrap
 msgid "No binary packages appear to be available for my version of R"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1092 rw-FAQ.texi:1367 rw-FAQ.texi:1378 rw-FAQ.texi:1379
+#: rw-FAQ.texi:1069 rw-FAQ.texi:1344 rw-FAQ.texi:1355 rw-FAQ.texi:1356
 #, no-wrap
 msgid "How do I build my package for both 32- and 64-bit R?"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1104
+#: rw-FAQ.texi:1081
 msgid ""
 "Yes, but you will need a lot of tools to do so, unless the author or the "
 "maintainers of the @file{bin/windows/contrib} section on CRAN have been kind "
@@ -1931,7 +1891,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1111
+#: rw-FAQ.texi:1088
 msgid ""
 "You can install binary packages either from a repository such as CRAN or "
 "from a local @code{.zip} file by using @code{install.packages}: see its help "
@@ -1942,7 +1902,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1115
+#: rw-FAQ.texi:1092
 msgid ""
 "Note that the binary versions on CRAN are unsupported: see "
 "@uref{https://cran.r-project.org/@/bin/@/windows/@/contrib/@/3.1/@/ReadMe}, "
@@ -1950,7 +1910,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1129
+#: rw-FAQ.texi:1106
 msgid ""
 "If there is no binary package or that is not up-to-date or you prefer "
 "compiling from source, read the `R Installation and Administration' manual "
@@ -1968,7 +1928,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1134
+#: rw-FAQ.texi:1111
 msgid ""
 "Note that setting up Windows to install a source package that needs "
 "compilation is rather tricky; please do ensure that you have followed the "
@@ -1977,7 +1937,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1138
+#: rw-FAQ.texi:1115
 msgid ""
 "If you have a source package that is known to work on a Unix-alike system, "
 "you can try the automated Windows binary package builder documented at "
@@ -1985,13 +1945,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1140
+#: rw-FAQ.texi:1117
 #, no-wrap
 msgid "I don't have permission to write to the @file{3.3.0 \\library} directory."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1145
+#: rw-FAQ.texi:1122
 msgid ""
 "You can install packages anywhere and use the environment variable "
 "@env{R_LIBS} (@pxref{How do I set environment variables?}) to point to the "
@@ -1999,31 +1959,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1148
+#: rw-FAQ.texi:1125
 msgid ""
 "Suppose your packages are installed in @file{p:\\myRlib}.  Then you can "
 "EITHER"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1151
+#: rw-FAQ.texi:1128
 #, no-wrap
 msgid "set the environment variable R_LIBS to p:/myRlib before starting R\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1154
+#: rw-FAQ.texi:1131
 msgid "OR use a package by, e.g.@:"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1157
+#: rw-FAQ.texi:1134
 #, no-wrap
 msgid "library(mypkg, lib.loc=\"p:/myRlib\")\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1165
+#: rw-FAQ.texi:1142
 msgid ""
 "You can also have a personal library, which defaults to the directory "
 "@file{R\\win-library\\@var{x.y}} of your home directory for versions "
@@ -2034,13 +1994,13 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1168
+#: rw-FAQ.texi:1145
 #, no-wrap
 msgid "dir.create(Sys.getenv(\"R_LIBS_USER\"), recursive = TRUE)\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1176
+#: rw-FAQ.texi:1153
 msgid ""
 "to do so.  If you use @code{install.packages} and do not have permission to "
 "write to the main or site library, it should offer to create a personal "
@@ -2050,7 +2010,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1182
+#: rw-FAQ.texi:1159
 msgid ""
 "There can be additional security issues under Windows Vista and later: "
 "@xref{Does R run under Windows Vista?}.  In particular, the detection that a "
@@ -2059,27 +2019,27 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1185
+#: rw-FAQ.texi:1162
 #, no-wrap
 msgid "The packages I installed do not appear in the HTML help system."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1189
+#: rw-FAQ.texi:1166
 msgid ""
 "This question applied to the pre-2.10.0 HTML help system, which has been "
 "replaced."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1196
+#: rw-FAQ.texi:1173
 msgid ""
 "This question applied to the pre-2.10.0 search system, which has been "
 "replaced."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1204
+#: rw-FAQ.texi:1181
 msgid ""
 "Is the package installed for this version of R? Packages need to have "
 "prepared for R 2.10.0 or later, and packages containing compiled code for R "
@@ -2087,14 +2047,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1207
+#: rw-FAQ.texi:1184
 msgid ""
 "You can tell the version the package was compiled for by looking at the "
 "@samp{Built:} line in its @file{DESCRIPTION} file."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1215
+#: rw-FAQ.texi:1192
 msgid ""
 "For a small number of binary packages you need to install additional "
 "software and have its DLLs in your @code{PATH}.  Windows will normally give "
@@ -2106,7 +2066,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1223
+#: rw-FAQ.texi:1200
 msgid ""
 "For package @code{tcltk} to work (try @code{demo(tkdensity)} or "
 "@code{demo(tkttest)} after @code{library(tcltk)}) you need to have Tcl/Tk "
@@ -2114,7 +2074,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1233
+#: rw-FAQ.texi:1210
 msgid ""
 "However, if you have the environment variable @env{MY_TCLTK} set to a "
 "non-empty value, it is assumed that you want to use a different Tcl/Tk 8.5.x "
@@ -2127,7 +2087,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1239
+#: rw-FAQ.texi:1216
 msgid ""
 "In the past several package authors have suggested using ActiveTcl "
 "(@uref{https://www.activestate.com/@/Products/@/activetcl/}) as a way to get "
@@ -2137,13 +2097,13 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1242
+#: rw-FAQ.texi:1219
 #, no-wrap
 msgid "MY_TCLTK=c:/Tcl/bin\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1248
+#: rw-FAQ.texi:1225
 msgid ""
 "@strong{but} current versions do not by default contain any extra extensions "
 "(although they may be downloaded via the @code{Teacup} facility) and this "
@@ -2151,31 +2111,31 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1251
+#: rw-FAQ.texi:1228
 #, no-wrap
 msgid "Hyperlinks in HTML sometimes do not work."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1254
+#: rw-FAQ.texi:1231
 msgid "This question was much more relevant prior to version 2.10.0."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1257
+#: rw-FAQ.texi:1234
 msgid ""
 "They may still not work between packages installed in different libraries if "
 "the HTTP server has been disabled: the remedy is not to do that!"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1259
+#: rw-FAQ.texi:1236
 #, no-wrap
 msgid "@code{update.packages()} fails."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1264
+#: rw-FAQ.texi:1241
 msgid ""
 "You may not be able to update a package which is in use: Windows `locks' the "
 "package's DLL when it is loaded.  So use @code{update.packages()} (or the "
@@ -2183,7 +2143,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1269
+#: rw-FAQ.texi:1246
 msgid ""
 "If you put @code{library(foo)} in your @file{.Rprofile} you will need to "
 "start R with @option{--vanilla} to be able to update package @code{foo}.  If "
@@ -2192,7 +2152,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1273
+#: rw-FAQ.texi:1250
 msgid ""
 "It has been reported that some other software has interfered with the "
 "installation process by preventing the renaming of temporary files, "
@@ -2200,14 +2160,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1280
+#: rw-FAQ.texi:1257
 msgid ""
 "as shown in the @code{Select repositories...} item on the @code{Packages} "
 "menu?"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1284
+#: rw-FAQ.texi:1261
 msgid ""
 "This reads from the tab-delimited file @file{R_HOME\\etc\\repositories}, "
 "which you can edit, or put a modified copy at @file{.R\\repositories} in "
@@ -2215,14 +2175,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1290
+#: rw-FAQ.texi:1267
 msgid ""
 "This was about Compiled HTML help, which has not been supported since R "
 "2.10.0."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1300
+#: rw-FAQ.texi:1277
 msgid ""
 "We presume you want to do this for some special purpose: R's help system "
 "will not make use of them, links across library directories will not work "
@@ -2232,7 +2192,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1304
+#: rw-FAQ.texi:1281
 msgid ""
 "Static HTML pages are not part of the binary distribution, so you will need "
 "to install R and/or packages from their sources.  To install just a few "
@@ -2240,13 +2200,13 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1307
+#: rw-FAQ.texi:1284
 #, no-wrap
 msgid "R CMD INSTALL --html @var{pkg1} @var{pkg2} @dots{}\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1313
+#: rw-FAQ.texi:1290
 msgid ""
 "To install R itself with static HTML pages you need to build it from the "
 "sources for yourself.  Change the following line in file "
@@ -2255,7 +2215,7 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1317
+#: rw-FAQ.texi:1294
 #, no-wrap
 msgid ""
 "# set this to YES to build static HTML help\n"
@@ -2263,19 +2223,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1322
+#: rw-FAQ.texi:1299
 msgid ""
 "and them all packages installed by that build of R will (by default) be "
 "installed with static HTML pages."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1327
+#: rw-FAQ.texi:1304
 msgid "Presumably one not available on CRAN, BioC or a similar repository."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1333
+#: rw-FAQ.texi:1310
 msgid ""
 "If you have a source package that is known to work on a Unix-alike system, "
 "you can try the automated Windows binary package builder documented at "
@@ -2285,7 +2245,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1340
+#: rw-FAQ.texi:1317
 msgid ""
 "However, if a CRAN package is not available in binary form, this usually "
 "means that there is a problem with some dependent package or external "
@@ -2296,7 +2256,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1345
+#: rw-FAQ.texi:1322
 msgid ""
 "In many cases installing packages from the sources is not at all difficult "
 "(it is simple if the package contains no compiled code), so please attempt "
@@ -2304,12 +2264,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1350
+#: rw-FAQ.texi:1327
 msgid "Here are three possible reasons:"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1357
+#: rw-FAQ.texi:1334
 msgid ""
 "You are simply impatient, and need to wait until the binary package has been "
 "built and propagated to the CRAN mirror you are using.  This normally (but "
@@ -2320,7 +2280,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1361
+#: rw-FAQ.texi:1338
 msgid ""
 "The latest version of the package might require a later version of R than "
 "the one you are using.  You can check on the package's HTML page on CRAN, "
@@ -2328,7 +2288,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1366
+#: rw-FAQ.texi:1343
 msgid ""
 "Your R might be too old.  Binary packages for the 3.x series are built (if "
 "possible) whilst 3.(x+1) is current, but building stops once 3.(x+2)  "
@@ -2337,28 +2297,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1372
+#: rw-FAQ.texi:1349
 msgid ""
 "How old is it? The CRAN policy is to archive binary packages two years after "
 "the 2.x series is closed.  Other repositories may do so sooner."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1376
+#: rw-FAQ.texi:1353
 msgid ""
 "If you are using an R version that old we advise you to update your R, but "
 "you do also have the option of installing packages from their source."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1383
+#: rw-FAQ.texi:1360
 msgid ""
 "Packages without compiled code nor a @file{configure.win} script will run on "
 "both 32- and 64-bit R."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1387
+#: rw-FAQ.texi:1364
 msgid ""
 "Packages with compiled code but no @file{configure.win} nor "
 "@code{src/Makefile.win} file will be built for both when running on a 64-bit "
@@ -2366,7 +2326,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1395
+#: rw-FAQ.texi:1372
 msgid ""
 "An empty @file{configure.win} is treated in the same way as if none "
 "existed.  Also, there is a list of packages known to have an "
@@ -2377,7 +2337,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1400
+#: rw-FAQ.texi:1377
 msgid ""
 "Any package can be installed for first one architecture and then the other "
 "with option @option{--merge-multiarch}, but the package source must be a "
@@ -2386,7 +2346,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1407
+#: rw-FAQ.texi:1384
 msgid ""
 "Finally, a package without a @code{src/Makefile.win} file and no or empty or "
 "architecture-independent @code{configure.win} file can be installed for both "
@@ -2396,43 +2356,43 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1421 rw-FAQ.texi:1444
+#: rw-FAQ.texi:1395 rw-FAQ.texi:1398 rw-FAQ.texi:1421
 #, no-wrap
 msgid "What should I expect to behave differently from the Unix version"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1421 rw-FAQ.texi:1444 rw-FAQ.texi:1483
+#: rw-FAQ.texi:1395 rw-FAQ.texi:1398 rw-FAQ.texi:1421 rw-FAQ.texi:1460
 #, no-wrap
 msgid "I hear about some nifty features."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1444 rw-FAQ.texi:1483 rw-FAQ.texi:1502
+#: rw-FAQ.texi:1395 rw-FAQ.texi:1421 rw-FAQ.texi:1460 rw-FAQ.texi:1479
 #, no-wrap
 msgid "Circles appear as ovals on screen"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1483 rw-FAQ.texi:1502 rw-FAQ.texi:1503 rw-FAQ.texi:1516
+#: rw-FAQ.texi:1395 rw-FAQ.texi:1460 rw-FAQ.texi:1479 rw-FAQ.texi:1480 rw-FAQ.texi:1493
 #, no-wrap
 msgid "How do I move focus to a graphics window or the console?"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1418 rw-FAQ.texi:1502 rw-FAQ.texi:1516 rw-FAQ.texi:1517
+#: rw-FAQ.texi:1395 rw-FAQ.texi:1479 rw-FAQ.texi:1493 rw-FAQ.texi:1494
 #, no-wrap
 msgid "What does TAB completion do?"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1422
+#: rw-FAQ.texi:1399
 #, no-wrap
 msgid "What should I expect to behave differently from the Unix version of R?"
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1429
+#: rw-FAQ.texi:1406
 msgid ""
 "R commands can be interrupted by @key{Esc} in @command{Rgui.exe} and "
 "@key{Ctrl-break} or @key{Ctrl-C} in @command{Rterm.exe}: @key{Ctrl-C} is "
@@ -2440,7 +2400,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1435
+#: rw-FAQ.texi:1412
 msgid ""
 "Command-line editing is always available, but is somewhat simpler than the "
 "readline-based editing on Unix.  For @command{Rgui.exe}, the menu item `Help "
@@ -2449,35 +2409,35 @@ msgid ""
 msgstr ""
 
 #. type: item
-#: rw-FAQ.texi:1436
+#: rw-FAQ.texi:1413
 #, no-wrap
 msgid "Paths to files (e.g.@: in @code{source()}) can be specified with"
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1438
+#: rw-FAQ.texi:1415
 msgid "either \"/\" or \"\\\\\"."
 msgstr ""
 
 #. type: item
-#: rw-FAQ.texi:1439
+#: rw-FAQ.texi:1416
 #, no-wrap
 msgid "@code{system()} is slightly different: see its help page and that"
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1441
+#: rw-FAQ.texi:1418
 msgid "of @code{shell()}."
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1445
+#: rw-FAQ.texi:1422
 #, no-wrap
 msgid "I hear about some nifty features: please tell me about them!"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1453
+#: rw-FAQ.texi:1430
 msgid ""
 "You have read the file @file{README.3.3.0 }? There are file menus on the R "
 "console, pager and graphics windows.  You can source and save from those "
@@ -2488,19 +2448,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1456
+#: rw-FAQ.texi:1433
 msgid ""
 "If you resize the R console the @code{options(width=)} is automatically set "
 "to the console width (unless disabled in the configuration file)."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1458
+#: rw-FAQ.texi:1435
 msgid "The graphics has a history mechanism.  As @file{README.3.3.0 } says:"
 msgstr ""
 
 #. type: quotation
-#: rw-FAQ.texi:1469
+#: rw-FAQ.texi:1446
 msgid ""
 "`The History menu allows the recording of plots.  When plots have been "
 "recorded they can be reviewed by @key{PgUp} and @key{PgDn}, saved and "
@@ -2513,12 +2473,12 @@ msgid ""
 msgstr ""
 
 #. type: quotation
-#: rw-FAQ.texi:1471
+#: rw-FAQ.texi:1448
 msgid "There is only one graphics history shared by all the windows devices.'"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1481
+#: rw-FAQ.texi:1458
 msgid ""
 "The R console and graphics windows have configuration files stored in the "
 "@file{RHOME\\etc} directory called @file{Rconsole} and @file{Rdevga}; you "
@@ -2530,13 +2490,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1484
+#: rw-FAQ.texi:1461
 #, no-wrap
 msgid "Circles appear as ovals on screen."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1494
+#: rw-FAQ.texi:1471
 msgid ""
 "The graphics system asks Windows for the number of pixels per inch in the X "
 "and Y directions, and uses that to size graphics (which in R are in units of "
@@ -2548,7 +2508,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1498
+#: rw-FAQ.texi:1475
 msgid ""
 "On one of our systems, the screen height was reported as 240mm, and the "
 "width as 300mm in 1280 x 1024 mode and 320mm in 1280 x 960 and 1600 x 1200 "
@@ -2556,14 +2516,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1501
+#: rw-FAQ.texi:1478
 msgid ""
 "This is less common with LCD screens but not unknown, particularly if they "
 "are not running at their native resolution."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1510
+#: rw-FAQ.texi:1487
 msgid ""
 "You may want to do this from within a function, for example when calling "
 "@samp{identify} or @samp{readline}.  Use the function @samp{bringToTop()}.  "
@@ -2573,7 +2533,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1514
+#: rw-FAQ.texi:1491
 msgid ""
 "This works for @command{Rgui.exe} in MDI and SDI modes, and can be used for "
 "graphics windows from @command{Rterm.exe} (although Windows may not always "
@@ -2581,7 +2541,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1525
+#: rw-FAQ.texi:1502
 msgid ""
 "Both @command{Rgui} and @command{Rterm} support @kbd{TAB} completion.  "
 "Hitting @kbd{TAB} whilst entering a command line completes the current "
@@ -2592,7 +2552,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1537
+#: rw-FAQ.texi:1514
 msgid ""
 "What is it `completing'? There are two modes: within an unterminated "
 "(single- or double-) quoted expression it completes file paths.@footnote{It "
@@ -2608,7 +2568,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1543
+#: rw-FAQ.texi:1520
 msgid ""
 "This feature can be turned off: @command{Rgui} has two menu items to do so, "
 "and setting the environment variable @env{R_COMPLETION} to @code{FALSE} "
@@ -2617,18 +2577,18 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1546
+#: rw-FAQ.texi:1523
 #, no-wrap
 msgid "?rc.settings\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1550
+#: rw-FAQ.texi:1527
 msgid "which also explains how the various types of completion work."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1554
+#: rw-FAQ.texi:1531
 msgid ""
 "This feature is very similar to the completion available in the "
 "@code{readline}-based command line interface on Unix-alikes: the OS X GUI "
@@ -2636,36 +2596,36 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1564 rw-FAQ.texi:1567 rw-FAQ.texi:1573
+#: rw-FAQ.texi:1541 rw-FAQ.texi:1544 rw-FAQ.texi:1550
 #, no-wrap
 msgid "My workspace gets saved in a strange place.  How do I stop this?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1564 rw-FAQ.texi:1567 rw-FAQ.texi:1573 rw-FAQ.texi:1574 rw-FAQ.texi:1585
+#: rw-FAQ.texi:1541 rw-FAQ.texi:1544 rw-FAQ.texi:1550 rw-FAQ.texi:1551 rw-FAQ.texi:1562
 #, no-wrap
 msgid "How do I store my workspace in a different place?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1564 rw-FAQ.texi:1573 rw-FAQ.texi:1585
+#: rw-FAQ.texi:1541 rw-FAQ.texi:1550 rw-FAQ.texi:1562
 #, no-wrap
 msgid "Can I load workspaces saved under Unix/GNU-Linux or OS X?"
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1568
+#: rw-FAQ.texi:1545
 #, no-wrap
 msgid "My workspace gets saved in a strange place: how do I stop this?"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1571
+#: rw-FAQ.texi:1548
 msgid "Have you changed the working directory?: see Q6.2."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1580
+#: rw-FAQ.texi:1557
 msgid ""
 "Use the `File | Change Dir...' menu item to select a new working directory: "
 "this defaults to the last directory you loaded a file from.  The workspace "
@@ -2674,27 +2634,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1583
+#: rw-FAQ.texi:1560
 msgid ""
 "From the command line you can change the working directory by the function "
 "@code{setwd}: see its help page."
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1586
+#: rw-FAQ.texi:1563
 #, no-wrap
 msgid "Can I load workspaces saved under Unix/GNU-Linux or Mac OS X?"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1590
+#: rw-FAQ.texi:1567
 msgid ""
 "Yes.  All ports of R use the same format for saved workspaces, so they are "
 "interchangeable (for the same 3.x.? version of R, at least)."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1599
+#: rw-FAQ.texi:1576
 msgid ""
 "Note though that character data in a workspace will be in a particular "
 "encoding that is not recorded in the workspace, so workspaces containing "
@@ -2707,7 +2667,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1603
+#: rw-FAQ.texi:1580
 msgid ""
 "It is possible to save references to package namespaces when saving the "
 "workspace: if that happens the package will need to be installed on the "
@@ -2715,25 +2675,25 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1612 rw-FAQ.texi:1617 rw-FAQ.texi:1630
+#: rw-FAQ.texi:1589 rw-FAQ.texi:1594 rw-FAQ.texi:1607
 #, no-wrap
 msgid "The output to the console seems to be delayed"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1612 rw-FAQ.texi:1617 rw-FAQ.texi:1630
+#: rw-FAQ.texi:1589 rw-FAQ.texi:1594 rw-FAQ.texi:1607
 #, no-wrap
 msgid "Long lines seem to be truncated."
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1618
+#: rw-FAQ.texi:1595
 #, no-wrap
 msgid "When using Rgui the output to the console seems to be delayed."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1624
+#: rw-FAQ.texi:1601
 msgid ""
 "This is deliberate: the console output is buffered and re-written in chunks "
 "to be faster and less distracting.  You can turn buffering off or on from "
@@ -2741,7 +2701,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1628
+#: rw-FAQ.texi:1605
 msgid ""
 "If you are sourcing R code or writing from a function, there is another "
 "option.  A call to the R function @code{flush.console()} will write out the "
@@ -2749,13 +2709,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1631
+#: rw-FAQ.texi:1608
 #, no-wrap
 msgid "Long lines in the console or pager are truncated."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1637
+#: rw-FAQ.texi:1614
 msgid ""
 "They only @strong{seem} to be truncated: that $ at the end indicates you can "
 "scroll the window to see the rest of the line.  Use the horizontal scrollbar "
@@ -2764,62 +2724,62 @@ msgid ""
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1656 rw-FAQ.texi:1657 rw-FAQ.texi:1662
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1633 rw-FAQ.texi:1634 rw-FAQ.texi:1639
 #, no-wrap
 msgid "How can I compile R from source?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1656 rw-FAQ.texi:1662 rw-FAQ.texi:1663 rw-FAQ.texi:1699
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1633 rw-FAQ.texi:1639 rw-FAQ.texi:1640 rw-FAQ.texi:1676
 #, no-wrap
 msgid "Can I use a fast BLAS?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1662 rw-FAQ.texi:1699 rw-FAQ.texi:1700 rw-FAQ.texi:1719
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1639 rw-FAQ.texi:1676 rw-FAQ.texi:1677 rw-FAQ.texi:1696
 #, no-wrap
 msgid "How do I include compiled C code?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1699 rw-FAQ.texi:1719 rw-FAQ.texi:1720 rw-FAQ.texi:1807
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1676 rw-FAQ.texi:1696 rw-FAQ.texi:1697 rw-FAQ.texi:1784
 #, no-wrap
 msgid "How do I debug code that I have compiled and dyn.load-ed?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1719 rw-FAQ.texi:1807 rw-FAQ.texi:1808 rw-FAQ.texi:1841
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1696 rw-FAQ.texi:1784 rw-FAQ.texi:1785 rw-FAQ.texi:1818
 #, no-wrap
 msgid "How do I include C++ code?"
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1807 rw-FAQ.texi:1841 rw-FAQ.texi:1855
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1784 rw-FAQ.texi:1818 rw-FAQ.texi:1832
 #, no-wrap
 msgid "The output from my C code disappears."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1841 rw-FAQ.texi:1855 rw-FAQ.texi:1868
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1818 rw-FAQ.texi:1832 rw-FAQ.texi:1845
 #, no-wrap
 msgid "The output from my Fortran code disappears."
 msgstr ""
 
 #. type: node
-#: rw-FAQ.texi:1653 rw-FAQ.texi:1855 rw-FAQ.texi:1868
+#: rw-FAQ.texi:1630 rw-FAQ.texi:1832 rw-FAQ.texi:1845
 #, no-wrap
 msgid "The console freezes when my compiled code is running"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1661
+#: rw-FAQ.texi:1638
 msgid ""
 "See the `R Installation and Administration' manual (for the version of R you "
 "want to install)."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1674
+#: rw-FAQ.texi:1651
 msgid ""
 "Fast BLAS (Basic Linear Algebra Subprograms, "
 "@uref{http://www.netlib.org/@/blas/@/faq.html}) routines are used to speed "
@@ -2832,7 +2792,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1684
+#: rw-FAQ.texi:1661
 msgid ""
 "BLAS support is supplied by the single DLL "
 "@file{R_HOME\\bin\\x64\\Rblas.dll}, and you can add a fast BLAS just by "
@@ -2845,7 +2805,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1695
+#: rw-FAQ.texi:1672
 msgid ""
 "Versions of Dr Kazushige Goto's BLAS (see "
 "@uref{https://en.wikipedia.org/wiki/Kazushige_Goto}) for 64-bit Windows by "
@@ -2860,14 +2820,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1698
+#: rw-FAQ.texi:1675
 msgid ""
 "Note that fast BLAS implementations may give different (and often slightly "
 "less accurate) results than the reference BLAS included in R."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1706
+#: rw-FAQ.texi:1683
 msgid ""
 "We strongly encourage you to do this @emph{via} building an R package: see "
 "the @emph{`Writing R Extensions'} manual.  In any event you should get and "
@@ -2876,13 +2836,13 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1708
+#: rw-FAQ.texi:1685
 #, no-wrap
 msgid "...\\bin\\x64\\R CMD SHLIB foo.c bar.f\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1713
+#: rw-FAQ.texi:1690
 msgid ""
 "to make @file{foo.dll}.  Use @command{...\\bin\\x64\\R CMD SHLIB --help} for "
 "further options, or see @code{?SHLIB}.  (Replace @code{x64} by @code{i386} "
@@ -2890,14 +2850,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1716
+#: rw-FAQ.texi:1693
 msgid ""
 "If you want to use Visual C++, Borland C++ or other compilers, see the "
 "appropriate section in @file{README.packages}."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1728
+#: rw-FAQ.texi:1705
 msgid ""
 "Debugging under Windows is often a fraught process, and sometimes does not "
 "work at all.  If all you need is a @emph{just-in-time} debugger to catch "
@@ -2908,12 +2868,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1730
+#: rw-FAQ.texi:1707
 msgid "First, build a version of the R system with debugging information by"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1734
+#: rw-FAQ.texi:1711
 #, no-wrap
 msgid ""
 "make clean\n"
@@ -2921,36 +2881,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1738
+#: rw-FAQ.texi:1715
 msgid "and make a debug version of your package by"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1741
+#: rw-FAQ.texi:1718
 #, no-wrap
 msgid "Rcmd INSTALL --debug mypkg\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1746
+#: rw-FAQ.texi:1723
 msgid ""
 "You will need a suitable version of @command{gdb} which matches your "
 "compiler.  Then you can debug by"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1749
+#: rw-FAQ.texi:1726
 #, no-wrap
 msgid "gdb /path/to/3.3.0 /bin/x64/Rgui.exe\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1753
+#: rw-FAQ.texi:1730
 msgid "(or use @command{Rterm.exe}.)  However, note"
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1763
+#: rw-FAQ.texi:1740
 msgid ""
 "@command{gdb} may only be able to find the source code if we run in the "
 "location where the source was compiled (@file{3.3.0 /src/gnuwin32} for the "
@@ -2961,7 +2921,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1768
+#: rw-FAQ.texi:1745
 msgid ""
 "It is only possible to set breakpoints in a DLL after the DLL has been "
 "loaded.  So a way to examine the function @code{tukeyline} in package "
@@ -2969,7 +2929,7 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1784
+#: rw-FAQ.texi:1761
 #, no-wrap
 msgid ""
 "     gdb ../../../../bin/i386/Rgui.exe\n"
@@ -2989,7 +2949,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1790
+#: rw-FAQ.texi:1767
 msgid ""
 "Alternatively, in @command{Rgui} you can use the `Misc|Break to debugger' "
 "menu item after your DLL is loaded.  The C function call "
@@ -2997,12 +2957,12 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1793
+#: rw-FAQ.texi:1770
 msgid "Fortran symbols need an underline appended."
 msgstr ""
 
 #. type: itemize
-#: rw-FAQ.texi:1799
+#: rw-FAQ.texi:1776
 msgid ""
 "Windows has little support for signals, so the Unix idea of running a "
 "program under a debugger and sending it a signal to interrupt it and drop "
@@ -3011,7 +2971,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1805
+#: rw-FAQ.texi:1782
 msgid ""
 "See "
 "@uref{http://www.stats.uwo.ca/@/faculty/@/murdoch/@/software/@/debuggingR/@/gdb.shtml} "
@@ -3019,19 +2979,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1811
+#: rw-FAQ.texi:1788
 msgid "You need to do two things:"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1814
+#: rw-FAQ.texi:1791
 msgid ""
 "(a) Write a wrapper to export the symbols you want to call from R as "
 "@code{extern \"C\"}."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1819
+#: rw-FAQ.texi:1796
 msgid ""
 "(b) Include the C++ libraries in the link to make the DLL.  Suppose "
 "@file{X.cc} contains your C++ code, and @file{X_main.cc} is the wrapper, as "
@@ -3040,18 +3000,18 @@ msgid ""
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1822
+#: rw-FAQ.texi:1799
 #, no-wrap
 msgid "...\\bin\\x64\\R CMD SHLIB X.cc X_main.cc\n"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1826
+#: rw-FAQ.texi:1803
 msgid "or (VC++, which requires extension @code{.cpp})"
 msgstr ""
 
 #. type: example
-#: rw-FAQ.texi:1830
+#: rw-FAQ.texi:1807
 #, no-wrap
 msgid ""
 "cl /MT /c X.cpp X_main.cpp\n"
@@ -3059,7 +3019,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1836
+#: rw-FAQ.texi:1813
 msgid ""
 "and call the entry point(s) in @code{X_R}, such as @code{X_main}.  "
 "Construction of static variables will occur when the DLL is loaded, and "
@@ -3067,20 +3027,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1839
+#: rw-FAQ.texi:1816
 msgid ""
 "Note that you will not see the messages from this example in the GUI "
 "console: see the next section."
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1842
+#: rw-FAQ.texi:1819
 #, no-wrap
 msgid "The output from my C code disappears.  Why?"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1849
+#: rw-FAQ.texi:1826
 msgid ""
 "The @command{Rgui.exe} console is a Windows application: writing to "
 "@code{stdout} or @code{stderr} will not produce output in the console.  "
@@ -3090,7 +3050,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1853
+#: rw-FAQ.texi:1830
 msgid ""
 "Note that output from the console is delayed (@pxref{The output to the "
 "console seems to be delayed}), so that you will not normally see any output "
@@ -3098,13 +3058,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1856
+#: rw-FAQ.texi:1833
 #, no-wrap
 msgid "The output from my Fortran code disappears.  Why?"
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1861
+#: rw-FAQ.texi:1838
 msgid ""
 "Writing to Fortran output writes to a file, not the @command{Rgui} console.  "
 "Use one of the subroutines @code{dblepr}, @code{intpr} or @code{realpr} "
@@ -3112,7 +3072,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1866
+#: rw-FAQ.texi:1843
 msgid ""
 "Note that output from the console is delayed (@pxref{The output to the "
 "console seems to be delayed}), so that you will not normally see any output "
@@ -3121,13 +3081,13 @@ msgid ""
 msgstr ""
 
 #. type: section
-#: rw-FAQ.texi:1869
+#: rw-FAQ.texi:1846
 #, no-wrap
 msgid "The console freezes when my compiled code is running."
 msgstr ""
 
 #. type: Plain text
-#: rw-FAQ.texi:1876
+#: rw-FAQ.texi:1853
 msgid ""
 "The console, pagers and graphics window all run in the same thread as the R "
 "engine.  To allow the console etc to respond to Windows events, call "
@@ -3137,7 +3097,7 @@ msgid ""
 msgstr ""
 
 #. type: ifhtml
-#: rw-FAQ.texi:1885
+#: rw-FAQ.texi:1862
 msgid ""
 "@html <hr WIDTH=\"100%\"> <address> Last edited @value{LASTEDIT}: comments "
 "to <code><a "
@@ -3146,6 +3106,6 @@ msgid ""
 msgstr ""
 
 #. type: ifinfo
-#: rw-FAQ.texi:1890
+#: rw-FAQ.texi:1867
 msgid "Last edited @value{LASTEDIT}: comments to <R-windows@@r-project.org>"
 msgstr ""

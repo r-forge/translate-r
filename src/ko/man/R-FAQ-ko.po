@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: translation.ko_0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
-"POT-Creation-Date: 2015-08-03 07:44-0600\n"
+"POT-Creation-Date: 2015-08-18 02:49-0600\n"
 "PO-Revision-Date: 2015-07-20 22:47-0600\n"
 "Last-Translator: Chel Hee Lee <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee <chl948@mail.usask.ca>\n"
@@ -170,9 +170,9 @@ msgstr "@html <h2>Frequently Asked Questions on R</h2> <h3 style=\"text-align: c
 #: R-FAQ.texi:1683
 #: R-FAQ.texi:2067
 #: R-FAQ.texi:2191
-#: R-FAQ.texi:3410
-#: R-FAQ.texi:3503
-#: R-FAQ.texi:3647
+#: R-FAQ.texi:3420
+#: R-FAQ.texi:3513
+#: R-FAQ.texi:3657
 #, no-wrap
 msgid "Top"
 msgstr ""
@@ -256,9 +256,9 @@ msgstr "R 버그(Bugs)::"
 #
 #. type: chapter
 #: R-FAQ.texi:104
-#: R-FAQ.texi:3503
-#: R-FAQ.texi:3647
-#: R-FAQ.texi:3648
+#: R-FAQ.texi:3513
+#: R-FAQ.texi:3657
+#: R-FAQ.texi:3658
 #, no-wrap
 msgid "Acknowledgments"
 msgstr "감사의 말씀(Acknowledgements)"
@@ -679,11 +679,10 @@ msgstr "R 원시코드 (sources), 바이너리 (binaries), 그리고 문서들(d
 msgid "Sources are also available via @url{https://svn.R-project.org/R/}, the R Subversion repository, but currently not via anonymous rsync (nor CVS)."
 msgstr "원시코드 (sources)는 또한 R 서브버전 저장소 (subversion repository)인 @url{https://svn.R-project.org/R/}를 통하여 얻을 수 있습니다.  그러나, 익명 rsync (그리고 CVS)를 사용할 수 없습니다."
 
-#
 #. type: Plain text
 #: R-FAQ.texi:339
-msgid "Tarballs with daily snapshots of the r-devel and r-patched development versions of R can be found at @url{ftp://ftp.stat.math.ethz.ch/Software/R/}."
-msgstr "개발자 버전의 R인 r-devel 과 r-patched 파일들이 Tarballs 형식으로 압축되어 @url{ftp://ftp.stat.math.ethz.ch/Software/R/} 에 매일 업데이트 됩니다.  "
+msgid "Tarballs with daily snapshots of the r-devel and r-patched development versions of R can be found at @url{https://stat.ethz.ch/R/daily}."
+msgstr ""
 
 #
 #. type: node
@@ -3336,7 +3335,7 @@ msgstr ""
 #: R-FAQ.texi:3288
 #: R-FAQ.texi:3328
 #: R-FAQ.texi:3383
-#: R-FAQ.texi:3410
+#: R-FAQ.texi:3420
 #, no-wrap
 msgid "R Miscellanea"
 msgstr "R 기타사항들(Miscellanea)"
@@ -3489,14 +3488,14 @@ msgstr ""
 #
 #. type: node
 #: R-FAQ.texi:2191
-#: R-FAQ.texi:3410
-#: R-FAQ.texi:3411
+#: R-FAQ.texi:3420
 #: R-FAQ.texi:3421
-#: R-FAQ.texi:3434
-#: R-FAQ.texi:3450
-#: R-FAQ.texi:3465
-#: R-FAQ.texi:3495
-#: R-FAQ.texi:3503
+#: R-FAQ.texi:3431
+#: R-FAQ.texi:3444
+#: R-FAQ.texi:3460
+#: R-FAQ.texi:3475
+#: R-FAQ.texi:3505
+#: R-FAQ.texi:3513
 #, no-wrap
 msgid "R Programming"
 msgstr "R 프로그래밍(Programming)"
@@ -5507,351 +5506,360 @@ msgid "Most systems use two separate ways to allocate memory. For allocation of 
 msgstr ""
 
 #. type: Plain text
-#: R-FAQ.texi:3393
-msgid "When R transfers files over @acronym{HTTP} (e.g., using the @code{install.packages()} or @code{download.file()} function), a download method is chosen based on the @option{download.file.method} option.  There are several methods available and the default behavior if no option is explicitly specified is to use R's internal @acronym{HTTP} implementation.  In many circumstances this internal method will not support @acronym{HTTPS} connections so you'll need to override the default."
+#: R-FAQ.texi:3396
+msgid "When R transfers files over @acronym{HTTP} (e.g., using the @code{install.packages()} or @code{download.file()} function), a download method is chosen based on the @option{download.file.method} option.  There are several methods available and the default behavior if no option is explicitly specified is to use R's internal @acronym{HTTP} implementation.  In most circumstances this internal method will not support @acronym{HTTPS} URLs so you will need to override the default: this is done automatically for such URLs as from R 3.2.2."
 msgstr ""
 
 #. type: Plain text
-#: R-FAQ.texi:3398
-msgid "R versions 3.2.0 and greater include two download methods (@code{\"libcurl\"} and @code{\"wininet\"}) that both support @acronym{HTTPS} connections.  We recommend that you use these methods.  The requisite code to add to @file{.Rprofile} or @file{Rprofile.site} is as follows:"
+#: R-FAQ.texi:3401
+msgid "R versions 3.2.0 and greater include two download methods (@code{\"libcurl\"} and @code{\"wininet\"}) that both support @acronym{HTTPS} connections: we recommend that you use these methods.  The requisite code to add to @file{.Rprofile} or @file{Rprofile.site} is:"
 msgstr ""
 
 #. type: example
-#: R-FAQ.texi:3402
+#: R-FAQ.texi:3405
 #, no-wrap
 msgid ""
-"options(download.file.method = \"wininet\")     @r{(Windows)}\n"
-"options(download.file.method = \"libcurl\")     @r{(Linux and OS X)}\n"
+"options(download.file.method = \"wininet\", url.method = \"wininet\")     @r{(Windows)}\n"
+"options(download.file.method = \"libcurl\", url.method = \"libcurl\")     @r{(Linux and OS X)}\n"
 msgstr ""
 
 #. type: Plain text
-#: R-FAQ.texi:3408
-msgid "Note that if you built R from source the @code{\"libcurl\"} method may or may not have been compiled in.  In the case that it wasn't, i.e.. @code{capabilities(\"libcurl\") == FALSE}, we recommend method @code{\"wget\"} on Linux and @code{\"curl\"} on OS X."
+#: R-FAQ.texi:3409
+msgid "(Method @code{\"wininet\"} is the default on Windows as from R 3.2.2.)"
+msgstr ""
+
+#. type: Plain text
+#: R-FAQ.texi:3418
+msgid "Note that the @code{\"libcurl\"} method may or may not have been compiled in.  In the case that it was not, i.e.. @code{capabilities(\"libcurl\") == FALSE}, we recommend method @code{\"wget\"} on Linux and @code{\"curl\"} on OS X.  It is possible that system versions of @code{\"libcurl\"}, @command{wget} or @command{curl} may have been compiled without @acronym{HTTPS} support, but this is unlikely.  As from R 3.3.0 @code{\"libcurl\"} with @acronym{HTTPS} support is required except on Windows."
 msgstr ""
 
 #
 #. type: node
-#: R-FAQ.texi:3410
-#: R-FAQ.texi:3503
-#: R-FAQ.texi:3504
-#: R-FAQ.texi:3511
-#: R-FAQ.texi:3558
-#: R-FAQ.texi:3647
+#: R-FAQ.texi:3420
+#: R-FAQ.texi:3513
+#: R-FAQ.texi:3514
+#: R-FAQ.texi:3521
+#: R-FAQ.texi:3568
+#: R-FAQ.texi:3657
 #, no-wrap
 msgid "R Bugs"
 msgstr "R 버그(Bugs)"
 
 #
 #. type: menuentry
-#: R-FAQ.texi:3419
+#: R-FAQ.texi:3429
 msgid "How should I write summary methods?::"
 msgstr "summary 메소드를 어떻게 작성해야 하나요?::"
 
 #
 #. type: menuentry
-#: R-FAQ.texi:3419
+#: R-FAQ.texi:3429
 msgid "How can I debug dynamically loaded code?::"
 msgstr "동적으로 로드된 코드를 어떻게 디버그 할 수 있나요?::"
 
 #
 #. type: menuentry
-#: R-FAQ.texi:3419
+#: R-FAQ.texi:3429
 msgid "How can I inspect R objects when debugging?::"
 msgstr "디버깅을 할 때 어떻게 R 객체들을 점검할 수 있나요?::"
 
 #
 #. type: menuentry
-#: R-FAQ.texi:3419
+#: R-FAQ.texi:3429
 msgid "How can I change compilation flags?::"
 msgstr "어떻게 해야 컴파일 플래그를 변경할 수 있나요?::"
 
 #
 #. type: section
-#: R-FAQ.texi:3419
-#: R-FAQ.texi:3465
-#: R-FAQ.texi:3495
-#: R-FAQ.texi:3496
+#: R-FAQ.texi:3429
+#: R-FAQ.texi:3475
+#: R-FAQ.texi:3505
+#: R-FAQ.texi:3506
 #, no-wrap
 msgid "How can I debug S4 methods?"
 msgstr "어떻게 S4 메소드를 디버그 할 수 있나요?"
 
 #
 #. type: node
-#: R-FAQ.texi:3421
-#: R-FAQ.texi:3422
-#: R-FAQ.texi:3434
+#: R-FAQ.texi:3431
+#: R-FAQ.texi:3432
+#: R-FAQ.texi:3444
 #, no-wrap
 msgid "How should I write summary methods?"
 msgstr "summary 메소드를 어떻게 작성해야 하나요?"
 
 #
 #. type: node
-#: R-FAQ.texi:3421
-#: R-FAQ.texi:3434
-#: R-FAQ.texi:3435
-#: R-FAQ.texi:3450
+#: R-FAQ.texi:3431
+#: R-FAQ.texi:3444
+#: R-FAQ.texi:3445
+#: R-FAQ.texi:3460
 #, no-wrap
 msgid "How can I debug dynamically loaded code?"
 msgstr "동적으로 로드된 코드를 어떻게 디버그 할 수 있나요?"
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3433
+#: R-FAQ.texi:3443
 msgid "Suppose you want to provide a summary method for class @code{\"foo\"}.  Then @code{summary.foo()} should not print anything, but return an object of class @code{\"summary.foo\"}, @emph{and} you should write a method @code{print.summary.foo()} which nicely prints the summary information and invisibly returns its object.  This approach is preferred over having @code{summary.foo()} print summary information and return something useful, as sometimes you need to grab something computed by @code{summary()} inside a function or similar.  In such cases you don't want anything printed."
 msgstr "만약 @code{\"foo\"}라는 클래스에 대한 summary 메소드를 만들고 싶다면, @code{summary.foo()}는 아무것도 출력해서는 안됩니다.  그러나, 클래스의 객체 @code{\"summary.foo\"}를 반환해야 하며, summary의 정보를 보기 좋게 출력해주며 이 객체를 보이지 않게 반환하는 @code{print.summary.foo()}라는 메소드를 작성해야 합니다. 이러한 접근은 요약정보를 출력하는 @code{summary.foo()} 보다 선호됩니다. 그 이유는 때때로 함수 또는 유사한 곳의 내부에서 @code{summary()}에 의하여 계산된 결과를 사용할 필요가 때때로 있기 때문입니다.  그런 경우에 메소드 작성자는 어떠한 것도 출력되기를 원하지 않을 것입니다."
 
 #
 #. type: node
-#: R-FAQ.texi:3434
-#: R-FAQ.texi:3450
-#: R-FAQ.texi:3451
-#: R-FAQ.texi:3465
+#: R-FAQ.texi:3444
+#: R-FAQ.texi:3460
+#: R-FAQ.texi:3461
+#: R-FAQ.texi:3475
 #, no-wrap
 msgid "How can I inspect R objects when debugging?"
 msgstr "디버깅을 할 때 어떻게 R 객체들을 점검할 수 있나요?"
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3439
+#: R-FAQ.texi:3449
 msgid "Roughly speaking, you need to start R inside the debugger, load the code, send an interrupt, and then set the required breakpoints."
 msgstr "대략적으로 말하면, 디버거 내에서 R을 시작할 필요가 있고, 코드를 로드하고, 인터럽트(interrupt)를 보내고, 브레이크포인트(breakpoint)을 설정해야만 합니다."
 
 #
 #. type: ifclear
-#: R-FAQ.texi:3444
+#: R-FAQ.texi:3454
 msgid "See section ``Finding entry points in dynamically loaded code'' in @cite{Writing R Extensions}.  This manual is included in the R distribution, @pxref{What documentation exists for R?}."
 msgstr "@cite{Writing R Extensions} 문서에서 ``Finding entry points in dynamically loaded code'' 섹션을 참고하시길 바랍니다. 이 매뉴얼은 R 배포에 포함되어 있습니다, @pxref{What documentation exists for R?}."
 
 #
 #. type: ifset
-#: R-FAQ.texi:3448
+#: R-FAQ.texi:3458
 msgid "@xref{Finding entry points, , Finding entry points in dynamically loaded code, R-exts, Writing R Extensions}."
 msgstr ""
 
 #
 #. type: node
-#: R-FAQ.texi:3450
-#: R-FAQ.texi:3465
-#: R-FAQ.texi:3466
-#: R-FAQ.texi:3495
+#: R-FAQ.texi:3460
+#: R-FAQ.texi:3475
+#: R-FAQ.texi:3476
+#: R-FAQ.texi:3505
 #, no-wrap
 msgid "How can I change compilation flags?"
 msgstr "어떻게 해야 컴파일 플래그를 변경할 수 있나요?"
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3455
+#: R-FAQ.texi:3465
 msgid "The most convenient way is to call @code{R_PV} from the symbolic debugger."
 msgstr "가장 편리한 방법은 심볼릭 디버거(symbolic debugger)로부터 @code{R_PV}를 호출하는 것입니다."
 
 #
 #. type: ifclear
-#: R-FAQ.texi:3459
+#: R-FAQ.texi:3469
 msgid "See section ``Inspecting R objects when debugging'' in @cite{Writing R Extensions}."
 msgstr ""
 
 #
 #. type: ifset
-#: R-FAQ.texi:3463
+#: R-FAQ.texi:3473
 msgid "@xref{Inspecting R objects, , Inspecting R objects when debugging, R-exts, Writing R Extensions}."
 msgstr ""
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3471
+#: R-FAQ.texi:3481
 msgid "Suppose you have C code file for dynloading into R, but you want to use @code{R CMD SHLIB} with compilation flags other than the default ones (which were determined when R was built)."
 msgstr "R로 dynloading하기위한 C 코드 파일이 있지만, 기본값(R이 빌드되었을때 정해놓은)이 아닌 컴파일레이션 플래그들을 가지고 있는 @code{R CMD SHLIB}를 사용하고 싶다고 가정합니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3474
+#: R-FAQ.texi:3484
 msgid "Starting with R 2.1.0, users can provide personal Makevars configuration files in @file{$@env{HOME}/.R} to override the default flags."
 msgstr "R 2.1.0 부터 사용자는 디폴트 플래그를 덮어쓰기 위하여 @file{$@env{HOME}/.R}내에 있는 개인 Makevars 설정파일을 제공합니다."
 
 #
 #. type: ifclear
-#: R-FAQ.texi:3477
+#: R-FAQ.texi:3487
 msgid "See section ``Add-on packages'' in @cite{R Installation and Administration}."
 msgstr ""
 
 #
 #. type: ifset
-#: R-FAQ.texi:3481
+#: R-FAQ.texi:3491
 msgid "@xref{Add-on packages, , Add-on packages, R-admin, R Installation and Administration}."
 msgstr ""
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3487
+#: R-FAQ.texi:3497
 msgid "For earlier versions of R, you could change the file @file{@var{R_HOME}/etc/Makeconf} to reflect your preferences, or (at least for systems using @acronym{GNU} Make) override them by the environment variable @env{MAKEFLAGS}."
 msgstr "이전 버전의 R에서는 개인설정을 반영하기 위하여 @file{@var{R_HOME}/etc/Makeconf} 파일을 변경할 수 있거나, (최소한 @acronym{GNU} Make를 이용하는 시스템들에서) 환경변수 @env{MAKEFLAGS}를 이용하여 값들을 덮어 쓸 수 있었습니다. "
 
 #
 #. type: ifclear
-#: R-FAQ.texi:3489
+#: R-FAQ.texi:3499
 msgid "See section ``Creating shared objects'' in @cite{Writing R Extensions}."
 msgstr ""
 
 #
 #. type: ifset
-#: R-FAQ.texi:3493
+#: R-FAQ.texi:3503
 msgid "@xref{Creating shared objects, , Creating shared objects, R-exts, Writing R Extensions}."
 msgstr ""
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3502
+#: R-FAQ.texi:3512
 msgid "Use the @code{trace()} function with argument @code{signature=} to add calls to the browser or any other code to the method that will be dispatched for the corresponding signature.  See @code{?trace} for details."
 msgstr "브라우저로 호출을 추가하기 위하여 인자 @code{signature=}와 함께 @code{trace()} 함수를 이용하거나 상응하는 서명에 대해서 디스패치될 다른 코드를 이용하세요. 더 자세한 내용은 @code{?trace}를 참조하세요."
 
 #
 #. type: menuentry
-#: R-FAQ.texi:3509
+#: R-FAQ.texi:3519
 msgid "What is a bug?::"
 msgstr "버그가 무엇인가요?::"
 
 #
 #. type: section
-#: R-FAQ.texi:3509
-#: R-FAQ.texi:3511
-#: R-FAQ.texi:3558
-#: R-FAQ.texi:3559
+#: R-FAQ.texi:3519
+#: R-FAQ.texi:3521
+#: R-FAQ.texi:3568
+#: R-FAQ.texi:3569
 #, no-wrap
 msgid "How to report a bug"
 msgstr "버그를 보고하는 방법"
 
 #
 #. type: node
-#: R-FAQ.texi:3511
-#: R-FAQ.texi:3512
-#: R-FAQ.texi:3558
+#: R-FAQ.texi:3521
+#: R-FAQ.texi:3522
+#: R-FAQ.texi:3568
 #, no-wrap
 msgid "What is a bug?"
 msgstr "버그가 무엇인가요?"
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3521
+#: R-FAQ.texi:3531
 msgid "If R executes an illegal instruction, or dies with an operating system error message that indicates a problem in the program (as opposed to something like ``disk full''), then it is certainly a bug.  If you call @code{.C()}, @code{.Fortran()}, @code{.External()} or @code{.Call()} (or @code{.Internal()}) yourself (or in a function you wrote), you can always crash R by using wrong argument types (modes).  This is not a bug."
 msgstr "만약 R이 정의되어 있는 방식대로 작동하지 않거나, 운영체제로부터의 프로그램에 문제가 있다 (디스크가 꽉 찼다는 것과 반대)는 에러메시지와 함께 프로그램이 죽는다면 이는 확실히 버그입니다.  만약 @code{.C()}, @code{.Fortran()}, @code{.External()}, 또는 @code{.Call()} (또는 @code{.Internal()}), 작성한 함수내에서 자기자신을 호출할때, 잘못된 인자유형을 사용하면 R은 작동하지 않을 수도 있습니다.  이것은 버그가 아닙니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3528
+#: R-FAQ.texi:3538
 msgid "Taking forever to complete a command can be a bug, but you must make certain that it was really R's fault.  Some commands simply take a long time.  If the input was such that you @emph{know} it should have been processed quickly, report a bug.  If you don't know whether the command should take a long time, find out by looking in the manual or by asking for assistance."
 msgstr "명령을 수행시 명령이 끝나지 않고 계속 지속되는 것은 버그일 수도 있으나, 이것이 정말 R의 잘못인지를 반드시 확인해 보아야 합니다. 일부 명령어들은 단순히 오랜 시간이 걸릴 수도 있기 때문입니다.  만약 입력이 빨리 프로세스 되어야 한다는 것을 명백히 알고 있다면, 버그로 보고하시길 바랍니다.  만약에 명령어가 오래 걸릴지 안 걸릴지를 확신할 수 없다면 도움을 청하거나 매뉴얼을 읽어보면서 이를 알아내길 바랍니다. "
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3541
+#: R-FAQ.texi:3551
 msgid "If a command you are familiar with causes an R error message in a case where its usual definition ought to be reasonable, it is probably a bug.  If a command does the wrong thing, that is a bug.  But be sure you know for certain what it ought to have done.  If you aren't familiar with the command, or don't know for certain how the command is supposed to work, then it might actually be working right.  For example, people sometimes think there is a bug in R's mathematics because they don't understand how finite-precision arithmetic works.  Rather than jumping to conclusions, show the problem to someone who knows for certain.  Unexpected results of comparison of decimal numbers, for example @code{0.28 * 100 != 28} or @code{0.1 + 0.2 != 0.3}, are not a bug.  @xref{Why doesn't R think these numbers are equal?}, for more details."
 msgstr "만약 익숙한 명령어가 정상적으로 작동해야 할 경우에 에러메시지를 발생시킨다면, 이것은 아마도 버그일 것입니다.  만약 명령어가 잘못된 작업을 수행한다면, 이는 버그입니다.  그러나, 사용자는 반드시 무엇이 수행되어야 하는지를 반드시 알고 있어야 합니다.  만약 명령어가 익숙한 것이 아니라면 또는 어떻게 명령어가 작동되는가를 정확히 모른다면, 실제로 정상적으로 작동하는 것일 수도 있습니다.  예를들면, 일부 사용자들은 때때로 R의 수학적 연산에 버그가 있다고 생각합니다.  그러나, 이는 finite-precision arithmetic work를 이해하지 못하기 때문입니다. 결론을 내리기 전에 문제를 확실히 알고있는 누군가에게 보여주길 바랍니다.  예를들어 @code{0.28 * 100 != 28} 또는 @code{0.1 + 0.2 != 0.3}과 같은 것은 버그가 아닙니다.  더 자세한 사항은 @xref{왜 R은 이 숫자들이 서로 같다고 하지 않는 것인가요?}를 참고해주세요."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3554
+#: R-FAQ.texi:3564
 msgid "Finally, a command's intended definition may not be best for statistical analysis.  This is a very important sort of problem, but it is also a matter of judgment.  Also, it is easy to come to such a conclusion out of ignorance of some of the existing features.  It is probably best not to complain about such a problem until you have checked the documentation in the usual ways, feel confident that you understand it, and know for certain that what you want is not available.  If you are not sure what the command is supposed to do after a careful reading of the manual this indicates a bug in the manual.  The manual's job is to make everything clear.  It is just as important to report documentation bugs as program bugs.  However, we know that the introductory documentation is seriously inadequate, so you don't need to report this."
 msgstr "마지막으로, 명령어의 계획된 정의가 통계분석에 가장 잘 맞는 것은 아닙니다.  이것은 매우 중요한 문제이기도 한데, 이는 또한 문제에 대한 판단의 문제이기도 합니다.  또한, 이들은 이전에 존재하는 기능들에 대해서 모르기 때문에 내리는 결론이기도 합니다.  이러한 종류의 문제에 대해서는 일반적인 방법으로 문서를 확인하고, 이를 제대로 이해했다고 확신한뒤, 원하는 무엇인가를 이용가능하지 않다는 것을 확실하게 알기전까지는 불평하지 않는 것이 좋습니다.  만약 매뉴얼을 정독한 후에도 명령어가 어떻게 무엇을 수행해야 하는지를 정확히 이해할 수 없다면, 이는 매뉴얼에 버그가 있음을 의미합니다.  매뉴얼의 역할은 모든 것을 확실히 보여주는 것입니다.  프로그램 버그도 중요하지만 문서의 버그를 보고하는 것도 중요합ㄴ디ㅏ.  그런데, introductory documentation은 심각하게 불충분하다는 것을 알고 이미 알고 있기 때문에 이것을 보고할 필요는 없습니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3557
+#: R-FAQ.texi:3567
 msgid "If the online argument list of a function disagrees with the manual, one of them must be wrong, so report the bug."
 msgstr "만약 함수의 온라인 인자목록이 매뉴얼과 일치하지 않는다면, 둘 중에 하나가 잘 못된 것이므로 버그로 보고해 주시길 바랍니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3567
+#: R-FAQ.texi:3577
 msgid "When you decide that there is a bug, it is important to report it and to report it in a way which is useful.  What is most useful is an exact description of what commands you type, starting with the shell command to run R, until the problem happens.  Always include the version of R, machine, and operating system that you are using; type @kbd{version} in R to print this."
 msgstr "버그가 있다고 판단될때, 이것을 보고하는 것도 중요하고, 어떻게 잘 보고하는가도 중요합니다.  가장 좋은 방법은 쉘 커맨드에서 R을 입력하면서부터 문제가 발생한 부분까지의 사용된 명령어들에 대한 설명을 제공하는 것입니다.  항상 사용하는 R의 버전, 사용기기, 운영체제를 함께 알려주시길 바랍니다. 이들에 대한 정보는 @kbd{version}이라고 입력하면 출력됨을 확인할 수 있습니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3576
+#: R-FAQ.texi:3586
 msgid "The most important principle in reporting a bug is to report @emph{facts}, not hypotheses or categorizations.  It is always easier to report the facts, but people seem to prefer to strain to posit explanations and report them instead.  If the explanations are based on guesses about how R is implemented, they will be useless; others will have to try to figure out what the facts must have been to lead to such speculations.  Sometimes this is impossible.  But in any case, it is unnecessary work for the ones trying to fix the problem."
 msgstr "버그를 보고할 때 가장 중요한 원칙은 가설이나 분류를 하지 않고 실제 일어난 사실들만을 보고 하는 것입니다.  사실만을 보고하는 것이 더 쉬움에도 불구하고, 많은 분들은 이러한 사실이 왜 일어났는가를 설명하곤 합니다.  만약 이러한 설명들이 R이 어떻게 구현되었는가에 대한 추측에 기초한 것이라면, 쓸모가 없을 것입니다. 그 이유는 그러한 추측이 나오게 된 어떤 사실들을 밝혀내야만 하기 때문입니다. 때때로 이것은 불가능합니다. 그러나, 대부분의 경우에는 문제를 고치려고 노력하는 사람에게는 불필요한 일입니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3579
+#: R-FAQ.texi:3589
 msgid "For example, suppose that on a data set which you know to be quite large the command"
 msgstr "예를들어, 꽤 큰 크기의 데이터셋을 가지고 있다고 가정하고, 다음과 같은 명령어를 입력합니다."
 
 #
 #. type: example
-#: R-FAQ.texi:3582
+#: R-FAQ.texi:3592
 #, no-wrap
 msgid "R> data.frame(x, y, z, monday, tuesday)\n"
 msgstr ""
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3592
+#: R-FAQ.texi:3602
 msgid "never returns.  Do not report that @code{data.frame()} fails for large data sets.  Perhaps it fails when a variable name is a day of the week.  If this is so then when others got your report they would try out the @code{data.frame()} command on a large data set, probably with no day of the week variable name, and not see any problem.  There is no way in the world that others could guess that they should try a day of the week variable name."
 msgstr "이것은 절대로 반환되지 않습니다.  @code{data.frame()}이 큰 데이터셋에서 실패했다고 보고하지는 말아 주세요.  아마도 변수명이 요일로 되어 있을 때 실패하는 것일수도 있습니다. data.frame()이 큰 데이터에 대해 실패했다고 보고하지 마십시오.  만약 정말 그러하다면 다른 사람들이 보고되어진 것을 보았을때 요일명이 아닌 변수명을 이용하여 아무런 문제가 일어나지 않는 것을 확인할 것입니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3598
+#: R-FAQ.texi:3608
 msgid "Or perhaps the command fails because the last command you used was a method for @code{\"[\"()} that had a bug causing R's internal data structures to be corrupted and making the @code{data.frame()} command fail from then on.  This is why others need to know what other commands you have typed (or read from your startup file)."
 msgstr "혹은 마지막으로 사용한 명령어가 내부 데이터 구조에 오류를 발생시키고 그 이후부터 @code{data.frame()} 명령어가 실패하게 되는 원인을 가진 버그를 가졌던 @code{\"[\"()}에 대한 메소드일 수도 있기 때문입니다.  이것은 왜 어떤 명령어들이 (시작파일부터) 이전에 입력되었는가를 알아야 하는 이유이기도 합니다."
 
 #. type: Plain text
-#: R-FAQ.texi:3607
+#: R-FAQ.texi:3617
 msgid "It is very useful to try and find simple examples that produce apparently the same bug, and somewhat useful to find simple examples that might be expected to produce the bug but actually do not.  If you want to debug the problem and find exactly what caused it, that is wonderful.  You should still report the facts as well as any explanations or solutions.  Please include an example that reproduces (e.g., @url{https://en.wikipedia.org/wiki/Reproducibility}) the problem, preferably the simplest one you have found."
 msgstr ""
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3611
+#: R-FAQ.texi:3621
 msgid "Invoking R with the @option{--vanilla} option may help in isolating a bug.  This ensures that the site profile and saved data files are not read."
 msgstr "@option{--vanilla} 옵션과 함께 R을 실행하는 것은 버그를 분리해 내는데 도움을 줄 것입니다.  이것은 사이트 프로파일과 저장된 데이터 파일들이 읽혀지지 않도록 합니다."
 
 #. type: Plain text
-#: R-FAQ.texi:3626
+#: R-FAQ.texi:3636
 msgid "Before you actually submit a bug report, you should check whether the bug has already been reported and/or fixed.  First, try the ``Show open bugs new-to-old'' or the search facility on @url{https://bugs.R-project.org/}.  Second, consult @url{https://svn.R-project.org/@/R/@/trunk/@/doc/@/NEWS.Rd}, which records changes that will appear in the @emph{next} release of R, including bug fixes that do not appear on the Bug Tracker.  Third, if possible try the current r-patched or r-devel version of R.  If a bug has already been reported or fixed, please do not submit further bug reports on it.  Finally, check carefully whether the bug is with R, or a contributed package.  Bug reports on contributed packages should be sent first to the package maintainer, and only submitted to the R-bugs repository by package maintainers, mentioning the package in the subject line."
 msgstr ""
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3632
+#: R-FAQ.texi:3642
 msgid "A bug report can be generated using the function @code{bug.report()}.  For reports on R this will open the Web page at @url{http://bugs.R-project.org/}: for a contributed package it will open the package's bug tracker Web page or help you compose an email to the maintainer."
 msgstr "버그 리포트는 함수 @code{bug.report()}을 이용하여 생성할 수 있습니다. 이것은 @url{http://bugs.R-project.org/}이라는 웹페이지를 열어줄 것입니다. 사용자 기여패키지(contributed package)에 대해서는 패키지의 버그 트래커 웹 페이지 또는 패키지 관리자에게 이메일을 작성할 수 있도록 도와줄 것입니다. "
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3638
+#: R-FAQ.texi:3648
 msgid "There is a section of the bug repository for suggestions for enhancements for R labelled @samp{wishlist}.  Suggestions can be submitted in the same ways as bugs, but please ensure that the subject line makes clear that this is for the wishlist and not a bug report, for example by starting with @samp{Wishlist:}."
 msgstr "@samp{wishlist}라고 라벨과 함께 R의 기능강화에 관한 제안들을 위한 버그저장소 섹션이 있습니다.  제안사항들은 버그를 보고하는 것과 같은 방법으로 할 수 있으나, 제목에 반드시 이것은 wishlist 이지 버그리포트가 아니라는 것을 명시해주셔야 합니다.  예를들면, @samp{Wishlist:} 라고 시작해 주시면 됩니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3641
+#: R-FAQ.texi:3651
 msgid "Comments on and suggestions for the Windows port of R should be sent to @email{R-windows@@R-project.org}."
 msgstr "R의 Windows 포트에 대한 조언 및 제안사항들은 @email{R-windows@@R-project.org}로 보내져야 합니다."
 
 #. type: Plain text
-#: R-FAQ.texi:3646
+#: R-FAQ.texi:3656
 msgid "Corrections to and comments on message translations should be sent to the last translator (listed at the top of the appropriate @samp{.po} file)  or to the translation team as listed at @url{https://developer.R-project.org/TranslationTeams.html}."
 msgstr ""
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3652
+#: R-FAQ.texi:3662
 msgid "Of course, many many thanks to Robert and Ross for the R system, and to the package writers and porters for adding to it."
 msgstr "R 시스템에 대하여 로버트(Robert)와 로스(Ross)에게 감사의 뜻을 전달하며, 이 시스템이 확장되도록 도와준 패키지 작성자 및 포터(porters)들에게 또한 감사드립니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3657
+#: R-FAQ.texi:3667
 msgid "Special thanks go to Doug Bates, Peter Dalgaard, Paul Gilbert, Stefano Iacus, Fritz Leisch, Jim Lindsey, Thomas Lumley, Martin Maechler, Brian D. Ripley, Anthony Rossini, and Andreas Weingessel for their comments which helped me improve this @acronym{FAQ}."
 msgstr "특히 본 @acronym{FAQ} 문서가 발전될 수 있도록 조언을 아끼지 않은 Doug Bates, Peter Dalgaard, Paul Gilbert, Stefano Iacus, Fritz Leisch, Jim Lindsey, Thomas Lumley, Martin Maechler, Brian D. Ripley, Anthony Rossini, 그리고 Andreas Weingessel에게 감사드립니다."
 
 #
 #. type: Plain text
-#: R-FAQ.texi:3659
+#: R-FAQ.texi:3669
 msgid "More to come soon @dots{}"
 msgstr "더 많은 내용들이 추가될 것입니다@dots{}"
+
+#
+#~ msgid "Tarballs with daily snapshots of the r-devel and r-patched development versions of R can be found at @url{ftp://ftp.stat.math.ethz.ch/Software/R/}."
+#~ msgstr "개발자 버전의 R인 r-devel 과 r-patched 파일들이 Tarballs 형식으로 압축되어 @url{ftp://ftp.stat.math.ethz.ch/Software/R/} 에 매일 업데이트 됩니다.  "
 
 #
 #~ msgid "@url{http://CRAN.R-project.org/package=\\p\\, @strong{\\p\\}}"
