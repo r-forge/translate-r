@@ -12,7 +12,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -321,8 +321,7 @@ msgstr ""
 
 #: devPS.c:3462 devPS.c:4575 devWindows.c:2346
 msgid ""
-"semi-transparency is not supported on this device: reported only once per "
-"page"
+"semi-transparency is not supported on this device: reported only once per page"
 msgstr ""
 
 #: devPS.c:3568 devPS.c:3577
@@ -567,8 +566,7 @@ msgid "unable to create device description"
 msgstr ""
 
 #: devQuartz.c:1479
-msgid ""
-"unable to create quartz() device target, given type may not be supported"
+msgid "unable to create quartz() device target, given type may not be supported"
 msgstr ""
 
 #: devQuartz.c:1609

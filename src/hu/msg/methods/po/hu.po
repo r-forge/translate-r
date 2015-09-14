@@ -12,7 +12,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -92,8 +92,8 @@ msgstr ""
 #: methods_list_dispatch.c:584
 #, c-format
 msgid ""
-"object of class \"%s\" used as methods list for function '%s' ( no "
-"'argument' slot)"
+"object of class \"%s\" used as methods list for function '%s' ( no 'argument' "
+"slot)"
 msgstr ""
 
 #: methods_list_dispatch.c:595
