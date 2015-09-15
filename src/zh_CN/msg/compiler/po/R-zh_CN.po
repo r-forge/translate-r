@@ -1,15 +1,17 @@
+
 # Chinese translations for R package
 # Copyright (C) 2005 The R Foundation
 # This file is distributed under the same license as the PACKAGE package.
 # 陈斐 <feic@normipaiva.com>, 2006.
+# 邓小冬 <xd_deng@hotmail.com>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R 2.15.0\n"
+"Project-Id-Version: R 3.2.2\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2015-03-24 20:05\n"
-"PO-Revision-Date: 2005-03-15 08:37+0000\n"
-"Last-Translator: 陈斐 <feic@normipaiva.com>\n"
+"PO-Revision-Date: 2015-09-15 09:18\n"
+"Last-Translator: 邓小冬 <xd_deng@hotmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,13 +20,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=0;\n"
 
 msgid "not a proper evaluation environment"
-msgstr "不是一个正确的评估环境"
+msgstr "非正确评估环境"
 
 msgid "'ns' must be a namespace or a namespace imports environment"
-msgstr "'ns'必须是一个命名空间或命名空间的进口环境"
+msgstr "'ns'必须为命名空间或命名空间的导入环境"
 
 msgid "bad assignment: %s"
-msgstr "坏的分配：%s"
+msgstr "错误分配：%s"
 
 msgid "cannot constant fold literal promises"
 msgstr "无法对字面承诺进行不恒定折叠"
@@ -36,83 +38,83 @@ msgid "no offset recorded for label \"%s\""
 msgstr "没有给标签\"%s\"记录了偏移"
 
 msgid "cannot compile byte code literals in code"
-msgstr "不能在编码里编译代码的字节码字面值"
+msgstr "无法编译代码中的字节码"
 
 msgid "cannot compile promise literals in code"
 msgstr "不能编译代码中的承诺文字"
 
 msgid "possible error in '%s': %s"
-msgstr "'%s'里可能有错: %s"
+msgstr "'%s'中存在潜在错误: %s"
 
 msgid "bad namespace import frame"
-msgstr "命名空间导入框不对"
+msgstr "命名空间导入框架错误"
 
 msgid "bad assignment 1"
-msgstr "1分配出了错"
+msgstr "错误分配1"
 
 msgid "bad assignment 2"
-msgstr "2分配出了错"
+msgstr "错误分配2"
 
 msgid "invalid function in complex assignment"
-msgstr "复杂分配里的函数不对"
+msgstr "复杂分配中出现无效函数"
 
 msgid "%s is not a registered math1 function"
-msgstr ""
+msgstr "%s 不是一个经注册的math1函数"
 
 msgid "missing arguments are not allowed"
 msgstr "不允许缺少参数"
 
 msgid "empty alternative in numeric switch"
-msgstr "在数字交换机里不能有空的替代"
+msgstr "数值切换中替代值为空"
 
 msgid "no visible global function definition for '%s'"
-msgstr "看不到'%s'的全局函数定义"
+msgstr "未发现对'%s'的全局函数定义"
 
 msgid "no visible binding for global variable '%s'"
-msgstr "看不到全局变量'%s'的连接"
+msgstr "未发现对全局变量'%s'的绑定"
 
 msgid "no visible binding for '<<-' assignment to '%s'"
-msgstr "看不到'<<-'分配到'%s'的连接"
+msgstr "未发现目标为'%s'的'<<-'赋值的绑定"
 
 msgid "wrong number of arguments to '%s'"
-msgstr "给'%s'的参数个数不对"
+msgstr "'%s'的参数个数有误"
 
 msgid "more than one default provided in switch() call"
 msgstr "调用switch()时只能有一个默认值"
 
 msgid "cannot compile a non-function"
-msgstr "无法编译非函数"
+msgstr "无法编译非函数 (仅函数可被编译)"
 
 msgid "compiling '%s'"
-msgstr "编译'%s'"
+msgstr "正在编译'%s'"
 
 msgid "saving to file \"%s\" ..."
 msgstr "保存到文件\"%s\" ... "
 
 msgid "done"
-msgstr "做完了"
+msgstr "完成"
 
 msgid "'env' must be a top level environment"
-msgstr "'env'必需是顶级环境"
+msgstr "'env'必需是最高层环境"
 
 msgid "input and output file names are the same"
-msgstr "输入和输出文件的文件名是一样的"
+msgstr "输入文件与输出文件的文件名一致"
 
 msgid "empty input file; no output written"
-msgstr "输入文件是空的，因此没有写任何输出"
+msgstr "输入文件为空；无任何输出"
 
 msgid "file '%s' does not exist"
-msgstr "没有'%s'这样的文件"
+msgstr "文件'%s'不存在"
 
 msgid "'%s' is not a valid compiler option"
-msgstr "没有'%s'这样的编译器选项"
+msgstr "'%s'不是有效的编译选项"
 
 msgid "function is not compiled"
-msgstr "函数没有被编制"
+msgstr "函数未被编译"
 
 #, fuzzy
 msgid "cannot compile this expression"
-msgstr "不能编译代码中的承诺文字"
+msgstr "无法编译该表达式"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
@@ -120,4 +122,4 @@ msgstr[0] "为句法函数作了本地分配："
 msgstr[1] "为句法函数作了本地分配："
 
 #~ msgid "expected a single logical value for the S4 state flag"
-#~ msgstr "S4状态标志需要单一的逻辑值"
+#~ msgstr "S4状态标签须为单一逻辑值"
