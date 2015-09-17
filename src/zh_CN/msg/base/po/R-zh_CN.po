@@ -2,6 +2,7 @@
 # Copyright (C) 2005 The R Foundation
 # This file is distributed under the same license as the PACKAGE package.
 # 陈斐 <feic@normipaiva.com>, 2006.
+# 邓小冬 Xiaodong DENG <xd_deng@hotmail.com>, 2015
 #
 msgid ""
 msgstr ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2015-06-06 13:51\n"
 "PO-Revision-Date: 2005-02-04 08:37+0000\n"
-"Last-Translator: 陈斐 <feic@normipaiva.com>\n"
+"Last-Translator: 邓小冬 Xiaodong DENG <xd_deng@hotmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,37 +19,37 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "'%s' is defunct."
-msgstr "'%s'不再有用。"
+msgstr "'%s'已作废。"
 
 msgid "Use '%s' instead."
-msgstr "请用'%s'。"
+msgstr "请使用'%s'。"
 
 msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
-msgstr "见help(\"Defunct\"))和help(\"%s-defunct\")。"
+msgstr "见帮助文档(\"Defunct\"))和帮助文档(\"%s-defunct\")。"
 
 msgid "See help(\"Defunct\")"
-msgstr "见help(\"Defunct\"))"
+msgstr "见帮助文档(\"Defunct\"))"
 
 msgid "'%s' is deprecated."
-msgstr "%s不再有用。"
+msgstr "%s已被弃用。"
 
 msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
-msgstr "见help(\"Deprecated\")和help(\"%s-deprecated\")。"
+msgstr "见帮助文档(\"Deprecated\")和帮助文档(\"%s-deprecated\")。"
 
 msgid "See help(\"Deprecated\")"
-msgstr "见help(\"Deprecated\")"
+msgstr "见帮助文档(\"Deprecated\")"
 
 msgid "argument to 'La.svd' must be numeric or complex"
 msgstr "'La.svd'的参数必需是数值或复数值"
 
 msgid "infinite or missing values in 'x'"
-msgstr "'x'里有无穷值或遗漏值"
+msgstr "'x'里有无穷值或缺失值"
 
 msgid "a dimension is zero"
 msgstr "维度为零"
 
 msgid "\"hexNumeric\" and \"digits17\" are mutually exclusive"
-msgstr ""
+msgstr "\"hexNumeric\" and \"digits17\" 互斥"
 
 msgid "second argument must be a list"
 msgstr "第二个参数必需为串列"
@@ -57,37 +58,37 @@ msgid "'iconvlist' is not available on this system"
 msgstr "本系统不支持'iconvlist'"
 
 msgid "'kind' must be a character string of length 1 (RNG to be used)."
-msgstr "'kind' 必需是字符串，而且其长度只能为一(用RNG) 。"
+msgstr "'kind' 必需是长度为1的字符串(使用RNG) 。"
 
 msgid "'%s' is not a valid abbreviation of an RNG"
-msgstr "'%s'不是正当的RNG缩写"
+msgstr "'%s'不是有效的RNG缩写"
 
 msgid "'normal.kind' must be a character string of length 1"
-msgstr "'normal.kind'必需是字符串，而且其长度只能为一。"
+msgstr "'normal.kind'必需是长度为1的字符串。"
 
 msgid "'%s' is not a valid choice"
-msgstr "%s'不是正当的选择"
+msgstr "%s'不是有效选择"
 
 msgid "malformed version string"
-msgstr "版本字串格式有错"
+msgstr "版本字串格式有误"
 
 msgid "target is %s, current is %s"
-msgstr "目标应该是%s ，现在却是%s"
+msgstr "目标为%s ，当前为%s"
 
 #, fuzzy
 msgid "'tolerance' should be numeric"
-msgstr "'x' 必需是数值"
+msgstr "'tolerance' 应为数值"
 
 #, fuzzy
 msgid "'scale' should be numeric or NULL"
-msgstr "'arg'应当是%s其中的一个"
+msgstr "'scale' 应为数值或NULL"
 
 #, fuzzy
 msgid "'%s' must be logical"
-msgstr "'subset'必需是逻辑值"
+msgstr "'%s' 须为逻辑值"
 
 msgid "dim(X) must have a positive length"
-msgstr "dim(X)的值必需是正数"
+msgstr "dim(X)的值须为正数"
 
 msgid "'X' must have named dimnames"
 msgstr "'X'必需有带名字的维名"
@@ -102,22 +103,22 @@ msgid "'dim' specifies too large an array"
 msgstr "'dim'的值太大"
 
 msgid "incorrect value for 'MARGIN'"
-msgstr "'MARGIN'的值有错"
+msgstr "'MARGIN'的值有误"
 
 msgid "*** 'pos=1' is not possible; setting 'pos=2' for now."
-msgstr "*** 'pos=1'不可能对；以'pos=2'代而用之。"
+msgstr "*** 'pos=1'为错误值；以'pos=2'代而用之。"
 
 msgid "*** Note that 'pos=1' will give an error in the future"
-msgstr "*** 请注意将来再用'pos=1'的话会引起错误信条"
+msgstr "*** 请注意'pos=1'将导致错误"
 
 msgid "file '%s' not found"
-msgstr "没有'%s'文件"
+msgstr "未找到'%s'文件"
 
 msgid "invalid 'name' argument"
-msgstr "'name'参数不对"
+msgstr "'name'参数无效"
 
 msgid "package %s is required by %s, which may no longer work correctly"
-msgstr "%2$s需要程辑包%1$s，但它与目前的版本不相容"
+msgstr "%2$s需要扩展包%1$s，但它与目前的版本不相容"
 
 msgid "package %s is required by %s so will not be detached"
 msgstr "%2$s需要程辑包%1$s，因此不能将之分离"
@@ -132,34 +133,35 @@ msgstr ""
 "  错误: %5$s"
 
 msgid "%s namespace cannot be unloaded:"
-msgstr "无法卸下%s这个名字空间："
+msgstr "无法卸载命名空间%s："
 
 msgid "%s converted to character string"
-msgstr "%s被转换成字符串"
+msgstr "%s被转换为字符串"
 
 msgid "replaced regular expression pattern '[' by  '\\\\['"
-msgstr "正规表现'['被换成'\\\\['"
+msgstr "正则表达式'['被替换为'\\\\['"
 
 msgid "replaced '[<-' by '\\\\[<-' in regular expression pattern"
-msgstr "正规表现'[<-'被换成'\\\\[<-'"
+msgstr "正则表达式'[<-'被替换为'\\\\[<-'"
 
 msgid "'value' must be a list"
-msgstr "'value'必需是串列"
+msgstr "'value'须为串列"
 
 msgid "an object with that name already exists"
-msgstr "对象的名字已经存在"
+msgstr "已存在以该名字命名的对象"
 
 msgid "autoloader did not find '%s' in '%s'"
 msgstr "自动载入器在'%2$s'找不到'%1$s' "
 
+
 msgid "complex matrices not permitted at present"
-msgstr "复数矩阵现在不能用"
+msgstr "当前不允许使用复数矩阵"
 
 msgid "'x' must be an array of at least two dimensions"
-msgstr "'x'必需是阵列，而且至少得有两个维度"
+msgstr "'x'须为阵列，且维度至少为2"
 
 msgid "invalid 'dims'"
-msgstr "'dims'不对"
+msgstr "无效的'dims'"
 
 msgid "bad handler specification"
 msgstr "处置器柄规格不对"
@@ -168,13 +170,13 @@ msgid "no 'restart' '%s' found"
 msgstr "没有找到'restart' '%s'"
 
 msgid "not an interactive session"
-msgstr "非交互运行式"
+msgstr "非交互运行模式"
 
 msgid "not a valid restart specification"
-msgstr "重新开始的规格不对"
+msgstr "重启设置无效"
 
 msgid "argument 'where' of length 0"
-msgstr "参数长度为零"
+msgstr "参数 'where' 的长度为零"
 
 msgid "argument 'object' must deparse to a single character string"
 msgstr "参数'object'必需解析成单一个字符串"
@@ -183,119 +185,118 @@ msgid "'origin' must be one of 'start', 'current' or 'end'"
 msgstr "'origin'参数的值必需是'start'，'current'或'end'中的一个"
 
 msgid "can only truncate an open connection"
-msgstr "只能截断已经打开了的链结"
+msgstr "只能截断已打开的连接"
 
 msgid "can only write vector objects"
-msgstr "只能写矢量对象"
+msgstr "只能输出矢量形式的对象"
 
 msgid "can only write character objects"
-msgstr "只能写字符对象"
+msgstr "只能输出字符形式的对象"
 
 msgid "'timeout' must be NULL or a non-negative number"
-msgstr "'timeout'的值要么是NULL，要么是非负数"
+msgstr "'timeout'的值须为NULL或非负数"
 
 msgid "'from' must be raw or character"
-msgstr "'from'要么是生的，要么是字符。"
+msgstr "'from'须为raw或字符。"
 
 msgid "'x' must be numeric"
-msgstr "'x' 必需是数值"
+msgstr "'x' 须为数值形式"
 
 msgid "invalid number of intervals"
-msgstr "间隔数目不对"
+msgstr "区间数量无效"
 
 msgid "'breaks' are not unique"
 msgstr "'breaks' 的值有重复"
 
 msgid "lengths of 'breaks' and 'labels' differ"
-msgstr "'breaks'和'labels'的长度不一样"
+msgstr "'breaks'和'labels'的长度不一致"
 
 msgid "invalid 'row.names' length"
-msgstr "'row.names'的长度不对"
+msgstr "'row.names'的长度无效"
 
 msgid "duplicate 'row.names' are not allowed"
 msgstr "不允许有重复的'row.names'"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr "'row.names'里不允许有遗漏值"
+msgstr "'row.names'里不允许有缺失值"
 
 msgid "invalid 'dimnames' given for data frame"
-msgstr "数据框的'dimnames'给得不对"
+msgstr "数据框的'dimnames'无效"
 
 msgid "cannot coerce class \"%s\" to a data.frame"
-msgstr "不能把\"%s\"类别强迫变成数据框"
+msgstr "无法将\"%s\"强制转换为数据框"
 
 msgid "options(\"stringsAsFactors\") not set to TRUE or FALSE"
-msgstr "options(\"stringsAsFactors\")只能取TRUE或FALSE值"
+msgstr "选项(\"stringsAsFactors\")为被设置为TRUE或FALSE"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "'data.frame'参数里%d单元中行名不匹配"
 
 msgid "some row.names duplicated: %s --> row.names NOT used"
-msgstr "某些row.names有重复：%s --> row.names不用了"
+msgstr "某些row.names存在重复：%s --> row.names未被使用"
 
 msgid "row names contain missing values"
-msgstr "行名里有遗漏值"
+msgstr "行名中存在值"
 
 msgid "duplicate row.names: %s"
-msgstr "row.names有重复: %s"
+msgstr "row.names有重复值: %s"
 
 msgid "arguments imply differing number of rows: %s"
 msgstr "参数值意味着不同的行数: %s"
 
 msgid "'row.names' should specify one of the variables"
-msgstr "'row.names'必需指定一个变数"
+msgstr "'row.names'应指定一个变量"
 
 msgid "row names supplied are of the wrong length"
-msgstr "行名长度不对"
+msgstr "行名长度错误"
 
 msgid "row names were found from a short variable and have been discarded"
-msgstr "短变数里找到了行名，因此不用"
+msgstr "行名来自短变量并已被停用"
 
 msgid "named arguments other than 'drop' are discouraged"
-msgstr "除了'drop'之外最好不用带名字的参数"
+msgstr "除'drop'之外的参数不被鼓励使用"
 
 msgid "'drop' argument will be ignored"
-msgstr "忽略'drop'参数"
+msgstr "'drop'参数将被忽略"
 
 msgid "undefined columns selected"
 msgstr "选择了未定义的列"
 
 msgid "named arguments other than 'exact' are discouraged"
-msgstr "除了'exact'之外最好不用带名字的参数"
+msgstr "除'exact'之外的参数不被鼓励使用"
 
 msgid "named arguments are discouraged"
-msgstr "最好不用带名字的参数"
+msgstr "不鼓励使用被命名的参数"
 
 msgid "number of items to replace is not a multiple of replacement length"
-msgstr "更换的项数应该是更换长度的整数倍"
+msgstr "将被替换的对象数目不是替换项的整数倍"
 
 msgid "'value' is the wrong length"
-msgstr "'value'长度不对"
+msgstr "'value'长度有误"
 
 msgid "unsupported matrix index in replacement"
-msgstr "不支持这样的替换中矩阵索引"
+msgstr "该矩阵索引值在替换中不被支持"
 
 msgid "need 0, 1, or 2 subscripts"
-msgstr "需要零，一或二下标"
+msgstr "需使用0，1或2作为下标"
 
-msgid ""
-"missing values are not allowed in subscripted assignments of data frames"
-msgstr "执行数据框下标赋值时是不允许遗漏值的"
+msgid "missing values are not allowed in subscripted assignments of data frames"
+msgstr "执行数据框下标赋值时不允许存在缺失值"
 
 msgid "non-existent rows not allowed"
-msgstr "不能有不存在的行"
+msgstr "不允许使用当前不存在的行"
 
 msgid "column name \"\" cannot match any column"
-msgstr "对不上\"\"这个列名"
+msgstr "列名\"\"无法被匹配"
 
 msgid "new columns would leave holes after existing columns"
-msgstr "新的列会在旧的列里留下洞"
+msgstr "新的列将在旧的列后留下空白"
 
 msgid "duplicate subscripts for columns"
-msgstr "列里有重复的下标"
+msgstr "列中存在重复下标"
 
 msgid "only valid calls are x[[j]] <- value or x[[i,j]] <- value"
-msgstr "正确调用的写法是x[[j]] <- value或x[[i,j]] <- value "
+msgstr "唯一正确调用方法为x[[j]] <- value或x[[i,j]] <- value "
 
 msgid "replacing element in non-existent column: %s"
 msgstr "在不存在的列里替换单元: %s"
