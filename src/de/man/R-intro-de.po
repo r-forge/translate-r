@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-08-21 08:01-0600\n"
-"PO-Revision-Date: 2015-07-24 11:06+0200\n"
+"PO-Revision-Date: 2015-09-24 12:06+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language: de\n"
@@ -65,12 +65,13 @@ msgstr "Dieses Handbuch ist für R, Version @value{Version}"
 
 #. type: copying
 #: R-intro.texi:32
+#, fuzzy
 msgid "Copyright @copyright{} 1990 W.@: N.@: Venables@* Copyright @copyright{} 1992 W.@: N.@: Venables & D.@: M.@: Smith@* Copyright @copyright{} 1997 R.@: Gentleman & R.@: Ihaka@* Copyright @copyright{} 1997, 1998 M.@: Maechler@* @Rcopyright{1999}"
 msgstr ""
 "Copyright @copyright{} 1990 W.@: N.@: Venables@* Copyright @copyright{} 1992 \n"
 "W.@: N.@: Venables & D.@: M.@: Smith@* Copyright @copyright{} 1997 R.@: \n"
 "Gentleman & R.@: Ihaka@* Copyright @copyright{} 1997, 1998 M.@: Maechler@* \n"
-"@Rcopyright{1999}\n"
+"@Rcopyright{1999}"
 
 #. type: quotation
 #: R-intro.texi:35
@@ -148,6 +149,13 @@ msgstr "(dir)"
 #: R-intro.texi:80
 msgid "This is an introduction to R (``GNU S''), a language and environment for statistical computing and graphics.  R is similar to the award-winning@footnote{ACM Software Systems award, 1998: @uref{https://awards.acm.org/award_winners/chambers_6640862.cfm}.} S system, which was developed at Bell Laboratories by John Chambers et al.  It provides a wide variety of statistical and graphical techniques (linear and nonlinear modelling, statistical tests, time series analysis, classification, clustering, ...)."
 msgstr ""
+"Dies ist eine Einführung in R (``GNU S''), eine Sprache und eine\n"
+"Umgebung für statistische Berechnungen und Grafik. R ist ähnlich dem\n"
+"preisgekrönten@footnote{ACM Software Systems award, 1998:@uref{https://awards.acm.org/award_winners/chambers_6640862.cfm}.}\n"
+"S System, welches in den Bell Laboratories von John Chambers et\n"
+"al. entwickelt wurde. R stellt eine große Vielfalt statistischer und\n"
+"grafischer Techniken (lineare und nicht-lineare Modelle, statistische\n"
+"Tests, Zeitreihenanalyse, Klassifikation, Clusteranalye,...) zur Verfügung."
 
 #. type: ifnottex
 #: R-intro.texi:83
@@ -471,17 +479,25 @@ msgstr ""
 #: R-intro.texi:128
 #, no-wrap
 msgid "Suggestions to the reader"
-msgstr ""
+msgstr "Vorschläge für den Leser"
 
 #. type: Plain text
 #: R-intro.texi:133
 msgid "Most @R{} novices will start with the introductory session in Appendix A.  This should give some familiarity with the style of @R{} sessions and more importantly some instant feedback on what actually happens."
 msgstr ""
+"Die meisten @R{} Anfänger sollten mit der Einführungssitzung in Anhang\n"
+"A beginnen. Diese soll ein Wenig mit dem Stil von @R{} Sitzungen\n"
+"vertraut machen und, -wichtiger-, unmittelbares Feedback geben, wie\n"
+"eine Sitzung abläuft."
 
 #. type: Plain text
 #: R-intro.texi:137
 msgid "Many users will come to @R{} mainly for its graphical facilities.  @xref{Graphics}, which can be read at almost any time and need not wait until all the preceding sections have been digested."
 msgstr ""
+"Viele Nutzer beginnen mit @R{} hauptsächlich wegen seiner grafischen\n"
+"Fähigkeiten. @xref{Grafics}, welches man beinah zu jedem Zeitpunkt\n"
+"lesen kann und mit dem man nicht warten muss, bis alle vorhergehenden\n"
+"Kapitel ausreichend verdaut sind."
 
 #. type: node
 #: R-intro.texi:156
@@ -490,7 +506,7 @@ msgstr ""
 #: R-intro.texi:194
 #, no-wrap
 msgid "The R environment"
-msgstr ""
+msgstr "Die R Umgebung"
 
 #. type: node
 #: R-intro.texi:156
@@ -500,7 +516,7 @@ msgstr ""
 #: R-intro.texi:219
 #, no-wrap
 msgid "Related software and documentation"
-msgstr ""
+msgstr "Software im Umfeld und Dokumentation"
 
 #. type: node
 #: R-intro.texi:156
@@ -510,7 +526,7 @@ msgstr ""
 #: R-intro.texi:246
 #, no-wrap
 msgid "R and statistics"
-msgstr ""
+msgstr "R und Statistik"
 
 #. type: node
 #: R-intro.texi:156
@@ -520,7 +536,7 @@ msgstr ""
 #: R-intro.texi:266
 #, no-wrap
 msgid "R and the window system"
-msgstr ""
+msgstr "R und das Fenstersystem"
 
 #. type: node
 #: R-intro.texi:156
@@ -530,7 +546,7 @@ msgstr ""
 #: R-intro.texi:346
 #, no-wrap
 msgid "Using R interactively"
-msgstr ""
+msgstr "Interaktive Nutzung von R"
 
 #. type: node
 #: R-intro.texi:156
@@ -539,7 +555,7 @@ msgstr ""
 #: R-intro.texi:424
 #, no-wrap
 msgid "Getting help"
-msgstr ""
+msgstr "Hilfe finden"
 
 #. type: node
 #: R-intro.texi:156
@@ -548,7 +564,7 @@ msgstr ""
 #: R-intro.texi:473
 #, no-wrap
 msgid "R commands; case sensitivity etc"
-msgstr ""
+msgstr "R Kommandos; Groß- und Kleinschreibung etc."
 
 #. type: node
 #: R-intro.texi:156
@@ -558,7 +574,7 @@ msgstr ""
 #: R-intro.texi:494
 #, no-wrap
 msgid "Recall and correction of previous commands"
-msgstr ""
+msgstr "Abrufen und Korrektur vorhergehender Befehle"
 
 #. type: node
 #: R-intro.texi:156
@@ -568,7 +584,7 @@ msgstr ""
 #: R-intro.texi:526
 #, no-wrap
 msgid "Executing commands from or diverting output to a file"
-msgstr ""
+msgstr "Ausführen von Kommandos aus einer und Umleitung von Ausgaben in eine Datei "
 
 #. type: section
 #: R-intro.texi:156
@@ -577,7 +593,7 @@ msgstr ""
 #: R-intro.texi:527
 #, no-wrap
 msgid "Data permanency and removing objects"
-msgstr ""
+msgstr "Datenpermanenz und das Entfernen von Objekten"
 
 #. type: Plain text
 #: R-intro.texi:164
