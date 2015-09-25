@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-08-21 08:01-0600\n"
-"PO-Revision-Date: 2015-09-24 12:06+0200\n"
+"PO-Revision-Date: 2015-09-25 10:20+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language: de\n"
@@ -599,31 +599,42 @@ msgstr "Datenpermanenz und das Entfernen von Objekten"
 #: R-intro.texi:164
 msgid "@R{} is an integrated suite of software facilities for data manipulation, calculation and graphical display.  Among other things it has"
 msgstr ""
+"@R{} ist eine integrierte Software-Suite zur Datenmanipulation, für\n"
+"Berechnungen und Grafiken. Unter anderem beinhaltet @R{}"
 
 #. type: itemize
 #: R-intro.texi:168
 msgid "an effective data handling and storage facility,"
-msgstr ""
+msgstr "effektive Datenhandhabungs- und Speichermöglichkeiten,"
 
 #. type: itemize
 #: R-intro.texi:170
 msgid "a suite of operators for calculations on arrays, in particular matrices,"
 msgstr ""
+"eine Reihe von Operatoren für Berechnungen auf Datenfeldern,\n"
+"insbesondere Matrizen,"
 
 #. type: itemize
 #: R-intro.texi:173
 msgid "a large, coherent, integrated collection of intermediate tools for data analysis,"
-msgstr ""
+msgstr "eine große, kohärente und integrierte Sammlung von Werkzeugen für die Datenanalyse,"
 
 #. type: itemize
 #: R-intro.texi:176
 msgid "graphical facilities for data analysis and display either directly at the computer or on hardcopy, and"
 msgstr ""
+"grafische Werkzeuge zur Datenanalyse und zur Anzeige entweder direkt\n"
+"auf dem Bildschirm oder auf Papier und"
 
 #. type: itemize
 #: R-intro.texi:181
 msgid "a well developed, simple and effective programming language (called `S')  which includes conditionals, loops, user defined recursive functions and input and output facilities.  (Indeed most of the system supplied functions are themselves written in the @Sl{} language.)"
 msgstr ""
+"eine weit entwicklete, einfache, aber sehr effektive\n"
+"Programmiersprache (namens `S'), die ihrerseits Verzweigungen,\n"
+"Schleifen und Nutzerdefinierte rekursive Funktionen bereitstellt,\n"
+"sowie Funktionen für die Ein- und Ausgabe.  (Tatsächlich sind die\n"
+"meisten mitgelieferten Systemfunktionen selbst in æSl{} geschrieben.)"
 
 #. type: Plain text
 #: R-intro.texi:187
