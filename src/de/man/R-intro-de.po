@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: translateR 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-08-21 08:01-0600\n"
-"PO-Revision-Date: 2015-09-25 10:20+0200\n"
+"PO-Revision-Date: 2015-09-25 14:18+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language: de\n"
@@ -640,6 +640,10 @@ msgstr ""
 #: R-intro.texi:187
 msgid "The term ``environment'' is intended to characterize it as a fully planned and coherent system, rather than an incremental accretion of very specific and inflexible tools, as is frequently the case with other data analysis software."
 msgstr ""
+"Der Begriff ``Umgebung'' wird gewählt, um ein vollständig geplantes\n"
+"und kohärentes System zu charakterisieren, als Gegenentwurf einer\n"
+"inkrementellen Ansammlung sehr spezifischer und unflexibler Tools, wie\n"
+"man sie oft bei Datenanalysesoftware findet.  "
 
 #. type: Plain text
 #: R-intro.texi:193
