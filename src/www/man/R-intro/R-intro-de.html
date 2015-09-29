@@ -4,7 +4,6 @@
 
 Copyright (C) 1990 W. N. Venables
  Copyright (C) 1992
-
 W. N. Venables & D. M. Smith
  Copyright (C) 1997 R.
 Gentleman & R. Ihaka
@@ -180,17 +179,17 @@ http://cran.r-project.org/doc/manuals/R-intro.pdf)
   <li><a name="toc-Vorwort-1" href="#Vorwort">Vorwort</a></li>
   <li><a name="toc-Einfuhrung-und-vorbereitende-Bemerkungen" href="#Einf_00fchrung-und-vorbereitende-Bemerkungen">1 Einführung und vorbereitende Bemerkungen</a>
   <ul class="no-bullet">
-    <li><a name="toc-The-R-environment-1" href="#The-R-environment">1.1 The R environment</a></li>
-    <li><a name="toc-Related-software-and-documentation-1" href="#Related-software-and-documentation">1.2 Related software and documentation</a></li>
-    <li><a name="toc-R-and-statistics-1" href="#R-and-statistics">1.3 R and statistics</a></li>
-    <li><a name="toc-R-and-the-window-system-1" href="#R-and-the-window-system">1.4 R and the window system</a></li>
-    <li><a name="toc-Using-R-interactively-1" href="#Using-R-interactively">1.5 Using R interactively</a></li>
+    <li><a name="toc-Die-R-Umgebung-1" href="#Die-R-Umgebung">1.1 Die R Umgebung</a></li>
+    <li><a name="toc-Software-im-Umfeld-und-Dokumentation-1" href="#Software-im-Umfeld-und-Dokumentation">1.2 Software im Umfeld und Dokumentation</a></li>
+    <li><a name="toc-R-und-Statistik-1" href="#R-und-Statistik">1.3 R und Statistik</a></li>
+    <li><a name="toc-R-und-das-Fenstersystem-1" href="#R-und-das-Fenstersystem">1.4 R und das Fenstersystem</a></li>
+    <li><a name="toc-Interaktive-Nutzung-von-R-1" href="#Interaktive-Nutzung-von-R">1.5 Interaktive Nutzung von R</a></li>
     <li><a name="toc-An-introductory-session" href="#An-introductory-session">1.6 An introductory session</a></li>
-    <li><a name="toc-Getting-help-with-functions-and-features" href="#Getting-help">1.7 Getting help with functions and features</a></li>
-    <li><a name="toc-R-commands_002c-case-sensitivity_002c-etc_002e" href="#R-commands_003b-case-sensitivity-etc">1.8 R commands, case sensitivity, etc.</a></li>
-    <li><a name="toc-Recall-and-correction-of-previous-commands-1" href="#Recall-and-correction-of-previous-commands">1.9 Recall and correction of previous commands</a></li>
-    <li><a name="toc-Executing-commands-from-or-diverting-output-to-a-file-1" href="#Executing-commands-from-or-diverting-output-to-a-file">1.10 Executing commands from or diverting output to a file</a></li>
-    <li><a name="toc-Data-permanency-and-removing-objects-1" href="#Data-permanency-and-removing-objects">1.11 Data permanency and removing objects</a></li>
+    <li><a name="toc-Getting-help-with-functions-and-features" href="#Hilfe-finden">1.7 Getting help with functions and features</a></li>
+    <li><a name="toc-R-commands_002c-case-sensitivity_002c-etc_002e" href="#R-Kommandos_003b-Gro_00df_002d-und-Kleinschreibung-etc_002e">1.8 R commands, case sensitivity, etc.</a></li>
+    <li><a name="toc-Abrufen-und-Korrektur-vorhergehender-Befehle-1" href="#Abrufen-und-Korrektur-vorhergehender-Befehle">1.9 Abrufen und Korrektur vorhergehender Befehle</a></li>
+    <li><a name="toc-Ausfuhren-von-Kommandos-aus-einer-und-Umleitung-von-Ausgaben-in-eine-Datei" href="#Ausf_00fchren-von-Kommandos-aus-einer-und-Umleitung-von-Ausgaben-in-eine-Datei">1.10 Ausführen von Kommandos aus einer und Umleitung von Ausgaben in eine Datei</a></li>
+    <li><a name="toc-Datenpermanenz-und-das-Entfernen-von-Objekten-1" href="#Datenpermanenz-und-das-Entfernen-von-Objekten">1.11 Datenpermanenz und das Entfernen von Objekten</a></li>
   </ul></li>
   <li><a name="toc-Simple-manipulations_003b-numbers-and-vectors" href="#Einfache-Operationen-mit-Zahlen-und-Vektoren">2 Simple manipulations; numbers and vectors</a>
   <ul class="no-bullet">
@@ -397,13 +396,13 @@ http://cran.r-project.org/doc/manuals/R-intro.pdf)
 http://cran.r-project.org/doc/manuals/R-intro.pdf)
 Übersetzung durch Detlef Steuer
 </p>
-<p>This is an introduction to R (&ldquo;GNU S&rdquo;), a language and environment for
-statistical computing and graphics.  R is similar to the
-award-winning<a name="DOCF1" href="#FOOT1"><sup>1</sup></a> S system,
-which was developed at Bell Laboratories by John Chambers et al.  It
-provides a wide variety of statistical and graphical techniques (linear and
-nonlinear modelling, statistical tests, time series analysis,
-classification, clustering, ...).
+<p>Dies ist eine Einführung in R (&ldquo;GNU S&rdquo;), eine Sprache und eine
+Umgebung für statistische Berechnungen und Grafik. R ist ähnlich dem
+preisgekrönten<a name="DOCF1" href="#FOOT1"><sup>1</sup></a>
+S System, welches in den Bell Laboratories von John Chambers et
+al. entwickelt wurde. R stellt eine große Vielfalt statistischer und
+grafischer Techniken (lineare und nicht-lineare Modelle, statistische
+Tests, Zeitreihenanalyse, Klassifikation, Clusteranalye,...) zur Verfügung.
 </p>
 <p>Dieses Handbuch enthält Informationen über Datentypen,
 Programmierelemente, statistische Modellierung und Grafiken.
@@ -411,8 +410,7 @@ Programmierelemente, statistische Modellierung und Grafiken.
 <p>Dieses Handbuch ist für R, Version {No value for &lsquo;Version&rsquo;}
 </p>
 <p>Copyright &copy; 1990 W. N. Venables<br> Copyright &copy; 1992
-</p>
-<p>W. N. Venables &amp; D. M. Smith<br> Copyright &copy; 1997 R.
+W. N. Venables &amp; D. M. Smith<br> Copyright &copy; 1997 R.
 Gentleman &amp; R. Ihaka<br> Copyright &copy; 1997, 1998 M. Maechler<br>
 Copyright &copy; 1999&ndash;2014 R Core Team
 </p>
@@ -456,16 +454,18 @@ Form zu publizieren. Und für die Unterstützung von R von Anfang an.
 Sie diese per E-Mail an <a href="mailto:R-Core-@R-project.org">R-Core-@R-project.org</a>. Für die
 Übersetzung an <a href="mailto:steuer@hsu-hh.de">steuer@hsu-hh.de</a>
 </p>
-<a name="Suggestions-to-the-reader"></a>
-<h4 class="subheading">Suggestions to the reader</h4>
+<a name="Vorschlage-fur-den-Leser"></a>
+<h4 class="subheading">Vorschläge für den Leser</h4>
 
-<p>Most R novices will start with the introductory session in Appendix A.
-This should give some familiarity with the style of R sessions and more
-importantly some instant feedback on what actually happens.
+<p>Die meisten R Anfänger sollten mit der Einführungssitzung in Anhang
+A beginnen. Diese soll ein Wenig mit dem Stil von R Sitzungen
+vertraut machen und, -wichtiger-, unmittelbares Feedback geben, wie
+eine Sitzung abläuft.
 </p>
-<p>Many users will come to R mainly for its graphical facilities.
-See &lsquo;Graphics&rsquo;, which can be read at almost any time and need not wait
-until all the preceding sections have been digested.
+<p>Viele Nutzer beginnen mit R hauptsächlich wegen seiner grafischen
+Fähigkeiten. See &lsquo;Grafics&rsquo;, welches man beinah zu jedem Zeitpunkt
+lesen kann und mit dem man nicht warten muss, bis alle vorhergehenden
+Kapitel ausreichend verdaut sind.
 </p>
 
 <hr>
@@ -475,30 +475,32 @@ until all the preceding sections have been digested.
 
 
 <hr>
-<a name="The-R-environment"></a>
-<a name="The-R-environment-1"></a>
-<h3 class="section">1.1 The R environment</h3>
+<a name="Die-R-Umgebung"></a>
+<a name="Die-R-Umgebung-1"></a>
+<h3 class="section">1.1 Die R Umgebung</h3>
 
-<p>R is an integrated suite of software facilities for data manipulation,
-calculation and graphical display.  Among other things it has
+<p>R ist eine integrierte Software-Suite zur Datenmanipulation, für
+Berechnungen und Grafiken. Unter anderem beinhaltet R
 </p>
 <ul>
-<li> an effective data handling and storage facility,
-</li><li> a suite of operators for calculations on arrays, in particular matrices,
-</li><li> a large, coherent, integrated collection of intermediate tools for data
-analysis,
-</li><li> graphical facilities for data analysis and display either directly at the
-computer or on hardcopy, and
-</li><li> a well developed, simple and effective programming language (called &lsquo;S&rsquo;)
-which includes conditionals, loops, user defined recursive functions and
-input and output facilities.  (Indeed most of the system supplied functions
-are themselves written in the S language.)
+<li> effektive Datenhandhabungs- und Speichermöglichkeiten,
+</li><li> eine Reihe von Operatoren für Berechnungen auf Datenfeldern,
+insbesondere Matrizen,
+</li><li> eine große, kohärente und integrierte Sammlung von Werkzeugen für die
+Datenanalyse,
+</li><li> grafische Werkzeuge zur Datenanalyse und zur Anzeige entweder direkt
+auf dem Bildschirm oder auf Papier und
+</li><li> eine weit entwicklete, einfache, aber sehr effektive
+Programmiersprache (namens &lsquo;S&rsquo;), die ihrerseits Verzweigungen,
+Schleifen und Nutzerdefinierte rekursive Funktionen bereitstellt,
+sowie Funktionen für die Ein- und Ausgabe.  (Tatsächlich sind die
+meisten mitgelieferten Systemfunktionen selbst in æSl geschrieben.)
 </li></ul>
 
-<p>The term &ldquo;environment&rdquo; is intended to characterize it as a fully planned
-and coherent system, rather than an incremental accretion of very specific
-and inflexible tools, as is frequently the case with other data analysis
-software.
+<p>Der Begriff &ldquo;Umgebung&rdquo; wird gewählt, um ein vollständig geplantes
+und kohärentes System zu charakterisieren, als Gegenentwurf einer
+inkrementellen Ansammlung sehr spezifischer und unflexibler Tools, wie
+man sie oft bei Datenanalysesoftware findet.  
 </p>
 <p>R is very much a vehicle for newly developing methods of interactive data
 analysis.  It has developed rapidly, and has been extended by a large
@@ -506,9 +508,9 @@ collection of <em>packages</em>.  However, most programs written in R are
 essentially ephemeral, written for a single piece of data analysis.
 </p>
 <hr>
-<a name="Related-software-and-documentation"></a>
-<a name="Related-software-and-documentation-1"></a>
-<h3 class="section">1.2 Related software and documentation</h3>
+<a name="Software-im-Umfeld-und-Dokumentation"></a>
+<a name="Software-im-Umfeld-und-Dokumentation-1"></a>
+<h3 class="section">1.2 Software im Umfeld und Dokumentation</h3>
 
 <p>R can be regarded as an implementation of the S language which was
 developed at Bell Laboratories by Rick Becker, John Chambers and Allan
@@ -531,9 +533,9 @@ in mind.  See <a href="R-FAQ.html#What-documentation-exists-for-R_003f">What doc
 statistical system FAQ</cite>.
 </p>
 <hr>
-<a name="R-and-statistics"></a>
-<a name="R-and-statistics-1"></a>
-<h3 class="section">1.3 R and statistics</h3>
+<a name="R-und-Statistik"></a>
+<a name="R-und-Statistik-1"></a>
+<h3 class="section">1.3 R und Statistik</h3>
 <a name="index-Pakete"></a>
 
 <p>Our introduction to the R environment did not mention <em>statistics</em>,
@@ -559,9 +561,9 @@ and store the results in a fit object for subsequent interrogation by
 further R functions.
 </p>
 <hr>
-<a name="R-and-the-window-system"></a>
-<a name="R-and-the-window-system-1"></a>
-<h3 class="section">1.4 R and the window system</h3>
+<a name="R-und-das-Fenstersystem"></a>
+<a name="R-und-das-Fenstersystem-1"></a>
+<h3 class="section">1.4 R und das Fenstersystem</h3>
 
 <p>The most convenient way to use R is at a graphics workstation running a
 windowing system.  This guide is aimed at users who have this facility.  In
@@ -580,9 +582,9 @@ of R is a straightforward if somewhat tedious procedure, and will not be
 considered further here.  Users in difficulty should seek local expert help.
 </p>
 <hr>
-<a name="Using-R-interactively"></a>
-<a name="Using-R-interactively-1"></a>
-<h3 class="section">1.5 Using R interactively</h3>
+<a name="Interaktive-Nutzung-von-R"></a>
+<a name="Interaktive-Nutzung-von-R-1"></a>
+<h3 class="section">1.5 Interaktive Nutzung von R</h3>
 
 <p>When you use the R program it issues a prompt when it expects input
 commands.  The default prompt is &lsquo;<samp><code>&gt;</code></samp>&rsquo;, which on UNIX might be the
@@ -654,7 +656,7 @@ strongly advised to work through the introductory session given in &lsquo;A
 sample session&rsquo;.
 </p>
 <hr>
-<a name="Getting-help"></a>
+<a name="Hilfe-finden"></a>
 <a name="Getting-help-with-functions-and-features"></a>
 <h3 class="section">1.7 Getting help with functions and features</h3>
 <a name="index-help"></a>
@@ -730,7 +732,7 @@ for help in various ways. For example,
 <p>for further details.
 </p>
 <hr>
-<a name="R-commands_003b-case-sensitivity-etc"></a>
+<a name="R-Kommandos_003b-Gro_00df_002d-und-Kleinschreibung-etc_002e"></a>
 <a name="R-commands_002c-case-sensitivity_002c-etc_002e"></a>
 <h3 class="section">1.8 R commands, case sensitivity, etc.</h3>
 
@@ -773,9 +775,9 @@ indenting.
 <p>Command lines entered at the console are limited<a name="DOCF4" href="#FOOT4"><sup>4</sup></a> to about 4095 bytes (not characters).
 </p>
 <hr>
-<a name="Recall-and-correction-of-previous-commands"></a>
-<a name="Recall-and-correction-of-previous-commands-1"></a>
-<h3 class="section">1.9 Recall and correction of previous commands</h3>
+<a name="Abrufen-und-Korrektur-vorhergehender-Befehle"></a>
+<a name="Abrufen-und-Korrektur-vorhergehender-Befehle-1"></a>
+<h3 class="section">1.9 Abrufen und Korrektur vorhergehender Befehle</h3>
 
 <p>Under many versions of UNIX and on Windows, R provides a mechanism for
 recalling and re-executing previous commands.  The vertical arrow keys on
@@ -795,9 +797,9 @@ interactively with R.  See <a href="R-FAQ.html#R-and-Emacs">R and Emacs</a> in <
 system FAQ</cite>.
 </p>
 <hr>
-<a name="Executing-commands-from-or-diverting-output-to-a-file"></a>
-<a name="Executing-commands-from-or-diverting-output-to-a-file-1"></a>
-<h3 class="section">1.10 Executing commands from or diverting output to a file</h3>
+<a name="Ausf_00fchren-von-Kommandos-aus-einer-und-Umleitung-von-Ausgaben-in-eine-Datei"></a>
+<a name="Ausfuhren-von-Kommandos-aus-einer-und-Umleitung-von-Ausgaben-in-eine-Datei"></a>
+<h3 class="section">1.10 Ausführen von Kommandos aus einer und Umleitung von Ausgaben in eine Datei</h3>
 <a name="index-Diverting-input-and-output"></a>
 
 <p>If commands<a name="DOCF5" href="#FOOT5"><sup>5</sup></a> are stored in an external file,
@@ -827,9 +829,9 @@ The function <code>sink</code>,
 <p>restores it to the console once again.
 </p>
 <hr>
-<a name="Data-permanency-and-removing-objects"></a>
-<a name="Data-permanency-and-removing-objects-1"></a>
-<h3 class="section">1.11 Data permanency and removing objects</h3>
+<a name="Datenpermanenz-und-das-Entfernen-von-Objekten"></a>
+<a name="Datenpermanenz-und-das-Entfernen-von-Objekten-1"></a>
+<h3 class="section">1.11 Datenpermanenz und das Entfernen von Objekten</h3>
 
 <p>The entities that R creates and manipulates are known as <em>objects</em>.
 These may be variables, arrays of numbers, character strings, functions, or
@@ -7829,8 +7831,8 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-_003e_003d"><code>&gt;=</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Logical-vectors">Logical vectors</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-13">?</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-_003f"><code>?</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-_003f_003f"><code>??</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_003f"><code>?</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Hilfe-finden">Hilfe finden</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-_003f_003f"><code>??</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Hilfe-finden">Hilfe finden</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_symbol-14">^</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-_005e"><code>^</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
@@ -7907,7 +7909,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-eigen"><code>eigen</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Eigenvalues-and-eigenvectors">Eigenvalues and eigenvectors</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-else"><code>else</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Conditional-execution">Conditional execution</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Error"><code>Error</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Analysis-of-variance-and-model-comparison">Analysis of variance and model comparison</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-example"><code>example</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-example"><code>example</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Hilfe-finden">Hilfe finden</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-exp"><code>exp</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-F">F</a></th><td></td><td></td></tr>
@@ -7925,10 +7927,10 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-glm"><code>glm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-glm_0028_0029-function">The glm() function</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-H">H</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-help"><code>help</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-help-1"><code>help</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-help_002esearch"><code>help.search</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-help_002estart"><code>help.start</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Getting-help">Getting help</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-help"><code>help</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Hilfe-finden">Hilfe finden</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-help-1"><code>help</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Hilfe-finden">Hilfe finden</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-help_002esearch"><code>help.search</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Hilfe-finden">Hilfe finden</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-help_002estart"><code>help.start</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Hilfe-finden">Hilfe finden</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-hist"><code>hist</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-hist-1"><code>hist</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Display-graphics">Display graphics</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
@@ -8026,7 +8028,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-resid"><code>resid</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generic-functions-for-extracting-model-information">Generic functions for extracting model information</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-residuals"><code>residuals</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generic-functions-for-extracting-model-information">Generic functions for extracting model information</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-rlm"><code>rlm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-rm"><code>rm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Data-permanency-and-removing-objects">Data permanency and removing objects</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-rm"><code>rm</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Datenpermanenz-und-das-Entfernen-von-Objekten">Datenpermanenz und das Entfernen von Objekten</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-f_00fcr-Funktionen-und-Variablen_vr_letter-S">S</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-scan"><code>scan</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-scan_0028_0029-function">The scan() function</a></td></tr>
@@ -8035,10 +8037,10 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-seq"><code>seq</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generating-regular-sequences">Generating regular sequences</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-shapiro_002etest"><code>shapiro.test</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-sin"><code>sin</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-sink"><code>sink</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Executing-commands-from-or-diverting-output-to-a-file">Executing commands from or diverting output to a file</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-sink"><code>sink</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Ausf_00fchren-von-Kommandos-aus-einer-und-Umleitung-von-Ausgaben-in-eine-Datei">Ausführen von Kommandos aus einer und Umleitung von Ausgaben in eine Datei</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-solve"><code>solve</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Linear-equations-and-inversion">Linear equations and inversion</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-sort"><code>sort</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-source"><code>source</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Executing-commands-from-or-diverting-output-to-a-file">Executing commands from or diverting output to a file</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-source"><code>source</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Ausf_00fchren-von-Kommandos-aus-einer-und-Umleitung-von-Ausgaben-in-eine-Datei">Ausführen von Kommandos aus einer und Umleitung von Ausgaben in eine Datei</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-split"><code>split</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Repetitive-execution">Repetitive execution</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-sqrt"><code>sqrt</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-stem"><code>stem</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
@@ -8244,7 +8246,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-Default-values">Default values</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Named-arguments-and-defaults">Named arguments and defaults</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Density-estimation">Density estimation</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Examining-the-distribution-of-a-set-of-data">Examining the distribution of a set of data</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Determinants">Determinants</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Singular-value-decomposition-and-determinants">Singular value decomposition and determinants</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Diverting-input-and-output">Diverting input and output</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Executing-commands-from-or-diverting-output-to-a-file">Executing commands from or diverting output to a file</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Diverting-input-and-output">Diverting input and output</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Ausf_00fchren-von-Kommandos-aus-einer-und-Umleitung-von-Ausgaben-in-eine-Datei">Ausführen von Kommandos aus einer und Umleitung von Ausgaben in eine Datei</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Dynamic-graphics">Dynamic graphics</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Dynamic-graphics">Dynamic graphics</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-der-Konzepte_cp_letter-E">E</a></th><td></td><td></td></tr>
@@ -8301,7 +8303,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-Outer-products-of-arrays">Outer products of arrays</a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-outer-product-of-two-arrays">The outer product of two arrays</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-der-Konzepte_cp_letter-P">P</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Pakete">Pakete</a>:</td><td>&nbsp;</td><td valign="top"><a href="#R-and-statistics">R and statistics</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Pakete">Pakete</a>:</td><td>&nbsp;</td><td valign="top"><a href="#R-und-Statistik">R und Statistik</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Pakete-1">Pakete</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Pakete">Pakete</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-der-Konzepte_cp_letter-Q">Q</a></th><td></td><td></td></tr>
@@ -8312,7 +8314,7 @@ $endif
 <tr><td></td><td valign="top"><a href="#index-Recycling-rule">Recycling rule</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Vector-arithmetic">Vector arithmetic</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Recycling-rule-1">Recycling rule</a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-recycling-rule">The recycling rule</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Regular-sequences">Regular sequences</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Generating-regular-sequences">Generating regular sequences</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Removing-objects">Removing objects</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Data-permanency-and-removing-objects">Data permanency and removing objects</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Removing-objects">Removing objects</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Datenpermanenz-und-das-Entfernen-von-Objekten">Datenpermanenz und das Entfernen von Objekten</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Robust-regression">Robust regression</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Some-non_002dstandard-models">Some non-standard models</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-der-Konzepte_cp_letter-S">S</a></th><td></td><td></td></tr>
@@ -8337,7 +8339,7 @@ $endif
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Index-der-Konzepte_cp_letter-W">W</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Wilcoxon-test">Wilcoxon test</a>:</td><td>&nbsp;</td><td valign="top"><a href="#One_002d-and-two_002dsample-tests">One- and two-sample tests</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-Workspace">Workspace</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Data-permanency-and-removing-objects">Data permanency and removing objects</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-Workspace">Workspace</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Datenpermanenz-und-das-Entfernen-von-Objekten">Datenpermanenz und das Entfernen von Objekten</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-Writing-functions">Writing functions</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Schreiben-eigener-Funktionen">Schreiben eigener Funktionen</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 </table>
@@ -8423,8 +8425,8 @@ Second edition.  Duxbury Press, Belmont, CA.
 <h4 class="footnotes-heading">Footnotes</h4>
 
 <h3><a name="FOOT1" href="#DOCF1">(1)</a></h3>
-<p>ACM Software Systems award, 1998:
-<a href="https://awards.acm.org/award_winners/chambers_6640862.cfm">https://awards.acm.org/award_winners/chambers_6640862.cfm</a>.</p>
+<p>ACM Software Systems award,
+1998:<a href="https://awards.acm.org/award_winners/chambers_6640862.cfm">https://awards.acm.org/award_winners/chambers_6640862.cfm</a>.</p>
 <h3><a name="FOOT2" href="#DOCF2">(2)</a></h3>
 <p>For portable R code (including that to be used in R
 packages) only A&ndash;Za&ndash;z0&ndash;9 should be used.</p>
