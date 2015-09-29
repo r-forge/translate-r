@@ -2,14 +2,15 @@
 # Copyright (C) 2005 The R Foundation
 # This file is distributed under the same license as the PACKAGE package.
 # 陈斐 <feic@normipaiva.com>, 2006.
+# 邓小冬 Xiaodong DENG <xd_deng@hotmail.com>, 2015
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: R 2.15.0\n"
+"Project-Id-Version:R 3.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2014-09-21 07:12\n"
 "PO-Revision-Date: 2012-02-29 14:00+0000\n"
-"Last-Translator: Fei Chen <feic@normipaiva.com>\n"
+"Last-Translator: 邓小冬 Xiaodong DENG <xd_deng@hotmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,28 +19,28 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=0;\n"
 
 msgid "invalid value of 'seed'"
-msgstr "'seed'的值不对"
+msgstr "'seed'的值无效"
 
 msgid "need at least one argument"
 msgstr "至少需要一个参数"
 
 msgid "zero-length inputs cannot be mixed with those of non-zero length"
-msgstr "非零长度的输入和长度为零的输入不能同时混用"
+msgstr "非零长度的输入值和长度为零的输入值不能混合使用"
 
 msgid "dim(X) must have a positive length"
-msgstr "dim(X)的长度必需是正数"
+msgstr "dim(X)的长度须为正数"
 
 msgid "'X' must have named dimnames"
-msgstr "'X'必需有名字的dimnames"
+msgstr "'X'须有被命名的dimnames"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
-msgstr "'MARGIN'所有的元素都必需是尺寸的名字"
+msgstr "'MARGIN'所有的元素都须是维度的名字"
 
 msgid "no cluster 'cl' supplied and none is registered"
-msgstr "没有提供'cl'集群也没有注册"
+msgstr "无名为'cl'的集群可使用，也无相应集群被注册"
 
 msgid "not a valid cluster"
-msgstr "群集不对"
+msgstr "该集群无效"
 
 msgid "unknown cluster type"
 msgstr "未知的集群类型"
@@ -52,46 +53,46 @@ msgid "node of a socket cluster on host %s with pid %d"
 msgstr "pid是%2$d的在主机%1$s上插座集群的节点"
 
 msgid "PORT must be specified"
-msgstr ""
+msgstr "须指定PORT"
 
 msgid "'nnodes' must be >= 1"
-msgstr "'nnodes'必需>=1"
+msgstr "'nnodes'必须>=1"
 
 msgid "invalid 'child' argument"
-msgstr "'child'参数不对"
+msgstr "'child'参数无效"
 
 msgid "'children' must be a list of processes or a single process"
-msgstr "'children'要么是进程列表，要么是一个单一的进程"
+msgstr "'children'须为进程列表，或某单一进程"
 
 msgid "'process' must be of class %s"
-msgstr "'process'的类别必需是%s"
+msgstr "'process'的类别须为%s"
 
 msgid "'child' must be a valid child process"
-msgstr "'child'必须是有效的子进程"
+msgstr "'child'须为有效的子进程"
 
 msgid "'what' must be a character or raw vector"
 msgstr "'what'必须是一个字符或原始向量"
 
 msgid "'mc.cores' must be >= 1"
-msgstr "'mc.cores'必需>=1"
+msgstr "'mc.cores'必须>=1"
 
 msgid "%d function calls resulted in an error"
 msgstr "%d个函数调用导致错误"
 
 msgid "all scheduled cores encountered errors in user code"
-msgstr "用户代码中所有预定的核心都出了错"
+msgstr "用户代码中所有预定的核均出现错误"
 
 msgid "Zero-length inputs cannot be mixed with those of non-zero length"
-msgstr "非零长度的输入和长度为零的输入不能同时混用"
+msgstr "非零长度的输入和长度为零的输入不能混合使用"
 
 msgid "invalid 'jobs' argument"
-msgstr "'jobs'参数不对"
+msgstr "'jobs'参数无效"
 
 msgid "'v' must be a vector"
-msgstr "'v'必须是一个向量"
+msgstr "'v'须为一个向量"
 
 msgid "some results may be missing, folded or caused an error"
-msgstr "有些结果可能没有，可能被折叠，也可能出了错"
+msgstr "有些结果可能出现丢失，折叠，或已导致错误"
 
 msgid "fork clusters are not supported on Windows"
 msgstr "Windows不支持分叉集群"

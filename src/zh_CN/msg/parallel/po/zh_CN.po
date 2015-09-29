@@ -2,6 +2,7 @@
 # Copyright (C) 2012 The R Foundation
 # This file is distributed under the same license as the PACKAGE package.
 # 陈斐 <feic@normipaiva.com>, 2012.
+# 邓小冬 Xiaodong DENG <xd_deng@hotmail.com>, 2015.
 #
 msgid ""
 msgstr ""
@@ -35,7 +36,7 @@ msgstr "只有子进程才能给主进程发送数据"
 
 #: fork.c:375
 msgid "there is no pipe to the master process"
-msgstr "有没可以接到主进程的管道"
+msgstr "无可连接主进程的管道"
 
 #: fork.c:377
 msgid "content to send must be RAW, use serialize() if needed"
@@ -43,16 +44,16 @@ msgstr "发送的内容必须是原始的，如果需要的话请用serialize（
 
 #: fork.c:386 fork.c:393 fork.c:717
 msgid "write error, closing pipe to the master"
-msgstr "书写错误，请关闭通往主进程的管道"
+msgstr "书写错误，正关闭通往主进程的管道"
 
 #: fork.c:406
 msgid "only the master process can send data to a child process"
-msgstr "只有主进程才能给子进程发送数据"
+msgstr "只有主进程可向子进程发送数据"
 
 #: fork.c:413
 #, c-format
 msgid "child %d does not exist"
-msgstr "不存在%d这个子进程"
+msgstr "不存在子进程%d"
 
 #: fork.c:419
 msgid "write error"
@@ -61,7 +62,7 @@ msgstr "书写错误"
 #: fork.c:487 fork.c:611
 #, c-format
 msgid "error '%s' in select"
-msgstr "选择时出了'%s'这样一个错"
+msgstr "选择时出现错误'%s'"
 
 #: fork.c:699
 msgid "'mckill' failed"
@@ -77,12 +78,12 @@ msgstr "'mcexit'失败"
 
 #: fork.c:759 fork.c:768
 msgid "invalid CPU affinity specification"
-msgstr "CPU亲和力规范不对"
+msgstr "CPU类同度规格无效"
 
 #: fork.c:779
 msgid "requested CPU set is too large for this system"
-msgstr "所需要的CPU设置对于这个系统来说太大了"
+msgstr "所请求的CPU设置超出当前系统限制"
 
 #: fork.c:802
 msgid "retrieving CPU affinity set failed"
-msgstr "无法收取CPU亲和力"
+msgstr "无法检索CPU类同度设置"
