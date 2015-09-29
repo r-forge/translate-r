@@ -2159,10 +2159,9 @@ SHLIB_OPENMP_FFLAGS
 <p>are available for use in <samp>src/Makevars</samp> or <samp>src/Makevars.win</samp>.
 Include the appropriate macro in <code>PKG_CFLAGS</code>, <code>PKG_CPPFLAGS</code> and
 so on, and also in <code>PKG_LIBS</code>.  C/C++ code that needs to be conditioned
-on the use of OpenMP can be used inside <code>#ifdef SUPPORT_OPENMP</code>, a
-macro defined in the header <samp>Rconfig.h</samp> (see <a href="#Platform-and-version-information">Platform and version information</a>) or <code>_OPENMP</code>: note that some toolchains used for R
-(including most of those using <code>clang</code><a name="DOCF27" href="#FOOT27"><sup>27</sup></a>) have no OpenMP support at all, not even
-<samp>omp.h</samp>.
+on the use of OpenMP can be used inside <code>#ifdef _OPENMP</code>: note that
+some toolchains used for R (including most of those using
+<code>clang</code><a name="DOCF27" href="#FOOT27"><sup>27</sup></a>) have no OpenMP support at all, not even <samp>omp.h</samp>.
 </p>
 <p>For example, a package with C code written for OpenMP should have in
 <samp>src/Makevars</samp> the lines
@@ -2176,6 +2175,21 @@ PKG_LIBS = $(SHLIB_OPENMP_CFLAGS)
 compiler and not necessarily to the C++11 compiler: users of the latter
 should do their own <code>configure</code> checks.
 </p>
+<p>Some care is needed when compilers are from different families which may use
+different OpenMP runtimes (e.g. <code>clang</code> <em>vs</em> GCC including
+<code>gfortran</code>, although it is currently possible to use the
+<code>clang</code> runtime with GCC but not <em>vice versa</em>).  For a package
+with Fortran 77 code using OpenMP the appropriate lines are
+</p>
+<div class="example">
+<pre class="example">PKG_FFLAGS = $(SHLIB_OPENMP_FFLAGS)
+PKG_LIBS = $(SHLIB_OPENMP_CFLAGS)
+</pre></div>
+
+<p>as the C compiler will be used to link the package code (and there is no
+guarantee that this will work everywhere).
+</p>
+
 <p>There is nothing to say what version of OpenMP is supported: version 3.0
 (May 2008) is supported by recent versions of the Linux, Windows and Solaris
 platforms, but portable packages cannot assume that end users have recent
@@ -2185,9 +2199,9 @@ OpenMP support.
 <p>The performance of OpenMP varies substantially between platforms.  Both the
 Windows and earlier Apple OS X implementations have substantial overheads
 and are only beneficial if quite substantial tasks are run in parallel.
-Also, on Windows new threads are started with the default<a name="DOCF28" href="#FOOT28"><sup>28</sup></a> FPU control word, so computations done on OpenMP
-threads will not make use of extended-precision arithmetic which is the
-default for the main process.
+Also, on Windows new threads are started with the default<a name="DOCF28" href="#FOOT28"><sup>28</sup></a> FPU control word, so computations done on
+OpenMP threads will not make use of extended-precision arithmetic which is
+the default for the main process.
 </p>
 <p>Calling any of the R API from threaded code is &lsquo;for experts only&rsquo;: they
 will need to read the source code to determine if it is thread-safe.  In
@@ -2205,11 +2219,11 @@ detected number of &lsquo;CPUs&rsquo; and the assumption that the R process is
 entitled to use them all are both dubious assumptions.  The best way to
 limit resources is to limit the overall number of threads available to
 OpenMP in the R process: this can be done via environment variable
-<code>OMP_THREAD_LIMIT</code>, where implemented.<a name="DOCF29" href="#FOOT29"><sup>29</sup></a> Alternatively, the
-number of threads per region can be limited by the environment variable
-<code>OMP_NUM_THREADS</code> or API call <code>omp_set_num_threads</code>, or, better,
-for the regions in your code as part of their specification. E.g. R
-uses
+<code>OMP_THREAD_LIMIT</code>, where implemented.<a name="DOCF29" href="#FOOT29"><sup>29</sup></a>
+Alternatively, the number of threads per region can be limited by the
+environment variable <code>OMP_NUM_THREADS</code> or API call
+<code>omp_set_num_threads</code>, or, better, for the regions in your code as part
+of their specification. E.g. R uses
 </p><div class="example">
 <pre class="example">#pragma omp parallel for num_threads(nthreads) &hellip;
 </pre></div>
@@ -4122,6 +4136,13 @@ precede<a name="DOCF65" href="#FOOT65"><sup>65</sup></a> the libraries (typicall
 specified by <samp>-l</samp> options) to be found from those directories, and
 libraries are searched once in the order they are specified.  Not all
 linkers allow a space after <samp>-L</samp> .
+
+</li><li> Some people have a need to set a locale.  Locale names are not portable, and
+e.g. &lsquo;<samp>fr_FR.utf8</samp>&rsquo; is common used on Linux but not accepted on either
+Solaris or OS X.  &lsquo;<samp>fr_FR.UTF-8</samp>&rsquo; is more portable, being accepted on
+recent Linux, AIX, FreBSD, OS X and Solaris (at least).  However, some Linux
+distributions micro-package, so locales defined by <strong>glibc</strong> (including
+these examples) may not be installed.
 
 </li></ul>
 
@@ -7633,14 +7654,15 @@ like
 <pre class="example">-fsanitize=undefined -fno-sanitize=float-divide-by-zero
 </pre></div>
 
-<p>(<code>return</code> and <code>vptr</code> apply to C++).  In addition,
+<p>(<code>function</code>, <code>return</code> and <code>vptr</code> apply only to C++).  In
+addition,
 </p><div class="example">
 <pre class="example">-fsanitize=unsigned-integer-overflow
 </pre></div>
 <p>is available as a separate option in some versions of <code>clang</code> (not
 enabled by <samp>-fsanitize=undefined</samp>).
 </p>
-<p><code>clang</code> 3.5 and later need
+<p><code>clang</code> 3.5 and later may need
 </p>
 <div class="example">
 <pre class="example">-fsanitize=undefined -fno-sanitize=float-divide-by-zero,vptr
@@ -7649,11 +7671,12 @@ enabled by <samp>-fsanitize=undefined</samp>).
 <p>for C++ code (in <code>CXX</code> and <code>CXX1X</code>) as the run-time library for
 <code>vptr</code> needs to be linked into the main R executable (and that would
 need to be linked by <code>clang++</code>, not <code>clang</code>: you could try
-building R with
+building R with something like
 </p><div class="example">
 <pre class="example">MAIN_LD=&quot;clang++ -fsanitize=undefined&quot;
+R_OPENMP_CFLAGS=&quot;-fopenmp=libomp&quot;
 </pre></div>
-<p>or add <code>-lclang_rt.asan_cxx-x86_64</code><a name="DOCF95" href="#FOOT95"><sup>95</sup></a> to <code>LD_FLAGS</code> or similar).
+<p>or add <code>-lclang_rt.asan_cxx-x86_64</code><a name="DOCF95" href="#FOOT95"><sup>95</sup></a> or similar to <code>LD_FLAGS</code>).
 </p>
 <p>See <a href="https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html">https://gcc.gnu.org/onlinedocs/gcc/Debugging-Options.html</a>
 (or the manual for your version of GCC, installed or <em>via</em>
@@ -13013,10 +13036,11 @@ in R, so your code needs to define <code>HAVE_UINTPTR_T</code> appropriately.
 <p>These will be set<a name="DOCF115" href="#FOOT115"><sup>115</sup></a>
 when <code>Rf_initialize_R</code> is called, to values appropriate to the main
 thread.  Stack-checking can be disabled by setting <code>R_CStackLimit =
-(uintptr_t)-1</code>, but it is better to if possible set appropriate values.
-(What these are and how to determine them are OS-specific, and the stack
-size limit may differ for secondary threads.  If you have a choice of stack
-size, at least 10Mb is recommended.)
+(uintptr_t)-1</code> immediately after <code>Rf_initialize_R</code> is called, but it is
+better to if possible set appropriate values.  (What these are and how to
+determine them are OS-specific, and the stack size limit may differ for
+secondary threads.  If you have a choice of stack size, at least 10Mb is
+recommended.)
 </p>
 <p>You may also want to consider how signals are handled: R sets signal
 handlers for several signals, including <code>SIGINT</code>, <code>SIGSEGV</code>,
@@ -14146,16 +14170,14 @@ to a static FORTRAN library when <samp>Rblas.dll</samp> is built.</p>
 <a href="https://en.wikipedia.org/wiki/OpenMP">https://en.wikipedia.org/wiki/OpenMP</a>,
 <a href="https://computing.llnl.gov/tutorials/openMP/">https://computing.llnl.gov/tutorials/openMP/</a></p>
 <h3><a name="FOOT27" href="#DOCF27">(27)</a></h3>
-<p>Some builds of
-<code>clang</code> 3.7 have support for OpenMP 3.1. However, this needs the
-compiler/linker flag <samp>-fopenmp=libomp</samp> which is not currently added
-by <code>configure</code>.</p>
+<p>Some builds of <code>clang</code> 3.7 have support for
+OpenMP 3.1</p>
 <h3><a name="FOOT28" href="#DOCF28">(28)</a></h3>
-<p>Windows,
-not MinGW-w64 default.</p>
+<p>Windows
+default, not MinGW-w64 default.</p>
 <h3><a name="FOOT29" href="#DOCF29">(29)</a></h3>
 <p>Which it was at the time
-of writing with GCC, Solaris Studio and Intel compilers.</p>
+of writing with GCC, Solaris Studio, Intel and Clang 3.7.x compilers.</p>
 <h3><a name="FOOT30" href="#DOCF30">(30)</a></h3>
 <p>some Windows toolchains have the typo
 &lsquo;<samp>_REENTRANCE</samp>&rsquo; instead.</p>
