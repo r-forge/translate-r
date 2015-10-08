@@ -309,13 +309,13 @@ msgid "Partial match of '%s' to '%s' in data frame"
 msgstr "数据框里有非数值的参数"
 
 msgid "names do not match previous names"
-msgstr "名字同原来已有的名字不相对"
+msgstr "名字无法同原名匹配"
 
 msgid "numbers of columns of arguments do not match"
-msgstr "变量的列数不对"
+msgstr "变量的列数无法匹配"
 
 msgid "invalid list argument: all variables should have the same length"
-msgstr "串列参数有错：所有变数的长度都应该是一样的"
+msgstr "串列参数无效：所有变量的长度应一致"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 行> (或0-长度的row.names)"
@@ -337,10 +337,10 @@ msgid "character string is not in a standard unambiguous format"
 msgstr "字符串的格式不够标准明确"
 
 msgid "'origin' must be supplied"
-msgstr "'origin'一定得给值"
+msgstr "'origin'的值必须给出"
 
 msgid "do not know how to convert '%s' to class %s"
-msgstr "不知如何将'%s'转换成%s类别"
+msgstr "无法将'%s'转换成%s类别"
 
 msgid "'%s' is not a \"date\" object"
 msgstr "'%s'不是\"dates\"对象"
