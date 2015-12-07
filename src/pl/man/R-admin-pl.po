@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: translate.R 0.0.1.4\n"
 "Report-Msgid-Bugs-To: chl948@mail.usask.ca\n"
 "POT-Creation-Date: 2015-09-29 17:09-0600\n"
-"PO-Revision-Date: 2015-12-07 21:12+0100\n"
+"PO-Revision-Date: 2015-12-07 22:36+0100\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl_PL\n"
@@ -20,6 +20,7 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Bookmarks: -1,-1,45,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. type: top
 #: R-admin.texi:4 R-admin.texi:32 R-admin.texi:50
@@ -365,6 +366,13 @@ msgid ""
 "beta/release candidates of the upcoming release, the patched version of the "
 "current release being available via Subversion.)"
 msgstr ""
+"Wersja z poprawkami do bieżącego wydania, @samp{r-patched}, oraz bieżąca "
+"wersja rozwojowa, @samp{r-devel}, są dostępne jako archiwa tar "
+"przygotowywane codziennie do pobrania oraz poprzez dostęp do repozytorium "
+"SVN dla R.  (Przez dwa tygodnie poprzedzające wydanie wersji (3.x.0), "
+"@samp{r-patched} archiwa tar mogą odnosić się do wersji beta/release "
+"candidates nadchodzącego wydania, poprawionej wersji bieżącego wydania "
+"będącego dostępnym poprzez SVN.)"
 
 #. type: Plain text
 #: R-admin.texi:155
@@ -374,6 +382,11 @@ msgid ""
 "bz2} versions) and unpack as described in the previous section.  They are "
 "built in exactly the same way as distributions of R releases."
 msgstr ""
+"Archiwa tar są dostępne na stronie @uref{https://stat.ethz.ch/R/daily}.  "
+"Pobierz plik @file{R-patched.tar.gz} lub @file{R-devel.tar.gz} (lub wersję "
+"@file{.tar.bz2}) po czym rozpakuj jak napisano w poprzedniej sekcji.  Wersja "
+"z poprawkami oraz rozwojowa są budowane dokładnie w taki sam sposób jak "
+"główne dystrybucje wydań R."
 
 #. type: subsection
 #: R-admin.texi:158 R-admin.texi:160 R-admin.texi:161
@@ -497,7 +510,7 @@ msgstr ""
 #: R-admin.texi:4585 R-admin.texi:4621
 #, no-wrap
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: node
 #: R-admin.texi:244 R-admin.texi:1644 R-admin.texi:2162 R-admin.texi:4309
@@ -506,7 +519,7 @@ msgstr ""
 #: R-admin.texi:4929 R-admin.texi:4957
 #, no-wrap
 msgid "OS X"
-msgstr ""
+msgstr "OS X"
 
 #. type: Plain text
 #: R-admin.texi:249
@@ -645,6 +658,11 @@ msgid ""
 "Debian-based 64-bit systems@footnote{which use @file{lib} rather than "
 "@file{lib64} for their primary 64-bit library directories.} may need"
 msgstr ""
+"(Zobacz @ref{Używanie polecenia make} jeśli twoje polecenie make nie nazywa "
+"się @samp{make}.)  Użytkownicy systemów z rodziny Debian 64-"
+"bit@footnote{które używają @file{lib} aniżeli @file{lib64} dla swoich "
+"głównych katalogów bibliotek 64-bitowych.} mogą potrzebować wykonać poniższe "
+"polecenie"
 
 #. type: example
 #: R-admin.texi:303
@@ -659,7 +677,7 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:307
 msgid "Then check the built system works correctly by"
-msgstr ""
+msgstr "Po czym sprawdzić, że kompilacja działa poprawnie poprzez wywołanie"
 
 #. type: example
 #: R-admin.texi:310 R-admin.texi:1374
@@ -681,7 +699,7 @@ msgstr ""
 #. type: Plain text
 #: R-admin.texi:322
 msgid "More comprehensive testing can be done by"
-msgstr ""
+msgstr "Bardziej dokładne testy mogą być wykonane poprzez polecenie"
 
 #. type: example
 #: R-admin.texi:325 R-admin.texi:1388
